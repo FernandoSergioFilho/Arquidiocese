@@ -1,153 +1,197 @@
 <title>Mapa das Paróquias da Ilha</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..100,500..800&family=Inter:wght@400;500;600&display=swap">
 <style>
 /*@@LEAFLET_CSS@@*/
-/* Layout: mapa ocupando a tela, como numa apuração; painel lateral no desktop, gaveta embaixo no celular */
+/* Layout: o mapa ocupa a tela inteira; barra, painel e controles flutuam sobre ele.
+   Desktop: painel-cartão à esquerda. Celular: folha que sobe de baixo (recolhida / meia / cheia). */
 :root{
-  --water:#cfe0e8; --land:#eef0ec; --land-line:#c9cdc6; --bg:#f6f7f5; --panel:#ffffff;
-  --fg:#17201f; --muted:#5d6966; --rule:#dfe3df; --accent:#1d5f8a;
-  --ok:#2f7d4f; --warn:#a86a12; --chip:#eef2f0;
-  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --water:#cfe1ec; --land:#eef1f2; --land-line:#c6ced3;
+  --bg:#eef2f5; --panel:#ffffff; --panel-2:#f4f7f9;
+  --ink:#10253b; --fg:#13202c; --muted:#5b6b78; --rule:#dde4ea;
+  --accent:#1f5fae; --accent-ink:#ffffff; --gold:#b38a2e;
+  --ok:#2c7a4b; --warn:#a4660f; --chip:#eef3f7; --label-halo:#ffffff;
+  --shadow:0 1px 2px rgb(16 37 59/.08),0 8px 28px rgb(16 37 59/.14);
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
   --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --label-halo:#ffffff;
+  --r:14px;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --water:#0f1d24; --land:#1f2826; --land-line:#33403d; --bg:#121918; --panel:#18211f;
-  --fg:#e9eeec; --muted:#9aa8a4; --rule:#2c3835; --accent:#7cb8de;
-  --ok:#6fc28f; --warn:#e0a54a; --chip:#22302d; --label-halo:#0f1715; color-scheme:dark}}
+  --water:#0c1824; --land:#1a2531; --land-line:#2d3b48;
+  --bg:#0a121b; --panel:#121d29; --panel-2:#172431;
+  --ink:#e8eef4; --fg:#e6edf3; --muted:#93a3b2; --rule:#24323f;
+  --accent:#7fb3ee; --accent-ink:#0b1724; --gold:#d9b25a;
+  --ok:#6cc495; --warn:#e5a957; --chip:#1b2937; --label-halo:#0c1824;
+  --shadow:0 1px 2px rgb(0 0 0/.3),0 10px 30px rgb(0 0 0/.45); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --water:#0f1d24; --land:#1f2826; --land-line:#33403d; --bg:#121918; --panel:#18211f;
-  --fg:#e9eeec; --muted:#9aa8a4; --rule:#2c3835; --accent:#7cb8de;
-  --ok:#6fc28f; --warn:#e0a54a; --chip:#22302d; --label-halo:#0f1715; color-scheme:dark}
+  --water:#0c1824; --land:#1a2531; --land-line:#2d3b48;
+  --bg:#0a121b; --panel:#121d29; --panel-2:#172431;
+  --ink:#e8eef4; --fg:#e6edf3; --muted:#93a3b2; --rule:#24323f;
+  --accent:#7fb3ee; --accent-ink:#0b1724; --gold:#d9b25a;
+  --ok:#6cc495; --warn:#e5a957; --chip:#1b2937; --label-halo:#0c1824;
+  --shadow:0 1px 2px rgb(0 0 0/.3),0 10px 30px rgb(0 0 0/.45); color-scheme:dark}
 html,body{height:100%}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;overflow:hidden}
-.app{height:100%;display:grid;grid-template-columns:minmax(0,1fr) 380px;grid-template-rows:auto minmax(0,1fr)}
-header{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;
-  padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
-  border-bottom:1px solid var(--rule);background:var(--panel)}
-.brand{display:flex;flex-direction:column;min-width:0}
-.brand small{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.brand h1{margin:0;font-family:var(--display);font-weight:700;font-size:26px;line-height:1;letter-spacing:.01em;text-wrap:balance}
-.controls{display:flex;gap:8px;align-items:center;margin-left:auto;flex-wrap:wrap}
-.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.seg button{font:600 13px var(--body);padding:7px 12px;border:0;background:transparent;color:var(--muted);cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--fg);color:var(--panel)}
+body{background:var(--water);color:var(--fg);font-family:var(--body);font-size:14px;overflow:hidden}
+.app{position:relative;height:100%}
+#map{position:absolute;inset:0;background:var(--water)}
+.leaflet-container{background:var(--water);font-family:var(--body)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Barra superior flutuante */
+.topbar{position:absolute;z-index:900;top:12px;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));
+  display:flex;gap:10px;align-items:center;pointer-events:none}
+.topbar > *{pointer-events:auto}
+.brand{display:flex;align-items:center;gap:10px;background:var(--ink);color:var(--panel);border-radius:var(--r);padding:8px 14px 8px 10px;box-shadow:var(--shadow);min-width:0}
+.brand svg{flex:none}
+.brand .t{display:flex;flex-direction:column;min-width:0}
+.brand small{font:600 10px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;opacity:.72;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand h1{margin:0;font:800 21px/1.05 var(--display);font-stretch:72%;letter-spacing:.005em;white-space:nowrap}
+.tools{display:flex;gap:8px;align-items:center;margin-left:auto}
+.seg{display:inline-flex;padding:3px;gap:2px;background:var(--panel);border-radius:12px;box-shadow:var(--shadow)}
+.seg button{font:600 13px var(--body);padding:7px 12px;border:0;border-radius:9px;background:transparent;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--panel)}
 .search{position:relative}
-.search input{font:14px var(--body);padding:7px 10px;width:200px;border:1px solid var(--rule);border-radius:8px;background:var(--bg);color:var(--fg)}
-.search ul{position:absolute;z-index:1000;top:calc(100% + 4px);left:0;right:0;margin:0;padding:4px;list-style:none;background:var(--panel);border:1px solid var(--rule);border-radius:8px;max-height:260px;overflow:auto;box-shadow:0 8px 24px rgb(0 0 0/.15)}
-.search li button{all:unset;display:block;width:100%;box-sizing:border-box;padding:6px 8px;border-radius:6px;cursor:pointer}
+.search input{font:14px var(--body);padding:10px 12px 10px 34px;width:250px;border:0;border-radius:12px;background:var(--panel);color:var(--fg);box-shadow:var(--shadow)}
+.search::before{content:"";position:absolute;left:12px;top:50%;width:13px;height:13px;margin-top:-8px;border:2px solid var(--muted);border-radius:50%}
+.search::after{content:"";position:absolute;left:24px;top:50%;width:6px;height:2px;margin-top:4px;background:var(--muted);transform:rotate(45deg)}
+.search ul{position:absolute;z-index:1000;top:calc(100% + 6px);left:0;right:0;min-width:280px;margin:0;padding:6px;list-style:none;background:var(--panel);border-radius:12px;max-height:320px;overflow:auto;box-shadow:var(--shadow)}
+.search li button{all:unset;display:block;width:100%;box-sizing:border-box;padding:8px 10px;border-radius:8px;cursor:pointer}
 .search li button:hover,.search li button:focus-visible{background:var(--chip)}
 .search li small{color:var(--muted)}
-button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-#map{background:var(--water);min-height:0}
-.leaflet-container{background:var(--water);font-family:var(--body)}
-.leaflet-control-zoom a{background:var(--panel)!important;color:var(--fg)!important;border-color:var(--rule)!important}
+
+/* Voltar ao mapa geral */
+#voltar{position:absolute;z-index:850;display:inline-flex;align-items:center;gap:8px;font:600 14px var(--body);padding:10px 16px 10px 12px;border:0;border-radius:999px;background:var(--accent);color:var(--accent-ink);box-shadow:var(--shadow);cursor:pointer;
+  top:72px;left:calc(max(12px,env(safe-area-inset-left,0px)) + 392px)}
+#voltar svg{flex:none}
+#voltar[hidden]{display:none}
+
+/* Painel */
+aside{position:absolute;z-index:800;top:72px;bottom:12px;left:max(12px,env(safe-area-inset-left,0px));width:372px;display:flex;flex-direction:column;
+  background:var(--panel);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.handle{display:none}
+.body{overflow:auto;padding:18px 18px 22px;min-height:0;flex:1}
+.crumbs{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;font-size:12px;color:var(--muted)}
+.crumbs button{all:unset;cursor:pointer;color:var(--accent);font-weight:500}
+.crumbs button:hover{text-decoration:underline}
+.crumbs .sep{opacity:.5}
+.eyebrow{display:flex;align-items:center;gap:6px;margin-top:12px;font:600 11px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+aside h2{font:800 32px/1 var(--display);font-stretch:72%;margin:6px 0 8px;text-wrap:balance;color:var(--ink)}
+aside h3{display:flex;align-items:center;gap:8px;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:22px 0 8px}
+aside h3::after{content:"";flex:1;height:1px;background:var(--rule)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--chip)}
+.pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)}
+.pill i{width:7px;height:7px;border-radius:50%;background:currentColor}
+.sw{display:inline-block;width:12px;height:12px;border-radius:4px;flex:none}
+.list{display:flex;flex-direction:column;gap:2px;margin:0;padding:0;list-style:none}
+.list button,.list a.ext{all:unset;box-sizing:border-box;display:flex;gap:10px;align-items:center;width:100%;padding:8px 10px;border-radius:10px;cursor:pointer;color:var(--fg)}
+.list button:hover,.list button:focus-visible,.list a.ext:hover{background:var(--chip)}
+.list .meta{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.list .name{min-width:0;line-height:1.3}
+.list small{font-size:12px}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:10px 0 0;padding:12px 14px;border-radius:12px;background:var(--panel-2);font-size:13px}
+.facts dt{color:var(--muted)} .facts dd{margin:0;min-width:0}
+.note{font-size:13px;line-height:1.5;color:var(--muted);margin:10px 0 0}
+.note a{color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}
+.stats div{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-radius:12px;background:var(--panel-2)}
+.stats b{font:800 28px/1 var(--display);font-stretch:72%;font-variant-numeric:tabular-nums;color:var(--ink)}
+.stats small{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.legend-key{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}
+.legend-key span{display:inline-flex;gap:6px;align-items:center}
+.k-solid{width:16px;height:10px;border-radius:3px;background:var(--muted)}
+.k-est{width:16px;height:10px;border-radius:3px;border:1.5px dashed var(--muted);box-sizing:border-box;background:color-mix(in srgb,var(--muted) 25%,transparent)}
+.k-pin svg{width:13px;height:15px}
+
+/* Mapa: rótulos, igrejas, janelas */
+.leaflet-control-zoom{border:0!important;box-shadow:var(--shadow)!important;border-radius:12px!important;overflow:hidden}
+.leaflet-control-zoom a{background:var(--panel)!important;color:var(--fg)!important;border-color:var(--rule)!important;width:36px!important;height:36px!important;line-height:36px!important}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--panel) 80%,transparent)!important;color:var(--muted)!important;border-radius:8px 0 0 0}
+.leaflet-control-attribution a{color:var(--accent)!important}
 .lbl{background:transparent;border:0;box-shadow:none;padding:0;font:600 10.5px var(--body);color:var(--fg);
   text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo);white-space:nowrap}
 .lbl::before{display:none}
-.lbl.big{font:700 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lbl.big{font:700 13px var(--display);font-stretch:80%;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);opacity:.85}
 .hide-lbl .lbl:not(.big){display:none}
-.tip{font:13px var(--body);border-radius:8px;border:1px solid var(--rule);background:var(--panel);color:var(--fg);box-shadow:0 6px 18px rgb(0 0 0/.18);padding:8px 10px}
+.com-pinos .lbl:not(.big){display:none}
+.tip{font:13px var(--body);border-radius:10px;border:0;background:var(--panel);color:var(--fg);box-shadow:var(--shadow);padding:8px 11px}
 .tip b{display:block;font-size:14px}
 .tip::before{display:none}
-aside{border-left:1px solid var(--rule);background:var(--panel);overflow:auto;min-height:0;
-  padding-block:16px 20px;padding-left:18px;padding-right:max(18px,env(safe-area-inset-right,0px))}
-.crumbs{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--muted)}
-.crumbs button{all:unset;cursor:pointer;color:var(--accent)}
-.crumbs button:hover{text-decoration:underline}
-.crumbs span.sep{opacity:.6}
-aside h2{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.02;margin:8px 0 6px;text-wrap:balance}
-aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 8px;font-weight:600}
-.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--chip)}
-.pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)}
-.pill i{width:8px;height:8px;border-radius:50%;background:currentColor}
-.sw{display:inline-block;width:12px;height:12px;border-radius:3px;flex:none}
-.list{display:flex;flex-direction:column;gap:2px;margin:0;padding:0;list-style:none}
-.list button{all:unset;box-sizing:border-box;display:flex;gap:10px;align-items:center;width:100%;padding:7px 8px;border-radius:8px;cursor:pointer}
-.list button:hover,.list button:focus-visible{background:var(--chip)}
-.list .meta{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
-.list .name{min-width:0}
-.facts{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:8px 0 0;font-size:13px}
-.facts dt{color:var(--muted)} .facts dd{margin:0;min-width:0}
-.list a.ext{display:flex;gap:10px;align-items:center;padding:7px 8px;border-radius:8px;color:var(--fg);text-decoration:none}
-.list a.ext:hover{background:var(--chip)}
-.list button[disabled]{cursor:default}
-.list small{font-size:12px}
-.note{font-size:13px;line-height:1.5;color:var(--muted);margin:10px 0 0}
-.note a{color:var(--accent)}
-.stats{display:flex;gap:18px;margin-top:10px}
-.stats div{display:flex;flex-direction:column}
-.stats b{font-family:var(--display);font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
-.stats small{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-.legend-key{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}
-.legend-key span{display:inline-flex;gap:6px;align-items:center}
-.k-solid{width:16px;height:10px;border-radius:2px;background:var(--muted);opacity:.85}
-.k-est{width:16px;height:10px;border-radius:2px;border:1.5px dashed var(--muted);opacity:.85;box-sizing:border-box;background:color-mix(in srgb,var(--muted) 30%,transparent)}
-.handle{display:none}
 .pin{display:flex;align-items:flex-end;gap:3px;white-space:nowrap;font:600 11px var(--body);color:var(--fg);cursor:pointer;transition:opacity .2s}
 .pin svg{flex:none;filter:drop-shadow(0 1px 1.5px rgb(0 0 0/.4))}
 .pin span{padding-bottom:2px;text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo)}
 .hide-pinlbl .pin span{display:none}
 .hide-pinlbl .destaque .pin span{display:inline}
-.apagado .pin{opacity:.22}
+.apagado .pin{opacity:.2}
 .apagado .pin span{display:none}
-.sel .pin svg{transform:scale(1.35);transform-origin:bottom center}
+.sel .pin svg{transform:scale(1.4);transform-origin:bottom center}
 .ico{display:inline-flex;flex:none}
 .ico svg{width:16px;height:19px}
-.janela .leaflet-popup-content-wrapper{background:var(--panel);color:var(--fg);border-radius:12px;box-shadow:0 10px 30px rgb(0 0 0/.25)}
+.janela .leaflet-popup-content-wrapper{background:var(--panel);color:var(--fg);border-radius:var(--r);box-shadow:var(--shadow)}
 .janela .leaflet-popup-tip{background:var(--panel)}
-.janela .leaflet-popup-content{margin:14px 16px;font:13px/1.45 var(--body)}
-.janela a.leaflet-popup-close-button{color:var(--muted);font-size:20px;padding:6px 8px 0 0;width:auto;height:auto}
-.j-eyebrow{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.janela .leaflet-popup-content{margin:16px 18px;font:13px/1.45 var(--body)}
+.janela a.leaflet-popup-close-button{color:var(--muted);font-size:22px;padding:8px 10px 0 0;width:auto;height:auto}
+.j-eyebrow{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .j-eyebrow svg{width:16px;height:19px}
-.j-title{font:700 22px/1.05 var(--display);margin:4px 0 4px;padding-right:12px}
+.j-title{font:800 24px/1.02 var(--display);font-stretch:72%;margin:5px 0 5px;padding-right:14px;color:var(--ink)}
 .j-sub{color:var(--muted)}
 .j-sub .sw{width:9px;height:9px;margin-right:5px;vertical-align:0}
-.j-ok{margin-top:6px;font-size:12px;color:var(--ok)}
-.j-note{margin-top:6px;font-size:12px;color:var(--warn)}
-.j-acts{display:flex;flex-direction:column;gap:6px;margin-top:12px}
-.opt{font:600 13px var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--bg);color:var(--fg);cursor:pointer;text-align:left}
-.opt.pri{background:var(--fg);color:var(--panel);border-color:var(--fg)}
-.opt:hover{border-color:var(--fg)}
-.com-pinos .lbl:not(.big){display:none}
+.j-ok{margin-top:8px;font-size:12px;color:var(--ok)}
+.j-note{margin-top:8px;font-size:12px;color:var(--warn)}
+.j-acts{display:flex;flex-direction:column;gap:6px;margin-top:14px}
+.opt{font:600 13px var(--body);padding:10px 12px;border-radius:10px;border:1px solid var(--rule);background:var(--panel);color:var(--fg);cursor:pointer;text-align:left}
+.opt.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.opt:hover{border-color:var(--accent)}
+
+/* Celular */
 @media (max-width:760px){
-  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
-  header{gap:8px}
-  .brand h1{font-size:22px}
-  .controls{margin-left:0;width:100%}
+  .topbar{flex-wrap:wrap;gap:8px;top:max(8px,env(safe-area-inset-top,0px))}
+  .brand{flex:1 1 auto;padding:7px 12px 7px 9px}
+  .brand h1{font-size:19px}
+  .tools{width:100%;margin-left:0}
   .search{flex:1;min-width:0}
   .search input{width:100%;box-sizing:border-box}
-  aside{border-left:0;border-top:1px solid var(--rule);max-height:42vh;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:calc(14px + env(safe-area-inset-bottom,0px))}
-  aside.collapsed{max-height:none}
+  .search ul{min-width:0}
+  #voltar{top:auto;left:50%;transform:translateX(-50%);bottom:calc(var(--sheet-h,64px) + 12px)}
+  aside{top:auto;left:0;right:0;bottom:0;width:auto;border-radius:18px 18px 0 0;max-height:min(var(--sheet-max,52vh),calc(100% - 140px));transition:max-height .25s}
+  aside.full{--sheet-max:calc(100% - 120px)}
   aside.collapsed .body{display:none}
-  .handle{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;width:100%;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);padding-bottom:6px}
-  aside h2{font-size:24px}
+  .handle{all:unset;box-sizing:border-box;display:flex;flex-direction:column;align-items:stretch;gap:6px;width:100%;cursor:pointer;
+    padding:8px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--rule)}
+  aside.collapsed .handle{border-bottom:0;padding-bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+  .handle::before{content:"";align-self:center;width:40px;height:4px;border-radius:2px;background:var(--rule)}
+  .handle .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+  .handle b{font:800 18px/1.1 var(--display);font-stretch:75%;color:var(--ink);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .handle span{font-size:12px;font-weight:600;color:var(--accent);white-space:nowrap}
+  .body{padding:12px max(16px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  aside h2{font-size:27px}
+  .leaflet-bottom.leaflet-right{bottom:calc(var(--sheet-h,64px) + 4px)}
+  .leaflet-control-zoom{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
 <div class="app">
-  <header>
+  <div id="map" aria-label="Mapa dos bairros da Ilha coloridos por paróquia"></div>
+  <div class="topbar">
     <div class="brand">
-      <small>Arquidiocese de Florianópolis · Ilha de Santa Catarina</small>
-      <h1>Mapa das Paróquias</h1>
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="1" width="28" height="28" rx="7" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M15 6v18M9 12h12" stroke="var(--gold)" stroke-width="2.6" stroke-linecap="round"/></svg>
+      <div class="t"><small>Arquidiocese de Florianópolis</small><h1>Paróquias da Ilha</h1></div>
     </div>
-    <div class="controls">
+    <div class="tools">
       <div class="seg" role="group" aria-label="Colorir mapa por">
         <button id="modo-paroquia" type="button" aria-pressed="true">Paróquias</button>
         <button id="modo-forania" type="button" aria-pressed="false">Foranias</button>
       </div>
       <div class="search">
-        <input id="busca" type="search" placeholder="Buscar bairro ou paróquia" autocomplete="off" aria-label="Buscar bairro ou paróquia">
+        <input id="busca" type="search" placeholder="Buscar igreja, bairro ou paróquia" autocomplete="off" aria-label="Buscar igreja, bairro ou paróquia">
         <ul id="sugestoes" hidden></ul>
       </div>
     </div>
-  </header>
-  <div id="map" aria-label="Mapa dos bairros da Ilha coloridos por paróquia"></div>
+  </div>
+  <button id="voltar" type="button" hidden><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Voltar ao mapa geral</button>
   <aside id="painel">
-    <button class="handle" id="alca" type="button" aria-expanded="true"><span>Detalhes</span><span id="alca-ico">Recolher ▾</span></button>
+    <button class="handle" id="alca" type="button" aria-expanded="true"><span class="row"><b id="alca-titulo">Ilha de Santa Catarina</b><span id="alca-ico">Recolher</span></span></button>
     <div class="body" id="conteudo"></div>
   </aside>
 </div>
@@ -184,7 +228,12 @@ const corGrupo = id => CORES[id] || '#888';
 
 let modo = 'paroquia', sel = null; // sel: {tipo:'bairro'|'paroquia'|'forania'|'arq', id}
 
-const map = L.map('map', {zoomControl:true, attributionControl:true, zoomSnap:.25, minZoom:10, maxZoom:16});
+const map = L.map('map', {zoomControl:false, attributionControl:true, zoomSnap:.25, minZoom:10, maxZoom:17});
+L.control.zoom({position:'bottomright'}).addTo(map);
+const celular = () => matchMedia('(max-width:760px)').matches;
+const pad = () => celular()
+  ? {paddingTopLeft:[16, 120], paddingBottomRight:[16, (document.getElementById('painel').offsetHeight||64) + 16]}
+  : {paddingTopLeft:[400, 72], paddingBottomRight:[28, 28]};
 map.attributionControl.setPrefix(false).addAttribution('Bairros: IBGE · Igrejas: Arquidiocese e © OpenStreetMap');
 const css = getComputedStyle(document.documentElement);
 const tok = n => css.getPropertyValue(n).trim();
@@ -228,7 +277,7 @@ const grupoRotulos = L.layerGroup(rotulos).addTo(map);
   .forEach(([t,la,lo]) => L.tooltip({permanent:true,direction:'center',className:'lbl big',interactive:false}).setLatLng([la,lo]).setContent(t).addTo(map));
 
 const limites = L.latLngBounds([-27.84,-48.6],[-27.38,-48.36]);
-map.fitBounds(limites, {padding:[10,10]});
+map.fitBounds(limites, pad());
 map.setMaxBounds(camada.getBounds().pad(1.2));
 const atualizaRotulos = () => document.getElementById('map').classList.toggle('hide-lbl', map.getZoom() < 12.75);
 map.on('zoomend', atualizaRotulos); atualizaRotulos();
@@ -246,7 +295,7 @@ Object.entries(porBairroAprox).forEach(([b, cs]) => {
 igrejas.forEach(c => { if (c.lat) { c.pos = [c.lat, c.lng]; c.aprox = false; } });
 const igreja = Object.fromEntries(igrejas.map(c => [c.id, c]));
 
-const ICONE = (cor, matriz) => `<svg viewBox="0 0 24 28" width="${matriz?26:20}" height="${matriz?30:23}" aria-hidden="true"><path d="M12 1v4M10 3h4" stroke="${cor}" stroke-width="2" stroke-linecap="round"/><path d="M12 6l7 6v14H5V12z" fill="${cor}" style="stroke:var(--panel)" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 26v-5a2 2 0 0 1 4 0v5" style="fill:var(--panel)"/></svg>`;
+const ICONE = (cor, matriz) => `<svg viewBox="0 0 24 28" width="${matriz?26:20}" height="${matriz?30:23}" aria-hidden="true"><path d="M12 1v4M10 3h4" style="stroke:${cor}" stroke-width="2" stroke-linecap="round"/><path d="M12 6l7 6v14H5V12z" style="fill:${cor};stroke:var(--panel)" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 26v-5a2 2 0 0 1 4 0v5" style="fill:var(--panel)"/></svg>`;
 const camadaIgrejas = L.layerGroup().addTo(map);
 const marcador = {};
 igrejas.filter(c => c.pos).forEach(c => {
@@ -278,7 +327,7 @@ map.on('zoomend', atualizaPinos);
 // Janelas de opção (não navegam sozinhas)
 const botao = (s, t, principal) => `<button class="opt${principal?' pri':''}" data-sel='${JSON.stringify(s)}'>${t}</button>`;
 function abrirJanela(latlng, html){
-  L.popup({className:'janela', maxWidth:Math.min(280, innerWidth-60), minWidth:Math.min(220, innerWidth-80), autoPanPadding:[16,16]}).setLatLng(latlng).setContent(html).openOn(map);
+  L.popup({className:'janela', maxWidth:Math.min(290, innerWidth-60), minWidth:Math.min(230, innerWidth-80), autoPanPaddingTopLeft: celular() ? [16,120] : [400,80], autoPanPaddingBottomRight: celular() ? [16,(document.getElementById('painel').offsetHeight||64)+16] : [24,24]}).setLatLng(latlng).setContent(html).openOn(map);
 }
 function abrirJanelaIgreja(c){
   const p = c.paroquia;
@@ -309,11 +358,11 @@ function selecionar(s, voar=true){
   camada.setStyle(estilo);
   if (sel && sel.tipo === 'bairro') camadaDe(sel.id).bringToFront();
   if (voar){
-    if (!sel) map.flyToBounds(limites, {padding:[10,10], duration:.6});
-    else if (sel.tipo === 'bairro') map.flyToBounds(camadaDe(sel.id).getBounds(), {padding:[60,60], maxZoom:14, duration:.6});
-    else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {padding:[40,40], maxZoom:14, duration:.6});
-    else if (sel.tipo === 'igreja'){ const c = igreja[sel.id]; if (c.pos) map.flyTo(c.pos, Math.max(map.getZoom(), 15.5), {duration:.6}); else map.flyToBounds(boundsDe(paroquia[c.paroquia.id].bairros), {padding:[40,40], maxZoom:14, duration:.6}); }
-    else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(bairros.filter(b => b.properties.forania === sel.id)), {padding:[20,20], duration:.6});
+    if (!sel) map.flyToBounds(limites, {...pad(), duration:.6});
+    else if (sel.tipo === 'bairro') map.flyToBounds(camadaDe(sel.id).getBounds(), {...pad(), maxZoom:15, duration:.6});
+    else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {...pad(), maxZoom:14, duration:.6});
+    else if (sel.tipo === 'igreja'){ const c = igreja[sel.id]; if (c.pos) map.flyToBounds(L.latLngBounds([c.pos, c.pos]), {...pad(), maxZoom:16, duration:.6}); else map.flyToBounds(boundsDe(paroquia[c.paroquia.id].bairros), {...pad(), maxZoom:14, duration:.6}); }
+    else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(bairros.filter(b => b.properties.forania === sel.id)), {...pad(), duration:.6});
   }
   estiloIgrejas(); atualizaPinos();
   document.getElementById('map').classList.toggle('com-pinos', !!(sel && sel.tipo !== 'forania'));
@@ -329,14 +378,14 @@ const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroqu
 const linhaBairro = b => { const pr=b.properties; if (pr.principal !== sel.id) return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="border:1.5px dashed ${corGrupo(sel.id)};box-sizing:border-box"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">divide com ${esc(paroquia[pr.principal].nome.replace(/^Paróquia\s+/,''))}</span></button></li>`; return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="background:${corGrupo(pr.grupo)};opacity:${pr.situacao==='estimado'?.45:1}"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">${pr.situacao==='estimado'?'estimado':pr.situacao} · ${fmt(pr.pop)} hab.</span></button></li>`; };
 const ARQ = {t:'Arquidiocese', s:{tipo:'arq'}};
 const linhaComunidade = (c, comParoquia) => `<li><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(corGrupo(c.paroquia.id), false)}</span><span class="name">${c.matriz?'<b>Matriz</b> · ':''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.bairro&&c.bairro!==c.local?' · '+esc(c.bairro):'')+(c.bairro?'':' · bairro não identificado')}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
-const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Confirmado</span><span><i class="k-est"></i>Estimado por vizinhança</span></div>`;
+const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Bairro confirmado</span><span><i class="k-est"></i>Estimado</span><span class="k-pin">${ICONE('var(--muted)', false)}Igreja</span></div>`;
 
 function render(){
   let h = '';
   if (!sel){
     const nB = bairros.length, nC = bairros.filter(b => b.properties.situacao !== 'estimado').length, nCom = Object.values(paroquia).reduce((a,p)=>a+p.comunidades.length,0);
     h += crumbs([{t:'Arquidiocese de Florianópolis'}]);
-    h += `<h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro ou no desenho de uma igreja para abrir as opções. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
+    h += `<div class="eyebrow">Visão geral</div><h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro ou no desenho de uma igreja para abrir as opções. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
     h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${Object.keys(paroquia).length}</b><small>Paróquias</small></div><div><b>${nCom}</b><small>Igrejas e comunidades</small></div></div>`;
     h += legenda;
     H.foranias.forEach(f => {
@@ -388,7 +437,9 @@ function render(){
   const c = document.getElementById('conteudo');
   c.replaceChildren(el(h));
   c.parentElement.scrollTop = 0;
-  if (window.matchMedia('(max-width:760px)').matches && sel) abrirGaveta(true);
+  document.getElementById('alca-titulo').textContent = !sel ? 'Ilha de Santa Catarina' : sel.tipo==='bairro' ? sel.id : sel.tipo==='paroquia' ? paroquia[sel.id].nome : sel.tipo==='igreja' ? igreja[sel.id].nome : forania[sel.id].nome;
+  document.getElementById('voltar').hidden = !sel;
+  if (celular() && sel) abrirGaveta(true);
 }
 
 document.getElementById('conteudo').addEventListener('click', e => {
@@ -425,11 +476,15 @@ document.addEventListener('click', e => { if (!e.target.closest('.search')) ul.h
 
 // Gaveta no celular
 const painel = document.getElementById('painel'), alca = document.getElementById('alca');
-function abrirGaveta(aberta){ painel.classList.toggle('collapsed', !aberta); alca.setAttribute('aria-expanded', aberta); document.getElementById('alca-ico').textContent = aberta ? 'Recolher ▾' : 'Abrir ▴'; setTimeout(() => map.invalidateSize(), 50); }
+function medeFolha(){ document.querySelector('.app').style.setProperty('--sheet-h', painel.offsetHeight + 'px'); }
+function abrirGaveta(aberta){ painel.classList.toggle('collapsed', !aberta); alca.setAttribute('aria-expanded', aberta); document.getElementById('alca-ico').textContent = aberta ? 'Recolher' : 'Ver detalhes'; requestAnimationFrame(medeFolha); setTimeout(medeFolha, 300); }
+new ResizeObserver(medeFolha).observe(painel);
+document.getElementById('voltar').onclick = () => { map.closePopup(); selecionar(null); };
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && sel) { map.closePopup(); selecionar(null); } });
 alca.onclick = () => abrirGaveta(painel.classList.contains('collapsed'));
 
 render(); estiloIgrejas(); atualizaPinos();
-if (window.matchMedia('(max-width:760px)').matches) abrirGaveta(false);
+if (celular()) abrirGaveta(false);
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => location.reload());
 })();
 </script>
