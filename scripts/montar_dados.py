@@ -98,7 +98,7 @@ def hierarquia():
             pid = IDS[p["slug"]]
             for k in (f"{pid}|{c.get('local')}|{n}", f"{pid}|{c.get('local')}"):
                 if k in coord:
-                    item.update({"lat": coord[k]["lat"], "lng": coord[k]["lng"], "posicao": coord[k]["fonte"]})
+                    item.update({"lat": coord[k]["lat"], "lng": coord[k]["lng"], "posicao": coord[k]["fonte"], "nome_osm": coord[k].get("nome_osm")})
                     usadas.add(k)
                     break
             coms.append(item)

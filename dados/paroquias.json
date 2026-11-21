@@ -23,7 +23,8 @@
        "matriz": true,
        "lat": -27.610245,
        "lng": -48.530371,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora da Boa Viagem"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -47,7 +48,8 @@
        "matriz": false,
        "lat": -27.669437,
        "lng": -48.529587,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Catarina de Alexandria"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -57,7 +59,8 @@
        "matriz": false,
        "lat": -27.662951,
        "lng": -48.540691,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Rita de Cássia"
       },
       {
        "nome": "Senhor Bom Jesus",
@@ -74,7 +77,8 @@
        "matriz": false,
        "lat": -27.648742,
        "lng": -48.521351,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São José"
       },
       {
        "nome": "São Pedro Apóstolo",
@@ -84,7 +88,8 @@
        "matriz": false,
        "lat": -27.63111,
        "lng": -48.523437,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São Pedro Apóstolo"
       }
      ]
     },
@@ -104,7 +109,8 @@
        "matriz": true,
        "lat": -27.718317,
        "lng": -48.563181,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Nossa Senhora da Lapa"
       },
       {
        "nome": "Bom Jesus dos Pescadores",
@@ -135,7 +141,8 @@
        "matriz": false,
        "lat": -27.748957,
        "lng": -48.548627,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Nossas Senhora de Lourdes"
       },
       {
        "nome": "Santa Luzia e São Pedro",
@@ -145,7 +152,8 @@
        "matriz": false,
        "lat": -27.83311,
        "lng": -48.561091,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Luzia e São Pedro"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -162,7 +170,8 @@
        "matriz": false,
        "lat": -27.706628,
        "lng": -48.524536,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santo Estêvão"
       },
       {
        "nome": "São José",
@@ -172,7 +181,8 @@
        "matriz": false,
        "lat": -27.752979,
        "lng": -48.561796,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São José"
       },
       {
        "nome": "São João Batista",
@@ -189,7 +199,8 @@
        "matriz": false,
        "lat": -27.664553,
        "lng": -48.502637,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São João Maria Vianney"
       }
      ]
     },
@@ -209,7 +220,8 @@
        "matriz": true,
        "lat": -27.576909,
        "lng": -48.542127,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Luiz"
       },
       {
        "nome": "Nossa Senhora da Conceição",
@@ -233,7 +245,8 @@
        "matriz": false,
        "lat": -27.581181,
        "lng": -48.532327,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora Aparecida"
       },
       {
        "nome": "São José e Nossa Senhora de Nazaré",
@@ -250,7 +263,8 @@
        "matriz": false,
        "lat": -27.577379,
        "lng": -48.527909,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja São João Batista"
       },
       {
        "nome": "Transfiguração Senhor Bom Jesus",
@@ -277,7 +291,8 @@
        "matriz": true,
        "lat": -27.596445,
        "lng": -48.549263,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Catedral Metropolitana"
       },
       {
        "nome": "Capela Nossa Senhora das Graças",
@@ -301,7 +316,8 @@
        "matriz": false,
        "lat": -27.593216,
        "lng": -48.546044,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela do Divino Espírito Santo"
       },
       {
        "nome": "Igreja Menino Jesus de Praga",
@@ -332,7 +348,8 @@
        "matriz": false,
        "lat": -27.595102,
        "lng": -48.549429,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Nossa Senhora do Rosário"
       },
       {
        "nome": "Igreja Sagrado Coração de Jesus",
@@ -356,7 +373,8 @@
        "matriz": false,
        "lat": -27.596693,
        "lng": -48.552107,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Francisco"
       },
       {
        "nome": "Igreja São Sebastião",
@@ -390,7 +408,8 @@
        "matriz": true,
        "lat": -27.685318,
        "lng": -48.492194,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião"
       },
       {
        "nome": "Nossa Senhora Aparecida e São Cristóvão",
@@ -407,7 +426,8 @@
        "matriz": false,
        "lat": -27.781128,
        "lng": -48.537415,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Cruz Nossa Senhora de Fátima"
       },
       {
        "nome": "Sagrado Coração de Jesus",
@@ -417,7 +437,8 @@
        "matriz": false,
        "lat": -27.706653,
        "lng": -48.505058,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Sagrado Coração de jesus"
       },
       {
        "nome": "Santa Cruz e Santo Antônio",
@@ -434,7 +455,8 @@
        "matriz": false,
        "lat": -27.750594,
        "lng": -48.502984,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Santana"
       },
       {
        "nome": "São Pedro",
@@ -444,7 +466,8 @@
        "matriz": false,
        "lat": -27.780614,
        "lng": -48.508066,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São Pedro"
       },
       {
        "nome": "São Sebastião",
@@ -454,7 +477,8 @@
        "matriz": false,
        "lat": -27.676569,
        "lng": -48.483107,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja São Sebastião do Campeche"
       }
      ]
     },
@@ -474,7 +498,8 @@
        "matriz": true,
        "lat": -27.606155,
        "lng": -48.545733,
-       "posicao": "endereco"
+       "posicao": "endereco",
+       "nome_osm": null
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -491,7 +516,8 @@
        "matriz": false,
        "lat": -27.612297,
        "lng": -48.547509,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Judas Tadeu"
       },
       {
        "nome": "São Sebastião",
@@ -518,7 +544,8 @@
        "matriz": true,
        "lat": -27.592917,
        "lng": -48.554839,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja de Santo Antônio"
       },
       {
        "nome": "Nossa Senhora do Parto",
@@ -528,7 +555,8 @@
        "matriz": false,
        "lat": -27.594726,
        "lng": -48.556298,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Nossa Senhora do Bom Parto"
       }
      ]
     }
@@ -567,7 +595,8 @@
        "matriz": true,
        "lat": -27.598171,
        "lng": -48.467497,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora da Conceição da Lagoa"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -584,7 +613,8 @@
        "matriz": false,
        "lat": -27.632668,
        "lng": -48.472326,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Cruz"
       },
       {
        "nome": "Santa Cruz",
@@ -615,7 +645,8 @@
        "matriz": false,
        "lat": -27.64563,
        "lng": -48.477071,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São Luiz Gonzaga"
       },
       {
        "nome": "São Pedro",
@@ -625,7 +656,8 @@
        "matriz": false,
        "lat": -27.575428,
        "lng": -48.423283,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja São Pedro"
       }
      ]
     },
@@ -645,7 +677,8 @@
        "matriz": false,
        "lat": -27.507869,
        "lng": -48.518092,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia de Nossa Senhora das Necessidades"
       },
       {
        "nome": "Santa Cruz",
@@ -693,7 +726,8 @@
        "matriz": true,
        "lat": -27.428807,
        "lng": -48.454613,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora de Guadalupe"
       },
       {
        "nome": "Divino Espírito Santo",
@@ -717,7 +751,8 @@
        "matriz": false,
        "lat": -27.505192,
        "lng": -48.490948,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora dos Remédios"
       },
       {
        "nome": "Sagrada Face",
@@ -741,7 +776,8 @@
        "matriz": false,
        "lat": -27.469999,
        "lng": -48.461553,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São Brás"
       },
       {
        "nome": "São Francisco de Assis",
@@ -758,7 +794,8 @@
        "matriz": false,
        "lat": -27.429817,
        "lng": -48.476164,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia de São Francisco de Paula"
       },
       {
        "nome": "São José",
@@ -782,7 +819,8 @@
        "matriz": false,
        "lat": -27.3946,
        "lng": -48.433674,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia de São Pedro"
       }
      ]
     },
@@ -809,7 +847,8 @@
        "matriz": false,
        "lat": -27.455387,
        "lng": -48.397044,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia Santa Catarina de Alexandria"
       },
       {
        "nome": "Santa Paulina",
@@ -819,7 +858,8 @@
        "matriz": false,
        "lat": -27.469078,
        "lng": -48.412223,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Santa Paulina"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -850,7 +890,8 @@
        "matriz": false,
        "lat": -27.438819,
        "lng": -48.395663,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Santuário do Sagrado Coração de Jesus"
       },
       {
        "nome": "Senhor Bom Jesus",
@@ -860,7 +901,8 @@
        "matriz": false,
        "lat": -27.453479,
        "lng": -48.427239,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Senhor Bom Jesus"
       },
       {
        "nome": "São João Batista",
@@ -870,7 +912,8 @@
        "matriz": false,
        "lat": -27.493755,
        "lng": -48.419684,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São João Batista do Rio Vermelho"
       },
       {
        "nome": "São Luiz Gonzaga",
@@ -880,7 +923,8 @@
        "matriz": false,
        "lat": -27.430603,
        "lng": -48.422796,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Luiz Gonzaga"
       }
      ]
     },
@@ -900,7 +944,8 @@
        "matriz": true,
        "lat": -27.596659,
        "lng": -48.521457,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Santíssima Trindade"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -917,7 +962,8 @@
        "matriz": false,
        "lat": -27.581372,
        "lng": -48.494757,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja de Nossa Senhora de Guadalupe"
       },
       {
        "nome": "Puríssimo Coração de Maria",
@@ -927,7 +973,8 @@
        "matriz": false,
        "lat": -27.596376,
        "lng": -48.503698,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Puríssimo Coração de Maria"
       },
       {
        "nome": "Santa Mônica",
@@ -944,7 +991,8 @@
        "matriz": false,
        "lat": -27.611281,
        "lng": -48.521857,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Igreja Santo Agostinho"
       },
       {
        "nome": "São Bento",
@@ -954,7 +1002,8 @@
        "matriz": false,
        "lat": -27.58238,
        "lng": -48.50368,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Capela São Bento"
       },
       {
        "nome": "São Francisco de Assis",
@@ -988,7 +1037,8 @@
        "matriz": true,
        "lat": -27.555124,
        "lng": -48.4968,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Francisco Xavier Arquidiocese"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -1026,7 +1076,8 @@
        "matriz": false,
        "lat": -27.563476,
        "lng": -48.516423,
-       "posicao": "osm"
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Miguel"
       }
      ]
     }
