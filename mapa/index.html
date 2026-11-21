@@ -691,12 +691,30 @@ aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(
 .k-solid{width:16px;height:10px;border-radius:2px;background:var(--muted);opacity:.85}
 .k-est{width:16px;height:10px;border-radius:2px;border:1.5px dashed var(--muted);opacity:.85;box-sizing:border-box;background:color-mix(in srgb,var(--muted) 30%,transparent)}
 .handle{display:none}
-.pin{display:flex;align-items:center;gap:5px;white-space:nowrap;font:600 11px var(--body);color:var(--fg);pointer-events:auto}
-.pin i{flex:none;width:12px;height:12px;border-radius:50%;background:var(--pc);border:2px solid var(--panel);box-shadow:0 1px 3px rgb(0 0 0/.35)}
-.pin.matriz i{width:16px;height:16px;border-radius:4px;transform:rotate(45deg)}
-.pin span{text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo)}
-.pin.sel i{outline:3px solid var(--fg);outline-offset:1px}
+.pin{display:flex;align-items:flex-end;gap:3px;white-space:nowrap;font:600 11px var(--body);color:var(--fg);cursor:pointer;transition:opacity .2s}
+.pin svg{flex:none;filter:drop-shadow(0 1px 1.5px rgb(0 0 0/.4))}
+.pin span{padding-bottom:2px;text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo)}
 .hide-pinlbl .pin span{display:none}
+.hide-pinlbl .destaque .pin span{display:inline}
+.apagado .pin{opacity:.22}
+.apagado .pin span{display:none}
+.sel .pin svg{transform:scale(1.35);transform-origin:bottom center}
+.ico{display:inline-flex;flex:none}
+.ico svg{width:16px;height:19px}
+.janela .leaflet-popup-content-wrapper{background:var(--panel);color:var(--fg);border-radius:12px;box-shadow:0 10px 30px rgb(0 0 0/.25)}
+.janela .leaflet-popup-tip{background:var(--panel)}
+.janela .leaflet-popup-content{margin:14px 16px;font:13px/1.45 var(--body)}
+.janela a.leaflet-popup-close-button{color:var(--muted);font-size:20px;padding:6px 8px 0 0;width:auto;height:auto}
+.j-eyebrow{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.j-eyebrow svg{width:16px;height:19px}
+.j-title{font:700 22px/1.05 var(--display);margin:4px 0 4px;padding-right:12px}
+.j-sub{color:var(--muted)}
+.j-sub .sw{width:9px;height:9px;margin-right:5px;vertical-align:0}
+.j-note{margin-top:6px;font-size:12px;color:var(--warn)}
+.j-acts{display:flex;flex-direction:column;gap:6px;margin-top:12px}
+.opt{font:600 13px var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--bg);color:var(--fg);cursor:pointer;text-align:left}
+.opt.pri{background:var(--fg);color:var(--panel);border-color:var(--fg)}
+.opt:hover{border-color:var(--fg)}
 .com-pinos .lbl:not(.big){display:none}
 @media (max-width:760px){
   .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
@@ -748,6 +766,8 @@ const CORES = {
 };
 const CORES_FORANIA = {'centro-sul':'#c2563a', 'norte':'#2f6fb0'};
 const fmt = n => n.toLocaleString('pt-BR');
+const el = (h) => { const t = document.createElement('template'); t.innerHTML = h.trim(); return t.content; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 let D;
 try { D = await (await fetch('dados.json')).json(); }
@@ -780,6 +800,7 @@ function estilo(f){
   const cor = modo === 'forania' ? CORES_FORANIA[pr.forania] : corGrupo(pr.grupo);
   let ativo = true;
   if (sel && sel.tipo === 'paroquia') ativo = pr.paroquias.includes(sel.id);
+  if (sel && sel.tipo === 'igreja') ativo = pr.paroquias.includes(igreja[sel.id].paroquia.id);
   if (sel && sel.tipo === 'forania') ativo = pr.forania === sel.id;
   if (sel && sel.tipo === 'paroquia' && ativo && pr.principal !== sel.id) return {color:corGrupo(sel.id), weight:2, dashArray:'4 3', fillColor:corGrupo(sel.id), fillOpacity:.25, opacity:1};
   const escolhido = sel && sel.tipo === 'bairro' && sel.id === pr.bairro;
@@ -798,9 +819,9 @@ const camada = L.geoJSON(D.bairros, {
     l.on({
       mouseover(e){ if (!(sel && sel.tipo==='bairro' && sel.id===pr.bairro)) l.setStyle({weight:2.5, color:tok('--fg')}); l.bringToFront(); },
       mouseout(){ l.setStyle(estilo(f)); },
-      click(){ selecionar({tipo:'bairro', id:pr.bairro}, false); }
+      click(e){ abrirJanelaBairro(pr, e.latlng); }
     });
-    l.bindTooltip(() => `<b>${pr.bairro}</b>${nomeGrupo(pr)}<br><span style="color:var(--muted)">${pr.situacao==='estimado'?'Estimado por vizinhança':'Confirmado'}</span>`, {sticky:true, className:'tip', direction:'top', offset:[0,-8]});
+    if (matchMedia('(hover: hover)').matches) l.bindTooltip(() => `<b>${pr.bairro}</b>${nomeGrupo(pr)}<br><span style="color:var(--muted)">${pr.situacao==='estimado'?'Estimado por vizinhança':'Confirmado'}</span>`, {sticky:true, className:'tip', direction:'top', offset:[0,-8]});
     const c = l.getBounds().getCenter();
     rotulos.push(L.tooltip({permanent:true, direction:'center', className:'lbl', interactive:false}).setLatLng(c).setContent(pr.bairro));
   }
@@ -812,33 +833,77 @@ const grupoRotulos = L.layerGroup(rotulos).addTo(map);
 
 const limites = L.latLngBounds([-27.84,-48.6],[-27.38,-48.36]);
 map.fitBounds(limites, {padding:[10,10]});
-map.setMaxBounds(camada.getBounds().pad(.3));
+map.setMaxBounds(camada.getBounds().pad(1.2));
 const atualizaRotulos = () => document.getElementById('map').classList.toggle('hide-lbl', map.getZoom() < 12.75);
 map.on('zoomend', atualizaRotulos); atualizaRotulos();
 
-// Marcadores das comunidades da paróquia selecionada (posição aproximada: dentro do bairro)
-const pinos = L.layerGroup().addTo(map);
+// Igrejas: todas sempre no mapa. Posição exata quando houver lat/lng; senão, aproximada dentro do bairro.
 const pontoDe = nome => bairros.find(b => b.properties.bairro === nome).properties.ponto;
-function desenhaPinos(){
-  pinos.clearLayers();
-  if (!sel || sel.tipo !== 'paroquia') return;
-  const p = paroquia[sel.id], porBairro = {};
-  p.comunidades.forEach(c => { if (c.bairro) (porBairro[c.bairro] = porBairro[c.bairro] || []).push(c); });
-  Object.entries(porBairro).forEach(([b, cs]) => {
-    const [la, lo] = pontoDe(b), n = cs.length;
-    cs.forEach((c, k) => {
-      const ang = 2*Math.PI*k/n, r = n > 1 ? 0.0022 + 0.0008*n : 0;
-      const m = L.marker([la + r*Math.cos(ang), lo + r*Math.sin(ang)/0.885], {
-        icon: L.divIcon({className:'', html:`<div class="pin${c.matriz?' matriz':''}" style="--pc:${corGrupo(p.id)}"><i></i><span>${esc(c.nome)}</span></div>`, iconSize:null, iconAnchor:[c.matriz?10:8, c.matriz?10:8]}),
-        keyboard:false, riseOnHover:true
-      }).bindTooltip(`<b>${c.matriz?'Matriz · ':''}${esc(c.nome)}</b>${esc(c.local)}${c.ano?' · desde '+c.ano:''}<br><span style="color:var(--muted)">Posição aproximada, no bairro ${esc(b)}</span>`, {className:'tip', direction:'top', offset:[0,-10]});
-      m.on('click', () => selecionar({tipo:'bairro', id:b}, false));
-      pinos.addLayer(m);
-    });
+const igrejas = [];
+Object.values(paroquia).forEach(p => p.comunidades.forEach((c, k) => { c.id = p.id + '-' + k; c.paroquia = p; igrejas.push(c); }));
+const porBairroAprox = {};
+igrejas.forEach(c => { if (!c.lat && c.bairro) (porBairroAprox[c.bairro] = porBairroAprox[c.bairro] || []).push(c); });
+Object.entries(porBairroAprox).forEach(([b, cs]) => {
+  const [la, lo] = pontoDe(b), n = cs.length;
+  cs.forEach((c, k) => { const ang = 2*Math.PI*k/n, r = n > 1 ? 0.0022 + 0.0007*n : 0; c.pos = [la + r*Math.cos(ang), lo + r*Math.sin(ang)/0.885]; c.aprox = true; });
+});
+igrejas.forEach(c => { if (c.lat) { c.pos = [c.lat, c.lng]; c.aprox = false; } });
+const igreja = Object.fromEntries(igrejas.map(c => [c.id, c]));
+
+const ICONE = (cor, matriz) => `<svg viewBox="0 0 24 28" width="${matriz?26:20}" height="${matriz?30:23}" aria-hidden="true"><path d="M12 1v4M10 3h4" stroke="${cor}" stroke-width="2" stroke-linecap="round"/><path d="M12 6l7 6v14H5V12z" fill="${cor}" style="stroke:var(--panel)" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 26v-5a2 2 0 0 1 4 0v5" style="fill:var(--panel)"/></svg>`;
+const camadaIgrejas = L.layerGroup().addTo(map);
+const marcador = {};
+igrejas.filter(c => c.pos).forEach(c => {
+  const m = L.marker(c.pos, {
+    icon: L.divIcon({className:'', html:`<div class="pin${c.matriz?' matriz':''}">${ICONE(corGrupo(c.paroquia.id), c.matriz)}<span>${esc(c.nome)}</span></div>`, iconSize:null, iconAnchor:[c.matriz?13:10, c.matriz?28:22]}),
+    keyboard:true, riseOnHover:true, title:c.nome
+  });
+  m.on('click', () => abrirJanelaIgreja(c));
+  marcador[c.id] = m; camadaIgrejas.addLayer(m);
+});
+function estiloIgrejas(){
+  igrejas.forEach(c => {
+    const m = marcador[c.id]; if (!m) return;
+    let ativo = true;
+    if (sel && sel.tipo === 'paroquia') ativo = c.paroquia.id === sel.id;
+    if (sel && sel.tipo === 'bairro') ativo = c.bairro === sel.id;
+    if (sel && sel.tipo === 'forania') ativo = c.paroquia.forania === sel.id;
+    if (sel && sel.tipo === 'igreja') ativo = c.id === sel.id || c.paroquia.id === igreja[sel.id].paroquia.id;
+    const e = m.getElement(); if (!e) return;
+    e.classList.toggle('apagado', !ativo);
+    e.classList.toggle('destaque', !!(sel && ativo && sel.tipo !== 'forania'));
+    e.classList.toggle('sel', !!(sel && sel.tipo === 'igreja' && sel.id === c.id));
+    m.setZIndexOffset(ativo ? 1000 : 0);
   });
 }
-const atualizaPinos = () => document.getElementById('map').classList.toggle('hide-pinlbl', map.getZoom() < 12.5);
+const atualizaPinos = () => document.getElementById('map').classList.toggle('hide-pinlbl', map.getZoom() < 14);
 map.on('zoomend', atualizaPinos);
+
+// Janelas de opção (não navegam sozinhas)
+const botao = (s, t, principal) => `<button class="opt${principal?' pri':''}" data-sel='${JSON.stringify(s)}'>${t}</button>`;
+function abrirJanela(latlng, html){
+  L.popup({className:'janela', maxWidth:Math.min(280, innerWidth-60), minWidth:Math.min(220, innerWidth-80), autoPanPadding:[16,16]}).setLatLng(latlng).setContent(html).openOn(map);
+}
+function abrirJanelaIgreja(c){
+  const p = c.paroquia;
+  abrirJanela(c.pos, `<div class="j-eyebrow"><span class="sw" style="background:${corGrupo(p.id)}"></span>${c.matriz?'Igreja matriz':'Comunidade'}</div>
+    <div class="j-title">${esc(c.nome)}</div>
+    <div class="j-sub">${esc(c.local)}${c.ano?' · desde '+c.ano:''}<br>${esc(p.nome)}</div>
+    ${c.aprox?'<div class="j-note">Posição aproximada (dentro do bairro)</div>':''}
+    <div class="j-acts">${botao({tipo:'igreja',id:c.id},'Ver igreja',true)}${botao({tipo:'paroquia',id:p.id},'Ver paróquia')}</div>`);
+}
+function abrirJanelaBairro(pr, latlng){
+  const ps = pr.paroquias.map(id => paroquia[id]), n = igrejas.filter(c => c.bairro === pr.bairro).length;
+  abrirJanela(latlng, `<div class="j-eyebrow">Bairro · ${esc(forania[pr.forania].nome.replace('Forania ',''))}</div>
+    <div class="j-title">${esc(pr.bairro)}</div>
+    <div class="j-sub">${ps.map(p => `<span class="sw" style="background:${corGrupo(p.id)}"></span>${esc(p.nome)}`).join('<br>')}</div>
+    ${pr.situacao==='estimado'?'<div class="j-note">Paróquia estimada pelo bairro vizinho</div>':''}
+    <div class="j-acts">${botao({tipo:'bairro',id:pr.bairro}, n ? `Ver igrejas do bairro (${n})` : 'Ver bairro', true)}${ps.map(p => botao({tipo:'paroquia',id:p.id}, ps.length>1 ? 'Ver '+esc(p.nome.replace(/^Paróquia\s+/,'')) : 'Ver paróquia')).join('')}</div>`);
+}
+document.getElementById('map').addEventListener('click', e => {
+  const b = e.target.closest('.janela [data-sel]'); if (!b) return;
+  map.closePopup(); selecionar(JSON.parse(b.dataset.sel));
+});
 
 function camadaDe(nome){ let r; camada.eachLayer(l => { if (l.feature.properties.bairro === nome) r = l; }); return r; }
 function boundsDe(lista){ const b = L.latLngBounds([]); lista.forEach(f => b.extend(camadaDe(f.properties.bairro).getBounds())); return b; }
@@ -851,16 +916,14 @@ function selecionar(s, voar=true){
     if (!sel) map.flyToBounds(limites, {padding:[10,10], duration:.6});
     else if (sel.tipo === 'bairro') map.flyToBounds(camadaDe(sel.id).getBounds(), {padding:[60,60], maxZoom:14, duration:.6});
     else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {padding:[40,40], maxZoom:14, duration:.6});
+    else if (sel.tipo === 'igreja'){ const c = igreja[sel.id]; if (c.pos) map.flyTo(c.pos, Math.max(map.getZoom(), 15.5), {duration:.6}); else map.flyToBounds(boundsDe(paroquia[c.paroquia.id].bairros), {padding:[40,40], maxZoom:14, duration:.6}); }
     else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(bairros.filter(b => b.properties.forania === sel.id)), {padding:[20,20], duration:.6});
   }
-  desenhaPinos(); atualizaPinos();
-  document.getElementById('map').classList.toggle('com-pinos', !!(sel && sel.tipo === 'paroquia'));
+  estiloIgrejas(); atualizaPinos();
+  document.getElementById('map').classList.toggle('com-pinos', !!(sel && sel.tipo !== 'forania'));
   render();
-  try { localStorage.setItem('mapa-paroquias-sel', JSON.stringify(s)); } catch(e){}
 }
 
-const el = (h) => { const t = document.createElement('template'); t.innerHTML = h.trim(); return t.content; };
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 function crumbs(itens){
   return `<nav class="crumbs" aria-label="Hierarquia">${itens.map((it,i) => (i? '<span class="sep">›</span>':'') + (it.s ? `<button data-sel='${JSON.stringify(it.s)}'>${esc(it.t)}</button>` : `<span>${esc(it.t)}</span>`)).join('')}</nav>`;
@@ -869,7 +932,7 @@ const pill = est => est ? '<span class="pill warn"><i></i>Estimado por vizinhan�
 const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroquia',id:p.id})}'><span class="sw" style="background:${modo==='forania'?CORES_FORANIA[p.forania]:corGrupo(p.id)}"></span><span class="name">${esc(p.nome)}</span><span class="meta">${p.bairros.length} bairro${p.bairros.length>1?'s':''}</span></button></li>`;
 const linhaBairro = b => { const pr=b.properties; if (pr.principal !== sel.id) return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="border:1.5px dashed ${corGrupo(sel.id)};box-sizing:border-box"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">divide com ${esc(paroquia[pr.principal].nome.replace(/^Paróquia\s+/,''))}</span></button></li>`; return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="background:${corGrupo(pr.grupo)};opacity:${pr.situacao==='estimado'?.45:1}"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">${pr.situacao==='estimado'?'estimado':pr.situacao} · ${fmt(pr.pop)} hab.</span></button></li>`; };
 const ARQ = {t:'Arquidiocese', s:{tipo:'arq'}};
-const linhaComunidade = (c, comParoquia) => `<li><button ${c.bairro?`data-sel='${JSON.stringify({tipo:'bairro',id:c.bairro})}'`:'disabled'}><span class="sw" style="background:${c.matriz?corGrupo((c.paroquia||{}).id||sel.id):'var(--muted)'};border-radius:50%;width:9px;height:9px"></span><span class="name">${c.matriz?'<b>Matriz</b> · ':''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.bairro&&c.bairro!==c.local?' · '+esc(c.bairro):'')+(c.bairro?'':' · bairro não identificado')}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
+const linhaComunidade = (c, comParoquia) => `<li><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(corGrupo(c.paroquia.id), false)}</span><span class="name">${c.matriz?'<b>Matriz</b> · ':''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.bairro&&c.bairro!==c.local?' · '+esc(c.bairro):'')+(c.bairro?'':' · bairro não identificado')}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
 const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Confirmado</span><span><i class="k-est"></i>Estimado por vizinhança</span></div>`;
 
 function render(){
@@ -877,7 +940,7 @@ function render(){
   if (!sel){
     const nB = bairros.length, nC = bairros.filter(b => b.properties.situacao !== 'estimado').length, nCom = Object.values(paroquia).reduce((a,p)=>a+p.comunidades.length,0);
     h += crumbs([{t:'Arquidiocese de Florianópolis'}]);
-    h += `<h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro para ver a paróquia e a forania. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
+    h += `<h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro ou no desenho de uma igreja para abrir as opções. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
     h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${Object.keys(paroquia).length}</b><small>Paróquias</small></div><div><b>${nCom}</b><small>Igrejas e comunidades</small></div></div>`;
     h += legenda;
     H.foranias.forEach(f => {
@@ -899,11 +962,20 @@ function render(){
     h += `<h2>${esc(p.nome)}</h2>`;
     h += `<dl class="facts">${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd></dl>`;
     const semB = p.comunidades.filter(c => !c.bairro).length;
-    h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3><p class="note" style="margin:-2px 0 8px">Todas aparecem marcadas no mapa, dentro do bairro onde ficam (posição aproximada)${semB?`; ${semB} ainda sem bairro identificado aparece${semB>1?'m':''} só nesta lista`:''}. Toque numa para ir ao bairro.</p>`;
+    h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3><p class="note" style="margin:-2px 0 8px">Cada uma está marcada no mapa com o desenho de uma igreja${semB?`; ${semB} ainda sem localização aparece${semB>1?'m':''} só nesta lista`:''}. Toque numa para ver os detalhes.</p>`;
     h += `<ul class="list">${p.comunidades.map(c => linhaComunidade(c)).join('')}</ul>`;
     h += `<h3>Bairros confirmados</h3><ul class="list">${conf.map(linhaBairro).join('')}</ul>`;
     if (est.length) h += `<h3>Bairros estimados</h3><ul class="list">${est.map(linhaBairro).join('')}</ul>`;
     if (p.fonte) h += `<p class="note">Fonte: <a href="${p.fonte}" target="_blank" rel="noopener">página da paróquia</a>.</p>`;
+  } else if (sel.tipo === 'igreja'){
+    const c = igreja[sel.id], p = c.paroquia, f = forania[p.forania];
+    h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:p.nome, s:{tipo:'paroquia',id:p.id}}, {t:c.nome}]);
+    h += `<div class="j-eyebrow" style="margin-top:10px">${ICONE(corGrupo(p.id), c.matriz)} ${c.matriz?'Igreja matriz':'Comunidade'}</div><h2>${esc(c.nome)}</h2>`;
+    h += `<dl class="facts"><dt>Localidade</dt><dd>${esc(c.local)}</dd>${c.bairro?`<dt>Bairro</dt><dd>${esc(c.bairro)}</dd>`:''}${c.ano?`<dt>Desde</dt><dd>${c.ano}</dd>`:''}<dt>Paróquia</dt><dd>${esc(p.nome)}</dd><dt>Forania</dt><dd>${esc(f.nome)}</dd>${c.matriz?`<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>`:''}</dl>`;
+    h += c.pos ? `<p class="note">${c.aprox?'O marcador está numa posição aproximada, dentro do bairro.':'Marcador na posição da igreja.'}</p>` : `<p class="note">Ainda sem localização no mapa.</p>`;
+    h += `<div class="j-acts" style="margin-top:12px">${botao({tipo:'paroquia',id:p.id},'Ver paróquia e todas as igrejas',true)}${c.bairro?botao({tipo:'bairro',id:c.bairro},'Ver bairro '+esc(c.bairro)):''}</div>`;
+    const outras = p.comunidades.filter(x => x !== c);
+    h += `<h3>Outras igrejas da paróquia (${outras.length})</h3><ul class="list">${outras.map(x => linhaComunidade(x)).join('')}</ul>`;
   } else {
     const b = bairros.find(x => x.properties.bairro === sel.id), pr = b.properties, f = forania[pr.forania];
     const ps = pr.paroquias.map(id => paroquia[id]);
@@ -940,7 +1012,7 @@ document.getElementById('modo-forania').onclick = () => setModo('forania');
 const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 const indice = [
   ...bairros.map(b => ({t:b.properties.bairro, d:'Bairro · '+paroquia[b.properties.principal].nome, s:{tipo:'bairro',id:b.properties.bairro}})),
-  ...Object.values(paroquia).flatMap(p => p.comunidades.filter(c => !c.matriz).map(c => ({t:c.nome+' ('+c.local+')', d:p.nome, s:c.bairro?{tipo:'bairro',id:c.bairro}:{tipo:'paroquia',id:p.id}}))),
+  ...igrejas.map(c => ({t:c.nome+' ('+c.local+')', d:(c.matriz?'Matriz · ':'Igreja · ')+c.paroquia.nome, s:{tipo:'igreja',id:c.id}})),
   ...Object.values(paroquia).map(p => ({t:p.nome, d:forania[p.forania].nome, s:{tipo:'paroquia',id:p.id}})),
   ...H.foranias.map(f => ({t:f.nome, d:'Forania', s:{tipo:'forania',id:f.id}}))
 ];
@@ -960,10 +1032,8 @@ const painel = document.getElementById('painel'), alca = document.getElementById
 function abrirGaveta(aberta){ painel.classList.toggle('collapsed', !aberta); alca.setAttribute('aria-expanded', aberta); document.getElementById('alca-ico').textContent = aberta ? 'Recolher ▾' : 'Abrir ▴'; setTimeout(() => map.invalidateSize(), 50); }
 alca.onclick = () => abrirGaveta(painel.classList.contains('collapsed'));
 
-let inicial = null;
-try { inicial = JSON.parse(localStorage.getItem('mapa-paroquias-sel')); } catch(e){}
-if (inicial && inicial.tipo && inicial.tipo !== 'arq') { try { selecionar(inicial); } catch(e){ selecionar(null,false); } } else render();
-if (window.matchMedia('(max-width:760px)').matches && !inicial) abrirGaveta(false);
+render(); estiloIgrejas(); atualizaPinos();
+if (window.matchMedia('(max-width:760px)').matches) abrirGaveta(false);
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => location.reload());
 })();
 </script>
