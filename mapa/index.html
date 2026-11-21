@@ -710,6 +710,7 @@ aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(
 .j-title{font:700 22px/1.05 var(--display);margin:4px 0 4px;padding-right:12px}
 .j-sub{color:var(--muted)}
 .j-sub .sw{width:9px;height:9px;margin-right:5px;vertical-align:0}
+.j-ok{margin-top:6px;font-size:12px;color:var(--ok)}
 .j-note{margin-top:6px;font-size:12px;color:var(--warn)}
 .j-acts{display:flex;flex-direction:column;gap:6px;margin-top:12px}
 .opt{font:600 13px var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--bg);color:var(--fg);cursor:pointer;text-align:left}
@@ -789,7 +790,7 @@ const corGrupo = id => CORES[id] || '#888';
 let modo = 'paroquia', sel = null; // sel: {tipo:'bairro'|'paroquia'|'forania'|'arq', id}
 
 const map = L.map('map', {zoomControl:true, attributionControl:true, zoomSnap:.25, minZoom:10, maxZoom:16});
-map.attributionControl.setPrefix(false).addAttribution('Bairros: IBGE, Censo 2022');
+map.attributionControl.setPrefix(false).addAttribution('Bairros: IBGE · Igrejas: Arquidiocese e © OpenStreetMap');
 const css = getComputedStyle(document.documentElement);
 const tok = n => css.getPropertyValue(n).trim();
 
@@ -889,7 +890,7 @@ function abrirJanelaIgreja(c){
   abrirJanela(c.pos, `<div class="j-eyebrow"><span class="sw" style="background:${corGrupo(p.id)}"></span>${c.matriz?'Igreja matriz':'Comunidade'}</div>
     <div class="j-title">${esc(c.nome)}</div>
     <div class="j-sub">${esc(c.local)}${c.ano?' · desde '+c.ano:''}<br>${esc(p.nome)}</div>
-    ${c.aprox?'<div class="j-note">Posição aproximada (dentro do bairro)</div>':''}
+    ${c.aprox?'<div class="j-note">Posição aproximada (dentro do bairro)</div>':'<div class="j-ok">Localização no mapa conferida</div>'}
     <div class="j-acts">${botao({tipo:'igreja',id:c.id},'Ver igreja',true)}${botao({tipo:'paroquia',id:p.id},'Ver paróquia')}</div>`);
 }
 function abrirJanelaBairro(pr, latlng){
@@ -972,7 +973,7 @@ function render(){
     h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:p.nome, s:{tipo:'paroquia',id:p.id}}, {t:c.nome}]);
     h += `<div class="j-eyebrow" style="margin-top:10px">${ICONE(corGrupo(p.id), c.matriz)} ${c.matriz?'Igreja matriz':'Comunidade'}</div><h2>${esc(c.nome)}</h2>`;
     h += `<dl class="facts"><dt>Localidade</dt><dd>${esc(c.local)}</dd>${c.bairro?`<dt>Bairro</dt><dd>${esc(c.bairro)}</dd>`:''}${c.ano?`<dt>Desde</dt><dd>${c.ano}</dd>`:''}<dt>Paróquia</dt><dd>${esc(p.nome)}</dd><dt>Forania</dt><dd>${esc(f.nome)}</dd>${c.matriz?`<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>`:''}</dl>`;
-    h += c.pos ? `<p class="note">${c.aprox?'O marcador está numa posição aproximada, dentro do bairro.':'Marcador na posição da igreja.'}</p>` : `<p class="note">Ainda sem localização no mapa.</p>`;
+    h += c.pos ? `<p class="note">${c.aprox?'O marcador está numa posição aproximada, dentro do bairro. A igreja não foi encontrada no OpenStreetMap.':(c.posicao==='endereco'?'Marcador posicionado pelo endereço da paróquia.':'Marcador na posição da igreja, conforme o OpenStreetMap.')}</p>` : `<p class="note">Ainda sem localização no mapa.</p>`;
     h += `<div class="j-acts" style="margin-top:12px">${botao({tipo:'paroquia',id:p.id},'Ver paróquia e todas as igrejas',true)}${c.bairro?botao({tipo:'bairro',id:c.bairro},'Ver bairro '+esc(c.bairro)):''}</div>`;
     const outras = p.comunidades.filter(x => x !== c);
     h += `<h3>Outras igrejas da paróquia (${outras.length})</h3><ul class="list">${outras.map(x => linhaComunidade(x)).join('')}</ul>`;

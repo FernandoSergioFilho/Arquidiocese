@@ -19,11 +19,12 @@ from collections import Counter, deque
 from pathlib import Path
 
 import geopandas as gpd
-from shapely.geometry import mapping, shape
+from shapely.geometry import Point, mapping, shape
 
 RAIZ = Path(__file__).resolve().parents[1]
 ARQ_SITE = RAIZ / "dados" / "paroquias_site.json"
 ARQ_LOCAIS = RAIZ / "dados" / "localidades_bairros.json"
+ARQ_COORD = RAIZ / "dados" / "coordenadas_igrejas.json"
 ARQ_SAIDA = RAIZ / "mapa" / "dados.json"
 ARQ_GEOJSON = RAIZ / "dados" / "bairros_ilha.geojson"
 FONTE = "https://arquifln.org.br/igrejas/{}/"
@@ -78,6 +79,8 @@ def campo(sobre, prefixo):
 def hierarquia():
     site = json.loads(ARQ_SITE.read_text(encoding="utf-8"))
     locais = json.loads(ARQ_LOCAIS.read_text(encoding="utf-8"))
+    coord = json.loads(ARQ_COORD.read_text(encoding="utf-8"))["igrejas"]
+    usadas = set()
     fs = {k: {"id": k, "nome": v[0], "fonte": v[1], "paroquias": [], "outras": []} for k, v in FORANIAS.items()}
     for p in site:
         f = fs[forania_id(p["forania"])]
@@ -90,8 +93,15 @@ def hierarquia():
             n = limpa(c["nome"])
             matriz = n.lower().startswith("matriz")
             n = re.sub(r"^Matriz:?\s*", "", n)
-            coms.append({"nome": n, "local": limpa(c.get("local", "")), "ano": c.get("ano") or None,
-                         "bairro": locais.get(c.get("local")), "matriz": matriz})
+            item = {"nome": n, "local": limpa(c.get("local", "")), "ano": c.get("ano") or None,
+                    "bairro": locais.get(c.get("local")), "matriz": matriz}
+            pid = IDS[p["slug"]]
+            for k in (f"{pid}|{c.get('local')}|{n}", f"{pid}|{c.get('local')}"):
+                if k in coord:
+                    item.update({"lat": coord[k]["lat"], "lng": coord[k]["lng"], "posicao": coord[k]["fonte"]})
+                    usadas.add(k)
+                    break
+            coms.append(item)
         coms.sort(key=lambda c: (not c["matriz"], c["nome"]))
         criada = campo(p["sobre"], "(Criada")
         f["paroquias"].append({
@@ -99,6 +109,9 @@ def hierarquia():
             "paroco": campo(p["sobre"], "Pároco"), "criada": criada.strip("()") if criada else None,
             "fonte": FONTE.format(p["slug"]), "comunidades": coms,
         })
+    faltou = set(coord) - usadas
+    if faltou:
+        sys.exit(f"Coordenadas sem igreja correspondente: {faltou}")
     return {"arquidiocese": "Arquidiocese de Florianópolis", "lido_em": "2026-11-21",
             "foranias": [fs["centro-sul"], fs["norte"]]}
 
@@ -109,6 +122,20 @@ def main(arq_bairros, arq_municipios):
     ilha = g[g.REGIAO_FUNCIONAL != "Continente"].reset_index(drop=True)
     continente = g[g.REGIAO_FUNCIONAL == "Continente"]
     nomes = list(ilha.NM_BAIRRO)
+
+    # Igrejas com coordenada: o bairro vem do ponto (mais preciso que a correspondência manual)
+    ilha4326 = ilha.to_crs(4326)
+    for f in hier["foranias"]:
+        for p in f["paroquias"]:
+            for c in p["comunidades"]:
+                if "lat" not in c:
+                    continue
+                dentro = ilha4326[ilha4326.contains(Point(c["lng"], c["lat"]))]
+                if len(dentro):
+                    b = dentro.NM_BAIRRO.iloc[0]
+                    if c["bairro"] != b:
+                        print(f"  bairro pelo ponto: {c['nome']} ({c['local']}): {c['bairro']} -> {b}")
+                    c["bairro"] = b
 
     # Paróquias presentes em cada bairro, a partir das comunidades localizadas
     presenca, matriz_em, forania_de = {}, {}, {}

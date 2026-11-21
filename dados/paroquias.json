@@ -20,7 +20,10 @@
        "local": "Saco dos Limões",
        "ano": "1966",
        "bairro": "Saco dos Limões",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.610245,
+       "lng": -48.530371,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -41,14 +44,20 @@
        "local": "Ressacada",
        "ano": "1995",
        "bairro": "Ressacada",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.669437,
+       "lng": -48.529587,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Rita de Cássia",
        "local": "Carianos",
        "ano": "1930",
        "bairro": "Carianos",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.662951,
+       "lng": -48.540691,
+       "posicao": "osm"
       },
       {
        "nome": "Senhor Bom Jesus",
@@ -62,14 +71,20 @@
        "local": "Costeira do Pirajubaé",
        "ano": "1982",
        "bairro": "Costeira do Pirajubaé",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.648742,
+       "lng": -48.521351,
+       "posicao": "osm"
       },
       {
        "nome": "São Pedro Apóstolo",
        "local": "Costeira do Pirajubaé",
        "ano": "1915",
        "bairro": "Costeira do Pirajubaé",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.63111,
+       "lng": -48.523437,
+       "posicao": "osm"
       }
      ]
     },
@@ -86,7 +101,10 @@
        "local": "Ribeirão da Ilha",
        "ano": "1809",
        "bairro": "Ribeirão da Ilha",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.718317,
+       "lng": -48.563181,
+       "posicao": "osm"
       },
       {
        "nome": "Bom Jesus dos Pescadores",
@@ -113,15 +131,21 @@
        "nome": "Nossa Senhora de Lourdes",
        "local": "Sertão",
        "ano": "1992",
-       "bairro": null,
-       "matriz": false
+       "bairro": "Costeira do Ribeirão",
+       "matriz": false,
+       "lat": -27.748957,
+       "lng": -48.548627,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Luzia e São Pedro",
        "local": "Naufragados",
        "ano": "1954",
-       "bairro": null,
-       "matriz": false
+       "bairro": "Caieira",
+       "matriz": false,
+       "lat": -27.83311,
+       "lng": -48.561091,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -134,15 +158,21 @@
        "nome": "Santo Estevão",
        "local": "Alto Ribeirão",
        "ano": "1926",
-       "bairro": "Alto Ribeirão",
-       "matriz": false
+       "bairro": "Alto Ribeirão Leste",
+       "matriz": false,
+       "lat": -27.706628,
+       "lng": -48.524536,
+       "posicao": "osm"
       },
       {
        "nome": "São José",
        "local": "Costeira do Ribeirão",
        "ano": "1953",
        "bairro": "Costeira do Ribeirão",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.752979,
+       "lng": -48.561796,
+       "posicao": "osm"
       },
       {
        "nome": "São João Batista",
@@ -155,8 +185,11 @@
        "nome": "São João Maria Vianney",
        "local": "Fazenda do Rio Tavares",
        "ano": "2000",
-       "bairro": null,
-       "matriz": false
+       "bairro": "Campeche Central",
+       "matriz": false,
+       "lat": -27.664553,
+       "lng": -48.502637,
+       "posicao": "osm"
       }
      ]
     },
@@ -173,7 +206,10 @@
        "local": "Agronômica",
        "ano": "1950",
        "bairro": "Agronômica",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.576909,
+       "lng": -48.542127,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora da Conceição",
@@ -194,7 +230,10 @@
        "local": "Morro do Horácio",
        "ano": "1999",
        "bairro": "Agronômica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.581181,
+       "lng": -48.532327,
+       "posicao": "osm"
       },
       {
        "nome": "São José e Nossa Senhora de Nazaré",
@@ -208,7 +247,10 @@
        "local": "B. Penitenciária",
        "ano": "1954",
        "bairro": "Agronômica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.577379,
+       "lng": -48.527909,
+       "posicao": "osm"
       },
       {
        "nome": "Transfiguração Senhor Bom Jesus",
@@ -232,7 +274,10 @@
        "local": "Centro",
        "ano": "1712",
        "bairro": "Centro",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.596445,
+       "lng": -48.549263,
+       "posicao": "osm"
       },
       {
        "nome": "Capela Nossa Senhora das Graças",
@@ -253,7 +298,10 @@
        "local": "Praça Getúlio Vargas",
        "ano": "1910",
        "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.593216,
+       "lng": -48.546044,
+       "posicao": "osm"
       },
       {
        "nome": "Igreja Menino Jesus de Praga",
@@ -281,7 +329,10 @@
        "local": "R. Mal. Guilherme",
        "ano": "1756",
        "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.595102,
+       "lng": -48.549429,
+       "posicao": "osm"
       },
       {
        "nome": "Igreja Sagrado Coração de Jesus",
@@ -302,7 +353,10 @@
        "local": "Rua Deodoro, 135",
        "ano": "1803",
        "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.596693,
+       "lng": -48.552107,
+       "posicao": "osm"
       },
       {
        "nome": "Igreja São Sebastião",
@@ -332,8 +386,11 @@
        "nome": "Nossa Senhora do Sagrado Coração",
        "local": "Campeche",
        "ano": null,
-       "bairro": "Campeche Central",
-       "matriz": true
+       "bairro": "Campeche Leste",
+       "matriz": true,
+       "lat": -27.685318,
+       "lng": -48.492194,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora Aparecida e São Cristóvão",
@@ -346,15 +403,21 @@
        "nome": "Nossa Senhora de Fátima e Santa Cruz",
        "local": "Costa de Dentro",
        "ano": null,
-       "bairro": "Pântano do Sul",
-       "matriz": false
+       "bairro": "Açores",
+       "matriz": false,
+       "lat": -27.781128,
+       "lng": -48.537415,
+       "posicao": "osm"
       },
       {
        "nome": "Sagrado Coração de Jesus",
        "local": "Areias do Morro das Pedras",
        "ano": null,
        "bairro": "Morro das Pedras",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.706653,
+       "lng": -48.505058,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Cruz e Santo Antônio",
@@ -368,21 +431,30 @@
        "local": "Armação",
        "ano": null,
        "bairro": "Armação",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.750594,
+       "lng": -48.502984,
+       "posicao": "osm"
       },
       {
        "nome": "São Pedro",
        "local": "Pântano do Sul",
        "ano": null,
        "bairro": "Pântano do Sul",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.780614,
+       "lng": -48.508066,
+       "posicao": "osm"
       },
       {
        "nome": "São Sebastião",
        "local": "Campeche",
        "ano": null,
-       "bairro": "Campeche Central",
-       "matriz": false
+       "bairro": "Campeche Norte",
+       "matriz": false,
+       "lat": -27.676569,
+       "lng": -48.483107,
+       "posicao": "osm"
       }
      ]
     },
@@ -398,8 +470,11 @@
        "nome": "Santa Teresinha do Menino Jesus",
        "local": "Prainha",
        "ano": "1996",
-       "bairro": "Centro",
-       "matriz": true
+       "bairro": "José Mendes",
+       "matriz": true,
+       "lat": -27.606155,
+       "lng": -48.545733,
+       "posicao": "endereco"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -413,7 +488,10 @@
        "local": "José Mendes",
        "ano": "1953",
        "bairro": "José Mendes",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.612297,
+       "lng": -48.547509,
+       "posicao": "osm"
       },
       {
        "nome": "São Sebastião",
@@ -437,14 +515,20 @@
        "local": "Centro",
        "ano": "1966",
        "bairro": "Centro",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.592917,
+       "lng": -48.554839,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora do Parto",
        "local": "Rua Conselheiro Mafra",
        "ano": "1837",
        "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.594726,
+       "lng": -48.556298,
+       "posicao": "osm"
       }
      ]
     }
@@ -480,7 +564,10 @@
        "local": "Lagoa",
        "ano": "1750",
        "bairro": "Lagoa",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.598171,
+       "lng": -48.467497,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -494,7 +581,10 @@
        "local": "Porto da Lagoa",
        "ano": "1992",
        "bairro": "Porto da Lagoa",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.632668,
+       "lng": -48.472326,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Cruz",
@@ -521,15 +611,21 @@
        "nome": "São Luiz Gonzaga",
        "local": "Rio Tavares",
        "ano": "1954",
-       "bairro": "Rio Tavares Central",
-       "matriz": false
+       "bairro": "Rio Tavares do Norte",
+       "matriz": false,
+       "lat": -27.64563,
+       "lng": -48.477071,
+       "posicao": "osm"
       },
       {
        "nome": "São Pedro",
        "local": "Barra da Lagoa",
        "ano": "1947",
        "bairro": "Barra da Lagoa",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.575428,
+       "lng": -48.423283,
+       "posicao": "osm"
       }
      ]
     },
@@ -546,7 +642,10 @@
        "local": "Santo Antônio de Lisboa",
        "ano": "1750",
        "bairro": "Santo Antônio",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.507869,
+       "lng": -48.518092,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Cruz",
@@ -591,7 +690,10 @@
        "local": "Canasvieiras",
        "ano": "2004",
        "bairro": "Canasvieiras",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.428807,
+       "lng": -48.454613,
+       "posicao": "osm"
       },
       {
        "nome": "Divino Espírito Santo",
@@ -612,7 +714,10 @@
        "local": "Ratones",
        "ano": "1924",
        "bairro": "Ratones",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.505192,
+       "lng": -48.490948,
+       "posicao": "osm"
       },
       {
        "nome": "Sagrada Face",
@@ -633,7 +738,10 @@
        "local": "Vargem Pequena",
        "ano": "1962",
        "bairro": "Vargem Pequena",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.469999,
+       "lng": -48.461553,
+       "posicao": "osm"
       },
       {
        "nome": "São Francisco de Assis",
@@ -646,8 +754,11 @@
        "nome": "São Francisco de Paula",
        "local": "Canasvieiras",
        "ano": "1833",
-       "bairro": "Canasvieiras",
-       "matriz": false
+       "bairro": "Jurere Leste",
+       "matriz": false,
+       "lat": -27.429817,
+       "lng": -48.476164,
+       "posicao": "osm"
       },
       {
        "nome": "São José",
@@ -668,7 +779,10 @@
        "local": "Ponta das Canas",
        "ano": "1915",
        "bairro": "Ponta das Canas",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.3946,
+       "lng": -48.433674,
+       "posicao": "osm"
       }
      ]
     },
@@ -692,14 +806,20 @@
        "local": "Sítio do Capivarí",
        "ano": "1954",
        "bairro": "Capivari",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.455387,
+       "lng": -48.397044,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Paulina",
        "local": "Muquém",
        "ano": "2001",
        "bairro": "Rio Vermelho",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.469078,
+       "lng": -48.412223,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -727,28 +847,40 @@
        "local": "Ingleses",
        "ano": "1998",
        "bairro": "Ingleses Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.438819,
+       "lng": -48.395663,
+       "posicao": "osm"
       },
       {
        "nome": "Senhor Bom Jesus",
        "local": "Vargem do Bom Jesus",
        "ano": "1885",
-       "bairro": "Vargem do Bom Jesus",
-       "matriz": false
+       "bairro": "Cachoeira do Bom Jesus",
+       "matriz": false,
+       "lat": -27.453479,
+       "lng": -48.427239,
+       "posicao": "osm"
       },
       {
        "nome": "São João Batista",
        "local": "Rio Vermelho",
        "ano": "1750",
        "bairro": "Rio Vermelho",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.493755,
+       "lng": -48.419684,
+       "posicao": "osm"
       },
       {
        "nome": "São Luiz Gonzaga",
        "local": "Cachoeira do B. Jesus",
        "ano": "1950",
-       "bairro": "Cachoeira do Bom Jesus",
-       "matriz": false
+       "bairro": "Cachoeira do Bom Jesus Leste",
+       "matriz": false,
+       "lat": -27.430603,
+       "lng": -48.422796,
+       "posicao": "osm"
       }
      ]
     },
@@ -765,7 +897,10 @@
        "local": "Trindade",
        "ano": "1853",
        "bairro": "Trindade",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.596659,
+       "lng": -48.521457,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -779,14 +914,20 @@
        "local": "Morro do Quilombo",
        "ano": "2004",
        "bairro": "Itacorubi",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.581372,
+       "lng": -48.494757,
+       "posicao": "osm"
       },
       {
        "nome": "Puríssimo Coração de Maria",
        "local": "Jardim Anchieta",
        "ano": "1933",
        "bairro": "Córrego Grande",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.596376,
+       "lng": -48.503698,
+       "posicao": "osm"
       },
       {
        "nome": "Santa Mônica",
@@ -800,14 +941,20 @@
        "local": "Pantanal",
        "ano": "1986",
        "bairro": "Pantanal",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.611281,
+       "lng": -48.521857,
+       "posicao": "osm"
       },
       {
        "nome": "São Bento",
        "local": "Itacorubi",
        "ano": "1904",
        "bairro": "Itacorubi",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.58238,
+       "lng": -48.50368,
+       "posicao": "osm"
       },
       {
        "nome": "São Francisco de Assis",
@@ -838,7 +985,10 @@
        "local": "Monte Verde",
        "ano": "1984",
        "bairro": "Monte Verde",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.555124,
+       "lng": -48.4968,
+       "posicao": "osm"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -873,7 +1023,10 @@
        "local": "João Paulo",
        "ano": null,
        "bairro": "João Paulo",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.563476,
+       "lng": -48.516423,
+       "posicao": "osm"
       }
      ]
     }

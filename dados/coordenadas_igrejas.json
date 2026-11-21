@@ -1,0 +1,361 @@
+{
+ "_sobre": "Posição das igrejas. Chave: paróquia|localidade[|nome]. fonte=osm: igreja cadastrada no OpenStreetMap (via Nominatim, 21/11/2026), conferida por nome e bairro; fonte=endereco: geocodificação do endereço (nível de rua).",
+ "igrejas": {
+  "boa-viagem|Saco dos Limões": {
+   "lat": -27.610245,
+   "lng": -48.530371,
+   "fonte": "osm",
+   "osm": "w131821108",
+   "nome_osm": "Paróquia Nossa Senhora da Boa Viagem"
+  },
+  "boa-viagem|Ressacada": {
+   "lat": -27.669437,
+   "lng": -48.529587,
+   "fonte": "osm",
+   "osm": "w247558866",
+   "nome_osm": "Capela Santa Catarina de Alexandria"
+  },
+  "boa-viagem|Carianos": {
+   "lat": -27.662951,
+   "lng": -48.540691,
+   "fonte": "osm",
+   "osm": "w247558871",
+   "nome_osm": "Capela Santa Rita de Cássia"
+  },
+  "boa-viagem|Costeira do Pirajubaé|São José Operário": {
+   "lat": -27.648742,
+   "lng": -48.521351,
+   "fonte": "osm",
+   "osm": "w131923016",
+   "nome_osm": "Capela São José"
+  },
+  "boa-viagem|Costeira do Pirajubaé|São Pedro Apóstolo": {
+   "lat": -27.63111,
+   "lng": -48.523437,
+   "fonte": "osm",
+   "osm": "w129928183",
+   "nome_osm": "Capela São Pedro Apóstolo"
+  },
+  "lapa|Ribeirão da Ilha": {
+   "lat": -27.718317,
+   "lng": -48.563181,
+   "fonte": "osm",
+   "osm": "w265515790",
+   "nome_osm": "Igreja Nossa Senhora da Lapa"
+  },
+  "lapa|Sertão": {
+   "lat": -27.748957,
+   "lng": -48.548627,
+   "fonte": "osm",
+   "osm": "w471184281",
+   "nome_osm": "Capela Nossas Senhora de Lourdes"
+  },
+  "lapa|Naufragados": {
+   "lat": -27.83311,
+   "lng": -48.561091,
+   "fonte": "osm",
+   "osm": "n9978778365",
+   "nome_osm": "Capela Santa Luzia e São Pedro"
+  },
+  "lapa|Alto Ribeirão": {
+   "lat": -27.706628,
+   "lng": -48.524536,
+   "fonte": "osm",
+   "osm": "w190135692",
+   "nome_osm": "Capela Santo Estêvão"
+  },
+  "lapa|Costeira do Ribeirão": {
+   "lat": -27.752979,
+   "lng": -48.561796,
+   "fonte": "osm",
+   "osm": "w265345459",
+   "nome_osm": "Capela São José"
+  },
+  "lapa|Fazenda do Rio Tavares": {
+   "lat": -27.664553,
+   "lng": -48.502637,
+   "fonte": "osm",
+   "osm": "w129139502",
+   "nome_osm": "Paróquia São João Maria Vianney"
+  },
+  "lourdes|Agronômica": {
+   "lat": -27.576909,
+   "lng": -48.542127,
+   "fonte": "osm",
+   "osm": "w161931449",
+   "nome_osm": "Paróquia São Luiz"
+  },
+  "lourdes|B. Penitenciária": {
+   "lat": -27.577379,
+   "lng": -48.527909,
+   "fonte": "osm",
+   "osm": "w415815094",
+   "nome_osm": "Igreja São João Batista"
+  },
+  "lourdes|Morro do Horácio": {
+   "lat": -27.581181,
+   "lng": -48.532327,
+   "fonte": "osm",
+   "osm": "w1425915603",
+   "nome_osm": "Paróquia Nossa Senhora Aparecida"
+  },
+  "desterro|Centro": {
+   "lat": -27.596445,
+   "lng": -48.549263,
+   "fonte": "osm",
+   "osm": "w131337293",
+   "nome_osm": "Catedral Metropolitana"
+  },
+  "desterro|Praça Getúlio Vargas": {
+   "lat": -27.593216,
+   "lng": -48.546044,
+   "fonte": "osm",
+   "osm": "w673414588",
+   "nome_osm": "Capela do Divino Espírito Santo"
+  },
+  "desterro|R. Mal. Guilherme": {
+   "lat": -27.595102,
+   "lng": -48.549429,
+   "fonte": "osm",
+   "osm": "w552374453",
+   "nome_osm": "Igreja Nossa Senhora do Rosário"
+  },
+  "desterro|Rua Deodoro, 135": {
+   "lat": -27.596693,
+   "lng": -48.552107,
+   "fonte": "osm",
+   "osm": "w601402567",
+   "nome_osm": "Paróquia São Francisco"
+  },
+  "sagrado-coracao|Campeche|São Sebastião": {
+   "lat": -27.676569,
+   "lng": -48.483107,
+   "fonte": "osm",
+   "osm": "w139526470",
+   "nome_osm": "Igreja São Sebastião do Campeche"
+  },
+  "sagrado-coracao|Areias do Morro das Pedras": {
+   "lat": -27.706653,
+   "lng": -48.505058,
+   "fonte": "osm",
+   "osm": "w746695655",
+   "nome_osm": "Igreja Sagrado Coração de jesus"
+  },
+  "sagrado-coracao|Costa de Dentro": {
+   "lat": -27.781128,
+   "lng": -48.537415,
+   "fonte": "osm",
+   "osm": "w171893886",
+   "nome_osm": "Capela Santa Cruz Nossa Senhora de Fátima"
+  },
+  "sagrado-coracao|Armação": {
+   "lat": -27.750594,
+   "lng": -48.502984,
+   "fonte": "osm",
+   "osm": "w243318915",
+   "nome_osm": "Paróquia Santana"
+  },
+  "sagrado-coracao|Pântano do Sul": {
+   "lat": -27.780614,
+   "lng": -48.508066,
+   "fonte": "osm",
+   "osm": "w244964328",
+   "nome_osm": "Capela São Pedro"
+  },
+  "santa-teresinha|José Mendes": {
+   "lat": -27.612297,
+   "lng": -48.547509,
+   "fonte": "osm",
+   "osm": "w721045057",
+   "nome_osm": "Paróquia São Judas Tadeu"
+  },
+  "santo-antonio|Centro": {
+   "lat": -27.592917,
+   "lng": -48.554839,
+   "fonte": "osm",
+   "osm": "w226063140",
+   "nome_osm": "Igreja de Santo Antônio"
+  },
+  "santo-antonio|Rua Conselheiro Mafra": {
+   "lat": -27.594726,
+   "lng": -48.556298,
+   "fonte": "osm",
+   "osm": "w1037000720",
+   "nome_osm": "Nossa Senhora do Bom Parto"
+  },
+  "lagoa|Lagoa": {
+   "lat": -27.598171,
+   "lng": -48.467497,
+   "fonte": "osm",
+   "osm": "w213868262",
+   "nome_osm": "Capela de Nossa Senhora da Conceição da Lagoa"
+  },
+  "lagoa|Porto da Lagoa": {
+   "lat": -27.632668,
+   "lng": -48.472326,
+   "fonte": "osm",
+   "osm": "n5302128980",
+   "nome_osm": "Capela Santa Cruz"
+  },
+  "lagoa|Rio Tavares": {
+   "lat": -27.64563,
+   "lng": -48.477071,
+   "fonte": "osm",
+   "osm": "w172740259",
+   "nome_osm": "Capela São Luiz Gonzaga"
+  },
+  "lagoa|Barra da Lagoa": {
+   "lat": -27.575428,
+   "lng": -48.423283,
+   "fonte": "osm",
+   "osm": "n5105818923",
+   "nome_osm": "Igreja São Pedro"
+  },
+  "necessidades|Santo Antônio de Lisboa": {
+   "lat": -27.507869,
+   "lng": -48.518092,
+   "fonte": "osm",
+   "osm": "w263197521",
+   "nome_osm": "Paróquia de Nossa Senhora das Necessidades"
+  },
+  "guadalupe|Canasvieiras|Nossa Senhora de Guadalupe": {
+   "lat": -27.428807,
+   "lng": -48.454613,
+   "fonte": "osm",
+   "osm": "w233899398",
+   "nome_osm": "Paróquia Nossa Senhora de Guadalupe"
+  },
+  "guadalupe|Ratones": {
+   "lat": -27.505192,
+   "lng": -48.490948,
+   "fonte": "osm",
+   "osm": "w243333809",
+   "nome_osm": "Paróquia Nossa Senhora dos Remédios"
+  },
+  "guadalupe|Vargem Pequena": {
+   "lat": -27.469999,
+   "lng": -48.461553,
+   "fonte": "osm",
+   "osm": "w246460870",
+   "nome_osm": "Capela São Brás"
+  },
+  "guadalupe|Canasvieiras|São Francisco de Paula": {
+   "lat": -27.429817,
+   "lng": -48.476164,
+   "fonte": "osm",
+   "osm": "w661616737",
+   "nome_osm": "Paróquia de São Francisco de Paula"
+  },
+  "guadalupe|Ponta das Canas": {
+   "lat": -27.3946,
+   "lng": -48.433674,
+   "fonte": "osm",
+   "osm": "w661611521",
+   "nome_osm": "Paróquia de São Pedro"
+  },
+  "ingleses|Ingleses": {
+   "lat": -27.438819,
+   "lng": -48.395663,
+   "fonte": "osm",
+   "osm": "w203430113",
+   "nome_osm": "Santuário do Sagrado Coração de Jesus"
+  },
+  "ingleses|Sítio do Capivarí": {
+   "lat": -27.455387,
+   "lng": -48.397044,
+   "fonte": "osm",
+   "osm": "w760648587",
+   "nome_osm": "Paróquia Santa Catarina de Alexandria"
+  },
+  "ingleses|Muquém": {
+   "lat": -27.469078,
+   "lng": -48.412223,
+   "fonte": "osm",
+   "osm": "w555665009",
+   "nome_osm": "Igreja Santa Paulina"
+  },
+  "ingleses|Rio Vermelho": {
+   "lat": -27.493755,
+   "lng": -48.419684,
+   "fonte": "osm",
+   "osm": "w265943894",
+   "nome_osm": "Capela São João Batista do Rio Vermelho"
+  },
+  "ingleses|Cachoeira do B. Jesus": {
+   "lat": -27.430603,
+   "lng": -48.422796,
+   "fonte": "osm",
+   "osm": "w672350175",
+   "nome_osm": "Paróquia São Luiz Gonzaga"
+  },
+  "ingleses|Vargem do Bom Jesus": {
+   "lat": -27.453479,
+   "lng": -48.427239,
+   "fonte": "osm",
+   "osm": "w662221080",
+   "nome_osm": "Igreja Senhor Bom Jesus"
+  },
+  "trindade|Trindade": {
+   "lat": -27.596659,
+   "lng": -48.521457,
+   "fonte": "osm",
+   "osm": "w263222374",
+   "nome_osm": "Santíssima Trindade"
+  },
+  "trindade|Morro do Quilombo": {
+   "lat": -27.581372,
+   "lng": -48.494757,
+   "fonte": "osm",
+   "osm": "w670727058",
+   "nome_osm": "Igreja de Nossa Senhora de Guadalupe"
+  },
+  "trindade|Jardim Anchieta": {
+   "lat": -27.596376,
+   "lng": -48.503698,
+   "fonte": "osm",
+   "osm": "w387000105",
+   "nome_osm": "Igreja Puríssimo Coração de Maria"
+  },
+  "trindade|Pantanal": {
+   "lat": -27.611281,
+   "lng": -48.521857,
+   "fonte": "osm",
+   "osm": "w416832283",
+   "nome_osm": "Igreja Santo Agostinho"
+  },
+  "trindade|Itacorubi": {
+   "lat": -27.58238,
+   "lng": -48.50368,
+   "fonte": "osm",
+   "osm": "w133627217",
+   "nome_osm": "Capela São Bento"
+  },
+  "sao-francisco-xavier|Monte Verde": {
+   "lat": -27.555124,
+   "lng": -48.4968,
+   "fonte": "osm",
+   "osm": "w559860654",
+   "nome_osm": "Paróquia São Francisco Xavier Arquidiocese"
+  },
+  "sao-francisco-xavier|João Paulo": {
+   "lat": -27.563476,
+   "lng": -48.516423,
+   "fonte": "osm",
+   "osm": "w243318920",
+   "nome_osm": "Paróquia São Miguel"
+  },
+  "santa-teresinha|Prainha": {
+   "lat": -27.606155,
+   "lng": -48.545733,
+   "fonte": "endereco",
+   "endereco": "Rua Treze de Maio, 62"
+  },
+  "sagrado-coracao|Campeche|Nossa Senhora do Sagrado Coração": {
+   "lat": -27.685318,
+   "lng": -48.492194,
+   "fonte": "osm",
+   "osm": "w132666491",
+   "nome_osm": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião"
+  }
+ }
+}

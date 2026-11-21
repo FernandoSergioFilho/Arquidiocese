@@ -1,0 +1,576 @@
+[
+{
+"osm": "n9978778365",
+"nome": "Capela Santa Luzia e São Pedro",
+"lat": -27.8331098,
+"lng": -48.5610909,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w265345459",
+"nome": "Capela São José",
+"lat": -27.7529787,
+"lng": -48.5617963,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w265515790",
+"nome": "Igreja Nossa Senhora da Lapa",
+"lat": -27.7183173,
+"lng": -48.5631814,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "n8627192585",
+"nome": "Igreja Santo Expedito",
+"lat": -27.6821128,
+"lng": -48.5674044,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w601402567",
+"nome": "Paróquia São Francisco",
+"lat": -27.596693,
+"lng": -48.5521065,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w731203316",
+"nome": "Paróquia Senhor Bom Jesus dos Aflitos",
+"lat": -27.5924231,
+"lng": -48.5751637,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w639379332",
+"nome": "Igreja São Judas Tadeu",
+"lat": -27.6003897,
+"lng": -48.5811195,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w296952698",
+"nome": "Igreja Nossa Senhora do Carmo",
+"lat": -27.6087674,
+"lng": -48.5793098,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w1037000720",
+"nome": "Nossa Senhora do Bom Parto",
+"lat": -27.5947259,
+"lng": -48.5562982,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w602259198",
+"nome": "",
+"lat": -27.6038329,
+"lng": -48.581341,
+"denominacao": null
+},
+{
+"osm": "w226063140",
+"nome": "Igreja de Santo Antônio",
+"lat": -27.5929168,
+"lng": -48.5548393,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w304158424",
+"nome": "Santuário Nossa Senhora de Fátima",
+"lat": -27.5881923,
+"lng": -48.5809077,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w171893886",
+"nome": "Capela Santa Cruz Nossa Senhora de Fátima",
+"lat": -27.7811282,
+"lng": -48.5374147,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w471184281",
+"nome": "Capela Nossas Senhora de Lourdes",
+"lat": -27.7489567,
+"lng": -48.5486268,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w190135692",
+"nome": "Capela Santo Estêvão",
+"lat": -27.7066276,
+"lng": -48.5245364,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w247558866",
+"nome": "Capela Santa Catarina de Alexandria",
+"lat": -27.6694369,
+"lng": -48.529587,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w247558871",
+"nome": "Capela Santa Rita de Cássia",
+"lat": -27.6629511,
+"lng": -48.5406907,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w129928183",
+"nome": "Capela São Pedro Apóstolo",
+"lat": -27.6311105,
+"lng": -48.5234367,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w131337293",
+"nome": "Catedral Metropolitana",
+"lat": -27.5964453,
+"lng": -48.5492633,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w552374453",
+"nome": "Igreja Nossa Senhora do Rosário",
+"lat": -27.5951017,
+"lng": -48.5494292,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w131821108",
+"nome": "Paróquia Nossa Senhora da Boa Viagem",
+"lat": -27.6102447,
+"lng": -48.5303713,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w673414588",
+"nome": "Capela do Divino Espírito Santo",
+"lat": -27.5932164,
+"lng": -48.5460438,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w721045057",
+"nome": "Paróquia São Judas Tadeu",
+"lat": -27.6122973,
+"lng": -48.5475089,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w744782765",
+"nome": "Paróquia Nossa Senhora Aparecida",
+"lat": -27.5947685,
+"lng": -48.5328299,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w416832283",
+"nome": "Igreja Santo Agostinho",
+"lat": -27.6112811,
+"lng": -48.5218572,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w193446100",
+"nome": "",
+"lat": -27.5979156,
+"lng": -48.5215133,
+"denominacao": null
+},
+{
+"osm": "w292899793",
+"nome": "Igreja Evangélica de Confissão Luterana",
+"lat": -27.5938822,
+"lng": -48.5504316,
+"denominacao": null
+},
+{
+"osm": "w263222374",
+"nome": "Santíssima Trindade",
+"lat": -27.5966594,
+"lng": -48.5214568,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w692896343",
+"nome": "",
+"lat": -27.5932629,
+"lng": -48.5436571,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w161931449",
+"nome": "Paróquia São Luiz",
+"lat": -27.576909,
+"lng": -48.5421273,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w140604067",
+"nome": "Igreja do Racionalismo Cristão",
+"lat": -27.5766003,
+"lng": -48.529003,
+"denominacao": null
+},
+{
+"osm": "w1425915603",
+"nome": "Paróquia Nossa Senhora Aparecida",
+"lat": -27.5811809,
+"lng": -48.5323273,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w415815094",
+"nome": "Igreja São João Batista",
+"lat": -27.5773794,
+"lng": -48.5279094,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w420540234",
+"nome": "Igreja de Jesus Cristo dos Santos dos Últimos Dias",
+"lat": -27.5820864,
+"lng": -48.5252624,
+"denominacao": null
+},
+{
+"osm": "w973339883",
+"nome": "Capela Nossa Senhora dos Navegantes",
+"lat": -27.5356515,
+"lng": -48.5264949,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w244964328",
+"nome": "Capela São Pedro",
+"lat": -27.7806138,
+"lng": -48.5080659,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w243318915",
+"nome": "Paróquia Santana",
+"lat": -27.7505944,
+"lng": -48.5029844,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w746695655",
+"nome": "Igreja Sagrado Coração de jesus",
+"lat": -27.7066533,
+"lng": -48.5050583,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w132666491",
+"nome": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião",
+"lat": -27.6853184,
+"lng": -48.4921937,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w232079614",
+"nome": "Igreja do Evangelho Quadrangular",
+"lat": -27.6935945,
+"lng": -48.4998401,
+"denominacao": null
+},
+{
+"osm": "w232079613",
+"nome": "Igreja Universal",
+"lat": -27.6848705,
+"lng": -48.4950151,
+"denominacao": null
+},
+{
+"osm": "w129139502",
+"nome": "Paróquia São João Maria Vianney",
+"lat": -27.6645532,
+"lng": -48.5026366,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w131923016",
+"nome": "Capela São José",
+"lat": -27.6487421,
+"lng": -48.5213506,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w387000105",
+"nome": "Igreja Puríssimo Coração de Maria",
+"lat": -27.5963761,
+"lng": -48.5036979,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w259398524",
+"nome": "Templo Ecumênico",
+"lat": -27.5918418,
+"lng": -48.5182776,
+"denominacao": null
+},
+{
+"osm": "w43224894",
+"nome": "Centro Ecumênico",
+"lat": -27.6001823,
+"lng": -48.5199318,
+"denominacao": null
+},
+{
+"osm": "w437566984",
+"nome": "Gruta Nossa Senhora de Lourdes",
+"lat": -27.5908159,
+"lng": -48.515982,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w133627217",
+"nome": "Capela São Bento",
+"lat": -27.5823801,
+"lng": -48.5036797,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w670727058",
+"nome": "Igreja de Nossa Senhora de Guadalupe",
+"lat": -27.5813724,
+"lng": -48.4947574,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w243318920",
+"nome": "Paróquia São Miguel",
+"lat": -27.5634763,
+"lng": -48.5164234,
+"denominacao": null
+},
+{
+"osm": "n6281114101",
+"nome": "Gruta de Nossa Senhora de Guadalupe",
+"lat": -27.5814099,
+"lng": -48.4949103,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "n5555398148",
+"nome": "Comunidade Evangélica Sara Nossa Terra",
+"lat": -27.578935,
+"lng": -48.5057826,
+"denominacao": null
+},
+{
+"osm": "w559860654",
+"nome": "Paróquia São Francisco Xavier Arquidiocese",
+"lat": -27.5551236,
+"lng": -48.4968004,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w263197521",
+"nome": "Paróquia de Nossa Senhora das Necessidades",
+"lat": -27.5078693,
+"lng": -48.5180922,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w946525786",
+"nome": "",
+"lat": -27.4477566,
+"lng": -48.5023303,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w231768860",
+"nome": "",
+"lat": -27.4317778,
+"lng": -48.5177889,
+"denominacao": null
+},
+{
+"osm": "w139526470",
+"nome": "Igreja São Sebastião do Campeche",
+"lat": -27.6765691,
+"lng": -48.4831072,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w172740259",
+"nome": "Capela São Luiz Gonzaga",
+"lat": -27.6456301,
+"lng": -48.4770707,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w1432428387",
+"nome": "Comunidade Cristã Ichtus",
+"lat": -27.6583238,
+"lng": -48.4875933,
+"denominacao": null
+},
+{
+"osm": "n5302128980",
+"nome": "Capela Santa Cruz",
+"lat": -27.6326683,
+"lng": -48.4723257,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "n5659370023",
+"nome": "",
+"lat": -27.634524,
+"lng": -48.4705723,
+"denominacao": null
+},
+{
+"osm": "w213868262",
+"nome": "Capela de Nossa Senhora da Conceição da Lagoa",
+"lat": -27.5981706,
+"lng": -48.4674969,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w243333809",
+"nome": "Paróquia Nossa Senhora dos Remédios",
+"lat": -27.5051917,
+"lng": -48.4909478,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w246460870",
+"nome": "Capela São Brás",
+"lat": -27.4699987,
+"lng": -48.4615528,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w661616737",
+"nome": "Paróquia de São Francisco de Paula",
+"lat": -27.429817,
+"lng": -48.4761637,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w663254298",
+"nome": "Paróquia Nossa Senhora de Guadalupe",
+"lat": -27.4692089,
+"lng": -48.4443563,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "n4427825294",
+"nome": "Igreja Cristã Primitiva",
+"lat": -27.468366,
+"lng": -48.4529809,
+"denominacao": null
+},
+{
+"osm": "n13965093521",
+"nome": "Igreja Cristã Maranata",
+"lat": -27.4571791,
+"lng": -48.4508469,
+"denominacao": null
+},
+{
+"osm": "w652753752",
+"nome": "",
+"lat": -27.4310452,
+"lng": -48.4453569,
+"denominacao": null
+},
+{
+"osm": "w233899398",
+"nome": "Paróquia Nossa Senhora de Guadalupe",
+"lat": -27.4288074,
+"lng": -48.4546132,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w661611521",
+"nome": "Paróquia de São Pedro",
+"lat": -27.3946,
+"lng": -48.4336741,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "n5105818923",
+"nome": "Igreja São Pedro",
+"lat": -27.5754277,
+"lng": -48.423283,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w265943894",
+"nome": "Capela São João Batista do Rio Vermelho",
+"lat": -27.4937552,
+"lng": -48.419684,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w555665009",
+"nome": "Igreja Santa Paulina",
+"lat": -27.4690783,
+"lng": -48.4122232,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w973783810",
+"nome": "A Igreja de Jesus Cristo dos Santos dos Últimos Dias",
+"lat": -27.4384429,
+"lng": -48.4072951,
+"denominacao": null
+},
+{
+"osm": "w662221080",
+"nome": "Igreja Senhor Bom Jesus",
+"lat": -27.4534788,
+"lng": -48.4272393,
+"denominacao": null
+},
+{
+"osm": "n13179474128",
+"nome": "Paróquia Sagrado Coração de Jesus",
+"lat": -27.4473603,
+"lng": -48.4278155,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w672350175",
+"nome": "Paróquia São Luiz Gonzaga",
+"lat": -27.4306033,
+"lng": -48.422796,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w1531795842",
+"nome": "",
+"lat": -27.3947293,
+"lng": -48.423598,
+"denominacao": null
+},
+{
+"osm": "w203430113",
+"nome": "Santuário do Sagrado Coração de Jesus",
+"lat": -27.4388188,
+"lng": -48.3956631,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w663008766",
+"nome": "Igreja do Sagrado Coraçāo de Jesus",
+"lat": -27.4440109,
+"lng": -48.3764347,
+"denominacao": "roman_catholic"
+},
+{
+"osm": "w760648587",
+"nome": "Paróquia Santa Catarina de Alexandria",
+"lat": -27.4553869,
+"lng": -48.3970441,
+"denominacao": "roman_catholic"
+}
+]
