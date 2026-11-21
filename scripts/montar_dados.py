@@ -151,7 +151,9 @@ def main(arq_bairros, arq_municipios):
     simpl = ilha.geometry.simplify(TOLERANCIA_M).to_crs(4326)
     feats = []
     for i, n in enumerate(nomes):
-        props = {"bairro": n, "distrito": ilha.NM_DIST.iloc[i], "pop": int(round(ilha.POP.iloc[i] or 0))}
+        rp = simpl.iloc[i].representative_point()
+        props = {"bairro": n, "distrito": ilha.NM_DIST.iloc[i], "pop": int(round(ilha.POP.iloc[i] or 0)),
+                 "ponto": [round(rp.y, 5), round(rp.x, 5)]}
         if n in presenca:
             pr = principal(n)
             props.update({"principal": pr, "paroquias": [pr] + [x for x in presenca[n] if x != pr],

@@ -86,6 +86,13 @@ aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(
 .k-solid{width:16px;height:10px;border-radius:2px;background:var(--muted);opacity:.85}
 .k-est{width:16px;height:10px;border-radius:2px;border:1.5px dashed var(--muted);opacity:.85;box-sizing:border-box;background:color-mix(in srgb,var(--muted) 30%,transparent)}
 .handle{display:none}
+.pin{display:flex;align-items:center;gap:5px;white-space:nowrap;font:600 11px var(--body);color:var(--fg);pointer-events:auto}
+.pin i{flex:none;width:12px;height:12px;border-radius:50%;background:var(--pc);border:2px solid var(--panel);box-shadow:0 1px 3px rgb(0 0 0/.35)}
+.pin.matriz i{width:16px;height:16px;border-radius:4px;transform:rotate(45deg)}
+.pin span{text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo)}
+.pin.sel i{outline:3px solid var(--fg);outline-offset:1px}
+.hide-pinlbl .pin span{display:none}
+.com-pinos .lbl:not(.big){display:none}
 @media (max-width:760px){
   .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
   header{gap:8px}
@@ -204,6 +211,30 @@ map.setMaxBounds(camada.getBounds().pad(.3));
 const atualizaRotulos = () => document.getElementById('map').classList.toggle('hide-lbl', map.getZoom() < 12.75);
 map.on('zoomend', atualizaRotulos); atualizaRotulos();
 
+// Marcadores das comunidades da paróquia selecionada (posição aproximada: dentro do bairro)
+const pinos = L.layerGroup().addTo(map);
+const pontoDe = nome => bairros.find(b => b.properties.bairro === nome).properties.ponto;
+function desenhaPinos(){
+  pinos.clearLayers();
+  if (!sel || sel.tipo !== 'paroquia') return;
+  const p = paroquia[sel.id], porBairro = {};
+  p.comunidades.forEach(c => { if (c.bairro) (porBairro[c.bairro] = porBairro[c.bairro] || []).push(c); });
+  Object.entries(porBairro).forEach(([b, cs]) => {
+    const [la, lo] = pontoDe(b), n = cs.length;
+    cs.forEach((c, k) => {
+      const ang = 2*Math.PI*k/n, r = n > 1 ? 0.0022 + 0.0008*n : 0;
+      const m = L.marker([la + r*Math.cos(ang), lo + r*Math.sin(ang)/0.885], {
+        icon: L.divIcon({className:'', html:`<div class="pin${c.matriz?' matriz':''}" style="--pc:${corGrupo(p.id)}"><i></i><span>${esc(c.nome)}</span></div>`, iconSize:null, iconAnchor:[c.matriz?10:8, c.matriz?10:8]}),
+        keyboard:false, riseOnHover:true
+      }).bindTooltip(`<b>${c.matriz?'Matriz · ':''}${esc(c.nome)}</b>${esc(c.local)}${c.ano?' · desde '+c.ano:''}<br><span style="color:var(--muted)">Posição aproximada, no bairro ${esc(b)}</span>`, {className:'tip', direction:'top', offset:[0,-10]});
+      m.on('click', () => selecionar({tipo:'bairro', id:b}, false));
+      pinos.addLayer(m);
+    });
+  });
+}
+const atualizaPinos = () => document.getElementById('map').classList.toggle('hide-pinlbl', map.getZoom() < 12.5);
+map.on('zoomend', atualizaPinos);
+
 function camadaDe(nome){ let r; camada.eachLayer(l => { if (l.feature.properties.bairro === nome) r = l; }); return r; }
 function boundsDe(lista){ const b = L.latLngBounds([]); lista.forEach(f => b.extend(camadaDe(f.properties.bairro).getBounds())); return b; }
 
@@ -214,9 +245,11 @@ function selecionar(s, voar=true){
   if (voar){
     if (!sel) map.flyToBounds(limites, {padding:[10,10], duration:.6});
     else if (sel.tipo === 'bairro') map.flyToBounds(camadaDe(sel.id).getBounds(), {padding:[60,60], maxZoom:14, duration:.6});
-    else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {padding:[30,30], duration:.6});
+    else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {padding:[40,40], maxZoom:14, duration:.6});
     else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(bairros.filter(b => b.properties.forania === sel.id)), {padding:[20,20], duration:.6});
   }
+  desenhaPinos(); atualizaPinos();
+  document.getElementById('map').classList.toggle('com-pinos', !!(sel && sel.tipo === 'paroquia'));
   render();
   try { localStorage.setItem('mapa-paroquias-sel', JSON.stringify(s)); } catch(e){}
 }
@@ -260,8 +293,9 @@ function render(){
     h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:'Paróquia'}]);
     h += `<h2>${esc(p.nome)}</h2>`;
     h += `<dl class="facts">${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd></dl>`;
-    h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3>`;
-    h += `<ul class="list">${p.comunidades.map(linhaComunidade).join('')}</ul>`;
+    const semB = p.comunidades.filter(c => !c.bairro).length;
+    h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3><p class="note" style="margin:-2px 0 8px">Todas aparecem marcadas no mapa, dentro do bairro onde ficam (posição aproximada)${semB?`; ${semB} ainda sem bairro identificado aparece${semB>1?'m':''} só nesta lista`:''}. Toque numa para ir ao bairro.</p>`;
+    h += `<ul class="list">${p.comunidades.map(c => linhaComunidade(c)).join('')}</ul>`;
     h += `<h3>Bairros confirmados</h3><ul class="list">${conf.map(linhaBairro).join('')}</ul>`;
     if (est.length) h += `<h3>Bairros estimados</h3><ul class="list">${est.map(linhaBairro).join('')}</ul>`;
     if (p.fonte) h += `<p class="note">Fonte: <a href="${p.fonte}" target="_blank" rel="noopener">página da paróquia</a>.</p>`;
