@@ -1,0 +1,34 @@
+{
+  "_sobre": "Hierarquia da Arquidiocese de Florianópolis, recorte Ilha de Santa Catarina. Dados levantados por busca na web em 21/11/2026, sem acesso direto ao site arquifln.org.br. Tudo com conferir=true precisa ser validado na fonte oficial.",
+  "arquidiocese": "Arquidiocese de Florianópolis",
+  "foranias": [
+    {
+      "id": "centro-sul",
+      "nome": "Forania Florianópolis Centro-Sul",
+      "fonte": "https://arquifln.org.br/organizacao/1070-2/florianopolis-centro-sul",
+      "paroquias": [
+        {"id": "catedral", "nome": "Catedral Metropolitana Nossa Senhora do Desterro", "sede": "Centro", "comunidades": []},
+        {"id": "santo-antonio-centro", "nome": "Paróquia Santo Antônio", "sede": "Centro", "comunidades": []},
+        {"id": "santa-catarina", "nome": "Paróquia Santa Catarina de Alexandria (Colégio Catarinense)", "sede": "Centro", "comunidades": []},
+        {"id": "santa-teresinha", "nome": "Paróquia Santa Teresinha (Prainha)", "sede": "Centro", "comunidades": []},
+        {"id": "lourdes", "nome": "Paróquia Nossa Senhora de Lourdes e São Luís", "sede": "Agronômica", "comunidades": []},
+        {"id": "boa-viagem", "nome": "Paróquia Nossa Senhora da Boa Viagem", "sede": "Saco dos Limões", "comunidades": []},
+        {"id": "lapa", "nome": "Paróquia Nossa Senhora da Lapa", "sede": "Ribeirão da Ilha", "comunidades": []},
+        {"id": "campeche", "nome": "Paróquia Sagrado Coração de Jesus (Campeche)", "sede": "Campeche Central", "comunidades": []}
+      ]
+    },
+    {
+      "id": "norte",
+      "nome": "Forania Florianópolis Norte",
+      "fonte": "https://arquifln.org.br/wpl_causes_category/forania-florianopolis-norte",
+      "paroquias": [
+        {"id": "lagoa", "nome": "Paróquia Nossa Senhora da Conceição (Lagoa da Conceição)", "sede": "Lagoa", "comunidades": []},
+        {"id": "necessidades", "nome": "Paróquia Nossa Senhora das Necessidades", "sede": "Santo Antônio", "comunidades": []},
+        {"id": "guadalupe", "nome": "Paróquia Nossa Senhora de Guadalupe (Canasvieiras)", "sede": "Canasvieiras", "comunidades": []},
+        {"id": "sao-francisco-xavier", "nome": "Paróquia São Francisco Xavier", "sede": "Monte Verde", "comunidades": [{"nome": "Nossa Senhora de Fátima", "bairro": null}], "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-francisco-xavier"},
+        {"id": "ingleses", "nome": "Paróquia Sagrado Coração de Jesus (Ingleses)", "sede": "Ingleses Centro", "comunidades": []},
+        {"id": "trindade", "nome": "Paróquia Santíssima Trindade", "sede": "Trindade", "conferir": "A Wikipédia e o site da Arquidiocese divergem sobre a forania desta paróquia.", "comunidades": [{"nome": "Santa Mônica", "bairro": "Santa Mônica"}, {"nome": "São Francisco de Assis", "bairro": null}, {"nome": "Nossa Senhora de Guadalupe", "bairro": null}], "fonte": "https://arquifln.org.br/igrejas/paroquia-santissima-trindade"}
+      ]
+    }
+  ]
+}

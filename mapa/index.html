@@ -1,0 +1,923 @@
+<title>Mapa das Paróquias da Ilha</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* required styles */
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+.leaflet-container {
+	overflow: hidden;
+	}
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	  -webkit-user-drag: none;
+	}
+/* Prevents IE11 from highlighting tiles in blue */
+.leaflet-tile::selection {
+	background: transparent;
+}
+/* Safari renders non-retina tile on retina better with this, but Chrome is worse */
+.leaflet-safari .leaflet-tile {
+	image-rendering: -webkit-optimize-contrast;
+	}
+/* hack that prevents hw layers "stretching" when loading new tiles */
+.leaflet-safari .leaflet-tile-container {
+	width: 1600px;
+	height: 1600px;
+	-webkit-transform-origin: 0 0;
+	}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	display: block;
+	}
+/* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */
+/* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */
+.leaflet-container .leaflet-overlay-pane svg {
+	max-width: none !important;
+	max-height: none !important;
+	}
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer,
+.leaflet-container .leaflet-tile {
+	max-width: none !important;
+	max-height: none !important;
+	width: auto;
+	padding: 0;
+	}
+.leaflet-container img.leaflet-tile {
+	/* See: https://bugs.chromium.org/p/chromium/issues/detail?id=600120 */
+	mix-blend-mode: plus-lighter;
+}
+.leaflet-container.leaflet-touch-zoom {
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	}
+.leaflet-container.leaflet-touch-drag {
+	-ms-touch-action: pinch-zoom;
+	/* Fallback for FF which doesn't support pinch-zoom */
+	touch-action: none;
+	touch-action: pinch-zoom;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.leaflet-container {
+	-webkit-tap-highlight-color: transparent;
+}
+.leaflet-container a {
+	-webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+}
+.leaflet-tile {
+	filter: inherit;
+	visibility: hidden;
+	}
+.leaflet-tile-loaded {
+	visibility: inherit;
+	}
+.leaflet-zoom-box {
+	width: 0;
+	height: 0;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	z-index: 800;
+	}
+/* workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319 */
+.leaflet-overlay-pane svg {
+	-moz-user-select: none;
+	}
+.leaflet-pane         { z-index: 400; }
+.leaflet-tile-pane    { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-shadow-pane  { z-index: 500; }
+.leaflet-marker-pane  { z-index: 600; }
+.leaflet-tooltip-pane   { z-index: 650; }
+.leaflet-popup-pane   { z-index: 700; }
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg    { z-index: 200; }
+.leaflet-vml-shape {
+	width: 1px;
+	height: 1px;
+	}
+.lvml {
+	behavior: url(#default#VML);
+	display: inline-block;
+	position: absolute;
+	}
+/* control positioning */
+.leaflet-control {
+	position: relative;
+	z-index: 800;
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+.leaflet-top,
+.leaflet-bottom {
+	position: absolute;
+	z-index: 1000;
+	pointer-events: none;
+	}
+.leaflet-top {
+	top: 0;
+	}
+.leaflet-right {
+	right: 0;
+	}
+.leaflet-bottom {
+	bottom: 0;
+	}
+.leaflet-left {
+	left: 0;
+	}
+.leaflet-control {
+	float: left;
+	clear: both;
+	}
+.leaflet-right .leaflet-control {
+	float: right;
+	}
+.leaflet-top .leaflet-control {
+	margin-top: 10px;
+	}
+.leaflet-bottom .leaflet-control {
+	margin-bottom: 10px;
+	}
+.leaflet-left .leaflet-control {
+	margin-left: 10px;
+	}
+.leaflet-right .leaflet-control {
+	margin-right: 10px;
+	}
+/* zoom and fade animations */
+.leaflet-fade-anim .leaflet-popup {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+	   -moz-transition: opacity 0.2s linear;
+	        transition: opacity 0.2s linear;
+	}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+	opacity: 1;
+	}
+.leaflet-zoom-animated {
+	-webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	        transform-origin: 0 0;
+	}
+svg.leaflet-zoom-animated {
+	will-change: transform;
+}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+	-webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1);
+	   -moz-transition:    -moz-transform 0.25s cubic-bezier(0,0,0.25,1);
+	        transition:         transform 0.25s cubic-bezier(0,0,0.25,1);
+	}
+.leaflet-zoom-anim .leaflet-tile,
+.leaflet-pan-anim .leaflet-tile {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	        transition: none;
+	}
+.leaflet-zoom-anim .leaflet-zoom-hide {
+	visibility: hidden;
+	}
+/* cursors */
+.leaflet-interactive {
+	cursor: pointer;
+	}
+.leaflet-grab {
+	cursor: -webkit-grab;
+	cursor:    -moz-grab;
+	cursor:         grab;
+	}
+.leaflet-crosshair,
+.leaflet-crosshair .leaflet-interactive {
+	cursor: crosshair;
+	}
+.leaflet-popup-pane,
+.leaflet-control {
+	cursor: auto;
+	}
+.leaflet-dragging .leaflet-grab,
+.leaflet-dragging .leaflet-grab .leaflet-interactive,
+.leaflet-dragging .leaflet-marker-draggable {
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor:    -moz-grabbing;
+	cursor:         grabbing;
+	}
+/* marker & overlays interactivity */
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-image-layer,
+.leaflet-pane > svg path,
+.leaflet-tile-container {
+	pointer-events: none;
+	}
+.leaflet-marker-icon.leaflet-interactive,
+.leaflet-image-layer.leaflet-interactive,
+.leaflet-pane > svg path.leaflet-interactive,
+svg.leaflet-image-layer.leaflet-interactive path {
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+/* visual tweaks */
+.leaflet-container {
+	background: #ddd;
+	outline-offset: 1px;
+	}
+.leaflet-container a {
+	color: #0078A8;
+	}
+.leaflet-zoom-box {
+	border: 2px dotted #38f;
+	background: rgba(255,255,255,0.5);
+	}
+/* general typography */
+.leaflet-container {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	}
+/* general toolbar styles */
+.leaflet-bar {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	}
+.leaflet-bar a {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	}
+.leaflet-bar a,
+.leaflet-control-layers-toggle {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	}
+.leaflet-bar a:hover,
+.leaflet-bar a:focus {
+	background-color: #f4f4f4;
+	}
+.leaflet-bar a:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}
+.leaflet-bar a:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: none;
+	}
+.leaflet-bar a.leaflet-disabled {
+	cursor: default;
+	background-color: #f4f4f4;
+	color: #bbb;
+	}
+.leaflet-touch .leaflet-bar a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	}
+.leaflet-touch .leaflet-bar a:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	}
+.leaflet-touch .leaflet-bar a:last-child {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	}
+/* zoom control */
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+	}
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
+	font-size: 22px;
+	}
+/* layers control */
+.leaflet-control-layers {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	border-radius: 5px;
+	}
+.leaflet-control-layers-toggle {
+	background-image: none;
+	width: 36px;
+	height: 36px;
+	}
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: none;
+	background-size: 26px 26px;
+	}
+.leaflet-touch .leaflet-control-layers-toggle {
+	width: 44px;
+	height: 44px;
+	}
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+	display: none;
+	}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+	display: block;
+	position: relative;
+	}
+.leaflet-control-layers-expanded {
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+	}
+.leaflet-control-layers-scrollbar {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-right: 5px;
+	}
+.leaflet-control-layers-selector {
+	margin-top: 2px;
+	position: relative;
+	top: 1px;
+	}
+.leaflet-control-layers label {
+	display: block;
+	font-size: 13px;
+	font-size: 1.08333em;
+	}
+.leaflet-control-layers-separator {
+	height: 0;
+	border-top: 1px solid #ddd;
+	margin: 5px -10px 5px -6px;
+	}
+/* Default icon URLs */
+.leaflet-default-icon-path { /* used only in path-guessing heuristic, see L.Icon.Default */
+	background-image: none;
+	}
+/* attribution and scale controls */
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	}
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+	padding: 0 5px;
+	color: #333;
+	line-height: 1.4;
+	}
+.leaflet-control-attribution a {
+	text-decoration: none;
+	}
+.leaflet-control-attribution a:hover,
+.leaflet-control-attribution a:focus {
+	text-decoration: underline;
+	}
+.leaflet-attribution-flag {
+	display: inline !important;
+	vertical-align: baseline !important;
+	width: 1em;
+	height: 0.6669em;
+	}
+.leaflet-left .leaflet-control-scale {
+	margin-left: 5px;
+	}
+.leaflet-bottom .leaflet-control-scale {
+	margin-bottom: 5px;
+	}
+.leaflet-control-scale-line {
+	border: 2px solid #777;
+	border-top: none;
+	line-height: 1.1;
+	padding: 2px 5px 1px;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.8);
+	text-shadow: 1px 1px #fff;
+	}
+.leaflet-control-scale-line:not(:first-child) {
+	border-top: 2px solid #777;
+	border-bottom: none;
+	margin-top: -2px;
+	}
+.leaflet-control-scale-line:not(:first-child):not(:last-child) {
+	border-bottom: 2px solid #777;
+	}
+.leaflet-touch .leaflet-control-attribution,
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	box-shadow: none;
+	}
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+	}
+/* popup */
+.leaflet-popup {
+	position: absolute;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+.leaflet-popup-content-wrapper {
+	padding: 1px;
+	text-align: left;
+	border-radius: 12px;
+	}
+.leaflet-popup-content {
+	margin: 13px 24px 13px 20px;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 1.08333em;
+	min-height: 1px;
+	}
+.leaflet-popup-content p {
+	margin: 17px 0;
+	margin: 1.3em 0;
+	}
+.leaflet-popup-tip-container {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-top: -1px;
+	margin-left: -20px;
+	overflow: hidden;
+	pointer-events: none;
+	}
+.leaflet-popup-tip {
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+	margin: -10px auto 0;
+	pointer-events: auto;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+	background: white;
+	color: #333;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	}
+.leaflet-container a.leaflet-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	font: 16px/24px Tahoma, Verdana, sans-serif;
+	color: #757575;
+	text-decoration: none;
+	background: transparent;
+	}
+.leaflet-container a.leaflet-popup-close-button:hover,
+.leaflet-container a.leaflet-popup-close-button:focus {
+	color: #585858;
+	}
+.leaflet-popup-scrolled {
+	overflow: auto;
+	}
+.leaflet-oldie .leaflet-popup-content-wrapper {
+	-ms-zoom: 1;
+	}
+.leaflet-oldie .leaflet-popup-tip {
+	width: 24px;
+	margin: 0 auto;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678);
+	}
+.leaflet-oldie .leaflet-control-zoom,
+.leaflet-oldie .leaflet-control-layers,
+.leaflet-oldie .leaflet-popup-content-wrapper,
+.leaflet-oldie .leaflet-popup-tip {
+	border: 1px solid #999;
+	}
+/* div icon */
+.leaflet-div-icon {
+	background: #fff;
+	border: 1px solid #666;
+	}
+/* Tooltip */
+/* Base styles for the element that has a tooltip */
+.leaflet-tooltip {
+	position: absolute;
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #222;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	}
+.leaflet-tooltip.leaflet-interactive {
+	cursor: pointer;
+	pointer-events: auto;
+	}
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	position: absolute;
+	pointer-events: none;
+	border: 6px solid transparent;
+	background: transparent;
+	content: "";
+	}
+/* Directions */
+.leaflet-tooltip-bottom {
+	margin-top: 6px;
+}
+.leaflet-tooltip-top {
+	margin-top: -6px;
+}
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-top:before {
+	left: 50%;
+	margin-left: -6px;
+	}
+.leaflet-tooltip-top:before {
+	bottom: 0;
+	margin-bottom: -12px;
+	border-top-color: #fff;
+	}
+.leaflet-tooltip-bottom:before {
+	top: 0;
+	margin-top: -12px;
+	margin-left: -6px;
+	border-bottom-color: #fff;
+	}
+.leaflet-tooltip-left {
+	margin-left: -6px;
+}
+.leaflet-tooltip-right {
+	margin-left: 6px;
+}
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	top: 50%;
+	margin-top: -6px;
+	}
+.leaflet-tooltip-left:before {
+	right: 0;
+	margin-right: -12px;
+	border-left-color: #fff;
+	}
+.leaflet-tooltip-right:before {
+	left: 0;
+	margin-left: -12px;
+	border-right-color: #fff;
+	}
+/* Printing */
+@media print {
+	/* Prevent printers from removing background-images of controls. */
+	.leaflet-control {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+		}
+	}
+
+/* Layout: mapa ocupando a tela, como numa apuração; painel lateral no desktop, gaveta embaixo no celular */
+:root{
+  --water:#cfe0e8; --land:#eef0ec; --land-line:#c9cdc6; --bg:#f6f7f5; --panel:#ffffff;
+  --fg:#17201f; --muted:#5d6966; --rule:#dfe3df; --accent:#1d5f8a;
+  --ok:#2f7d4f; --warn:#a86a12; --chip:#eef2f0;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --label-halo:#ffffff;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --water:#0f1d24; --land:#1f2826; --land-line:#33403d; --bg:#121918; --panel:#18211f;
+  --fg:#e9eeec; --muted:#9aa8a4; --rule:#2c3835; --accent:#7cb8de;
+  --ok:#6fc28f; --warn:#e0a54a; --chip:#22302d; --label-halo:#0f1715; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --water:#0f1d24; --land:#1f2826; --land-line:#33403d; --bg:#121918; --panel:#18211f;
+  --fg:#e9eeec; --muted:#9aa8a4; --rule:#2c3835; --accent:#7cb8de;
+  --ok:#6fc28f; --warn:#e0a54a; --chip:#22302d; --label-halo:#0f1715; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;overflow:hidden}
+.app{height:100%;display:grid;grid-template-columns:minmax(0,1fr) 380px;grid-template-rows:auto minmax(0,1fr)}
+header{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;
+  padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  border-bottom:1px solid var(--rule);background:var(--panel)}
+.brand{display:flex;flex-direction:column;min-width:0}
+.brand small{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.brand h1{margin:0;font-family:var(--display);font-weight:700;font-size:26px;line-height:1;letter-spacing:.01em;text-wrap:balance}
+.controls{display:flex;gap:8px;align-items:center;margin-left:auto;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.seg button{font:600 13px var(--body);padding:7px 12px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--panel)}
+.search{position:relative}
+.search input{font:14px var(--body);padding:7px 10px;width:200px;border:1px solid var(--rule);border-radius:8px;background:var(--bg);color:var(--fg)}
+.search ul{position:absolute;z-index:1000;top:calc(100% + 4px);left:0;right:0;margin:0;padding:4px;list-style:none;background:var(--panel);border:1px solid var(--rule);border-radius:8px;max-height:260px;overflow:auto;box-shadow:0 8px 24px rgb(0 0 0/.15)}
+.search li button{all:unset;display:block;width:100%;box-sizing:border-box;padding:6px 8px;border-radius:6px;cursor:pointer}
+.search li button:hover,.search li button:focus-visible{background:var(--chip)}
+.search li small{color:var(--muted)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#map{background:var(--water);min-height:0}
+.leaflet-container{background:var(--water);font-family:var(--body)}
+.leaflet-control-zoom a{background:var(--panel)!important;color:var(--fg)!important;border-color:var(--rule)!important}
+.lbl{background:transparent;border:0;box-shadow:none;padding:0;font:600 10.5px var(--body);color:var(--fg);
+  text-shadow:0 0 3px var(--label-halo),0 0 3px var(--label-halo),0 0 2px var(--label-halo);white-space:nowrap}
+.lbl::before{display:none}
+.lbl.big{font:700 13px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.hide-lbl .lbl:not(.big){display:none}
+.tip{font:13px var(--body);border-radius:8px;border:1px solid var(--rule);background:var(--panel);color:var(--fg);box-shadow:0 6px 18px rgb(0 0 0/.18);padding:8px 10px}
+.tip b{display:block;font-size:14px}
+.tip::before{display:none}
+aside{border-left:1px solid var(--rule);background:var(--panel);overflow:auto;min-height:0;
+  padding-block:16px 20px;padding-left:18px;padding-right:max(18px,env(safe-area-inset-right,0px))}
+.crumbs{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:12px;color:var(--muted)}
+.crumbs button{all:unset;cursor:pointer;color:var(--accent)}
+.crumbs button:hover{text-decoration:underline}
+.crumbs span.sep{opacity:.6}
+aside h2{font-family:var(--display);font-weight:700;font-size:30px;line-height:1.02;margin:8px 0 6px;text-wrap:balance}
+aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 8px;font-weight:600}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--chip)}
+.pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)}
+.pill i{width:8px;height:8px;border-radius:50%;background:currentColor}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;flex:none}
+.list{display:flex;flex-direction:column;gap:2px;margin:0;padding:0;list-style:none}
+.list button{all:unset;box-sizing:border-box;display:flex;gap:10px;align-items:center;width:100%;padding:7px 8px;border-radius:8px;cursor:pointer}
+.list button:hover,.list button:focus-visible{background:var(--chip)}
+.list .meta{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.list .name{min-width:0}
+.note{font-size:13px;line-height:1.5;color:var(--muted);margin:10px 0 0}
+.note a{color:var(--accent)}
+.stats{display:flex;gap:18px;margin-top:10px}
+.stats div{display:flex;flex-direction:column}
+.stats b{font-family:var(--display);font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.stats small{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.legend-key{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}
+.legend-key span{display:inline-flex;gap:6px;align-items:center}
+.k-solid{width:16px;height:10px;border-radius:2px;background:var(--muted);opacity:.85}
+.k-est{width:16px;height:10px;border-radius:2px;border:1.5px dashed var(--muted);opacity:.85;box-sizing:border-box;background:color-mix(in srgb,var(--muted) 30%,transparent)}
+.handle{display:none}
+@media (max-width:760px){
+  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
+  header{gap:8px}
+  .brand h1{font-size:22px}
+  .controls{margin-left:0;width:100%}
+  .search{flex:1;min-width:0}
+  .search input{width:100%;box-sizing:border-box}
+  aside{border-left:0;border-top:1px solid var(--rule);max-height:42vh;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+  aside.collapsed{max-height:none}
+  aside.collapsed .body{display:none}
+  .handle{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;width:100%;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);padding-bottom:6px}
+  aside h2{font-size:24px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="app">
+  <header>
+    <div class="brand">
+      <small>Arquidiocese de Florianópolis · Ilha de Santa Catarina</small>
+      <h1>Mapa das Paróquias</h1>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Colorir mapa por">
+        <button id="modo-paroquia" type="button" aria-pressed="true">Paróquias</button>
+        <button id="modo-forania" type="button" aria-pressed="false">Foranias</button>
+      </div>
+      <div class="search">
+        <input id="busca" type="search" placeholder="Buscar bairro ou paróquia" autocomplete="off" aria-label="Buscar bairro ou paróquia">
+        <ul id="sugestoes" hidden></ul>
+      </div>
+    </div>
+  </header>
+  <div id="map" aria-label="Mapa dos bairros da Ilha coloridos por paróquia"></div>
+  <aside id="painel">
+    <button class="handle" id="alca" type="button" aria-expanded="true"><span>Detalhes</span><span id="alca-ico">Recolher ▾</span></button>
+    <div class="body" id="conteudo"></div>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(async function(){
+const CORES = {
+  centro:'#a3303f', lourdes:'#e07b39', 'boa-viagem':'#c9a227', lapa:'#c2508a', campeche:'#7e57c2',
+  lagoa:'#1f8a9e', necessidades:'#3b7a3e', guadalupe:'#2e6fd1', 'sao-francisco-xavier':'#7bb047',
+  ingleses:'#49b0e0', trindade:'#5d6b8a'
+};
+const CORES_FORANIA = {'centro-sul':'#c2563a', 'norte':'#2f6fb0'};
+const fmt = n => n.toLocaleString('pt-BR');
+
+let D;
+try { D = await (await fetch('dados.json')).json(); }
+catch(e){ document.getElementById('conteudo').innerHTML = '<p class="note">Não foi possível carregar os dados do mapa. Recarregue a página.</p>'; return; }
+
+const H = D.hierarquia;
+const forania = {}, paroquia = {};
+H.foranias.forEach(f => { forania[f.id] = f; f.paroquias.forEach(p => { p.forania = f.id; paroquia[p.id] = p; p.bairros = []; p.pop = 0; }); });
+const bairros = D.bairros.features;
+bairros.forEach(b => {
+  const pr = b.properties;
+  pr.grupo = pr.paroquias.length > 1 ? 'centro' : pr.paroquias[0];
+  pr.paroquias.forEach(id => { paroquia[id].bairros.push(b); paroquia[id].pop += pr.pop / pr.paroquias.length; });
+});
+const nomeGrupo = pr => pr.paroquias.length > 1 ? `Centro (${pr.paroquias.length} paróquias)` : paroquia[pr.paroquias[0]].nome;
+const corGrupo = id => CORES[id] || '#888';
+
+let modo = 'paroquia', sel = null; // sel: {tipo:'bairro'|'paroquia'|'forania'|'arq', id}
+
+const map = L.map('map', {zoomControl:true, attributionControl:true, zoomSnap:.25, minZoom:10, maxZoom:16});
+map.attributionControl.setPrefix(false).addAttribution('Bairros: IBGE, Censo 2022');
+const css = getComputedStyle(document.documentElement);
+const tok = n => css.getPropertyValue(n).trim();
+
+const fundo = L.geoJSON(D.fundo, {interactive:false, style:()=>({color:tok('--land-line'), weight:1, fillColor:tok('--land'), fillOpacity:1})}).addTo(map);
+
+function estilo(f){
+  const pr = f.properties, est = pr.situacao === 'estimado';
+  const cor = modo === 'forania' ? CORES_FORANIA[pr.forania] : corGrupo(pr.grupo);
+  let ativo = true;
+  if (sel && sel.tipo === 'paroquia') ativo = pr.paroquias.includes(sel.id);
+  if (sel && sel.tipo === 'forania') ativo = pr.forania === sel.id;
+  const escolhido = sel && sel.tipo === 'bairro' && sel.id === pr.bairro;
+  return {
+    color: escolhido ? tok('--fg') : tok('--panel'), weight: escolhido ? 3 : (est ? .8 : 1.2),
+    dashArray: null,
+    fillColor: cor, fillOpacity: ativo ? (est ? .38 : .88) : .08, opacity: ativo ? 1 : .4
+  };
+}
+
+const rotulos = [];
+const camada = L.geoJSON(D.bairros, {
+  style: estilo,
+  onEachFeature(f, l){
+    const pr = f.properties;
+    l.on({
+      mouseover(e){ if (!(sel && sel.tipo==='bairro' && sel.id===pr.bairro)) l.setStyle({weight:2.5, color:tok('--fg')}); l.bringToFront(); },
+      mouseout(){ l.setStyle(estilo(f)); },
+      click(){ selecionar({tipo:'bairro', id:pr.bairro}, false); }
+    });
+    l.bindTooltip(() => `<b>${pr.bairro}</b>${nomeGrupo(pr)}<br><span style="color:var(--muted)">${pr.situacao==='estimado'?'Estimado por vizinhança':'Confirmado'}</span>`, {sticky:true, className:'tip', direction:'top', offset:[0,-8]});
+    const c = l.getBounds().getCenter();
+    rotulos.push(L.tooltip({permanent:true, direction:'center', className:'lbl', interactive:false}).setLatLng(c).setContent(pr.bairro));
+  }
+}).addTo(map);
+
+const grupoRotulos = L.layerGroup(rotulos).addTo(map);
+[['Oceano Atlântico',-27.66,-48.38],['Baía Norte',-27.49,-48.565],['Baía Sul',-27.68,-48.585],['São José',-27.625,-48.66],['Biguaçu',-27.45,-48.66],['Palhoça',-27.74,-48.66]]
+  .forEach(([t,la,lo]) => L.tooltip({permanent:true,direction:'center',className:'lbl big',interactive:false}).setLatLng([la,lo]).setContent(t).addTo(map));
+
+const limites = L.latLngBounds([-27.84,-48.6],[-27.38,-48.36]);
+map.fitBounds(limites, {padding:[10,10]});
+map.setMaxBounds(camada.getBounds().pad(.3));
+const atualizaRotulos = () => document.getElementById('map').classList.toggle('hide-lbl', map.getZoom() < 12.75);
+map.on('zoomend', atualizaRotulos); atualizaRotulos();
+
+function camadaDe(nome){ let r; camada.eachLayer(l => { if (l.feature.properties.bairro === nome) r = l; }); return r; }
+function boundsDe(lista){ const b = L.latLngBounds([]); lista.forEach(f => b.extend(camadaDe(f.properties.bairro).getBounds())); return b; }
+
+function selecionar(s, voar=true){
+  sel = s && s.tipo === 'arq' ? null : s;
+  camada.setStyle(estilo);
+  if (sel && sel.tipo === 'bairro') camadaDe(sel.id).bringToFront();
+  if (voar){
+    if (!sel) map.flyToBounds(limites, {padding:[10,10], duration:.6});
+    else if (sel.tipo === 'bairro') map.flyToBounds(camadaDe(sel.id).getBounds(), {padding:[60,60], maxZoom:14, duration:.6});
+    else if (sel.tipo === 'paroquia') map.flyToBounds(boundsDe(paroquia[sel.id].bairros), {padding:[30,30], duration:.6});
+    else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(bairros.filter(b => b.properties.forania === sel.id)), {padding:[20,20], duration:.6});
+  }
+  render();
+  try { localStorage.setItem('mapa-paroquias-sel', JSON.stringify(s)); } catch(e){}
+}
+
+const el = (h) => { const t = document.createElement('template'); t.innerHTML = h.trim(); return t.content; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function crumbs(itens){
+  return `<nav class="crumbs" aria-label="Hierarquia">${itens.map((it,i) => (i? '<span class="sep">›</span>':'') + (it.s ? `<button data-sel='${JSON.stringify(it.s)}'>${esc(it.t)}</button>` : `<span>${esc(it.t)}</span>`)).join('')}</nav>`;
+}
+const pill = est => est ? '<span class="pill warn"><i></i>Estimado por vizinhança</span>' : '<span class="pill ok"><i></i>Confirmado</span>';
+const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroquia',id:p.id})}'><span class="sw" style="background:${modo==='forania'?CORES_FORANIA[p.forania]:corGrupo(p.bairros.length && p.bairros.every(b=>b.properties.grupo==='centro')?'centro':p.id)}"></span><span class="name">${esc(p.nome)}</span><span class="meta">${p.bairros.length} bairro${p.bairros.length>1?'s':''}</span></button></li>`;
+const linhaBairro = b => { const pr=b.properties; return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="background:${corGrupo(pr.grupo)};opacity:${pr.situacao==='estimado'?.45:1}"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">${pr.situacao==='estimado'?'estimado':pr.situacao==='sede'?'sede':'comunidade'} · ${fmt(pr.pop)} hab.</span></button></li>`; };
+const ARQ = {t:'Arquidiocese', s:{tipo:'arq'}};
+const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Confirmado</span><span><i class="k-est"></i>Estimado por vizinhança</span></div>`;
+
+function render(){
+  let h = '';
+  if (!sel){
+    const nB = bairros.length, nC = bairros.filter(b => b.properties.situacao !== 'estimado').length;
+    h += crumbs([{t:'Arquidiocese de Florianópolis'}]);
+    h += `<h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro para ver a paróquia e a forania. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
+    h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${Object.keys(paroquia).length}</b><small>Paróquias</small></div><div><b>${nB}</b><small>Bairros</small></div></div>`;
+    h += legenda;
+    H.foranias.forEach(f => {
+      h += `<h3><button class="crumbs" style="all:unset;cursor:pointer" data-sel='${JSON.stringify({tipo:'forania',id:f.id})}'><span class="sw" style="background:${CORES_FORANIA[f.id]};margin-right:6px;vertical-align:-1px"></span>${esc(f.nome)}</button></h3><ul class="list">${f.paroquias.map(linhaParoquia).join('')}</ul>`;
+    });
+    h += `<p class="note">Versão preliminar. ${nC} de ${nB} bairros têm paróquia confirmada; os demais foram estimados pela paróquia confirmada mais próxima e podem pertencer a paróquias que ainda não estão no mapa. A lista de paróquias foi levantada sem acesso direto ao site da <a href="https://arquifln.org.br/organizacao/1070-2" target="_blank" rel="noopener">Arquidiocese</a> e precisa ser conferida.</p>`;
+  } else if (sel.tipo === 'forania'){
+    const f = forania[sel.id];
+    const bs = bairros.filter(b => b.properties.forania === f.id);
+    h += crumbs([ARQ, {t:f.nome}]);
+    h += `<h2>${esc(f.nome)}</h2><div class="stats"><div><b>${f.paroquias.length}</b><small>Paróquias</small></div><div><b>${bs.length}</b><small>Bairros</small></div><div><b>${fmt(Math.round(bs.reduce((a,b)=>a+b.properties.pop,0)/1000))} mil</b><small>Habitantes</small></div></div>`;
+    h += `<h3>Paróquias</h3><ul class="list">${f.paroquias.map(linhaParoquia).join('')}</ul>`;
+    h += `<p class="note">Fonte: <a href="${f.fonte}" target="_blank" rel="noopener">página da forania</a>.</p>`;
+  } else if (sel.tipo === 'paroquia'){
+    const p = paroquia[sel.id], f = forania[p.forania];
+    const conf = p.bairros.filter(b => b.properties.situacao !== 'estimado'), est = p.bairros.filter(b => b.properties.situacao === 'estimado');
+    h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:'Paróquia'}]);
+    h += `<h2>${esc(p.nome)}</h2><p class="note" style="margin-top:0">Igreja matriz no bairro <b>${esc(p.sede)}</b>.</p>`;
+    if (p.conferir) h += `<p class="note"><span class="pill warn"><i></i>Conferir</span> ${esc(p.conferir)}</p>`;
+    h += `<h3>Comunidades</h3>`;
+    h += p.comunidades.length ? `<ul class="list">${p.comunidades.map(c => `<li><button ${c.bairro?`data-sel='${JSON.stringify({tipo:'bairro',id:c.bairro})}'`:'disabled'}><span class="sw" style="background:var(--muted);border-radius:50%;width:8px;height:8px"></span><span class="name">${esc(c.nome)}</span><span class="meta">${c.bairro?esc(c.bairro):'local a confirmar'}</span></button></li>`).join('')}</ul>` : `<p class="note">Ainda sem lista de comunidades.</p>`;
+    h += `<h3>Bairros confirmados</h3><ul class="list">${conf.map(linhaBairro).join('')}</ul>`;
+    if (est.length) h += `<h3>Bairros estimados</h3><ul class="list">${est.map(linhaBairro).join('')}</ul>`;
+    if (p.fonte) h += `<p class="note">Fonte: <a href="${p.fonte}" target="_blank" rel="noopener">página da paróquia</a>.</p>`;
+  } else {
+    const b = bairros.find(x => x.properties.bairro === sel.id), pr = b.properties, f = forania[pr.forania];
+    const ps = pr.paroquias.map(id => paroquia[id]);
+    h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, ps.length===1 ? {t:ps[0].nome, s:{tipo:'paroquia',id:ps[0].id}} : {t:'4 paróquias'}, {t:pr.bairro}]);
+    h += `<h2>${esc(pr.bairro)}</h2>${pill(pr.situacao==='estimado')}`;
+    h += `<div class="stats"><div><b>${fmt(pr.pop)}</b><small>Habitantes</small></div><div><b style="font-size:18px;padding-top:6px">${esc(pr.distrito)}</b><small>Distrito</small></div></div>`;
+    h += `<h3>${ps.length>1?'Paróquias com matriz neste bairro':'Paróquia'}</h3><ul class="list">${ps.map(linhaParoquia).join('')}</ul>`;
+    if (pr.situacao === 'sede' && ps.length === 1) h += `<p class="note">A igreja matriz da paróquia fica neste bairro.</p>`;
+    if (pr.situacao === 'comunidade') h += `<p class="note">Aqui fica a comunidade ${esc(pr.comunidade)}, que pertence a esta paróquia.</p>`;
+    if (pr.situacao === 'estimado') h += `<p class="note">Nenhuma paróquia confirmada tem matriz ou comunidade neste bairro. A estimativa segue a paróquia de ${esc(pr.referencia)}, a ${pr.saltos} bairro${pr.saltos>1?'s':''} de distância. O bairro pode ter paróquia própria que ainda não está no mapa.</p>`;
+    h += `<h3>Forania</h3><ul class="list"><li><button data-sel='${JSON.stringify({tipo:'forania',id:f.id})}'><span class="sw" style="background:${CORES_FORANIA[f.id]}"></span><span class="name">${esc(f.nome)}</span><span class="meta">${f.paroquias.length} paróquias</span></button></li></ul>`;
+  }
+  const c = document.getElementById('conteudo');
+  c.replaceChildren(el(h));
+  c.parentElement.scrollTop = 0;
+  if (window.matchMedia('(max-width:760px)').matches && sel) abrirGaveta(true);
+}
+
+document.getElementById('conteudo').addEventListener('click', e => {
+  const b = e.target.closest('[data-sel]'); if (b) selecionar(JSON.parse(b.dataset.sel));
+});
+
+function setModo(m){
+  modo = m;
+  document.getElementById('modo-paroquia').setAttribute('aria-pressed', m==='paroquia');
+  document.getElementById('modo-forania').setAttribute('aria-pressed', m==='forania');
+  camada.setStyle(estilo); render();
+}
+document.getElementById('modo-paroquia').onclick = () => setModo('paroquia');
+document.getElementById('modo-forania').onclick = () => setModo('forania');
+
+// Busca
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const indice = [
+  ...bairros.map(b => ({t:b.properties.bairro, d:nomeGrupo(b.properties), s:{tipo:'bairro',id:b.properties.bairro}})),
+  ...Object.values(paroquia).map(p => ({t:p.nome, d:forania[p.forania].nome, s:{tipo:'paroquia',id:p.id}})),
+  ...H.foranias.map(f => ({t:f.nome, d:'Forania', s:{tipo:'forania',id:f.id}}))
+];
+const inp = document.getElementById('busca'), ul = document.getElementById('sugestoes');
+inp.addEventListener('input', () => {
+  const q = norm(inp.value.trim());
+  if (!q){ ul.hidden = true; return; }
+  const r = indice.filter(i => norm(i.t).includes(q)).slice(0,8);
+  ul.innerHTML = r.length ? r.map(i => `<li><button data-sel='${JSON.stringify(i.s)}'>${esc(i.t)}<br><small>${esc(i.d)}</small></button></li>`).join('') : '<li style="padding:6px 8px;color:var(--muted)">Nada encontrado</li>';
+  ul.hidden = false;
+});
+ul.addEventListener('click', e => { const b = e.target.closest('[data-sel]'); if (!b) return; selecionar(JSON.parse(b.dataset.sel)); ul.hidden = true; inp.value=''; inp.blur(); });
+document.addEventListener('click', e => { if (!e.target.closest('.search')) ul.hidden = true; });
+
+// Gaveta no celular
+const painel = document.getElementById('painel'), alca = document.getElementById('alca');
+function abrirGaveta(aberta){ painel.classList.toggle('collapsed', !aberta); alca.setAttribute('aria-expanded', aberta); document.getElementById('alca-ico').textContent = aberta ? 'Recolher ▾' : 'Abrir ▴'; setTimeout(() => map.invalidateSize(), 50); }
+alca.onclick = () => abrirGaveta(painel.classList.contains('collapsed'));
+
+let inicial = null;
+try { inicial = JSON.parse(localStorage.getItem('mapa-paroquias-sel')); } catch(e){}
+if (inicial && inicial.tipo && inicial.tipo !== 'arq') { try { selecionar(inicial); } catch(e){ selecionar(null,false); } } else render();
+if (window.matchMedia('(max-width:760px)').matches && !inicial) abrirGaveta(false);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => location.reload());
+})();
+</script>
