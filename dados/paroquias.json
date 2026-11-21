@@ -1,34 +1,895 @@
 {
-  "_sobre": "Hierarquia da Arquidiocese de Florianópolis, recorte Ilha de Santa Catarina. Dados levantados por busca na web em 21/11/2026, sem acesso direto ao site arquifln.org.br. Tudo com conferir=true precisa ser validado na fonte oficial.",
-  "arquidiocese": "Arquidiocese de Florianópolis",
-  "foranias": [
+ "arquidiocese": "Arquidiocese de Florianópolis",
+ "lido_em": "2026-11-21",
+ "foranias": [
+  {
+   "id": "centro-sul",
+   "nome": "Forania Florianópolis Centro-Sul",
+   "fonte": "https://arquifln.org.br/organizacao/1070-2/florianopolis-centro-sul/",
+   "paroquias": [
     {
-      "id": "centro-sul",
-      "nome": "Forania Florianópolis Centro-Sul",
-      "fonte": "https://arquifln.org.br/organizacao/1070-2/florianopolis-centro-sul",
-      "paroquias": [
-        {"id": "catedral", "nome": "Catedral Metropolitana Nossa Senhora do Desterro", "sede": "Centro", "comunidades": []},
-        {"id": "santo-antonio-centro", "nome": "Paróquia Santo Antônio", "sede": "Centro", "comunidades": []},
-        {"id": "santa-catarina", "nome": "Paróquia Santa Catarina de Alexandria (Colégio Catarinense)", "sede": "Centro", "comunidades": []},
-        {"id": "santa-teresinha", "nome": "Paróquia Santa Teresinha (Prainha)", "sede": "Centro", "comunidades": []},
-        {"id": "lourdes", "nome": "Paróquia Nossa Senhora de Lourdes e São Luís", "sede": "Agronômica", "comunidades": []},
-        {"id": "boa-viagem", "nome": "Paróquia Nossa Senhora da Boa Viagem", "sede": "Saco dos Limões", "comunidades": []},
-        {"id": "lapa", "nome": "Paróquia Nossa Senhora da Lapa", "sede": "Ribeirão da Ilha", "comunidades": []},
-        {"id": "campeche", "nome": "Paróquia Sagrado Coração de Jesus (Campeche)", "sede": "Campeche Central", "comunidades": []}
-      ]
+     "id": "boa-viagem",
+     "nome": "Paróquia Nossa Senhora da Boa Viagem",
+     "endereco": "Rua João Mota Espezim, 1023 – Saco dos Limões – 88045-400 – Florianópolis/SC",
+     "paroco": "Pe. Frei Alexandre Ferreira de Moraes, O. Carm.",
+     "criada": "Criada a 13 de junho de 1966",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-da-boa-viagem/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora da Boa Viagem",
+       "local": "Saco dos Limões",
+       "ano": "1966",
+       "bairro": "Saco dos Limões",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Morro do Limoeiro",
+       "ano": "1996",
+       "bairro": "Saco dos Limões",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora do Rosário",
+       "local": "Caeira",
+       "ano": "1990",
+       "bairro": "Saco dos Limões",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Catarina de Alexandria",
+       "local": "Ressacada",
+       "ano": "1995",
+       "bairro": "Ressacada",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Rita de Cássia",
+       "local": "Carianos",
+       "ano": "1930",
+       "bairro": "Carianos",
+       "matriz": false
+      },
+      {
+       "nome": "Senhor Bom Jesus",
+       "local": "Cachoeira do Rio Tavares",
+       "ano": "1995",
+       "bairro": "Rio Tavares do Norte",
+       "matriz": false
+      },
+      {
+       "nome": "São José Operário",
+       "local": "Costeira do Pirajubaé",
+       "ano": "1982",
+       "bairro": "Costeira do Pirajubaé",
+       "matriz": false
+      },
+      {
+       "nome": "São Pedro Apóstolo",
+       "local": "Costeira do Pirajubaé",
+       "ano": "1915",
+       "bairro": "Costeira do Pirajubaé",
+       "matriz": false
+      }
+     ]
     },
     {
-      "id": "norte",
-      "nome": "Forania Florianópolis Norte",
-      "fonte": "https://arquifln.org.br/wpl_causes_category/forania-florianopolis-norte",
-      "paroquias": [
-        {"id": "lagoa", "nome": "Paróquia Nossa Senhora da Conceição (Lagoa da Conceição)", "sede": "Lagoa", "comunidades": []},
-        {"id": "necessidades", "nome": "Paróquia Nossa Senhora das Necessidades", "sede": "Santo Antônio", "comunidades": []},
-        {"id": "guadalupe", "nome": "Paróquia Nossa Senhora de Guadalupe (Canasvieiras)", "sede": "Canasvieiras", "comunidades": []},
-        {"id": "sao-francisco-xavier", "nome": "Paróquia São Francisco Xavier", "sede": "Monte Verde", "comunidades": [{"nome": "Nossa Senhora de Fátima", "bairro": null}], "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-francisco-xavier"},
-        {"id": "ingleses", "nome": "Paróquia Sagrado Coração de Jesus (Ingleses)", "sede": "Ingleses Centro", "comunidades": []},
-        {"id": "trindade", "nome": "Paróquia Santíssima Trindade", "sede": "Trindade", "conferir": "A Wikipédia e o site da Arquidiocese divergem sobre a forania desta paróquia.", "comunidades": [{"nome": "Santa Mônica", "bairro": "Santa Mônica"}, {"nome": "São Francisco de Assis", "bairro": null}, {"nome": "Nossa Senhora de Guadalupe", "bairro": null}], "fonte": "https://arquifln.org.br/igrejas/paroquia-santissima-trindade"}
-      ]
+     "id": "lapa",
+     "nome": "Paróquia Nossa Senhora da Lapa",
+     "endereco": "Praça Hermínio Silva, 62 – Freguesia do RibeirãoAo lado da igreja Matriz N. Sra. da Lapa – 88064-670 – Florianópolis (SC)",
+     "paroco": "Pe. Vânio da Silva",
+     "criada": "Criada a 19 de janeiro de 1809",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-da-lapa/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora da Lapa",
+       "local": "Ribeirão da Ilha",
+       "ano": "1809",
+       "bairro": "Ribeirão da Ilha",
+       "matriz": true
+      },
+      {
+       "nome": "Bom Jesus dos Pescadores",
+       "local": "Tapera da Barra do Sul",
+       "ano": "1982",
+       "bairro": "Tapera",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora da Lapa",
+       "local": "Barro Vermelho",
+       "ano": "1776",
+       "bairro": "Ribeirão da Ilha",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora de Fátima e São Lucas",
+       "local": "Tapera da Base",
+       "ano": "1926",
+       "bairro": "Tapera da Base",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora de Lourdes",
+       "local": "Sertão",
+       "ano": "1992",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Santa Luzia e São Pedro",
+       "local": "Naufragados",
+       "ano": "1954",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Santa Rita de Cássia",
+       "local": "Pedregal",
+       "ano": null,
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Santo Estevão",
+       "local": "Alto Ribeirão",
+       "ano": "1926",
+       "bairro": "Alto Ribeirão",
+       "matriz": false
+      },
+      {
+       "nome": "São José",
+       "local": "Costeira do Ribeirão",
+       "ano": "1953",
+       "bairro": "Costeira do Ribeirão",
+       "matriz": false
+      },
+      {
+       "nome": "São João Batista",
+       "local": "Caieira da Barra do Sul",
+       "ano": "1992",
+       "bairro": "Caieira",
+       "matriz": false
+      },
+      {
+       "nome": "São João Maria Vianney",
+       "local": "Fazenda do Rio Tavares",
+       "ano": "2000",
+       "bairro": null,
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "lourdes",
+     "nome": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga",
+     "endereco": "Rua Padre Schrader, 01 – Agronômica88025-090 Florianópolis – SC",
+     "paroco": "Pe. Júlio Cesar da Rosa",
+     "criada": "Criada a 25 de novembro de 1950",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga/",
+     "comunidades": [
+      {
+       "nome": "N. Senhora de Lourdes e São Luiz",
+       "local": "Agronômica",
+       "ano": "1950",
+       "bairro": "Agronômica",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora da Conceição",
+       "local": "Rua Vitor Konder",
+       "ano": "1978",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora das Vitória",
+       "local": "Morro Santa Vitória",
+       "ano": "2005",
+       "bairro": "Agronômica",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz e Nossa Senhora Aparecida",
+       "local": "Morro do Horácio",
+       "ano": "1999",
+       "bairro": "Agronômica",
+       "matriz": false
+      },
+      {
+       "nome": "São José e Nossa Senhora de Nazaré",
+       "local": "Morro do Vinte e Cinco",
+       "ano": "2000",
+       "bairro": "Agronômica",
+       "matriz": false
+      },
+      {
+       "nome": "São João Batista",
+       "local": "B. Penitenciária",
+       "ano": "1954",
+       "bairro": "Agronômica",
+       "matriz": false
+      },
+      {
+       "nome": "Transfiguração Senhor Bom Jesus",
+       "local": "Morro do Céu",
+       "ano": "1959",
+       "bairro": "Agronômica",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "desterro",
+     "nome": "Paróquia Nossa Senhora do Desterro e Santa Catarina",
+     "endereco": "Rua Padre Miguelinho, 55 Centro/exp.88010-550 – Florianópolis – SC",
+     "paroco": "Pe. David Antônio Coelho",
+     "criada": "Criada a 5 de março de 1712",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-do-desterro-e-santa-catarina/",
+     "comunidades": [
+      {
+       "nome": "N. Senhora do Desterro e S. Catarina",
+       "local": "Centro",
+       "ano": "1712",
+       "bairro": "Centro",
+       "matriz": true
+      },
+      {
+       "nome": "Capela Nossa Senhora das Graças",
+       "local": "H.G.C.R.",
+       "ano": null,
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Capela São José",
+       "local": "Asilo Irmão Joaquim",
+       "ano": "1950",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Divino Espírito Santo",
+       "local": "Praça Getúlio Vargas",
+       "ano": "1910",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Menino Jesus de Praga",
+       "local": "C.E.M. Jesus",
+       "ano": "1999",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Nossa Senhora Aparecida",
+       "local": "Alto da Caieira",
+       "ano": "2002",
+       "bairro": "Saco dos Limões",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Nossa Senhora do Monte Serrat",
+       "local": "Gal.Vieira da Rosa, 610",
+       "ano": "1927",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Nossa Senhora do Rosário e de São Benedito (Irmandade)",
+       "local": "R. Mal. Guilherme",
+       "ano": "1756",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Sagrado Coração de Jesus",
+       "local": "Col. Bom Jesus/C. de Jesus",
+       "ano": "1908",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja Santíssima Trindade",
+       "local": "Provincialado D.P.",
+       "ano": null,
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Igreja São Francisco de Assis (Ordem Terceira)",
+       "local": "Rua Deodoro, 135",
+       "ano": "1803",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja São Sebastião",
+       "local": "Largo São Sebastião",
+       "ano": "1876",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Igreja do Senhor Jesus dos Passos (Irmand.)",
+       "local": "Hospital de Caridade",
+       "ano": "1765",
+       "bairro": "Centro",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "sagrado-coracao",
+     "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+     "endereco": "Rua Eugênio Raulino da Silva, 95 – Campeche | 88063-255 | Florianópolis | SC",
+     "paroco": "Pe. João Roberto Garbossa, MSC",
+     "criada": "Criada em 27 de fevereiro de 2022",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-do-sagrado-coracao/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora do Sagrado Coração",
+       "local": "Campeche",
+       "ano": null,
+       "bairro": "Campeche Central",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida e São Cristóvão",
+       "local": "Morro das Pedras",
+       "ano": null,
+       "bairro": "Morro das Pedras",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora de Fátima e Santa Cruz",
+       "local": "Costa de Dentro",
+       "ano": null,
+       "bairro": "Pântano do Sul",
+       "matriz": false
+      },
+      {
+       "nome": "Sagrado Coração de Jesus",
+       "local": "Areias do Morro das Pedras",
+       "ano": null,
+       "bairro": "Morro das Pedras",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz e Santo Antônio",
+       "local": "Praia do Saquinho",
+       "ano": null,
+       "bairro": "Pântano do Sul",
+       "matriz": false
+      },
+      {
+       "nome": "Sant’Ana e São Joaquim",
+       "local": "Armação",
+       "ano": null,
+       "bairro": "Armação",
+       "matriz": false
+      },
+      {
+       "nome": "São Pedro",
+       "local": "Pântano do Sul",
+       "ano": null,
+       "bairro": "Pântano do Sul",
+       "matriz": false
+      },
+      {
+       "nome": "São Sebastião",
+       "local": "Campeche",
+       "ano": null,
+       "bairro": "Campeche Central",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "santa-teresinha",
+     "nome": "Paróquia Santa Teresinha do Menino Jesus",
+     "endereco": "Rua Treze de Maio, 62 – Prainha88020-230 Florianópolis – SC",
+     "paroco": "Pe. Estevão Maurício Atanásio, CS",
+     "criada": "Criada a 14 de agosto de 1996",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-santa-teresinha-do-menino-jesus/",
+     "comunidades": [
+      {
+       "nome": "Santa Teresinha do Menino Jesus",
+       "local": "Prainha",
+       "ano": "1996",
+       "bairro": "Centro",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Morro da “Mariquinha”",
+       "ano": "1977",
+       "bairro": "Centro",
+       "matriz": false
+      },
+      {
+       "nome": "São Judas Tadeu",
+       "local": "José Mendes",
+       "ano": "1953",
+       "bairro": "José Mendes",
+       "matriz": false
+      },
+      {
+       "nome": "São Sebastião",
+       "local": "Morro da Queimada",
+       "ano": "1996",
+       "bairro": "Centro",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "santo-antonio",
+     "nome": "Paróquia Santo Antônio",
+     "endereco": "Rua Padre Schuler, 81, Centro88010-310 Florianópolis – SC",
+     "paroco": "Pe. Frei Alexandre Magno Cordeiro da Silva, OFM",
+     "criada": "Criada a 30 de agosto de 1966",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-santo-antonio/",
+     "comunidades": [
+      {
+       "nome": "Santo Antônio",
+       "local": "Centro",
+       "ano": "1966",
+       "bairro": "Centro",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora do Parto",
+       "local": "Rua Conselheiro Mafra",
+       "ano": "1837",
+       "bairro": "Centro",
+       "matriz": false
+      }
+     ]
     }
-  ]
+   ],
+   "outras": [
+    {
+     "nome": "Paróquia Militar Nossa Senhora de Loreto - Aeronáutica",
+     "endereco": "Base Aérea de Florianópolis / Paróquia Nossa Senhora de LoretoAv. Santos Dumont, s/n Tapera88049-000 Florianópolis – SC",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-militar-nossa-senhora-de-loreto-aeronautica/"
+    },
+    {
+     "nome": "Reitoria da Igreja Santa Catarina de Alexandria",
+     "endereco": "Rua Esteves Júnior, 711 Centro88015-130 Florianópolis – SC – Caixa Postal 135/88010-970",
+     "fonte": "https://arquifln.org.br/igrejas/reitoria-da-igreja-santa-catarina-de-alexandria/"
+    }
+   ]
+  },
+  {
+   "id": "norte",
+   "nome": "Forania Florianópolis Norte",
+   "fonte": "https://arquifln.org.br/organizacao/1070-2/florianopolis-norte/",
+   "paroquias": [
+    {
+     "id": "lagoa",
+     "nome": "Paróquia Nossa Senhora da Imaculada Conceição da Lagoa",
+     "endereco": "Rua Francisca Luiza Vieira, 277 Lagoa da Conceição88062-140 Florianópolis – SC",
+     "paroco": "Pe. Celso Antunes Duarte",
+     "criada": "Criada a 20 de junho de 1750. Reativada a 15 de novembro de 1998",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-da-imaculada-conceicao-da-lagoa/",
+     "comunidades": [
+      {
+       "nome": "N. Sra. da Imaculada C. da Lagoa",
+       "local": "Lagoa",
+       "ano": "1750",
+       "bairro": "Lagoa",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Canto da Lagoa",
+       "ano": "1988",
+       "bairro": "Canto da Lagoa",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Porto da Lagoa",
+       "ano": "1992",
+       "bairro": "Porto da Lagoa",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Retiro da Lagoa",
+       "ano": "1979",
+       "bairro": "Retiro",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Costa da Lagoa",
+       "ano": "1970",
+       "bairro": "Lagoa",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Fortaleza da Lagoa",
+       "ano": "1949",
+       "bairro": "Canto dos Araçás",
+       "matriz": false
+      },
+      {
+       "nome": "São Luiz Gonzaga",
+       "local": "Rio Tavares",
+       "ano": "1954",
+       "bairro": "Rio Tavares Central",
+       "matriz": false
+      },
+      {
+       "nome": "São Pedro",
+       "local": "Barra da Lagoa",
+       "ano": "1947",
+       "bairro": "Barra da Lagoa",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "necessidades",
+     "nome": "Paróquia Nossa Senhora das Necessidades",
+     "endereco": "Estrada Caminho dos Açores, 2450 – Santo Antônio de Lisboa; 88050-300 Florianópolis – SC",
+     "paroco": "Pe. Edinei da Rosa Cândido",
+     "criada": "Criada a 27 de abril de 1750",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-das-necessidades/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora das Necessidades",
+       "local": "Santo Antônio de Lisboa",
+       "ano": "1750",
+       "bairro": "Santo Antônio",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Cacupé",
+       "ano": "1911",
+       "bairro": "Cacupé",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Luzia",
+       "local": "Recanto dos Açores",
+       "ano": "2010",
+       "bairro": "Recanto dos Açores",
+       "matriz": false
+      },
+      {
+       "nome": "São Pedro Apóstolo",
+       "local": "Sambaqui",
+       "ano": "2007",
+       "bairro": "Sambaqui",
+       "matriz": false
+      },
+      {
+       "nome": "São Sebastião",
+       "local": "Barra do Sambaqui",
+       "ano": null,
+       "bairro": "Barra do Sambaqui",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "guadalupe",
+     "nome": "Paróquia Nossa Senhora de Guadalupe",
+     "endereco": "Av. Madre Maria Villac, 1700 – Canasvieiras – 88054-001 – Florianópolis/SC",
+     "paroco": "Pe. Eduardo Cardozo de Senna",
+     "criada": "Criada a 7 de março de 2004",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-guadalupe/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora de Guadalupe",
+       "local": "Canasvieiras",
+       "ano": "2004",
+       "bairro": "Canasvieiras",
+       "matriz": true
+      },
+      {
+       "nome": "Divino Espírito Santo",
+       "local": "Lamin",
+       "ano": "2000",
+       "bairro": "Canto do Lamim",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Jurerê",
+       "ano": "1987",
+       "bairro": "Jurerê",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora dos Remédios",
+       "local": "Ratones",
+       "ano": "1924",
+       "bairro": "Ratones",
+       "matriz": false
+      },
+      {
+       "nome": "Sagrada Face",
+       "local": "Daniela",
+       "ano": "1988",
+       "bairro": "Daniela",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Cruz",
+       "local": "Vargem Grande I",
+       "ano": "1958",
+       "bairro": "Vargem Grande",
+       "matriz": false
+      },
+      {
+       "nome": "São Brás",
+       "local": "Vargem Pequena",
+       "ano": "1962",
+       "bairro": "Vargem Pequena",
+       "matriz": false
+      },
+      {
+       "nome": "São Francisco de Assis",
+       "local": "Jurerê Internacional",
+       "ano": "1998",
+       "bairro": "Jurere Oeste",
+       "matriz": false
+      },
+      {
+       "nome": "São Francisco de Paula",
+       "local": "Canasvieiras",
+       "ano": "1833",
+       "bairro": "Canasvieiras",
+       "matriz": false
+      },
+      {
+       "nome": "São José",
+       "local": "Forte",
+       "ano": "1740",
+       "bairro": "Forte",
+       "matriz": false
+      },
+      {
+       "nome": "São Paulo Apóstolo",
+       "local": "Vargem Grande II (Tican)",
+       "ano": "2002",
+       "bairro": "Vargem Grande",
+       "matriz": false
+      },
+      {
+       "nome": "São Pedro",
+       "local": "Ponta das Canas",
+       "ano": "1915",
+       "bairro": "Ponta das Canas",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "ingleses",
+     "nome": "Paróquia Sagrado Coração de Jesus",
+     "endereco": "Rua Intendente João Nunes Vieira, 1529 – Ingleses; 88058-100 Florianópolis – SC / Cx. Postal 21.686",
+     "paroco": "Pe. José Silvano Torquato",
+     "criada": "Criada em 6 de julho de 1998",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-sagrado-coracao-de-jesus/",
+     "comunidades": [
+      {
+       "nome": "Nossa Senhora dos Navegantes",
+       "local": "Santinho",
+       "ano": "1839",
+       "bairro": "Santinho",
+       "matriz": true
+      },
+      {
+       "nome": "Santa Catarina de Alexandria",
+       "local": "Sítio do Capivarí",
+       "ano": "1954",
+       "bairro": "Capivari",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Paulina",
+       "local": "Muquém",
+       "ano": "2001",
+       "bairro": "Rio Vermelho",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Rita de Cássia",
+       "local": "Travessão",
+       "ano": "2001",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Santo Antônio",
+       "local": "Caminho do Mar",
+       "ano": "2004",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Santos Arcanjos",
+       "local": "Capivari de Cima",
+       "ano": "2001",
+       "bairro": "Capivari",
+       "matriz": false
+      },
+      {
+       "nome": "Santuário Sagrado Coração de Jesus",
+       "local": "Ingleses",
+       "ano": "1998",
+       "bairro": "Ingleses Centro",
+       "matriz": false
+      },
+      {
+       "nome": "Senhor Bom Jesus",
+       "local": "Vargem do Bom Jesus",
+       "ano": "1885",
+       "bairro": "Vargem do Bom Jesus",
+       "matriz": false
+      },
+      {
+       "nome": "São João Batista",
+       "local": "Rio Vermelho",
+       "ano": "1750",
+       "bairro": "Rio Vermelho",
+       "matriz": false
+      },
+      {
+       "nome": "São Luiz Gonzaga",
+       "local": "Cachoeira do B. Jesus",
+       "ano": "1950",
+       "bairro": "Cachoeira do Bom Jesus",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "trindade",
+     "nome": "Paróquia Santíssima Trindade",
+     "endereco": "Praça Santos Dumont, 94 – Trindade88036-680 Florianópolis – SC – Caixa Postal 5151",
+     "paroco": "Pe. Frei Rivaldo Vieira, OFMCap",
+     "criada": "Criada a 23 de março de 1853",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-santissima-trindade/",
+     "comunidades": [
+      {
+       "nome": "Santíssima Trindade",
+       "local": "Trindade",
+       "ano": "1853",
+       "bairro": "Trindade",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Morro da Penitenciária",
+       "ano": "1987",
+       "bairro": "Trindade",
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora de Guadalupe",
+       "local": "Morro do Quilombo",
+       "ano": "2004",
+       "bairro": "Itacorubi",
+       "matriz": false
+      },
+      {
+       "nome": "Puríssimo Coração de Maria",
+       "local": "Jardim Anchieta",
+       "ano": "1933",
+       "bairro": "Córrego Grande",
+       "matriz": false
+      },
+      {
+       "nome": "Santa Mônica",
+       "local": "Santa Mônica",
+       "ano": "2010",
+       "bairro": "Santa Mônica",
+       "matriz": false
+      },
+      {
+       "nome": "Santo Agostinho",
+       "local": "Pantanal",
+       "ano": "1986",
+       "bairro": "Pantanal",
+       "matriz": false
+      },
+      {
+       "nome": "São Bento",
+       "local": "Itacorubi",
+       "ano": "1904",
+       "bairro": "Itacorubi",
+       "matriz": false
+      },
+      {
+       "nome": "São Francisco de Assis",
+       "local": "Vila Guarani - Poção do C. Grande",
+       "ano": "2005",
+       "bairro": "Córrego Grande",
+       "matriz": false
+      },
+      {
+       "nome": "São José",
+       "local": "Serrinha",
+       "ano": "2000",
+       "bairro": "Trindade",
+       "matriz": false
+      }
+     ]
+    },
+    {
+     "id": "sao-francisco-xavier",
+     "nome": "Paróquia São Francisco Xavier",
+     "endereco": "Rodovia Virgílio Várzea, 538 – Monte Verde – 88032-001 – Florianópolis (SC)",
+     "paroco": "Pe. José Rufino Filho",
+     "criada": "Criada a 19 de fevereiro de 1984",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-francisco-xavier/",
+     "comunidades": [
+      {
+       "nome": "São Francisco Xavier",
+       "local": "Monte Verde",
+       "ano": "1984",
+       "bairro": "Monte Verde",
+       "matriz": true
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Sol Nascente",
+       "ano": "1999",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora de Fátima",
+       "local": "Morro do Balão",
+       "ano": "2003",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "Nossa Senhora do Perpétuo Socorro",
+       "local": "Lot. João G. da Costa",
+       "ano": "2003",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "São José",
+       "local": "Caminho da Cruz",
+       "ano": "2002",
+       "bairro": null,
+       "matriz": false
+      },
+      {
+       "nome": "São Miguel",
+       "local": "João Paulo",
+       "ano": null,
+       "bairro": "João Paulo",
+       "matriz": false
+      }
+     ]
+    }
+   ],
+   "outras": [
+    {
+     "nome": "Capelania Militar Santa Catarina - Exército",
+     "endereco": "Rua Bocaiúva, 1858 Centro / 88015-530 Florianópolis – SC",
+     "fonte": "https://arquifln.org.br/igrejas/capelania-militar-santa-catarina-exercito/"
+    },
+    {
+     "nome": "Capelania Militar Cristo Rei - Polícia Militar",
+     "endereco": "Av. Madre Benvenutta, 265 Trindade / 88036-500 Florianópolis – SC",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-militar-cristo-rei-policia-militar/"
+    }
+   ]
+  }
+ ]
 }

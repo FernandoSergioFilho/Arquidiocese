@@ -1,0 +1,725 @@
+[
+ {
+  "slug": "capelania-militar-santa-catarina-exercito",
+  "nome": "Capelania Militar Santa Catarina - Exército",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Bocaiúva, 1858 Centro / 88015-530 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Militar Santa Catarina - Exército - Arquidiocese de Florianópolis",
+   "Capelania Militar Santa Catarina - Exército",
+   "(Criada a 20 de agosto de 1974)",
+   "Capelão: Pe. José da Cruz Gomes de Araújo"
+  ]
+ },
+ {
+  "slug": "paroquia-militar-cristo-rei-policia-militar",
+  "nome": "Capelania Militar Cristo Rei - Polícia Militar",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Av. Madre Benvenutta, 265 Trindade / 88036-500 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Militar Cristo Rei - Polícia Militar - Arquidiocese de Florianópolis",
+   "Capelania Militar Cristo Rei - Polícia Militar",
+   "(Criada em 2009)",
+   "Capelão: Pe. Marcos Antônio Mota Moraes"
+  ]
+ },
+ {
+  "slug": "paroquia-militar-nossa-senhora-de-loreto-aeronautica",
+  "nome": "Paróquia Militar Nossa Senhora de Loreto - Aeronáutica",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Base Aérea de Florianópolis / Paróquia Nossa Senhora de LoretoAv. Santos Dumont, s/n Tapera88049-000 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "(Criada a 4 de maio de 2009)",
+   "Capelão: Pe. Valmir Laudelino Silvano"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-boa-viagem",
+  "nome": "Paróquia Nossa Senhora da Boa Viagem",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua João Mota Espezim, 1023 – Saco dos Limões – 88045-400 – Florianópolis/SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro do Limoeiro",
+    "ano": "1996"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Ressacada",
+    "ano": "1995"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Cachoeira do Rio Tavares",
+    "ano": "1995"
+   },
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Caeira",
+    "ano": "1990"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Costeira do Pirajubaé",
+    "ano": "1982"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Carianos",
+    "ano": "1930"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Costeira do Pirajubaé",
+    "ano": "1915"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora da Boa Viagem",
+    "local": "Saco dos Limões",
+    "ano": "1966"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de junho de 1966)",
+   "Pároco: Pe. Frei Alexandre Ferreira de Moraes, O. Carm."
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-imaculada-conceicao-da-lagoa",
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição da Lagoa",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Francisca Luiza Vieira, 277 Lagoa da Conceição88062-140 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Cruz",
+    "local": "Porto da Lagoa",
+    "ano": "1992"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Canto da Lagoa",
+    "ano": "1988"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Retiro da Lagoa",
+    "ano": "1979"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Costa da Lagoa",
+    "ano": "1970"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Rio Tavares",
+    "ano": "1954"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Fortaleza da Lagoa",
+    "ano": "1949"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Barra da Lagoa",
+    "ano": "1947"
+   },
+   {
+    "nome": "Matriz: N. Sra. da Imaculada C. da Lagoa",
+    "local": "Lagoa",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 20 de junho de 1750. Reativada a 15 de novembro de 1998)",
+   "Pároco: Pe. Celso Antunes Duarte"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-lapa",
+  "nome": "Paróquia Nossa Senhora da Lapa",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Praça Hermínio Silva, 62 – Freguesia do RibeirãoAo lado da igreja Matriz N. Sra. da Lapa – 88064-670 – Florianópolis (SC)",
+  "comunidades": [
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Pedregal",
+    "ano": ""
+   },
+   {
+    "nome": "São João Maria Vianney",
+    "local": "Fazenda do Rio Tavares",
+    "ano": "2000"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Caieira da Barra do Sul",
+    "ano": "1992"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Sertão",
+    "ano": "1992"
+   },
+   {
+    "nome": "Bom Jesus dos Pescadores",
+    "local": "Tapera da Barra do Sul",
+    "ano": "1982"
+   },
+   {
+    "nome": "Santa Luzia e São Pedro",
+    "local": "Naufragados",
+    "ano": "1954"
+   },
+   {
+    "nome": "São José",
+    "local": "Costeira do Ribeirão",
+    "ano": "1953"
+   },
+   {
+    "nome": "Santo Estevão",
+    "local": "Alto Ribeirão",
+    "ano": "1926"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima e São Lucas",
+    "local": "Tapera da Base",
+    "ano": "1926"
+   },
+   {
+    "nome": "Nossa Senhora da Lapa",
+    "local": "Barro Vermelho",
+    "ano": "1776"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora da Lapa",
+    "local": "Ribeirão da Ilha",
+    "ano": "1809"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de janeiro de 1809)",
+   "Pároco:  Pe. Vânio da Silva"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-das-necessidades",
+  "nome": "Paróquia Nossa Senhora das Necessidades",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Estrada Caminho dos Açores, 2450 – Santo Antônio de Lisboa; 88050-300 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Luzia",
+    "local": "Recanto dos Açores",
+    "ano": "2010"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Sambaqui",
+    "ano": "2007"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Barra do Sambaqui",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Cacupé",
+    "ano": "1911"
+   },
+   {
+    "nome": "Nossa Senhora das Necessidades",
+    "local": "Santo Antônio de Lisboa",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 27 de abril de 1750)",
+   "Pároco: Pe. Edinei da Rosa Cândido"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-guadalupe",
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Av. Madre Maria Villac, 1700 – Canasvieiras  – 88054-001 – Florianópolis/SC",
+  "comunidades": [
+   {
+    "nome": "São Paulo Apóstolo",
+    "local": "Vargem Grande II (Tican)",
+    "ano": "2002"
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Lamin",
+    "ano": "2000"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Jurerê Internacional",
+    "ano": "1998"
+   },
+   {
+    "nome": "Sagrada Face",
+    "local": "Daniela",
+    "ano": "1988"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Jurerê",
+    "ano": "1987"
+   },
+   {
+    "nome": "São Brás",
+    "local": "Vargem Pequena",
+    "ano": "1962"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Vargem Grande I",
+    "ano": "1958"
+   },
+   {
+    "nome": "Nossa Senhora dos Remédios",
+    "local": "Ratones",
+    "ano": "1924"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Ponta das Canas",
+    "ano": "1915"
+   },
+   {
+    "nome": "São Francisco de Paula",
+    "local": "Canasvieiras",
+    "ano": "1833"
+   },
+   {
+    "nome": "São José",
+    "local": "Forte",
+    "ano": "1740"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora de Guadalupe",
+    "local": "Canasvieiras",
+    "ano": "2004"
+   }
+  ],
+  "sobre": [
+   "(Criada a 7 de março de 2004)",
+   "Pároco: Pe. Eduardo Cardozo de Senna"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga",
+  "nome": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Schrader, 01 – Agronômica88025-090 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora das Vitória",
+    "local": "Morro Santa Vitória",
+    "ano": "2005"
+   },
+   {
+    "nome": "São José e Nossa Senhora de Nazaré",
+    "local": "Morro do Vinte e Cinco",
+    "ano": "2000"
+   },
+   {
+    "nome": "Santa Cruz e Nossa Senhora Aparecida",
+    "local": "Morro do Horácio",
+    "ano": "1999"
+   },
+   {
+    "nome": "Nossa Senhora da Conceição",
+    "local": "Rua Vitor Konder",
+    "ano": "1978"
+   },
+   {
+    "nome": "Transfiguração Senhor Bom Jesus",
+    "local": "Morro do Céu",
+    "ano": "1959"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "B. Penitenciária",
+    "ano": "1954"
+   },
+   {
+    "nome": "Matriz: N. Senhora de Lourdes e São Luiz",
+    "local": "Agronômica",
+    "ano": "1950"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de novembro de 1950)",
+   "Pároco: Pe. Júlio Cesar da Rosa"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-desterro-e-santa-catarina",
+  "nome": "Paróquia  Nossa Senhora do Desterro e Santa Catarina",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Miguelinho, 55 Centro/exp.88010-550 – Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Igreja Santíssima Trindade",
+    "local": "Provincialado D.P.",
+    "ano": ""
+   },
+   {
+    "nome": "Capela Nossa Senhora das Graças",
+    "local": "H.G.C.R.",
+    "ano": ""
+   },
+   {
+    "nome": "Igreja Nossa Senhora Aparecida",
+    "local": "Alto da Caieira",
+    "ano": "2002"
+   },
+   {
+    "nome": "Igreja Menino Jesus de Praga",
+    "local": "C.E.M. Jesus",
+    "ano": "1999"
+   },
+   {
+    "nome": "Capela São José",
+    "local": "Asilo Irmão Joaquim",
+    "ano": "1950"
+   },
+   {
+    "nome": "Igreja Nossa Senhora do Monte Serrat",
+    "local": "Gal.Vieira da Rosa, 610",
+    "ano": "1927"
+   },
+   {
+    "nome": "Igreja Divino Espírito Santo",
+    "local": "Praça Getúlio Vargas",
+    "ano": "1910"
+   },
+   {
+    "nome": "Igreja Sagrado Coração de Jesus",
+    "local": "Col. Bom Jesus/C. de Jesus",
+    "ano": "1908"
+   },
+   {
+    "nome": "Igreja São Sebastião",
+    "local": "Largo São Sebastião",
+    "ano": "1876"
+   },
+   {
+    "nome": "Igreja São Francisco de Assis (Ordem Terceira)",
+    "local": "Rua Deodoro, 135",
+    "ano": "1803"
+   },
+   {
+    "nome": "Igreja do Senhor Jesus dos Passos (Irmand.)",
+    "local": "Hospital de Caridade",
+    "ano": "1765"
+   },
+   {
+    "nome": "Igreja Nossa Senhora do Rosário  e de São Benedito (Irmandade)",
+    "local": "R. Mal. Guilherme",
+    "ano": "1756"
+   },
+   {
+    "nome": "Matriz: N. Senhora do Desterro e S. Catarina",
+    "local": "Centro",
+    "ano": "1712"
+   }
+  ],
+  "sobre": [
+   "Capela Nossa Senhora das Graças",
+   "Capela São José",
+   "(Criada a 5 de março de 1712)",
+   "Pároco: Pe. David Antônio Coelho"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-sagrado-coracao",
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Eugênio Raulino da Silva, 95 – Campeche | 88063-255 | Florianópolis | SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida e São Cristóvão",
+    "local": "Morro das Pedras",
+    "ano": ""
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Areias do Morro das Pedras",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora de Fátima e Santa Cruz",
+    "local": "Costa de Dentro",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Cruz e Santo Antônio",
+    "local": "Praia do Saquinho",
+    "ano": ""
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Pântano do Sul",
+    "ano": ""
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Campeche",
+    "ano": ""
+   },
+   {
+    "nome": "Sant’Ana e São Joaquim",
+    "local": "Armação",
+    "ano": ""
+   },
+   {
+    "nome": "Matriz Nossa Senhora do Sagrado Coração",
+    "local": "Campeche",
+    "ano": ""
+   }
+  ],
+  "sobre": [
+   "(Criada em 27 de fevereiro de 2022)",
+   "Pároco: Pe. João Roberto Garbossa, MSC"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrado-coracao-de-jesus",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Intendente João Nunes Vieira, 1529 – Ingleses; 88058-100 Florianópolis – SC / Cx. Postal 21.686",
+  "comunidades": [
+   {
+    "nome": "Santo Antônio",
+    "local": "Caminho do Mar",
+    "ano": "2004"
+   },
+   {
+    "nome": "Santos Arcanjos",
+    "local": "Capivari de Cima",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Travessão",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Muquém",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Sítio do Capivarí",
+    "ano": "1954"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Cachoeira do B. Jesus",
+    "ano": "1950"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Vargem do Bom Jesus",
+    "ano": "1885"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora dos Navegantes",
+    "local": "Santinho",
+    "ano": "1839"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Rio Vermelho",
+    "ano": "1750"
+   },
+   {
+    "nome": "Santuário Sagrado Coração de Jesus",
+    "local": "Ingleses",
+    "ano": "1998"
+   }
+  ],
+  "sobre": [
+   "(Criada em 6 de julho de 1998)",
+   "Pároco: Pe. José Silvano Torquato"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-teresinha-do-menino-jesus",
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Treze de Maio, 62 – Prainha88020-230 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "São Sebastião",
+    "local": "Morro da Queimada",
+    "ano": "1996"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro da “Mariquinha”",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "José Mendes",
+    "ano": "1953"
+   },
+   {
+    "nome": "Matriz: Santa Teresinha do Menino Jesus",
+    "local": "Prainha",
+    "ano": "1996"
+   }
+  ],
+  "sobre": [
+   "(Criada a 14 de agosto de 1996)",
+   "Pároco: Pe. Estevão Maurício Atanásio, CS"
+  ]
+ },
+ {
+  "slug": "paroquia-santissima-trindade",
+  "nome": "Paróquia Santíssima Trindade",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Praça Santos Dumont, 94 – Trindade88036-680 Florianópolis – SC – Caixa Postal 5151",
+  "comunidades": [
+   {
+    "nome": "Santa Mônica",
+    "local": "Santa Mônica",
+    "ano": "2010"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Vila Guarani - Poção do C. Grande",
+    "ano": "2005"
+   },
+   {
+    "nome": "Nossa Senhora de Guadalupe",
+    "local": "Morro do Quilombo",
+    "ano": "2004"
+   },
+   {
+    "nome": "São José",
+    "local": "Serrinha",
+    "ano": "2000"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro da Penitenciária",
+    "ano": "1987"
+   },
+   {
+    "nome": "Santo Agostinho",
+    "local": "Pantanal",
+    "ano": "1986"
+   },
+   {
+    "nome": "Puríssimo Coração de Maria",
+    "local": "Jardim Anchieta",
+    "ano": "1933"
+   },
+   {
+    "nome": "São Bento",
+    "local": "Itacorubi",
+    "ano": "1904"
+   },
+   {
+    "nome": "Matriz: Santíssima Trindade",
+    "local": "Trindade",
+    "ano": "1853"
+   }
+  ],
+  "sobre": [
+   "(Criada a 23 de março de 1853)",
+   "Pároco:  Pe. Frei Rivaldo Vieira, OFMCap"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-antonio",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Schuler, 81, Centro88010-310 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora do Parto",
+    "local": "Rua Conselheiro Mafra",
+    "ano": "1837"
+   },
+   {
+    "nome": "Matriz: Santo Antônio",
+    "local": "Centro",
+    "ano": "1966"
+   }
+  ],
+  "sobre": [
+   "(Criada a 30 de agosto de 1966)",
+   "Pároco: Pe. Frei Alexandre Magno Cordeiro da Silva, OFM"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-francisco-xavier",
+  "nome": "Paróquia São Francisco Xavier",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rodovia Virgílio Várzea, 538 – Monte Verde – 88032-001 – Florianópolis (SC)",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Morro do Balão",
+    "ano": "2003"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Lot. João G. da Costa",
+    "ano": "2003"
+   },
+   {
+    "nome": "São José",
+    "local": "Caminho da Cruz",
+    "ano": "2002"
+   },
+   {
+    "nome": "São Miguel",
+    "local": "João Paulo",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Sol Nascente",
+    "ano": "1999"
+   },
+   {
+    "nome": "Matriz: São Francisco Xavier",
+    "local": "Monte Verde",
+    "ano": "1984"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de fevereiro de 1984)",
+   "Pároco:  Pe. José Rufino Filho"
+  ]
+ },
+ {
+  "slug": "reitoria-da-igreja-santa-catarina-de-alexandria",
+  "nome": "Reitoria da Igreja Santa Catarina de Alexandria",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Esteves Júnior, 711 Centro88015-130 Florianópolis – SC – Caixa Postal  135/88010-970",
+  "comunidades": [],
+  "sobre": [
+   "Reitoria da Igreja Santa Catarina de Alexandria - Arquidiocese de Florianópolis",
+   "Reitoria da Igreja Santa Catarina de Alexandria",
+   "(Criada a 31 de março de 1985)",
+   "Reitor: Pe. Eduardo Roberto Severino, SJ"
+  ]
+ }
+]

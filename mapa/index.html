@@ -674,6 +674,12 @@ aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(
 .list button:hover,.list button:focus-visible{background:var(--chip)}
 .list .meta{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
 .list .name{min-width:0}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:8px 0 0;font-size:13px}
+.facts dt{color:var(--muted)} .facts dd{margin:0;min-width:0}
+.list a.ext{display:flex;gap:10px;align-items:center;padding:7px 8px;border-radius:8px;color:var(--fg);text-decoration:none}
+.list a.ext:hover{background:var(--chip)}
+.list button[disabled]{cursor:default}
+.list small{font-size:12px}
 .note{font-size:13px;line-height:1.5;color:var(--muted);margin:10px 0 0}
 .note a{color:var(--accent)}
 .stats{display:flex;gap:18px;margin-top:10px}
@@ -729,9 +735,9 @@ aside h3{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(
 <script>
 (async function(){
 const CORES = {
-  centro:'#a3303f', lourdes:'#e07b39', 'boa-viagem':'#c9a227', lapa:'#c2508a', campeche:'#7e57c2',
-  lagoa:'#1f8a9e', necessidades:'#3b7a3e', guadalupe:'#2e6fd1', 'sao-francisco-xavier':'#7bb047',
-  ingleses:'#49b0e0', trindade:'#5d6b8a'
+  desterro:'#a3303f', 'santo-antonio':'#8a6a3b', 'santa-teresinha':'#e58fa8', lourdes:'#e07b39', 'boa-viagem':'#c9a227',
+  lapa:'#b04aa0', 'sagrado-coracao':'#7e57c2', lagoa:'#1f8a9e', necessidades:'#3b7a3e', guadalupe:'#2e6fd1',
+  ingleses:'#49b0e0', trindade:'#4f5d7e', 'sao-francisco-xavier':'#7bb047'
 };
 const CORES_FORANIA = {'centro-sul':'#c2563a', 'norte':'#2f6fb0'};
 const fmt = n => n.toLocaleString('pt-BR');
@@ -746,10 +752,11 @@ H.foranias.forEach(f => { forania[f.id] = f; f.paroquias.forEach(p => { p.forani
 const bairros = D.bairros.features;
 bairros.forEach(b => {
   const pr = b.properties;
-  pr.grupo = pr.paroquias.length > 1 ? 'centro' : pr.paroquias[0];
-  pr.paroquias.forEach(id => { paroquia[id].bairros.push(b); paroquia[id].pop += pr.pop / pr.paroquias.length; });
+  pr.grupo = pr.principal;
+  pr.paroquias.forEach(id => paroquia[id].bairros.push(b));
 });
-const nomeGrupo = pr => pr.paroquias.length > 1 ? `Centro (${pr.paroquias.length} paróquias)` : paroquia[pr.paroquias[0]].nome;
+const nomeGrupo = pr => paroquia[pr.principal].nome + (pr.paroquias.length > 1 ? ` <span style="color:var(--muted)">+${pr.paroquias.length-1}</span>` : '');
+const comunidadesEm = nome => Object.values(paroquia).flatMap(p => p.comunidades.filter(c => c.bairro === nome).map(c => ({...c, paroquia:p})));
 const corGrupo = id => CORES[id] || '#888';
 
 let modo = 'paroquia', sel = null; // sel: {tipo:'bairro'|'paroquia'|'forania'|'arq', id}
@@ -767,6 +774,7 @@ function estilo(f){
   let ativo = true;
   if (sel && sel.tipo === 'paroquia') ativo = pr.paroquias.includes(sel.id);
   if (sel && sel.tipo === 'forania') ativo = pr.forania === sel.id;
+  if (sel && sel.tipo === 'paroquia' && ativo && pr.principal !== sel.id) return {color:corGrupo(sel.id), weight:2, dashArray:'4 3', fillColor:corGrupo(sel.id), fillOpacity:.25, opacity:1};
   const escolhido = sel && sel.tipo === 'bairro' && sel.id === pr.bairro;
   return {
     color: escolhido ? tok('--fg') : tok('--panel'), weight: escolhido ? 3 : (est ? .8 : 1.2),
@@ -824,52 +832,55 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':
 function crumbs(itens){
   return `<nav class="crumbs" aria-label="Hierarquia">${itens.map((it,i) => (i? '<span class="sep">›</span>':'') + (it.s ? `<button data-sel='${JSON.stringify(it.s)}'>${esc(it.t)}</button>` : `<span>${esc(it.t)}</span>`)).join('')}</nav>`;
 }
-const pill = est => est ? '<span class="pill warn"><i></i>Estimado por vizinhança</span>' : '<span class="pill ok"><i></i>Confirmado</span>';
-const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroquia',id:p.id})}'><span class="sw" style="background:${modo==='forania'?CORES_FORANIA[p.forania]:corGrupo(p.bairros.length && p.bairros.every(b=>b.properties.grupo==='centro')?'centro':p.id)}"></span><span class="name">${esc(p.nome)}</span><span class="meta">${p.bairros.length} bairro${p.bairros.length>1?'s':''}</span></button></li>`;
-const linhaBairro = b => { const pr=b.properties; return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="background:${corGrupo(pr.grupo)};opacity:${pr.situacao==='estimado'?.45:1}"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">${pr.situacao==='estimado'?'estimado':pr.situacao==='sede'?'sede':'comunidade'} · ${fmt(pr.pop)} hab.</span></button></li>`; };
+const pill = est => est ? '<span class="pill warn"><i></i>Estimado por vizinhança</span>' : '<span class="pill ok"><i></i>Confirmado pelo site da Arquidiocese</span>';
+const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroquia',id:p.id})}'><span class="sw" style="background:${modo==='forania'?CORES_FORANIA[p.forania]:corGrupo(p.id)}"></span><span class="name">${esc(p.nome)}</span><span class="meta">${p.bairros.length} bairro${p.bairros.length>1?'s':''}</span></button></li>`;
+const linhaBairro = b => { const pr=b.properties; if (pr.principal !== sel.id) return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="border:1.5px dashed ${corGrupo(sel.id)};box-sizing:border-box"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">divide com ${esc(paroquia[pr.principal].nome.replace(/^Paróquia\s+/,''))}</span></button></li>`; return `<li><button data-sel='${JSON.stringify({tipo:'bairro',id:pr.bairro})}'><span class="sw" style="background:${corGrupo(pr.grupo)};opacity:${pr.situacao==='estimado'?.45:1}"></span><span class="name">${esc(pr.bairro)}</span><span class="meta">${pr.situacao==='estimado'?'estimado':pr.situacao} · ${fmt(pr.pop)} hab.</span></button></li>`; };
 const ARQ = {t:'Arquidiocese', s:{tipo:'arq'}};
+const linhaComunidade = (c, comParoquia) => `<li><button ${c.bairro?`data-sel='${JSON.stringify({tipo:'bairro',id:c.bairro})}'`:'disabled'}><span class="sw" style="background:${c.matriz?corGrupo((c.paroquia||{}).id||sel.id):'var(--muted)'};border-radius:50%;width:9px;height:9px"></span><span class="name">${c.matriz?'<b>Matriz</b> · ':''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.bairro&&c.bairro!==c.local?' · '+esc(c.bairro):'')+(c.bairro?'':' · bairro não identificado')}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
 const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Confirmado</span><span><i class="k-est"></i>Estimado por vizinhança</span></div>`;
 
 function render(){
   let h = '';
   if (!sel){
-    const nB = bairros.length, nC = bairros.filter(b => b.properties.situacao !== 'estimado').length;
+    const nB = bairros.length, nC = bairros.filter(b => b.properties.situacao !== 'estimado').length, nCom = Object.values(paroquia).reduce((a,p)=>a+p.comunidades.length,0);
     h += crumbs([{t:'Arquidiocese de Florianópolis'}]);
     h += `<h2>Ilha de Santa Catarina</h2><p class="note" style="margin-top:0">Toque num bairro para ver a paróquia e a forania. Use o seletor no topo para colorir por paróquia ou por forania.</p>`;
-    h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${Object.keys(paroquia).length}</b><small>Paróquias</small></div><div><b>${nB}</b><small>Bairros</small></div></div>`;
+    h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${Object.keys(paroquia).length}</b><small>Paróquias</small></div><div><b>${nCom}</b><small>Igrejas e comunidades</small></div></div>`;
     h += legenda;
     H.foranias.forEach(f => {
       h += `<h3><button class="crumbs" style="all:unset;cursor:pointer" data-sel='${JSON.stringify({tipo:'forania',id:f.id})}'><span class="sw" style="background:${CORES_FORANIA[f.id]};margin-right:6px;vertical-align:-1px"></span>${esc(f.nome)}</button></h3><ul class="list">${f.paroquias.map(linhaParoquia).join('')}</ul>`;
     });
-    h += `<p class="note">Versão preliminar. ${nC} de ${nB} bairros têm paróquia confirmada; os demais foram estimados pela paróquia confirmada mais próxima e podem pertencer a paróquias que ainda não estão no mapa. A lista de paróquias foi levantada sem acesso direto ao site da <a href="https://arquifln.org.br/organizacao/1070-2" target="_blank" rel="noopener">Arquidiocese</a> e precisa ser conferida.</p>`;
+    h += `<p class="note">${nC} de ${nB} bairros têm igreja matriz ou comunidade localizada. Os outros ${nB-nC} foram estimados pelo bairro vizinho. Paróquias e comunidades conforme o site da <a href="https://arquifln.org.br/organizacao/1070-2" target="_blank" rel="noopener">Arquidiocese</a>, lido em 21/11/2026; a ligação de cada comunidade ao bairro do IBGE foi feita à mão.</p>`;
   } else if (sel.tipo === 'forania'){
     const f = forania[sel.id];
     const bs = bairros.filter(b => b.properties.forania === f.id);
     h += crumbs([ARQ, {t:f.nome}]);
     h += `<h2>${esc(f.nome)}</h2><div class="stats"><div><b>${f.paroquias.length}</b><small>Paróquias</small></div><div><b>${bs.length}</b><small>Bairros</small></div><div><b>${fmt(Math.round(bs.reduce((a,b)=>a+b.properties.pop,0)/1000))} mil</b><small>Habitantes</small></div></div>`;
     h += `<h3>Paróquias</h3><ul class="list">${f.paroquias.map(linhaParoquia).join('')}</ul>`;
+    if (f.outras.length) h += `<h3>Sem território (capelanias e reitoria)</h3><ul class="list">${f.outras.map(o => `<li><a class="ext" href="${o.fonte}" target="_blank" rel="noopener"><span class="sw" style="background:var(--muted);border-radius:50%;width:8px;height:8px"></span><span class="name">${esc(o.nome)}</span></a></li>`).join('')}</ul>`;
     h += `<p class="note">Fonte: <a href="${f.fonte}" target="_blank" rel="noopener">página da forania</a>.</p>`;
   } else if (sel.tipo === 'paroquia'){
     const p = paroquia[sel.id], f = forania[p.forania];
     const conf = p.bairros.filter(b => b.properties.situacao !== 'estimado'), est = p.bairros.filter(b => b.properties.situacao === 'estimado');
     h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:'Paróquia'}]);
-    h += `<h2>${esc(p.nome)}</h2><p class="note" style="margin-top:0">Igreja matriz no bairro <b>${esc(p.sede)}</b>.</p>`;
-    if (p.conferir) h += `<p class="note"><span class="pill warn"><i></i>Conferir</span> ${esc(p.conferir)}</p>`;
-    h += `<h3>Comunidades</h3>`;
-    h += p.comunidades.length ? `<ul class="list">${p.comunidades.map(c => `<li><button ${c.bairro?`data-sel='${JSON.stringify({tipo:'bairro',id:c.bairro})}'`:'disabled'}><span class="sw" style="background:var(--muted);border-radius:50%;width:8px;height:8px"></span><span class="name">${esc(c.nome)}</span><span class="meta">${c.bairro?esc(c.bairro):'local a confirmar'}</span></button></li>`).join('')}</ul>` : `<p class="note">Ainda sem lista de comunidades.</p>`;
+    h += `<h2>${esc(p.nome)}</h2>`;
+    h += `<dl class="facts">${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd></dl>`;
+    h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3>`;
+    h += `<ul class="list">${p.comunidades.map(linhaComunidade).join('')}</ul>`;
     h += `<h3>Bairros confirmados</h3><ul class="list">${conf.map(linhaBairro).join('')}</ul>`;
     if (est.length) h += `<h3>Bairros estimados</h3><ul class="list">${est.map(linhaBairro).join('')}</ul>`;
     if (p.fonte) h += `<p class="note">Fonte: <a href="${p.fonte}" target="_blank" rel="noopener">página da paróquia</a>.</p>`;
   } else {
     const b = bairros.find(x => x.properties.bairro === sel.id), pr = b.properties, f = forania[pr.forania];
     const ps = pr.paroquias.map(id => paroquia[id]);
-    h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, ps.length===1 ? {t:ps[0].nome, s:{tipo:'paroquia',id:ps[0].id}} : {t:'4 paróquias'}, {t:pr.bairro}]);
+    h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:ps[0].nome, s:{tipo:'paroquia',id:ps[0].id}}, {t:pr.bairro}]);
     h += `<h2>${esc(pr.bairro)}</h2>${pill(pr.situacao==='estimado')}`;
     h += `<div class="stats"><div><b>${fmt(pr.pop)}</b><small>Habitantes</small></div><div><b style="font-size:18px;padding-top:6px">${esc(pr.distrito)}</b><small>Distrito</small></div></div>`;
-    h += `<h3>${ps.length>1?'Paróquias com matriz neste bairro':'Paróquia'}</h3><ul class="list">${ps.map(linhaParoquia).join('')}</ul>`;
-    if (pr.situacao === 'sede' && ps.length === 1) h += `<p class="note">A igreja matriz da paróquia fica neste bairro.</p>`;
-    if (pr.situacao === 'comunidade') h += `<p class="note">Aqui fica a comunidade ${esc(pr.comunidade)}, que pertence a esta paróquia.</p>`;
-    if (pr.situacao === 'estimado') h += `<p class="note">Nenhuma paróquia confirmada tem matriz ou comunidade neste bairro. A estimativa segue a paróquia de ${esc(pr.referencia)}, a ${pr.saltos} bairro${pr.saltos>1?'s':''} de distância. O bairro pode ter paróquia própria que ainda não está no mapa.</p>`;
+    h += `<h3>${ps.length>1?'Paróquias presentes no bairro':'Paróquia'}</h3><ul class="list">${ps.map(linhaParoquia).join('')}</ul>`;
+    if (ps.length > 1) h += `<p class="note">O mapa pinta o bairro com a cor de ${esc(ps[0].nome)}${pr.situacao==='matriz'?', que tem a matriz aqui':', que tem mais comunidades aqui'}.</p>`;
+    const cs = comunidadesEm(pr.bairro);
+    if (cs.length) h += `<h3>Igrejas no bairro (${cs.length})</h3><ul class="list">${cs.map(c => linhaComunidade(c, true)).join('')}</ul>`;
+    if (pr.situacao === 'estimado') h += `<p class="note">Nenhuma comunidade do site da Arquidiocese foi localizada neste bairro. A estimativa segue a paróquia de ${esc(pr.referencia)}, a ${pr.saltos} bairro${pr.saltos>1?'s':''} de distância.</p>`;
     h += `<h3>Forania</h3><ul class="list"><li><button data-sel='${JSON.stringify({tipo:'forania',id:f.id})}'><span class="sw" style="background:${CORES_FORANIA[f.id]}"></span><span class="name">${esc(f.nome)}</span><span class="meta">${f.paroquias.length} paróquias</span></button></li></ul>`;
   }
   const c = document.getElementById('conteudo');
@@ -894,7 +905,8 @@ document.getElementById('modo-forania').onclick = () => setModo('forania');
 // Busca
 const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 const indice = [
-  ...bairros.map(b => ({t:b.properties.bairro, d:nomeGrupo(b.properties), s:{tipo:'bairro',id:b.properties.bairro}})),
+  ...bairros.map(b => ({t:b.properties.bairro, d:'Bairro · '+paroquia[b.properties.principal].nome, s:{tipo:'bairro',id:b.properties.bairro}})),
+  ...Object.values(paroquia).flatMap(p => p.comunidades.filter(c => !c.matriz).map(c => ({t:c.nome+' ('+c.local+')', d:p.nome, s:c.bairro?{tipo:'bairro',id:c.bairro}:{tipo:'paroquia',id:p.id}}))),
   ...Object.values(paroquia).map(p => ({t:p.nome, d:forania[p.forania].nome, s:{tipo:'paroquia',id:p.id}})),
   ...H.foranias.map(f => ({t:f.nome, d:'Forania', s:{tipo:'forania',id:f.id}}))
 ];
