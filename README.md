@@ -14,9 +14,8 @@ Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas a
 - `dados/arquidiocese/hierarquia.json` — hierarquia final (forania → paróquia → igrejas, com posição).
 - `dados/paroquias_site.json`, `dados/localidades_bairros.json`, `dados/coordenadas_igrejas.json` — Ilha, com correspondências conferidas uma a uma.
 
-## Como as áreas são desenhadas
+## O que o mapa desenha
 - O mapa não desenha áreas de paróquia nem bairros (a Arquidiocese não publica limites): mostra só as igrejas, na cor da paróquia (ou da forania). Os bairros do IBGE servem apenas para posicionar as igrejas da Ilha conhecidas só pelo bairro (`bairro`) e para desenhar a terra de Florianópolis.
-- Demais municípios: o site não publica limites de paróquia. A área de cada paróquia é aproximada pelas regiões mais próximas das suas igrejas (Voronoi), recortadas pelo limite do município (OpenStreetMap).
 
 ## Posição das igrejas
 - `osm`: igreja encontrada no OpenStreetMap pelo nome, perto da localidade informada pelo site.
@@ -27,8 +26,8 @@ Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas a
 Fontes: Arquidiocese de Florianópolis; IBGE; © colaboradores do OpenStreetMap (ODbL).
 
 ## Verificação
-- `python scripts/verificar.py` — confere ids, contagem de comunidades contra o site, forania (maioria entre cabeçalho da paróquia, classificação interna do site e lista da forania), posição das matrizes, nomes das igrejas do OSM, coordenadas repetidas, distâncias até a matriz e áreas. Grava `dados/arquidiocese/relatorio_verificacao.txt`.
-- `testes/teste_navegador.js` — abre a página (Playwright) e seleciona cada paróquia, cada igreja, cada área e cada forania, conferindo painel, janelas e para onde o mapa vai.
+- `python scripts/verificar.py` — confere ids, contagem de comunidades contra o site, forania (maioria entre cabeçalho da paróquia, classificação interna do site e lista da forania), posição das matrizes, nomes das igrejas do OSM, coordenadas repetidas e distâncias até a matriz. Grava `dados/arquidiocese/relatorio_verificacao.txt`.
+- `testes/teste_navegador.js` — abre a página (Playwright) e seleciona cada paróquia, cada igreja e cada forania, conferindo painel, janelas e para onde o mapa vai.
 - Regras de posição: localidade só vale se o resultado tiver o mesmo nome e estiver no mesmo município; endereço só vale se a rua e a cidade baterem; igreja do OSM só com o nome na mesma ordem, perto da localidade (ou única no município, quando o nome também é único entre as comunidades do município); cada igreja do OSM serve a uma comunidade só.
 - `dados/arquidiocese/correcoes.json` — posições conferidas à mão.
 - `scripts/baixar_cnefe.py` — estabelecimentos religiosos do CNEFE 2022 (IBGE) nos municípios da Arquidiocese (`dados/arquidiocese/cnefe_religiosos.json`). Usados por nome + localidade, nome único no município (conferido pela distância) ou "única igreja da localidade".
