@@ -19,7 +19,7 @@ import math
 import re
 import sys
 import unicodedata
-from collections import Counter, defaultdict, deque
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import geopandas as gpd
@@ -599,7 +599,17 @@ def main(arq_bairros, arq_municipios):
                 else:  # matriz posicionada só pelo bairro
                     bm = next(c["bairro"] for c in par["comunidades"] if c["matriz"])
                     centro = tuple(next(f["properties"]["ponto"] for f in ilha_geo["features"] if f["properties"]["bairro"] == bm))
-                soltas = [c for c in par["comunidades"] if "lat" not in c and not c.get("bairro")]
+                por_bairro = defaultdict(list)
+                for c in par["comunidades"]:
+                    if "lat" not in c and c.get("bairro"):
+                        por_bairro[c["bairro"]].append(c)
+                for b, cs in por_bairro.items():  # só o bairro é conhecido: perto do centro do bairro
+                    pb = next(f["properties"]["ponto"] for f in ilha_geo["features"] if f["properties"]["bairro"] == b)
+                    for j, c in enumerate(cs):
+                        r = 0 if len(cs) == 1 else 0.0022 + 0.0007 * len(cs)
+                        a = 2 * math.pi * j / len(cs)
+                        c["lat"], c["lng"], c["posicao"] = round(pb[0] + r * math.cos(a), 6), round(pb[1] + r * math.sin(a) / 0.885, 6), "bairro"
+                soltas = [c for c in par["comunidades"] if "lat" not in c]
                 for j, c in enumerate(soltas):
                     a = 2 * math.pi * j / max(len(soltas), 1) + 0.4
                     c["lat"], c["lng"], c["posicao"] = round(centro[0] + 0.004 * math.cos(a), 6), round(centro[1] + 0.004 * math.sin(a) / 0.887, 6), "aprox"
@@ -632,74 +642,30 @@ def main(arq_bairros, arq_municipios):
             c["lat"], c["lng"] = round(la + r * math.cos(a), 6), round(lo + r * math.sin(a) / 0.887, 6)
 
     # ---------- Regiões ----------
-    feats, vazios = [], []
-    # Ilha (já pronta). Bairros sem nenhuma igreja ficam sem paróquia (só o contorno).
-    for f in ilha_geo["features"]:
-        p = dict(f["properties"])
-        p["nome"] = p.pop("bairro")
-        if p["situacao"] == "estimado":
-            vazios.append({"type": "Feature", "properties": {"nome": p["nome"], "ponto": p["ponto"]}, "geometry": f["geometry"]})
-            continue
-        p["municipio"] = "Florianópolis"
-        p["tipo"] = "bairro"
-        feats.append({"type": "Feature", "properties": p, "geometry": f["geometry"]})
-
-    # Continente de Florianópolis: bairros IBGE
-    g = ler_bairros(arq_bairros)
-    cont = g[g.REGIAO_FUNCIONAL == "Continente"].reset_index(drop=True)
-    cont4326 = cont.to_crs(4326)
+    # Sem divisão por bairro: em todos os municípios a área de cada paróquia é estimada pelas igrejas (Voronoi).
+    feats = []
     forania_de = {p["id"]: f["id"] for f in fs.values() for p in f["paroquias"]}
-    pres = defaultdict(Counter)
-    matriz_em = {}
-    for par, c in todas_igrejas:
-        if par.get("ilha") or "lat" not in c:
-            continue
-        dentro = cont4326[cont4326.contains(Point(c["lng"], c["lat"]))]
-        if len(dentro):
-            b = dentro.NM_BAIRRO.iloc[0]
-            c["regiao"] = b
-            pres[b][par["id"]] += 1
-            if c["matriz"]:
-                matriz_em.setdefault(b, par["id"])
-    buf = cont.geometry.buffer(30)
-    viz = {i: [j for j in buf.sindex.query(buf.iloc[i], predicate="intersects") if j != i] for i in range(len(cont))}
-    nomes = list(cont.NM_BAIRRO)
-    atrib, fila = {}, deque()
-    for i, n in enumerate(nomes):
-        if n in pres:
-            atrib[i] = (0, i); fila.append(i)
-    while fila:
-        i = fila.popleft()
-        for j in viz[i]:
-            if j not in atrib:
-                atrib[j] = (atrib[i][0] + 1, atrib[i][1]); fila.append(j)
-    simpl = cont.geometry.simplify(12).to_crs(4326)
-    for i, n in enumerate(nomes):
-        rp = simpl.iloc[i].representative_point()
-        props = {"nome": n, "municipio": "Florianópolis", "tipo": "bairro", "distrito": "Continente",
-                 "pop": int(round(cont.POP.iloc[i] or 0)), "ponto": [round(rp.y, 5), round(rp.x, 5)]}
-        if n in pres:
-            pr = matriz_em.get(n) or pres[n].most_common(1)[0][0]
-            props.update({"principal": pr, "paroquias": [pr] + [x for x in pres[n] if x != pr],
-                          "situacao": "matriz" if n in matriz_em else "comunidade"})
-        else:
-            vazios.append({"type": "Feature", "properties": {"nome": n, "ponto": props["ponto"]}, "geometry": arred(simpl.iloc[i])})
-            continue
-        props["forania"] = forania_de[props["principal"]]
-        feats.append({"type": "Feature", "properties": props, "geometry": arred(simpl.iloc[i])})
+    g = ler_bairros(arq_bairros)
+    recorte = dict(mun_geom)  # Florianópolis: só a terra (bairros do IBGE unidos), sem o mar do limite do OSM
+    recorte["Florianópolis"] = gpd.GeoSeries([g.geometry.union_all().buffer(5).buffer(-5)], crs=g.crs).to_crs(4326).iloc[0]
+    for _, c in todas_igrejas:
+        c.pop("bairro", None); c.pop("regiao", None)
 
-    # Demais municípios: Voronoi das igrejas recortado pelo município
-    por_mun = defaultdict(list)
+    # Voronoi das igrejas recortado pelo município (igrejas aproximadas só contam se a paróquia não tiver outra ali)
+    por_mun, aprox_mun = defaultdict(list), defaultdict(list)
     for par, c in todas_igrejas:
-        if par.get("ilha") or "lat" not in c:
+        if "lat" not in c:
             continue
-        m = municipio_do_ponto(c["lat"], c["lng"])
+        m = "Florianópolis" if par.get("ilha") else municipio_do_ponto(c["lat"], c["lng"])
         if m:
             c["municipio"] = m
-        if m and m != "Florianópolis" and c["posicao"] != "aprox":
-            por_mun[m].append((par, c))
+        if m:
+            (aprox_mun if c["posicao"] in ("aprox", "bairro") else por_mun)[m].append((par, c))
+    for m, itens in aprox_mun.items():
+        tem = {par["id"] for par, _ in por_mun[m]}
+        por_mun[m] += [(par, c) for par, c in itens if par["id"] not in tem]
     for m, itens in por_mun.items():
-        area = mun_geom[m]
+        area = recorte[m]
         pts = {}
         for par, c in itens:
             pts.setdefault((round(c["lng"], 5), round(c["lat"], 5)), (par, c))
@@ -747,7 +713,6 @@ def main(arq_bairros, arq_municipios):
             "foranias": [fs[fid] for fid, _, _ in ORDEM_FORANIAS]}
     dados = {"hierarquia": hier, "regioes": {"type": "FeatureCollection", "features": feats},
              "fundo": {"type": "FeatureCollection", "features": fundo},
-             "vazios": {"type": "FeatureCollection", "features": vazios},
              "municipios": {"type": "FeatureCollection", "features": limites}}
     (RAIZ / "mapa" / "dados.json").write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (D / "hierarquia.json").write_text(json.dumps(hier, ensure_ascii=False, indent=1), encoding="utf-8")

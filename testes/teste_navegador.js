@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');
 (async()=>{const b=await chromium.launch();const c=await b.newContext({viewport:{width:1300,height:820}});const p=await c.newPage();
  const errs=[];p.on('pageerror',e=>errs.push(e.message));
- await p.route('https://cdnjs.cloudflare.com/**',r=>r.fulfill({path:'<PASTA_DE_TRABALHO>/dl/leaf/package/dist/leaflet.js',contentType:'application/javascript'}));
+ await p.route('https://cdnjs.cloudflare.com/**',r=>r.fulfill({path:'/tmp/claude-0/-home-user-Arquidiocese/94036d4b-43e5-5447-8ee2-d906f6486752/scratchpad/dl/leaf/package/dist/leaflet.js',contentType:'application/javascript'}));
  await p.route('https://fonts.googleapis.com/**',r=>r.fulfill({body:'',contentType:'text/css'}));
  await p.goto('http://localhost:8766/_preview.html');await p.waitForTimeout(1000);
  const r=await p.evaluate(()=>{

@@ -19,89 +19,92 @@
        "nome": "Nossa Senhora da Boa Viagem",
        "local": "Saco dos Limões",
        "ano": "1966",
-       "bairro": "Saco dos Limões",
        "matriz": true,
        "lat": -27.610245,
        "lng": -48.530371,
        "posicao": "osm",
-       "nome_osm": "Paróquia Nossa Senhora da Boa Viagem"
+       "nome_osm": "Paróquia Nossa Senhora da Boa Viagem",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Morro do Limoeiro",
        "ano": "1996",
-       "bairro": "Saco dos Limões",
        "matriz": false,
        "posicao": "rua",
        "lat": -27.61628,
        "lng": -48.525566,
-       "endereco_site": "Servidão Catarina Albina Gouvêa, 187 – Morro Limoeiro"
+       "endereco_site": "Servidão Catarina Albina Gouvêa, 187 – Morro Limoeiro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora do Rosário",
        "local": "Caeira",
        "ano": "1990",
-       "bairro": "Saco dos Limões",
        "matriz": false,
        "lat": -27.60398,
        "lng": -48.537595,
        "posicao": "rua",
-       "endereco_site": "Servidão Manoel Rufino de Abreu, 26 – Caeira"
+       "endereco_site": "Servidão Manoel Rufino de Abreu, 26 – Caeira",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Catarina de Alexandria",
        "local": "Ressacada",
        "ano": "1995",
-       "bairro": "Ressacada",
        "matriz": false,
        "lat": -27.669437,
        "lng": -48.529587,
        "posicao": "osm",
        "nome_osm": "Capela Santa Catarina de Alexandria",
-       "endereco_site": "Rua Maria Geraldina Ramos, 460 – Ressacada"
+       "endereco_site": "Rua Maria Geraldina Ramos, 460 – Ressacada",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Rita de Cássia",
        "local": "Carianos",
        "ano": "1930",
-       "bairro": "Carianos",
        "matriz": false,
        "lat": -27.662951,
        "lng": -48.540691,
        "posicao": "osm",
        "nome_osm": "Capela Santa Rita de Cássia",
-       "endereco_site": "Rua Jornalista Nicolau Nagib Nahas, 79 – Carianos"
+       "endereco_site": "Rua Jornalista Nicolau Nagib Nahas, 79 – Carianos",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Senhor Bom Jesus",
        "local": "Cachoeira do Rio Tavares",
        "ano": "1995",
-       "bairro": "Rio Tavares do Norte",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.64649,
+       "lng": -48.47361,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José Operário",
        "local": "Costeira do Pirajubaé",
        "ano": "1982",
-       "bairro": "Costeira do Pirajubaé",
        "matriz": false,
        "lat": -27.648742,
        "lng": -48.521351,
        "posicao": "osm",
        "nome_osm": "Capela São José",
-       "endereco_site": "Av. Deputado Diomício Freitas, 299 – Seta"
+       "endereco_site": "Av. Deputado Diomício Freitas, 299 – Seta",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Pedro Apóstolo",
        "local": "Costeira do Pirajubaé",
        "ano": "1915",
-       "bairro": "Costeira do Pirajubaé",
        "matriz": false,
        "lat": -27.63111,
        "lng": -48.523437,
        "posicao": "osm",
        "nome_osm": "Capela São Pedro Apóstolo",
-       "endereco_site": "Rua João Câncio Jacques, 1185 – Costeira do Pirajubaé"
+       "endereco_site": "Rua João Câncio Jacques, 1185 – Costeira do Pirajubaé",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -125,117 +128,123 @@
        "nome": "Nossa Senhora da Lapa",
        "local": "Ribeirão da Ilha",
        "ano": "1809",
-       "bairro": "Ribeirão da Ilha",
        "matriz": true,
        "lat": -27.718317,
        "lng": -48.563181,
        "posicao": "osm",
        "nome_osm": "Igreja Nossa Senhora da Lapa",
-       "endereco_site": "Praça Hermínio Silva, 62, Freguesia do Ribeirão"
+       "endereco_site": "Praça Hermínio Silva, 62, Freguesia do Ribeirão",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Bom Jesus dos Pescadores",
        "local": "Tapera da Barra do Sul",
        "ano": "1982",
-       "bairro": "Tapera da Barra do Sul",
        "matriz": false,
        "lat": -27.787087,
        "lng": -48.56471,
        "posicao": "cnefe",
-       "cnefe": "IGREJA BOM JESUS DOS PESCADORES · RODOVIA BALDICERO FILOMENO, 16331 · TAPERA DO RIBEIRAO (nome (único no município))"
+       "cnefe": "IGREJA BOM JESUS DOS PESCADORES · RODOVIA BALDICERO FILOMENO, 16331 · TAPERA DO RIBEIRAO (nome (único no município))",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora da Lapa",
        "local": "Barro Vermelho",
        "ano": "1776",
-       "bairro": "Ribeirão da Ilha",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.71802,
+       "lng": -48.56281,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora de Fátima e São Lucas",
        "local": "Tapera da Base",
        "ano": "1926",
-       "bairro": "Tapera da Base",
        "matriz": false,
        "lat": -27.684638,
        "lng": -48.566931,
        "posicao": "cnefe",
        "endereco_site": "Rua Bernardino João Damázio, 118",
-       "cnefe": "CAPELA NOSSA SRA DE FATIMA E SAO LUCAS · RUA BERNARDINO JOAO DAMAZIO, 118 · TAPERA DA BASE (nome e localidade)"
+       "cnefe": "CAPELA NOSSA SRA DE FATIMA E SAO LUCAS · RUA BERNARDINO JOAO DAMAZIO, 118 · TAPERA DA BASE (nome e localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora de Lourdes",
        "local": "Sertão",
        "ano": "1992",
-       "bairro": "Costeira do Ribeirão",
        "matriz": false,
        "lat": -27.748957,
        "lng": -48.548627,
        "posicao": "osm",
-       "nome_osm": "Capela Nossas Senhora de Lourdes"
+       "nome_osm": "Capela Nossas Senhora de Lourdes",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Luzia e São Pedro",
        "local": "Naufragados",
        "ano": "1954",
-       "bairro": "Caieira",
        "matriz": false,
        "lat": -27.83311,
        "lng": -48.561091,
        "posicao": "osm",
-       "nome_osm": "Capela Santa Luzia e São Pedro"
+       "nome_osm": "Capela Santa Luzia e São Pedro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Rita de Cássia",
        "local": "Pedregal",
        "ano": null,
-       "bairro": null,
        "matriz": false,
        "lat": -27.694447,
        "lng": -48.550939,
        "posicao": "cnefe",
        "local_osm": "Pedregal (neighbourhood)",
-       "cnefe": "IGREJA · RUA JOSE OLIMPIO DA SILVA · PEDREGAL (única igreja da localidade)"
+       "cnefe": "IGREJA · RUA JOSE OLIMPIO DA SILVA · PEDREGAL (única igreja da localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santo Estevão",
        "local": "Alto Ribeirão",
        "ano": "1926",
-       "bairro": "Alto Ribeirão Leste",
        "matriz": false,
        "lat": -27.706628,
        "lng": -48.524536,
        "posicao": "osm",
-       "nome_osm": "Capela Santo Estêvão"
+       "nome_osm": "Capela Santo Estêvão",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José",
        "local": "Costeira do Ribeirão",
        "ano": "1953",
-       "bairro": "Costeira do Ribeirão",
        "matriz": false,
        "lat": -27.752979,
        "lng": -48.561796,
        "posicao": "osm",
-       "nome_osm": "Capela São José"
+       "nome_osm": "Capela São José",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São João Batista",
        "local": "Caieira da Barra do Sul",
        "ano": "1992",
-       "bairro": "Caieira",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.77047,
+       "lng": -48.56414,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São João Maria Vianney",
        "local": "Fazenda do Rio Tavares",
        "ano": "2000",
-       "bairro": "Campeche Central",
        "matriz": false,
        "lat": -27.664553,
        "lng": -48.502637,
        "posicao": "osm",
-       "nome_osm": "Paróquia São João Maria Vianney"
+       "nome_osm": "Paróquia São João Maria Vianney",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -259,70 +268,76 @@
        "nome": "N. Senhora de Lourdes e São Luiz",
        "local": "Agronômica",
        "ano": "1950",
-       "bairro": "Agronômica",
        "matriz": true,
        "lat": -27.576909,
        "lng": -48.542127,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Luiz"
+       "nome_osm": "Paróquia São Luiz",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora da Conceição",
        "local": "Rua Vitor Konder",
        "ano": "1978",
-       "bairro": "Centro",
        "matriz": false,
        "lat": -27.589733,
        "lng": -48.545793,
        "posicao": "rua",
-       "endereco_site": "Rua Vitor Konder"
+       "endereco_site": "Rua Vitor Konder",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora das Vitória",
        "local": "Morro Santa Vitória",
        "ano": "2005",
-       "bairro": "Agronômica",
        "matriz": false,
        "lat": -27.576285,
        "lng": -48.54219,
        "posicao": "rua",
-       "endereco_site": "Rua Frei Caneca 64. Auxiliado por empregados do Colégio Catarinense, procedeu-se à adaptação da casa que servira de residên"
+       "endereco_site": "Rua Frei Caneca 64. Auxiliado por empregados do Colégio Catarinense, procedeu-se à adaptação da casa que servira de residên",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz e Nossa Senhora Aparecida",
        "local": "Morro do Horácio",
        "ano": "1999",
-       "bairro": "Agronômica",
        "matriz": false,
        "lat": -27.581181,
        "lng": -48.532327,
        "posicao": "osm",
-       "nome_osm": "Paróquia Nossa Senhora Aparecida"
+       "nome_osm": "Paróquia Nossa Senhora Aparecida",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José e Nossa Senhora de Nazaré",
        "local": "Morro do Vinte e Cinco",
        "ano": "2000",
-       "bairro": "Agronômica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.57589,
+       "lng": -48.5355,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São João Batista",
        "local": "B. Penitenciária",
        "ano": "1954",
-       "bairro": "Agronômica",
        "matriz": false,
        "lat": -27.577379,
        "lng": -48.527909,
        "posicao": "osm",
-       "nome_osm": "Igreja São João Batista"
+       "nome_osm": "Igreja São João Batista",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Transfiguração Senhor Bom Jesus",
        "local": "Morro do Céu",
        "ano": "1959",
-       "bairro": "Agronômica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.58309,
+       "lng": -48.5355,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -346,119 +361,136 @@
        "nome": "N. Senhora do Desterro e S. Catarina",
        "local": "Centro",
        "ano": "1712",
-       "bairro": "Centro",
        "matriz": true,
        "lat": -27.596445,
        "lng": -48.549263,
        "posicao": "osm",
-       "nome_osm": "Catedral Metropolitana"
+       "nome_osm": "Catedral Metropolitana",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Capela Nossa Senhora das Graças",
        "local": "H.G.C.R.",
        "ano": null,
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.58877,
+       "lng": -48.54888,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Capela São José",
        "local": "Asilo Irmão Joaquim",
        "ano": "1950",
-       "bairro": null,
        "matriz": false,
        "posicao": "aprox",
        "lat": -27.592761,
-       "lng": -48.547507
+       "lng": -48.547507,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Divino Espírito Santo",
        "local": "Praça Getúlio Vargas",
        "ano": "1910",
-       "bairro": "Centro",
        "matriz": false,
        "lat": -27.593216,
        "lng": -48.546044,
        "posicao": "osm",
-       "nome_osm": "Capela do Divino Espírito Santo"
+       "nome_osm": "Capela do Divino Espírito Santo",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Menino Jesus de Praga",
        "local": "C.E.M. Jesus",
        "ano": "1999",
-       "bairro": null,
        "matriz": false,
        "posicao": "aprox",
        "lat": -27.599636,
-       "lng": -48.546544
+       "lng": -48.546544,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Nossa Senhora Aparecida",
        "local": "Alto da Caieira",
        "ano": "2002",
-       "bairro": "Saco dos Limões",
        "matriz": false,
-       "posicao": "aprox"
+       "posicao": "bairro",
+       "lat": -27.60628,
+       "lng": -48.53298,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Nossa Senhora do Monte Serrat",
        "local": "Gal.Vieira da Rosa, 610",
        "ano": "1927",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.592709,
+       "lng": -48.542755,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Nossa Senhora do Rosário e de São Benedito (Irmandade)",
        "local": "R. Mal. Guilherme",
        "ano": "1756",
-       "bairro": "Centro",
        "matriz": false,
        "lat": -27.595102,
        "lng": -48.549429,
        "posicao": "osm",
        "nome_osm": "Igreja Nossa Senhora do Rosário",
-       "endereco_site": "Rua Marechal Guilherme, 60 - Centro de Florianópolis"
+       "endereco_site": "Rua Marechal Guilherme, 60 - Centro de Florianópolis",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Sagrado Coração de Jesus",
        "local": "Col. Bom Jesus/C. de Jesus",
        "ano": "1908",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.599081,
+       "lng": -48.545094,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja Santíssima Trindade",
        "local": "Provincialado D.P.",
        "ano": null,
-       "bairro": null,
        "matriz": false,
        "posicao": "aprox",
        "lat": -27.596938,
-       "lng": -48.553738
+       "lng": -48.553738,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja São Francisco de Assis (Ordem Terceira)",
        "local": "Rua Deodoro, 135",
        "ano": "1803",
-       "bairro": "Centro",
        "matriz": false,
        "lat": -27.596693,
        "lng": -48.552107,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Francisco"
+       "nome_osm": "Paróquia São Francisco",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja São Sebastião",
        "local": "Largo São Sebastião",
        "ano": "1876",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.599081,
+       "lng": -48.552666,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Igreja do Senhor Jesus dos Passos (Irmand.)",
        "local": "Hospital de Caridade",
        "ano": "1765",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.592709,
+       "lng": -48.555005,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -482,87 +514,90 @@
        "nome": "Nossa Senhora do Sagrado Coração",
        "local": "Campeche",
        "ano": null,
-       "bairro": "Campeche Leste",
        "matriz": true,
        "lat": -27.685318,
        "lng": -48.492194,
        "posicao": "osm",
        "nome_osm": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião",
-       "endereco_site": "Rua Eugênio Raulino da Silva, 95"
+       "endereco_site": "Rua Eugênio Raulino da Silva, 95",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida e São Cristóvão",
        "local": "Morro das Pedras",
        "ano": null,
-       "bairro": "Morro das Pedras",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.71236,
+       "lng": -48.50757,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora de Fátima e Santa Cruz",
        "local": "Costa de Dentro",
        "ano": null,
-       "bairro": "Açores",
        "matriz": false,
        "lat": -27.781128,
        "lng": -48.537415,
        "posicao": "osm",
-       "nome_osm": "Capela Santa Cruz Nossa Senhora de Fátima"
+       "nome_osm": "Capela Santa Cruz Nossa Senhora de Fátima",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Sagrado Coração de Jesus",
        "local": "Areias do Morro das Pedras",
        "ano": null,
-       "bairro": "Morro das Pedras",
        "matriz": false,
        "lat": -27.706653,
        "lng": -48.505058,
        "posicao": "osm",
-       "nome_osm": "Igreja Sagrado Coração de jesus"
+       "nome_osm": "Igreja Sagrado Coração de jesus",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz e Santo Antônio",
        "local": "Praia do Saquinho",
        "ano": null,
-       "bairro": "Pântano do Sul",
        "matriz": false,
        "lat": -27.80525,
        "lng": -48.537337,
        "posicao": "cnefe",
-       "cnefe": "COMUNIDADE DE SANTA CRUZ E SANTO ANTONIO PAROQUIA NOSSA SENHORA DA LAPA, TRILHA DO SAQUINHO, PANTANO DO SUL"
+       "cnefe": "COMUNIDADE DE SANTA CRUZ E SANTO ANTONIO PAROQUIA NOSSA SENHORA DA LAPA, TRILHA DO SAQUINHO, PANTANO DO SUL",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Sant’Ana e São Joaquim",
        "local": "Armação",
        "ano": null,
-       "bairro": "Armação",
        "matriz": false,
        "lat": -27.750594,
        "lng": -48.502984,
        "posicao": "osm",
        "nome_osm": "Paróquia Santana",
-       "endereco_site": "Av Antônio Borges dos Santos, s/no"
+       "endereco_site": "Av Antônio Borges dos Santos, s/no",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Pedro",
        "local": "Pântano do Sul",
        "ano": null,
-       "bairro": "Pântano do Sul",
        "matriz": false,
        "lat": -27.780614,
        "lng": -48.508066,
        "posicao": "osm",
-       "nome_osm": "Capela São Pedro"
+       "nome_osm": "Capela São Pedro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Sebastião",
        "local": "Campeche",
        "ano": null,
-       "bairro": "Campeche Norte",
        "matriz": false,
        "lat": -27.676569,
        "lng": -48.483107,
        "posicao": "osm",
-       "nome_osm": "Igreja São Sebastião do Campeche"
+       "nome_osm": "Igreja São Sebastião do Campeche",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -586,37 +621,43 @@
        "nome": "Santa Teresinha do Menino Jesus",
        "local": "Prainha",
        "ano": "1996",
-       "bairro": "José Mendes",
        "matriz": true,
        "lat": -27.606155,
        "lng": -48.545733,
        "posicao": "endereco",
-       "nome_osm": null
+       "nome_osm": null,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Morro da “Mariquinha”",
        "ano": "1977",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.59087,
+       "lng": -48.54888,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Judas Tadeu",
        "local": "José Mendes",
        "ano": "1953",
-       "bairro": "José Mendes",
        "matriz": false,
        "lat": -27.612297,
        "lng": -48.547509,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Judas Tadeu"
+       "nome_osm": "Paróquia São Judas Tadeu",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Sebastião",
        "local": "Morro da Queimada",
        "ano": "1996",
-       "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.59807,
+       "lng": -48.54888,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -638,23 +679,23 @@
        "nome": "Santo Antônio",
        "local": "Centro",
        "ano": "1966",
-       "bairro": "Centro",
        "matriz": true,
        "lat": -27.592917,
        "lng": -48.554839,
        "posicao": "osm",
-       "nome_osm": "Igreja de Santo Antônio"
+       "nome_osm": "Igreja de Santo Antônio",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora do Parto",
        "local": "Rua Conselheiro Mafra",
        "ano": "1837",
-       "bairro": "Centro",
        "matriz": false,
        "lat": -27.594726,
        "lng": -48.556298,
        "posicao": "osm",
-       "nome_osm": "Nossa Senhora do Bom Parto"
+       "nome_osm": "Nossa Senhora do Bom Parto",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -697,73 +738,85 @@
        "nome": "N. Sra. da Imaculada C. da Lagoa",
        "local": "Lagoa",
        "ano": "1750",
-       "bairro": "Lagoa",
        "matriz": true,
        "lat": -27.598171,
        "lng": -48.467497,
        "posicao": "osm",
-       "nome_osm": "Capela de Nossa Senhora da Conceição da Lagoa"
+       "nome_osm": "Capela de Nossa Senhora da Conceição da Lagoa",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Canto da Lagoa",
        "ano": "1988",
-       "bairro": "Canto da Lagoa",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.61885,
+       "lng": -48.48951,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Porto da Lagoa",
        "ano": "1992",
-       "bairro": "Porto da Lagoa",
        "matriz": false,
        "lat": -27.632668,
        "lng": -48.472326,
        "posicao": "osm",
-       "nome_osm": "Capela Santa Cruz"
+       "nome_osm": "Capela Santa Cruz",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Retiro da Lagoa",
        "ano": "1979",
-       "bairro": "Retiro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.62557,
+       "lng": -48.45576,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Costa da Lagoa",
        "ano": "1970",
-       "bairro": "Lagoa",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.5638,
+       "lng": -48.48191,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Fortaleza da Lagoa",
        "ano": "1949",
-       "bairro": "Canto dos Araçás",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.573,
+       "lng": -48.4607,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Luiz Gonzaga",
        "local": "Rio Tavares",
        "ano": "1954",
-       "bairro": "Rio Tavares do Norte",
        "matriz": false,
        "lat": -27.64563,
        "lng": -48.477071,
        "posicao": "osm",
-       "nome_osm": "Capela São Luiz Gonzaga"
+       "nome_osm": "Capela São Luiz Gonzaga",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Pedro",
        "local": "Barra da Lagoa",
        "ano": "1947",
-       "bairro": "Barra da Lagoa",
        "matriz": false,
        "lat": -27.575428,
        "lng": -48.423283,
        "posicao": "osm",
-       "nome_osm": "Igreja São Pedro"
+       "nome_osm": "Igreja São Pedro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -788,40 +841,52 @@
        "nome": "Nossa Senhora das Necessidades",
        "local": "Santo Antônio de Lisboa",
        "ano": "1750",
-       "bairro": "Santo Antônio",
        "matriz": true,
        "lat": -27.507869,
        "lng": -48.518092,
        "posicao": "osm",
-       "nome_osm": "Paróquia de Nossa Senhora das Necessidades"
+       "nome_osm": "Paróquia de Nossa Senhora das Necessidades",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Cacupé",
        "ano": "1911",
-       "bairro": "Cacupé",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.53266,
+       "lng": -48.5232,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Luzia",
        "local": "Recanto dos Açores",
        "ano": "2010",
-       "bairro": "Recanto dos Açores",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.49383,
+       "lng": -48.49517,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Pedro Apóstolo",
        "local": "Sambaqui",
        "ano": "2007",
-       "bairro": "Sambaqui",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.48167,
+       "lng": -48.50153,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Sebastião",
        "local": "Barra do Sambaqui",
        "ano": null,
-       "bairro": "Barra do Sambaqui",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.47264,
+       "lng": -48.51052,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -841,127 +906,133 @@
        "nome": "Nossa Senhora de Guadalupe",
        "local": "Canasvieiras",
        "ano": "2004",
-       "bairro": "Canasvieiras",
        "matriz": true,
        "lat": -27.428807,
        "lng": -48.454613,
        "posicao": "osm",
        "nome_osm": "Paróquia Nossa Senhora de Guadalupe",
-       "endereco_site": "Av. Madre Maria Villac, 1700"
+       "endereco_site": "Av. Madre Maria Villac, 1700",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Divino Espírito Santo",
        "local": "Lamin",
        "ano": "2000",
-       "bairro": "Canto do Lamim",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.44458,
+       "lng": -48.47372,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Jurerê",
        "ano": "1987",
-       "bairro": "Jurerê",
        "matriz": false,
        "lat": -27.450973,
        "lng": -48.487302,
        "posicao": "cnefe",
-       "cnefe": "IGREJA CATOLICA NOSSA SENHORA APARECIDA · RUA JURERE TRADICIONAL · JURERE (nome e localidade)"
+       "cnefe": "IGREJA CATOLICA NOSSA SENHORA APARECIDA · RUA JURERE TRADICIONAL · JURERE (nome e localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora dos Remédios",
        "local": "Ratones",
        "ano": "1924",
-       "bairro": "Ratones",
        "matriz": false,
        "lat": -27.505192,
        "lng": -48.490948,
        "posicao": "osm",
-       "nome_osm": "Paróquia Nossa Senhora dos Remédios"
+       "nome_osm": "Paróquia Nossa Senhora dos Remédios",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Sagrada Face",
        "local": "Daniela",
        "ano": "1988",
-       "bairro": "Daniela",
        "matriz": false,
        "lat": -27.448193,
        "lng": -48.530044,
        "posicao": "cnefe",
-       "cnefe": "IGREJA CATOLICA · AVENIDA DAS PALMEIRAS, 786 · DANIELA (única igreja da localidade)"
+       "cnefe": "IGREJA CATOLICA · AVENIDA DAS PALMEIRAS, 786 · DANIELA (única igreja da localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Cruz",
        "local": "Vargem Grande I",
        "ano": "1958",
-       "bairro": "Vargem Grande",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.46723,
+       "lng": -48.44905,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Brás",
        "local": "Vargem Pequena",
        "ano": "1962",
-       "bairro": "Vargem Pequena",
        "matriz": false,
        "lat": -27.469999,
        "lng": -48.461553,
        "posicao": "osm",
-       "nome_osm": "Capela São Brás"
+       "nome_osm": "Capela São Brás",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Francisco de Assis",
        "local": "Jurerê Internacional",
        "ano": "1998",
-       "bairro": "Jurere Oeste",
        "matriz": false,
        "lat": -27.443076,
        "lng": -48.502177,
        "posicao": "rua",
-       "endereco_site": "Av. dos Salmões, 90"
+       "endereco_site": "Av. dos Salmões, 90",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Francisco de Paula",
        "local": "Canasvieiras",
        "ano": "1833",
-       "bairro": "Jurere Leste",
        "matriz": false,
        "lat": -27.429817,
        "lng": -48.476164,
        "posicao": "osm",
        "nome_osm": "Paróquia de São Francisco de Paula",
-       "endereco_site": "Rodovia Tertuliano Brito Xavier, 2201"
+       "endereco_site": "Rodovia Tertuliano Brito Xavier, 2201",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José",
        "local": "Forte",
        "ano": "1740",
-       "bairro": "Forte",
        "matriz": false,
        "lat": -27.431882,
        "lng": -48.516958,
        "posicao": "rua",
-       "endereco_site": "Servidão da Carioca (Cetro Comunitário Forte), s/n"
+       "endereco_site": "Servidão da Carioca (Cetro Comunitário Forte), s/n",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Paulo Apóstolo",
        "local": "Vargem Grande II (Tican)",
        "ano": "2002",
-       "bairro": "Vargem Grande",
        "matriz": false,
        "lat": -27.449389,
        "lng": -48.450804,
        "posicao": "cnefe",
-       "cnefe": "IGREJA CATOLICA SAO PAULO APOSTOLO · SERVIDAO ERNANI SOUZA · VARGEM GRANDE (nome e localidade)"
+       "cnefe": "IGREJA CATOLICA SAO PAULO APOSTOLO · SERVIDAO ERNANI SOUZA · VARGEM GRANDE (nome e localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Pedro",
        "local": "Ponta das Canas",
        "ano": "1915",
-       "bairro": "Ponta das Canas",
        "matriz": false,
        "lat": -27.3946,
        "lng": -48.433674,
        "posicao": "osm",
-       "nome_osm": "Paróquia de São Pedro"
+       "nome_osm": "Paróquia de São Pedro",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -985,114 +1056,117 @@
        "nome": "Nossa Senhora dos Navegantes",
        "local": "Santinho",
        "ano": "1839",
-       "bairro": "Santinho",
        "matriz": true,
        "lat": -27.44391,
        "lng": -48.376639,
        "posicao": "rua",
-       "endereco_site": "Estrada Vereador Onildo Lemos, 41 - Santinho"
+       "endereco_site": "Estrada Vereador Onildo Lemos, 41 - Santinho",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Catarina de Alexandria",
        "local": "Sítio do Capivarí",
        "ano": "1954",
-       "bairro": "Capivari",
        "matriz": false,
        "lat": -27.455387,
        "lng": -48.397044,
        "posicao": "osm",
        "nome_osm": "Paróquia Santa Catarina de Alexandria",
-       "endereco_site": "Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari"
+       "endereco_site": "Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Paulina",
        "local": "Muquém",
        "ano": "2001",
-       "bairro": "Rio Vermelho",
        "matriz": false,
        "lat": -27.469078,
        "lng": -48.412223,
        "posicao": "osm",
        "nome_osm": "Igreja Santa Paulina",
-       "endereco_site": "Servidão Canaã, 352 - Muquém"
+       "endereco_site": "Servidão Canaã, 352 - Muquém",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Rita de Cássia",
        "local": "Travessão",
        "ano": "2001",
-       "bairro": null,
        "matriz": false,
        "posicao": "rua",
        "lat": -27.481561,
        "lng": -48.405201,
-       "endereco_site": "Servidão Caminho das Orquídeas, 78 - Costa do Moçambique"
+       "endereco_site": "Servidão Caminho das Orquídeas, 78 - Costa do Moçambique",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santo Antônio",
        "local": "Caminho do Mar",
        "ano": "2004",
-       "bairro": null,
        "matriz": false,
        "lat": -27.438791,
        "lng": -48.388741,
        "posicao": "rua",
        "local_osm": "Servidão Caminho do Mar (residential)",
-       "endereco_site": "Caminho do Mar"
+       "endereco_site": "Caminho do Mar",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santos Arcanjos",
        "local": "Capivari de Cima",
        "ano": "2001",
-       "bairro": "Capivari",
        "matriz": false,
-       "endereco_site": "Rua Graciliano Manoel Gomes, 692 - Engenho"
+       "endereco_site": "Rua Graciliano Manoel Gomes, 692 - Engenho",
+       "lat": -27.45379,
+       "lng": -48.40665,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santuário Sagrado Coração de Jesus",
        "local": "Ingleses",
        "ano": "1998",
-       "bairro": "Ingleses Centro",
        "matriz": false,
        "lat": -27.438819,
        "lng": -48.395663,
        "posicao": "osm",
-       "nome_osm": "Santuário do Sagrado Coração de Jesus"
+       "nome_osm": "Santuário do Sagrado Coração de Jesus",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Senhor Bom Jesus",
        "local": "Vargem do Bom Jesus",
        "ano": "1885",
-       "bairro": "Vargem do Bom Jesus",
        "matriz": false,
        "lat": -27.453479,
        "lng": -48.427239,
        "posicao": "osm",
        "nome_osm": "Igreja Senhor Bom Jesus",
-       "endereco_site": "Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus"
+       "endereco_site": "Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São João Batista",
        "local": "Rio Vermelho",
        "ano": "1750",
-       "bairro": "Rio Vermelho",
        "matriz": false,
        "lat": -27.493755,
        "lng": -48.419684,
        "posicao": "osm",
        "nome_osm": "Capela São João Batista do Rio Vermelho",
-       "endereco_site": "Rodovia João Gualberto Soares, 6847 - Rio Vermelho"
+       "endereco_site": "Rodovia João Gualberto Soares, 6847 - Rio Vermelho",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Luiz Gonzaga",
        "local": "Cachoeira do B. Jesus",
        "ano": "1950",
-       "bairro": "Cachoeira do Bom Jesus Leste",
        "matriz": false,
        "lat": -27.430603,
        "lng": -48.422796,
        "posicao": "osm",
        "nome_osm": "Paróquia São Luiz Gonzaga",
-       "endereco_site": "Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus"
+       "endereco_site": "Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -1116,94 +1190,100 @@
        "nome": "Santíssima Trindade",
        "local": "Trindade",
        "ano": "1853",
-       "bairro": "Trindade",
        "matriz": true,
        "lat": -27.596659,
        "lng": -48.521457,
        "posicao": "osm",
-       "nome_osm": "Santíssima Trindade"
+       "nome_osm": "Santíssima Trindade",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Morro da Penitenciária",
        "ano": "1987",
-       "bairro": "Trindade",
        "matriz": false,
        "posicao": "rua",
        "lat": -27.584068,
        "lng": -48.528048,
-       "endereco_site": "Rua Álvaro Ramos, s/n, Escadaria, Morro da Penitenciária"
+       "endereco_site": "Rua Álvaro Ramos, s/n, Escadaria, Morro da Penitenciária",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora de Guadalupe",
        "local": "Morro do Quilombo",
        "ano": "2004",
-       "bairro": "Itacorubi",
        "matriz": false,
        "lat": -27.581372,
        "lng": -48.494757,
        "posicao": "osm",
        "nome_osm": "Igreja de Nossa Senhora de Guadalupe",
-       "endereco_site": "Rua da Represa, 188, Morro do Quilombo"
+       "endereco_site": "Rua da Represa, 188, Morro do Quilombo",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Puríssimo Coração de Maria",
        "local": "Jardim Anchieta",
        "ano": "1933",
-       "bairro": "Córrego Grande",
        "matriz": false,
        "lat": -27.596376,
        "lng": -48.503698,
        "posicao": "osm",
-       "nome_osm": "Igreja Puríssimo Coração de Maria"
+       "nome_osm": "Igreja Puríssimo Coração de Maria",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santa Mônica",
        "local": "Santa Mônica",
        "ano": "2010",
-       "bairro": "Santa Mônica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.59029,
+       "lng": -48.51015,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Santo Agostinho",
        "local": "Pantanal",
        "ano": "1986",
-       "bairro": "Pantanal",
        "matriz": false,
        "lat": -27.611281,
        "lng": -48.521857,
        "posicao": "osm",
-       "nome_osm": "Igreja Santo Agostinho"
+       "nome_osm": "Igreja Santo Agostinho",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Bento",
        "local": "Itacorubi",
        "ano": "1904",
-       "bairro": "Itacorubi",
        "matriz": false,
        "lat": -27.58238,
        "lng": -48.50368,
        "posicao": "osm",
        "nome_osm": "Capela São Bento",
-       "endereco_site": "Rodovia Amaro Antônio Vieira, 1668, Itacorubi"
+       "endereco_site": "Rodovia Amaro Antônio Vieira, 1668, Itacorubi",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Francisco de Assis",
        "local": "Vila Guarani - Poção do C. Grande",
        "ano": "2005",
-       "bairro": "Córrego Grande",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.61085,
+       "lng": -48.50377,
+       "posicao": "bairro",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José",
        "local": "Serrinha",
        "ano": "2000",
-       "bairro": "Trindade",
        "matriz": false,
        "lat": -27.598367,
        "lng": -48.528147,
        "posicao": "endereco",
-       "endereco_site": "Rua Marcus Aurélio Homem, 366, Serrinha"
+       "endereco_site": "Rua Marcus Aurélio Homem, 366, Serrinha",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -1227,67 +1307,67 @@
        "nome": "São Francisco Xavier",
        "local": "Monte Verde",
        "ano": "1984",
-       "bairro": "Monte Verde",
        "matriz": true,
        "lat": -27.555124,
        "lng": -48.4968,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Francisco Xavier Arquidiocese"
+       "nome_osm": "Paróquia São Francisco Xavier Arquidiocese",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora Aparecida",
        "local": "Sol Nascente",
        "ano": "1999",
-       "bairro": null,
        "matriz": false,
        "lat": -27.549913,
        "lng": -48.492646,
        "posicao": "cnefe",
        "local_osm": "Sol Nascente (neighbourhood)",
-       "cnefe": "CAPELA NOSSA SENHORA APARECIDA · RUA PEDRA DE LISTRAS · SACO GRANDE (nome, perto da localidade)"
+       "cnefe": "CAPELA NOSSA SENHORA APARECIDA · RUA PEDRA DE LISTRAS · SACO GRANDE (nome, perto da localidade)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora de Fátima",
        "local": "Morro do Balão",
        "ano": "2003",
-       "bairro": null,
        "matriz": false,
        "lat": -27.541614,
        "lng": -48.498613,
        "posicao": "localidade",
-       "local_osm": "Morro do Balão (neighbourhood)"
+       "local_osm": "Morro do Balão (neighbourhood)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "Nossa Senhora do Perpétuo Socorro",
        "local": "Lot. João G. da Costa",
        "ano": "2003",
-       "bairro": null,
        "matriz": false,
        "posicao": "aprox",
        "lat": -27.55144,
-       "lng": -48.495044
+       "lng": -48.495044,
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São José",
        "local": "Caminho da Cruz",
        "ano": "2002",
-       "bairro": null,
        "matriz": false,
        "lat": -27.562138,
        "lng": -48.498514,
        "posicao": "localidade",
-       "local_osm": "Servidão Caminho da Cruz (residential)"
+       "local_osm": "Servidão Caminho da Cruz (residential)",
+       "municipio": "Florianópolis"
       },
       {
        "nome": "São Miguel",
        "local": "João Paulo",
        "ano": null,
-       "bairro": "João Paulo",
        "matriz": false,
        "lat": -27.563476,
        "lng": -48.516423,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Miguel"
+       "nome_osm": "Paróquia São Miguel",
+       "municipio": "Florianópolis"
       }
      ],
      "municipio": "Florianópolis",
@@ -1336,7 +1416,6 @@
        "lng": -48.581345,
        "posicao": "osm",
        "nome_osm": "Paróquia de Nossa Senhora da Glória",
-       "regiao": "Balneário",
        "municipio": "Florianópolis"
       }
      ],
@@ -1364,7 +1443,6 @@
        "lat": -27.5882,
        "lng": -48.5809,
        "posicao": "endereco",
-       "regiao": "Estreito",
        "municipio": "Florianópolis"
       },
       {
@@ -1376,7 +1454,6 @@
        "lng": -48.575164,
        "posicao": "osm",
        "nome_osm": "Paróquia Senhor Bom Jesus dos Aflitos",
-       "regiao": "Estreito",
        "municipio": "Florianópolis"
       }
      ],
@@ -1403,7 +1480,6 @@
        "lng": -48.57931,
        "posicao": "osm",
        "nome_osm": "Igreja Nossa Senhora do Carmo",
-       "regiao": "Coqueiros",
        "municipio": "Florianópolis"
       },
       {
@@ -1414,7 +1490,6 @@
        "posicao": "localidade",
        "lat": -27.6057,
        "lng": -48.587,
-       "regiao": "Abraão",
        "municipio": "Florianópolis"
       },
       {
@@ -1426,7 +1501,6 @@
        "lng": -48.581119,
        "posicao": "osm",
        "nome_osm": "Igreja São Judas Tadeu",
-       "regiao": "Capoeiras",
        "municipio": "Florianópolis"
       }
      ],
@@ -1455,7 +1529,6 @@
        "lng": -48.592708,
        "posicao": "osm",
        "nome_osm": "Paróquia Santo Antônio e Santa Maria Goretti",
-       "regiao": "Coloninha",
        "municipio": "Florianópolis"
       },
       {
@@ -1467,7 +1540,6 @@
        "lng": -48.600994,
        "posicao": "osm",
        "nome_osm": "Capela Nossa Senhora Aparecida e São Geraldo",
-       "regiao": "Monte Cristo",
        "municipio": "Florianópolis"
       }
      ],
@@ -1494,7 +1566,6 @@
        "lng": -48.596578,
        "posicao": "osm",
        "nome_osm": "Paróquia de São João Batista e Santa Luzia",
-       "regiao": "Capoeiras",
        "municipio": "Florianópolis"
       },
       {
@@ -1506,7 +1577,6 @@
        "lng": -48.592496,
        "posicao": "osm",
        "nome_osm": "Capela Nossa Senhora dos Navegantes",
-       "regiao": "Itaguaçu",
        "municipio": "Florianópolis"
       },
       {
@@ -1518,7 +1588,6 @@
        "lng": -48.593702,
        "posicao": "osm",
        "nome_osm": "Paróquia Senhor Bom Jesus",
-       "regiao": "Abraão",
        "municipio": "Florianópolis"
       },
       {
@@ -1530,7 +1599,6 @@
        "lat": -27.595454,
        "lng": -48.598104,
        "cnefe": "ORATORIO FESTIVO SAO LUIS ORIONE · SERVIDAO ATAIR HAMMES · CAPOEIRAS (nome (único no município))",
-       "regiao": "Capoeiras",
        "municipio": "Florianópolis"
       }
      ],
@@ -1559,7 +1627,6 @@
        "lng": -48.595051,
        "posicao": "osm",
        "nome_osm": "Paróquia São José e Santa Rita de Cássia",
-       "regiao": "Jardim Atlântico",
        "municipio": "Florianópolis"
       },
       {

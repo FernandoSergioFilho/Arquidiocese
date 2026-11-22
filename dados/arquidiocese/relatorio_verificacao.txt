@@ -284,4 +284,4 @@
 == 9. Paróquias sem área no mapa
 
 == 10. Resumo das posições
-   Counter({'osm': 287, 'localidade': 118, 'aprox': 111, 'cnefe': 81, 'bairro (Ilha)': 26, 'rua': 19, 'endereco': 13})
+   Counter({'osm': 287, 'localidade': 114, 'aprox': 110, 'cnefe': 85, 'bairro': 27, 'rua': 19, 'endereco': 13})

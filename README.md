@@ -15,7 +15,7 @@ Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas a
 - `dados/paroquias_site.json`, `dados/localidades_bairros.json`, `dados/coordenadas_igrejas.json` — Ilha, com correspondências conferidas uma a uma.
 
 ## Como as áreas são desenhadas
-- Florianópolis (Ilha e Continente): bairros oficiais do IBGE (Censo 2022), pintados pela paróquia da igreja que fica no bairro; sem igreja, herda do bairro vizinho ("estimado").
+- O mapa não usa divisão por bairro. Em todos os municípios, a área de cada paróquia é aproximada (Voronoi das suas igrejas, recortado pelo município; em Florianópolis, só a parte em terra). Os bairros do IBGE servem apenas para posicionar as igrejas da Ilha conhecidas só pelo bairro (`bairro`).
 - Demais municípios: o site não publica limites de paróquia. A área de cada paróquia é aproximada pelas regiões mais próximas das suas igrejas (Voronoi), recortadas pelo limite do município (OpenStreetMap).
 
 ## Posição das igrejas
