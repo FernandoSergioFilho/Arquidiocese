@@ -71,6 +71,24 @@ def norm_tokens(s):
     return set(re.sub(r"[^a-z ]", " ", s).split())
 
 
+def norm_seq(s):
+    """Palavras do nome em ordem, sem palavras de tipo (igreja, capela...) e sem ligações."""
+    s = unicodedata.normalize("NFD", s or "").encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"\b(n\.?\s*sra\.?|n\.?\s*s\.?)\b", "nossa senhora", s)
+    s = re.sub(r"\bsta\.?\b", "santa", s); s = re.sub(r"\bsto\.?\b", "santo", s)
+    s = re.sub(r"\bluiz\b", "luis", s); s = re.sub(r"\bestevao\b", "estevao", s); s = re.sub(r"\bcassia\b", "cassia", s)
+    fora = {"igreja", "capela", "paroquia", "santuario", "matriz", "comunidade", "gruta", "oratorio", "de", "da", "do", "dos", "das",
+            "e", "nossa", "senhora", "catolica", "irmandade", "ir"}
+    return [w for w in re.sub(r"[^a-z0-9 ]", " ", s).split() if w not in fora]
+
+
+def contido(a, b):
+    """a aparece em b como sequência contígua"""
+    if not a or len(a) > len(b):
+        return False
+    return any(b[i:i + len(a)] == a for i in range(len(b) - len(a) + 1))
+
+
 def arred(geom, casas=5):
     def r(c):
         if isinstance(c[0], (int, float)):
@@ -129,26 +147,78 @@ def main(arq_bairros, arq_municipios):
             den = t.get("denomination")
             nome = x.get("name") or ""
             if den in ("roman_catholic", "catholic") or (den is None and re.search(r"capela|par[oó]quia|santu|igreja (matriz|de )?(nossa|s[aã]o|santa|santo|sagrad|bom jesus|divino)", nome.lower())):
-                osm[x["osm_type"][0] + str(x["osm_id"])] = {"nome": nome, "lat": float(x["lat"]), "lng": float(x["lon"]), "tok": norm_tokens(nome)}
-    osm = list(osm.values())
+                osm[x["osm_type"][0] + str(x["osm_id"])] = {"nome": nome, "lat": float(x["lat"]), "lng": float(x["lon"]), "tok": norm_tokens(nome), "seq": norm_seq(nome)}
+    # igrejas do OSM já atribuídas na Ilha (conferidas à mão) não entram na busca
+    ja_ilha = [(c["lat"], c["lng"]) for f in ilha["foranias"] for p in f["paroquias"] for c in p["comunidades"] if "lat" in c]
+    osm = [o for o in osm.values() if not any(abs(o["lat"] - a) < 0.0003 and abs(o["lng"] - b) < 0.0003 for a, b in ja_ilha)]
     print("igrejas católicas no OSM:", len(osm))
 
-    def casa_osm(nome, perto, raio_km):
-        tk = norm_tokens(nome)
-        if not tk:
+    GENERICOS = {"rua", "r", "av", "avenida", "rod", "rodovia", "estrada", "servidao", "travessa", "praca", "bairro", "loteamento", "lot",
+                 "vila", "jardim", "morro", "centro", "alto", "baixo", "rio", "sc", "br"}
+
+    def toks(t, tirar_genericos=True):
+        t = unicodedata.normalize("NFD", t or "").encode("ascii", "ignore").decode().lower()
+        w = set(re.sub(r"[^a-z0-9 ]", " ", t).split()) - {"de", "da", "do", "dos", "das", "e", "a", "o"}
+        w = {x for x in w if not x.isdigit()}
+        return w - GENERICOS if tirar_genericos else w
+
+    def mesmo_municipio(x, mun):
+        a = x.get("address") or {}
+        alvo = toks(mun, False)
+        return any(a.get(k) and toks(a[k], False) == alvo for k in ("city", "town", "municipality", "village"))
+
+    def nome_bate(a, b):
+        ta, tb = toks(a), toks(b)
+        if not ta:  # só palavras genéricas ("Centro", "Morro"): compara tudo
+            ta, tb = toks(a, False), toks(b, False)
+        return bool(ta) and bool(tb) and (ta <= tb or tb <= ta)
+
+    TIPOS_LUGAR = {"suburb", "neighbourhood", "quarter", "hamlet", "village", "isolated_dwelling", "locality", "city_district",
+                   "place", "square", "farm", "allotments", "residential", "road", "statistical", "borough"}
+
+    def localidade_valida(loc, mun):
+        if not loc or toks(loc, False) == toks(mun, False):
             return None
-        melhores = []
-        for o in osm:
-            if not (tk <= o["tok"]) and not (o["tok"] and o["tok"] <= tk and len(o["tok"]) >= 2):
+        r = q({"q": f"{loc}, {mun}, Santa Catarina", "limit": 3, "addressdetails": 1, "viewbox": VIEWBOX, "bounded": 1}) or []
+        for x in r:
+            nome_x = x.get("name") or (x.get("display_name") or "").split(",")[0]
+            if x.get("addresstype") not in TIPOS_LUGAR:
                 continue
-            d = km((o["lat"], o["lng"]), perto)
-            if d <= raio_km:
-                melhores.append((d, o))
-        melhores.sort(key=lambda t: t[0])
-        # ambíguo: duas candidatas igualmente perto -> não aceita
-        if len(melhores) >= 2 and melhores[1][0] - melhores[0][0] < 0.3:
+            if not mesmo_municipio(x, mun) or not nome_bate(loc, nome_x):
+                continue
+            if x.get("addresstype") in ("road", "residential") and toks(loc) != toks(nome_x):
+                continue  # rua só vale com nome igual (evita "Arruda" -> "Rua Joaquim Coelho de Arruda")
+            g = mun_geom.get(mun)
+            if g is not None and not g.buffer(0.01).contains(Point(float(x["lon"]), float(x["lat"]))):
+                continue
+            return x
+        return None
+
+    def endereco_bate(rua, x, mun):
+        a = x.get("address") or {}
+        return mesmo_municipio(x, mun) and bool(a.get("road")) and nome_bate(rua, a["road"])
+
+    def casa_osm(nome, perto, raio_km, area=None):
+        """Igreja do OSM com o mesmo nome: perto de um ponto de referência, ou única dentro de uma área."""
+        sq = norm_seq(nome)
+        if not sq:
             return None
-        return (melhores[0][1], melhores[0][0]) if melhores else None
+        cands = []
+        for o in osm:
+            if not (contido(sq, o["seq"]) or (len(o["seq"]) >= 2 and contido(o["seq"], sq) and len(o["seq"]) >= 0.6 * len(sq))):
+                continue
+            if perto is not None:
+                d = km((o["lat"], o["lng"]), perto)
+                if d <= raio_km:
+                    cands.append((d, o))
+            elif area is not None and area.contains(Point(o["lng"], o["lat"])):
+                cands.append((0.0, o))
+        cands.sort(key=lambda t: t[0])
+        if perto is None:
+            return (cands[0][1], 99.0) if len(cands) == 1 else None  # dentro do município: só se for a única
+        if len(cands) >= 2 and cands[1][0] - cands[0][0] < 0.3:
+            return None
+        return (cands[0][1], cands[0][0]) if cands else None
 
     # ---------- Hierarquia ----------
     fs = {fid: {"id": fid, "nome": nome, "fonte": f"https://arquifln.org.br/organizacao/1070-2/{slug}/", "paroquias": [], "outras": []}
@@ -168,11 +238,23 @@ def main(arq_bairros, arq_municipios):
                 return fid
         return None
 
+    api_cat = json.loads((D / "api_categorias.json").read_text(encoding="utf-8"))
     ilha_par = {p["id"]: p for f in ilha["foranias"] for p in f["paroquias"]}
+    # quantas comunidades com o mesmo nome existem em cada município (busca por nome no município só vale se for única)
+    nomes_mun = Counter()
+    for p0 in site:
+        m0 = p0.get("municipio") or municipio_de(p0["endereco"]) or "Florianópolis"
+        for c0 in p0["comunidades"]:
+            nomes_mun[(m0, frozenset(norm_tokens(re.sub(r"^Matriz:?\s*|\s*\(Matriz\)", "", limpa(c0["nome"])))))] += 1
     usados = set(ILHA_IDS.values())  # ids únicos: nenhuma paróquia nova pode repetir um id da Ilha
     todas_igrejas = []
     for p in sorted(site, key=lambda x: x["slug"]):
-        fid = links.get(p["slug"]) or forania_txt(p.get("forania_corrigida")) or forania_txt(p["forania"])
+        # forania: maioria entre cabeçalho da página da paróquia, classificação interna do site e lista da página da forania
+        votos = [v for v in (forania_txt(p.get("forania_corrigida")) or forania_txt(p["forania"]),
+                             (api_cat.get(p["slug"]) or [None])[0], links.get(p["slug"])) if v]
+        fid = Counter(votos).most_common(1)[0][0]
+        if len(set(votos)) > 1:
+            print("  forania divergente:", p["slug"], votos, "->", fid)
         nome = limpa(p["nome"])
         mun = p.get("municipio") or municipio_de(p["endereco"]) or "Florianópolis"
         sobre = p.get("sobre", [])
@@ -182,10 +264,34 @@ def main(arq_bairros, arq_municipios):
         if p["slug"] in ILHA_IDS:  # Ilha: dados já conferidos
             par = dict(ilha_par[ILHA_IDS[p["slug"]]])
             par["municipio"] = "Florianópolis"
+            if not any(c["matriz"] for c in par["comunidades"]):  # site não marcou a matriz (ex.: Necessidades)
+                alvo = norm_tokens(re.sub(r"^Paróquia\s+", "", par["nome"]))
+                for c in par["comunidades"]:
+                    if norm_tokens(c["nome"]) == alvo:
+                        c["matriz"] = True; break
             par["ilha"] = True
             fs[fid]["paroquias"].append(par)
             for c in par["comunidades"]:
                 todas_igrejas.append((par, c))
+                if "lat" not in c and not c.get("bairro"):
+                    # sem bairro identificado à mão: tenta a igreja no OSM perto da matriz, depois a localidade
+                    mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
+                    if mz:
+                        cz = (mz["lat"], mz["lng"])
+                    else:
+                        bm = next(x["bairro"] for x in par["comunidades"] if x["matriz"])
+                        cz = tuple(next(f["properties"]["ponto"] for f in ilha_geo["features"] if f["properties"]["bairro"] == bm))
+                    achado = None  # na Ilha há muitas igrejas com o mesmo nome: só a localidade é confiável
+                    x = localidade_valida(c["local"], "Florianópolis")
+                    if x and km((float(x["lat"]), float(x["lon"])), cz) > 8:
+                        x = None
+                    if achado:
+                        c.update({"lat": round(achado[0]["lat"], 6), "lng": round(achado[0]["lng"], 6), "posicao": "osm", "nome_osm": achado[0]["nome"]})
+                    elif x:
+                        c.update({"lat": round(float(x["lat"]), 6), "lng": round(float(x["lon"]), 6), "posicao": "localidade", "local_osm": f'{x.get("name")} ({x.get("addresstype")})'})
+                    else:
+                        c["posicao"] = "aprox"
+                    print("  Ilha sem bairro:", par["id"], "|", c["nome"], "|", c["local"], "->", c["posicao"], c.get("nome_osm") or c.get("local_osm") or "")
             continue
         base = re.sub(r"^paroquia-", "", p["slug"])
         pid, n = base, 2
@@ -196,61 +302,68 @@ def main(arq_bairros, arq_municipios):
         par = {"id": pid, "nome": nome, "municipio": mun, "endereco": limpa(p["endereco"]),
                "paroco": campo(sobre, "Pároco") or campo(sobre, "Administrador"),
                "criada": criada.strip("()") if criada else None, "fonte": FONTE.format(p["slug"]), "comunidades": []}
-        # posição do endereço da matriz
+        # ----- posição da matriz pelo endereço (só se a rua e o município baterem) -----
         end = re.sub(r"(CEP:?\s*)?\d{5}-?\d{3}|Caixa Postal[^–|]*|Cx\. Postal[^–|]*", " ", p["endereco"])
         rua = re.split(r"[–\-|;]", end)[0].strip()
         r_end = q({"street": rua[:120], "city": mun, "state": "Santa Catarina", "country": "Brasil", "limit": 1, "addressdetails": 1}) or []
-        pos_end = (float(r_end[0]["lat"]), float(r_end[0]["lon"])) if r_end else None
-        if pos_end is None and mun in mun_geom:
-            c0 = mun_geom[mun].representative_point()
-            pos_end = (c0.y, c0.x)
-        coms = p["comunidades"] or [{"nome": "Matriz: " + re.sub(r"^Paróquia\s+", "", nome), "local": mun, "ano": None}]
-        if not any(limpa(c["nome"]).lower().startswith("matriz") for c in coms):
-            pass
+        pos_end = None
+        if r_end and endereco_bate(rua, r_end[0], mun):
+            pos_end = (float(r_end[0]["lat"]), float(r_end[0]["lon"]))
+        area_mun = mun_geom.get(mun)
+        coms = p["comunidades"]
+        tem_matriz = any(re.search(r"^matriz|\(matriz\)", limpa(c["nome"]).lower()) for c in coms)
+        if not tem_matriz:
+            # o site não marca a matriz: é a comunidade com o mesmo nome da paróquia; se não houver, cria uma
+            alvo = norm_tokens(re.sub(r"^Paróquia\s+|\(.*?\)", "", nome))
+            iguais = [c for c in coms if norm_tokens(c["nome"]) == alvo]
+            if len(iguais) >= 1:
+                coms = [dict(c, nome="Matriz: " + limpa(c["nome"])) if c is iguais[0] else c for c in coms]
+            else:
+                coms = [{"nome": "Matriz: " + re.sub(r"^Paróquia\s+", "", nome), "local": "Centro" if p["comunidades"] else mun, "ano": None}] + coms
+                print("  matriz criada:", nome)
+        vistos = set()
         for c in coms:
             n = limpa(c["nome"])
-            matriz = n.lower().startswith("matriz")
-            n = re.sub(r"^Matriz:?\s*", "", n)
+            chave_rep = (n.lower(), limpa(c.get("local")).lower())
+            if chave_rep in vistos:
+                print("  repetida no site:", nome, "|", n, "|", c.get("local"))
+                continue
+            vistos.add(chave_rep)
+            matriz = bool(re.search(r"^matriz|\(matriz\)", n.lower()))
+            n = re.sub(r"^Matriz:?\s*|\s*\(Matriz\)", "", n).strip()
             loc = limpa(c.get("local"))
             item = {"nome": n, "local": loc, "ano": c.get("ano") or None, "matriz": matriz}
-            # ponto de referência: matriz -> endereço; demais -> localidade geocodificada
+            # referência: endereço (matriz) ou localidade validada
             ref, ref_tipo = None, None
             if matriz and pos_end:
                 ref, ref_tipo = pos_end, "endereco"
             else:
-                r = q({"q": f"{loc}, {mun}, Santa Catarina", "limit": 3, "addressdetails": 1, "viewbox": VIEWBOX, "bounded": 1}) or []
-                r = [x for x in r if x.get("addresstype") not in ("state", "region", "country")]
-                if r:
-                    x = r[0]
-                    ref = (float(x["lat"]), float(x["lon"]))
-                    ref_tipo = "municipio" if x.get("addresstype") in ("municipality", "city", "town") else "localidade"
-            if ref is None and pos_end:
-                ref, ref_tipo = pos_end, "municipio"
-            if ref_tipo == "municipio":
-                ref = None  # localidade não encontrada: fica perto da matriz (abaixo)
-            achado = casa_osm(n, ref, 1.5 if matriz else (4 if ref_tipo == "localidade" else 6)) if ref else None
-            if ref and ref_tipo in ("endereco", "localidade"):
+                x = localidade_valida(loc, mun)
+                if x:
+                    ref, ref_tipo = (float(x["lat"]), float(x["lon"])), "localidade"
+                    item["_achado"] = f'{x.get("name")} ({x.get("addresstype")})'
+            achado = None
+            if ref:
+                achado = casa_osm(n, ref, 1.5 if ref_tipo == "endereco" else 3)
+            if not achado and area_mun is not None and nomes_mun[(mun, frozenset(norm_tokens(n)))] <= 1:
+                achado = casa_osm(n, None, None, area=area_mun.buffer(0.01))
+            if ref:
                 item["_ref"], item["_ref_tipo"] = ref, ref_tipo
             if achado:
                 o, dist = achado
-                item.update({"lat": round(o["lat"], 6), "lng": round(o["lng"], 6), "posicao": "osm", "nome_osm": o["nome"], "_d": dist, "_pid": p["slug"]})
-            elif ref and ref_tipo in ("endereco", "localidade"):
+                item.update({"lat": round(o["lat"], 6), "lng": round(o["lng"], 6), "posicao": "osm", "nome_osm": o["nome"], "_d": dist})
+            elif ref:
                 item.update({"lat": round(ref[0], 6), "lng": round(ref[1], 6), "posicao": ref_tipo})
+                if ref_tipo == "localidade":
+                    item["local_osm"] = item.get("_achado")
             else:
                 item["posicao"] = "aprox"
             par["comunidades"].append(item)
             todas_igrejas.append((par, item))
-        # sem localização: em volta da matriz (ou do endereço da paróquia)
-        mz = next((c for c in par["comunidades"] if c["matriz"] and "lat" in c), None)
-        centro = (mz["lat"], mz["lng"]) if mz else pos_end
-        soltas = [c for c in par["comunidades"] if "lat" not in c]
-        for j, c in enumerate(soltas):
-            if not centro:
-                break
-            a = 2 * math.pi * j / max(len(soltas), 1) + 0.4
-            r = 0.006 + 0.0008 * len(soltas)
-            c["lat"], c["lng"] = round(centro[0] + r * math.cos(a), 6), round(centro[1] + r * math.sin(a) / 0.887, 6)
-            c["posicao"] = "aprox"
+        if not any(c["matriz"] and "lat" in c for c in par["comunidades"]) and pos_end is None and area_mun is not None:
+            c0 = area_mun.representative_point()
+            pos_end = (c0.y, c0.x)
+        par["_pos_end"] = pos_end
         par["comunidades"].sort(key=lambda c: (not c["matriz"], c["nome"]))
         fs[fid]["paroquias"].append(par)
 
@@ -263,19 +376,15 @@ def main(arq_bairros, arq_municipios):
     for lista in por_osm.values():
         if len(lista) < 2:
             continue
-        lista.sort(key=lambda t: t[1]["_d"])
-        dono = lista[0]
+        lista.sort(key=lambda t: (norm_seq(t[1]["nome"]) != norm_seq(t[1].get("nome_osm")), t[1]["_d"]))
         for par, c in lista[1:]:
-            if par is dono[0] and (c["nome"] == dono[1]["nome"] or c["local"] == dono[1]["local"]) and not (c["matriz"] ^ dono[1]["matriz"]):
-                continue
+            print("  igreja do OSM disputada:", c.get("nome_osm"), "| fica com", lista[0][0]["id"], lista[0][1]["nome"], "| perde", par["id"], c["nome"])
             for k2 in ("lat", "lng", "nome_osm", "_d"):
                 c.pop(k2, None)
             if "_ref" in c:
                 c["lat"], c["lng"], c["posicao"] = round(c["_ref"][0], 6), round(c["_ref"][1], 6), c["_ref_tipo"]
             else:
-                mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
-                if mz:
-                    c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.004, 6), round(mz["lng"] + 0.004, 6), "aprox"
+                c["posicao"] = "aprox"
     # Posição só pela localidade, mas fora do município da paróquia: nome repetido em outra cidade -> perto da matriz
     for f in fs.values():
         for par in f["paroquias"]:
@@ -285,9 +394,7 @@ def main(arq_bairros, arq_municipios):
             fora = [c for c in par["comunidades"] if c.get("posicao") == "localidade" and municipio_do_ponto(c["lat"], c["lng"]) not in (par["municipio"], None)]
             for j, c in enumerate(fora):
                 print("  localidade em outro município:", par["id"], c["nome"], c["local"], municipio_do_ponto(c["lat"], c["lng"]))
-                if mz:
-                    a = 2 * math.pi * j / len(fora) + 2.2
-                    c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.007 * math.cos(a), 6), round(mz["lng"] + 0.007 * math.sin(a) / 0.887, 6), "aprox"
+                c.pop("lat", None); c.pop("lng", None); c["posicao"] = "aprox"
 
     # Comunidade longe demais da sua matriz: localidade homônima em outro lugar -> volta para perto da matriz
     for f in fs.values():
@@ -297,16 +404,65 @@ def main(arq_bairros, arq_municipios):
             mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
             if not mz:
                 continue
-            limite = 7 if par["municipio"] == "Florianópolis" else 20
-            soltas = [c for c in par["comunidades"] if not c["matriz"] and "lat" in c and km((c["lat"], c["lng"]), (mz["lat"], mz["lng"])) > limite]
+            def suspeita(c):
+                if c["matriz"] or "lat" not in c or c["posicao"] == "aprox":
+                    return False
+                m = municipio_do_ponto(c["lat"], c["lng"])
+                d = km((c["lat"], c["lng"]), (mz["lat"], mz["lng"]))
+                if m == par["municipio"]:
+                    return par["municipio"] == "Florianópolis" and d > 7
+                return not (c["posicao"] == "osm" and d <= 12)
+            soltas = [c for c in par["comunidades"] if suspeita(c)]
             for j, c in enumerate(soltas):
                 print("  longe da matriz:", par["id"], c["nome"], c["local"])
-                a = 2 * math.pi * j / len(soltas) + 1.1
-                c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.007 * math.cos(a), 6), round(mz["lng"] + 0.007 * math.sin(a) / 0.887, 6), "aprox"
-                c.pop("nome_osm", None)
+                c.pop("lat", None); c.pop("lng", None); c.pop("nome_osm", None); c["posicao"] = "aprox"
     for par, c in todas_igrejas:
-        for k2 in ("_d", "_pid", "_ref", "_ref_tipo"):
+        if c.get("posicao") != "localidade":
+            c.pop("local_osm", None)
+        for k2 in ("_d", "_pid", "_ref", "_ref_tipo", "_achado"):
             c.pop(k2, None)
+
+    # Correções manuais conferidas (dados/arquidiocese/correcoes.json)
+    corr = json.loads((D / "correcoes.json").read_text(encoding="utf-8")) if (D / "correcoes.json").exists() else {}
+    usadas_corr = set()
+    for par, c in todas_igrejas:
+        k3 = f"{par['id']}|{c['nome']}|{c['local']}"
+        if k3 in corr.get("posicoes", {}):
+            v = corr["posicoes"][k3]
+            c.update({"lat": v["lat"], "lng": v["lng"], "posicao": v["posicao"]})
+            c.pop("nome_osm", None)
+            if v.get("nome_osm"):
+                c["nome_osm"] = v["nome_osm"]
+            usadas_corr.add(k3)
+    faltou = set(corr.get("posicoes", {})) - usadas_corr
+    assert not faltou, f"correções sem igreja: {faltou}"
+
+    # Sem posição confiável: em volta da matriz da paróquia
+    for f in fs.values():
+        for par in f["paroquias"]:
+            if par.get("ilha"):
+                mz = next((c for c in par["comunidades"] if c["matriz"] and "lat" in c), None)
+                if mz:
+                    centro = (mz["lat"], mz["lng"])
+                else:  # matriz posicionada só pelo bairro
+                    bm = next(c["bairro"] for c in par["comunidades"] if c["matriz"])
+                    centro = tuple(next(f["properties"]["ponto"] for f in ilha_geo["features"] if f["properties"]["bairro"] == bm))
+                soltas = [c for c in par["comunidades"] if "lat" not in c and not c.get("bairro")]
+                for j, c in enumerate(soltas):
+                    a = 2 * math.pi * j / max(len(soltas), 1) + 0.4
+                    c["lat"], c["lng"], c["posicao"] = round(centro[0] + 0.004 * math.cos(a), 6), round(centro[1] + 0.004 * math.sin(a) / 0.887, 6), "aprox"
+                continue
+            mz = next((c for c in par["comunidades"] if c["matriz"] and "lat" in c and c["posicao"] != "aprox"), None)
+            centro = (mz["lat"], mz["lng"]) if mz else par.get("_pos_end")
+            soltas = [c for c in par["comunidades"] if c.get("posicao") == "aprox" or "lat" not in c]
+            for j, c in enumerate(soltas):
+                if not centro:
+                    print("  SEM POSIÇÃO:", par["id"], c["nome"]); continue
+                a = 2 * math.pi * j / max(len(soltas), 1) + 0.4
+                r = 0.006 + 0.0008 * len(soltas)
+                c["lat"], c["lng"], c["posicao"] = round(centro[0] + r * math.cos(a), 6), round(centro[1] + r * math.sin(a) / 0.887, 6), "aprox"
+                c.pop("nome_osm", None)
+            par.pop("_pos_end", None)
 
     # Mesma posição para várias igrejas (localidade/município): espalha em círculo pequeno
     grupos = defaultdict(list)

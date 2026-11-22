@@ -400,7 +400,7 @@ function selecionar(s, voar=true){
     if (!sel) map.flyToBounds(limites, o);
     else if (sel.tipo === 'regiao') map.flyToBounds(camadaDe[sel.id].getBounds(), {...o, maxZoom:15});
     else if (sel.tipo === 'paroquia') map.flyToBounds(boundsParoquia(paroquia[sel.id]), {...o, maxZoom:14});
-    else if (sel.tipo === 'igreja'){ const c = igreja[sel.id]; map.flyToBounds(L.latLngBounds([c.pos, c.pos]), {...o, maxZoom:16}); }
+    else if (sel.tipo === 'igreja'){ const c = igreja[sel.id]; if (c.pos) map.flyToBounds(L.latLngBounds([c.pos, c.pos]), {...o, maxZoom:16}); else map.flyToBounds(boundsParoquia(c.paroquia), {...o, maxZoom:14}); }
     else if (sel.tipo === 'forania') map.flyToBounds(boundsDe(regioes.filter(f => f.properties.forania === sel.id)), o);
   }
   document.getElementById('map').classList.toggle('com-pinos', !!(sel && sel.tipo !== 'forania'));

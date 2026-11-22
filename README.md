@@ -25,3 +25,9 @@ Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas a
 - `aprox`: localidade não encontrada; marcador perto da matriz.
 
 Fontes: Arquidiocese de Florianópolis; IBGE; © colaboradores do OpenStreetMap (ODbL).
+
+## Verificação
+- `python scripts/verificar.py` — confere ids, contagem de comunidades contra o site, forania (maioria entre cabeçalho da paróquia, classificação interna do site e lista da forania), posição das matrizes, nomes das igrejas do OSM, coordenadas repetidas, distâncias até a matriz e áreas. Grava `dados/arquidiocese/relatorio_verificacao.txt`.
+- `testes/teste_navegador.js` — abre a página (Playwright) e seleciona cada paróquia, cada igreja, cada área e cada forania, conferindo painel, janelas e para onde o mapa vai.
+- Regras de posição: localidade só vale se o resultado tiver o mesmo nome e estiver no mesmo município; endereço só vale se a rua e a cidade baterem; igreja do OSM só com o nome na mesma ordem, perto da localidade (ou única no município, quando o nome também é único entre as comunidades do município); cada igreja do OSM serve a uma comunidade só.
+- `dados/arquidiocese/correcoes.json` — posições conferidas à mão.

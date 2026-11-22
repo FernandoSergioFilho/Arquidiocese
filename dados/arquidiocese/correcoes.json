@@ -1,0 +1,24 @@
+{
+ "_sobre": "Posições conferidas à mão em 22/11/2026 (consulta ao OpenStreetMap/Nominatim). Chave: paróquia|nome|localidade como no site.",
+ "posicoes": {
+  "sao-francisco-de-assis-2|São Francisco de Assis|Forquilhinhas": {
+   "lat": -27.598438,
+   "lng": -48.642367,
+   "posicao": "localidade",
+   "fonte": "OSM: bairro Forquilhinha, São José"
+  },
+  "nossa-senhora-aparecida-2|Nossa Senhora Aparecida|Procasa": {
+   "lat": -27.58469,
+   "lng": -48.606408,
+   "posicao": "endereco",
+   "fonte": "OSM: Rua Colômbia, Barreiros, São José (endereço da paróquia: Rua Colômbia, 450)"
+  },
+  "sao-sebastiao|São Sebastião|Centro": {
+   "lat": -27.9025,
+   "lng": -49.12844,
+   "posicao": "osm",
+   "nome_osm": "Igreja de São Sebastião",
+   "fonte": "OSM: Igreja de São Sebastião, Anitápolis"
+  }
+ }
+}

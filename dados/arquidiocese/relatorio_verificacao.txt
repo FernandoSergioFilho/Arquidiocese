@@ -1,0 +1,282 @@
+== 1. Identificadores únicos
+  paróquias repetidas: nenhuma
+
+== 2. Contagem de comunidades: site x mapa
+  sao-joao-batista-biguacu: site 18, mapa 16
+
+== 3. Forania: página da forania x cabeçalho da paróquia
+  biguacu      | link: -                          | cabeçalho: Forania Biguaçu                          | Paróquia Sagrado Coração de Jesus
+  brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia Nossa Senhora de Azambuja
+  brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia Nossa Senhora do Perpétuo Socorro
+  brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia Santa Catarina
+  brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia São José
+  brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia São Luís Gonzaga
+
+== 4. Matrizes: como foram posicionadas
+  sao-francisco-de-assis-2                 matriz 'São Francisco de Assis' posição=localidade local=Forquilhinhas
+  nossa-senhora-da-imaculada-conceicao     matriz 'Nossa Senhora da I. Conceição' posição=localidade local=Centro
+
+== 5. Igrejas do OSM: nome no site x nome no mapa (para revisão)
+  nossa-senhora-da-gloria      | Nossa Senhora da Glória                | Balneário              | Paróquia de Nossa Senhora da Glória
+  nossa-senhora-de-fatima-e-sa | Senhor Bom Jesus dos Aflitos           | Estreito               | Paróquia Senhor Bom Jesus dos Aflitos
+  nossa-senhora-do-carmo       | Nossa Senhora do Carmo                 | Coqueiros              | Igreja Nossa Senhora do Carmo
+  nossa-senhora-do-carmo       | São Judas Tadeu                        | Morro da Caixa         | Igreja São Judas Tadeu
+  santo-antonio-e-santa-maria- | Santo Antônio e Santa Maria Goretti    | Coloninha              | Paróquia Santo Antônio e Santa Maria Goretti
+  santo-antonio-e-santa-maria- | Nossa Senhora Aparecida e São Geraldo  | Promorar               | Capela Nossa Senhora Aparecida e São Geraldo
+  sao-joao-batista-e-santa-luz | São João Batista e Santa Luzia         | Capoeiras              | Paróquia de São João Batista e Santa Luzia
+  sao-joao-batista-e-santa-luz | Nossa Senhora dos Navegantes           | Itaguaçu               | Capela Nossa Senhora dos Navegantes
+  sao-joao-batista-e-santa-luz | Senhor Bom Jesus de Iguape             | Abraão                 | Paróquia Senhor Bom Jesus  ≠
+  sao-jose-e-santa-rita-de-cas | São José e Santa Rita de Cássia        | Jardim Atlântico       | Paróquia São José e Santa Rita de Cássia
+  de-sao-jose                  | Nossa Senhora de Fátima e Sta. Filomen | Praia Comprida         | Paróquia Nossa Senhora de Fátima e Santa Filo  ≠
+  de-sao-jose                  | Santo Antônio                          | Santo Antônio          | Paróquia Santo Antônio
+  santana-2                    | Imaculado Coração de Maria             | Sertão do Maruim       | Paróquia do Imaculado Coração de Maria
+  santo-antonio-3              | Santo Antônio                          | Campinas               | Paróquia Santo Antônio
+  sao-francisco-de-assis-2     | Nossa Senhora Rainha da Paz            | Jardim Los Angeles     | Paróquia Nossa Senhora Rainha da Paz
+  sao-francisco-de-assis-2     | Nossa Senhora das Graças               | Picadas do Norte       | Capela de Nossa Senhora das Graças
+  sao-pedro-de-alcantara       | São Pedro de Alcântara                 | Centro                 | Paróquia São Pedro de Alcântara
+  sao-pedro-de-alcantara       | Nossa Senhora de Fátima                | Barro Branco           | Capela de Nossa Senhora de Fátima
+  sao-pedro-de-alcantara       | Santuário Senhor Bom Jesus da Santa Cr | Colônia Santa Tereza   | Santuário Bom Jesus da Santa Cruz  ≠
+  sao-pedro-de-alcantara       | São João Vianney e Santa Filomena      | Santa Filomena         | Capela São João Vianney e Santa Filomena
+  sao-pedro-de-alcantara       | São Sebastião                          | Varginha               | Capela São Sebastião
+  nossa-senhora-do-rosario-2   | Nossa Senhora do Rosário               | N. Senhora do Rosário  | Paróquia Nossa Senhora do Rosário
+  nossa-senhora-do-rosario-2   | Nossa Senhora Aparecida                | Roçado                 | Igreja Nossa Senhora Aparecida
+  nossa-senhora-dos-navegantes | N. Sra. dos Navegantes e São Pedro     | Serraria               | Paróquia Nossa Senhora dos Navegantes e São P
+  sagrados-coracoes            | Sagrados Corações                      | Barreiros              | Paróquia dos Sagrados Corações
+  sagrados-coracoes            | Senhor Bom Jesus                       | Potecas                | Capela Senhor Bom Jesus
+  santa-cruz                   | Santa Cruz                             | Areias                 | Paróquia Santa Cruz
+  santa-cruz                   | Cristo Rei                             | Real Parque            | Paróquia Cristo Rei
+  antonio-carlos               | Sagrado Coração de Jesus               | Centro                 | Igreja Matriz Sagrado Coração de Jesus
+  antonio-carlos               | Nossa Senhora Aparecida                | Vila Doze              | Igreja Nossa Senhora Aparecida
+  antonio-carlos               | Santa Bárbara                          | Faria II               | Capela Santa Bárbara
+  antonio-carlos               | Santa Maria                            | Santa Maria            | Igreja de Santa Maria
+  antonio-carlos               | Santa Paulina                          | Canudos                | Capela Santa Paulina
+  antonio-carlos               | Senhor Bom Jesus                       | Rachadel               | Igreja do Senhor Bom Jesus
+  antonio-carlos               | São José                               | Egito                  | Capela de São José
+  antonio-carlos               | São Pedro Apóstolo                     | Louro                  | Capela São Pedro Apóstolo
+  nossa-senhora-dos-navegantes | Nossa Senhora dos Navegantes           | Ganchos do Meio        | Igreja Matriz Nossa Senhora dos Navegantes
+  nossa-senhora-dos-navegantes | Nossa Senhora Aparecida                | Areias de Baixo        | Nossa Senhora Aparecida Areias de Baixo  ≠
+  nossa-senhora-dos-navegantes | Nossa Senhora da Piedade               | Armação da Piedade     | Igreja Nossa Senhora da Piedade
+  nossa-senhora-dos-navegantes | São Pedro                              | Canto dos Ganchos      | Igreja de São Pedro
+  sao-joao-batista-biguacu     | São João Batista                       | Encruzilhada           | Capela de São João  ≠
+  sao-joao-batista-biguacu     | Nossa Senhora Aparecida                | Sorocaba do Sul        | Igreja Nossa Senhora Aparecida
+  sao-joao-batista-biguacu     | Sagrado Coração de Jesus               | Sorocaba de Fora       | Igreja Sagrado Coração de Jesus
+  sao-joao-batista-biguacu     | São Marcos                             | Três Riachos           | Capela São Marcos
+  sao-joao-batista-biguacu     | São Mateus                             | Três Riachos           | Capela São Mateus
+  sao-joao-batista-biguacu     | São Sebastião                          | Limeira                | Capela São Sebastião
+  sao-joao-evangelista         | São João Evangelista                   | Centro                 | Paróquia São João Evangelista
+  sao-joao-evangelista         | Santa Catarina                         | Santa Catarina         | Capela de Santa Catarina
+  sao-joao-evangelista         | Santa Clara                            | Vendaval               | Paróquia Santa Clara
+  sao-joao-evangelista         | São Miguel                             | Balneário São Miguel   | Igreja de São Miguel
+  nossa-senhora-do-rosario     | Nossa Senhora do Rosário               | Enseada de Brito       | Igreja Nossa Senhora do Rosário
+  nossa-senhora-do-rosario     | Nossa Senhora de Fátima                | Pontal                 | Capela Nossa Senhora de Fátima
+  nossa-senhora-do-rosario     | Nossa Senhora dos Navegantes           | Pinheira               | Capela Nossa Senhora dos Navegantes
+  nossa-senhora-do-rosario     | Nossa Senhora dos Navegantes           | Passagem               | Igreja Nossa Senhora dos Navegantes
+  nossa-senhora-do-rosario     | São Cristóvão                          | Morretes I             | Capela de São Cristovão
+  nossa-senhora-do-rosario     | São José                               | Albardão               | Capela de São José
+  nossa-senhora-do-rosario     | São Sebastião                          | Marivone               | São Sebastião
+  nossa-senhora-do-rosario     | São Sebastião                          | Sertão do Campo        | Capela de São Sebastião
+  sagrado-coracao-de-jesus-4   | Sagrado Coração de Jesus               | Centro                 | Igreja Matriz do Sagrado Coração de Jesus
+  sagrado-coracao-de-jesus-4   | Nossa Senhora Aparecida                | Morro Agudo            | Capela Nossa Senhora Aparecida
+  sagrado-coracao-de-jesus-4   | Nossa Senhora da Penha                 | Penha                  | Capela Nossa Senhora da Penha
+  sagrado-coracao-de-jesus-4   | Nossa Senhora das Graças               | Barrinha               | Capela Nossa Senhora das Graças
+  sagrado-coracao-de-jesus-4   | Nossa Senhora de Fátima                | Espraiado              | Capela de Nossa Senhora de Fátima
+  sagrado-coracao-de-jesus-4   | São Pedro                              | Ribeirão Grande        | Capela de São Pedro
+  sao-francisco-de-assis       | São Francisco de Assis                 | Aririú                 | Paróquia de São Francisco de Assis
+  sao-francisco-de-assis       | Imaculada Conceição                    | Alto Aririú            | Capela Imaculada Conceição
+  sao-francisco-de-assis       | Nossa Senhora dos Navegantes           | Barra do Aririú        | Igreja de Nossa Senhora dos Navegantes
+  sao-francisco-de-assis       | Sagrada Família                        | Formiga                | Capela da Sagrada Família
+  sao-francisco-de-assis       | Santa Catarina                         | Guarda do Cubatão      | Capela Santa Catarina de Alexandria  ≠
+  sao-francisco-de-assis       | Santo Anjo da Guarda                   | Guarda do Cubatão      | Capela do Anjo da Guarda  ≠
+  sao-joaquim                  | São Joaquim                            | Centro                 | Paróquia São Joaquim
+  sao-joaquim                  | Nossa Senhora Aparecida                | Siriú                  | Capela Nossa Senhora Aparecida
+  sao-joaquim                  | Sagrada Família                        | Ibiraquera             | Capela Sagrada Família
+  sao-joaquim                  | Santa Luzia                            | Encantada              | Capela de Santa Luzia
+  sao-joaquim                  | São João Batista                       | Areias da Palhocinha   | Capela São João Batista
+  sao-joaquim                  | São Sebastião                          | Ressacada              | Comunidade São Sebastião
+  sao-judas-tadeu-e-sao-joao-b | Nossa Senhora da Praia                 | Ponte do Imaruim       | Capela Nossa Senhora da Praia
+  senhor-bom-jesus-de-nazare   | Senhor Bom Jesus de Nazaré             | Centro                 | Paróquia Bom Jesus de Nazaré  ≠
+  senhor-bom-jesus-de-nazare   | Nossa Senhora Aparecida                | Rio Grande             | Capela de Nossa Senhora Aparecida
+  senhor-bom-jesus-de-nazare   | Nossa Senhora do Parto                 | Centro                 | Capela Nossa Senhora do Parto
+  senhor-bom-jesus-de-nazare   | São José Operário                      | Bela Vista             | Capela de São José Operário
+  senhor-bom-jesus-de-nazare   | São Sebastião                          | São Sebastião          | Capela de São Sebastião
+  senhor-bom-jesus-de-nazare   | São Tomé                               | Passa Vinte            | Capela São Tomé
+  nossa-senhora-da-imaculada-c | Nossa Senhora das Dores                | Garcia                 | Capela de Nossa Senhora das Dores
+  nossa-senhora-da-imaculada-c | Sagrado Coração de Jesus               | Fartura                | Capela do Sagrado Coração de Jesus
+  nossa-senhora-da-imaculada-c | Santo Antônio                          | Rio Engano             | Capela de Santo Antônio
+  nossa-senhora-da-imaculada-c | São Francisco de Assis                 | Rio Novo               | Capela de São Francisco de Assis
+  nossa-senhora-da-imaculada-c | São João Batista                       | III Linha              | Capela de São João  ≠
+  nossa-senhora-da-imaculada-c | São Pedro Apóstolo                     | Rancho de Tábuas       | Capela de São Pedro  ≠
+  nossa-senhora-da-imaculada-c | São Sebastião                          | Betânia                | Igreja de São Sebastião
+  sagrado-coracao-de-jesus-3   | Sagrado Coração de Jesus               | Centro                 | Igreja da Paróquia Sagrado Coração de Jesus
+  sagrado-coracao-de-jesus-3   | Nossa Senhora de Fátima                | Rio do Tigre           | Capela de Nossa Senhora de Fátima
+  sagrado-coracao-de-jesus-3   | Santo Antônio                          | Vargem dos Bugres      | Capela de Santo Antônio
+  sagrado-coracao-de-jesus-3   | São Cristóvão                          | Rio do Mich            | Igreja São Cristóvão
+  sagrado-coracao-de-jesus-3   | São José                               | Rio da Parada          | Capela de São José
+  sagrado-coracao-de-jesus-3   | São João Batista                       | Barra Grande           | Capela de São João Batista
+  sagrado-coracao-de-jesus-3   | São Pedro                              | Ribeirão dos Ovos      | Capela de São Pedro
+  sagrado-coracao-de-jesus-3   | São Rafael                             | Rio das Pedras         | Capela de São Rafael
+  santo-amaro                  | Santo Amaro                            | Centro                 | Paróquia Santo Amaro
+  santo-amaro                  | Nossa Senhora Aparecida                | Varginha               | Capela de Nossa Senhora Aparecida
+  santo-amaro                  | Nossa Senhora das Dores                | Combatá                | Capela de Nossa Senhora das Dores
+  santo-amaro                  | Sagrado Coração de Jesus               | Águas Mornas           | Igreja do Sagrado Coração de Jesus
+  santo-amaro                  | Santa Luzia                            | Pagará                 | Paróquia Santa Luzia
+  santo-amaro                  | Santa Teresinha                        | Vargem Grande          | Capela de Santa Teresinha
+  santo-amaro                  | São Francisco de Assis                 | São Francisco          | Capela São Francisco  ≠
+  santo-amaro                  | São José                               | Vargem do Braço        | Capela São José
+  santo-amaro                  | São Sebastião                          | Sul do Rio             | Igreja de São Sebastião
+  sao-bonifacio                | São Bonifácio                          | Centro                 | Igreja Matriz de São Bonifácio
+  sao-bonifacio                | Santo Antônio                          | Santo Antônio          | Igreja Santo Antônio
+  sao-bonifacio                | São José                               | Rio dos Canudos        | Capela de São José
+  sao-sebastiao                | São Sebastião                          | Centro                 | Igreja de São Sebastião
+  sao-sebastiao                | Santo Antônio                          | Varginha               | Capela Santo Antônio
+  sao-sebastiao                | São Domingos                           | São Domingos           | Capela de São Domingos
+  sao-sebastiao                | São Francisco de Sales                 | Maracujá               | Capela de São Francisco  ≠
+  sao-sebastiao                | São José                               | Rio do Sul             | Capela de São José
+  santana                      | Sant’Ana                               | Centro                 | Capela de Santana
+  santana                      | Sagrado Coração de Jesus               | Galera                 | Capela do Sagrado Coração de Jesus
+  santana                      | Santo Antônio                          | Nova Descoberta        | Igreja Santo Antônio
+  santana                      | Santo Inácio                           | Moura                  | Capela Santo Inácio
+  santana                      | Senhor Bom Jesus                       | Gavião - Moura         | Capela do Senhor Bom Jesus
+  santana                      | São Cristóvão                          | Índia                  | Igreja São Cristóvão
+  santana                      | São Sebastião                          | Centro do Moura        | Capela de São Sebastião
+  sao-joao-batista-2           | São João Batista                       | Centro                 | Igreja de São João Batista
+  sao-joao-batista-2           | Nossa Senhora Aparecida                | Vargem Pequena         | Capela de Nossa Senhora Aparecida
+  sao-joao-batista-2           | Oratório Santo Antônio                 | Fernandes              | Igreja de Santo Antônio  ≠
+  sao-joao-batista-2           | Sagrada Família                        | Cardoso                | Capela Sagrada Familia
+  sao-joao-batista-2           | Sagrado Coração de Jesus               | Arataca                | Capela do Sagrado Coração de Jesus
+  sao-joao-batista-2           | São Luiz Gonzaga                       | Rio do Braço           | Capela de São Luis  ≠
+  sao-joao-batista-2           | São Pedro                              | Fernandes              | Capela de São Pedro
+  sao-joao-batista-2           | São Sebastião                          | Tijipió                | Capela de São Sebastião
+  sao-sebastiao-3              | São Sebastião                          | Tijucas                | Igreja São Sebastião
+  sao-sebastiao-3              | Nossa Senhora de Fátima                | Areias                 | Capela Nossa Senhora de Fátima
+  sao-sebastiao-3              | Nossa Senhora do Parto                 | Terra Nova             | Igreja de Nossa Senhora do Parto
+  sao-sebastiao-3              | Nossa Senhora dos Navegantes           | Praça                  | Igreja de Nossa Senhora dos Navegantes
+  sao-sebastiao-3              | Santa Luzia                            | Santa Luzia            | Igreja de Santa Luzia
+  sao-sebastiao-3              | São Francisco de Assis                 | Morretes               | Capela de São Francisco  ≠
+  sao-sebastiao-3              | São José Operário                      | Oliveira               | Capela de São José  ≠
+  sao-sebastiao-3              | São Luiz Gonzaga                       | Timbé                  | Capela de São Luís  ≠
+  sao-sebastiao-3              | São Pedro                              | Joáia                  | Capela de São Pedro
+  sao-virgilio                 | São Virgílio                           | Centro                 | Igreja de São Virgílio
+  sao-virgilio                 | Imaculado Coração de Maria             | Morro da Onça          | Igreja Coração de Maria  ≠
+  sao-virgilio                 | Nossa Senhora do Rosário               | Trombudo               | Capela de Nossa Senhora do Rosário
+  sao-virgilio                 | Sagrada Família                        | Baixo Pitanga          | Capela da Sagrada Família
+  sao-virgilio                 | Sagrado Coração de Jesus               | Rio Veado              | Capela do Sagrado Coração de Jesus
+  sao-virgilio                 | Santa Luzia                            | Ribeirão Bonito        | Capela de Santa Luzia
+  sao-virgilio                 | Santa Ágata                            | Bairro Besenello       | Capela de Santa Ágata
+  sao-virgilio                 | Santo Anjo da Guarda                   | Indaiá                 | Capela do Santo Anjo da Guarda
+  sao-virgilio                 | Santo Estanislau                       | Valsugana              | Capela de Santo Estanislau
+  sao-virgilio                 | Sant’Ana                               | Ferreira Viana         | Capela de Santana
+  sao-virgilio                 | São Caetano                            | Alto Salto             | Igreja São Caetano
+  sao-virgilio                 | São Francisco Xavier                   | Conquista              | Capela de São Francisco Xavier
+  sao-virgilio                 | São José                               | Claraíba               | Capela de São José
+  sao-virgilio                 | São Paulo                              | Aguti                  | Capela São Paulo Apóstolo  ≠
+  sao-virgilio                 | São Roque                              | Rua do Salto           | Oratório São Roque  ≠
+  sao-virgilio                 | São Sebastião                          | Lajeado                | Capela São Sebastião
+  senhor-bom-jesus-2           | Senhor Bom Jesus                       | Centro                 | Igreja do Senhor Bom Jesus
+  senhor-bom-jesus-2           | Nossa Senhora Aparecida                | Rio Teófilo            | Igreja Nossa Senhora Aparecida
+  senhor-bom-jesus-2           | Nossa Senhora da Candelária            | Nova Galícia           | Capela Nosssa Senhora da Candelária  ≠
+  senhor-bom-jesus-2           | Nossa Senhora de Monte Claro           | Pinheiral              | Capela de Nossa Senhora do Monte Claro
+  senhor-bom-jesus-2           | Santa Luzia                            | Campinho               | Capela de Santa Luzia
+  senhor-bom-jesus-2           | Santa Luzia                            | Salto de Major         | Igreja de Santa Luzia
+  senhor-bom-jesus-2           | Santo Aleixo                           | Santo Aleixo           | Capela de Santo Aleixo
+  nossa-senhora-da-imaculada-c | N. Sra. da Imaculada Conceição         | Bombas                 | Igreja Matriz Nossa Senhora da Imaculada Conc
+  nossa-senhora-da-imaculada-c | Nossa Senhora Aparecida                | Morrinhos              | Igreja Nossa Senhora Aparecida
+  nossa-senhora-da-imaculada-c | Nossa Senhora dos Navegantes           | Bombinhas              | Capela Nossa Senhora dos Navegantes
+  nossa-senhora-da-imaculada-c | São José                               | Zimbros                | Igreja de São José
+  nossa-senhora-da-imaculada-c | São Sebastião                          | Canto Grande           | Capela São Sebastião
+  sagrado-coracao-de-jesus-2   | Sagrado Coração de Jesus               | Meia Praia             | Igreja da Paróquia Sagrado Coração de Jesus
+  sagrado-coracao-de-jesus-2   | São João Batista                       | Sertão do Trombudo     | Igreja de São João Batista
+  santo-antonio-2              | Santo Antônio                          | Centro                 | Igreja Matriz de Santo Antônio
+  santo-antonio-2              | Nossa Senhora Aparecida                | Tabuleiro              | Capela Nossa Senhora Aparecida
+  santo-antonio-2              | Santa Luzia                            | Várzea                 | Igreja Católica Santa Luzia  ≠
+  senhor-bom-jesus-dos-aflitos | Senhor Bom Jesus dos Aflitos           | Centro                 | Igreja Senhor Bom Jesus dos Aflitos
+  senhor-bom-jesus-dos-aflitos | Nossa Senhora Aparecida                | Sertão de Santa Luzia  | Capela Nossa Senhora Aparecida
+  divino-espirito-santo        | Divino Espírito Santo                  | Centro                 | Igreja Divino Espírito Santo
+  divino-espirito-santo        | Santo Antônio                          | Caetés                 | Capela Santo Antônio
+  divino-espirito-santo        | São João Batista                       | Rio Pequeno            | Capela de São João Batista
+  nossa-senhora-do-bom-sucesso | Nossa Senhora do Bom Sucesso           | Areias                 | Igreja Nossa Senhora do Bom Sucesso
+  nossa-senhora-do-bom-sucesso | Imaculada Conceição                    | Vila Conceição         | Igreja da Imaculada Conceição
+  nossa-senhora-do-bom-sucesso | Nossa Senhora do Rosário               | Braço                  | Igreja de Nossa Senhora do Rosário
+  nossa-senhora-do-bom-sucesso | Santa Luzia                            | Santa Luzia            | Capela de Santa Luzia
+  nossa-senhora-do-bom-sucesso | Santo Antônio                          | Rio do Meio            | Capela Santo Antônio
+  nossa-senhora-do-bom-sucesso | São Brás                               | São Brás               | Capela de São Brás
+  nossa-senhora-do-bom-sucesso | São Francisco de Assis                 | Hospital               | Comunidade São Francisco de Assis
+  nossa-senhora-do-bom-sucesso | São José Operário                      | Vila da Pedra          | Capela de São José Operário
+  santa-ines                   | Santa Inês                             | Centro                 | Paróquia Santa Inês
+  santa-ines                   | Santa Catarina de Alexandria           | Bairro dos Estados     | Capela Santa Catarina de Alexandria
+  senhor-bom-jesus             | Senhor Bom Jesus                       | Monte Alegre           | Igreja Senhor Bom Jesus
+  nossa-senhora-de-fatima-itaj | Nossa Senhora de Fátima                | Itajaí                 | Comunidade Nossa Senhora de Fátima
+  nossa-senhora-de-lourdes     | Nossa Senhora de Lourdes               | Fazenda                | Igreja Nossa Senhora de Lourdes
+  nossa-senhora-de-lourdes     | Santa Teresinha                        | Cabeçudas              | Capela Santa Teresinha
+  santissimo-sacramento        | Santíssimo Sacramento                  | Centro                 | Igreja Matriz do Santíssimo Sacramento
+  santissimo-sacramento        | Nossa Senhora da Conceição             | Centro                 | Igreja da Imaculada Conceição  ≠
+  santissimo-sacramento        | Nossa Senhora da Paz                   | Vila Operária          | Igreja Nossa Senhora da Paz
+  sao-cristovao-cordeiros      | Imaculada Conceição                    | Murta                  | Capela Imaculada Conceição
+  sao-cristovao-cordeiros      | Nossa Senhora Aparecida                | Espinheiros            | Capela de Nossa Senhora Aparecida
+  sao-cristovao-cordeiros      | Senhor Bom Jesus                       | Salseiros              | Igreja Bom Jesus  ≠
+  sao-cristovao-cordeiros      | São Roque                              | São Roque              | Capela São Roque
+  sao-joao-batista             | São João Batista                       | São João               | Paróquia São João Batista
+  sao-joao-bosco               | São João Bosco                         | Dom Bosco              | Paróquia São João Bosco
+  sao-joao-bosco               | São Judas Tadeu                        | São Judas              | Igreja São Judas Tadeu
+  sao-pedro-apostolo           | São Pedro Apóstolo                     | Itaipava               | Paróquia São Pedro Apóstolo
+  sao-pedro-apostolo           | Nossa Senhora Aparecida                | Paciência              | Capela Nossa Senhora Aparecida
+  sao-pedro-apostolo           | Nossa Senhora do Carmo                 | Km 12                  | Capela Nossa Senhora do Carmo
+  sao-pedro-apostolo           | Nossa Senhora do Perpétuo Socorro      | Baía                   | Capela de Nossa Senhora do Perpétuo Socorro
+  sao-pedro-apostolo           | Sagrado Coração de Jesus               | Brilhante I            | Capela do Sagrado Coração de Jesus
+  sao-pedro-apostolo           | São José                               | Campeche               | Capela São José
+  sao-vicente-de-paulo         | São Vicente de Paulo                   | São Vicente            | Paróquia São Vicente de Paulo
+  sao-vicente-de-paulo         | Nossa Senhora Aparecida                | Cidade Nova            | Comunidade Nossa Senhora Aparecida
+  sao-vicente-de-paulo         | São Lourenço                           | Cidade Nova            | Comunidade São Lourenço
+  nossa-senhora-de-azambuja    | Nossa Senhora de Azambuja              | Azambuja               | Santuário Nossa Senhora de Azambuja
+  nossa-senhora-de-azambuja    | São Sebastião                          | Cedrinho               | Capela de São Sebastião
+  nossa-senhora-do-perpetuo-so | Nossa Senhora do Perpétuo Socorro      | Centro                 | Igreja Nossa Senhora do Perpétuo Socorro
+  nossa-senhora-do-perpetuo-so | Imaculada Conceição                    | Lajeado Alto           | Capela de Nossa Senhora da Imaculada Conceiçã
+  nossa-senhora-do-perpetuo-so | Nossa Senhora Aparecida                | Guabiruba do Sul       | Igreja Nossa Senhora Aparecida
+  nossa-senhora-do-perpetuo-so | Sagrado Coração de Jesus               | Planície Alta          | Capela do Sagrado Coração de Jesus
+  nossa-senhora-do-perpetuo-so | São Pedro Apóstolo                     | São Pedro              | Igreja São Pedro  ≠
+  nossa-senhora-do-perpetuo-so | São Vendelino                          | Lajeado Baixo          | Igreja São Vendelino
+  santa-catarina               | Nossa Senhora Aparecida                | Cedro Alto             | Igreja Nossa Senhora Aparecida
+  santa-catarina               | São Francisco de Assis                 | Cristalina             | Capela São Francisco de Assis
+  santa-teresinha-2            | Nossa Senhora da Natividade            | Limeira Alta           | Capela Nossa Senhora da Natividade
+  santa-teresinha-2            | São Sebastião                          | Limoeiro               | Igreja São Sebastião
+  sao-jose                     | São José                               | Centro                 | Igreja de São José
+  sao-jose                     | Nossa Senhora Aparecida                | Ourinhos               | Capela de Nossa Senhora Aparecida
+  sao-jose                     | Nossa Senhora das Dores                | Águas Negras           | Igreja de Nossa Senhora das Dores
+  sao-jose                     | Santa Teresinha                        | Vargem Grande          | Capela de Santa Teresinha
+  sao-jose                     | São João Batista                       | Ribeirão do Ouro       | Igreja de São João Batista
+  sao-jose                     | São Paulo                              | Lajeado                | Igreja de São Paulo Apóstolo  ≠
+  sao-judas-tadeu              | São Judas Tadeu                        | Águas Claras           | Paróquia São Judas Tadeu
+  sao-judas-tadeu              | Nossa Senhora da Saúde                 | Poço Fundo             | Igreja Nossa Senhora da Saúde
+  sao-judas-tadeu              | Santa Cruz do Redentor                 | Zantão                 | Capela da Santa Cruz do Redentor
+  sao-judas-tadeu              | Santa Luzia                            | Santa Luzia            | Igreja Santa Luzia
+  sao-judas-tadeu              | Santo Amaro                            | Nova Itália            | Capela de Santo Amaro
+  sao-luis-gonzaga             | São Luís Gonzaga                       | Centro                 | Igreja São Luiz Gonzaga  ≠
+  sao-luis-gonzaga             | Sagrado Coração de Jesus               | Guarani                | Capela Sagrado Coração de Jesus
+  sao-luis-gonzaga             | Santa Rita                             | Santa Rita             | Capela Santa Rita de Cássia  ≠
+
+== 6. Mesma coordenada para igrejas diferentes
+
+== 7. Distância de cada igreja até a matriz (> 15 km)
+  sao-joao-evangelista           São José                            Amâncio               18.1 km (localidade)
+  nossa-senhora-da-imaculada-con São Francisco de Assis              Rio Novo              21.7 km (osm)
+  nossa-senhora-da-imaculada-con São José Barra                      Clara                 15.4 km (localidade)
+  sagrado-coracao-de-jesus-3     Nossa Senhora de Fátima             Rio do Tigre          17.9 km (osm)
+  sagrado-coracao-de-jesus-3     Santo Antônio                       Vargem dos Bugres     16.7 km (osm)
+  sao-bonifacio                  Nossa Senhora de Fátima             Rio Sete              20.3 km (localidade)
+  sao-sebastiao-3                São José Operário                   Oliveira              15.3 km (osm)
+  sao-virgilio                   Nossa Senhora do Rosário            Trombudo              22.8 km (osm)
+  sao-virgilio                   Sagrado Coração de Jesus            Rio Veado             24.3 km (osm)
+  sao-virgilio                   Santo Estanislau                    Valsugana             15.3 km (osm)
+  sao-virgilio                   Santo Inácio de Loyola              Alto Pitanga          16.8 km (localidade)
+  sao-virgilio                   São Francisco Xavier                Conquista             25.5 km (osm)
+  sao-virgilio                   São Paulo                           Aguti                 18.9 km (osm)
+  senhor-bom-jesus-2             Nossa Senhora da Candelária         Nova Galícia          15.9 km (osm)
+  senhor-bom-jesus-2             Santa Luzia                         Campinho              19.7 km (osm)
+  sao-jose                       Santa Teresinha                     Vargem Grande         15.6 km (osm)
+
+== 8. Áreas: cada área tem ao menos uma igreja da paróquia dentro do município
+
+== 9. Paróquias sem área no mapa
+
+== 10. Resumo das posições
+   Counter({'osm': 286, 'localidade': 169, 'aprox': 146, 'bairro (Ilha)': 42, 'endereco': 13})

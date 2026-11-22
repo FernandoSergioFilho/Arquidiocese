@@ -162,7 +162,11 @@
        "local": "Pedregal",
        "ano": null,
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "lat": -27.694897,
+       "lng": -48.550077,
+       "posicao": "localidade",
+       "local_osm": "Pedregal (neighbourhood)"
       },
       {
        "nome": "Santo Estevão",
@@ -312,7 +316,10 @@
        "local": "Asilo Irmão Joaquim",
        "ano": "1950",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.592761,
+       "lng": -48.547507
       },
       {
        "nome": "Igreja Divino Espírito Santo",
@@ -330,7 +337,10 @@
        "local": "C.E.M. Jesus",
        "ano": "1999",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.599636,
+       "lng": -48.546544
       },
       {
        "nome": "Igreja Nossa Senhora Aparecida",
@@ -369,7 +379,10 @@
        "local": "Provincialado D.P.",
        "ano": null,
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.596938,
+       "lng": -48.553738
       },
       {
        "nome": "Igreja São Francisco de Assis (Ordem Terceira)",
@@ -577,6 +590,12 @@
    ],
    "outras": [
     {
+     "nome": "Paróquia Militar Nossa Senhora de Loreto - Aeronáutica",
+     "endereco": "Base Aérea de Florianópolis / Paróquia Nossa Senhora de LoretoAv. Santos Dumont, s/n Tapera88049-000 Florianópolis – SC",
+     "municipio": "Florianópolis",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-militar-nossa-senhora-de-loreto-aeronautica/"
+    },
+    {
      "nome": "Reitoria da Igreja Santa Catarina de Alexandria",
      "endereco": "Rua Esteves Júnior, 711 Centro88015-130 Florianópolis – SC – Caixa Postal 135/88010-970",
      "municipio": "Florianópolis",
@@ -686,7 +705,7 @@
        "local": "Santo Antônio de Lisboa",
        "ano": "1750",
        "bairro": "Santo Antônio",
-       "matriz": false,
+       "matriz": true,
        "lat": -27.507869,
        "lng": -48.518092,
        "posicao": "osm",
@@ -882,14 +901,21 @@
        "local": "Travessão",
        "ano": "2001",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.457526,
+       "lng": -48.383074
       },
       {
        "nome": "Santo Antônio",
        "local": "Caminho do Mar",
        "ano": "2004",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "lat": -27.438791,
+       "lng": -48.388741,
+       "posicao": "localidade",
+       "local_osm": "Servidão Caminho do Mar (residential)"
       },
       {
        "nome": "Santos Arcanjos",
@@ -1065,28 +1091,43 @@
        "local": "Sol Nascente",
        "ano": "1999",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "lat": -27.550501,
+       "lng": -48.492109,
+       "posicao": "localidade",
+       "local_osm": "Sol Nascente (neighbourhood)"
       },
       {
        "nome": "Nossa Senhora de Fátima",
        "local": "Morro do Balão",
        "ano": "2003",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "lat": -27.541614,
+       "lng": -48.498613,
+       "posicao": "localidade",
+       "local_osm": "Morro do Balão (neighbourhood)"
       },
       {
        "nome": "Nossa Senhora do Perpétuo Socorro",
        "local": "Lot. João G. da Costa",
        "ano": "2003",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.55144,
+       "lng": -48.495044
       },
       {
        "nome": "São José",
        "local": "Caminho da Cruz",
        "ano": "2002",
        "bairro": null,
-       "matriz": false
+       "matriz": false,
+       "lat": -27.562138,
+       "lng": -48.498514,
+       "posicao": "localidade",
+       "local_osm": "Servidão Caminho da Cruz (residential)"
       },
       {
        "nome": "São Miguel",
@@ -1116,12 +1157,6 @@
      "endereco": "Rua Bocaiúva, 1858 Centro / 88015-530 Florianópolis – SC",
      "municipio": "Florianópolis",
      "fonte": "https://arquifln.org.br/igrejas/capelania-militar-santa-catarina-exercito/"
-    },
-    {
-     "nome": "Paróquia Militar Nossa Senhora de Loreto - Aeronáutica",
-     "endereco": "Base Aérea de Florianópolis / Paróquia Nossa Senhora de LoretoAv. Santos Dumont, s/n Tapera88049-000 Florianópolis – SC",
-     "municipio": "Florianópolis",
-     "fonte": "https://arquifln.org.br/igrejas/paroquia-militar-nossa-senhora-de-loreto-aeronautica/"
     }
    ]
   },
@@ -1213,11 +1248,10 @@
        "local": "Vila Aparecida",
        "ano": "1983",
        "matriz": false,
-       "lat": -27.58924,
-       "lng": -48.600994,
-       "posicao": "osm",
-       "nome_osm": "Capela Nossa Senhora Aparecida e São Geraldo",
-       "regiao": "Monte Cristo",
+       "posicao": "localidade",
+       "lat": -27.6057,
+       "lng": -48.587,
+       "regiao": "Abraão",
        "municipio": "Florianópolis"
       },
       {
@@ -1260,10 +1294,11 @@
        "local": "Promorar",
        "ano": "1994",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.581184,
-       "lng": -48.589723,
-       "regiao": "Jardim Atlântico",
+       "lat": -27.58924,
+       "lng": -48.600994,
+       "posicao": "osm",
+       "nome_osm": "Capela Nossa Senhora Aparecida e São Geraldo",
+       "regiao": "Monte Cristo",
        "municipio": "Florianópolis"
       }
      ]
@@ -1318,10 +1353,10 @@
        "local": "Flamenguinho",
        "ano": "2017",
        "matriz": false,
-       "lat": -27.595002,
-       "lng": -48.589545,
        "posicao": "aprox",
-       "regiao": "Capoeiras",
+       "lat": -27.591914,
+       "lng": -48.593593,
+       "regiao": "Coloninha",
        "municipio": "Florianópolis"
       }
      ]
@@ -1340,9 +1375,11 @@
        "local": "Jardim Atlântico",
        "ano": "1980",
        "matriz": true,
-       "lat": -27.6107,
-       "lng": -48.5229,
-       "posicao": "endereco",
+       "lat": -27.578432,
+       "lng": -48.595051,
+       "posicao": "osm",
+       "nome_osm": "Paróquia São José e Santa Rita de Cássia",
+       "regiao": "Jardim Atlântico",
        "municipio": "Florianópolis"
       },
       {
@@ -1351,8 +1388,8 @@
        "ano": "1995",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.604438,
-       "lng": -48.519917,
+       "lat": -27.572169,
+       "lng": -48.592066,
        "municipio": "Florianópolis"
       }
      ]
@@ -1386,9 +1423,9 @@
        "local": "Centro Histórico",
        "ano": "1750",
        "matriz": true,
+       "posicao": "endereco",
        "lat": -27.6156,
        "lng": -48.6274,
-       "posicao": "endereco",
        "municipio": "São José"
       },
       {
@@ -1396,10 +1433,9 @@
        "local": "Centro",
        "ano": "1858",
        "matriz": false,
-       "lat": -27.615644,
-       "lng": -48.628172,
-       "posicao": "osm",
-       "nome_osm": "Igreja Nosso Senhor dos Passos",
+       "posicao": "localidade",
+       "lat": -27.614,
+       "lng": -48.6275,
        "municipio": "São José"
       },
       {
@@ -1407,9 +1443,10 @@
        "local": "Praia Comprida",
        "ano": "1879",
        "matriz": false,
-       "lat": -27.6042,
-       "lng": -48.6252,
-       "posicao": "localidade",
+       "lat": -27.607322,
+       "lng": -48.627563,
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora de Fátima e Santa Filomena",
        "municipio": "São José"
       },
       {
@@ -1417,9 +1454,9 @@
        "local": "Ponta de Baixo",
        "ano": "1962",
        "matriz": false,
+       "posicao": "localidade",
        "lat": -27.6349,
        "lng": -48.6349,
-       "posicao": "localidade",
        "municipio": "São José"
       },
       {
@@ -1438,9 +1475,10 @@
        "local": "Centro Histórico",
        "ano": "1851",
        "matriz": false,
-       "lat": -27.616,
+       "lat": -27.618,
        "lng": -48.6275,
        "posicao": "localidade",
+       "local_osm": "Centro Histórico de São José (suburb)",
        "municipio": "São José"
       }
      ]
@@ -1481,8 +1519,8 @@
        "ano": "1944",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.591675,
-       "lng": -48.710314,
+       "lat": -27.5765,
+       "lng": -48.711985,
        "municipio": "São José"
       },
       {
@@ -1491,8 +1529,8 @@
        "ano": "2005",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.577237,
-       "lng": -48.712336,
+       "lat": -27.588557,
+       "lng": -48.706471,
        "municipio": "São José"
       },
       {
@@ -1500,9 +1538,9 @@
        "local": "Vila Formosa",
        "ano": "1995",
        "matriz": false,
-       "lat": -27.5745,
-       "lng": -48.6825,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.593448,
+       "lng": -48.720063,
        "municipio": "São José"
       },
       {
@@ -1511,8 +1549,8 @@
        "ano": "1942",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.58601,
-       "lng": -48.725422,
+       "lat": -27.581391,
+       "lng": -48.725577,
        "municipio": "São José"
       }
      ]
@@ -1542,10 +1580,10 @@
        "local": "Kobrasol",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.600681,
-       "lng": -48.640732,
-       "posicao": "osm",
-       "nome_osm": "Paróquia São Francisco",
+       "lat": -27.6009,
+       "lng": -48.6163,
+       "posicao": "localidade",
+       "local_osm": "Kobrasol (suburb)",
        "municipio": "São José"
       }
      ]
@@ -1564,9 +1602,9 @@
        "local": "Forquilhinhas",
        "ano": "1985",
        "matriz": true,
-       "lat": -27.5907,
-       "lng": -48.673243,
-       "posicao": "endereco",
+       "posicao": "localidade",
+       "lat": -27.5984,
+       "lng": -48.6424,
        "municipio": "São José"
       },
       {
@@ -1575,8 +1613,8 @@
        "ano": "2017",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.58104,
-       "lng": -48.666817,
+       "lat": -27.589227,
+       "lng": -48.637977,
        "municipio": "São José"
       },
       {
@@ -1595,9 +1633,10 @@
        "local": "Picadas do Norte",
        "ano": "1967",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.597988,
-       "lng": -48.674895,
+       "lat": -27.591388,
+       "lng": -48.649009,
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora das Graças",
        "municipio": "São José"
       },
       {
@@ -1605,10 +1644,9 @@
        "local": "P. R. Lisboa",
        "ano": "2002",
        "matriz": false,
-       "lat": -27.607322,
-       "lng": -48.627563,
-       "posicao": "osm",
-       "nome_osm": "Paróquia Nossa Senhora de Fátima e Santa Filomena",
+       "posicao": "aprox",
+       "lat": -27.599295,
+       "lng": -48.631135,
        "municipio": "São José"
       },
       {
@@ -1617,8 +1655,8 @@
        "ano": "1967",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.585931,
-       "lng": -48.680409,
+       "lat": -27.608178,
+       "lng": -48.639815,
        "municipio": "São José"
       },
       {
@@ -1629,6 +1667,7 @@
        "lat": -27.6095,
        "lng": -48.6446,
        "posicao": "localidade",
+       "local_osm": "Picadas do Sul (suburb)",
        "municipio": "São José"
       },
       {
@@ -1636,10 +1675,9 @@
        "local": "Forquilhas",
        "ano": "1925",
        "matriz": false,
-       "lat": -27.571741,
-       "lng": -48.687056,
-       "posicao": "osm",
-       "nome_osm": "Capela São João Batista",
+       "posicao": "aprox",
+       "lat": -27.603601,
+       "lng": -48.652022,
        "municipio": "São José"
       },
       {
@@ -1648,75 +1686,30 @@
        "ano": null,
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.593097,
-       "lng": -48.661303,
+       "lat": -27.591888,
+       "lng": -48.650886,
        "municipio": "São José"
       }
      ]
     },
     {
-     "id": "sao-pedro-de-alcantara",
-     "nome": "Paróquia São Pedro de Alcântara",
-     "municipio": "São Pedro de Alcântara",
-     "endereco": "Rua João Pering, 254 – Centro; 88125-000 São Pedro de Alcântara SC",
-     "paroco": "Pe. Carlos André Paixão",
-     "criada": "Criada a 23 de abril de 1844",
-     "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-pedro-de-alcantara/",
+     "id": "sao-judas-tadeu-2",
+     "nome": "Paróquia São Judas Tadeu",
+     "municipio": "São José",
+     "endereco": "Rua Capitão Pedro Leite, 406 Barreiros88117-600 São José – SC",
+     "paroco": "Pe. Rafael Aléx Lima da Silva",
+     "criada": "Criada a 18 de fevereiro de 1983",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-judas-tadeu-2/",
      "comunidades": [
       {
-       "nome": "São Pedro de Alcântara",
-       "local": "Centro",
-       "ano": "1844",
+       "nome": "São Judas Tadeu",
+       "local": "Barreiros",
+       "ano": "1983",
        "matriz": true,
-       "lat": -27.567374,
-       "lng": -48.804248,
-       "posicao": "osm",
-       "nome_osm": "Paróquia São Pedro de Alcântara",
-       "municipio": "São Pedro de Alcântara"
-      },
-      {
-       "nome": "Nossa Senhora de Fátima",
-       "local": "Barro Branco",
-       "ano": "1958",
-       "matriz": false,
-       "lat": -27.593368,
-       "lng": -48.892064,
-       "posicao": "osm",
-       "nome_osm": "Capela de Nossa Senhora de Fátima",
-       "municipio": "São Pedro de Alcântara"
-      },
-      {
-       "nome": "Santuário Senhor Bom Jesus da Santa Cruz",
-       "local": "Colônia Santa Tereza",
-       "ano": "2000",
-       "matriz": false,
-       "lat": -27.571068,
-       "lng": -48.759929,
-       "posicao": "osm",
-       "nome_osm": "Santuário Bom Jesus da Santa Cruz",
-       "municipio": "São Pedro de Alcântara"
-      },
-      {
-       "nome": "São João Vianney e Santa Filomena",
-       "local": "Santa Filomena",
-       "ano": "1860",
-       "matriz": false,
-       "lat": -27.58737,
-       "lng": -48.876045,
-       "posicao": "osm",
-       "nome_osm": "Capela São João Vianney e Santa Filomena",
-       "municipio": "São Pedro de Alcântara"
-      },
-      {
-       "nome": "São Sebastião",
-       "local": "Varginha",
-       "ano": "1944",
-       "matriz": false,
-       "lat": -27.61796,
-       "lng": -48.810086,
-       "posicao": "osm",
-       "nome_osm": "Capela São Sebastião",
-       "municipio": "São Pedro de Alcântara"
+       "lat": -27.5743,
+       "lng": -48.6098,
+       "posicao": "endereco",
+       "municipio": "São José"
       }
      ]
     }
@@ -1742,9 +1735,9 @@
        "local": "Procasa",
        "ano": "1998",
        "matriz": true,
-       "lat": -27.5871,
-       "lng": -48.6709,
        "posicao": "endereco",
+       "lat": -27.5847,
+       "lng": -48.6064,
        "municipio": "São José"
       }
      ]
@@ -1798,6 +1791,7 @@
        "lat": -27.5731,
        "lng": -48.6208,
        "posicao": "localidade",
+       "local_osm": "Bela Vista (suburb)",
        "municipio": "São José"
       }
      ]
@@ -1816,9 +1810,10 @@
        "local": "Serraria",
        "ano": "1958",
        "matriz": true,
-       "lat": -27.5907,
-       "lng": -48.668557,
-       "posicao": "endereco",
+       "lat": -27.533914,
+       "lng": -48.631287,
+       "posicao": "osm",
+       "nome_osm": "Paróquia Nossa Senhora dos Navegantes e São Pedro",
        "municipio": "São José"
       },
       {
@@ -1827,9 +1822,9 @@
        "ano": "1994",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.599254,
-       "lng": -48.668304,
-       "municipio": "São José"
+       "lat": -27.524703,
+       "lng": -48.626897,
+       "municipio": "Biguaçu"
       },
       {
        "nome": "Nossa Senhora Rainha da Paz",
@@ -1837,8 +1832,8 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.580303,
-       "lng": -48.666466,
+       "lat": -27.534771,
+       "lng": -48.620055,
        "municipio": "São José"
       },
       {
@@ -1847,8 +1842,8 @@
        "ano": "1993",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.594677,
-       "lng": -48.680511,
+       "lat": -27.543654,
+       "lng": -48.628735,
        "municipio": "São José"
       },
       {
@@ -1857,8 +1852,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.582964,
-       "lng": -48.679375,
+       "lat": -27.539077,
+       "lng": -48.640942,
        "municipio": "São José"
       },
       {
@@ -1867,92 +1862,9 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.590371,
-       "lng": -48.659624,
-       "municipio": "São José"
-      }
-     ]
-    },
-    {
-     "id": "sagrados-coracoes",
-     "nome": "Paróquia Sagrados Corações",
-     "municipio": "São José",
-     "endereco": "Rua Pedro Bunn, 87 – Barreiros88111-120 São José – SC",
-     "paroco": "Pe. Sedemir Melo",
-     "criada": "Criada a 25 de novembro de 1960",
-     "fonte": "https://arquifln.org.br/igrejas/paroquia-sagrados-coracoes/",
-     "comunidades": [
-      {
-       "nome": "Sagrados Corações",
-       "local": "Barreiros",
-       "ano": "1960",
-       "matriz": true,
-       "lat": -27.56665,
-       "lng": -48.617793,
-       "posicao": "osm",
-       "nome_osm": "Paróquia dos Sagrados Corações",
-       "municipio": "São José"
-      },
-      {
-       "nome": "Nossa Senhora Aparecida",
-       "local": "Jardim Sol e Mar",
-       "ano": "1985",
-       "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.55965,
-       "lng": -48.614456,
-       "municipio": "São José"
-      },
-      {
-       "nome": "Nossa Senhora de Lourdes",
-       "local": "Barreiros",
-       "ano": "1912",
-       "matriz": false,
-       "lat": -27.5799,
-       "lng": -48.6075,
-       "posicao": "localidade",
-       "municipio": "São José"
-      },
-      {
-       "nome": "Santa Maria dos Anjos",
-       "local": "Pedregal",
-       "ano": "1986",
-       "matriz": false,
-       "lat": -27.5725,
-       "lng": -48.6432,
-       "posicao": "localidade",
-       "municipio": "São José"
-      },
-      {
-       "nome": "Santo Antônio",
-       "local": "Major Durval",
-       "ano": "2015",
-       "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.5723,
-       "lng": -48.6345,
-       "municipio": "São José"
-      },
-      {
-       "nome": "Senhor Bom Jesus",
-       "local": "Potecas",
-       "ano": "1960",
-       "matriz": false,
-       "lat": -27.572116,
-       "lng": -48.649906,
-       "posicao": "osm",
-       "nome_osm": "Capela Senhor Bom Jesus",
-       "municipio": "São José"
-      },
-      {
-       "nome": "São Francisco de Assis",
-       "local": "Bairro Ipiranga",
-       "ano": "1985",
-       "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.57365,
-       "lng": -48.62113,
-       "municipio": "São José"
+       "lat": -27.527364,
+       "lng": -48.639806,
+       "municipio": "Biguaçu"
       }
      ]
     },
@@ -1981,9 +1893,9 @@
        "local": "Arruda",
        "ano": "2011",
        "matriz": false,
-       "lat": -27.5428,
-       "lng": -48.6398,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.548205,
+       "lng": -48.621574,
        "municipio": "São José"
       },
       {
@@ -2003,8 +1915,8 @@
        "ano": "1977",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.548942,
-       "lng": -48.621925,
+       "lat": -27.562643,
+       "lng": -48.619552,
        "municipio": "São José"
       },
       {
@@ -2015,6 +1927,7 @@
        "lat": -27.605,
        "lng": -48.647,
        "posicao": "localidade",
+       "local_osm": "Rua Alvorada (residential)",
        "municipio": "São José"
       },
       {
@@ -2023,29 +1936,8 @@
        "ano": "1975",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.562942,
-       "lng": -48.628599,
-       "municipio": "São José"
-      }
-     ]
-    },
-    {
-     "id": "sao-judas-tadeu-2",
-     "nome": "Paróquia São Judas Tadeu",
-     "municipio": "São José",
-     "endereco": "Rua Capitão Pedro Leite, 406 Barreiros88117-600 São José – SC",
-     "paroco": "Pe. Rafael Aléx Lima da Silva",
-     "criada": "Criada a 18 de fevereiro de 1983",
-     "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-judas-tadeu-2/",
-     "comunidades": [
-      {
-       "nome": "São Judas Tadeu",
-       "local": "Barreiros",
-       "ano": "1983",
-       "matriz": true,
-       "lat": -27.5743,
-       "lng": -48.6098,
-       "posicao": "endereco",
+       "lat": -27.556978,
+       "lng": -48.63466,
        "municipio": "São José"
       }
      ]
@@ -2094,9 +1986,10 @@
        "local": "Faria II",
        "ano": "1991",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.511695,
-       "lng": -48.764162,
+       "lat": -27.49796,
+       "lng": -48.817824,
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Bárbara",
        "municipio": "Antônio Carlos"
       },
       {
@@ -2170,9 +2063,10 @@
        "local": "Ganchos do Meio",
        "ano": "1983",
        "matriz": true,
-       "lat": -27.3764,
-       "lng": -48.5804,
-       "posicao": "endereco",
+       "lat": -27.316707,
+       "lng": -48.558594,
+       "posicao": "osm",
+       "nome_osm": "Igreja Matriz Nossa Senhora dos Navegantes",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2191,10 +2085,9 @@
        "local": "Palmas das Gaivotas",
        "ano": "1950",
        "matriz": false,
-       "lat": -27.3356,
-       "lng": -48.5321,
-       "posicao": "localidade",
-       "municipio": "Governador Celso Ramos"
+       "posicao": "aprox",
+       "lat": -27.310444,
+       "lng": -48.555609
       },
       {
        "nome": "Nossa Senhora da Piedade",
@@ -2215,6 +2108,7 @@
        "lat": -27.3143,
        "lng": -48.5531,
        "posicao": "localidade",
+       "local_osm": "Ganchos do Meio (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2225,6 +2119,7 @@
        "lat": -27.4276,
        "lng": -48.5883,
        "posicao": "localidade",
+       "local_osm": "Caieira do Norte (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2235,6 +2130,7 @@
        "lat": -27.3922,
        "lng": -48.5666,
        "posicao": "localidade",
+       "local_osm": "Costeira da Armação (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2245,6 +2141,7 @@
        "lat": -27.3785,
        "lng": -48.613,
        "posicao": "localidade",
+       "local_osm": "Areias do Meio (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2255,6 +2152,7 @@
        "lat": -27.3076,
        "lng": -48.5457,
        "posicao": "localidade",
+       "local_osm": "Ganchos de Fora (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2265,6 +2163,7 @@
        "lat": -27.3627,
        "lng": -48.5984,
        "posicao": "localidade",
+       "local_osm": "Jordão (suburb)",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2286,7 +2185,94 @@
        "lat": -27.3643,
        "lng": -48.5615,
        "posicao": "localidade",
+       "local_osm": "Fazenda da Armação (suburb)",
        "municipio": "Governador Celso Ramos"
+      }
+     ]
+    },
+    {
+     "id": "sagrados-coracoes",
+     "nome": "Paróquia Sagrados Corações",
+     "municipio": "São José",
+     "endereco": "Rua Pedro Bunn, 87 – Barreiros88111-120 São José – SC",
+     "paroco": "Pe. Sedemir Melo",
+     "criada": "Criada a 25 de novembro de 1960",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-sagrados-coracoes/",
+     "comunidades": [
+      {
+       "nome": "Sagrados Corações",
+       "local": "Barreiros",
+       "ano": "1960",
+       "matriz": true,
+       "lat": -27.56665,
+       "lng": -48.617793,
+       "posicao": "osm",
+       "nome_osm": "Paróquia dos Sagrados Corações",
+       "municipio": "São José"
+      },
+      {
+       "nome": "Nossa Senhora Aparecida",
+       "local": "Jardim Sol e Mar",
+       "ano": "1985",
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.55965,
+       "lng": -48.614456,
+       "municipio": "São José"
+      },
+      {
+       "nome": "Nossa Senhora de Lourdes",
+       "local": "Barreiros",
+       "ano": "1912",
+       "matriz": false,
+       "lat": -27.5799,
+       "lng": -48.6075,
+       "posicao": "localidade",
+       "local_osm": "Barreiros (village)",
+       "municipio": "São José"
+      },
+      {
+       "nome": "Santa Maria dos Anjos",
+       "local": "Pedregal",
+       "ano": "1986",
+       "matriz": false,
+       "lat": -27.5725,
+       "lng": -48.6432,
+       "posicao": "localidade",
+       "local_osm": "Pedregal (suburb)",
+       "municipio": "São José"
+      },
+      {
+       "nome": "Santo Antônio",
+       "local": "Major Durval",
+       "ano": "2015",
+       "matriz": false,
+       "lat": -27.5723,
+       "lng": -48.6345,
+       "posicao": "localidade",
+       "local_osm": "Rua Major Durval (residential)",
+       "municipio": "São José"
+      },
+      {
+       "nome": "Senhor Bom Jesus",
+       "local": "Potecas",
+       "ano": "1960",
+       "matriz": false,
+       "lat": -27.572116,
+       "lng": -48.649906,
+       "posicao": "osm",
+       "nome_osm": "Capela Senhor Bom Jesus",
+       "municipio": "São José"
+      },
+      {
+       "nome": "São Francisco de Assis",
+       "local": "Bairro Ipiranga",
+       "ano": "1985",
+       "matriz": false,
+       "posicao": "aprox",
+       "lat": -27.57365,
+       "lng": -48.62113,
+       "municipio": "São José"
       }
      ]
     },
@@ -2300,13 +2286,24 @@
      "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-joao-batista-biguacu/",
      "comunidades": [
       {
+       "nome": "São João Batista",
+       "local": "Encruzilhada",
+       "ano": "1944",
+       "matriz": true,
+       "lat": -27.462845,
+       "lng": -48.6977,
+       "posicao": "osm",
+       "nome_osm": "Capela de São João",
+       "municipio": "Biguaçu"
+      },
+      {
        "nome": "",
        "local": "Jardim Carolina",
        "ano": "2015",
        "matriz": false,
-       "lat": -27.3848,
-       "lng": -48.6353,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.453634,
+       "lng": -48.69331,
        "municipio": "Biguaçu"
       },
       {
@@ -2325,10 +2322,9 @@
        "local": "Sorocaba de Dentro",
        "ano": "1944",
        "matriz": false,
-       "lat": -27.3667,
-       "lng": -48.72819,
-       "posicao": "osm",
-       "nome_osm": "Igreja Nossa Senhora Aparecida",
+       "posicao": "aprox",
+       "lat": -27.463702,
+       "lng": -48.686468,
        "municipio": "Biguaçu"
       },
       {
@@ -2337,19 +2333,8 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.458503,
-       "lng": -48.682333,
-       "municipio": "Biguaçu"
-      },
-      {
-       "nome": "Sagrado Coração de Jesus",
-       "local": "Sorocaba de Fora",
-       "ano": "1917",
-       "matriz": false,
-       "lat": -27.380739,
-       "lng": -48.696626,
-       "posicao": "osm",
-       "nome_osm": "Igreja Sagrado Coração de Jesus",
+       "lat": -27.472585,
+       "lng": -48.695148,
        "municipio": "Biguaçu"
       },
       {
@@ -2371,6 +2356,7 @@
        "lat": -27.4095,
        "lng": -48.7186,
        "posicao": "localidade",
+       "local_osm": "Fazenda de Dentro (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2378,19 +2364,10 @@
        "local": "Canudos",
        "ano": "1991",
        "matriz": false,
-       "lat": -27.4314,
+       "lat": -27.4334,
        "lng": -48.7532,
        "posicao": "localidade",
-       "municipio": "Biguaçu"
-      },
-      {
-       "nome": "São Cristóvão",
-       "local": "Canudos",
-       "ano": "1991",
-       "matriz": false,
-       "lat": -27.4354,
-       "lng": -48.7532,
-       "posicao": "localidade",
+       "local_osm": "Canudos (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2401,6 +2378,7 @@
        "lat": -27.3622,
        "lng": -48.7666,
        "posicao": "localidade",
+       "local_osm": "Amâncio (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2408,21 +2386,9 @@
        "local": "Encruzilhada",
        "ano": "1944",
        "matriz": false,
-       "lat": -27.462845,
-       "lng": -48.6977,
-       "posicao": "osm",
-       "nome_osm": "Capela de São João",
-       "municipio": "Biguaçu"
-      },
-      {
-       "nome": "São João Batista (Matriz)",
-       "local": "Encruzilhada",
-       "ano": "1944",
-       "matriz": false,
-       "lat": -27.462845,
-       "lng": -48.6977,
-       "posicao": "osm",
-       "nome_osm": "Capela de São João",
+       "posicao": "localidade",
+       "lat": -27.4642,
+       "lng": -48.6757,
        "municipio": "Biguaçu"
       },
       {
@@ -2430,10 +2396,9 @@
        "local": "São Marcos",
        "ano": "1968",
        "matriz": false,
-       "lat": -27.445476,
-       "lng": -48.777009,
-       "posicao": "osm",
-       "nome_osm": "Capela São Marcos",
+       "posicao": "aprox",
+       "lat": -27.468008,
+       "lng": -48.707355,
        "municipio": "Biguaçu"
       },
       {
@@ -2452,10 +2417,9 @@
        "local": "São Mateus",
        "ano": "1954",
        "matriz": false,
-       "lat": -27.428985,
-       "lng": -48.77188,
-       "posicao": "osm",
-       "nome_osm": "Capela São Mateus",
+       "posicao": "aprox",
+       "lat": -27.456295,
+       "lng": -48.706219,
        "municipio": "Biguaçu"
       },
       {
@@ -2477,6 +2441,7 @@
        "lat": -27.5161,
        "lng": -48.658,
        "posicao": "localidade",
+       "local_osm": "Fundos (suburb)",
        "municipio": "Biguaçu"
       },
       {
@@ -2506,9 +2471,10 @@
        "local": "Centro",
        "ano": "1941",
        "matriz": true,
-       "lat": -27.432,
-       "lng": -48.7055,
-       "posicao": "endereco",
+       "lat": -27.495115,
+       "lng": -48.655249,
+       "posicao": "osm",
+       "nome_osm": "Paróquia São João Evangelista",
        "municipio": "Biguaçu"
       },
       {
@@ -2517,8 +2483,8 @@
        "ano": "2004",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.421268,
-       "lng": -48.70042,
+       "lat": -27.484431,
+       "lng": -48.650156,
        "municipio": "Biguaçu"
       },
       {
@@ -2529,6 +2495,7 @@
        "lat": -27.5166,
        "lng": -48.6358,
        "posicao": "localidade",
+       "local_osm": "Morro da Bina (suburb)",
        "municipio": "Biguaçu"
       },
       {
@@ -2537,8 +2504,8 @@
        "ano": "1984",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.438733,
-       "lng": -48.694903,
+       "lat": -27.491985,
+       "lng": -48.642656,
        "municipio": "Biguaçu"
       },
       {
@@ -2569,8 +2536,8 @@
        "ano": "1912",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.429925,
-       "lng": -48.71839,
+       "lat": -27.501896,
+       "lng": -48.644639,
        "municipio": "Biguaçu"
       },
       {
@@ -2579,8 +2546,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.443538,
-       "lng": -48.704875,
+       "lat": -27.506701,
+       "lng": -48.654611,
        "municipio": "Biguaçu"
       },
       {
@@ -2589,8 +2556,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.439618,
-       "lng": -48.715328,
+       "lat": -27.502781,
+       "lng": -48.665064,
        "municipio": "Biguaçu"
       },
       {
@@ -2598,9 +2565,9 @@
        "local": "Cachoeira",
        "ano": "1927",
        "matriz": false,
-       "lat": -27.4166,
-       "lng": -48.6255,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.493088,
+       "lng": -48.668126,
        "municipio": "Biguaçu"
       },
       {
@@ -2611,6 +2578,7 @@
        "lat": -27.4832,
        "lng": -48.6574,
        "posicao": "localidade",
+       "local_osm": "Prado (suburb)",
        "municipio": "Biguaçu"
       },
       {
@@ -2621,6 +2589,7 @@
        "lat": -27.4135,
        "lng": -48.7186,
        "posicao": "localidade",
+       "local_osm": "Fazenda de Dentro (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2631,6 +2600,7 @@
        "lat": -27.3802,
        "lng": -48.635,
        "posicao": "localidade",
+       "local_osm": "Areias de Cima (suburb)",
        "municipio": "Biguaçu"
       },
       {
@@ -2641,6 +2611,7 @@
        "lat": -27.5146,
        "lng": -48.6797,
        "posicao": "localidade",
+       "local_osm": "Morro da Boa Vista (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2651,6 +2622,7 @@
        "lat": -27.3662,
        "lng": -48.7666,
        "posicao": "localidade",
+       "local_osm": "Amâncio (hamlet)",
        "municipio": "Biguaçu"
       },
       {
@@ -2659,8 +2631,8 @@
        "ano": "1995",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.428822,
-       "lng": -48.69292,
+       "lat": -27.484922,
+       "lng": -48.661491,
        "municipio": "Biguaçu"
       },
       {
@@ -2668,9 +2640,10 @@
        "local": "Balneário São Miguel",
        "ano": "1752",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.421759,
-       "lng": -48.711755,
+       "lat": -27.457117,
+       "lng": -48.638002,
+       "posicao": "osm",
+       "nome_osm": "Igreja de São Miguel",
        "municipio": "Biguaçu"
       },
       {
@@ -2678,9 +2651,9 @@
        "local": "Saudade",
        "ano": "1982",
        "matriz": false,
+       "posicao": "localidade",
        "lat": -27.4734,
        "lng": -48.6641,
-       "posicao": "localidade",
        "municipio": "Biguaçu"
       },
       {
@@ -2701,6 +2674,7 @@
        "lat": -27.3936,
        "lng": -48.634,
        "posicao": "localidade",
+       "local_osm": "Cachoeiras (suburb)",
        "municipio": "Biguaçu"
       },
       {
@@ -2711,6 +2685,7 @@
        "lat": -27.505,
        "lng": -48.7068,
        "posicao": "localidade",
+       "local_osm": "Santa Cruz (hamlet)",
        "municipio": "Biguaçu"
       }
      ]
@@ -2737,9 +2712,10 @@
        "local": "Enseada de Brito",
        "ano": "1750",
        "matriz": true,
-       "lat": -27.7605,
-       "lng": -48.6386,
-       "posicao": "endereco",
+       "lat": -27.779495,
+       "lng": -48.633832,
+       "posicao": "osm",
+       "nome_osm": "Igreja Nossa Senhora do Rosário",
        "municipio": "Palhoça"
       },
       {
@@ -2750,6 +2726,7 @@
        "lat": -27.7718,
        "lng": -48.6332,
        "posicao": "localidade",
+       "local_osm": "Enseada de Brito (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2760,6 +2737,7 @@
        "lat": -27.7758,
        "lng": -48.6332,
        "posicao": "localidade",
+       "local_osm": "Enseada de Brito (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2770,6 +2748,7 @@
        "lat": -27.8873,
        "lng": -48.6283,
        "posicao": "localidade",
+       "local_osm": "Morretes (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2778,8 +2757,8 @@
        "ano": "1963",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.761516,
-       "lng": -48.648031,
+       "lat": -27.771021,
+       "lng": -48.629793,
        "municipio": "Palhoça"
       },
       {
@@ -2820,9 +2799,9 @@
        "local": "Massiambú Pequeno",
        "ano": "1910",
        "matriz": false,
-       "lat": -27.8252,
-       "lng": -48.6407,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.783078,
+       "lng": -48.624279,
        "municipio": "Palhoça"
       },
       {
@@ -2833,6 +2812,7 @@
        "lat": -27.9021,
        "lng": -48.5924,
        "posicao": "localidade",
+       "local_osm": "Guarda do Embaú (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2843,6 +2823,7 @@
        "lat": -27.7478,
        "lng": -48.6268,
        "posicao": "localidade",
+       "local_osm": "Praia de Fora (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2851,8 +2832,8 @@
        "ano": "1996",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.767181,
-       "lng": -48.632923,
+       "lat": -27.787969,
+       "lng": -48.637871,
        "municipio": "Palhoça"
       },
       {
@@ -2872,8 +2853,8 @@
        "ano": "2002",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.752743,
-       "lng": -48.634945,
+       "lat": -27.775912,
+       "lng": -48.643385,
        "municipio": "Palhoça"
       },
       {
@@ -2895,6 +2876,7 @@
        "lat": -27.8992,
        "lng": -48.6544,
        "posicao": "localidade",
+       "local_osm": "Três Barras (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2905,6 +2887,7 @@
        "lat": -27.7108,
        "lng": -48.6494,
        "posicao": "localidade",
+       "local_osm": "Furadinho (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -2945,9 +2928,10 @@
        "local": "Centro",
        "ano": "1967",
        "matriz": true,
-       "lat": -27.9452,
-       "lng": -48.7345,
-       "posicao": "endereco",
+       "lat": -27.962335,
+       "lng": -48.683031,
+       "posicao": "osm",
+       "nome_osm": "Igreja Matriz do Sagrado Coração de Jesus",
        "municipio": "Paulo Lopes"
       },
       {
@@ -2969,6 +2953,7 @@
        "lat": -28.0671,
        "lng": -48.7138,
        "posicao": "localidade",
+       "local_osm": "Penha (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3012,6 +2997,7 @@
        "lat": -27.9593,
        "lng": -48.7237,
        "posicao": "localidade",
+       "local_osm": "Bom Retiro (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3022,6 +3008,7 @@
        "lat": -27.984,
        "lng": -48.6785,
        "posicao": "localidade",
+       "local_osm": "Freitas (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3032,6 +3019,7 @@
        "lat": -27.9614,
        "lng": -48.6729,
        "posicao": "localidade",
+       "local_osm": "Areias (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3042,6 +3030,7 @@
        "lat": -28.0182,
        "lng": -48.7016,
        "posicao": "localidade",
+       "local_osm": "Cova Triste (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3063,6 +3052,7 @@
        "lat": -27.9426,
        "lng": -48.6713,
        "posicao": "localidade",
+       "local_osm": "Sorocaba (neighbourhood)",
        "municipio": "Paulo Lopes"
       },
       {
@@ -3070,11 +3060,10 @@
        "local": "Gamboa",
        "ano": "1982",
        "matriz": false,
-       "lat": -27.953713,
-       "lng": -48.629313,
-       "posicao": "osm",
-       "nome_osm": "Capela de São Sebastião",
-       "municipio": "Garopaba"
+       "posicao": "aprox",
+       "lat": -27.956072,
+       "lng": -48.680046,
+       "municipio": "Paulo Lopes"
       }
      ]
     },
@@ -3115,8 +3104,8 @@
        "ano": "1958",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.672014,
-       "lng": -48.686797,
+       "lat": -27.662504,
+       "lng": -48.67336,
        "municipio": "Palhoça"
       },
       {
@@ -3158,8 +3147,8 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.677679,
-       "lng": -48.671689,
+       "lat": -27.674561,
+       "lng": -48.667846,
        "municipio": "Palhoça"
       },
       {
@@ -3170,6 +3159,7 @@
        "lat": -27.6837,
        "lng": -48.6591,
        "posicao": "localidade",
+       "local_osm": "Loteamento Vila Nova (neighbourhood)",
        "municipio": "Palhoça"
       },
       {
@@ -3178,8 +3168,8 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.663241,
-       "lng": -48.673711,
+       "lat": -27.679452,
+       "lng": -48.681438,
        "municipio": "Palhoça"
       },
       {
@@ -3198,10 +3188,9 @@
        "local": "Areias",
        "ano": "1989",
        "matriz": false,
-       "lat": -27.675339,
-       "lng": -48.646435,
-       "posicao": "osm",
-       "nome_osm": "Capela do Bom Jesus",
+       "posicao": "aprox",
+       "lat": -27.667395,
+       "lng": -48.686952,
        "municipio": "Palhoça"
       },
       {
@@ -3212,6 +3201,7 @@
        "lat": -27.6751,
        "lng": -48.67,
        "posicao": "localidade",
+       "local_osm": "Pachecos (suburb)",
        "municipio": "Palhoça"
       }
      ]
@@ -3244,6 +3234,7 @@
        "lat": -28.0248,
        "lng": -48.6228,
        "posicao": "localidade",
+       "local_osm": "Centro (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3254,6 +3245,7 @@
        "lat": -28.1054,
        "lng": -48.6609,
        "posicao": "localidade",
+       "local_osm": "Limpa (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3264,6 +3256,7 @@
        "lat": -27.9952,
        "lng": -48.6502,
        "posicao": "localidade",
+       "local_osm": "Costa do Macacu (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3274,6 +3267,7 @@
        "lat": -28.0197,
        "lng": -48.6085,
        "posicao": "localidade",
+       "local_osm": "Vigia (quarter)",
        "municipio": "Garopaba"
       },
       {
@@ -3303,9 +3297,8 @@
        "ano": "1976",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -28.019917,
-       "lng": -48.628249,
-       "municipio": "Garopaba"
+       "lat": -28.01652,
+       "lng": -48.614988
       },
       {
        "nome": "Sagrada Família",
@@ -3326,6 +3319,7 @@
        "lat": -28.03,
        "lng": -48.6455,
        "posicao": "localidade",
+       "local_osm": "Ambrósio (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3333,9 +3327,10 @@
        "local": "Prainha",
        "ano": "1980",
        "matriz": false,
-       "lat": -28.0192,
-       "lng": -48.61,
+       "lat": -28.0416,
+       "lng": -48.6136,
        "posicao": "localidade",
+       "local_osm": "Prainha do Silveira (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3357,6 +3352,7 @@
        "lat": -28.0336,
        "lng": -48.6257,
        "posicao": "localidade",
+       "local_osm": "Pinguirito (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3367,6 +3363,7 @@
        "lat": -28.0154,
        "lng": -48.6555,
        "posicao": "localidade",
+       "local_osm": "Macacu (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3377,6 +3374,7 @@
        "lat": -28.0471,
        "lng": -48.6279,
        "posicao": "localidade",
+       "local_osm": "Palhocinha (suburb)",
        "municipio": "Garopaba"
       },
       {
@@ -3385,8 +3383,8 @@
        "ano": "1976",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -28.03163,
-       "lng": -48.629385,
+       "lat": -28.025136,
+       "lng": -48.607647,
        "municipio": "Garopaba"
       },
       {
@@ -3395,8 +3393,9 @@
        "ano": "2007",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -28.017256,
-       "lng": -48.61534
+       "lat": -28.035083,
+       "lng": -48.612389,
+       "municipio": "Garopaba"
       },
       {
        "nome": "São João Batista",
@@ -3415,8 +3414,8 @@
        "ano": "2005",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -28.027324,
-       "lng": -48.608498,
+       "lat": -28.036414,
+       "lng": -48.624472,
        "municipio": "Garopaba"
       },
       {
@@ -3424,9 +3423,9 @@
        "local": "Morro da Encantada",
        "ano": "1980",
        "matriz": false,
-       "lat": -28.0711,
-       "lng": -48.6865,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -28.027798,
+       "lng": -48.631813,
        "municipio": "Garopaba"
       },
       {
@@ -3434,9 +3433,9 @@
        "local": "Capão",
        "ano": "1978",
        "matriz": false,
+       "posicao": "localidade",
        "lat": -28.0729,
        "lng": -48.6262,
-       "posicao": "localidade",
        "municipio": "Garopaba"
       },
       {
@@ -3445,8 +3444,8 @@
        "ano": "1978",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -28.036207,
-       "lng": -48.617178,
+       "lat": -28.017851,
+       "lng": -48.627071,
        "municipio": "Garopaba"
       },
       {
@@ -3489,6 +3488,7 @@
        "lat": -27.6242,
        "lng": -48.6624,
        "posicao": "localidade",
+       "local_osm": "Jardim Eldorado (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -3520,6 +3520,7 @@
        "lat": -27.6144,
        "lng": -48.6644,
        "posicao": "localidade",
+       "local_osm": "Brejaru (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -3530,6 +3531,7 @@
        "lat": -27.6136,
        "lng": -48.6661,
        "posicao": "localidade",
+       "local_osm": "Vila Frei Damião (neighbourhood)",
        "municipio": "Palhoça"
       }
      ]
@@ -3548,10 +3550,9 @@
        "local": "Palhoça",
        "ano": null,
        "matriz": true,
-       "lat": -27.639576,
-       "lng": -48.710508,
-       "posicao": "osm",
-       "nome_osm": "Capela de São Sebastião",
+       "posicao": "endereco",
+       "lat": -27.6404,
+       "lng": -48.7088,
        "municipio": "Palhoça"
       }
      ]
@@ -3581,10 +3582,9 @@
        "local": "(Gruta) Bela Vista",
        "ano": "2009",
        "matriz": false,
-       "lat": -27.658186,
-       "lng": -48.707969,
-       "posicao": "osm",
-       "nome_osm": "Capela de Nossa Senhora Aparecida",
+       "posicao": "aprox",
+       "lat": -27.63573,
+       "lng": -48.663599,
        "municipio": "Palhoça"
       },
       {
@@ -3603,9 +3603,9 @@
        "local": "Morro do Gato",
        "ano": "2013",
        "matriz": false,
-       "lat": -27.6442,
-       "lng": -48.7263,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.644346,
+       "lng": -48.656258,
        "municipio": "Palhoça"
       },
       {
@@ -3627,6 +3627,7 @@
        "lat": -27.6264,
        "lng": -48.6832,
        "posicao": "localidade",
+       "local_osm": "Cidade Universitária Pedra Branca (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -3635,8 +3636,8 @@
        "ano": "2012",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.652378,
-       "lng": -48.662631,
+       "lat": -27.654293,
+       "lng": -48.661,
        "municipio": "Palhoça"
       },
       {
@@ -3644,9 +3645,9 @@
        "local": "Fazenda Pedra Branca",
        "ano": "1982",
        "matriz": false,
-       "lat": -27.616,
-       "lng": -48.6894,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.655624,
+       "lng": -48.673083,
        "municipio": "Palhoça"
       },
       {
@@ -3655,8 +3656,8 @@
        "ano": "2002",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.646713,
-       "lng": -48.677739,
+       "lat": -27.647008,
+       "lng": -48.680424,
        "municipio": "Palhoça"
       },
       {
@@ -3667,6 +3668,7 @@
        "lat": -27.6418,
        "lng": -48.6988,
        "posicao": "localidade",
+       "local_osm": "Madri (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -3675,8 +3677,8 @@
        "ano": "2019",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.63794,
-       "lng": -48.664653,
+       "lat": -27.637061,
+       "lng": -48.675682,
        "municipio": "Palhoça"
       },
       {
@@ -3687,6 +3689,7 @@
        "lat": -27.6469,
        "lng": -48.6831,
        "posicao": "localidade",
+       "local_osm": "Caminho Novo (suburb)",
        "municipio": "Palhoça"
       },
       {
@@ -3705,9 +3708,10 @@
        "local": "São Sebastião",
        "ano": "1922",
        "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.6426,
-       "lng": -48.7156,
+       "lat": -27.639576,
+       "lng": -48.710508,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Sebastião",
        "municipio": "Palhoça"
       },
       {
@@ -3745,9 +3749,10 @@
        "local": "Centro",
        "ano": "1921",
        "matriz": true,
-       "lat": -27.5472,
-       "lng": -49.0898,
-       "posicao": "endereco",
+       "lat": -27.5835,
+       "lng": -48.9834,
+       "posicao": "localidade",
+       "local_osm": "Centro (neighbourhood)",
        "municipio": "Angelina"
       },
       {
@@ -3756,8 +3761,8 @@
        "ano": "1920",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.556916,
-       "lng": -49.087285,
+       "lat": -27.572089,
+       "lng": -48.977987,
        "municipio": "Angelina"
       },
       {
@@ -3765,9 +3770,9 @@
        "local": "Rio Bonito",
        "ano": "1946",
        "matriz": false,
-       "lat": -27.6276,
-       "lng": -49.0491,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.578848,
+       "lng": -48.970477,
        "municipio": "Angelina"
       },
       {
@@ -3787,8 +3792,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.548033,
-       "lng": -49.078605,
+       "lat": -27.588339,
+       "lng": -48.970555,
        "municipio": "Angelina"
       },
       {
@@ -3797,8 +3802,8 @@
        "ano": "1977",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.537965,
-       "lng": -49.085447,
+       "lat": -27.595,
+       "lng": -48.978176,
        "municipio": "Angelina"
       },
       {
@@ -3817,9 +3822,9 @@
        "local": "Rio São João",
        "ano": "1980",
        "matriz": false,
-       "lat": -27.5329,
-       "lng": -49.1599,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.594931,
+       "lng": -48.988875,
        "municipio": "Angelina"
       },
       {
@@ -3838,9 +3843,9 @@
        "local": "Rio Fortuna",
        "ano": "1945",
        "matriz": false,
-       "lat": -27.482,
-       "lng": -49.0653,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.588172,
+       "lng": -48.996385,
        "municipio": "Angelina"
       },
       {
@@ -3848,9 +3853,9 @@
        "local": "Morro Mineiro",
        "ano": "1972",
        "matriz": false,
-       "lat": -27.5388,
-       "lng": -48.99,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.578681,
+       "lng": -48.996307,
        "municipio": "Angelina"
       },
       {
@@ -3859,8 +3864,8 @@
        "ano": "1868",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.540626,
-       "lng": -49.098356,
+       "lat": -27.57202,
+       "lng": -48.988686,
        "municipio": "Angelina"
       },
       {
@@ -3882,6 +3887,7 @@
        "lat": -27.5279,
        "lng": -49.1265,
        "posicao": "localidade",
+       "local_osm": "Barra Clara (hamlet)",
        "municipio": "Angelina"
       },
       {
@@ -3889,9 +3895,10 @@
        "local": "III Linha",
        "ano": "1868",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.552339,
-       "lng": -49.099492,
+       "lat": -27.629004,
+       "lng": -48.967214,
+       "posicao": "osm",
+       "nome_osm": "Capela de São João",
        "municipio": "Angelina"
       },
       {
@@ -3902,6 +3909,7 @@
        "lat": -27.5845,
        "lng": -49.0196,
        "posicao": "localidade",
+       "local_osm": "Alto Garcia (hamlet)",
        "municipio": "Angelina"
       },
       {
@@ -3942,9 +3950,10 @@
        "local": "Centro",
        "ano": "1928",
        "matriz": true,
-       "lat": -27.4882,
-       "lng": -49.2633,
-       "posicao": "endereco",
+       "lat": -27.507581,
+       "lng": -49.287466,
+       "posicao": "osm",
+       "nome_osm": "Igreja da Paróquia Sagrado Coração de Jesus",
        "municipio": "Leoberto Leal"
       },
       {
@@ -3986,8 +3995,8 @@
        "ano": "1923",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.495165,
-       "lng": -49.266664,
+       "lat": -27.500581,
+       "lng": -49.284129,
        "municipio": "Leoberto Leal"
       },
       {
@@ -4018,8 +4027,8 @@
        "ano": "1948",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.481165,
-       "lng": -49.25999,
+       "lat": -27.514581,
+       "lng": -49.290803,
        "municipio": "Leoberto Leal"
       },
       {
@@ -4060,9 +4069,10 @@
        "local": "Centro",
        "ano": "1854",
        "matriz": true,
-       "lat": -27.7444,
-       "lng": -48.7772,
-       "posicao": "endereco",
+       "lat": -27.688693,
+       "lng": -48.778493,
+       "posicao": "osm",
+       "nome_osm": "Paróquia Santo Amaro",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4070,9 +4080,9 @@
        "local": "Ressurreição",
        "ano": "1974",
        "matriz": false,
-       "lat": -27.748514,
-       "lng": -48.770809,
        "posicao": "aprox",
+       "lat": -27.677272,
+       "lng": -48.773049,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4092,8 +4102,8 @@
        "ano": "1843",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.734201,
-       "lng": -48.783431,
+       "lat": -27.684031,
+       "lng": -48.765539,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4104,6 +4114,7 @@
        "lat": -27.7139,
        "lng": -48.8075,
        "posicao": "localidade",
+       "local_osm": "Caldas da Imperatriz (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4125,6 +4136,7 @@
        "lat": -27.6708,
        "lng": -48.805,
        "posicao": "localidade",
+       "local_osm": "Taquara (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4133,8 +4145,8 @@
        "ano": "1963",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.741264,
-       "lng": -48.764596,
+       "lat": -27.693522,
+       "lng": -48.765617,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4143,8 +4155,8 @@
        "ano": "1954",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.751175,
-       "lng": -48.766579,
+       "lat": -27.700183,
+       "lng": -48.773238,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4155,6 +4167,7 @@
        "lat": -27.6802,
        "lng": -48.741,
        "posicao": "localidade",
+       "local_osm": "Nossa Senhora de Lourdes (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4162,10 +4175,11 @@
        "local": "Águas Mornas",
        "ano": "1898",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.75206,
-       "lng": -48.787004,
-       "municipio": "Santo Amaro da Imperatriz"
+       "lat": -27.695336,
+       "lng": -48.822171,
+       "posicao": "osm",
+       "nome_osm": "Igreja do Sagrado Coração de Jesus",
+       "municipio": "Águas Mornas"
       },
       {
        "nome": "Santa Cruz",
@@ -4173,8 +4187,8 @@
        "ano": "1968",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.73371,
-       "lng": -48.772096,
+       "lat": -27.700114,
+       "lng": -48.783937,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4183,8 +4197,8 @@
        "ano": "1917",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.75598,
-       "lng": -48.776551,
+       "lat": -27.693355,
+       "lng": -48.791447,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4204,8 +4218,8 @@
        "ano": "1862",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.742367,
-       "lng": -48.790066,
+       "lat": -27.683864,
+       "lng": -48.791369,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4224,9 +4238,9 @@
        "local": "Sertão",
        "ano": "1962",
        "matriz": false,
-       "lat": -27.7064,
-       "lng": -48.7131,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.677203,
+       "lng": -48.783748,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4237,6 +4251,7 @@
        "lat": -27.6526,
        "lng": -48.8487,
        "posicao": "localidade",
+       "local_osm": "Fazenda Bom Jesus (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4269,6 +4284,7 @@
        "lat": -27.7092,
        "lng": -48.7103,
        "posicao": "localidade",
+       "local_osm": "Braço São João (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4279,6 +4295,7 @@
        "lat": -27.6698,
        "lng": -48.7483,
        "posicao": "localidade",
+       "local_osm": "Calemba (suburb)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4308,9 +4325,10 @@
        "local": "Centro",
        "ano": "1950",
        "matriz": true,
-       "lat": -27.9575,
-       "lng": -48.94,
-       "posicao": "endereco",
+       "lat": -27.901885,
+       "lng": -48.929052,
+       "posicao": "osm",
+       "nome_osm": "Igreja Matriz de São Bonifácio",
        "municipio": "São Bonifácio"
       },
       {
@@ -4321,6 +4339,7 @@
        "lat": -28.0281,
        "lng": -48.953,
        "posicao": "localidade",
+       "local_osm": "Santa Maria I (hamlet)",
        "municipio": "São Bonifácio"
       },
       {
@@ -4328,9 +4347,11 @@
        "local": "Rio Sete",
        "ano": "1961",
        "matriz": false,
-       "lat": -28.0569,
-       "lng": -49.0044,
-       "posicao": "localidade"
+       "lat": -28.0799,
+       "lng": -48.974,
+       "posicao": "localidade",
+       "local_osm": "Rio Sete (hamlet)",
+       "municipio": "São Bonifácio"
       },
       {
        "nome": "Santa Brígida",
@@ -4338,8 +4359,8 @@
        "ano": "1895",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.958536,
-       "lng": -48.949398,
+       "lat": -27.894148,
+       "lng": -48.925364,
        "municipio": "São Bonifácio"
       },
       {
@@ -4347,9 +4368,9 @@
        "local": "Rio Poncho",
        "ano": "1956",
        "matriz": false,
-       "lat": -28.0088,
-       "lng": -48.8845,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.908586,
+       "lng": -48.923342,
        "municipio": "São Bonifácio"
       },
       {
@@ -4368,9 +4389,10 @@
        "local": "Rio dos Canudos",
        "ano": "1958",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.964201,
-       "lng": -48.93429,
+       "lat": -28.004038,
+       "lng": -49.00029,
+       "posicao": "osm",
+       "nome_osm": "Capela de São José",
        "municipio": "São Bonifácio"
       },
       {
@@ -4379,9 +4401,75 @@
        "ano": "1979",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.949763,
-       "lng": -48.936312,
+       "lat": -27.902921,
+       "lng": -48.93845,
        "municipio": "São Bonifácio"
+      }
+     ]
+    },
+    {
+     "id": "sao-pedro-de-alcantara",
+     "nome": "Paróquia São Pedro de Alcântara",
+     "municipio": "São Pedro de Alcântara",
+     "endereco": "Rua João Pering, 254 – Centro; 88125-000 São Pedro de Alcântara SC",
+     "paroco": "Pe. Carlos André Paixão",
+     "criada": "Criada a 23 de abril de 1844",
+     "fonte": "https://arquifln.org.br/igrejas/paroquia-sao-pedro-de-alcantara/",
+     "comunidades": [
+      {
+       "nome": "São Pedro de Alcântara",
+       "local": "Centro",
+       "ano": "1844",
+       "matriz": true,
+       "lat": -27.567374,
+       "lng": -48.804248,
+       "posicao": "osm",
+       "nome_osm": "Paróquia São Pedro de Alcântara",
+       "municipio": "São Pedro de Alcântara"
+      },
+      {
+       "nome": "Nossa Senhora de Fátima",
+       "local": "Barro Branco",
+       "ano": "1958",
+       "matriz": false,
+       "lat": -27.593368,
+       "lng": -48.892064,
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora de Fátima",
+       "municipio": "São Pedro de Alcântara"
+      },
+      {
+       "nome": "Santuário Senhor Bom Jesus da Santa Cruz",
+       "local": "Colônia Santa Tereza",
+       "ano": "2000",
+       "matriz": false,
+       "lat": -27.571068,
+       "lng": -48.759929,
+       "posicao": "osm",
+       "nome_osm": "Santuário Bom Jesus da Santa Cruz",
+       "municipio": "São Pedro de Alcântara"
+      },
+      {
+       "nome": "São João Vianney e Santa Filomena",
+       "local": "Santa Filomena",
+       "ano": "1860",
+       "matriz": false,
+       "lat": -27.58737,
+       "lng": -48.876045,
+       "posicao": "osm",
+       "nome_osm": "Capela São João Vianney e Santa Filomena",
+       "municipio": "São Pedro de Alcântara"
+      },
+      {
+       "nome": "São Sebastião",
+       "local": "Varginha",
+       "ano": "1944",
+       "matriz": false,
+       "lat": -27.61796,
+       "lng": -48.810086,
+       "posicao": "osm",
+       "nome_osm": "Capela São Sebastião",
+       "municipio": "São Pedro de Alcântara"
       }
      ]
     },
@@ -4399,9 +4487,10 @@
        "local": "Centro",
        "ano": "1951",
        "matriz": true,
-       "lat": -27.8713,
-       "lng": -49.1467,
-       "posicao": "endereco",
+       "posicao": "osm",
+       "lat": -27.9025,
+       "lng": -49.12844,
+       "nome_osm": "Igreja de São Sebastião",
        "municipio": "Anitápolis"
       },
       {
@@ -4412,6 +4501,7 @@
        "lat": -27.9332,
        "lng": -49.0968,
        "posicao": "localidade",
+       "local_osm": "Rio Cachimbo (hamlet)",
        "municipio": "Anitápolis"
       },
       {
@@ -4420,8 +4510,8 @@
        "ano": "2017",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.862065,
-       "lng": -49.142351,
+       "lat": -27.891079,
+       "lng": -49.122996,
        "municipio": "Anitápolis"
       },
       {
@@ -4429,9 +4519,9 @@
        "local": "Santa Maria",
        "ano": "1927",
        "matriz": false,
-       "lat": -27.9413,
-       "lng": -49.1875,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.897838,
+       "lng": -49.115486,
        "municipio": "Anitápolis"
       },
       {
@@ -4442,6 +4532,7 @@
        "lat": -27.9184,
        "lng": -49.0822,
        "posicao": "localidade",
+       "local_osm": "Rio do Ouro (hamlet)",
        "municipio": "Anitápolis"
       },
       {
@@ -4449,9 +4540,9 @@
        "local": "Salto",
        "ano": "1989",
        "matriz": false,
-       "lat": -27.919,
-       "lng": -49.2147,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.907329,
+       "lng": -49.115564,
        "municipio": "Anitápolis"
       },
       {
@@ -4459,9 +4550,10 @@
        "local": "Rio da Prata",
        "ano": null,
        "matriz": false,
-       "lat": -27.7956,
-       "lng": -49.1388,
+       "lat": -27.8183,
+       "lng": -49.1397,
        "posicao": "localidade",
+       "local_osm": "Rio da Prata (hamlet)",
        "municipio": "Anitápolis"
       },
       {
@@ -4470,8 +4562,8 @@
        "ano": null,
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.872133,
-       "lng": -49.135509,
+       "lat": -27.91399,
+       "lng": -49.123185,
        "municipio": "Anitápolis"
       },
       {
@@ -4480,8 +4572,8 @@
        "ano": "1990",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.881016,
-       "lng": -49.144189,
+       "lat": -27.913921,
+       "lng": -49.133884,
        "municipio": "Anitápolis"
       },
       {
@@ -4490,8 +4582,8 @@
        "ano": null,
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.876439,
-       "lng": -49.156396,
+       "lat": -27.907162,
+       "lng": -49.141394,
        "municipio": "Anitápolis"
       },
       {
@@ -4511,8 +4603,8 @@
        "ano": "1968",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.864726,
-       "lng": -49.15526,
+       "lat": -27.897671,
+       "lng": -49.141316,
        "municipio": "Anitápolis"
       },
       {
@@ -4553,10 +4645,9 @@
        "local": "São Paulo dos Pinheiros",
        "ano": "1933",
        "matriz": false,
-       "lat": -27.870368,
-       "lng": -49.068466,
-       "posicao": "osm",
-       "nome_osm": "Capela de São Paulo",
+       "posicao": "aprox",
+       "lat": -27.89101,
+       "lng": -49.133695,
        "municipio": "Anitápolis"
       }
      ]
@@ -4583,9 +4674,10 @@
        "local": "Centro",
        "ano": "1959",
        "matriz": true,
-       "lat": -27.2439,
-       "lng": -48.785,
-       "posicao": "endereco",
+       "lat": -27.267254,
+       "lng": -48.776582,
+       "posicao": "osm",
+       "nome_osm": "Capela de Santana",
        "municipio": "Canelinha"
       },
       {
@@ -4593,9 +4685,10 @@
        "local": "Moura",
        "ano": "1887",
        "matriz": false,
-       "lat": -27.2529,
+       "lat": -27.2509,
        "lng": -48.7839,
        "posicao": "localidade",
+       "local_osm": "Moura (suburb)",
        "municipio": "Canelinha"
       },
       {
@@ -4606,6 +4699,7 @@
        "lat": -27.2851,
        "lng": -48.7479,
        "posicao": "localidade",
+       "local_osm": "Papagaios (hamlet)",
        "municipio": "Canelinha"
       },
       {
@@ -4616,6 +4710,7 @@
        "lat": -27.2546,
        "lng": -48.7644,
        "posicao": "localidade",
+       "local_osm": "Cobre (suburb)",
        "municipio": "Canelinha"
       },
       {
@@ -4634,19 +4729,21 @@
        "local": "Nova Descoberta",
        "ano": "1922",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.252332,
-       "lng": -48.789082,
-       "municipio": "Canelinha"
+       "lat": -27.263636,
+       "lng": -48.732167,
+       "posicao": "osm",
+       "nome_osm": "Igreja Santo Antônio",
+       "municipio": "Tijucas"
       },
       {
        "nome": "Santo Inácio",
        "local": "Moura",
        "ano": "1924",
        "matriz": false,
-       "lat": -27.2489,
-       "lng": -48.7839,
-       "posicao": "localidade",
+       "lat": -27.203263,
+       "lng": -48.836159,
+       "posicao": "osm",
+       "nome_osm": "Capela Santo Inácio",
        "municipio": "Canelinha"
       },
       {
@@ -4654,10 +4751,11 @@
        "local": "Gavião - Moura",
        "ano": "1999",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.247441,
-       "lng": -48.77549,
-       "municipio": "Canelinha"
+       "lat": -27.277502,
+       "lng": -48.700198,
+       "posicao": "osm",
+       "nome_osm": "Capela do Senhor Bom Jesus",
+       "municipio": "Tijucas"
       },
       {
        "nome": "São Cristóvão",
@@ -4676,8 +4774,8 @@
        "ano": "1999",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.235384,
-       "lng": -48.781004,
+       "lat": -27.260991,
+       "lng": -48.773597,
        "municipio": "Canelinha"
       },
       {
@@ -4685,9 +4783,10 @@
        "local": "Centro do Moura",
        "ano": "1918",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.240275,
-       "lng": -48.794596,
+       "lat": -27.185926,
+       "lng": -48.840145,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Sebastião",
        "municipio": "Canelinha"
       }
      ]
@@ -4706,9 +4805,10 @@
        "local": "Centro",
        "ano": "1838",
        "matriz": true,
-       "lat": -27.3285,
-       "lng": -48.8598,
-       "posicao": "endereco",
+       "lat": -27.276748,
+       "lng": -48.84917,
+       "posicao": "osm",
+       "nome_osm": "Igreja de São João Batista",
        "municipio": "São João Batista"
       },
       {
@@ -4719,6 +4819,7 @@
        "lat": -27.2665,
        "lng": -48.8637,
        "posicao": "localidade",
+       "local_osm": "Carmelo de Dentro (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4729,6 +4830,7 @@
        "lat": -27.2898,
        "lng": -48.8502,
        "posicao": "localidade",
+       "local_osm": "Jardim São Paulo (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4750,6 +4852,7 @@
        "lat": -27.2748,
        "lng": -48.8162,
        "posicao": "localidade",
+       "local_osm": "Ribanceira do Sul (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4760,6 +4863,7 @@
        "lat": -27.2918,
        "lng": -48.843,
        "posicao": "localidade",
+       "local_osm": "Timbézinho (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4801,8 +4905,8 @@
        "ano": "2007",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.32149,
-       "lng": -48.856477,
+       "lat": -27.269748,
+       "lng": -48.845833,
        "municipio": "São João Batista"
       },
       {
@@ -4811,8 +4915,8 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.33549,
-       "lng": -48.863151,
+       "lat": -27.283748,
+       "lng": -48.852507,
        "municipio": "São João Batista"
       },
       {
@@ -4823,6 +4927,7 @@
        "lat": -27.2773,
        "lng": -48.8639,
        "posicao": "localidade",
+       "local_osm": "Tajuba I (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4833,6 +4938,7 @@
        "lat": -27.3185,
        "lng": -48.869,
        "posicao": "localidade",
+       "local_osm": "Colônia de Fora (suburb)",
        "municipio": "São João Batista"
       },
       {
@@ -4840,10 +4946,11 @@
        "local": "Rio do Braço",
        "ano": "1903",
        "matriz": false,
-       "lat": -27.277,
-       "lng": -48.8694,
-       "posicao": "localidade",
-       "municipio": "São João Batista"
+       "lat": -27.289575,
+       "lng": -48.89262,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Luis",
+       "municipio": "Nova Trento"
       },
       {
        "nome": "São Pedro",
@@ -4895,8 +5002,8 @@
        "ano": "1921",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.247811,
-       "lng": -48.64319,
+       "lat": -27.232701,
+       "lng": -48.628793,
        "municipio": "Tijucas"
       },
       {
@@ -4905,8 +5012,8 @@
        "ano": "2013",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.233437,
-       "lng": -48.629145,
+       "lat": -27.241317,
+       "lng": -48.621452,
        "municipio": "Tijucas"
       },
       {
@@ -4947,9 +5054,9 @@
        "local": "Hospital São José",
        "ano": "1942",
        "matriz": false,
-       "lat": -27.241,
-       "lng": -48.6341,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.251264,
+       "lng": -48.626194,
        "municipio": "Tijucas"
       },
       {
@@ -4971,6 +5078,7 @@
        "lat": -27.2594,
        "lng": -48.6425,
        "posicao": "localidade",
+       "local_osm": "Pernambuco (suburb)",
        "municipio": "Tijucas"
       },
       {
@@ -4981,6 +5089,7 @@
        "lat": -27.2462,
        "lng": -48.6222,
        "posicao": "localidade",
+       "local_osm": "Sul do Rio (suburb)",
        "municipio": "Tijucas"
       },
       {
@@ -4989,8 +5098,8 @@
        "ano": "1995",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.252388,
-       "lng": -48.630983,
+       "lat": -27.252595,
+       "lng": -48.638277,
        "municipio": "Tijucas"
       },
       {
@@ -4999,8 +5108,8 @@
        "ano": "1899",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.236098,
-       "lng": -48.642054,
+       "lat": -27.243979,
+       "lng": -48.645618,
        "municipio": "Tijucas"
       },
       {
@@ -5011,6 +5120,7 @@
        "lat": -27.2451,
        "lng": -48.6444,
        "posicao": "localidade",
+       "local_osm": "XV de Novembro (suburb)",
        "municipio": "Tijucas"
       },
       {
@@ -5041,8 +5151,8 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.243505,
-       "lng": -48.622303,
+       "lat": -27.234032,
+       "lng": -48.640876,
        "municipio": "Tijucas"
       },
       {
@@ -5050,9 +5160,10 @@
        "local": "Timbé",
        "ano": "1919",
        "matriz": false,
-       "lat": -27.3261,
-       "lng": -48.6933,
-       "posicao": "localidade",
+       "lat": -27.326881,
+       "lng": -48.691355,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Luís",
        "municipio": "Tijucas"
       },
       {
@@ -5104,9 +5215,9 @@
        "local": "Espraiado de Claraíba",
        "ano": "1983",
        "matriz": false,
-       "lat": -27.268,
-       "lng": -48.9323,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.273588,
+       "lng": -48.923723,
        "municipio": "Nova Trento"
       },
       {
@@ -5117,6 +5228,7 @@
        "lat": -27.2951,
        "lng": -48.9463,
        "posicao": "localidade",
+       "local_osm": "Trinta Réis (suburb)",
        "municipio": "Nova Trento"
       },
       {
@@ -5124,9 +5236,9 @@
        "local": "Vígolo",
        "ano": "1880",
        "matriz": false,
-       "lat": -27.2473,
-       "lng": -48.9424,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.279255,
+       "lng": -48.916351,
        "municipio": "Nova Trento"
       },
       {
@@ -5134,9 +5246,10 @@
        "local": "Trombudo",
        "ano": "1947",
        "matriz": false,
-       "lat": -27.283308,
-       "lng": -48.922836,
-       "posicao": "aprox",
+       "lat": -27.378975,
+       "lng": -49.136351,
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora do Rosário",
        "municipio": "Nova Trento"
       },
       {
@@ -5144,9 +5257,10 @@
        "local": "Baixo Pitanga",
        "ano": "1947",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.30012,
-       "lng": -48.926297,
+       "lat": -27.331658,
+       "lng": -49.068213,
+       "posicao": "osm",
+       "nome_osm": "Capela da Sagrada Família",
        "municipio": "Nova Trento"
       },
       {
@@ -5154,9 +5268,10 @@
        "local": "Rio Veado",
        "ano": "1926",
        "matriz": false,
-       "lat": -27.293473,
-       "lng": -48.930286,
-       "posicao": "aprox",
+       "lat": -27.403755,
+       "lng": -49.13736,
+       "posicao": "osm",
+       "nome_osm": "Capela do Sagrado Coração de Jesus",
        "municipio": "Nova Trento"
       },
       {
@@ -5175,9 +5290,10 @@
        "local": "Bairro Besenello",
        "ano": "1884",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.272846,
-       "lng": -48.933441,
+       "lat": -27.283914,
+       "lng": -48.918651,
+       "posicao": "osm",
+       "nome_osm": "Capela de Santa Ágata",
        "municipio": "Nova Trento"
       },
       {
@@ -5197,8 +5313,8 @@
        "ano": "1921",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.293711,
-       "lng": -48.943387,
+       "lat": -27.287683,
+       "lng": -48.914144,
        "municipio": "Nova Trento"
       },
       {
@@ -5206,10 +5322,9 @@
        "local": "Baixo Salto",
        "ano": "1920",
        "matriz": false,
-       "lat": -27.295148,
-       "lng": -48.981702,
-       "posicao": "osm",
-       "nome_osm": "Igreja Santo Antônio",
+       "posicao": "aprox",
+       "lat": -27.295653,
+       "lng": -48.917942,
        "municipio": "Nova Trento"
       },
       {
@@ -5231,6 +5346,7 @@
        "lat": -27.3567,
        "lng": -49.0808,
        "posicao": "localidade",
+       "local_osm": "Alto Pitanga (hamlet)",
        "municipio": "Nova Trento"
       },
       {
@@ -5239,8 +5355,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.287683,
-       "lng": -48.914144,
+       "lat": -27.30012,
+       "lng": -48.926297,
        "municipio": "Nova Trento"
       },
       {
@@ -5248,9 +5364,10 @@
        "local": "Ribeirão Frederico",
        "ano": "1957",
        "matriz": false,
-       "lat": -27.2761,
-       "lng": -48.9523,
+       "lat": -27.2729,
+       "lng": -48.9469,
        "posicao": "localidade",
+       "local_osm": "Ribeirão Frederico (hamlet)",
        "municipio": "Nova Trento"
       },
       {
@@ -5258,10 +5375,9 @@
        "local": "Morro da Cruz",
        "ano": "1902",
        "matriz": false,
-       "lat": -27.26553,
-       "lng": -48.912991,
-       "posicao": "osm",
-       "nome_osm": "Santuário Nossa Senhora do Bom Socorro",
+       "posicao": "aprox",
+       "lat": -27.299378,
+       "lng": -48.936015,
        "municipio": "Nova Trento"
       },
       {
@@ -5269,9 +5385,10 @@
        "local": "Ferreira Viana",
        "ano": "1914",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.285283,
-       "lng": -48.945594,
+       "lat": -27.33671,
+       "lng": -48.984708,
+       "posicao": "osm",
+       "nome_osm": "Capela de Santana",
        "municipio": "Nova Trento"
       },
       {
@@ -5279,9 +5396,10 @@
        "local": "Alto Salto",
        "ano": "1930",
        "matriz": false,
-       "lat": -27.314,
-       "lng": -48.9842,
-       "posicao": "localidade",
+       "lat": -27.260426,
+       "lng": -48.991552,
+       "posicao": "osm",
+       "nome_osm": "Igreja São Caetano",
        "municipio": "Nova Trento"
       },
       {
@@ -5290,8 +5408,8 @@
        "ano": "1989",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.279255,
-       "lng": -48.916351,
+       "lat": -27.293711,
+       "lng": -48.943387,
        "municipio": "Nova Trento"
       },
       {
@@ -5302,6 +5420,7 @@
        "lat": -27.301,
        "lng": -48.8996,
        "posicao": "localidade",
+       "local_osm": "Ponta Fina (hamlet)",
        "municipio": "Nova Trento"
       },
       {
@@ -5309,9 +5428,10 @@
        "local": "Conquista",
        "ano": "1923",
        "matriz": false,
-       "lat": -27.282668,
-       "lng": -48.936486,
-       "posicao": "aprox",
+       "lat": -27.337472,
+       "lng": -49.181916,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Francisco Xavier",
        "municipio": "Nova Trento"
       },
       {
@@ -5320,8 +5440,8 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.273588,
-       "lng": -48.923723,
+       "lat": -27.285283,
+       "lng": -48.945594,
        "municipio": "Nova Trento"
       },
       {
@@ -5341,8 +5461,8 @@
        "ano": "1955",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.295653,
-       "lng": -48.917942,
+       "lat": -27.277313,
+       "lng": -48.941796,
        "municipio": "Nova Trento"
       },
       {
@@ -5361,9 +5481,10 @@
        "local": "Rua do Salto",
        "ano": "1896",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.277313,
-       "lng": -48.941796,
+       "lat": -27.289178,
+       "lng": -48.944243,
+       "posicao": "osm",
+       "nome_osm": "Oratório São Roque",
        "municipio": "Nova Trento"
       },
       {
@@ -5383,8 +5504,8 @@
        "ano": "1929",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.299378,
-       "lng": -48.936015,
+       "lat": -27.272846,
+       "lng": -48.933441,
        "municipio": "Nova Trento"
       }
      ]
@@ -5415,8 +5536,8 @@
        "ano": null,
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.412081,
-       "lng": -48.949679,
+       "lat": -27.411344,
+       "lng": -48.949327,
        "municipio": "Major Gercino"
       },
       {
@@ -5446,9 +5567,9 @@
        "local": "Rio do Alho",
        "ano": "1958",
        "matriz": false,
-       "lat": -27.4372,
-       "lng": -49.0019,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.425344,
+       "lng": -48.956001,
        "municipio": "Major Gercino"
       },
       {
@@ -5500,9 +5621,10 @@
        "local": "Boa Esperança",
        "ano": "1930",
        "matriz": false,
-       "lat": -27.4115,
-       "lng": -49.0493,
+       "lat": -27.3944,
+       "lng": -49.0304,
        "posicao": "localidade",
+       "local_osm": "Fazenda Boa Esperança (hamlet)",
        "municipio": "Major Gercino"
       }
      ]
@@ -5550,6 +5672,7 @@
        "lat": -27.1677,
        "lng": -48.5234,
        "posicao": "localidade",
+       "local_osm": "Sertãozinho (suburb)",
        "municipio": "Bombinhas"
       },
       {
@@ -5593,6 +5716,7 @@
        "lat": -27.1545,
        "lng": -48.5058,
        "posicao": "localidade",
+       "local_osm": "José Amândio (suburb)",
        "municipio": "Bombinhas"
       },
       {
@@ -5622,9 +5746,10 @@
        "local": "Meia Praia",
        "ano": "1964",
        "matriz": true,
-       "lat": -27.0995,
-       "lng": -48.6463,
-       "posicao": "endereco",
+       "lat": -27.137166,
+       "lng": -48.596339,
+       "posicao": "osm",
+       "nome_osm": "Igreja da Paróquia Sagrado Coração de Jesus",
        "municipio": "Itapema"
       },
       {
@@ -5635,6 +5760,7 @@
        "lat": -27.1197,
        "lng": -48.6168,
        "posicao": "localidade",
+       "local_osm": "Morretes (suburb)",
        "municipio": "Itapema"
       },
       {
@@ -5642,10 +5768,9 @@
        "local": "Jardim Praiamar",
        "ano": "1999",
        "matriz": false,
-       "lat": -27.1347,
-       "lng": -48.6148,
-       "posicao": "localidade",
-       "municipio": "Itapema"
+       "posicao": "aprox",
+       "lat": -27.130903,
+       "lng": -48.593354
       },
       {
        "nome": "São Francisco de Assis",
@@ -5655,6 +5780,7 @@
        "lat": -27.1289,
        "lng": -48.6061,
        "posicao": "localidade",
+       "local_osm": "Meia Praia (suburb)",
        "municipio": "Itapema"
       },
       {
@@ -5709,6 +5835,7 @@
        "lat": -27.0842,
        "lng": -48.6169,
        "posicao": "localidade",
+       "local_osm": "Alto São Bento (suburb)",
        "municipio": "Itapema"
       },
       {
@@ -5748,9 +5875,10 @@
        "local": "Centro",
        "ano": "1824",
        "matriz": true,
-       "lat": -27.1505,
-       "lng": -48.5366,
-       "posicao": "endereco",
+       "lat": -27.158728,
+       "lng": -48.553286,
+       "posicao": "osm",
+       "nome_osm": "Igreja Senhor Bom Jesus dos Aflitos",
        "municipio": "Porto Belo"
       },
       {
@@ -5772,6 +5900,7 @@
        "lat": -27.1561,
        "lng": -48.5745,
        "posicao": "localidade",
+       "local_osm": "Balneário Perequê (suburb)",
        "municipio": "Porto Belo"
       },
       {
@@ -5782,6 +5911,7 @@
        "lat": -27.153,
        "lng": -48.5892,
        "posicao": "localidade",
+       "local_osm": "Jardim Dourado (suburb)",
        "municipio": "Porto Belo"
       },
       {
@@ -5792,6 +5922,7 @@
        "lat": -27.1664,
        "lng": -48.5924,
        "posicao": "localidade",
+       "local_osm": "Alto Perequê (suburb)",
        "municipio": "Porto Belo"
       },
       {
@@ -5802,6 +5933,7 @@
        "lat": -27.1297,
        "lng": -48.5251,
        "posicao": "localidade",
+       "local_osm": "Araçá (suburb)",
        "municipio": "Porto Belo"
       }
      ]
@@ -5840,8 +5972,8 @@
        "ano": "2013",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.030773,
-       "lng": -48.655863,
+       "lat": -27.013088,
+       "lng": -48.647434,
        "municipio": "Camboriú"
       },
       {
@@ -5852,6 +5984,7 @@
        "lat": -27.0375,
        "lng": -48.6457,
        "posicao": "localidade",
+       "local_osm": "Cedro (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -5862,6 +5995,7 @@
        "lat": -27.0339,
        "lng": -48.6371,
        "posicao": "localidade",
+       "local_osm": "Rio Pequeno (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -5870,8 +6004,8 @@
        "ano": "2021",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.025882,
-       "lng": -48.642271,
+       "lat": -27.023156,
+       "lng": -48.640592,
        "municipio": "Camboriú"
       },
       {
@@ -5882,6 +6016,7 @@
        "lat": -27.0249,
        "lng": -48.6806,
        "posicao": "localidade",
+       "local_osm": "João da Costa (hamlet)",
        "municipio": "Camboriú"
       },
       {
@@ -5890,8 +6025,8 @@
        "ano": "1994",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.018716,
-       "lng": -48.661377,
+       "lat": -27.032039,
+       "lng": -48.649272,
        "municipio": "Camboriú"
       },
       {
@@ -5910,9 +6045,9 @@
        "local": "Japão",
        "ano": "2013",
        "matriz": false,
-       "lat": -27.026419,
-       "lng": -48.645444,
        "posicao": "aprox",
+       "lat": -27.027462,
+       "lng": -48.661479,
        "municipio": "Camboriú"
       },
       {
@@ -5921,8 +6056,8 @@
        "ano": "2023",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.013825,
-       "lng": -48.647785,
+       "lat": -27.015749,
+       "lng": -48.660343,
        "municipio": "Camboriú"
       },
       {
@@ -5965,6 +6100,7 @@
        "lat": -27.0271,
        "lng": -48.6152,
        "posicao": "localidade",
+       "local_osm": "Nova Esperança (suburb)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -5972,9 +6108,9 @@
        "local": "Morro do Boi",
        "ano": "2010",
        "matriz": false,
-       "lat": -27.0359,
-       "lng": -48.6065,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.000178,
+       "lng": -48.621056,
        "municipio": "Balneário Camboriú"
       },
       {
@@ -5983,8 +6119,8 @@
        "ano": "1990",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.001652,
-       "lng": -48.621758,
+       "lat": -27.012235,
+       "lng": -48.615542,
        "municipio": "Balneário Camboriú"
       },
       {
@@ -5995,6 +6131,7 @@
        "lat": -27.0108,
        "lng": -48.6048,
        "posicao": "localidade",
+       "local_osm": "Barra (suburb)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6003,8 +6140,8 @@
        "ano": "1988",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.015652,
-       "lng": -48.628432,
+       "lat": -27.017126,
+       "lng": -48.629134,
        "municipio": "Camboriú"
       },
       {
@@ -6012,11 +6149,10 @@
        "local": "(Barranco) São Francisco de Assis",
        "ano": "1978",
        "matriz": false,
-       "lat": -27.019363,
-       "lng": -48.635898,
-       "posicao": "osm",
-       "nome_osm": "Comunidade São Francisco de Assis",
-       "municipio": "Camboriú"
+       "posicao": "aprox",
+       "lat": -27.005069,
+       "lng": -48.634648,
+       "municipio": "Balneário Camboriú"
       },
       {
        "nome": "São Judas Tadeu",
@@ -6026,6 +6162,7 @@
        "lat": -27.0214,
        "lng": -48.6011,
        "posicao": "localidade",
+       "local_osm": "São Judas Tadeu (suburb)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6036,6 +6173,7 @@
        "lat": -27.0095,
        "lng": -48.5814,
        "posicao": "localidade",
+       "local_osm": "Taquaras (suburb)",
        "municipio": "Balneário Camboriú"
       }
      ]
@@ -6049,6 +6187,17 @@
      "criada": "Criada a 25 de janeiro de 2025",
      "fonte": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-do-bom-sucesso/",
      "comunidades": [
+      {
+       "nome": "Nossa Senhora do Bom Sucesso",
+       "local": "Areias",
+       "ano": "1987",
+       "matriz": true,
+       "lat": -27.030578,
+       "lng": -48.658576,
+       "posicao": "osm",
+       "nome_osm": "Igreja Nossa Senhora do Bom Sucesso",
+       "municipio": "Camboriú"
+      },
       {
        "nome": "Imaculada Conceição",
        "local": "Vila Conceição",
@@ -6068,6 +6217,7 @@
        "lat": -27.0323,
        "lng": -48.6709,
        "posicao": "localidade",
+       "local_osm": "Santa Regina (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -6078,17 +6228,7 @@
        "lat": -27.0294,
        "lng": -48.6593,
        "posicao": "localidade",
-       "municipio": "Camboriú"
-      },
-      {
-       "nome": "Nossa Senhora do Bom Sucesso",
-       "local": "Areias",
-       "ano": "1987",
-       "matriz": false,
-       "lat": -27.030578,
-       "lng": -48.658576,
-       "posicao": "osm",
-       "nome_osm": "Igreja Nossa Senhora do Bom Sucesso",
+       "local_osm": "Areias (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -6096,9 +6236,10 @@
        "local": "Braço",
        "ano": "1958",
        "matriz": false,
-       "lat": -27.0579,
-       "lng": -48.7185,
-       "posicao": "localidade",
+       "lat": -27.089761,
+       "lng": -48.746279,
+       "posicao": "osm",
+       "nome_osm": "Igreja de Nossa Senhora do Rosário",
        "municipio": "Camboriú"
       },
       {
@@ -6109,6 +6250,7 @@
        "lat": -27.0358,
        "lng": -48.6755,
        "posicao": "localidade",
+       "local_osm": "Loteamento Jardim Europa (residential)",
        "municipio": "Camboriú"
       },
       {
@@ -6138,20 +6280,21 @@
        "local": "São Brás",
        "ano": "1956",
        "matriz": false,
-       "lat": -27.008976,
-       "lng": -48.604461,
+       "lat": -27.052769,
+       "lng": -48.67523,
        "posicao": "osm",
-       "nome_osm": "Igreja São Brás",
-       "municipio": "Balneário Camboriú"
+       "nome_osm": "Capela de São Brás",
+       "municipio": "Camboriú"
       },
       {
        "nome": "São Francisco de Assis",
        "local": "Hospital",
        "ano": "2001",
        "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.0299,
-       "lng": -48.6556,
+       "lat": -27.019363,
+       "lng": -48.635898,
+       "posicao": "osm",
+       "nome_osm": "Comunidade São Francisco de Assis",
        "municipio": "Camboriú"
       },
       {
@@ -6159,10 +6302,11 @@
        "local": "Vila da Pedra",
        "ano": "1971",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -26.975829,
-       "lng": -48.676291,
-       "municipio": "Balneário Camboriú"
+       "lat": -27.093782,
+       "lng": -48.703351,
+       "posicao": "osm",
+       "nome_osm": "Capela de São José Operário",
+       "municipio": "Camboriú"
       },
       {
        "nome": "São José de Anchieta",
@@ -6172,6 +6316,7 @@
        "lat": -27.0334,
        "lng": -48.6593,
        "posicao": "localidade",
+       "local_osm": "Areias (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -6182,6 +6327,7 @@
        "lat": -27.1044,
        "lng": -48.775,
        "posicao": "localidade",
+       "local_osm": "Limeira (hamlet)",
        "municipio": "Camboriú"
       }
      ]
@@ -6211,9 +6357,11 @@
        "local": "Bairro dos Estados",
        "ano": "2003",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -26.98466,
-       "lng": -48.631476
+       "lat": -26.995632,
+       "lng": -48.649854,
+       "posicao": "osm",
+       "nome_osm": "Capela Santa Catarina de Alexandria",
+       "municipio": "Balneário Camboriú"
       }
      ]
     },
@@ -6286,6 +6434,7 @@
        "lat": -27.008,
        "lng": -48.6521,
        "posicao": "localidade",
+       "local_osm": "Tabuleiro (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -6296,6 +6445,7 @@
        "lat": -27.0026,
        "lng": -48.6703,
        "posicao": "localidade",
+       "local_osm": "Conde Vila Verde (suburb)",
        "municipio": "Camboriú"
       },
       {
@@ -6304,9 +6454,9 @@
        "ano": "2007",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.006337,
-       "lng": -48.663215,
-       "municipio": "Camboriú"
+       "lat": -26.992337,
+       "lng": -48.656541,
+       "municipio": "Balneário Camboriú"
       },
       {
        "nome": "São João Paulo II",
@@ -6314,9 +6464,9 @@
        "ano": "2016",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.992337,
-       "lng": -48.656541,
-       "municipio": "Balneário Camboriú"
+       "lat": -27.006337,
+       "lng": -48.663215,
+       "municipio": "Camboriú"
       },
       {
        "nome": "São Roque",
@@ -6326,6 +6476,7 @@
        "lat": -26.9857,
        "lng": -48.678,
        "posicao": "localidade",
+       "local_osm": "Várzea do Ranchinho (suburb)",
        "municipio": "Camboriú"
       }
      ]
@@ -6388,6 +6539,7 @@
        "lat": -26.9489,
        "lng": -48.6372,
        "posicao": "localidade",
+       "local_osm": "Praia Brava (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6417,9 +6569,10 @@
        "local": "Centro",
        "ano": "1955",
        "matriz": true,
-       "lat": -26.967,
-       "lng": -48.7368,
-       "posicao": "endereco",
+       "lat": -26.907562,
+       "lng": -48.66186,
+       "posicao": "osm",
+       "nome_osm": "Igreja Matriz do Santíssimo Sacramento",
        "municipio": "Itajaí"
       },
       {
@@ -6473,6 +6626,7 @@
        "lat": -26.8651,
        "lng": -48.7284,
        "posicao": "localidade",
+       "local_osm": "Salseiros (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6483,6 +6637,7 @@
        "lat": -26.909,
        "lng": -48.742,
        "posicao": "localidade",
+       "local_osm": "São Roque (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6493,6 +6648,7 @@
        "lat": -26.8945,
        "lng": -48.7652,
        "posicao": "localidade",
+       "local_osm": "Espinheirinhos (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6503,6 +6659,7 @@
        "lat": -26.8908,
        "lng": -48.6975,
        "posicao": "localidade",
+       "local_osm": "Costa Cavalcante (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6513,6 +6670,7 @@
        "lat": -26.8535,
        "lng": -48.7372,
        "posicao": "localidade",
+       "local_osm": "Volta de Cima (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6545,6 +6703,7 @@
        "lat": -26.8983,
        "lng": -48.7048,
        "posicao": "localidade",
+       "local_osm": "Votorantim (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6555,6 +6714,7 @@
        "lat": -26.8987,
        "lng": -48.736957,
        "posicao": "localidade",
+       "local_osm": "Espinheiros (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6565,6 +6725,7 @@
        "lat": -26.8834,
        "lng": -48.7014,
        "posicao": "localidade",
+       "local_osm": "Jardim Esperança (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6585,6 +6746,7 @@
        "lat": -26.8951,
        "lng": -48.7393,
        "posicao": "localidade",
+       "local_osm": "Espinheiros (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6595,6 +6757,7 @@
        "lat": -26.8987,
        "lng": -48.741643,
        "posicao": "localidade",
+       "local_osm": "Espinheiros (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6616,6 +6779,7 @@
        "lat": -26.913,
        "lng": -48.742,
        "posicao": "localidade",
+       "local_osm": "São Roque (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6626,6 +6790,7 @@
        "lat": -26.8812,
        "lng": -48.6945,
        "posicao": "localidade",
+       "local_osm": "Jardim Progresso (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6669,6 +6834,7 @@
        "lat": -26.8926,
        "lng": -48.6856,
        "posicao": "localidade",
+       "local_osm": "Nova Brasília (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6677,8 +6843,8 @@
        "ano": "1984",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.907248,
-       "lng": -48.682571,
+       "lat": -26.893248,
+       "lng": -48.675897,
        "municipio": "Itajaí"
       },
       {
@@ -6687,8 +6853,8 @@
        "ano": "2001",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.893248,
-       "lng": -48.675897,
+       "lat": -26.907248,
+       "lng": -48.682571,
        "municipio": "Itajaí"
       }
      ]
@@ -6721,6 +6887,7 @@
        "lat": -26.9268,
        "lng": -48.6754,
        "posicao": "localidade",
+       "local_osm": "Ressacada (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6775,6 +6942,7 @@
        "lat": -26.9421,
        "lng": -48.7198,
        "posicao": "localidade",
+       "local_osm": "Itaipava (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6785,6 +6953,7 @@
        "lat": -26.97,
        "lng": -48.6896,
        "posicao": "localidade",
+       "local_osm": "Canhanduba (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6795,6 +6964,7 @@
        "lat": -26.9871,
        "lng": -48.7166,
        "posicao": "localidade",
+       "local_osm": "Rio do Meio (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6827,6 +6997,7 @@
        "lat": -26.966,
        "lng": -48.6896,
        "posicao": "localidade",
+       "local_osm": "Canhanduba (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6848,6 +7019,7 @@
        "lat": -27.0377,
        "lng": -48.8018,
        "posicao": "localidade",
+       "local_osm": "Brilhante II (suburb)",
        "municipio": "Itajaí"
       },
       {
@@ -6889,6 +7061,7 @@
        "lat": -26.9858,
        "lng": -48.8216,
        "posicao": "localidade",
+       "local_osm": "Laranjeiras (suburb)",
        "municipio": "Itajaí"
       }
      ]
@@ -6921,6 +7094,7 @@
        "lat": -26.8978,
        "lng": -48.6848,
        "posicao": "localidade",
+       "local_osm": "Bambuzal (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -6952,6 +7126,7 @@
        "lat": -26.9056,
        "lng": -48.7005,
        "posicao": "localidade",
+       "local_osm": "Rio Bonito (quarter)",
        "municipio": "Itajaí"
       },
       {
@@ -7017,9 +7192,9 @@
        "local": "Parque da Saudade",
        "ano": "1972",
        "matriz": false,
-       "lat": -27.1176,
-       "lng": -48.9241,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.117907,
+       "lng": -48.919739,
        "municipio": "Brusque"
       },
       {
@@ -7030,6 +7205,7 @@
        "lat": -27.1324,
        "lng": -48.9112,
        "posicao": "localidade",
+       "local_osm": "Rua Luiz Vanolli (residential)",
        "municipio": "Brusque"
       },
       {
@@ -7070,9 +7246,10 @@
        "local": "Lajeado Alto",
        "ano": "1876",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.080563,
-       "lng": -48.978308,
+       "lat": -27.133807,
+       "lng": -49.060508,
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora da Imaculada Conceição",
        "municipio": "Guabiruba"
       },
       {
@@ -7105,6 +7282,7 @@
        "lat": -27.0852,
        "lng": -49.0153,
        "posicao": "localidade",
+       "local_osm": "Aymoré (suburb)",
        "municipio": "Guabiruba"
       },
       {
@@ -7123,9 +7301,10 @@
        "local": "Lajeado Baixo",
        "ano": "1944",
        "matriz": false,
-       "lat": -27.090946,
-       "lng": -48.974913,
-       "posicao": "aprox",
+       "lat": -27.128094,
+       "lng": -49.014712,
+       "posicao": "osm",
+       "nome_osm": "Igreja São Vendelino",
        "municipio": "Guabiruba"
       }
      ]
@@ -7165,9 +7344,9 @@
        "local": "Taquaruçu",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.2414,
-       "lng": -49.0002,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.14724,
+       "lng": -48.953337,
        "municipio": "Brusque"
       },
       {
@@ -7175,9 +7354,9 @@
        "local": "Tomaz Coelho",
        "ano": "1880",
        "matriz": false,
-       "lat": -27.1683,
-       "lng": -48.943,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.16124,
+       "lng": -48.960011,
        "municipio": "Brusque"
       },
       {
@@ -7199,6 +7378,7 @@
        "lat": -27.1223,
        "lng": -48.9551,
        "posicao": "localidade",
+       "local_osm": "Rio Branco (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7209,6 +7389,7 @@
        "lat": -27.1995,
        "lng": -48.9568,
        "posicao": "localidade",
+       "local_osm": "Ribeirão do Mafra (hamlet)",
        "municipio": "Brusque"
       },
       {
@@ -7219,6 +7400,7 @@
        "lat": -27.1977,
        "lng": -48.9841,
        "posicao": "localidade",
+       "local_osm": "Cedro Grande (suburb)",
        "municipio": "Brusque"
       }
      ]
@@ -7250,6 +7432,7 @@
        "lat": -27.0787,
        "lng": -48.867,
        "posicao": "localidade",
+       "local_osm": "Limeira Baixa (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7260,6 +7443,7 @@
        "lat": -27.0508,
        "lng": -48.8621,
        "posicao": "localidade",
+       "local_osm": "Planalto (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7281,6 +7465,7 @@
        "lat": -27.0489,
        "lng": -48.8748,
        "posicao": "localidade",
+       "local_osm": "Limoeiro (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7291,6 +7476,7 @@
        "lat": -27.0833,
        "lng": -48.8862,
        "posicao": "localidade",
+       "local_osm": "Nova Brasília (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7298,9 +7484,9 @@
        "local": "Ema II",
        "ano": "2006",
        "matriz": false,
-       "lat": -27.0604,
-       "lng": -48.8832,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.068747,
+       "lng": -48.888624,
        "municipio": "Brusque"
       },
       {
@@ -7308,9 +7494,9 @@
        "local": "Boêmia",
        "ano": "2016",
        "matriz": false,
-       "lat": -27.1165,
-       "lng": -48.8628,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.078815,
+       "lng": -48.881782,
        "municipio": "Brusque"
       },
       {
@@ -7319,8 +7505,8 @@
        "ano": "2011",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.084958,
-       "lng": -48.896351,
+       "lat": -27.087698,
+       "lng": -48.890462,
        "municipio": "Brusque"
       },
       {
@@ -7329,8 +7515,8 @@
        "ano": "2018",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.070958,
-       "lng": -48.889677,
+       "lat": -27.083121,
+       "lng": -48.902669,
        "municipio": "Brusque"
       },
       {
@@ -7338,9 +7524,9 @@
        "local": "Ribeirão Tavares",
        "ano": "1999",
        "matriz": false,
-       "lat": -27.097,
-       "lng": -48.8323,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.071408,
+       "lng": -48.901533,
        "municipio": "Brusque"
       },
       {
@@ -7381,9 +7567,10 @@
        "local": "Ourinhos",
        "ano": "1968",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.192991,
-       "lng": -49.070249,
+       "lat": -27.242861,
+       "lng": -49.176992,
+       "posicao": "osm",
+       "nome_osm": "Capela de Nossa Senhora Aparecida",
        "municipio": "Botuverá"
       },
       {
@@ -7405,6 +7592,7 @@
        "lat": -27.2401,
        "lng": -49.0461,
        "posicao": "localidade",
+       "local_osm": "Sessenta (hamlet)",
        "municipio": "Botuverá"
       },
       {
@@ -7424,8 +7612,8 @@
        "ano": "1944",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.201764,
-       "lng": -49.083335,
+       "lat": -27.193728,
+       "lng": -49.0706,
        "municipio": "Botuverá"
       },
       {
@@ -7433,9 +7621,10 @@
        "local": "Ribeirão do Ouro",
        "ano": "1912",
        "matriz": false,
-       "lat": -27.2353,
-       "lng": -49.1701,
-       "posicao": "localidade",
+       "lat": -27.202805,
+       "lng": -49.152592,
+       "posicao": "osm",
+       "nome_osm": "Igreja de São João Batista",
        "municipio": "Botuverá"
       },
       {
@@ -7454,9 +7643,9 @@
        "local": "Pedras Grandes",
        "ano": "1990",
        "matriz": false,
+       "posicao": "localidade",
        "lat": -27.1717,
        "lng": -49.0079,
-       "posicao": "localidade",
        "municipio": "Botuverá"
       },
       {
@@ -7465,8 +7654,8 @@
        "ano": "1946",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.207429,
-       "lng": -49.068227,
+       "lat": -27.207728,
+       "lng": -49.077274,
        "municipio": "Botuverá"
       }
      ]
@@ -7510,6 +7699,7 @@
        "lat": -27.1253,
        "lng": -48.9,
        "posicao": "localidade",
+       "local_osm": "1º de Maio (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7553,6 +7743,7 @@
        "lat": -27.1436,
        "lng": -48.8881,
        "posicao": "localidade",
+       "local_osm": "Ponta Russa (suburb)",
        "municipio": "Brusque"
       }
      ]
@@ -7571,9 +7762,10 @@
        "local": "Centro",
        "ano": "1866",
        "matriz": true,
-       "lat": -27.131,
-       "lng": -48.893,
-       "posicao": "endereco",
+       "lat": -27.098303,
+       "lng": -48.918015,
+       "posicao": "osm",
+       "nome_osm": "Igreja São Luiz Gonzaga",
        "municipio": "Brusque"
       },
       {
@@ -7584,6 +7776,7 @@
        "lat": -27.0839,
        "lng": -48.9125,
        "posicao": "localidade",
+       "local_osm": "São Luiz (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7594,6 +7787,7 @@
        "lat": -27.0735,
        "lng": -48.9071,
        "posicao": "localidade",
+       "local_osm": "Steffen (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7604,6 +7798,7 @@
        "lat": -27.104,
        "lng": -48.9299,
        "posicao": "localidade",
+       "local_osm": "Jardim Maluche (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7612,8 +7807,8 @@
        "ano": "1975",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.124,
-       "lng": -48.889627,
+       "lat": -27.090566,
+       "lng": -48.914327,
        "municipio": "Brusque"
       },
       {
@@ -7632,9 +7827,9 @@
        "local": "Lagoa Dourada",
        "ano": "2004",
        "matriz": false,
-       "lat": -27.1363,
-       "lng": -48.9301,
-       "posicao": "localidade",
+       "posicao": "aprox",
+       "lat": -27.105004,
+       "lng": -48.912305,
        "municipio": "Brusque"
       },
       {
@@ -7656,6 +7851,7 @@
        "lat": -27.0212,
        "lng": -48.8753,
        "posicao": "localidade",
+       "local_osm": "Volta Grande (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7666,6 +7862,7 @@
        "lat": -27.0661,
        "lng": -48.9157,
        "posicao": "localidade",
+       "local_osm": "Cerâmica Reis (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7676,6 +7873,7 @@
        "lat": -27.1293,
        "lng": -48.9,
        "posicao": "localidade",
+       "local_osm": "1º de Maio (suburb)",
        "municipio": "Brusque"
       },
       {
@@ -7684,8 +7882,8 @@
        "ano": "1945",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.138,
-       "lng": -48.896301,
+       "lat": -27.099339,
+       "lng": -48.927413,
        "municipio": "Brusque"
       }
      ]
