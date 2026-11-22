@@ -31,7 +31,6 @@ def toks(t):
 
 
 muns = {f["properties"]["nome"]: shape(f["geometry"]).convex_hull for f in D["municipios"]["features"]}  # só para conferência grossa
-regioes = D["regioes"]["features"]
 pars = [(f, p) for f in H["foranias"] for p in f["paroquias"]]
 
 out("== 1. Identificadores únicos")
@@ -97,22 +96,7 @@ for f, p in pars:
             if d > 15:
                 out(f"  {p['id'][:30]:30} {c['nome'][:35]:35} {c['local'][:20]:20} {d:5.1f} km ({c.get('posicao')})")
 
-out("\n== 8. Áreas: cada área tem ao menos uma igreja da paróquia dentro do município")
-for r in regioes:
-    pr = r["properties"]
-    if pr["tipo"] != "area":
-        continue
-    p = next(p for _, p in pars if p["id"] == pr["principal"])
-    if not any(c.get("municipio") == pr["municipio"] for c in p["comunidades"]):
-        out("  área sem igreja da paróquia:", pr["nome"])
-
-out("\n== 9. Paróquias sem área no mapa")
-com_area = {x for r in regioes for x in r["properties"]["paroquias"]}
-for f, p in pars:
-    if p["id"] not in com_area:
-        out("  ", p["id"], p["municipio"])
-
-out("\n== 10. Resumo das posições")
+out("\n== 8. Resumo das posições")
 out("  ", Counter(c.get("posicao", "bairro (Ilha)") for _, p in pars for c in p["comunidades"]))
 
 txt = "\n".join(saida)

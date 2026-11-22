@@ -6,7 +6,7 @@ const {chromium}=require('playwright');
  await p.goto('http://localhost:8766/_preview.html');await p.waitForTimeout(1000);
  const r=await p.evaluate(()=>{
   const T=window.__t, prob=[]; const km=(a,b)=>Math.hypot((a[0]-b[0])*111.2,(a[1]-b[1])*98.6);
-  let n={par:0,igr:0,reg:0};
+  let n={par:0,igr:0};
   // 1) cada paróquia
   for (const p of Object.values(T.paroquia)){
     n.par++;
@@ -19,8 +19,6 @@ const {chromium}=require('playwright');
     if (!mz?.pos) prob.push('matriz sem posição: '+p.id);
     if (diag>45) prob.push('paróquia espalhada demais ('+diag.toFixed(0)+' km): '+p.id);
     for (const c of p.comunidades){ if(!c.pos) prob.push('igreja sem posição: '+p.id+' / '+c.nome); else if (mz?.pos && km(c.pos,mz.pos)>30) prob.push('igreja a '+km(c.pos,mz.pos).toFixed(0)+' km da matriz: '+p.id+' / '+c.nome); }
-    for (const f of p.regioes){ const rr=f.properties; if(!rr.paroquias.includes(p.id)) prob.push('região inconsistente '+rr.nome); 
-      const cb=T.camadaDe[rr.id].getBounds().getCenter(); if (mz?.pos && km([cb.lat,cb.lng],mz.pos)>35) prob.push('área longe da matriz: '+p.id+' -> '+rr.nome); }
   }
   // 2) cada igreja
   for (const c of Object.values(T.igreja)){
@@ -32,19 +30,9 @@ const {chromium}=require('playwright');
     if (!btn || JSON.parse(btn.dataset.sel).id!==c.paroquia.id) prob.push('botão Ver paróquia errado na igreja '+c.id);
     try{ T.abrirJanelaIgreja(c); const js=document.querySelectorAll('.janela'), j=js[js.length-1]; if(!j||!j.innerText.includes(c.paroquia.nome)) prob.push('janela da igreja sem paróquia '+c.id); T.map.closePopup(); document.querySelectorAll('.janela').forEach(e=>e.remove()); }catch(e){prob.push('erro janela igreja '+c.id+': '+e.message);}
   }
-  // 3) cada região
-  for (const f of T.regioes){
-    n.reg++; const rr=f.properties;
-    try{ T.abrirJanelaRegiao(rr, T.camadaDe[rr.id].getBounds().getCenter()); }catch(e){prob.push('erro janela região '+rr.nome+': '+e.message);continue;}
-    const jj=document.querySelectorAll('.janela'); const ids=[...jj[jj.length-1].querySelectorAll('[data-sel]')].map(e=>JSON.parse(e.dataset.sel)).filter(s=>s.tipo==='paroquia').map(s=>s.id);
-    if (!ids.length || ids.some(id=>!rr.paroquias.includes(id))) prob.push('janela da região com paróquia errada: '+rr.nome);
-    for (const id of ids){ const P=T.paroquia[id]; const mz=P.comunidades.find(c=>c.matriz); const cb=T.camadaDe[rr.id].getBounds().getCenter();
-      if (mz?.pos && km([cb.lat,cb.lng],mz.pos)>35) prob.push('Ver paróquia da região '+rr.nome+' leva a '+P.nome+' ('+km([cb.lat,cb.lng],mz.pos).toFixed(0)+' km)'); }
-    T.map.closePopup(); document.querySelectorAll('.janela').forEach(e=>e.remove());
-    try{ T.selecionar({tipo:'regiao',id:rr.id},false); }catch(e){prob.push('erro região '+rr.nome+': '+e.message);}
-  }
-  // 4) foranias
+  // 3) foranias e modo forania
   for (const f of Object.values(T.forania)){ try{T.selecionar({tipo:'forania',id:f.id},false);}catch(e){prob.push('erro forania '+f.id);} }
+  try{ document.getElementById('modo-forania').click(); document.getElementById('modo-paroquia').click(); }catch(e){prob.push('erro modo forania: '+e.message);}
   T.selecionar(null,false);
   return {n,prob};
  });

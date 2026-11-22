@@ -279,9 +279,5 @@
   nossa-senhora-do-bom-sucesso   São Sebastião                       Limeira               15.2 km (cnefe)
   sao-jose                       Santa Teresinha                     Vargem Grande         15.6 km (osm)
 
-== 8. Áreas: cada área tem ao menos uma igreja da paróquia dentro do município
-
-== 9. Paróquias sem área no mapa
-
-== 10. Resumo das posições
+== 8. Resumo das posições
    Counter({'osm': 287, 'localidade': 114, 'aprox': 110, 'cnefe': 85, 'bairro': 27, 'rua': 19, 'endereco': 13})

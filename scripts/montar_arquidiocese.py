@@ -25,8 +25,8 @@ from pathlib import Path
 import geopandas as gpd
 import sys as _s; _s.path.insert(0, __import__("os").path.dirname(__file__))
 from bairros_util import ler_bairros  # noqa: E402
-from shapely.geometry import MultiPoint, Point, mapping, shape
-from shapely.ops import unary_union, voronoi_diagram
+from shapely.geometry import Point, mapping, shape
+from shapely.ops import unary_union
 
 RAIZ = Path(__file__).resolve().parents[1]
 D = RAIZ / "dados" / "arquidiocese"
@@ -641,58 +641,17 @@ def main(arq_bairros, arq_municipios):
             a = 2 * math.pi * k / max(n, 1)
             c["lat"], c["lng"] = round(la + r * math.cos(a), 6), round(lo + r * math.sin(a) / 0.887, 6)
 
-    # ---------- Regiões ----------
-    # Sem divisão por bairro: em todos os municípios a área de cada paróquia é estimada pelas igrejas (Voronoi).
-    feats = []
-    forania_de = {p["id"]: f["id"] for f in fs.values() for p in f["paroquias"]}
-    g = ler_bairros(arq_bairros)
-    recorte = dict(mun_geom)  # Florianópolis: só a terra (bairros do IBGE unidos), sem o mar do limite do OSM
-    recorte["Florianópolis"] = gpd.GeoSeries([g.geometry.union_all().buffer(5).buffer(-5)], crs=g.crs).to_crs(4326).iloc[0]
-    for _, c in todas_igrejas:
-        c.pop("bairro", None); c.pop("regiao", None)
-
-    # Voronoi das igrejas recortado pelo município (igrejas aproximadas só contam se a paróquia não tiver outra ali)
-    por_mun, aprox_mun = defaultdict(list), defaultdict(list)
+    # ---------- Município de cada igreja ----------
+    # O mapa não traça áreas de paróquia (a Arquidiocese não publica limites): mostra só as igrejas.
+    por_mun = defaultdict(list)
     for par, c in todas_igrejas:
+        c.pop("bairro", None); c.pop("regiao", None)
         if "lat" not in c:
             continue
         m = "Florianópolis" if par.get("ilha") else municipio_do_ponto(c["lat"], c["lng"])
         if m:
             c["municipio"] = m
-        if m:
-            (aprox_mun if c["posicao"] in ("aprox", "bairro") else por_mun)[m].append((par, c))
-    for m, itens in aprox_mun.items():
-        tem = {par["id"] for par, _ in por_mun[m]}
-        por_mun[m] += [(par, c) for par, c in itens if par["id"] not in tem]
-    for m, itens in por_mun.items():
-        area = recorte[m]
-        pts = {}
-        for par, c in itens:
-            pts.setdefault((round(c["lng"], 5), round(c["lat"], 5)), (par, c))
-        if len(pts) == 1:
-            celulas = [(area, list(pts.values())[0][0])]
-        else:
-            vd = voronoi_diagram(MultiPoint([Point(*k) for k in pts]), envelope=area.envelope.buffer(0.2))
-            celulas = []
-            for cel in vd.geoms:
-                for k, (par, c) in pts.items():
-                    if cel.contains(Point(*k)):
-                        celulas.append((cel.intersection(area), par))
-                        break
-        por_par = defaultdict(list)
-        for geom, par in celulas:
-            por_par[par["id"]].append(geom)
-        for pid, gs in por_par.items():
-            u = unary_union(gs).simplify(0.0003, preserve_topology=True)
-            if u.is_empty:
-                continue
-            rp = u.representative_point()
-            nome_par = next(p["nome"] for f in fs.values() for p in f["paroquias"] if p["id"] == pid)
-            feats.append({"type": "Feature", "properties": {
-                "nome": f"{m} · {re.sub(r'^Paróquia ', '', nome_par)}", "municipio": m, "tipo": "area",
-                "principal": pid, "paroquias": [pid], "situacao": "area", "forania": forania_de[pid],
-                "ponto": [round(rp.y, 5), round(rp.x, 5)]}, "geometry": arred(u, 4)})
-    print("regiões:", Counter(f["properties"]["tipo"] for f in feats))
+            por_mun[m].append((par, c))
 
     # ---------- Fundo ----------
     fundo = []
@@ -704,6 +663,13 @@ def main(arq_bairros, arq_municipios):
         geom = shape(f["geometry"])
         if geom.intersects(caixa) and f["properties"]["name"] not in nossos:
             fundo.append({"type": "Feature", "properties": {"nome": f["properties"]["name"], "fora": True}, "geometry": arred(geom.simplify(0.002), 3)})
+    # Terra dos municípios da Arquidiocese (fundo neutro; em Florianópolis, só a terra, pelos bairros do IBGE unidos)
+    g = ler_bairros(arq_bairros)
+    terra_fln = gpd.GeoSeries([g.geometry.union_all().buffer(5).buffer(-5).simplify(12)], crs=g.crs).to_crs(4326).iloc[0]
+    for m in sorted(nossos):
+        if m in mun_geom:
+            geom = terra_fln if m == "Florianópolis" else mun_geom[m].simplify(0.0004)
+            fundo.append({"type": "Feature", "properties": {"nome": m}, "geometry": arred(geom, 4)})
     limites = [{"type": "Feature", "properties": {"nome": m, "ponto": [round(mun_geom[m].representative_point().y, 4), round(mun_geom[m].representative_point().x, 4)]},
                 "geometry": arred(mun_geom[m].boundary.simplify(0.0004), 4)} for m in sorted(nossos) if m in mun_geom]
 
@@ -711,7 +677,7 @@ def main(arq_bairros, arq_municipios):
     print("posição das igrejas:", contagem, "total", len(todas_igrejas))
     hier = {"arquidiocese": "Arquidiocese de Florianópolis", "lido_em": "2026-11-21",
             "foranias": [fs[fid] for fid, _, _ in ORDEM_FORANIAS]}
-    dados = {"hierarquia": hier, "regioes": {"type": "FeatureCollection", "features": feats},
+    dados = {"hierarquia": hier,
              "fundo": {"type": "FeatureCollection", "features": fundo},
              "municipios": {"type": "FeatureCollection", "features": limites}}
     (RAIZ / "mapa" / "dados.json").write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
