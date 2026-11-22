@@ -1,0 +1,4286 @@
+[
+ {
+  "slug": "capelania-militar-cristo-rei-policia-militar",
+  "nome": "Capelania Militar Cristo Rei - Polícia Militar",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Av. Madre Benvenutta, 265 Trindade / 88036-500 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Militar Cristo Rei - Polícia Militar - Arquidiocese de Florianópolis",
+   "Capelania Militar Cristo Rei - Polícia Militar",
+   "(Criada em 2009)",
+   "Capelão: Pe. Marcos Antônio Mota Moraes"
+  ]
+ },
+ {
+  "slug": "capelania-militar-nossa-senhora-dos-navegantes-marinha",
+  "nome": "Capelania Militar Nossa Senhora dos Navegantes - Marinha",
+  "forania": "Av. Marinheiro Max Schramm, 3028 – Estreito88095-000 Florianópolis – SC",
+  "endereco": "Rua Max Schramm, 3028 – Estreito – 88095-000 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Militar Nossa Senhora dos Navegantes - Marinha - Arquidiocese de Florianópolis",
+   "Capelania Militar Nossa Senhora dos Navegantes - Marinha",
+   "(Criada em 1857)",
+   "Capelão: Pe. João Roberto Barbosa da Silva"
+  ],
+  "municipio": "Florianópolis",
+  "forania_corrigida": "Florianópolis - Continente"
+ },
+ {
+  "slug": "capelania-militar-santa-catarina-exercito",
+  "nome": "Capelania Militar Santa Catarina - Exército",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Bocaiúva, 1858 Centro / 88015-530 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Militar Santa Catarina - Exército - Arquidiocese de Florianópolis",
+   "Capelania Militar Santa Catarina - Exército",
+   "(Criada a 20 de agosto de 1974)",
+   "Capelão: Pe. José da Cruz Gomes de Araújo"
+  ]
+ },
+ {
+  "slug": "capelania-spiritus-veritatis",
+  "nome": "Capelania Spiritus Veritatis",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Uruguai, 458 Centro – Capela anexa ao Teatro – Sala 10788302-202 Itajaí (SC)",
+  "comunidades": [],
+  "sobre": [
+   "Capelania Spiritus Veritatis - Arquidiocese de Florianópolis",
+   "Capelania Spiritus Veritatis",
+   "(Criada a 30 de outubro de 2003)",
+   "Capelão: Pe. André Gonzaga"
+  ]
+ },
+ {
+  "slug": "paroquia-antonio-carlos",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Biguaçu",
+  "endereco": "Praça Anchieta, 10 Centro – 88180-000 – Antônio Carlos/SC",
+  "comunidades": [
+   {
+    "nome": "Santa Paulina",
+    "local": "Canudos",
+    "ano": "2010"
+   },
+   {
+    "nome": "Santa Bárbara",
+    "local": "Faria II",
+    "ano": "1991"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Vila Doze",
+    "ano": "1966"
+   },
+   {
+    "nome": "São José",
+    "local": "Egito",
+    "ano": "1962"
+   },
+   {
+    "nome": "Santa Maria",
+    "local": "Santa Maria",
+    "ano": "1898"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Rachadel",
+    "ano": "1846"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Louro",
+    "ano": "1838"
+   },
+   {
+    "nome": "Matriz: Sagrado Coração de Jesus",
+    "local": "Centro",
+    "ano": "1958"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de março de 1958)",
+   "Pároco: Pe. Marcelo Henrique Fraga"
+  ]
+ },
+ {
+  "slug": "paroquia-de-sao-jose",
+  "nome": "Paróquia São José",
+  "forania": "Forania de São josé",
+  "endereco": "Praça Hercílio Luz, 201 – Centro Histórico – 88103-052 – São José/SC",
+  "comunidades": [
+   {
+    "nome": "Ir. de Nosso Senhor Bom Jesus dos Passos",
+    "local": "Centro",
+    "ano": "1858"
+   },
+   {
+    "nome": "Senhor do Bom Fim",
+    "local": "Centro Histórico",
+    "ano": "1851"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Santo Antônio",
+    "ano": "1966"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Ponta de Baixo",
+    "ano": "1962"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima e Sta. Filomena",
+    "local": "Praia Comprida",
+    "ano": "1879"
+   },
+   {
+    "nome": "Matriz: São José",
+    "local": "Centro Histórico",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 26 de outubro de 1750)",
+   "Pároco: Pe. Roberto Silva"
+  ]
+ },
+ {
+  "slug": "paroquia-divino-espirito-santo",
+  "nome": "Paróquia Divino Espírito Santo",
+  "forania": "Forania Camboriú",
+  "endereco": "Rua Getúlio Vargas, 78 Centro – 88340-347 Camboriú – SC",
+  "comunidades": [
+   {
+    "nome": "São Bento",
+    "local": "Certa / Vila da Pedra",
+    "ano": "2023"
+   },
+   {
+    "nome": "Santa Isabel de Portugal",
+    "local": "Lot. Terras Altas",
+    "ano": "2021"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Rio Pequeno",
+    "ano": "2016"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "João da Costa",
+    "ano": "2015"
+   },
+   {
+    "nome": "Santo Expedito",
+    "local": "Japão",
+    "ano": "2013"
+   },
+   {
+    "nome": "Cristo Ressuscitado",
+    "local": "Jardim Paraíso",
+    "ano": "2013"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Asilo",
+    "ano": "1994"
+   },
+   {
+    "nome": "Nossa Senhora da Glória",
+    "local": "Cedro",
+    "ano": "1989"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Rio Pequeno",
+    "ano": "1958"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Caetés",
+    "ano": "1950"
+   },
+   {
+    "nome": "Matriz: Divino Espírito Santo",
+    "local": "Centro",
+    "ano": "1849"
+   }
+  ],
+  "sobre": [
+   "(Criada a 16 de abril de 1849)",
+   "Pároco: Pe. André Schmitz"
+  ]
+ },
+ {
+  "slug": "paroquia-militar-nossa-senhora-de-loreto-aeronautica",
+  "nome": "Paróquia Militar Nossa Senhora de Loreto - Aeronáutica",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Base Aérea de Florianópolis / Paróquia Nossa Senhora de LoretoAv. Santos Dumont, s/n Tapera88049-000 Florianópolis – SC",
+  "comunidades": [],
+  "sobre": [
+   "(Criada a 4 de maio de 2009)",
+   "Capelão: Pe. Valmir Laudelino Silvano"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-aparecida-2",
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "forania": "Forania de São José - Barreiros",
+  "endereco": "Rua Colômbia, 450 Procasa88117-225 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Matriz: Nossa Senhora Aparecida",
+    "local": "Procasa",
+    "ano": "1998"
+   }
+  ],
+  "sobre": [
+   "(Criada a 27 de março de 1998)",
+   "Pároco: Pe. Mauri Costa de Jesus"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-aparecida",
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "forania": "Forania Camboriú",
+  "endereco": "Rua Dom Carlos, 79 – Vila Real – 88337-025 – Balneário Camboriú/SC",
+  "comunidades": [
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Morro do Boi",
+    "ano": "2010"
+   },
+   {
+    "nome": "Nossa Senhora da Esperança",
+    "local": "Nova Esperança",
+    "ano": "1991"
+   },
+   {
+    "nome": "Santa Clara",
+    "local": "Bairro Municípios",
+    "ano": "1990"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Estaleiro Grande",
+    "ano": "1988"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "São Judas Tadeu",
+    "ano": "1985"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Taquaras",
+    "ano": "1980"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "(Barranco) São Francisco de Assis",
+    "ano": "1978"
+   },
+   {
+    "nome": "Santo Amaro",
+    "local": "Barra",
+    "ano": "1840"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora Aparecida",
+    "local": "Vila Real",
+    "ano": "2002"
+   }
+  ],
+  "sobre": [
+   "(Criada a 20 de outubro de 2002)",
+   "Pároco: Pe. José Henrique Gazaniga"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-boa-viagem",
+  "nome": "Paróquia Nossa Senhora da Boa Viagem",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua João Mota Espezim, 1023 – Saco dos Limões – 88045-400 – Florianópolis/SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro do Limoeiro",
+    "ano": "1996"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Ressacada",
+    "ano": "1995"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Cachoeira do Rio Tavares",
+    "ano": "1995"
+   },
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Caeira",
+    "ano": "1990"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Costeira do Pirajubaé",
+    "ano": "1982"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Carianos",
+    "ano": "1930"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Costeira do Pirajubaé",
+    "ano": "1915"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora da Boa Viagem",
+    "local": "Saco dos Limões",
+    "ano": "1966"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de junho de 1966)",
+   "Pároco: Pe. Frei Alexandre Ferreira de Moraes, O. Carm."
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-gloria",
+  "nome": "Paróquia Nossa Senhora da Glória",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Sérgio Gil, 792 – Balneário88075-340 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Matriz: Nossa Senhora da Glória",
+    "local": "Balneário",
+    "ano": "1982"
+   }
+  ],
+  "sobre": [
+   "(Criada a 7 de fevereiro de 1982)",
+   "Pároco: Pe. Willian Vogel"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-imaculada-conceicao-2",
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "forania": "Forania Itapema",
+  "endereco": "Rua Flamingo, 150 Bombas – 88215-000 – Bombinhas – SC",
+  "comunidades": [
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Sertãozinho",
+    "ano": "2016"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "José Amândio",
+    "ano": "2004"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morrinhos",
+    "ano": "1982"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Canto Grande",
+    "ano": "1952"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Bombinhas",
+    "ano": "1968"
+   },
+   {
+    "nome": "São José",
+    "local": "Zimbros",
+    "ano": "1953"
+   },
+   {
+    "nome": "Matriz: N. Sra. da Imaculada Conceição",
+    "local": "Bombas",
+    "ano": "1928"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de junho de 2010)",
+   "Pároco: Pe. Adão Carlos Machado Marcelino"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-imaculada-conceicao-da-lagoa",
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição da Lagoa",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Francisca Luiza Vieira, 277 Lagoa da Conceição88062-140 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Cruz",
+    "local": "Porto da Lagoa",
+    "ano": "1992"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Canto da Lagoa",
+    "ano": "1988"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Retiro da Lagoa",
+    "ano": "1979"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Costa da Lagoa",
+    "ano": "1970"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Rio Tavares",
+    "ano": "1954"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Fortaleza da Lagoa",
+    "ano": "1949"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Barra da Lagoa",
+    "ano": "1947"
+   },
+   {
+    "nome": "Matriz: N. Sra. da Imaculada C. da Lagoa",
+    "local": "Lagoa",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 20 de junho de 1750. Reativada a 15 de novembro de 1998)",
+   "Pároco: Pe. Celso Antunes Duarte"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-imaculada-conceicao",
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição (Angelina)",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Praça Nicolau Kretzer, 254 – 88460-000 – Angelina SC",
+  "comunidades": [
+   {
+    "nome": "São Marcos",
+    "local": "Alto Garcia",
+    "ano": "1987"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Rio São João",
+    "ano": "1980"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Rio Engano",
+    "ano": "1977"
+   },
+   {
+    "nome": "Nossa Senhora dos Anjos",
+    "local": "Mato Francês",
+    "ano": "1977"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Morro Mineiro",
+    "ano": "1972"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Invernadinha",
+    "ano": "1962"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Rio Bonito",
+    "ano": "1946"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Rio Fortuna",
+    "ano": "1945"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Rio Novo",
+    "ano": "1929"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Betânia",
+    "ano": "1929"
+   },
+   {
+    "nome": "São José Barra",
+    "local": "Clara",
+    "ano": "1927"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Fartura",
+    "ano": "1925"
+   },
+   {
+    "nome": "Nossa Senhora das Dores",
+    "local": "Garcia",
+    "ano": "1920"
+   },
+   {
+    "nome": "Imaculado Coração de Maria",
+    "local": "Rancho Queimado",
+    "ano": "1920"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Rancho de Tábuas",
+    "ano": "1910"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "III Linha",
+    "ano": "1868"
+   },
+   {
+    "nome": "São Bonifácio",
+    "local": "Taquaras",
+    "ano": "1868"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora da I. Conceição",
+    "local": "Centro",
+    "ano": "1921"
+   }
+  ],
+  "sobre": [
+   "Pároco: Pe. Francisco Rohling",
+   "Capela do Convento das Irmãs Franciscanas de São José"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-da-lapa",
+  "nome": "Paróquia Nossa Senhora da Lapa",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Praça Hermínio Silva, 62 – Freguesia do RibeirãoAo lado da igreja Matriz N. Sra. da Lapa – 88064-670 – Florianópolis (SC)",
+  "comunidades": [
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Pedregal",
+    "ano": ""
+   },
+   {
+    "nome": "São João Maria Vianney",
+    "local": "Fazenda do Rio Tavares",
+    "ano": "2000"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Caieira da Barra do Sul",
+    "ano": "1992"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Sertão",
+    "ano": "1992"
+   },
+   {
+    "nome": "Bom Jesus dos Pescadores",
+    "local": "Tapera da Barra do Sul",
+    "ano": "1982"
+   },
+   {
+    "nome": "Santa Luzia e São Pedro",
+    "local": "Naufragados",
+    "ano": "1954"
+   },
+   {
+    "nome": "São José",
+    "local": "Costeira do Ribeirão",
+    "ano": "1953"
+   },
+   {
+    "nome": "Santo Estevão",
+    "local": "Alto Ribeirão",
+    "ano": "1926"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima e São Lucas",
+    "local": "Tapera da Base",
+    "ano": "1926"
+   },
+   {
+    "nome": "Nossa Senhora da Lapa",
+    "local": "Barro Vermelho",
+    "ano": "1776"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora da Lapa",
+    "local": "Ribeirão da Ilha",
+    "ano": "1809"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de janeiro de 1809)",
+   "Pároco:  Pe. Vânio da Silva"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-das-necessidades",
+  "nome": "Paróquia Nossa Senhora das Necessidades",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Estrada Caminho dos Açores, 2450 – Santo Antônio de Lisboa; 88050-300 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Luzia",
+    "local": "Recanto dos Açores",
+    "ano": "2010"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "Sambaqui",
+    "ano": "2007"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Barra do Sambaqui",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Cacupé",
+    "ano": "1911"
+   },
+   {
+    "nome": "Nossa Senhora das Necessidades",
+    "local": "Santo Antônio de Lisboa",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 27 de abril de 1750)",
+   "Pároco: Pe. Edinei da Rosa Cândido"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-azambuja",
+  "nome": "Paróquia Nossa Senhora de Azambuja",
+  "forania": "Forania Brusque",
+  "endereco": "R. Azambuja, 1076 – Azambuja 88353-700 – Brusque – SC",
+  "comunidades": [
+   {
+    "nome": "Ressurreição",
+    "local": "Parque da Saudade",
+    "ano": "1972"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Rua Luiz Vanolli",
+    "ano": "2009"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Cedrinho",
+    "ano": "1920"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora de Azambuja",
+    "local": "Azambuja",
+    "ano": "2009"
+   }
+  ],
+  "sobre": [
+   "Pároco e reitor: Pe. José Gabriel Oliveira Guarnieri"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-fatima-e-santa-teresinha-do-menino-jesus",
+  "nome": "Paróquia Nossa Senhora de Fátima e Santa Teresinha do Menino Jesus",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Souza Dutra, 442, Estreito; 88070-600 – Florianópolis (SC)",
+  "comunidades": [
+   {
+    "nome": "Senhor Bom Jesus dos Aflitos",
+    "local": "Estreito",
+    "ano": "1902"
+   },
+   {
+    "nome": "Matriz: N. Sra. de Fátima e Sta. T. M. Jesus",
+    "local": "Estreito",
+    "ano": "1944"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de novembro de 1944)",
+   "Pároco: Pe. Mário José Raimondi"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-fatima-itajai",
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "forania": "Forania Itajaí",
+  "endereco": "R. Agílio Cunha, 445 - Cidade Nova, Itajaí - SC, 88308-150",
+  "comunidades": [],
+  "sobre": [
+   "(Criada a 4 de fevereiro de 2024)",
+   "Pároco: Pe. Nelvi Carlos Ceolin"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-guadalupe",
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Av. Madre Maria Villac, 1700 – Canasvieiras  – 88054-001 – Florianópolis/SC",
+  "comunidades": [
+   {
+    "nome": "São Paulo Apóstolo",
+    "local": "Vargem Grande II (Tican)",
+    "ano": "2002"
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Lamin",
+    "ano": "2000"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Jurerê Internacional",
+    "ano": "1998"
+   },
+   {
+    "nome": "Sagrada Face",
+    "local": "Daniela",
+    "ano": "1988"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Jurerê",
+    "ano": "1987"
+   },
+   {
+    "nome": "São Brás",
+    "local": "Vargem Pequena",
+    "ano": "1962"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Vargem Grande I",
+    "ano": "1958"
+   },
+   {
+    "nome": "Nossa Senhora dos Remédios",
+    "local": "Ratones",
+    "ano": "1924"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Ponta das Canas",
+    "ano": "1915"
+   },
+   {
+    "nome": "São Francisco de Paula",
+    "local": "Canasvieiras",
+    "ano": "1833"
+   },
+   {
+    "nome": "São José",
+    "local": "Forte",
+    "ano": "1740"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora de Guadalupe",
+    "local": "Canasvieiras",
+    "ano": "2004"
+   }
+  ],
+  "sobre": [
+   "(Criada a 7 de março de 2004)",
+   "Pároco: Pe. Eduardo Cardozo de Senna"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga",
+  "nome": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Schrader, 01 – Agronômica88025-090 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora das Vitória",
+    "local": "Morro Santa Vitória",
+    "ano": "2005"
+   },
+   {
+    "nome": "São José e Nossa Senhora de Nazaré",
+    "local": "Morro do Vinte e Cinco",
+    "ano": "2000"
+   },
+   {
+    "nome": "Santa Cruz e Nossa Senhora Aparecida",
+    "local": "Morro do Horácio",
+    "ano": "1999"
+   },
+   {
+    "nome": "Nossa Senhora da Conceição",
+    "local": "Rua Vitor Konder",
+    "ano": "1978"
+   },
+   {
+    "nome": "Transfiguração Senhor Bom Jesus",
+    "local": "Morro do Céu",
+    "ano": "1959"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "B. Penitenciária",
+    "ano": "1954"
+   },
+   {
+    "nome": "Matriz: N. Senhora de Lourdes e São Luiz",
+    "local": "Agronômica",
+    "ano": "1950"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de novembro de 1950)",
+   "Pároco: Pe. Júlio Cesar da Rosa"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-de-lourdes",
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Amaro Jaques, 85 – Fazenda88302-510 Itajaí – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Luzia",
+    "local": "Praia Brava",
+    "ano": "1985"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Cabeçudas",
+    "ano": "1930"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora de Lourdes",
+    "local": "Fazenda",
+    "ano": "1964"
+   }
+  ],
+  "sobre": [
+   "(Criada a 11 de fevereiro de 1968)",
+   "Pároco: Pe. Ricardo José Inácio"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-bom-sucesso",
+  "nome": "Paróquia Nossa Senhora do Bom Sucesso",
+  "forania": "Segunda-feira: 13h30 - 18h | Terça a Sexta-feira: 09h - 12h e 13h30 - 18h | Sábado: 9h - 12h",
+  "endereco": "Camboriú – SC (endereço não informado no site)",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Gudalupe",
+    "local": "Areias",
+    "ano": ""
+   },
+   {
+    "nome": "São José de Anchieta",
+    "local": "Areias",
+    "ano": "2022"
+   },
+   {
+    "nome": "Santa Dulce dos Pobres",
+    "local": "Jardim Europa",
+    "ano": "2020"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Hospital",
+    "ano": "2001"
+   },
+   {
+    "nome": "Nossa Senhora Rainha",
+    "local": "Santa Regina",
+    "ano": "2002"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Vila da Pedra",
+    "ano": "1971"
+   },
+   {
+    "nome": "Nossa Senhora do Bom Sucesso",
+    "local": "Areias",
+    "ano": "1987"
+   },
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Braço",
+    "ano": "1958"
+   },
+   {
+    "nome": "São Brás",
+    "local": "São Brás",
+    "ano": "1956"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Rio do Meio",
+    "ano": "1956"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Limeira",
+    "ano": "1918"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Santa Luzia",
+    "ano": "1912"
+   },
+   {
+    "nome": "Imaculada Conceição",
+    "local": "Vila Conceição",
+    "ano": "1905"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de janeiro de 2025)",
+   "Pároco: Pe. Guilherme Acácio do Nascimento"
+  ],
+  "municipio": "Camboriú",
+  "forania_corrigida": "Camboriú"
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-carmo",
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Professor Bayer Filho, 81 Coqueiros – 88080-300 – Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Vila Aparecida",
+    "ano": "1983"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "Morro da Caixa",
+    "ano": "1972"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora do Carmo",
+    "local": "Coqueiros",
+    "ano": "1972"
+   }
+  ],
+  "sobre": [
+   "(Criada a 5 de julho de 1972)",
+   "Pároco: Pe. Valdemar Groh"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-desterro-e-santa-catarina",
+  "nome": "Paróquia  Nossa Senhora do Desterro e Santa Catarina",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Miguelinho, 55 Centro/exp.88010-550 – Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Igreja Santíssima Trindade",
+    "local": "Provincialado D.P.",
+    "ano": ""
+   },
+   {
+    "nome": "Capela Nossa Senhora das Graças",
+    "local": "H.G.C.R.",
+    "ano": ""
+   },
+   {
+    "nome": "Igreja Nossa Senhora Aparecida",
+    "local": "Alto da Caieira",
+    "ano": "2002"
+   },
+   {
+    "nome": "Igreja Menino Jesus de Praga",
+    "local": "C.E.M. Jesus",
+    "ano": "1999"
+   },
+   {
+    "nome": "Capela São José",
+    "local": "Asilo Irmão Joaquim",
+    "ano": "1950"
+   },
+   {
+    "nome": "Igreja Nossa Senhora do Monte Serrat",
+    "local": "Gal.Vieira da Rosa, 610",
+    "ano": "1927"
+   },
+   {
+    "nome": "Igreja Divino Espírito Santo",
+    "local": "Praça Getúlio Vargas",
+    "ano": "1910"
+   },
+   {
+    "nome": "Igreja Sagrado Coração de Jesus",
+    "local": "Col. Bom Jesus/C. de Jesus",
+    "ano": "1908"
+   },
+   {
+    "nome": "Igreja São Sebastião",
+    "local": "Largo São Sebastião",
+    "ano": "1876"
+   },
+   {
+    "nome": "Igreja São Francisco de Assis (Ordem Terceira)",
+    "local": "Rua Deodoro, 135",
+    "ano": "1803"
+   },
+   {
+    "nome": "Igreja do Senhor Jesus dos Passos (Irmand.)",
+    "local": "Hospital de Caridade",
+    "ano": "1765"
+   },
+   {
+    "nome": "Igreja Nossa Senhora do Rosário  e de São Benedito (Irmandade)",
+    "local": "R. Mal. Guilherme",
+    "ano": "1756"
+   },
+   {
+    "nome": "Matriz: N. Senhora do Desterro e S. Catarina",
+    "local": "Centro",
+    "ano": "1712"
+   }
+  ],
+  "sobre": [
+   "Capela Nossa Senhora das Graças",
+   "Capela São José",
+   "(Criada a 5 de março de 1712)",
+   "Pároco: Pe. David Antônio Coelho"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-perpetuo-socorro",
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Brusque, 9 – Centro – Caixa Postal 65 – 88360-000 – Guabiruba/SC",
+  "comunidades": [
+   {
+    "nome": "São Cristóvão",
+    "local": "Aymoré",
+    "ano": "1979"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Guabiruba do Sul",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Pedro Apóstolo",
+    "local": "São Pedro",
+    "ano": "1952"
+   },
+   {
+    "nome": "São Vendelino",
+    "local": "Lajeado Baixo",
+    "ano": "1944"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Planície Alta",
+    "ano": "1906"
+   },
+   {
+    "nome": "Imaculada Conceição",
+    "local": "Lajeado Alto",
+    "ano": "1876"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora do Perpétuo Socorro",
+    "local": "Centro",
+    "ano": "1961"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de março de 1963)",
+   "Pároco: Pe. Marilton Nuss, SCJ"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-rosario-2",
+  "nome": "Paróquia Nossa Senhora do Rosário - São José",
+  "forania": "Forania de São José - Barreiros",
+  "endereco": "Rua Iano, 1745 – Nossa Senhora do Rosário; 88117-850 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "São Luiz / Morro do Avaí",
+    "ano": "1979"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Bela Vista I",
+    "ano": "1971"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Roçado",
+    "ano": "1956"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora do Rosário",
+    "local": "N. Senhora do Rosário",
+    "ano": "2005"
+   }
+  ],
+  "sobre": [
+   "(Criada a 30 de janeiro de 2005)",
+   "Pároco: Pe. Wagner da Silva"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-rosario",
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "forania": "Forania Palhoça",
+  "endereco": "Praça Inácio Paulo Dalri, s/n Enseada de Brito – 88138-842 Palhoça – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Pontal",
+    "ano": "2002"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Ponta dos Papagaios",
+    "ano": "2002"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Casa Branca",
+    "ano": "1996"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morretes II",
+    "ano": "1994"
+   },
+   {
+    "nome": "Santa Teresinha do Menino Jesus",
+    "local": "Guarda do Embaú",
+    "ano": "1989"
+   },
+   {
+    "nome": "Gruta Nossa Senhora de Lourdes",
+    "local": "Enseada de Brito",
+    "ano": "1988"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Três Barras",
+    "ano": "1986"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "Furadinho",
+    "ano": "1979"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Marivone",
+    "ano": "1976"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Morretes I",
+    "ano": "1965"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Fazenda Santa Cruz",
+    "ano": "1963"
+   },
+   {
+    "nome": "São José",
+    "local": "Albardão",
+    "ano": "1957"
+   },
+   {
+    "nome": "Gruta São Judas Tadeu",
+    "local": "Enseada de Brito",
+    "ano": "1949"
+   },
+   {
+    "nome": "Santo Antônio e Santa Cruz",
+    "local": "Praia de Fora",
+    "ano": "1928"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Sertão do Campo",
+    "ano": "1924"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Pinheira",
+    "ano": "1923"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Massiambú Pequeno",
+    "ano": "1910"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Passagem",
+    "ano": "1890"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora do Rosário",
+    "local": "Enseada de Brito",
+    "ano": "1750"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de maio de 1750. Reativada a 13 de maio de 2000)",
+   "Pároco: Pe. José Luiz de Sousa"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-do-sagrado-coracao",
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Eugênio Raulino da Silva, 95 – Campeche | 88063-255 | Florianópolis | SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida e São Cristóvão",
+    "local": "Morro das Pedras",
+    "ano": ""
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Areias do Morro das Pedras",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora de Fátima e Santa Cruz",
+    "local": "Costa de Dentro",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Cruz e Santo Antônio",
+    "local": "Praia do Saquinho",
+    "ano": ""
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Pântano do Sul",
+    "ano": ""
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Campeche",
+    "ano": ""
+   },
+   {
+    "nome": "Sant’Ana e São Joaquim",
+    "local": "Armação",
+    "ano": ""
+   },
+   {
+    "nome": "Matriz Nossa Senhora do Sagrado Coração",
+    "local": "Campeche",
+    "ano": ""
+   }
+  ],
+  "sobre": [
+   "(Criada em 27 de fevereiro de 2022)",
+   "Pároco: Pe. João Roberto Garbossa, MSC"
+  ]
+ },
+ {
+  "slug": "paroquia-nossa-senhora-dos-navegantes-serraria-sj",
+  "nome": "Paróquia Nossa Senhora dos Navegantes e São Pedro - Serraria",
+  "forania": "Rua Delfino José de Souza Filho, 201 Serraria88115-710 São José – SC",
+  "endereco": "Rua Delfino José de Souza Filho, 201 – Serraria – 88115-710 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Rainha da Paz",
+    "local": "Jardim Bom Viver",
+    "ano": "1998"
+   },
+   {
+    "nome": "Senhor Bom Jesus dos Passos",
+    "local": "José Nitro",
+    "ano": "1997"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Lot. Luar",
+    "ano": "1994"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Jardim Zanelato",
+    "ano": "1993"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Jardim Janaína",
+    "ano": "1983"
+   },
+   {
+    "nome": "Matriz: N. Sra. dos Navegantes e São Pedro",
+    "local": "Serraria",
+    "ano": "1958"
+   }
+  ],
+  "sobre": [
+   "(Criada a 18 de fevereiro de 2017)",
+   "Pároco: Pe. Pedro Paulo Alexandre"
+  ],
+  "municipio": "São José",
+  "forania_corrigida": "de São José - Barreiros"
+ },
+ {
+  "slug": "paroquia-nossa-senhora-dos-navegantes",
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "forania": "Forania Biguaçu",
+  "endereco": "Rua Pedro Leoterio Sagas. Governador Celso Ramos – SC | Secretaria: Praça Prefeito Miguel Pedro dos Santos, Nº 730, Sala 01, Ganchos do Meio. Cep 88.190-728",
+  "comunidades": [
+   {
+    "nome": "Oratório Divino Espírito Santo",
+    "local": "Ganchos do Meio",
+    "ano": "2002"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Caieira",
+    "ano": ""
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Fazenda da Armação",
+    "ano": ""
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Ganchos de Fora",
+    "ano": ""
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Costeira da Armação",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Areias de Baixo",
+    "ano": "1982"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Areias do Meio",
+    "ano": ""
+   },
+   {
+    "nome": "São Lucas",
+    "local": "Jordão",
+    "ano": "1971"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida e São Pedro",
+    "local": "Palmas das Gaivotas",
+    "ano": "1950"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Canto dos Ganchos",
+    "ano": "1941"
+   },
+   {
+    "nome": "Nossa Senhora da Piedade",
+    "local": "Armação da Piedade",
+    "ano": "1745"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora dos Navegantes",
+    "local": "Ganchos do Meio",
+    "ano": "1983"
+   }
+  ],
+  "sobre": [
+   "(Criada em 8 de maio de 1983)",
+   "Pároco: Pe. Leandro José de Souza"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrado-coracao-de-jesus-2",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Itapema",
+  "endereco": "Av. Nereu Ramos, 5030 Meia Praia (esquina com a rua 294); 88220-000 Itapema – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Meia Praia",
+    "ano": "2008"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Jardim Praiamar",
+    "ano": "1999"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "Morretes",
+    "ano": "1986"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Sertão do Trombudo",
+    "ano": "1924"
+   },
+   {
+    "nome": "Matriz: Sagrado Coração de Jesus",
+    "local": "Meia Praia",
+    "ano": "1964"
+   }
+  ],
+  "sobre": [
+   "(Criada a 16 de setembro de 2012)",
+   "Pároco: Pe. Leandro Francisco Schwinden"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrado-coracao-de-jesus-3",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Praça Silvéria Ferreira de Campos, 60, Centro88445-000 Leoberto Leal – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Rio do Tigre",
+    "ano": ""
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Rio do Mich",
+    "ano": ""
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Barra Grande",
+    "ano": "1962"
+   },
+   {
+    "nome": "São Rafael",
+    "local": "Rio das Pedras",
+    "ano": "1957"
+   },
+   {
+    "nome": "São Miguel",
+    "local": "Diamante",
+    "ano": "1948"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Vargem dos Bugres",
+    "ano": "1946"
+   },
+   {
+    "nome": "São José",
+    "local": "Rio da Parada",
+    "ano": "1945"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Ribeirão dos Ovos",
+    "ano": "1941"
+   },
+   {
+    "nome": "São Floriano",
+    "local": "Boiteuxburgo",
+    "ano": "1923"
+   },
+   {
+    "nome": "Matriz: Sagrado Coração de Jesus",
+    "local": "Centro",
+    "ano": "1928"
+   }
+  ],
+  "sobre": [
+   "(Criada a 5 de janeiro de 1928)",
+   "Pároco: Pe. Paulo Sérgio Chaves"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrado-coracao-de-jesus-4",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Palhoça",
+  "endereco": "Praça Sagrado Coração de Jesus, s/n Centro88490-000 Paulo Lopes – SC",
+  "comunidades": [
+   {
+    "nome": "Santo Antônio",
+    "local": "Areias",
+    "ano": "2006"
+   },
+   {
+    "nome": "Nossa Senhora da Estrada",
+    "local": "Penha",
+    "ano": "2001"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Cova Triste",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Freitas",
+    "ano": "1996"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Sorocaba",
+    "ano": "1993"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Gamboa",
+    "ano": "1982"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Barrinha",
+    "ano": "1973"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Bom Retiro",
+    "ano": "1972"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro Agudo",
+    "ano": "1968"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Espraiado",
+    "ano": "1947"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Ribeirão Grande",
+    "ano": "1947"
+   },
+   {
+    "nome": "Nossa Senhora da Penha",
+    "local": "Penha",
+    "ano": "1936"
+   },
+   {
+    "nome": "Matriz: Sagrado Coração de Jesus",
+    "local": "Centro",
+    "ano": "1967"
+   }
+  ],
+  "sobre": [
+   "(Criada a 10 de janeiro de 1967)",
+   "Pároco: Pe. Joselito Schmitt"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrado-coracao-de-jesus",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rua Intendente João Nunes Vieira, 1529 – Ingleses; 88058-100 Florianópolis – SC / Cx. Postal 21.686",
+  "comunidades": [
+   {
+    "nome": "Santo Antônio",
+    "local": "Caminho do Mar",
+    "ano": "2004"
+   },
+   {
+    "nome": "Santos Arcanjos",
+    "local": "Capivari de Cima",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Travessão",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Muquém",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Sítio do Capivarí",
+    "ano": "1954"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Cachoeira do B. Jesus",
+    "ano": "1950"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Vargem do Bom Jesus",
+    "ano": "1885"
+   },
+   {
+    "nome": "Matriz: Nossa Senhora dos Navegantes",
+    "local": "Santinho",
+    "ano": "1839"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Rio Vermelho",
+    "ano": "1750"
+   },
+   {
+    "nome": "Santuário Sagrado Coração de Jesus",
+    "local": "Ingleses",
+    "ano": "1998"
+   }
+  ],
+  "sobre": [
+   "(Criada em 6 de julho de 1998)",
+   "Pároco: Pe. José Silvano Torquato"
+  ]
+ },
+ {
+  "slug": "paroquia-sagrados-coracoes",
+  "nome": "Paróquia Sagrados Corações",
+  "forania": "Forania Biguaçu",
+  "endereco": "Rua Pedro Bunn, 87 – Barreiros88111-120 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Santo Antônio",
+    "local": "Major Durval",
+    "ano": "2015"
+   },
+   {
+    "nome": "Santa Maria dos Anjos",
+    "local": "Pedregal",
+    "ano": "1986"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Jardim Sol e Mar",
+    "ano": "1985"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Bairro Ipiranga",
+    "ano": "1985"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Potecas",
+    "ano": "1960"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Barreiros",
+    "ano": "1912"
+   },
+   {
+    "nome": "Matriz: Sagrados Corações",
+    "local": "Barreiros",
+    "ano": "1960"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de novembro de 1960)",
+   "Pároco:  Pe. Sedemir Melo"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-catarina",
+  "nome": "Paróquia Santa Catarina",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Ludovico Merico, 52 – Dom Joaquim – 88359-240 – Brusque – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Cristalina",
+    "ano": "2013"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Rio Branco",
+    "ano": "2003"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Cedro Alto",
+    "ano": "2003"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Taquaruçu",
+    "ano": "1986"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Cedro Grande",
+    "ano": "1880"
+   },
+   {
+    "nome": "Nossa Senhora do Carmo",
+    "local": "Tomaz Coelho",
+    "ano": "1880"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Ribeirão do Mafra",
+    "ano": "1896"
+   },
+   {
+    "nome": "Matriz: Santa Catarina",
+    "local": "Dom Joaquim",
+    "ano": "1944"
+   }
+  ],
+  "sobre": [
+   "(Criada em 15 de fevereiro de 1969)",
+   "Pároco: Pe. Valdir B. Prim"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-cruz",
+  "nome": "Paróquia Santa Cruz",
+  "forania": "Forania de São José - Barreiros",
+  "endereco": "Rua Independência, 972 Areias - 88113-280 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Bom Pastor",
+    "local": "Arruda",
+    "ano": "2011"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "Alvorada",
+    "ano": "2010"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "Real Parque",
+    "ano": "1986"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Sueli",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Miguel e Santa Rita",
+    "local": "Dona Adélia",
+    "ano": "1975"
+   },
+   {
+    "nome": "Matriz: Santa Cruz",
+    "local": "Areias",
+    "ano": "1990"
+   }
+  ],
+  "sobre": [
+   "(Criada a 12 de maio de 1990)",
+   "Pároco: Pe. Élio Luís Grings"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-ines",
+  "nome": "Paróquia Santa Inês",
+  "forania": "Forania Camboriú",
+  "endereco": "Rua 1400, 492, Centro – 88330-530 – Balneário Camboriú (SC)",
+  "comunidades": [
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Bairro dos Estados",
+    "ano": "2003"
+   },
+   {
+    "nome": "Matriz: Santa Inês",
+    "local": "Centro",
+    "ano": "1967"
+   }
+  ],
+  "sobre": [
+   "(Criada a 21 de janeiro de 1967)",
+   "Pároco: Pe. Frei Roberto Carlos Nunes, OFM"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-teresinha-do-menino-jesus",
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Treze de Maio, 62 – Prainha88020-230 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "São Sebastião",
+    "local": "Morro da Queimada",
+    "ano": "1996"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro da “Mariquinha”",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "José Mendes",
+    "ano": "1953"
+   },
+   {
+    "nome": "Matriz: Santa Teresinha do Menino Jesus",
+    "local": "Prainha",
+    "ano": "1996"
+   }
+  ],
+  "sobre": [
+   "(Criada a 14 de agosto de 1996)",
+   "Pároco: Pe. Estevão Maurício Atanásio, CS"
+  ]
+ },
+ {
+  "slug": "paroquia-santa-teresinha",
+  "nome": "Paróquia Santa Teresinha",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Santos Dumont, 1488 – Santa Teresinha – 88352-202 – Brusque/SC",
+  "comunidades": [
+   {
+    "nome": "São Luís e Santa Zélia",
+    "local": "Jardim Azaleia",
+    "ano": "2018"
+   },
+   {
+    "nome": "São José",
+    "local": "Boêmia",
+    "ano": "2016"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Limoeiro",
+    "ano": "2013"
+   },
+   {
+    "nome": "São João Paulo II",
+    "local": "Lot. Cyro Gevaerd",
+    "ano": "2011"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Ema II",
+    "ano": "2006"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Nova Brasília",
+    "ano": "2004"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Ribeirão Tavares",
+    "ano": "1999"
+   },
+   {
+    "nome": "Nossa Senhora da Imaculada Conceição",
+    "local": "Planalto",
+    "ano": "1996"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Limeira Baixa",
+    "ano": "1976"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Limoeiro",
+    "ano": "1918"
+   },
+   {
+    "nome": "Nossa Senhora da Natividade",
+    "local": "Limeira Alta",
+    "ano": "1880"
+   },
+   {
+    "nome": "Matriz: Santa Teresinha",
+    "local": "Santa Teresinha",
+    "ano": "1941"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de janeiro de 1974)",
+   "Pároco: Pe. Anderson Moacir Ramos"
+  ]
+ },
+ {
+  "slug": "paroquia-santana-2",
+  "nome": "Paróquia Sant'Ana",
+  "forania": "Forania de São josé",
+  "endereco": "Av. Engelberto Koerich, 14348 – Colônia Santana88123-300 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Clara e Santo Antônio",
+    "local": "Mariquita de Dentro/Fora",
+    "ano": "2005"
+   },
+   {
+    "nome": "Santa Terezinha do Menino Jesus",
+    "local": "Vila Formosa",
+    "ano": "1995"
+   },
+   {
+    "nome": "Imaculado Coração de Maria",
+    "local": "Sertão do Maruim",
+    "ano": "1954"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Pagará Grande",
+    "ano": "1944"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Hospital / I. P. Q.",
+    "ano": "1942"
+   },
+   {
+    "nome": "Matriz: Sant’Ana",
+    "local": "Colônia Santana",
+    "ano": "1923"
+   }
+  ],
+  "sobre": [
+   "Pároco: Pe. Silviano Firmino Chaves"
+  ]
+ },
+ {
+  "slug": "paroquia-santana",
+  "nome": "Paróquia Sant'Ana",
+  "forania": "Forania Tijucas",
+  "endereco": "Rua Cantório Florentino da Silva, 1785 – Centro – 88230-000 – Canelinha/SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Cobre",
+    "ano": "2018"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Vila Nova - Moura",
+    "ano": "1999"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Gavião - Moura",
+    "ano": "1999"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Papagaios",
+    "ano": "1976"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Galera",
+    "ano": "1959"
+   },
+   {
+    "nome": "Santo Inácio",
+    "local": "Moura",
+    "ano": "1924"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Nova Descoberta",
+    "ano": "1922"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Centro do Moura",
+    "ano": "1918"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Índia",
+    "ano": "1915"
+   },
+   {
+    "nome": "Imaculada Conceição",
+    "local": "Moura",
+    "ano": "1887"
+   },
+   {
+    "nome": "Matriz: Sant’Ana",
+    "local": "Centro",
+    "ano": "1959"
+   }
+  ],
+  "sobre": [
+   "(Criada a 17 de janeiro de 1959)",
+   "Pároco:  Pe. Jorge Gelatti"
+  ]
+ },
+ {
+  "slug": "paroquia-santissima-trindade",
+  "nome": "Paróquia Santíssima Trindade",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Praça Santos Dumont, 94 – Trindade88036-680 Florianópolis – SC – Caixa Postal 5151",
+  "comunidades": [
+   {
+    "nome": "Santa Mônica",
+    "local": "Santa Mônica",
+    "ano": "2010"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Vila Guarani - Poção do C. Grande",
+    "ano": "2005"
+   },
+   {
+    "nome": "Nossa Senhora de Guadalupe",
+    "local": "Morro do Quilombo",
+    "ano": "2004"
+   },
+   {
+    "nome": "São José",
+    "local": "Serrinha",
+    "ano": "2000"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Morro da Penitenciária",
+    "ano": "1987"
+   },
+   {
+    "nome": "Santo Agostinho",
+    "local": "Pantanal",
+    "ano": "1986"
+   },
+   {
+    "nome": "Puríssimo Coração de Maria",
+    "local": "Jardim Anchieta",
+    "ano": "1933"
+   },
+   {
+    "nome": "São Bento",
+    "local": "Itacorubi",
+    "ano": "1904"
+   },
+   {
+    "nome": "Matriz: Santíssima Trindade",
+    "local": "Trindade",
+    "ano": "1853"
+   }
+  ],
+  "sobre": [
+   "(Criada a 23 de março de 1853)",
+   "Pároco:  Pe. Frei Rivaldo Vieira, OFMCap"
+  ]
+ },
+ {
+  "slug": "paroquia-santissimo-sacramento",
+  "nome": "Paróquia Santíssimo Sacramento",
+  "forania": "Forania Itajaí",
+  "endereco": "Praça Gov. Irineu Bornhausen, s/n Centro – 88303-026 – Itajaí/SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora da Paz",
+    "local": "Vila Operária",
+    "ano": "1927"
+   },
+   {
+    "nome": "Nossa Senhora da Conceição",
+    "local": "Centro",
+    "ano": "1824"
+   },
+   {
+    "nome": "Matriz: Santíssimo Sacramento",
+    "local": "Centro",
+    "ano": "1955"
+   }
+  ],
+  "sobre": [
+   "(Criada a 12 de agosto de 1833)",
+   "Pároco: Pe. Márcio Alexandre Vignoli"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-amaro",
+  "nome": "Paróquia Santo Amaro",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Praça São Francisco de Assis, 50 Centro88140-000 Santo Amaro da Imperatriz (SC) Caixa Postal 11",
+  "comunidades": [
+   {
+    "nome": "São João Batista",
+    "local": "Braço São João",
+    "ano": "2006"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Calemba",
+    "ano": "1994"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Taquara",
+    "ano": "1991"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "São Francisco",
+    "ano": "1985"
+   },
+   {
+    "nome": "Nossa Senhora da Rosa Mística",
+    "local": "Caldas",
+    "ano": "1981"
+   },
+   {
+    "nome": "Cristo Ressuscitado",
+    "local": "Ressurreição",
+    "ano": "1974"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Sul do Rio",
+    "ano": "1972"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Santa Cruz da Figueira",
+    "ano": "1968"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Varginha",
+    "ano": "1964"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Gruta do Velacho",
+    "ano": "1963"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Sertão",
+    "ano": "1962"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Gruta da Varginha",
+    "ano": "1954"
+   },
+   {
+    "nome": "Nossa Senhora das Dores",
+    "local": "Combatá",
+    "ano": "1948"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Pagará",
+    "ano": "1944"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Bom Jesus",
+    "ano": "1938"
+   },
+   {
+    "nome": "São José",
+    "local": "Vargem do Braço",
+    "ano": "1925"
+   },
+   {
+    "nome": "Santa Isabel",
+    "local": "Santa Isabel",
+    "ano": "1917"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Lourdes",
+    "ano": "1911"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Águas Mornas",
+    "ano": "1898"
+   },
+   {
+    "nome": "Santa Teresa D’Ávila",
+    "local": "Teresópolis",
+    "ano": "1862"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Vargem Grande",
+    "ano": "1846"
+   },
+   {
+    "nome": "Nossa Senhora da Glória",
+    "local": "Loeffelscheidt",
+    "ano": "1843"
+   },
+   {
+    "nome": "Matriz: Santo Amaro",
+    "local": "Centro",
+    "ano": "1854"
+   }
+  ],
+  "sobre": [
+   "(Criada a 29 de maio de 1854)",
+   "Pároco:  Pe. Frei Germano Guesser, OFM"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-antonio-2",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Forania Itapema",
+  "endereco": "Av. Governador Celso Ramos, 701 Centro – 88220-000 Itapema – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Tabuleiro",
+    "ano": "1991"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Várzea",
+    "ano": "1998"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Alto São Bento",
+    "ano": "1991"
+   },
+   {
+    "nome": "São Miguel",
+    "local": "Estaleirinho",
+    "ano": "1952"
+   },
+   {
+    "nome": "Matriz: Santo Antônio",
+    "local": "Centro",
+    "ano": "1917"
+   }
+  ],
+  "sobre": [
+   "(Criada a 5 de agosto de 1990)",
+   "Pároco: Pe. Luiz Francisco Fraga"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-antonio-3",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Forania de São josé",
+  "endereco": "Rua Irmãos Vieira, 4  Campinas88101-290 São José – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis e Sta. Rita de Cássia",
+    "local": "Kobrasol",
+    "ano": "1986"
+   },
+   {
+    "nome": "Matriz: Santo Antônio",
+    "local": "Campinas",
+    "ano": "1970"
+   }
+  ],
+  "sobre": [
+   "(Criada a 11 de fevereiro de 1970)",
+   "Pároco: Pe. Revelino Seidler"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-antonio-e-santa-maria-goretti",
+  "nome": "Paróquia Santo Antônio e Santa Maria Goretti",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Santa Rita de Cássia, 1050 Coloninha88090-350 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida e São Geraldo",
+    "local": "Promorar",
+    "ano": "1994"
+   },
+   {
+    "nome": "Matriz: Santo Antônio e Santa Maria Goretti",
+    "local": "Coloninha",
+    "ano": "1979"
+   }
+  ],
+  "sobre": [
+   "(Criada a 5 de janeiro de 1979)",
+   "Pároco: Pe. Handerson Ribeiro de Almeida, IMCIM"
+  ]
+ },
+ {
+  "slug": "paroquia-santo-antonio",
+  "nome": "Paróquia Santo Antônio",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Padre Schuler, 81, Centro88010-310 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora do Parto",
+    "local": "Rua Conselheiro Mafra",
+    "ano": "1837"
+   },
+   {
+    "nome": "Matriz: Santo Antônio",
+    "local": "Centro",
+    "ano": "1966"
+   }
+  ],
+  "sobre": [
+   "(Criada a 30 de agosto de 1966)",
+   "Pároco: Pe. Frei Alexandre Magno Cordeiro da Silva, OFM"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-bonifacio",
+  "nome": "Paróquia São Bonifácio",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Praça Padre Deodato, s/n Centro88485-000 São Bonifácio – SC",
+  "comunidades": [
+   {
+    "nome": "São Pedro e São Paulo",
+    "local": "Rio Salto",
+    "ano": "1979"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Rio Sete",
+    "ano": "1961"
+   },
+   {
+    "nome": "São José",
+    "local": "Rio dos Canudos",
+    "ano": "1958"
+   },
+   {
+    "nome": "Santa Teresinha do Menino Jesus",
+    "local": "Rio Poncho",
+    "ano": "1956"
+   },
+   {
+    "nome": "Natividade",
+    "local": "Santa Maria",
+    "ano": "1895"
+   },
+   {
+    "nome": "Santa Brígida",
+    "local": "Rio Novo",
+    "ano": "1895"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Santo Antônio",
+    "ano": "1892"
+   },
+   {
+    "nome": "Matriz: São Bonifácio",
+    "local": "Centro",
+    "ano": "1950"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de novembro de 1950)",
+   "Pároco: Pe. Sílvio José Kremer"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-cristovao-cordeiros",
+  "nome": "Paróquia São Cristóvão",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Odílio Garcia, 456 Cordeiros88310-180 Itajaí – SC",
+  "comunidades": [
+   {
+    "nome": "Comunidade Amor Eterno",
+    "local": "São Roque",
+    "ano": "2009"
+   },
+   {
+    "nome": "Comunidade Transfiguração",
+    "local": "Espinheirinhos",
+    "ano": "2003"
+   },
+   {
+    "nome": "Santa Regina (L. Sta. Regina)",
+    "local": "Espinheiros",
+    "ano": "2011"
+   },
+   {
+    "nome": "Casa da Providência",
+    "local": "Salseiros",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Lot. Portal I",
+    "ano": "2001"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Espinheiros",
+    "ano": "1997"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Votorantim",
+    "ano": "1982"
+   },
+   {
+    "nome": "São Francisco",
+    "local": "São Roque",
+    "ano": "1981"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "Costa Cavalcante",
+    "ano": "1991"
+   },
+   {
+    "nome": "Santa Maria",
+    "local": "Jardim Esperança",
+    "ano": "1991"
+   },
+   {
+    "nome": "São José",
+    "local": "Jardim Progresso",
+    "ano": "1990"
+   },
+   {
+    "nome": "Imaculada Conceição",
+    "local": "Murta",
+    "ano": "1987"
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Volta de Cima",
+    "ano": "1969"
+   },
+   {
+    "nome": "São Roque",
+    "local": "São Roque",
+    "ano": "1966"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Espinheiros",
+    "ano": "1960"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Salseiros",
+    "ano": "1941"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Espinheiros",
+    "ano": "1935"
+   },
+   {
+    "nome": "Matriz: São Cristóvão",
+    "local": "Cordeiros",
+    "ano": "1964"
+   }
+  ],
+  "sobre": [
+   "(Criada a 18 de fevereiro de 1968)",
+   "Pároco: Pe. Diomar Romaniv, SCJ"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-francisco-de-assis-2",
+  "nome": "Paróquia São Francisco de Assis",
+  "forania": "Forania de São josé",
+  "endereco": "Rua Vereador Artur Mariano, 880 Forquilhinhas88106-500 São José – SC | Caixa Postal: 8502/88106-970",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Desatadora dos Nós",
+    "local": "Horto Florestal",
+    "ano": "2017"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Ciniro Martins",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "P. R. Lisboa",
+    "ano": "2002"
+   },
+   {
+    "nome": "Nossa Senhora Rainha da Paz",
+    "local": "Jardim Los Angeles",
+    "ano": "1993"
+   },
+   {
+    "nome": "Santa Isabel",
+    "local": "Picadas do Sul",
+    "ano": "1983"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Picadas do Norte",
+    "ano": "1967"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Santos Saraiva",
+    "ano": "1967"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Forquilhas",
+    "ano": "1925"
+   },
+   {
+    "nome": "Matriz: São Francisco de Assis",
+    "local": "Forquilhinhas",
+    "ano": "1985"
+   }
+  ],
+  "sobre": [
+   "(Criada a 2 de março de 1985)",
+   "Pároco:Pe. Suvenir Miotelli, FDP"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-francisco-de-assis",
+  "nome": "Paróquia São Francisco de Assis (Aririú/Palhoça)",
+  "forania": "Forania Palhoça",
+  "endereco": "Rua João José da Silva, 326 – Aririú; 88135-040 Palhoça (SC)",
+  "comunidades": [
+   {
+    "nome": "Santa Catarina",
+    "local": "Guarda do Cubatão",
+    "ano": "2005"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Vila Nova",
+    "ano": "2002"
+   },
+   {
+    "nome": "Santa Teresinha do Menino Jesus",
+    "local": "Jardim Laranjeiras",
+    "ano": "1997"
+   },
+   {
+    "nome": "Santa Clara",
+    "local": "Jaqueira",
+    "ano": "1997"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Areias",
+    "ano": "1989"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Pachecos",
+    "ano": "1985"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Formiga",
+    "ano": "1963"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Gruta do Aririú",
+    "ano": "1958"
+   },
+   {
+    "nome": "Santo Anjo da Guarda",
+    "local": "Guarda do Cubatão",
+    "ano": "1927"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Barra do Aririú",
+    "ano": "1921"
+   },
+   {
+    "nome": "Imaculada Conceição",
+    "local": "Alto Aririú",
+    "ano": "1916"
+   },
+   {
+    "nome": "Matriz: São Francisco de Assis",
+    "local": "Aririú",
+    "ano": "1995"
+   }
+  ],
+  "sobre": [
+   "(Criada a 28 de dezembro de 1995)",
+   "Pároco: Pe. Joel José Schvambach"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-francisco-xavier",
+  "nome": "Paróquia São Francisco Xavier",
+  "forania": "Forania Florianópolis - Norte",
+  "endereco": "Rodovia Virgílio Várzea, 538 – Monte Verde – 88032-001 – Florianópolis (SC)",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Morro do Balão",
+    "ano": "2003"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Lot. João G. da Costa",
+    "ano": "2003"
+   },
+   {
+    "nome": "São José",
+    "local": "Caminho da Cruz",
+    "ano": "2002"
+   },
+   {
+    "nome": "São Miguel",
+    "local": "João Paulo",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Sol Nascente",
+    "ano": "1999"
+   },
+   {
+    "nome": "Matriz: São Francisco Xavier",
+    "local": "Monte Verde",
+    "ano": "1984"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de fevereiro de 1984)",
+   "Pároco:  Pe. José Rufino Filho"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-batista-2",
+  "nome": "Paróquia São João Batista",
+  "forania": "Forania Tijucas",
+  "endereco": "Praça Capitão Amorim, 6 – Centro – São João Batista/SC | CEP 88240-000",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Guadalupe",
+    "local": "Timbézinho",
+    "ano": "(em formação)"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Tajuba I",
+    "ano": "2011"
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Carmelo",
+    "ano": "2011"
+   },
+   {
+    "nome": "Santo Agostinho",
+    "local": "Krecker",
+    "ano": "2007"
+   },
+   {
+    "nome": "Oratório Santo Antônio",
+    "local": "Fernandes",
+    "ano": "1998"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Centro de Fernandes",
+    "ano": "1997"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Cardoso",
+    "ano": "1983"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Jardim São Paulo",
+    "ano": "1979"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Ribanceira do Sul",
+    "ano": "1975"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Vargem Pequena",
+    "ano": "1969"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Fernandes",
+    "ano": "1942"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Arataca",
+    "ano": "1939"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Tijipió",
+    "ano": "1918"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Rio do Braço",
+    "ano": "1903"
+   },
+   {
+    "nome": "São José",
+    "local": "Colônia",
+    "ano": "1896"
+   },
+   {
+    "nome": "Matriz: São João Batista",
+    "local": "Centro",
+    "ano": "1838"
+   }
+  ],
+  "sobre": [
+   "(Criada a 19 de abril de 1838)",
+   "Pároco: Pe. Antônio Luiz Schmitt"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-batista-biguacu",
+  "nome": "Paróquia São João Batista - Biguaçu",
+  "forania": "Forania Biguaçu",
+  "endereco": "Rua Argentina Silva, s/n, Encruzilhada, CEP: 88165-375 Biguaçu – SC",
+  "comunidades": [
+   {
+    "nome": "",
+    "local": "Jardim Carolina",
+    "ano": "2015"
+   },
+   {
+    "nome": "Nossa Senhora da Paz",
+    "local": "Jardim Bom Viver",
+    "ano": "1998"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Canudos",
+    "ano": "1991"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Fundos",
+    "ano": "1985"
+   },
+   {
+    "nome": "São Marcos",
+    "local": "São Marcos",
+    "ano": "1968"
+   },
+   {
+    "nome": "São Mateus",
+    "local": "São Mateus",
+    "ano": "1954"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Sorocaba do Sul",
+    "ano": "1944"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Encruzilhada",
+    "ano": "1944"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Sorocaba de Fora",
+    "ano": "1917"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Canudos",
+    "ano": "1991"
+   },
+   {
+    "nome": "São Marcos",
+    "local": "Três Riachos",
+    "ano": "1968"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Fazenda de Dentro",
+    "ano": "1965"
+   },
+   {
+    "nome": "São Mateus",
+    "local": "Três Riachos",
+    "ano": "1954"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Sorocaba de Dentro",
+    "ano": "1944"
+   },
+   {
+    "nome": "São José",
+    "local": "Amâncio",
+    "ano": "1944"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Sorocaba de Fora",
+    "ano": "1917"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Limeira",
+    "ano": "1908"
+   },
+   {
+    "nome": "São João Batista (Matriz)",
+    "local": "Encruzilhada",
+    "ano": "1944"
+   }
+  ],
+  "sobre": [
+   "(Criada a 14 de agosto de 2022)",
+   "Pároco: Pe. Timóteo José Steinbach"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-batista-e-santa-luzia",
+  "nome": "Paróquia São João Batista e Santa Luzia",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Isaura Comichole Pires, 102 – Capoeiras 88090-130 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "São Luís Orione",
+    "local": "Flamenguinho",
+    "ano": "2017"
+   },
+   {
+    "nome": "Senhor Bom Jesus de Iguape",
+    "local": "Abraão",
+    "ano": "1833"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Itaguaçu",
+    "ano": "1925"
+   },
+   {
+    "nome": "Matriz: São João Batista e Santa Luzia",
+    "local": "Capoeiras",
+    "ano": "1967"
+   }
+  ],
+  "sobre": [
+   "(Criada a 1º de maio de 1967)",
+   "Pároco: Pe. Cláudio Zimermann"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-batista",
+  "nome": "Paróquia São João Batista",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Pedro Rangel, 154 São João88304-430 Itajaí – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Imaruim",
+    "ano": "2001"
+   },
+   {
+    "nome": "Cristo Ressuscitado",
+    "local": "Nova Brasília",
+    "ano": "1991"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Imaruim",
+    "ano": "1984"
+   },
+   {
+    "nome": "Matriz: São João Batista",
+    "local": "São João",
+    "ano": "1957"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de fevereiro de 1968)",
+   "Pároco: Pe. Hélio da Cunha"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-bosco",
+  "nome": "Paróquia São João Bosco",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Brusque, 1333, Dom Bosco88302-001 Itajaí (SC)",
+  "comunidades": [
+   {
+    "nome": "Santa Teresinha",
+    "local": "Ressacada",
+    "ano": "2001"
+   },
+   {
+    "nome": "São Judas Tadeu",
+    "local": "São Judas",
+    "ano": "1962"
+   },
+   {
+    "nome": "Matriz: São João Bosco",
+    "local": "Dom Bosco",
+    "ano": "1963"
+   }
+  ],
+  "sobre": [
+   "(Criada a 3 de março de 1968)",
+   "Pároco: Pe. Jeferson Junio Moreira, SDB"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joao-evangelista",
+  "nome": "Paróquia São João Evangelista",
+  "forania": "Forania Biguaçu",
+  "endereco": "Av. Rio Branco, 54 Centro / 88160-120 Biguaçu – SC",
+  "comunidades": [
+   {
+    "nome": "Cristo Redentor",
+    "local": "Jardim Anápolis",
+    "ano": "2004"
+   },
+   {
+    "nome": "“Capela” Nossa Senhora de Guadalupe",
+    "local": "Cachoeiras II",
+    "ano": "2004"
+   },
+   {
+    "nome": "“Gruta” Nossa Senhora de Guadalupe",
+    "local": "Santa Cruz",
+    "ano": ""
+   },
+   {
+    "nome": "Mãe Peregrina",
+    "local": "Morro da Bina",
+    "ano": "1997"
+   },
+   {
+    "nome": "Santa Clara",
+    "local": "Vendaval",
+    "ano": "1996"
+   },
+   {
+    "nome": "São Lucas",
+    "local": "Jardim Saveiro",
+    "ano": "1995"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Areias de Cima",
+    "ano": "1984"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Praia do João Rosa",
+    "ano": "1984"
+   },
+   {
+    "nome": "São Francisco",
+    "local": "Morro da Boa Vista",
+    "ano": "1983"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Jardim Sueli",
+    "ano": "1983"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Prado",
+    "ano": "1982"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Saudade",
+    "ano": "1982"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Fazenda de Dentro",
+    "ano": "1965"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Estiva do Inferninho",
+    "ano": "1962"
+   },
+   {
+    "nome": "São José",
+    "local": "Amâncio",
+    "ano": "1944"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Cachoeira",
+    "ano": "1927"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Rússia",
+    "ano": "1912"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Limeira",
+    "ano": "1908"
+   },
+   {
+    "nome": "Santa Catarina",
+    "local": "Santa Catarina",
+    "ano": "1898"
+   },
+   {
+    "nome": "São Miguel",
+    "local": "Balneário São Miguel",
+    "ano": "1752"
+   },
+   {
+    "nome": "Matriz: São João Evangelista",
+    "local": "Centro",
+    "ano": "1941"
+   }
+  ],
+  "sobre": [
+   "(Criada a 21 de dezembro de 1941)",
+   "Pároco: Pe. Elizandro Scarsi"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-joaquim",
+  "nome": "Paróquia São Joaquim",
+  "forania": "Forania Palhoça",
+  "endereco": "Rua Lauro Severiano Müller, 330 – Centro – 88495-000 – Garopaba/SC",
+  "comunidades": [
+   {
+    "nome": "São José Operário",
+    "local": "Serraria",
+    "ano": "2007"
+   },
+   {
+    "nome": "São Lourenço",
+    "local": "Morro dos Fortunatos",
+    "ano": "2005"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Ambrósio",
+    "ano": "1997"
+   },
+   {
+    "nome": "São Francisco",
+    "local": "Palhocinha",
+    "ano": "1991"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "Limpa",
+    "ano": "1986"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Ibiraquera",
+    "ano": "1986"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Prainha",
+    "ano": "1980"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Areias da Palhocinha",
+    "ano": "1980"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Morro da Encantada",
+    "ano": "1980"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Capão",
+    "ano": "1978"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Areias do Ambrósio",
+    "ano": "1978"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Pinguirito",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Ressacada",
+    "ano": "1977"
+   },
+   {
+    "nome": "São Francisco",
+    "local": "Areias do Macacu",
+    "ano": "1976"
+   },
+   {
+    "nome": "Nossa Senhora da Glória",
+    "local": "Campo D’uma",
+    "ano": "1976"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "Costa do Macacu",
+    "ano": "1969"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Siriú",
+    "ano": "1967"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Encantada",
+    "ano": "1966"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Macacu",
+    "ano": "1957"
+   },
+   {
+    "nome": "Gruta Nossa Senhora de Lourdes",
+    "local": "Vigia",
+    "ano": "1950"
+   },
+   {
+    "nome": "Capela Senhor Bom Jesus",
+    "local": "Centro",
+    "ano": "1896"
+   },
+   {
+    "nome": "Igreja Histórica São Joaquim",
+    "local": "Centro",
+    "ano": "1830"
+   },
+   {
+    "nome": "Matriz: São Joaquim",
+    "local": "Centro",
+    "ano": "1986"
+   }
+  ],
+  "sobre": [
+   "Capela Senhor Bom Jesus",
+   "(Criada a 9 de dezembro de 1830)",
+   "Pároco: Pe. Hércules Marçal"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-jose-e-santa-rita-de-cassia",
+  "nome": "Paróquia São José e Santa Rita de Cássia",
+  "forania": "Forania Florianópolis - Continente",
+  "endereco": "Rua Luís D’Acampora, 207 – Jardim Atlântico – 88095-330 Florianópolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora da Rosa Mística",
+    "local": "Rua Pref. Gasparino Dutra",
+    "ano": "1995"
+   },
+   {
+    "nome": "Matriz: São José e Santa Rita de Cássia",
+    "local": "Jardim Atlântico",
+    "ano": "1980"
+   }
+  ],
+  "sobre": [
+   "(Criada a 25 de julho de 1980)",
+   "Pároco: Pe. Sérgio José de Souza"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-jose",
+  "nome": "Paróquia São José",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Padre Carlos Enderlin, 215 – Centro – 88370-000 – Botuverá/SC",
+  "comunidades": [
+   {
+    "nome": "Santa Luzia",
+    "local": "Sessenta",
+    "ano": "1994"
+   },
+   {
+    "nome": "São Roque e São João Batista",
+    "local": "Pedras Grandes",
+    "ano": "1990"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Ourinhos",
+    "ano": "1968"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Barra das Areias",
+    "ano": "1946"
+   },
+   {
+    "nome": "Santo Amaro",
+    "local": "Areia Alta",
+    "ano": "1944"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Vargem Grande",
+    "ano": "1944"
+   },
+   {
+    "nome": "São Paulo",
+    "local": "Lajeado",
+    "ano": "1939"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Ribeirão do Ouro",
+    "ano": "1912"
+   },
+   {
+    "nome": "Nossa Senhora das Dores",
+    "local": "Águas Negras",
+    "ano": "1880"
+   },
+   {
+    "nome": "Matriz: São José",
+    "local": "Centro",
+    "ano": "1875"
+   }
+  ],
+  "sobre": [
+   "(Criada a 31 de julho de 1912)",
+   "Pároco: Pe. Jaime Ludwig, SCJ"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-judas-tadeu-2",
+  "nome": "Paróquia São Judas Tadeu",
+  "forania": "Forania de São josé",
+  "endereco": "Rua Capitão Pedro Leite, 406 Barreiros88117-600 São José – SC",
+  "comunidades": [
+   {
+    "nome": "Matriz: São Judas Tadeu",
+    "local": "Barreiros",
+    "ano": "1983"
+   }
+  ],
+  "sobre": [
+   "(Criada a 18 de fevereiro de 1983)",
+   "Pároco: Pe. Rafael Aléx Lima da Silva"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-judas-tadeu-e-sao-joao-batista",
+  "nome": "Paróquia São Judas Tadeu e São João Batista",
+  "forania": "Forania Palhoça",
+  "endereco": "Rua João Febrônio de Oliveira, 65 Ponte do Imaruim88130-385 Palhoça – SC",
+  "comunidades": [
+   {
+    "nome": "São José",
+    "local": "Frei Damião",
+    "ano": "2005"
+   },
+   {
+    "nome": "Nossa Senhora da Praia",
+    "local": "Ponte do Imaruim",
+    "ano": "1983"
+   },
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Brejarú",
+    "ano": "1981"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Jardim Eldorado",
+    "ano": "1978"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Jardim Eucaliptus",
+    "ano": "1977"
+   },
+   {
+    "nome": "Matriz: São J. Tadeu e São João Batista",
+    "local": "Ponte do Imaruim",
+    "ano": "1983"
+   }
+  ],
+  "sobre": [
+   "(Criada a 15 de abril de 1983)",
+   "Pároco: Pe. Ewerton Martins Gerent"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-judas-tadeu",
+  "nome": "Paróquia São Judas Tadeu",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Santa Cruz, 177 – Águas Claras – 88353-600 – Brusque/SC",
+  "comunidades": [
+   {
+    "nome": "Sagrada Família",
+    "local": "1° de Maio",
+    "ano": "1999"
+   },
+   {
+    "nome": "Santa Cruz do Redentor",
+    "local": "Zantão",
+    "ano": "1964"
+   },
+   {
+    "nome": "Santo Amaro",
+    "local": "Nova Itália",
+    "ano": "1919"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Santa Luzia",
+    "ano": "1912"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Ponta Russa",
+    "ano": "1893"
+   },
+   {
+    "nome": "Nossa Senhora da Saúde",
+    "local": "Poço Fundo",
+    "ano": "1885"
+   },
+   {
+    "nome": "Matriz: São Judas Tadeu",
+    "local": "Águas Claras",
+    "ano": "1954"
+   }
+  ],
+  "sobre": [
+   "(Criada a 2 de janeiro de 2005)",
+   "Pároco: Pe. Sérgio Luís Pedrotti"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-luis-gonzaga",
+  "nome": "Paróquia São Luís Gonzaga",
+  "forania": "Forania Brusque",
+  "endereco": "Rua Padre Gattone, 75 – Centro – 88350-350 – Brusque – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Cerâmica Reis",
+    "ano": "2011"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Volta Grande",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Lagoa Dourada",
+    "ano": "2004"
+   },
+   {
+    "nome": "São José",
+    "local": "1º de Maio",
+    "ano": "1995"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Steffen",
+    "ano": "1980"
+   },
+   {
+    "nome": "Cristo Rei",
+    "local": "São Luiz",
+    "ano": "1977"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Alsácia/São Pedro",
+    "ano": "1975"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Jardim Maluche",
+    "ano": "1974"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Guarani",
+    "ano": "1972"
+   },
+   {
+    "nome": "Santa Rita",
+    "local": "Santa Rita",
+    "ano": "1967"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Bateias",
+    "ano": "1945"
+   },
+   {
+    "nome": "Matriz: São Luís Gonzaga",
+    "local": "Centro",
+    "ano": "1866"
+   }
+  ],
+  "sobre": [
+   "(Criada a 31 de julho de 1873)",
+   "Pároco: Pe. Helio Feuser, SCJ"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-pedro-apostolo",
+  "nome": "Paróquia São Pedro Apóstolo",
+  "forania": "Forania Itajaí",
+  "endereco": "Avenida Itaipava, 2.229, Itaipava, Itajaí – SC, CEP 88316-300",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Canhanduba II",
+    "ano": "2012"
+   },
+   {
+    "nome": "Nossa Senhora Imaculada Conceição",
+    "local": "Canhanduba I",
+    "ano": "2011"
+   },
+   {
+    "nome": "Nossa Senhora Auxiliadora",
+    "local": "Itaipava",
+    "ano": "2005"
+   },
+   {
+    "nome": "São Paulo",
+    "local": "Loteamento São Pedro",
+    "ano": "2000"
+   },
+   {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "local": "Baía",
+    "ano": "1984"
+   },
+   {
+    "nome": "São José",
+    "local": "Campeche",
+    "ano": "1975"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Rio do Meio",
+    "ano": "1969"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Paciência",
+    "ano": "1969"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Brilhante I",
+    "ano": "1959"
+   },
+   {
+    "nome": "São Roque",
+    "local": "Arraial dos Cunha",
+    "ano": "1956"
+   },
+   {
+    "nome": "Nossa Senhora do Carmo",
+    "local": "Km 12",
+    "ano": "1955"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Laranjeiras",
+    "ano": "1907"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Brilhante II",
+    "ano": "1880"
+   },
+   {
+    "nome": "Matriz: São Pedro Apóstolo",
+    "local": "Itaipava",
+    "ano": "1924"
+   }
+  ],
+  "sobre": [
+   "(Criada a 5 de março de 2012)",
+   "Pároco: Pe. Iseldo Scherer"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-pedro-de-alcantara",
+  "nome": "Paróquia São Pedro de Alcântara",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Rua João Pering, 254 – Centro; 88125-000 São Pedro de Alcântara  SC",
+  "comunidades": [
+   {
+    "nome": "Santuário Senhor Bom Jesus da Santa Cruz",
+    "local": "Colônia Santa Tereza",
+    "ano": "2000"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Barro Branco",
+    "ano": "1958"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Varginha",
+    "ano": "1944"
+   },
+   {
+    "nome": "São João Vianney e Santa Filomena",
+    "local": "Santa Filomena",
+    "ano": "1860"
+   },
+   {
+    "nome": "Matriz: São Pedro de Alcântara",
+    "local": "Centro",
+    "ano": "1844"
+   }
+  ],
+  "sobre": [
+   "(Criada a 23 de abril de 1844)",
+   "Pároco:  Pe. Carlos André Paixão"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-sebastiao-2",
+  "nome": "Paróquia São Sebastião",
+  "forania": "Forania Camboriú",
+  "endereco": "Av. do Estado, 1750 – Ariribá – 88338-640 – Balneário Camboriú – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Rua Paquistão (B. das Nações)",
+    "ano": "2002"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Rua Itália (B. das Nações)",
+    "ano": "1982"
+   },
+   {
+    "nome": "Matriz: São Sebastião",
+    "local": "Ariribá",
+    "ano": "1935"
+   }
+  ],
+  "sobre": [
+   "(Criada a 27 de junho de 2004)",
+   "Pároco: Pe. Francisco de Assis Wloch"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-sebastiao-3",
+  "nome": "Paróquia São Sebastião - Tijucas",
+  "forania": "Forania Tijucas",
+  "endereco": "Rua Marechal Deodoro, 30 Centro88200-000 Tijucas – SC",
+  "comunidades": [
+   {
+    "nome": "São Brás",
+    "local": "XV de Novembro",
+    "ano": "2014"
+   },
+   {
+    "nome": "Nossa Senhora aparecida",
+    "local": "Jardim Progresso",
+    "ano": "2013"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Pernambuco",
+    "ano": "2001"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Areias",
+    "ano": "1999"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Centro do Itinga",
+    "ano": "1998"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Bairro Universitário",
+    "ano": "1995"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Sul do Rio",
+    "ano": "1992"
+   },
+   {
+    "nome": "Santa Cruz",
+    "local": "Hospital São José",
+    "ano": "1942"
+   },
+   {
+    "nome": "São Pedro",
+    "local": "Joáia",
+    "ano": "1924"
+   },
+   {
+    "nome": "Espírito Santo",
+    "local": "Lar Nossa Senhora da Paz",
+    "ano": "1921"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Oliveira",
+    "ano": "1920"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Santa Luzia",
+    "ano": "1919"
+   },
+   {
+    "nome": "São Luiz Gonzaga",
+    "local": "Timbé",
+    "ano": "1919"
+   },
+   {
+    "nome": "Nossa Senhora do Parto",
+    "local": "Terra Nova",
+    "ano": "1919"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Morretes",
+    "ano": "1916"
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Porto da Itinga",
+    "ano": "1899"
+   },
+   {
+    "nome": "Nossa Senhora dos Navegantes",
+    "local": "Praça",
+    "ano": "1841"
+   },
+   {
+    "nome": "Matriz: São Sebastião",
+    "local": "Tijucas",
+    "ano": "1848"
+   }
+  ],
+  "sobre": [
+   "(Criada a 4 de maio de 1848)",
+   "Pároco:  Pe. Pedro Schlichting"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-sebastiao-palhoca",
+  "nome": "Paróquia São Sebastião (Palhoça)",
+  "forania": "Forania Palhoça",
+  "endereco": "Rua Tomaz Domingos da Silveira, 4630, São Sebastião – CEP 88136-000 – Palhoça/SC",
+  "comunidades": [],
+  "sobre": [
+   "(Criada em 1º de maio de 2022)",
+   "Pároco: Pe. Silvano Valdomiro de Oliveira"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-sebastiao",
+  "nome": "Paróquia São Sebastião",
+  "forania": "Forania Santo Amaro",
+  "endereco": "Rua Jacinto Matos, 86 Centro – 88475-000 – Anitápolis – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Vila Antônio David",
+    "ano": "2017"
+   },
+   {
+    "nome": "Santa Cecília",
+    "local": "Povoamento Escola",
+    "ano": ""
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Barra Gaspar",
+    "ano": "1990"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Salto",
+    "ano": "1989"
+   },
+   {
+    "nome": "Santa Teresinha",
+    "local": "Povoamento Igreja",
+    "ano": ""
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Rio Cachimbo",
+    "ano": ""
+   },
+   {
+    "nome": "Senhor Bom Jesus",
+    "local": "Rio Branco",
+    "ano": "1968"
+   },
+   {
+    "nome": "São José",
+    "local": "Rio do Sul",
+    "ano": "1958"
+   },
+   {
+    "nome": "São Pedro e São Paulo",
+    "local": "São Paulo dos Pinheiros",
+    "ano": "1933"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Rio do Ouro",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora da Glória",
+    "local": "Santa Maria",
+    "ano": "1927"
+   },
+   {
+    "nome": "São Francisco de Sales",
+    "local": "Maracujá",
+    "ano": "1910"
+   },
+   {
+    "nome": "Santa Bárbara",
+    "local": "Rio da Prata",
+    "ano": ""
+   },
+   {
+    "nome": "São Domingos",
+    "local": "São Domingos",
+    "ano": ""
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Varginha",
+    "ano": "1907"
+   },
+   {
+    "nome": "Matriz: São Sebastião",
+    "local": "Centro",
+    "ano": "1951"
+   }
+  ],
+  "sobre": [
+   "(Criada a 20 de janeiro de 1951)",
+   "Pároco: Pe. Tiago Vicente Santana"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-vicente-de-paulo",
+  "nome": "Paróquia São Vicente de Paulo",
+  "forania": "Forania Itajaí",
+  "endereco": "Rua Estefano José Vanolli, 1029, São Vicente – 88309-203 – Itajaí – SC",
+  "comunidades": [
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Lot. Copas do Vale",
+    "ano": "2011"
+   },
+   {
+    "nome": "Divino Espírito Santo",
+    "local": "Bambuzal",
+    "ano": "2005"
+   },
+   {
+    "nome": "São Lourenço",
+    "local": "Cidade Nova",
+    "ano": "1995"
+   },
+   {
+    "nome": "Santa Clara de Assis",
+    "local": "Rio bonito",
+    "ano": "1995"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Cidade Nova",
+    "ano": "1991"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Cidade Nova",
+    "ano": "1989"
+   },
+   {
+    "nome": "Matriz: São Vicente de Paulo",
+    "local": "São Vicente",
+    "ano": "1953"
+   }
+  ],
+  "sobre": [
+   "(Criada a 13 de janeiro de 1990)",
+   "Pároco: Pe. André Gonzaga"
+  ]
+ },
+ {
+  "slug": "paroquia-sao-virgilio",
+  "nome": "Paróquia São Virgílio",
+  "forania": "Forania Tijucas",
+  "endereco": "Rua Santo Inácio, 170 Centro88270-000 Nova Trento – SC",
+  "comunidades": [
+   {
+    "nome": "Nossa Senhora de Guadalupe",
+    "local": "Trinta Réis",
+    "ano": "2012"
+   },
+   {
+    "nome": "São Francisco de Assis",
+    "local": "Bairro Mato Queimado",
+    "ano": "1998"
+   },
+   {
+    "nome": "São Cristóvão",
+    "local": "Oito Casas",
+    "ano": "1989"
+   },
+   {
+    "nome": "São Cristóvão e N. Sra. do Perpétuo Socorro",
+    "local": "Ponta Fina Sul",
+    "ano": "1986"
+   },
+   {
+    "nome": "Nossa Senhora de Fátima",
+    "local": "Espraiado de Claraíba",
+    "ano": "1983"
+   },
+   {
+    "nome": "Santo Isidoro",
+    "local": "Serraval",
+    "ano": "1962"
+   },
+   {
+    "nome": "Santos Mártires das Missões",
+    "local": "Ribeirão Frederico",
+    "ano": "1957"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Ribeirão Bonito",
+    "ano": "1956"
+   },
+   {
+    "nome": "São João Batista",
+    "local": "Calvário/Bairro Trinta Réis",
+    "ano": "1955"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Lajeado",
+    "ano": "1955"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Baixo Pitanga",
+    "ano": "1947"
+   },
+   {
+    "nome": "Nossa Senhora do Rosário",
+    "local": "Trombudo",
+    "ano": "1947"
+   },
+   {
+    "nome": "Santo Estanislau",
+    "local": "Valsugana",
+    "ano": "1947"
+   },
+   {
+    "nome": "São Caetano",
+    "local": "Alto Salto",
+    "ano": "1930"
+   },
+   {
+    "nome": "São Valentin",
+    "local": "São Valentin",
+    "ano": "1929"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "Rio Veado",
+    "ano": "1926"
+   },
+   {
+    "nome": "Santo Inácio de Loyola",
+    "local": "Alto Pitanga",
+    "ano": "1925"
+   },
+   {
+    "nome": "São Francisco Xavier",
+    "local": "Conquista",
+    "ano": "1923"
+   },
+   {
+    "nome": "Santo Antônio",
+    "local": "Baixo Salto",
+    "ano": "1920"
+   },
+   {
+    "nome": "Imaculado Coração de Maria",
+    "local": "Morro da Onça",
+    "ano": "1910"
+   },
+   {
+    "nome": "Santo Antonin",
+    "local": "Ponta Fina Norte",
+    "ano": "1921"
+   },
+   {
+    "nome": "São Paulo",
+    "local": "Aguti",
+    "ano": "1920"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Ferreira Viana",
+    "ano": "1914"
+   },
+   {
+    "nome": "Santo Anjo da Guarda",
+    "local": "Indaiá",
+    "ano": "1909"
+   },
+   {
+    "nome": "Santuário Nossa Senhora do Bom Socorro",
+    "local": "Morro da Cruz",
+    "ano": "1902"
+   },
+   {
+    "nome": "São Roque",
+    "local": "Rua do Salto",
+    "ano": "1896"
+   },
+   {
+    "nome": "Santa Ágata",
+    "local": "Bairro Besenello",
+    "ano": "1884"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Vígolo",
+    "ano": "1880"
+   },
+   {
+    "nome": "São José",
+    "local": "Claraíba",
+    "ano": "1876"
+   },
+   {
+    "nome": "Matriz: São Virgílio",
+    "local": "Centro",
+    "ano": "1929"
+   }
+  ],
+  "sobre": [
+   "Pároco: Pe. Murilo Guesser"
+  ]
+ },
+ {
+  "slug": "paroquia-senhor-bom-jesus-2",
+  "nome": "Paróquia Senhor Bom Jesus",
+  "forania": "Forania Tijucas",
+  "endereco": "Rua Pedro Gomes, 164 – Centro88260-000 Major Gercino – SC",
+  "comunidades": [
+   {
+    "nome": "Madre Paulina",
+    "local": "Canta Galo",
+    "ano": ""
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Rio Teófilo",
+    "ano": "1987"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Rio do Alho",
+    "ano": "1958"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Campinho",
+    "ano": "1957"
+   },
+   {
+    "nome": "Santo Aleixo",
+    "local": "Santo Aleixo",
+    "ano": "1954"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Salto de Major",
+    "ano": "1940"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "Boa Esperança",
+    "ano": "1930"
+   },
+   {
+    "nome": "Nossa Senhora da Candelária",
+    "local": "Nova Galícia",
+    "ano": "1923"
+   },
+   {
+    "nome": "Nossa Senhora de Monte Claro",
+    "local": "Pinheiral",
+    "ano": "1915"
+   },
+   {
+    "nome": "Matriz: Senhor Bom Jesus",
+    "local": "Centro",
+    "ano": "1881"
+   }
+  ],
+  "sobre": [
+   "(Criada a 29 de janeiro de 1993)",
+   "Pároco:  Pe. Francisco Gesser"
+  ]
+ },
+ {
+  "slug": "paroquia-senhor-bom-jesus-de-nazare",
+  "nome": "Paróquia Senhor Bom Jesus de Nazaré",
+  "forania": "Forania Palhoça",
+  "endereco": "Av. Barão do Rio Branco, 203 Centro; 88130-101 Palhoça – SC",
+  "comunidades": [
+   {
+    "nome": "Santa Teresinha do Menino Jesus",
+    "local": "",
+    "ano": "2019"
+   },
+   {
+    "nome": "Nossa Senhora das Graças",
+    "local": "Morro do Gato",
+    "ano": "2013"
+   },
+   {
+    "nome": "Sagrada Família",
+    "local": "Pedra Branca",
+    "ano": "2014"
+   },
+   {
+    "nome": "Sagrado Coração de Jesus",
+    "local": "(Bocão) São Sebastião",
+    "ano": "2012"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "(Gruta) Bela Vista",
+    "ano": "2009"
+   },
+   {
+    "nome": "Santa Rita de Cássia",
+    "local": "Madri",
+    "ano": "2005"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Belmar",
+    "ano": "2002"
+   },
+   {
+    "nome": "Sant’Ana",
+    "local": "Caminho Novo",
+    "ano": "1982"
+   },
+   {
+    "nome": "Santa Luzia",
+    "local": "Fazenda Pedra Branca",
+    "ano": "1982"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Rio Grande",
+    "ano": "1975"
+   },
+   {
+    "nome": "São Tomé",
+    "local": "Passa Vinte",
+    "ano": "1986"
+   },
+   {
+    "nome": "São José Operário",
+    "local": "Bela Vista",
+    "ano": "1966"
+   },
+   {
+    "nome": "São Sebastião",
+    "local": "São Sebastião",
+    "ano": "1922"
+   },
+   {
+    "nome": "Nossa Senhora do Parto",
+    "local": "Centro",
+    "ano": "1863"
+   },
+   {
+    "nome": "Matriz: Senhor Bom Jesus de Nazaré",
+    "local": "Centro",
+    "ano": "1868"
+   }
+  ],
+  "sobre": [
+   "(Criada a 3 de maio de 1921)",
+   "Pároco: Pe. Leandro José Rech"
+  ]
+ },
+ {
+  "slug": "paroquia-senhor-bom-jesus-dos-aflitos",
+  "nome": "Paróquia Senhor Bom Jesus dos Aflitos",
+  "forania": "Forania Itapema",
+  "endereco": "Av. Governador Celso Ramos, 1445 – Centro; 88210-000 Porto Belo – SC – Caixa Postal 82",
+  "comunidades": [
+   {
+    "nome": "Sagrada Família",
+    "local": "Jardim Dourado",
+    "ano": "2005"
+   },
+   {
+    "nome": "Santa Catarina de Alexandria",
+    "local": "Alto Perequê",
+    "ano": "1987"
+   },
+   {
+    "nome": "Nossa Senhora de Lourdes",
+    "local": "Perequê",
+    "ano": "1976"
+   },
+   {
+    "nome": "Santa Terezinha",
+    "local": "Araçá",
+    "ano": "1952"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Sertão de Santa Luzia",
+    "ano": "1957"
+   },
+   {
+    "nome": "Matriz: Senhor Bom Jesus dos Aflitos",
+    "local": "Centro",
+    "ano": "1824"
+   }
+  ],
+  "sobre": [
+   "(Criada a 18 de dezembro de 1824)",
+   "Pároco:  Pe. Dyego Delfino"
+  ]
+ },
+ {
+  "slug": "paroquia-senhor-bom-jesus",
+  "nome": "Paróquia Senhor Bom Jesus",
+  "forania": "Forania Camboriú",
+  "endereco": "Rua Monte Neblina, 448 - Bairro Monte Alegre - CEP 88348-441 - Camboriú - SC",
+  "comunidades": [
+   {
+    "nome": "São João Paulo II",
+    "local": "Jardim Aliança",
+    "ano": "2016"
+   },
+   {
+    "nome": "Santa Paulina",
+    "local": "Jardim Bela Vista",
+    "ano": "2007"
+   },
+   {
+    "nome": "Santa Bárbara",
+    "local": "Conde Vila Verde",
+    "ano": "1989"
+   },
+   {
+    "nome": "Nossa Senhora Aparecida",
+    "local": "Tabuleiro",
+    "ano": "1976"
+   },
+   {
+    "nome": "São Roque",
+    "local": "Várzea do Ranchinho",
+    "ano": "1957"
+   },
+   {
+    "nome": "Matriz: Senhor Bom Jesus",
+    "local": "Monte Alegre",
+    "ano": "1977"
+   }
+  ],
+  "sobre": [
+   "(Criada a 6 de agosto de 2008)",
+   "Pároco:  Pe. Guilherme dos Santos"
+  ]
+ },
+ {
+  "slug": "reitoria-da-igreja-santa-catarina-de-alexandria",
+  "nome": "Reitoria da Igreja Santa Catarina de Alexandria",
+  "forania": "Forania Florianópolis - Centro- Sul",
+  "endereco": "Rua Esteves Júnior, 711 Centro88015-130 Florianópolis – SC – Caixa Postal  135/88010-970",
+  "comunidades": [],
+  "sobre": [
+   "Reitoria da Igreja Santa Catarina de Alexandria - Arquidiocese de Florianópolis",
+   "Reitoria da Igreja Santa Catarina de Alexandria",
+   "(Criada a 31 de março de 1985)",
+   "Reitor: Pe. Eduardo Roberto Severino, SJ"
+  ]
+ },
+ {
+  "slug": "santuario-santa-paulina",
+  "nome": "Santuário Santa Paulina",
+  "forania": "Forania Tijucas",
+  "endereco": "Rua Madre Paulina, 3.850 Vígolo88270-000 Nova Trento – SC – Caixa Postal 12",
+  "comunidades": [],
+  "sobre": [
+   "(Criada a 5 de junho de 1998)",
+   "Reitor: Pe. Presentino Rovani, MS",
+   "Capelão Especial: Pe. Alfredo Celestrino dos Santos, MS/ Pe. Isidro Augusto Pereira, MS"
+  ]
+ }
+]

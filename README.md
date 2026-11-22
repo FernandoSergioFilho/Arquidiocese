@@ -1,19 +1,27 @@
 # Mapa das Paróquias — Arquidiocese de Florianópolis
 
-Mapa interativo (estilo apuração de eleição) dos bairros da Ilha de Santa Catarina, coloridos por paróquia e por forania.
+Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas as igrejas e comunidades da Arquidiocese de Florianópolis.
 
-- `dados/paroquias_site.json` — paróquias e comunidades lidas do site arquifln.org.br (21/11/2026).
-- `dados/localidades_bairros.json` — localidade de cada comunidade → bairro do IBGE (feito à mão; `null` = não identificado). Corrigir aqui.
-- `dados/paroquias.json` — hierarquia gerada (forania → paróquia → comunidades com bairro).
-- `dados/bairros_ilha.geojson` — bairros da Ilha (IBGE, Censo 2022) com a paróquia atribuída.
-- `mapa/index.src.html` — página; `mapa/index.html` é gerado com o CSS do Leaflet embutido.
-- `scripts/montar_dados.py <bairros.gpkg> <municipios_sc.geojson>` → gera `mapa/dados.json`.
-- `scripts/montar_pagina.py <leaflet.css>` → gera `mapa/index.html`.
+## Como gerar
+1. `python scripts/geocodificar_arquidiocese.py` — consulta o Nominatim (OpenStreetMap) e guarda tudo em `dados/arquidiocese/geocache.json` (pode ser interrompido e retomado).
+2. `python scripts/montar_dados.py <bairros.gpkg> <municipios_sc.geojson>` — Ilha de Santa Catarina (bairros do IBGE, conferência manual).
+3. `python scripts/montar_arquidiocese.py <bairros.gpkg> <municipios_sc.geojson>` — junta a Ilha com o resto da Arquidiocese e gera `mapa/dados.json`.
+4. `python scripts/montar_pagina.py <leaflet.css>` — gera `mapa/index.html` a partir de `mapa/index.src.html`.
 
-Fontes: malha de bairros do IBGE (via catarinacm/pickup-points-florianopolis), municípios de SC (tbrugz/geodata-br), paróquias e comunidades do site arquifln.org.br.
-Situação de cada bairro: `matriz`/`comunidade` = confirmado; `estimado` = herda a paróquia confirmada mais próxima por vizinhança.
+## Dados
+- `dados/arquidiocese/paroquias_site.json` — 83 páginas de paróquias, capelanias, reitoria e santuário do site arquifln.org.br (lidas em 21/11/2026).
+- `dados/arquidiocese/foranias_links.txt` — paróquias listadas em cada página de forania.
+- `dados/arquidiocese/hierarquia.json` — hierarquia final (forania → paróquia → igrejas, com posição).
+- `dados/paroquias_site.json`, `dados/localidades_bairros.json`, `dados/coordenadas_igrejas.json` — Ilha, com correspondências conferidas uma a uma.
+
+## Como as áreas são desenhadas
+- Florianópolis (Ilha e Continente): bairros oficiais do IBGE (Censo 2022), pintados pela paróquia da igreja que fica no bairro; sem igreja, herda do bairro vizinho ("estimado").
+- Demais municípios: o site não publica limites de paróquia. A área de cada paróquia é aproximada pelas regiões mais próximas das suas igrejas (Voronoi), recortadas pelo limite do município (OpenStreetMap).
 
 ## Posição das igrejas
-- `dados/coordenadas_igrejas.json` — posição de 51 igrejas, conferidas uma a uma contra o OpenStreetMap (via Nominatim) pelo nome e bairro; a matriz Santa Teresinha foi posicionada pelo endereço. As demais aparecem em posição aproximada dentro do bairro.
-- `dados/igrejas_osm.json` — locais de culto católicos (ou sem denominação) do OpenStreetMap na Ilha, coletados em 21/11/2026 (© colaboradores do OpenStreetMap, ODbL).
-- `scripts/coletar_igrejas_osm.py` e `scripts/sugerir_correspondencias_osm.py` — coleta e sugestão de correspondências (a decisão final é manual).
+- `osm`: igreja encontrada no OpenStreetMap pelo nome, perto da localidade informada pelo site.
+- `endereco`: matriz posicionada pelo endereço da paróquia.
+- `localidade`: centro da localidade (bairro, vila) informada pelo site.
+- `aprox`: localidade não encontrada; marcador perto da matriz.
+
+Fontes: Arquidiocese de Florianópolis; IBGE; © colaboradores do OpenStreetMap (ODbL).
