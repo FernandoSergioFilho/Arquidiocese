@@ -31,3 +31,5 @@ Fontes: Arquidiocese de Florianópolis; IBGE; © colaboradores do OpenStreetMap 
 - `testes/teste_navegador.js` — abre a página (Playwright) e seleciona cada paróquia, cada igreja, cada área e cada forania, conferindo painel, janelas e para onde o mapa vai.
 - Regras de posição: localidade só vale se o resultado tiver o mesmo nome e estiver no mesmo município; endereço só vale se a rua e a cidade baterem; igreja do OSM só com o nome na mesma ordem, perto da localidade (ou única no município, quando o nome também é único entre as comunidades do município); cada igreja do OSM serve a uma comunidade só.
 - `dados/arquidiocese/correcoes.json` — posições conferidas à mão.
+- `scripts/baixar_cnefe.py` — estabelecimentos religiosos do CNEFE 2022 (IBGE) nos municípios da Arquidiocese (`dados/arquidiocese/cnefe_religiosos.json`). Usados por nome + localidade, nome único no município (conferido pela distância) ou "única igreja da localidade".
+- `scripts/ler_sites_paroquias.py`, `scripts/enderecos_dos_sites.py`, `scripts/geocodificar_enderecos_sites.py` — endereços publicados nos sites das paróquias.

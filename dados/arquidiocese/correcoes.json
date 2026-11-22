@@ -19,6 +19,12 @@
    "posicao": "osm",
    "nome_osm": "Igreja de São Sebastião",
    "fonte": "OSM: Igreja de São Sebastião, Anitápolis"
+  },
+  "sagrado-coracao|Santa Cruz e Santo Antônio|Praia do Saquinho": {
+   "lat": -27.80525,
+   "lng": -48.537337,
+   "posicao": "cnefe",
+   "fonte": "CNEFE 2022: COMUNIDADE DE SANTA CRUZ E SANTO ANTONIO PAROQUIA NOSSA SENHORA DA LAPA, TRILHA DO SAQUINHO, PANTANO DO SUL"
   }
  }
 }

@@ -138,7 +138,11 @@
        "local": "Tapera da Barra do Sul",
        "ano": "1982",
        "bairro": "Tapera da Barra do Sul",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.787087,
+       "lng": -48.56471,
+       "posicao": "cnefe",
+       "cnefe": "IGREJA BOM JESUS DOS PESCADORES · RODOVIA BALDICERO FILOMENO, 16331 · TAPERA DO RIBEIRAO (nome (único no município))"
       },
       {
        "nome": "Nossa Senhora da Lapa",
@@ -153,10 +157,11 @@
        "ano": "1926",
        "bairro": "Tapera da Base",
        "matriz": false,
-       "lat": -27.684746,
-       "lng": -48.566528,
-       "posicao": "rua",
-       "endereco_site": "Rua Bernardino João Damázio, 118"
+       "lat": -27.684638,
+       "lng": -48.566931,
+       "posicao": "cnefe",
+       "endereco_site": "Rua Bernardino João Damázio, 118",
+       "cnefe": "CAPELA NOSSA SRA DE FATIMA E SAO LUCAS · RUA BERNARDINO JOAO DAMAZIO, 118 · TAPERA DA BASE (nome e localidade)"
       },
       {
        "nome": "Nossa Senhora de Lourdes",
@@ -186,10 +191,11 @@
        "ano": null,
        "bairro": null,
        "matriz": false,
-       "lat": -27.694897,
-       "lng": -48.550077,
-       "posicao": "localidade",
-       "local_osm": "Pedregal (neighbourhood)"
+       "lat": -27.694447,
+       "lng": -48.550939,
+       "posicao": "cnefe",
+       "local_osm": "Pedregal (neighbourhood)",
+       "cnefe": "IGREJA · RUA JOSE OLIMPIO DA SILVA · PEDREGAL (única igreja da localidade)"
       },
       {
        "nome": "Santo Estevão",
@@ -518,7 +524,11 @@
        "local": "Praia do Saquinho",
        "ano": null,
        "bairro": "Pântano do Sul",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.80525,
+       "lng": -48.537337,
+       "posicao": "cnefe",
+       "cnefe": "COMUNIDADE DE SANTA CRUZ E SANTO ANTONIO PAROQUIA NOSSA SENHORA DA LAPA, TRILHA DO SAQUINHO, PANTANO DO SUL"
       },
       {
        "nome": "Sant’Ana e São Joaquim",
@@ -851,7 +861,11 @@
        "local": "Jurerê",
        "ano": "1987",
        "bairro": "Jurerê",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.450973,
+       "lng": -48.487302,
+       "posicao": "cnefe",
+       "cnefe": "IGREJA CATOLICA NOSSA SENHORA APARECIDA · RUA JURERE TRADICIONAL · JURERE (nome e localidade)"
       },
       {
        "nome": "Nossa Senhora dos Remédios",
@@ -869,7 +883,11 @@
        "local": "Daniela",
        "ano": "1988",
        "bairro": "Daniela",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.448193,
+       "lng": -48.530044,
+       "posicao": "cnefe",
+       "cnefe": "IGREJA CATOLICA · AVENIDA DAS PALMEIRAS, 786 · DANIELA (única igreja da localidade)"
       },
       {
        "nome": "Santa Cruz",
@@ -928,7 +946,11 @@
        "local": "Vargem Grande II (Tican)",
        "ano": "2002",
        "bairro": "Vargem Grande",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.449389,
+       "lng": -48.450804,
+       "posicao": "cnefe",
+       "cnefe": "IGREJA CATOLICA SAO PAULO APOSTOLO · SERVIDAO ERNANI SOUZA · VARGEM GRANDE (nome e localidade)"
       },
       {
        "nome": "São Pedro",
@@ -1503,10 +1525,11 @@
        "local": "Flamenguinho",
        "ano": "2017",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.591914,
-       "lng": -48.593593,
-       "regiao": "Coloninha",
+       "posicao": "cnefe",
+       "lat": -27.595454,
+       "lng": -48.598104,
+       "cnefe": "ORATORIO FESTIVO SAO LUIS ORIONE · SERVIDAO ATAIR HAMMES · CAPOEIRAS (nome (único no município))",
+       "regiao": "Capoeiras",
        "municipio": "Florianópolis"
       }
      ],
@@ -1788,8 +1811,8 @@
        "ano": "2017",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.589227,
-       "lng": -48.637977,
+       "lat": -27.590701,
+       "lng": -48.638679,
        "municipio": "São José"
       },
       {
@@ -1819,9 +1842,10 @@
        "local": "P. R. Lisboa",
        "ano": "2002",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.599295,
-       "lng": -48.631135,
+       "posicao": "cnefe",
+       "lat": -27.582751,
+       "lng": -48.668282,
+       "cnefe": "CAPELA NOSSA SENHORA DE FATIMA · RUA COIMBRA · LISBOA (nome e localidade)",
        "municipio": "São José"
       },
       {
@@ -1830,8 +1854,8 @@
        "ano": "1967",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.608178,
-       "lng": -48.639815,
+       "lat": -27.605139,
+       "lng": -48.636657,
        "municipio": "São José"
       },
       {
@@ -1839,10 +1863,11 @@
        "local": "Picadas do Sul",
        "ano": "1983",
        "matriz": false,
-       "lat": -27.6095,
-       "lng": -48.6446,
-       "posicao": "localidade",
+       "lat": -27.609609,
+       "lng": -48.64789,
+       "posicao": "cnefe",
        "local_osm": "Picadas do Sul (suburb)",
+       "cnefe": "IGREJA SANTA ISABEL · RUA MADRE PAULINA · PICADAS DO SUL (nome e localidade)",
        "municipio": "São José"
       },
       {
@@ -1851,8 +1876,8 @@
        "ano": "1925",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.603601,
-       "lng": -48.652022,
+       "lat": -27.599474,
+       "lng": -48.651765,
        "municipio": "São José"
       },
       {
@@ -1860,9 +1885,10 @@
        "local": "Ciniro Martins",
        "ano": null,
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.591888,
-       "lng": -48.650886,
+       "posicao": "cnefe",
+       "lat": -27.575863,
+       "lng": -48.664573,
+       "cnefe": "CAPELA SAO SEBASTIAO · RUA OSVALDO EMIDIO DA SILVA · FORQUILHAS (nome (único no município))",
        "municipio": "São José"
       }
      ],
@@ -2090,9 +2116,10 @@
        "local": "Arruda",
        "ano": "2011",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.548205,
-       "lng": -48.621574,
+       "posicao": "cnefe",
+       "lat": -27.54963,
+       "lng": -48.661382,
+       "cnefe": "COMUNIDADE BOM PASTOR · RUA ACELINO PEREIRA · POTECAS (nome (único no município))",
        "municipio": "São José"
       },
       {
@@ -2111,9 +2138,10 @@
        "local": "Sueli",
        "ano": "1977",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.562643,
-       "lng": -48.619552,
+       "posicao": "cnefe",
+       "lat": -27.548439,
+       "lng": -48.622504,
+       "cnefe": "IGREJA CATOLICA SAO JOSE OPERARIO · RUA SAO JOSE OPERARIO · SERRARIA (nome (único no município))",
        "municipio": "São José"
       },
       {
@@ -2133,8 +2161,8 @@
        "ano": "1975",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.556978,
-       "lng": -48.63466,
+       "lat": -27.549679,
+       "lng": -48.622277,
        "municipio": "São José"
       }
      ],
@@ -2438,11 +2466,12 @@
        "local": "Barreiros",
        "ano": "1912",
        "matriz": false,
-       "lat": -27.5685,
-       "lng": -48.6083,
-       "posicao": "rua",
+       "lat": -27.557207,
+       "lng": -48.618105,
+       "posicao": "cnefe",
        "local_osm": "Barreiros (village)",
        "endereco_site": "Rua Heriberto Hulse, S/N",
+       "cnefe": "IGREJA NOSSASENHORA DE LOURDES · RUA HERIBERTO HULSE · BARREIROS (nome e localidade)",
        "municipio": "São José"
       },
       {
@@ -2450,11 +2479,12 @@
        "local": "Pedregal",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.572,
-       "lng": -48.6433,
-       "posicao": "rua",
+       "lat": -27.572418,
+       "lng": -48.642989,
+       "posicao": "cnefe",
        "local_osm": "Pedregal (suburb)",
        "endereco_site": "Rua Santa Maria dos Anjos (Rua 87), 3098 – Pedregal",
+       "cnefe": "IGREJA CATOLICA · RUA SANTA MARIA DOS ANJOS, 3098 · PEDREGAL (única igreja da localidade)",
        "municipio": "São José"
       },
       {
@@ -2526,8 +2556,8 @@
        "ano": "2015",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.453634,
-       "lng": -48.69331,
+       "lat": -27.455108,
+       "lng": -48.694012,
        "municipio": "Biguaçu"
       },
       {
@@ -2547,8 +2577,8 @@
        "ano": "1944",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.463702,
-       "lng": -48.686468,
+       "lat": -27.469546,
+       "lng": -48.69199,
        "municipio": "Biguaçu"
       },
       {
@@ -2556,9 +2586,10 @@
        "local": "Jardim Bom Viver",
        "ano": "1998",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.472585,
-       "lng": -48.695148,
+       "posicao": "cnefe",
+       "lat": -27.537682,
+       "lng": -48.646795,
+       "cnefe": "NOSSA SENHORA RAINHA DA PAZ · RUA EDILAR ANGELO VALTER · BOM VIVER (nome e localidade)",
        "municipio": "Biguaçu"
       },
       {
@@ -2577,10 +2608,11 @@
        "local": "Fazenda de Dentro",
        "ano": "1965",
        "matriz": false,
-       "lat": -27.4095,
-       "lng": -48.7186,
-       "posicao": "localidade",
+       "lat": -27.412702,
+       "lng": -48.718512,
+       "posicao": "cnefe",
        "local_osm": "Fazenda de Dentro (hamlet)",
+       "cnefe": "IGREJA CATOLICA · ESTRADA FAZENDA DE DENTRO · FAZENDA DE DENTRO (única igreja da localidade)",
        "municipio": "Biguaçu"
       },
       {
@@ -2610,9 +2642,10 @@
        "local": "São Marcos",
        "ano": "1968",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.468008,
-       "lng": -48.707355,
+       "posicao": "cnefe",
+       "lat": -27.445329,
+       "lng": -48.77701,
+       "cnefe": "IGREJA SAO MARCOS · RUA PEDRO PEREIRA · SAO MARCOS (nome e localidade)",
        "municipio": "Biguaçu"
       },
       {
@@ -2632,8 +2665,8 @@
        "ano": "1954",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.456295,
-       "lng": -48.706219,
+       "lat": -27.463881,
+       "lng": -48.707098,
        "municipio": "Biguaçu"
       },
       {
@@ -2700,10 +2733,11 @@
        "local": "Jardim Anápolis",
        "ano": "2004",
        "matriz": false,
-       "posicao": "rua",
-       "lat": -27.4776,
-       "lng": -48.6608,
+       "posicao": "cnefe",
+       "lat": -27.481162,
+       "lng": -48.660765,
        "endereco_site": "Rua João Paulo de Souza, s/n – Prado – Biguaçu – SC- 88165-138",
+       "cnefe": "CAPELA CRISTO REDENTOR · RUA JOAO JOAQUIM CARDOSO · MORRO DO IVO (nome (único no município))",
        "municipio": "Biguaçu"
       },
       {
@@ -2723,9 +2757,10 @@
        "local": "Praia do João Rosa",
        "ano": "1984",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.486641,
-       "lng": -48.65121,
+       "posicao": "cnefe",
+       "lat": -27.508053,
+       "lng": -48.641358,
+       "cnefe": "IGREJA NOSSA SRA DOS NAVEGANTES · RUA 17 DE MAIO · RIO CAVEIRAS (nome (único no município))",
        "municipio": "Biguaçu"
       },
       {
@@ -2756,8 +2791,8 @@
        "ano": "1912",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.498698,
-       "lng": -48.645696,
+       "lat": -27.487378,
+       "lng": -48.651561,
        "municipio": "Biguaçu"
       },
       {
@@ -2766,8 +2801,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.503589,
-       "lng": -48.659288,
+       "lat": -27.501816,
+       "lng": -48.649539,
        "municipio": "Biguaçu"
       },
       {
@@ -2776,8 +2811,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.491532,
-       "lng": -48.664802,
+       "lat": -27.496151,
+       "lng": -48.664647,
        "municipio": "Biguaçu"
       },
       {
@@ -2785,10 +2820,11 @@
        "local": "Cachoeira",
        "ano": "1927",
        "matriz": false,
-       "posicao": "rua",
-       "lat": -27.4032,
-       "lng": -48.635,
+       "posicao": "cnefe",
+       "lat": -27.403884,
+       "lng": -48.630705,
        "endereco_site": "Rua Bertoldo Machado, 239 – Tijuquinhas – Biguaçu – SC- 88168-512",
+       "cnefe": "IGREJA CATOLICA SANTO ANTONIO · RUA BERTOLDO MACHADO · TIJUQUINHAS (nome (único no município))",
        "municipio": "Biguaçu"
       },
       {
@@ -2807,7 +2843,7 @@
        "local": "Fazenda de Dentro",
        "ano": "1965",
        "matriz": false,
-       "lat": -27.4135,
+       "lat": -27.4115,
        "lng": -48.7186,
        "posicao": "localidade",
        "local_osm": "Fazenda de Dentro (hamlet)",
@@ -2954,10 +2990,11 @@
        "local": "Enseada de Brito",
        "ano": "1988",
        "matriz": false,
-       "lat": -27.7718,
-       "lng": -48.6332,
-       "posicao": "localidade",
+       "lat": -27.787392,
+       "lng": -48.634526,
+       "posicao": "cnefe",
        "local_osm": "Enseada de Brito (suburb)",
+       "cnefe": "GRUTA N S DE LOURDES · RUA MANOEL ANTONIO LIMA · ENSEADA DE BRITO (nome e localidade)",
        "municipio": "Palhoça"
       },
       {
@@ -2965,10 +3002,11 @@
        "local": "Enseada de Brito",
        "ano": "1949",
        "matriz": false,
-       "lat": -27.7758,
-       "lng": -48.6332,
-       "posicao": "localidade",
+       "lat": -27.771367,
+       "lng": -48.631874,
+       "posicao": "cnefe",
        "local_osm": "Enseada de Brito (suburb)",
+       "cnefe": "CAPELA SAO JUDAS TADEU · RUA NOSSA SENHORA DO ROSARIO · ENSEADA DE BRITO (nome e localidade)",
        "municipio": "Palhoça"
       },
       {
@@ -2988,8 +3026,8 @@
        "ano": "1963",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.771021,
-       "lng": -48.629793,
+       "lat": -27.771758,
+       "lng": -48.630144,
        "municipio": "Palhoça"
       },
       {
@@ -3030,9 +3068,10 @@
        "local": "Massiambú Pequeno",
        "ano": "1910",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.783078,
-       "lng": -48.624279,
+       "posicao": "cnefe",
+       "lat": -27.834399,
+       "lng": -48.649108,
+       "cnefe": "IGREJA SANTA CRUZ · ESTRADA DO MASSIAMBU · MACIAMBU (nome (único no município))",
        "municipio": "Palhoça"
       },
       {
@@ -3063,8 +3102,8 @@
        "ano": "1996",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.787969,
-       "lng": -48.637871,
+       "lat": -27.786196,
+       "lng": -48.628122,
        "municipio": "Palhoça"
       },
       {
@@ -3084,8 +3123,8 @@
        "ano": "2002",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.775912,
-       "lng": -48.643385,
+       "lat": -27.780531,
+       "lng": -48.64323,
        "municipio": "Palhoça"
       },
       {
@@ -3342,9 +3381,10 @@
        "local": "Gruta do Aririú",
        "ano": "1958",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.662504,
-       "lng": -48.67336,
+       "posicao": "cnefe",
+       "lat": -27.683563,
+       "lng": -48.695126,
+       "cnefe": "GRUTA NOSSA SENHORA DE FATIMA · RUA NOSSA SENHORA DE FATIMA · ARIRIU (nome e localidade)",
        "municipio": "Palhoça"
       },
       {
@@ -3386,8 +3426,8 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.674561,
-       "lng": -48.667846,
+       "lat": -27.663241,
+       "lng": -48.673711,
        "municipio": "Palhoça"
       },
       {
@@ -3407,8 +3447,8 @@
        "ano": "1997",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.679452,
-       "lng": -48.681438,
+       "lat": -27.677679,
+       "lng": -48.671689,
        "municipio": "Palhoça"
       },
       {
@@ -3428,8 +3468,8 @@
        "ano": "1989",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.667395,
-       "lng": -48.686952,
+       "lat": -27.672014,
+       "lng": -48.686797,
        "municipio": "Palhoça"
       },
       {
@@ -3437,10 +3477,11 @@
        "local": "Pachecos",
        "ano": "1985",
        "matriz": false,
-       "lat": -27.6751,
-       "lng": -48.67,
-       "posicao": "localidade",
+       "lat": -27.680419,
+       "lng": -48.667825,
+       "posicao": "cnefe",
        "local_osm": "Pachecos (suburb)",
+       "cnefe": "IGREJA SAO PEDRO · RUA NELSON FLORIANO CAMPOS · PACHECO (nome (único no município))",
        "municipio": "Palhoça"
       }
      ],
@@ -3485,10 +3526,11 @@
        "local": "Limpa",
        "ano": "1986",
        "matriz": false,
-       "lat": -28.1054,
-       "lng": -48.6609,
-       "posicao": "localidade",
+       "lat": -28.102341,
+       "lng": -48.661981,
+       "posicao": "cnefe",
        "local_osm": "Limpa (suburb)",
+       "cnefe": "IGREJA CRISTO REI · SERVIDAO CASAN 394 · LIMPA (nome e localidade)",
        "municipio": "Garopaba"
       },
       {
@@ -3559,10 +3601,11 @@
        "local": "Ambrósio",
        "ano": "1997",
        "matriz": false,
-       "lat": -28.03,
-       "lng": -48.6455,
-       "posicao": "localidade",
+       "lat": -28.033414,
+       "lng": -48.637635,
+       "posicao": "cnefe",
        "local_osm": "Ambrósio (suburb)",
+       "cnefe": "CAPELA SAGRADO CORACAO DE JESUS · RUA NICOLAU MANOEL DE ABREU · AMBROSIO (nome e localidade)",
        "municipio": "Garopaba"
       },
       {
@@ -3777,10 +3820,11 @@
        "local": "Frei Damião",
        "ano": "2005",
        "matriz": false,
-       "lat": -27.6136,
-       "lng": -48.6661,
-       "posicao": "localidade",
+       "lat": -27.611433,
+       "lng": -48.668227,
+       "posicao": "cnefe",
        "local_osm": "Vila Frei Damião (neighbourhood)",
+       "cnefe": "CAPELA SAO JOSE · RUA AVENIDA DAS PALMEIRAS · FREI DAMIAO (nome e localidade)",
        "municipio": "Palhoça"
       }
      ],
@@ -3884,10 +3928,11 @@
        "local": "Pedra Branca",
        "ano": "2014",
        "matriz": false,
-       "lat": -27.6264,
-       "lng": -48.6832,
-       "posicao": "localidade",
+       "lat": -27.625118,
+       "lng": -48.67745,
+       "posicao": "cnefe",
        "local_osm": "Cidade Universitária Pedra Branca (suburb)",
+       "cnefe": "CENTRO PASTORAL COMUNIDADE SAGRADA FAMILIA · RUA DOS BEM TE VIS · PEDRA BRANCA (nome e localidade)",
        "municipio": "Palhoça"
       },
       {
@@ -3925,10 +3970,11 @@
        "local": "Madri",
        "ano": "2005",
        "matriz": false,
-       "lat": -27.6418,
-       "lng": -48.6988,
-       "posicao": "localidade",
+       "lat": -27.643512,
+       "lng": -48.691118,
+       "posicao": "cnefe",
        "local_osm": "Madri (suburb)",
+       "cnefe": "IGREJA SANTA RITA DE CASSIA · RUA DAS ACACIAS MIMOSAS, 65 · MADRI (nome e localidade)",
        "municipio": "Palhoça"
       },
       {
@@ -4024,8 +4070,8 @@
        "ano": "1920",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.572089,
-       "lng": -48.977987,
+       "lat": -27.572826,
+       "lng": -48.978338,
        "municipio": "Angelina"
       },
       {
@@ -4034,8 +4080,8 @@
        "ano": "1946",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.578848,
-       "lng": -48.970477,
+       "lat": -27.58038,
+       "lng": -48.970838,
        "municipio": "Angelina"
       },
       {
@@ -4055,8 +4101,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.588339,
-       "lng": -48.970555,
+       "lat": -27.590291,
+       "lng": -48.972821,
        "municipio": "Angelina"
       },
       {
@@ -4065,8 +4111,8 @@
        "ano": "1977",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.595,
-       "lng": -48.978176,
+       "lat": -27.595096,
+       "lng": -48.982793,
        "municipio": "Angelina"
       },
       {
@@ -4086,8 +4132,8 @@
        "ano": "1980",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.594931,
-       "lng": -48.988875,
+       "lat": -27.591176,
+       "lng": -48.993246,
        "municipio": "Angelina"
       },
       {
@@ -4107,8 +4153,8 @@
        "ano": "1945",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.588172,
-       "lng": -48.996385,
+       "lat": -27.581483,
+       "lng": -48.996308,
        "municipio": "Angelina"
       },
       {
@@ -4116,9 +4162,10 @@
        "local": "Morro Mineiro",
        "ano": "1972",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.578681,
-       "lng": -48.996307,
+       "posicao": "cnefe",
+       "lat": -27.538437,
+       "lng": -49.005665,
+       "cnefe": "IGREJA · RODOVIA SC 481 · MORRO MINEIRO (única igreja da localidade)",
        "municipio": "Angelina"
       },
       {
@@ -4127,8 +4174,8 @@
        "ano": "1868",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.57202,
-       "lng": -48.988686,
+       "lat": -27.573317,
+       "lng": -48.989673,
        "municipio": "Angelina"
       },
       {
@@ -4147,10 +4194,11 @@
        "local": "Clara",
        "ano": "1927",
        "matriz": false,
-       "lat": -27.5279,
-       "lng": -49.1265,
-       "posicao": "localidade",
+       "lat": -27.52937,
+       "lng": -49.124055,
+       "posicao": "cnefe",
        "local_osm": "Barra Clara (hamlet)",
+       "cnefe": "IGREJA DE SAO JOSE · PRACA AURA DE SOUZA GOEDERT · BARRA CLARA (nome e localidade)",
        "municipio": "Angelina"
       },
       {
@@ -4352,8 +4400,8 @@
        "ano": "1974",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.677272,
-       "lng": -48.773049,
+       "lat": -27.678009,
+       "lng": -48.7734,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4373,8 +4421,8 @@
        "ano": "1843",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.684031,
-       "lng": -48.765539,
+       "lat": -27.685563,
+       "lng": -48.7659,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4416,8 +4464,8 @@
        "ano": "1963",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.693522,
-       "lng": -48.765617,
+       "lat": -27.695474,
+       "lng": -48.767883,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4425,9 +4473,10 @@
        "local": "Gruta da Varginha",
        "ano": "1954",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.700183,
-       "lng": -48.773238,
+       "posicao": "cnefe",
+       "lat": -27.67192,
+       "lng": -48.786266,
+       "cnefe": "NOSSA SENHORA DE LOURDES · RUA PROCOPIO LOHN · VARGINHA (nome e localidade)",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4458,8 +4507,8 @@
        "ano": "1968",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.700114,
-       "lng": -48.783937,
+       "lat": -27.700279,
+       "lng": -48.777855,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4468,8 +4517,8 @@
        "ano": "1917",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.693355,
-       "lng": -48.791447,
+       "lat": -27.696359,
+       "lng": -48.788308,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4489,8 +4538,8 @@
        "ano": "1862",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.683864,
-       "lng": -48.791369,
+       "lat": -27.686666,
+       "lng": -48.79137,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4510,8 +4559,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.677203,
-       "lng": -48.783748,
+       "lat": -27.6785,
+       "lng": -48.784735,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4622,10 +4671,11 @@
        "local": "Rio Sete",
        "ano": "1961",
        "matriz": false,
-       "lat": -28.0799,
-       "lng": -48.974,
-       "posicao": "localidade",
+       "lat": -28.079311,
+       "lng": -48.974125,
+       "posicao": "cnefe",
        "local_osm": "Rio Sete (hamlet)",
+       "cnefe": "IGREJA · RODOVIA SC 435 · RIO SETE (única igreja da localidade)",
        "municipio": "São Bonifácio"
       },
       {
@@ -4771,6 +4821,7 @@
        "posicao": "osm",
        "lat": -27.9025,
        "lng": -49.12844,
+       "cnefe": "PAROQUIA SAO SEBASTIAO MR UNIDOS EM CRISTO · ESTRADA RIO DA PRATA · RIO DA PRATA (nome (único no município))",
        "nome_osm": "Igreja de São Sebastião",
        "municipio": "Anitápolis"
       },
@@ -4791,8 +4842,8 @@
        "ano": "2017",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.891079,
-       "lng": -49.122996,
+       "lat": -27.894026,
+       "lng": -49.124401,
        "municipio": "Anitápolis"
       },
       {
@@ -4800,9 +4851,10 @@
        "local": "Santa Maria",
        "ano": "1927",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.897838,
-       "lng": -49.115486,
+       "posicao": "cnefe",
+       "lat": -27.941135,
+       "lng": -49.187497,
+       "cnefe": "IGREJA CATOLICA NOSSA SRA DA GLORIA · ESTRADA SANTA MARIA · SANTA MARIA (nome e localidade)",
        "municipio": "Anitápolis"
       },
       {
@@ -4821,9 +4873,10 @@
        "local": "Salto",
        "ano": "1989",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.907329,
-       "lng": -49.115564,
+       "posicao": "cnefe",
+       "lat": -27.902221,
+       "lng": -49.066748,
+       "cnefe": "IGREJA SAGRADO CORACAO DE JESUS · ESTRADA RIO DOS PINHEIROS · RIO BRACO DO NORTE (nome (único no município))",
        "municipio": "Anitápolis"
       },
       {
@@ -4842,9 +4895,10 @@
        "local": "Povoamento Escola",
        "ano": null,
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.91399,
-       "lng": -49.123185,
+       "posicao": "cnefe",
+       "lat": -27.951342,
+       "lng": -49.121548,
+       "cnefe": "IGREJA · ESTRADA GERAL RIO POVOAMENTO · POVOAMENTO (única igreja da localidade)",
        "municipio": "Anitápolis"
       },
       {
@@ -4853,8 +4907,8 @@
        "ano": "1990",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.913921,
-       "lng": -49.133884,
+       "lat": -27.906083,
+       "lng": -49.118887,
        "municipio": "Anitápolis"
       },
       {
@@ -4863,8 +4917,8 @@
        "ano": null,
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.907162,
-       "lng": -49.141394,
+       "lat": -27.910974,
+       "lng": -49.132479,
        "municipio": "Anitápolis"
       },
       {
@@ -4883,9 +4937,10 @@
        "local": "Rio Branco",
        "ano": "1968",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.897671,
-       "lng": -49.141316,
+       "posicao": "cnefe",
+       "lat": -27.836423,
+       "lng": -49.052138,
+       "cnefe": "CAPELA BOM JESUS · ESTRADA RIO BRANCO SC 407 · RIO BRANCO (nome e localidade)",
        "municipio": "Anitápolis"
       },
       {
@@ -4927,8 +4982,8 @@
        "ano": "1933",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.89101,
-       "lng": -49.133695,
+       "lat": -27.898917,
+       "lng": -49.137993,
        "municipio": "Anitápolis"
       }
      ],
@@ -5116,10 +5171,11 @@
        "local": "Jardim São Paulo",
        "ano": "1979",
        "matriz": false,
-       "lat": -27.2898,
-       "lng": -48.8502,
-       "posicao": "localidade",
+       "lat": -27.291902,
+       "lng": -48.850719,
+       "posicao": "cnefe",
        "local_osm": "Jardim São Paulo (suburb)",
+       "cnefe": "CAPELA NOSSA SENHORA DE APARECIDA · RUA JOSE MONTIBELLER · JARDIM SAO PAULO (nome e localidade)",
        "municipio": "São João Batista"
       },
       {
@@ -5213,10 +5269,11 @@
        "local": "Tajuba I",
        "ano": "2011",
        "matriz": false,
-       "lat": -27.2773,
-       "lng": -48.8639,
-       "posicao": "localidade",
+       "lat": -27.288247,
+       "lng": -48.862251,
+       "posicao": "cnefe",
        "local_osm": "Tajuba I (suburb)",
+       "cnefe": "CAPELA SAO FRANCISCO · RUA WALDEMIRO MAFESSOLI · TAJUBA I (nome e localidade)",
        "municipio": "São João Batista"
       },
       {
@@ -5224,10 +5281,11 @@
        "local": "Colônia",
        "ano": "1896",
        "matriz": false,
-       "lat": -27.3185,
-       "lng": -48.869,
-       "posicao": "localidade",
+       "lat": -27.317987,
+       "lng": -48.869961,
+       "posicao": "cnefe",
        "local_osm": "Colônia de Fora (suburb)",
+       "cnefe": "IGREJA CATOLICA · RODOVIA SC 108 · COLONIA NOVA ITALIA (única igreja da localidade)",
        "municipio": "São João Batista"
       },
       {
@@ -5368,10 +5426,11 @@
        "local": "Pernambuco",
        "ano": "2001",
        "matriz": false,
-       "lat": -27.2594,
-       "lng": -48.6425,
-       "posicao": "localidade",
+       "lat": -27.265391,
+       "lng": -48.64909,
+       "posicao": "cnefe",
        "local_osm": "Pernambuco (suburb)",
+       "cnefe": "COMUNIDADE SANTA PAULINA · ESTRADA TIMBE · PERNAMBUCO (nome e localidade)",
        "municipio": "Tijucas"
       },
       {
@@ -5514,8 +5573,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.273588,
-       "lng": -48.923723,
+       "lat": -27.278009,
+       "lng": -48.92583,
        "municipio": "Nova Trento"
       },
       {
@@ -5523,10 +5582,11 @@
        "local": "Trinta Réis",
        "ano": "2012",
        "matriz": false,
-       "lat": -27.2951,
-       "lng": -48.9463,
-       "posicao": "localidade",
+       "lat": -27.294924,
+       "lng": -48.940884,
+       "posicao": "cnefe",
        "local_osm": "Trinta Réis (suburb)",
+       "cnefe": "IGREJA · RUA ALFERES · TRINTA REIS (única igreja da localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5534,9 +5594,10 @@
        "local": "Vígolo",
        "ano": "1880",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.279255,
-       "lng": -48.916351,
+       "posicao": "cnefe",
+       "lat": -27.250058,
+       "lng": -48.944737,
+       "cnefe": "SANTUARIO CAPELA NOSSA SENHORA DE LOURDES · RUA MADRE PAULINA · VIGOLO (nome e localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5610,9 +5671,10 @@
        "local": "Ponta Fina Norte",
        "ano": "1921",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.287683,
-       "lng": -48.914144,
+       "posicao": "cnefe",
+       "lat": -27.28981,
+       "lng": -48.89262,
+       "cnefe": "IGREJA · ESTRADA MUNICIPAL HENRIQUE DADAM · PONTA FINA NORTE (única igreja da localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5620,9 +5682,10 @@
        "local": "Baixo Salto",
        "ano": "1920",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.295653,
-       "lng": -48.917942,
+       "posicao": "cnefe",
+       "lat": -27.286145,
+       "lng": -48.907492,
+       "cnefe": "CAPELA DE SANTO ANTONIO · RUA FLORIANOPOLIS · PONTA FINA NORTE (nome (único no município))",
        "municipio": "Nova Trento"
       },
       {
@@ -5652,9 +5715,10 @@
        "local": "Serraval",
        "ano": "1962",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.30012,
-       "lng": -48.926297,
+       "posicao": "cnefe",
+       "lat": -27.292111,
+       "lng": -49.088239,
+       "cnefe": "IGREJA CAPELA SANTO ISIDORO · ESTRADA SERRAVAL · SERRAVAL (nome e localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5662,10 +5726,11 @@
        "local": "Ribeirão Frederico",
        "ano": "1957",
        "matriz": false,
-       "lat": -27.2729,
-       "lng": -48.9469,
-       "posicao": "localidade",
+       "lat": -27.267512,
+       "lng": -48.9605,
+       "posicao": "cnefe",
        "local_osm": "Ribeirão Frederico (hamlet)",
+       "cnefe": "IGREJA CATOLICA · RUA GERAL DO FREDERICO · FREDERICO (única igreja da localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5674,8 +5739,8 @@
        "ano": "1902",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.299378,
-       "lng": -48.936015,
+       "lat": -27.290066,
+       "lng": -48.920316,
        "municipio": "Nova Trento"
       },
       {
@@ -5705,9 +5770,10 @@
        "local": "Oito Casas",
        "ano": "1989",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.293711,
-       "lng": -48.943387,
+       "posicao": "cnefe",
+       "lat": -27.324933,
+       "lng": -49.19924,
+       "cnefe": "IGREJA CATOLICA · RUA GERAL OITO CASAS · OITO CASAS (única igreja da localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5715,10 +5781,11 @@
        "local": "Ponta Fina Sul",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.301,
-       "lng": -48.8996,
-       "posicao": "localidade",
+       "lat": -27.297462,
+       "lng": -48.897198,
+       "posicao": "cnefe",
        "local_osm": "Ponta Fina (hamlet)",
+       "cnefe": "IGREJA CATOLICA · ESTRADA PONTA FINA SUL · PONTA FINA SUL (única igreja da localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5737,9 +5804,10 @@
        "local": "Bairro Mato Queimado",
        "ano": "1998",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.285283,
-       "lng": -48.945594,
+       "posicao": "cnefe",
+       "lat": -27.277093,
+       "lng": -48.913784,
+       "cnefe": "CAPELA SAO FRANCISCO DE ASSIS · RUA SAO FRANCISCO DE ASSIS · MATO QUEIMADO (nome e localidade)",
        "municipio": "Nova Trento"
       },
       {
@@ -5759,8 +5827,8 @@
        "ano": "1955",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.277313,
-       "lng": -48.941796,
+       "lat": -27.294957,
+       "lng": -48.933908,
        "municipio": "Nova Trento"
       },
       {
@@ -5802,8 +5870,8 @@
        "ano": "1929",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.272846,
-       "lng": -48.933441,
+       "lat": -27.2829,
+       "lng": -48.939422,
        "municipio": "Nova Trento"
       }
      ],
@@ -6067,10 +6135,11 @@
        "local": "Morretes",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.1197,
-       "lng": -48.6168,
-       "posicao": "localidade",
+       "lat": -27.115527,
+       "lng": -48.615976,
+       "posicao": "cnefe",
        "local_osm": "Morretes (suburb)",
+       "cnefe": "COMUNIDADE CRISTO REI · AVENIDA NOVO HORIZONTE, 128 · MORRETES (nome e localidade)",
        "municipio": "Itapema"
       },
       {
@@ -6230,10 +6299,11 @@
        "local": "Jardim Dourado",
        "ano": "2005",
        "matriz": false,
-       "lat": -27.153,
-       "lng": -48.5892,
-       "posicao": "localidade",
+       "lat": -27.151949,
+       "lng": -48.590914,
+       "posicao": "cnefe",
        "local_osm": "Jardim Dourado (suburb)",
+       "cnefe": "CAPELA SAGRADA FAMILIA · RUA ABDENAGO L CORREIA · PEREQUE (nome (único no município))",
        "municipio": "Porto Belo"
       },
       {
@@ -6252,10 +6322,11 @@
        "local": "Araçá",
        "ano": "1952",
        "matriz": false,
-       "lat": -27.1297,
-       "lng": -48.5251,
-       "posicao": "localidade",
+       "lat": -27.131653,
+       "lng": -48.52708,
+       "posicao": "cnefe",
        "local_osm": "Araçá (suburb)",
+       "cnefe": "CAPELA SANTA TEREZINHA · SERVIDAO MANOEL CORREA · ARACA (nome e localidade)",
        "municipio": "Porto Belo"
       }
      ],
@@ -6296,8 +6367,8 @@
        "ano": "2013",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.013088,
-       "lng": -48.647434,
+       "lat": -27.014562,
+       "lng": -48.648136,
        "municipio": "Camboriú"
       },
       {
@@ -6327,9 +6398,10 @@
        "local": "Lot. Terras Altas",
        "ano": "2021",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.023156,
-       "lng": -48.640592,
+       "posicao": "cnefe",
+       "lat": -27.026173,
+       "lng": -48.631263,
+       "cnefe": "COMUNIDADE SANTA ISABEL DE PORTUGAL · RUA SEM DENOMINACAO 1 · RIO PEQUENO (nome (único no município))",
        "municipio": "Camboriú"
       },
       {
@@ -6349,8 +6421,8 @@
        "ano": "1994",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.032039,
-       "lng": -48.649272,
+       "lat": -27.029,
+       "lng": -48.646114,
        "municipio": "Camboriú"
       },
       {
@@ -6369,9 +6441,10 @@
        "local": "Japão",
        "ano": "2013",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.027462,
-       "lng": -48.661479,
+       "posicao": "cnefe",
+       "lat": -27.038222,
+       "lng": -48.643662,
+       "cnefe": "CATOLICA SANTO EXPEDITO · RUA LEANDRO BERTOLDI · CEDROS (nome (único no município))",
        "municipio": "Camboriú"
       },
       {
@@ -6380,8 +6453,8 @@
        "ano": "2023",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.015749,
-       "lng": -48.660343,
+       "lat": -27.023335,
+       "lng": -48.661222,
        "municipio": "Camboriú"
       },
       {
@@ -6425,10 +6498,11 @@
        "local": "Nova Esperança",
        "ano": "1991",
        "matriz": false,
-       "lat": -27.0271,
-       "lng": -48.6152,
-       "posicao": "localidade",
+       "lat": -27.027745,
+       "lng": -48.613363,
+       "posicao": "cnefe",
        "local_osm": "Nova Esperança (suburb)",
+       "cnefe": "CAPELA NOSSA SENHORA DA ESPERANCA · RUA JOSE ALVES CABRAL, 720 · NOVA ESPERANCA (nome e localidade)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6437,8 +6511,8 @@
        "ano": "2010",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.000178,
-       "lng": -48.621056,
+       "lat": -27.001652,
+       "lng": -48.621758,
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6446,9 +6520,10 @@
        "local": "Bairro Municípios",
        "ano": "1990",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.012235,
-       "lng": -48.615542,
+       "posicao": "cnefe",
+       "lat": -27.007395,
+       "lng": -48.64278,
+       "cnefe": "CAPELA SANTA CLARA · RUA BIGUACU · MUNICIPIOS (nome e localidade)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6467,10 +6542,11 @@
        "local": "Estaleiro Grande",
        "ano": "1988",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.017126,
-       "lng": -48.629134,
-       "municipio": "Camboriú"
+       "posicao": "cnefe",
+       "lat": -27.031211,
+       "lng": -48.591905,
+       "cnefe": "CATOLICA STO ANTONIO · RUA VEREADOR DOMINGOS FONSECA · ESTALEIRO (nome e localidade)",
+       "municipio": "Balneário Camboriú"
       },
       {
        "nome": "São Francisco de Assis",
@@ -6478,19 +6554,20 @@
        "ano": "1978",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.005069,
-       "lng": -48.634648,
-       "municipio": "Balneário Camboriú"
+       "lat": -27.015652,
+       "lng": -48.628432,
+       "municipio": "Camboriú"
       },
       {
        "nome": "São Judas Tadeu",
        "local": "São Judas Tadeu",
        "ano": "1985",
        "matriz": false,
-       "lat": -27.0214,
-       "lng": -48.6011,
-       "posicao": "localidade",
+       "lat": -27.019204,
+       "lng": -48.601743,
+       "posicao": "cnefe",
        "local_osm": "São Judas Tadeu (suburb)",
+       "cnefe": "IGREJA CATOLICA CAPELA SAO JUDAS TADEU · AVENIDA HERMOGENES ASSIS FEIJO · SAO JUDAS TADEU (nome e localidade)",
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6546,10 +6623,11 @@
        "local": "Santa Regina",
        "ano": "2002",
        "matriz": false,
-       "lat": -27.0323,
-       "lng": -48.6709,
-       "posicao": "localidade",
+       "lat": -27.031124,
+       "lng": -48.664953,
+       "posicao": "cnefe",
        "local_osm": "Santa Regina (suburb)",
+       "cnefe": "IGREJA NOSSA SENHORA RAINHA · RUA CINGAPURA, 722 · SANTA REGINA (nome e localidade)",
        "municipio": "Camboriú"
       },
       {
@@ -6656,10 +6734,11 @@
        "local": "Limeira",
        "ano": "1918",
        "matriz": false,
-       "lat": -27.1044,
-       "lng": -48.775,
-       "posicao": "localidade",
+       "lat": -27.109026,
+       "lng": -48.784553,
+       "posicao": "cnefe",
        "local_osm": "Limeira (hamlet)",
+       "cnefe": "IGREJA · ESTRADA LIMEIRA · LIMEIRA (única igreja da localidade)",
        "municipio": "Camboriú"
       }
      ],
@@ -6732,8 +6811,8 @@
        "ano": "2002",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.950824,
-       "lng": -48.63602,
+       "lat": -26.951561,
+       "lng": -48.636372,
        "municipio": "Itajaí"
       },
       {
@@ -6741,9 +6820,10 @@
        "local": "Rua Itália (B. das Nações)",
        "ano": "1982",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -26.964824,
-       "lng": -48.642694,
+       "posicao": "cnefe",
+       "lat": -26.981615,
+       "lng": -48.64475,
+       "cnefe": "IGREJA CATOLICA SAO FRANCISCO DE ASSIS · RUA ITALIA, 441 · NACOES (nome e localidade)",
        "municipio": "Balneário Camboriú"
       }
      ],
@@ -6777,10 +6857,11 @@
        "local": "Tabuleiro",
        "ano": "1976",
        "matriz": false,
-       "lat": -27.008,
-       "lng": -48.6521,
-       "posicao": "localidade",
+       "lat": -27.003655,
+       "lng": -48.649159,
+       "posicao": "cnefe",
        "local_osm": "Tabuleiro (suburb)",
+       "cnefe": "IGREJA SRA APARECIDA · RUA GUARAPARIM · TABULEIRO (nome e localidade)",
        "municipio": "Camboriú"
       },
       {
@@ -6986,10 +7067,11 @@
        "local": "Salseiros",
        "ano": "2001",
        "matriz": false,
-       "lat": -26.8651,
-       "lng": -48.7284,
-       "posicao": "localidade",
+       "lat": -26.878584,
+       "lng": -48.721534,
+       "posicao": "cnefe",
        "local_osm": "Salseiros (suburb)",
+       "cnefe": "IGREJA CASA DA PROVIDENCIA · RUA JOAO BAPTISTA · SALSEIROS (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -6997,10 +7079,11 @@
        "local": "São Roque",
        "ano": "2009",
        "matriz": false,
-       "lat": -26.909,
-       "lng": -48.742,
-       "posicao": "localidade",
+       "lat": -26.907384,
+       "lng": -48.755017,
+       "posicao": "cnefe",
        "local_osm": "São Roque (suburb)",
+       "cnefe": "COMUNIDADE CATOLICA AMOR ETERNO · RUA CARLOS BACCA · SAO ROQUE (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7020,10 +7103,11 @@
        "local": "Costa Cavalcante",
        "ano": "1991",
        "matriz": false,
-       "lat": -26.8908,
-       "lng": -48.6975,
-       "posicao": "localidade",
+       "lat": -26.897182,
+       "lng": -48.699315,
+       "posicao": "cnefe",
        "local_osm": "Costa Cavalcante (quarter)",
+       "cnefe": "CAPELA CRISTO REI · RUA RONDONIA · CORDEIROS (nome (único no município))",
        "municipio": "Itajaí"
       },
       {
@@ -7075,10 +7159,11 @@
        "local": "Espinheiros",
        "ano": "1997",
        "matriz": false,
-       "lat": -26.8987,
-       "lng": -48.736957,
-       "posicao": "localidade",
+       "lat": -26.901955,
+       "lng": -48.744696,
+       "posicao": "cnefe",
        "local_osm": "Espinheiros (suburb)",
+       "cnefe": "CAPELA SANTA LUZIA · RUA JOSE FRANCISCO MAESTRI, 155 · ESPINHEIROS (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7086,10 +7171,11 @@
        "local": "Jardim Esperança",
        "ano": "1991",
        "matriz": false,
-       "lat": -26.8834,
-       "lng": -48.7014,
-       "posicao": "localidade",
+       "lat": -26.880948,
+       "lng": -48.702589,
+       "posicao": "cnefe",
        "local_osm": "Jardim Esperança (quarter)",
+       "cnefe": "IGREJA CATOLICA SANTA MARIA · RUA EURIPEDES AMORIM LEAL · CORDEIROS (nome (único no município))",
        "municipio": "Itajaí"
       },
       {
@@ -7107,7 +7193,7 @@
        "local": "Espinheiros",
        "ano": "2011",
        "matriz": false,
-       "lat": -26.8951,
+       "lat": -26.8975,
        "lng": -48.7393,
        "posicao": "localidade",
        "local_osm": "Espinheiros (suburb)",
@@ -7118,10 +7204,11 @@
        "local": "Espinheiros",
        "ano": "1935",
        "matriz": false,
-       "lat": -26.8987,
-       "lng": -48.741643,
-       "posicao": "localidade",
+       "lat": -26.897739,
+       "lng": -48.727632,
+       "posicao": "cnefe",
        "local_osm": "Espinheiros (suburb)",
+       "cnefe": "CAPELA SANTO ANTONIO ESPINHEIROS · RUA FERMINO VIEIRA CORDEIRO, 915 · ESPINHEIROS (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7140,7 +7227,7 @@
        "local": "São Roque",
        "ano": "1981",
        "matriz": false,
-       "lat": -26.913,
+       "lat": -26.911,
        "lng": -48.742,
        "posicao": "localidade",
        "local_osm": "São Roque (suburb)",
@@ -7317,10 +7404,11 @@
        "local": "Itaipava",
        "ano": "2005",
        "matriz": false,
-       "lat": -26.9421,
-       "lng": -48.7198,
-       "posicao": "localidade",
+       "lat": -26.94067,
+       "lng": -48.747379,
+       "posicao": "cnefe",
        "local_osm": "Itaipava (suburb)",
+       "cnefe": "CAPELA NOSSA SENHORA AUXILIADORA · RUA MARIA DE SOUZA GONCALVES · ITAIPAVA (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7328,7 +7416,7 @@
        "local": "Canhanduba I",
        "ano": "2011",
        "matriz": false,
-       "lat": -26.97,
+       "lat": -26.968,
        "lng": -48.6896,
        "posicao": "localidade",
        "local_osm": "Canhanduba (suburb)",
@@ -7372,10 +7460,11 @@
        "local": "Canhanduba II",
        "ano": "2012",
        "matriz": false,
-       "lat": -26.966,
-       "lng": -48.6896,
-       "posicao": "localidade",
+       "lat": -26.975317,
+       "lng": -48.69426,
+       "posicao": "cnefe",
        "local_osm": "Canhanduba (suburb)",
+       "cnefe": "COMUNIDADE NOSSA SENHORA DO ROSARIO · RUA JOAO TOMAZ PINTO · CANHANDUBA (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7416,9 +7505,10 @@
        "local": "Loteamento São Pedro",
        "ano": "2000",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -26.934848,
-       "lng": -48.718689,
+       "posicao": "cnefe",
+       "lat": -26.943036,
+       "lng": -48.709599,
+       "cnefe": "CAPELA SAO PAULO APOSTOLO · RUA DOUTEL DE ANDRADE · SAO PEDRO (nome e localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7427,8 +7517,8 @@
        "ano": "1956",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.948848,
-       "lng": -48.725363,
+       "lat": -26.935585,
+       "lng": -48.719041,
        "municipio": "Itajaí"
       },
       {
@@ -7505,10 +7595,11 @@
        "local": "Rio bonito",
        "ano": "1995",
        "matriz": false,
-       "lat": -26.9056,
-       "lng": -48.7005,
-       "posicao": "localidade",
+       "lat": -26.905248,
+       "lng": -48.70181,
+       "posicao": "cnefe",
        "local_osm": "Rio Bonito (quarter)",
+       "cnefe": "CAPELA SANTA CLARA DE ASSIS · RUA JOACABA, 42 · SAO VICENTE (nome (único no município))",
        "municipio": "Itajaí"
       },
       {
@@ -7672,10 +7763,11 @@
        "local": "Aymoré",
        "ano": "1979",
        "matriz": false,
-       "lat": -27.0852,
-       "lng": -49.0153,
-       "posicao": "localidade",
+       "lat": -27.085297,
+       "lng": -49.028269,
+       "posicao": "cnefe",
        "local_osm": "Aymoré (suburb)",
+       "cnefe": "IGREJA SAO CRISTOVAO · RUA GRUNERWINKEL · AIMORE (nome (único no município))",
        "municipio": "Guabiruba"
       },
       {
@@ -7743,8 +7835,8 @@
        "ano": "1986",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.14724,
-       "lng": -48.953337,
+       "lat": -27.147977,
+       "lng": -48.953689,
        "municipio": "Brusque"
       },
       {
@@ -7752,9 +7844,10 @@
        "local": "Tomaz Coelho",
        "ano": "1880",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.16124,
-       "lng": -48.960011,
+       "posicao": "cnefe",
+       "lat": -27.168581,
+       "lng": -48.940215,
+       "cnefe": "IGREJA NOSSA SENHORA DO CARMO · RUA JOSE DUBIELA · TOMAS COELHO (nome (único no município))",
        "municipio": "Brusque"
       },
       {
@@ -7833,10 +7926,11 @@
        "local": "Limeira Baixa",
        "ano": "1976",
        "matriz": false,
-       "lat": -27.0787,
-       "lng": -48.867,
-       "posicao": "localidade",
+       "lat": -27.08448,
+       "lng": -48.856874,
+       "posicao": "cnefe",
        "local_osm": "Limeira Baixa (suburb)",
+       "cnefe": "CAPELA NSA SENHORA APARECIDA · RUA ALBERTO MULLER · LIMEIRA (nome e localidade)",
        "municipio": "Brusque"
       },
       {
@@ -7877,10 +7971,11 @@
        "local": "Nova Brasília",
        "ano": "2004",
        "matriz": false,
-       "lat": -27.0833,
-       "lng": -48.8862,
-       "posicao": "localidade",
+       "lat": -27.08332,
+       "lng": -48.893592,
+       "posicao": "cnefe",
        "local_osm": "Nova Brasília (suburb)",
+       "cnefe": "CAPELA SANTA CATARINA · RUA OSVALDO NIEBUHR · NOVA BRASILIA (nome e localidade)",
        "municipio": "Brusque"
       },
       {
@@ -7997,10 +8092,11 @@
        "local": "Sessenta",
        "ano": "1994",
        "matriz": false,
-       "lat": -27.2401,
-       "lng": -49.0461,
-       "posicao": "localidade",
+       "lat": -27.239223,
+       "lng": -49.045349,
+       "posicao": "cnefe",
        "local_osm": "Sessenta (hamlet)",
+       "cnefe": "IGREJA SANTA LUZIA · RUA SE 01 · SESSENTA (nome e localidade)",
        "municipio": "Botuverá"
       },
       {
@@ -8223,8 +8319,8 @@
        "ano": "1975",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.090566,
-       "lng": -48.914327,
+       "lat": -27.091303,
+       "lng": -48.914678,
        "municipio": "Brusque"
       },
       {
@@ -8243,9 +8339,10 @@
        "local": "Lagoa Dourada",
        "ano": "2004",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.105004,
-       "lng": -48.912305,
+       "posicao": "cnefe",
+       "lat": -27.125752,
+       "lng": -48.935122,
+       "cnefe": "CAPELA SANTA PAULINA · RUA SC 021 · SOUZA CRUZ (nome (único no município))",
        "municipio": "Brusque"
       },
       {
@@ -8298,8 +8395,8 @@
        "ano": "1945",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.099339,
-       "lng": -48.927413,
+       "lat": -27.105303,
+       "lng": -48.921352,
        "municipio": "Brusque"
       }
      ],

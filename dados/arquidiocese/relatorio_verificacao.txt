@@ -261,19 +261,22 @@
 == 7. Distância de cada igreja até a matriz (> 15 km)
   sao-joao-evangelista           São José                            Amâncio               18.1 km (localidade)
   nossa-senhora-da-imaculada-con São Francisco de Assis              Rio Novo              21.7 km (osm)
-  nossa-senhora-da-imaculada-con São José Barra                      Clara                 15.4 km (localidade)
+  nossa-senhora-da-imaculada-con São José Barra                      Clara                 15.1 km (cnefe)
   sagrado-coracao-de-jesus-3     Nossa Senhora de Fátima             Rio do Tigre          17.9 km (osm)
   sagrado-coracao-de-jesus-3     Santo Antônio                       Vargem dos Bugres     16.7 km (osm)
-  sao-bonifacio                  Nossa Senhora de Fátima             Rio Sete              20.3 km (localidade)
+  sao-bonifacio                  Nossa Senhora de Fátima             Rio Sete              20.2 km (cnefe)
   sao-sebastiao-3                São José Operário                   Oliveira              15.3 km (osm)
   sao-virgilio                   Nossa Senhora do Rosário            Trombudo              22.8 km (osm)
   sao-virgilio                   Sagrado Coração de Jesus            Rio Veado             24.3 km (osm)
   sao-virgilio                   Santo Estanislau                    Valsugana             15.3 km (osm)
   sao-virgilio                   Santo Inácio de Loyola              Alto Pitanga          16.8 km (localidade)
+  sao-virgilio                   Santo Isidoro                       Serraval              15.6 km (cnefe)
+  sao-virgilio                   São Cristóvão                       Oito Casas            26.9 km (cnefe)
   sao-virgilio                   São Francisco Xavier                Conquista             25.5 km (osm)
   sao-virgilio                   São Paulo                           Aguti                 18.9 km (osm)
   senhor-bom-jesus-2             Nossa Senhora da Candelária         Nova Galícia          15.9 km (osm)
   senhor-bom-jesus-2             Santa Luzia                         Campinho              19.7 km (osm)
+  nossa-senhora-do-bom-sucesso   São Sebastião                       Limeira               15.2 km (cnefe)
   sao-jose                       Santa Teresinha                     Vargem Grande         15.6 km (osm)
 
 == 8. Áreas: cada área tem ao menos uma igreja da paróquia dentro do município
@@ -281,4 +284,4 @@
 == 9. Paróquias sem área no mapa
 
 == 10. Resumo das posições
-   Counter({'osm': 287, 'localidade': 159, 'aprox': 141, 'bairro (Ilha)': 31, 'rua': 24, 'endereco': 13})
+   Counter({'osm': 287, 'localidade': 118, 'aprox': 111, 'cnefe': 81, 'bairro (Ilha)': 26, 'rua': 19, 'endereco': 13})

@@ -495,6 +495,78 @@ def main(arq_bairros, arq_municipios):
         for r0 in revisar:
             print("   ", r0)
 
+    # CNEFE 2022 (IBGE): estabelecimentos religiosos com nome, localidade e coordenada (scripts/baixar_cnefe.py)
+    arq_cn = D / "cnefe_religiosos.json"
+    cnefe = json.loads(arq_cn.read_text(encoding="utf-8")) if arq_cn.exists() else []
+    GENERICO = re.compile(r"^(IGREJA|CAPELA|ORATORIO|COMUNIDADE|IGREJA CATOLICA|CAPELA CATOLICA|COMUNIDADE CATOLICA|IGREJA MATRIZ|TEMPLO)?$")
+    for r0 in cnefe:
+        r0["seq"] = norm_seq(r0["nome"])
+        r0["outra"] = bool(NAO_CATOLICA.search(r0["nome"])) or bool(re.search(r"SALAO|GALPAO|ANEXO|CENTRO COMUNIT|CEMITERIO|ESCOLA|CRECHE", r0["nome"].upper()))
+        r0["loc"] = toks(r0["localidade"], False)
+    por_mun_cn = defaultdict(list)
+    for r0 in cnefe:
+        por_mun_cn[r0["municipio"]].append(r0)
+    usados_cn = {}
+    stats_cn = Counter()
+    for par, c in todas_igrejas:
+        if c.get("posicao") in ("osm", "endereco"):
+            continue
+        mun = c.get("municipio") or par["municipio"]
+        cands = [r0 for r0 in por_mun_cn.get(par["municipio"], []) + (por_mun_cn.get(mun, []) if mun != par["municipio"] else []) if not r0["outra"]]
+        sq = norm_seq(c["nome"])
+        loc_c = toks(c["local"], False)
+        def loc_ok(r0):
+            return bool(loc_c) and bool(r0["loc"]) and (loc_c <= r0["loc"] or r0["loc"] <= loc_c)
+        # 1) pelo nome
+        nomeados = [r0 for r0 in cands if sq and (contido(sq, r0["seq"]) or (len(r0["seq"]) >= 2 and contido(r0["seq"], sq) and len(r0["seq"]) >= 0.6 * len(sq)))]
+        com_loc = [r0 for r0 in nomeados if loc_ok(r0)]
+        escolha, como = None, None
+        if len(com_loc) == 1:
+            escolha, como = com_loc[0], "nome e localidade"
+        else:
+            inteiros = [r0 for r0 in nomeados if contido(sq, r0["seq"])]  # nome da comunidade inteiro no nome do CNEFE
+            if len(inteiros) == 1 and len([x for x in todas_igrejas if (x[0]["municipio"] == par["municipio"]) and norm_seq(x[1]["nome"]) == sq]) == 1:
+                escolha, como = inteiros[0], "nome (único no município)"
+        # 2) igreja sem nome no CNEFE, mas única na localidade
+        if not escolha and loc_c and not loc_c <= toks(par["municipio"], False) and loc_c != {"centro"}:
+            na_loc = [r0 for r0 in cnefe if r0["municipio"] == par["municipio"] and loc_ok(r0) and (r0["especie"] == "8" or not GENERICO.match(r0["nome"].upper()) is None)]
+            catolicas = [r0 for r0 in na_loc if not r0["outra"]]
+            genericas = [r0 for r0 in catolicas if GENERICO.match(r0["nome"].upper())]
+            if len(catolicas) == 1 and len(genericas) == 1 and len(na_loc) == 1:
+                escolha, como = genericas[0], "única igreja da localidade"
+        if not escolha:
+            continue
+        chave_cn = (escolha["lat"], escolha["lng"])
+        if chave_cn in usados_cn and usados_cn[chave_cn] is not c:
+            stats_cn["disputada"] += 1
+            continue
+        # conferência com o que já se sabe da comunidade
+        mzc = next((y for y in par["comunidades"] if y["matriz"] and "lat" in y and y is not c), None)
+        if como == "nome (único no município)":
+            if "lat" in c and c.get("posicao") in ("rua", "localidade") and km((c["lat"], c["lng"]), chave_cn) > 2.5:
+                stats_cn["longe"] += 1
+                print("  CNEFE (nome único) longe da localidade:", par["id"], "|", c["nome"], "|", c["local"], "->", escolha["nome"], escolha["localidade"])
+                continue
+            if mzc and km((mzc["lat"], mzc["lng"]), chave_cn) > (12 if par["municipio"] == "Florianópolis" else 15):
+                stats_cn["longe"] += 1
+                print("  CNEFE (nome único) longe da matriz:", par["id"], "|", c["nome"], "->", escolha["nome"], escolha["localidade"])
+                continue
+        mesma_rua = bool(c.get("endereco_site")) and bool(toks(escolha["logradouro"])) and toks(escolha["logradouro"]) <= toks(c["endereco_site"])
+        if c.get("posicao") == "rua" and km((c["lat"], c["lng"]), chave_cn) > 1 and not mesma_rua:
+            stats_cn["rua do site vence"] += 1
+            print("  endereço do site x CNEFE (fica o do site):", par["id"], "|", c["nome"], "|", c.get("endereco_site"), "x", escolha["nome"], escolha["localidade"])
+            continue
+        if "lat" in c and c.get("posicao") in ("rua", "localidade") and km((c["lat"], c["lng"]), chave_cn) > 6:
+            stats_cn["longe"] += 1
+            print("  CNEFE longe da posição atual:", par["id"], "|", c["nome"], "|", c["local"], "->", escolha["nome"], escolha["localidade"])
+            continue
+        usados_cn[chave_cn] = c
+        c.update({"lat": round(escolha["lat"], 6), "lng": round(escolha["lng"], 6), "posicao": "cnefe",
+                  "cnefe": f'{escolha["nome"] or "estabelecimento religioso"} · {escolha["logradouro"]}{(", " + escolha["numero"]) if escolha["numero"] not in ("0", "", None) else ""} · {escolha["localidade"]} ({como})'})
+        c.pop("nome_osm", None)
+        stats_cn[como] += 1
+    print("  CNEFE:", dict(stats_cn))
+
     # Correções manuais conferidas (dados/arquidiocese/correcoes.json)
     corr = json.loads((D / "correcoes.json").read_text(encoding="utf-8")) if (D / "correcoes.json").exists() else {}
     usadas_corr = set()
@@ -503,6 +575,8 @@ def main(arq_bairros, arq_municipios):
         if k3 in corr.get("posicoes", {}):
             v = corr["posicoes"][k3]
             c.update({"lat": v["lat"], "lng": v["lng"], "posicao": v["posicao"]})
+            if v["posicao"] == "cnefe":
+                c["cnefe"] = v["fonte"].replace("CNEFE 2022: ", "")
             c.pop("nome_osm", None)
             if v.get("nome_osm"):
                 c["nome_osm"] = v["nome_osm"]
