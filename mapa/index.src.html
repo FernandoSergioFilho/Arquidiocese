@@ -281,7 +281,9 @@ L.geoJSON(D.fundo, {renderer:canvas, interactive:false, style:()=>({color:tok('-
 function estilo(f){
   const r = f.properties;
   const c = modo === 'forania' ? CORES_FORANIA[r.forania] : cor(r.principal);
-  let ativo = true;
+  // Sem seleção, só a visão por forania pinta as áreas; com seleção, só as da mesma paróquia (ou forania)
+  let ativo = !sel && modo === 'forania';
+  if (sel?.tipo === 'regiao') ativo = r.principal === regiao[sel.id].properties.principal;
   if (sel?.tipo === 'paroquia') ativo = r.paroquias.includes(sel.id);
   if (sel?.tipo === 'igreja') ativo = r.paroquias.includes(igreja[sel.id].paroquia.id);
   if (sel?.tipo === 'forania') ativo = r.forania === sel.id;
@@ -433,7 +435,7 @@ const linhaForania = f => `<li><button data-sel='${JSON.stringify({tipo:'forania
 const linhaRegiao = f => { const r = f.properties, outra = sel?.tipo === 'paroquia' && r.principal !== sel.id;
   return `<li><button data-sel='${JSON.stringify({tipo:'regiao',id:r.id})}'><span class="sw" style="${outra?`border:1.5px dashed ${cor(sel.id)};box-sizing:border-box`:`background:${cor(r.principal)};opacity:1`}"></span><span class="name">${esc(r.municipio)}<br><small style="color:var(--muted)">Área estimada${outra?' · divide com '+esc(semPar(paroquia[r.principal].nome)):''}</small></span><span class="meta">${r.pop?fmt(r.pop)+' hab.':''}</span></button></li>`; };
 const linhaComunidade = (c, comParoquia) => `<li><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(cor(c.paroquia.id), c.tipo, c.matriz?26:22)}</span><span class="name">${c.matriz?`<b>${c.tipo==='catedral'?'Catedral':'Matriz'}</b> · `:''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.mun && c.mun!==c.local && !c.paroquia.ilha ?' · '+esc(c.mun):'')}${c.pos?'':' · sem localização'}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
-const legenda = `<div class="legend-key"><span><i class="k-area"></i>Área aproximada de cada paróquia, traçada pelas suas igrejas</span></div><div class="legend-tipos">${['catedral','matriz','igreja','capela','santuario'].map(t => `<span>${ICONE('var(--legend)', t, 20)}${TIPOS[t].rot}</span>`).join('')}</div>`;
+const legenda = `<div class="legend-key"><span><i class="k-area"></i>Ao escolher uma paróquia, a área aproximada dela fica colorida</span></div><div class="legend-tipos">${['catedral','matriz','igreja','capela','santuario'].map(t => `<span>${ICONE('var(--legend)', t, 20)}${TIPOS[t].rot}</span>`).join('')}</div>`;
 const nPar = Object.keys(paroquia).length, nIgr = igrejas.length;
 const municipiosDe = ps => [...new Set(ps.map(p => p.municipio).filter(Boolean))];
 
