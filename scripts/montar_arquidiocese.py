@@ -350,6 +350,8 @@ def main(arq_bairros, arq_municipios):
             matriz = bool(re.search(r"^matriz|\(matriz\)", n.lower()))
             n = re.sub(r"^Matriz:?\s*|\s*\(Matriz\)", "", n).strip()
             loc = limpa(c.get("local"))
+            if not n:
+                n = f"Comunidade de {loc} (nome não informado no site)"
             item = {"nome": n, "local": loc, "ano": c.get("ano") or None, "matriz": matriz}
             # referência: endereço (matriz) ou localidade validada
             ref, ref_tipo = None, None

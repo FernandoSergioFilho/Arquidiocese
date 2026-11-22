@@ -264,6 +264,13 @@ const GOTA = (cr, tipo) => {
 };
 const POSICAO = {osm:['ok','Localização conferida no OpenStreetMap'], endereco:['ok','Posicionada pelo endereço'], rua:['ok','Posicionada pela rua do endereço publicado pela paróquia'], localidade:['warn','Posição aproximada (centro da localidade)'], aprox:['warn','Posição aproximada (dentro do bairro ou da área)']};
 const posicaoDe = c => POSICAO[c.posicao] || POSICAO[c.lat ? 'osm' : 'aprox'];
+const PREFIXO = {catedral:'Catedral', matriz:'Igreja', igreja:'Igreja', capela:'Capela', santuario:'Santuário'};
+const linkGoogle = c => {
+  const nome = /^(igreja|capela|santu[aá]rio|catedral|par[oó]quia|gruta|orat[oó]rio)\b/i.test(c.nome.replace(/^[“"]/,'')) ? c.nome : PREFIXO[c.tipo] + ' ' + c.nome;
+  const q = [nome, c.local && c.local !== c.mun ? c.local : null, c.mun, 'SC'].filter(Boolean).join(', ');
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+};
+const botaoGoogle = c => `<a class="opt" href="${linkGoogle(c)}" target="_blank" rel="noopener" style="text-decoration:none;display:inline-flex;align-items:center">Procurar no Google Maps</a>`;
 
 // ---------- Mapa ----------
 let modo = 'paroquia', sel = null; // sel: {tipo:'regiao'|'paroquia'|'forania'|'igreja'|'arq', id}
@@ -391,7 +398,7 @@ function abrirJanelaIgreja(c){
     <div class="j-title">${esc(c.nome)}</div>
     <div class="j-sub">${esc(c.local)}${c.mun && c.mun !== c.local ? ' · ' + esc(c.mun) : ''}${c.ano?' · desde '+c.ano:''}<br>${esc(p.nome)}</div>
     <div class="j-${cl === 'ok' ? 'ok' : 'note'}">${txt}</div>
-    <div class="j-acts">${botao({tipo:'igreja',id:c.id},'Ver igreja',true)}${botao({tipo:'paroquia',id:p.id},'Ver paróquia')}</div>`);
+    <div class="j-acts">${botao({tipo:'igreja',id:c.id},'Ver igreja',true)}${botao({tipo:'paroquia',id:p.id},'Ver paróquia')}${c.posicao==='osm'||c.posicao==='endereco'?'':botaoGoogle(c)}</div>`);
 }
 function abrirJanelaRegiao(r, latlng){
   const ps = r.paroquias.map(id => paroquia[id]), n = (r.igrejas || []).length;
@@ -490,7 +497,7 @@ function render(){
     h += `<div class="j-eyebrow" style="margin-top:12px">${ICONE(cor(p.id), c.tipo, 20)} ${TIPOS[c.tipo].rot}</div><h2>${esc(c.nome)}</h2>`;
     h += `<dl class="facts"><dt>Localidade</dt><dd>${esc(c.local)}</dd>${c.bairro?`<dt>Bairro</dt><dd>${esc(c.bairro)}</dd>`:''}<dt>Município</dt><dd>${esc(c.mun)}</dd>${c.endereco_site?`<dt>Endereço</dt><dd>${esc(c.endereco_site)}</dd>`:''}${c.ano?`<dt>Desde</dt><dd>${c.ano}</dd>`:''}<dt>Paróquia</dt><dd>${esc(p.nome)}</dd><dt>Forania</dt><dd>${esc(f.nome)}</dd>${c.matriz?`<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>`:''}</dl>`;
     h += `<p class="note" style="color:var(--${cl==='ok'?'ok':'warn'})">${txt}.</p>`;
-    h += `<div class="j-acts" style="margin-top:12px">${botao({tipo:'paroquia',id:p.id},'Ver paróquia e todas as igrejas',true)}${c.reg?botao({tipo:'regiao',id:c.reg}, regiao[c.reg].properties.tipo==='area'?'Ver área':'Ver bairro'):''}</div>`;
+    h += `<div class="j-acts" style="margin-top:12px">${botao({tipo:'paroquia',id:p.id},'Ver paróquia e todas as igrejas',true)}${botaoGoogle(c)}${c.reg?botao({tipo:'regiao',id:c.reg}, regiao[c.reg].properties.tipo==='area'?'Ver área':'Ver bairro'):''}</div>`;
     const outras = p.comunidades.filter(x => x !== c);
     if (outras.length) h += `<h3>Outras igrejas da paróquia (${outras.length})</h3><ul class="list">${outras.map(x => linhaComunidade(x)).join('')}</ul>`;
   } else {
