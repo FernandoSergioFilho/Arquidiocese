@@ -31,7 +31,8 @@
        "local": "Morro do Limoeiro",
        "ano": "1996",
        "bairro": "Saco dos Limões",
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox"
       },
       {
        "nome": "Nossa Senhora do Rosário",
@@ -347,7 +348,8 @@
        "local": "Alto da Caieira",
        "ano": "2002",
        "bairro": "Saco dos Limões",
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox"
       },
       {
        "nome": "Igreja Nossa Senhora do Monte Serrat",
@@ -996,7 +998,8 @@
        "local": "Morro da Penitenciária",
        "ano": "1987",
        "bairro": "Trindade",
-       "matriz": false
+       "matriz": false,
+       "posicao": "aprox"
       },
       {
        "nome": "Nossa Senhora de Guadalupe",
@@ -2382,16 +2385,6 @@
        "municipio": "Biguaçu"
       },
       {
-       "nome": "São João Batista",
-       "local": "Encruzilhada",
-       "ano": "1944",
-       "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.4642,
-       "lng": -48.6757,
-       "municipio": "Biguaçu"
-      },
-      {
        "nome": "São Marcos",
        "local": "São Marcos",
        "ano": "1968",
@@ -2661,9 +2654,10 @@
        "local": "Limeira",
        "ano": "1908",
        "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.4635,
-       "lng": -48.7269,
+       "lat": -27.456774,
+       "lng": -48.744674,
+       "posicao": "osm",
+       "nome_osm": "Capela São Sebastião",
        "municipio": "Biguaçu"
       },
       {
@@ -3550,9 +3544,10 @@
        "local": "Palhoça",
        "ano": null,
        "matriz": true,
-       "posicao": "endereco",
-       "lat": -27.6404,
-       "lng": -48.7088,
+       "lat": -27.639576,
+       "lng": -48.710508,
+       "posicao": "osm",
+       "nome_osm": "Capela de São Sebastião",
        "municipio": "Palhoça"
       }
      ]
@@ -3708,10 +3703,9 @@
        "local": "São Sebastião",
        "ano": "1922",
        "matriz": false,
-       "lat": -27.639576,
-       "lng": -48.710508,
-       "posicao": "osm",
-       "nome_osm": "Capela de São Sebastião",
+       "posicao": "localidade",
+       "lat": -27.6426,
+       "lng": -48.7156,
        "municipio": "Palhoça"
       },
       {

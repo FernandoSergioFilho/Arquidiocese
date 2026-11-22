@@ -2,7 +2,7 @@
   paróquias repetidas: nenhuma
 
 == 2. Contagem de comunidades: site x mapa
-  sao-joao-batista-biguacu: site 18, mapa 16
+  sao-joao-batista-biguacu: site 18, mapa 15
 
 == 3. Forania: página da forania x cabeçalho da paróquia
   biguacu      | link: -                          | cabeçalho: Forania Biguaçu                          | Paróquia Sagrado Coração de Jesus
@@ -14,6 +14,7 @@
 
 == 4. Matrizes: como foram posicionadas
   sao-francisco-de-assis-2                 matriz 'São Francisco de Assis' posição=localidade local=Forquilhinhas
+  sao-joao-batista-biguacu: 0 matrizes
   nossa-senhora-da-imaculada-conceicao     matriz 'Nossa Senhora da I. Conceição' posição=localidade local=Centro
 
 == 5. Igrejas do OSM: nome no site x nome no mapa (para revisão)
@@ -33,16 +34,9 @@
   santo-antonio-3              | Santo Antônio                          | Campinas               | Paróquia Santo Antônio
   sao-francisco-de-assis-2     | Nossa Senhora Rainha da Paz            | Jardim Los Angeles     | Paróquia Nossa Senhora Rainha da Paz
   sao-francisco-de-assis-2     | Nossa Senhora das Graças               | Picadas do Norte       | Capela de Nossa Senhora das Graças
-  sao-pedro-de-alcantara       | São Pedro de Alcântara                 | Centro                 | Paróquia São Pedro de Alcântara
-  sao-pedro-de-alcantara       | Nossa Senhora de Fátima                | Barro Branco           | Capela de Nossa Senhora de Fátima
-  sao-pedro-de-alcantara       | Santuário Senhor Bom Jesus da Santa Cr | Colônia Santa Tereza   | Santuário Bom Jesus da Santa Cruz  ≠
-  sao-pedro-de-alcantara       | São João Vianney e Santa Filomena      | Santa Filomena         | Capela São João Vianney e Santa Filomena
-  sao-pedro-de-alcantara       | São Sebastião                          | Varginha               | Capela São Sebastião
   nossa-senhora-do-rosario-2   | Nossa Senhora do Rosário               | N. Senhora do Rosário  | Paróquia Nossa Senhora do Rosário
   nossa-senhora-do-rosario-2   | Nossa Senhora Aparecida                | Roçado                 | Igreja Nossa Senhora Aparecida
   nossa-senhora-dos-navegantes | N. Sra. dos Navegantes e São Pedro     | Serraria               | Paróquia Nossa Senhora dos Navegantes e São P
-  sagrados-coracoes            | Sagrados Corações                      | Barreiros              | Paróquia dos Sagrados Corações
-  sagrados-coracoes            | Senhor Bom Jesus                       | Potecas                | Capela Senhor Bom Jesus
   santa-cruz                   | Santa Cruz                             | Areias                 | Paróquia Santa Cruz
   santa-cruz                   | Cristo Rei                             | Real Parque            | Paróquia Cristo Rei
   antonio-carlos               | Sagrado Coração de Jesus               | Centro                 | Igreja Matriz Sagrado Coração de Jesus
@@ -57,9 +51,11 @@
   nossa-senhora-dos-navegantes | Nossa Senhora Aparecida                | Areias de Baixo        | Nossa Senhora Aparecida Areias de Baixo  ≠
   nossa-senhora-dos-navegantes | Nossa Senhora da Piedade               | Armação da Piedade     | Igreja Nossa Senhora da Piedade
   nossa-senhora-dos-navegantes | São Pedro                              | Canto dos Ganchos      | Igreja de São Pedro
-  sao-joao-batista-biguacu     | São João Batista                       | Encruzilhada           | Capela de São João  ≠
+  sagrados-coracoes            | Sagrados Corações                      | Barreiros              | Paróquia dos Sagrados Corações
+  sagrados-coracoes            | Senhor Bom Jesus                       | Potecas                | Capela Senhor Bom Jesus
   sao-joao-batista-biguacu     | Nossa Senhora Aparecida                | Sorocaba do Sul        | Igreja Nossa Senhora Aparecida
   sao-joao-batista-biguacu     | Sagrado Coração de Jesus               | Sorocaba de Fora       | Igreja Sagrado Coração de Jesus
+  sao-joao-batista-biguacu     | São João Batista                       | Encruzilhada           | Capela de São João  ≠
   sao-joao-batista-biguacu     | São Marcos                             | Três Riachos           | Capela São Marcos
   sao-joao-batista-biguacu     | São Mateus                             | Três Riachos           | Capela São Mateus
   sao-joao-batista-biguacu     | São Sebastião                          | Limeira                | Capela São Sebastião
@@ -67,6 +63,7 @@
   sao-joao-evangelista         | Santa Catarina                         | Santa Catarina         | Capela de Santa Catarina
   sao-joao-evangelista         | Santa Clara                            | Vendaval               | Paróquia Santa Clara
   sao-joao-evangelista         | São Miguel                             | Balneário São Miguel   | Igreja de São Miguel
+  sao-joao-evangelista         | São Sebastião                          | Limeira                | Capela São Sebastião
   nossa-senhora-do-rosario     | Nossa Senhora do Rosário               | Enseada de Brito       | Igreja Nossa Senhora do Rosário
   nossa-senhora-do-rosario     | Nossa Senhora de Fátima                | Pontal                 | Capela Nossa Senhora de Fátima
   nossa-senhora-do-rosario     | Nossa Senhora dos Navegantes           | Pinheira               | Capela Nossa Senhora dos Navegantes
@@ -94,11 +91,11 @@
   sao-joaquim                  | São João Batista                       | Areias da Palhocinha   | Capela São João Batista
   sao-joaquim                  | São Sebastião                          | Ressacada              | Comunidade São Sebastião
   sao-judas-tadeu-e-sao-joao-b | Nossa Senhora da Praia                 | Ponte do Imaruim       | Capela Nossa Senhora da Praia
+  sao-sebastiao-palhoca        | São Sebastião (Palhoça)                | Palhoça                | Capela de São Sebastião  ≠
   senhor-bom-jesus-de-nazare   | Senhor Bom Jesus de Nazaré             | Centro                 | Paróquia Bom Jesus de Nazaré  ≠
   senhor-bom-jesus-de-nazare   | Nossa Senhora Aparecida                | Rio Grande             | Capela de Nossa Senhora Aparecida
   senhor-bom-jesus-de-nazare   | Nossa Senhora do Parto                 | Centro                 | Capela Nossa Senhora do Parto
   senhor-bom-jesus-de-nazare   | São José Operário                      | Bela Vista             | Capela de São José Operário
-  senhor-bom-jesus-de-nazare   | São Sebastião                          | São Sebastião          | Capela de São Sebastião
   senhor-bom-jesus-de-nazare   | São Tomé                               | Passa Vinte            | Capela São Tomé
   nossa-senhora-da-imaculada-c | Nossa Senhora das Dores                | Garcia                 | Capela de Nossa Senhora das Dores
   nossa-senhora-da-imaculada-c | Sagrado Coração de Jesus               | Fartura                | Capela do Sagrado Coração de Jesus
@@ -127,6 +124,11 @@
   sao-bonifacio                | São Bonifácio                          | Centro                 | Igreja Matriz de São Bonifácio
   sao-bonifacio                | Santo Antônio                          | Santo Antônio          | Igreja Santo Antônio
   sao-bonifacio                | São José                               | Rio dos Canudos        | Capela de São José
+  sao-pedro-de-alcantara       | São Pedro de Alcântara                 | Centro                 | Paróquia São Pedro de Alcântara
+  sao-pedro-de-alcantara       | Nossa Senhora de Fátima                | Barro Branco           | Capela de Nossa Senhora de Fátima
+  sao-pedro-de-alcantara       | Santuário Senhor Bom Jesus da Santa Cr | Colônia Santa Tereza   | Santuário Bom Jesus da Santa Cruz  ≠
+  sao-pedro-de-alcantara       | São João Vianney e Santa Filomena      | Santa Filomena         | Capela São João Vianney e Santa Filomena
+  sao-pedro-de-alcantara       | São Sebastião                          | Varginha               | Capela São Sebastião
   sao-sebastiao                | São Sebastião                          | Centro                 | Igreja de São Sebastião
   sao-sebastiao                | Santo Antônio                          | Varginha               | Capela Santo Antônio
   sao-sebastiao                | São Domingos                           | São Domingos           | Capela de São Domingos
@@ -255,6 +257,7 @@
   sao-luis-gonzaga             | Santa Rita                             | Santa Rita             | Capela Santa Rita de Cássia  ≠
 
 == 6. Mesma coordenada para igrejas diferentes
+   (-27.45677, -48.74467) ['sao-joao-batista-biguacu:São Sebastião', 'sao-joao-evangelista:São Sebastião']
 
 == 7. Distância de cada igreja até a matriz (> 15 km)
   sao-joao-evangelista           São José                            Amâncio               18.1 km (localidade)
@@ -279,4 +282,4 @@
 == 9. Paróquias sem área no mapa
 
 == 10. Resumo das posições
-   Counter({'osm': 286, 'localidade': 169, 'aprox': 146, 'bairro (Ilha)': 42, 'endereco': 13})
+   Counter({'osm': 287, 'localidade': 168, 'aprox': 149, 'bairro (Ilha)': 39, 'endereco': 12})

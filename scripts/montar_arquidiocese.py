@@ -337,9 +337,10 @@ def main(arq_bairros, arq_municipios):
                 coms = [{"nome": "Matriz: " + re.sub(r"^Paróquia\s+", "", nome), "local": "Centro" if p["comunidades"] else mun, "ano": None}] + coms
                 print("  matriz criada:", nome)
         vistos = set()
+        coms = sorted(coms, key=lambda c: not re.search(r"^matriz|\(matriz\)", limpa(c["nome"]).lower()))  # matriz primeiro
         for c in coms:
             n = limpa(c["nome"])
-            chave_rep = (n.lower(), limpa(c.get("local")).lower())
+            chave_rep = (re.sub(r"^matriz:?\s*|\s*\(matriz\)", "", n.lower()).strip(), limpa(c.get("local")).lower())
             if chave_rep in vistos:
                 print("  repetida no site:", nome, "|", n, "|", c.get("local"))
                 continue
@@ -391,8 +392,17 @@ def main(arq_bairros, arq_municipios):
     for lista in por_osm.values():
         if len(lista) < 2:
             continue
-        lista.sort(key=lambda t: (norm_seq(t[1]["nome"]) != norm_seq(t[1].get("nome_osm")), t[1]["_d"]))
-        for par, c in lista[1:]:
+        lista.sort(key=lambda t: (not t[1]["matriz"], norm_seq(t[1]["nome"]) != norm_seq(t[1].get("nome_osm")), t[1]["_d"]))
+        # mesma igreja listada por duas paróquias (mesmo nome e mesma localidade): todas ficam com o ponto
+        iguais = [x for x in lista[1:] if norm_seq(x[1]["nome"]) == norm_seq(lista[0][1]["nome"]) and toks(x[1]["local"], False) == toks(lista[0][1]["local"], False)]
+        lista = [lista[0]] + [x for x in lista[1:] if x not in iguais]
+        if len(lista) < 2:
+            continue
+        empate = not lista[0][1]["matriz"] and (norm_seq(lista[0][1]["nome"]) == norm_seq(lista[1][1]["nome"]) and abs(lista[1][1]["_d"] - lista[0][1]["_d"]) < 0.5
+                  and lista[0][1]["_d"] < 90)
+        if empate:  # duas comunidades com o mesmo nome quase à mesma distância: não dá para saber qual é
+            print("  igreja do OSM ambígua, ninguém fica:", lista[0][1].get("nome_osm"), [(x[0]["id"], x[1]["nome"]) for x in lista])
+        for par, c in (lista if empate else lista[1:]):
             print("  igreja do OSM disputada:", c.get("nome_osm"), "| fica com", lista[0][0]["id"], lista[0][1]["nome"], "| perde", par["id"], c["nome"])
             for k2 in ("lat", "lng", "nome_osm", "_d"):
                 c.pop(k2, None)
