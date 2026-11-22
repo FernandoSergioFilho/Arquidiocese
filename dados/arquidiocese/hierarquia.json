@@ -94,7 +94,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquia_boaviagem"
+     ],
+     "sites": [
+      "http://www.boaviagem.org.br"
+     ]
     },
     {
      "id": "lapa",
@@ -211,7 +217,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquianossasenhoradalapa"
+     ],
+     "sites": [
+      "https://nossasenhoradalapa.org.br/"
+     ]
     },
     {
      "id": "lourdes",
@@ -284,7 +296,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquiadaagronomica1950"
+     ],
+     "sites": [
+      "https://paroquiadaagronomica.org.br"
+     ]
     },
     {
      "id": "desterro",
@@ -413,7 +431,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "catedralfloripa"
+     ],
+     "sites": [
+      "http://www.catedralflorianopolis.org.br"
+     ]
     },
     {
      "id": "sagrado-coracao",
@@ -505,7 +529,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquiadocampeche"
+     ],
+     "sites": [
+      "https://paroquiadocampeche.org.br/"
+     ]
     },
     {
      "id": "santa-teresinha",
@@ -553,7 +583,11 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "igrejadaprainha"
+     ],
+     "sites": []
     },
     {
      "id": "santo-antonio",
@@ -587,7 +621,11 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [],
+     "sites": [
+      "https://franciscanos.org.br"
+     ]
     }
    ],
    "outras": [
@@ -692,7 +730,14 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "imaculadadalagoa"
+     ],
+     "sites": [
+      "https://santuariodalagoa.org/",
+      "https://www.paroquiadalagoa.org"
+     ]
     },
     {
      "id": "necessidades",
@@ -743,7 +788,9 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [],
+     "sites": []
     },
     {
      "id": "guadalupe",
@@ -859,7 +906,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquia_de_canasvieiras"
+     ],
+     "sites": [
+      "https://paroquiadecanasvieiras.org.br/"
+     ]
     },
     {
      "id": "ingleses",
@@ -972,7 +1025,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "pscj_ingleses"
+     ],
+     "sites": [
+      "https://www.paroquiaingleses.com.br/"
+     ]
     },
     {
      "id": "trindade",
@@ -1068,7 +1127,13 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquiadatrindade"
+     ],
+     "sites": [
+      "http://www.paroquiadatrindade.com"
+     ]
     },
     {
      "id": "sao-francisco-xavier",
@@ -1145,7 +1210,11 @@
       }
      ],
      "municipio": "Florianópolis",
-     "ilha": true
+     "ilha": true,
+     "instagram": [
+      "paroquiadomonteverde"
+     ],
+     "sites": []
     }
    ],
    "outras": [
@@ -1189,6 +1258,12 @@
        "regiao": "Balneário",
        "municipio": "Florianópolis"
       }
+     ],
+     "instagram": [
+      "paroquiadagloria.balneario"
+     ],
+     "sites": [
+      "https://pnsg.org.br"
      ]
     },
     {
@@ -1223,7 +1298,11 @@
        "regiao": "Estreito",
        "municipio": "Florianópolis"
       }
-     ]
+     ],
+     "instagram": [
+      "fatimaestreito"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-do-carmo",
@@ -1269,6 +1348,12 @@
        "regiao": "Capoeiras",
        "municipio": "Florianópolis"
       }
+     ],
+     "instagram": [
+      "paroquiadecoqueiros"
+     ],
+     "sites": [
+      "http://paroquiadecoqueiros.org.br/"
      ]
     },
     {
@@ -1304,7 +1389,11 @@
        "regiao": "Monte Cristo",
        "municipio": "Florianópolis"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiacoloninha"
+     ],
+     "sites": []
     },
     {
      "id": "sao-joao-batista-e-santa-luzia",
@@ -1362,6 +1451,12 @@
        "regiao": "Coloninha",
        "municipio": "Florianópolis"
       }
+     ],
+     "instagram": [
+      "saojoaoeluziaparoquia"
+     ],
+     "sites": [
+      "http://www.paroquiadecapoeiras.org.br"
      ]
     },
     {
@@ -1395,7 +1490,11 @@
        "lng": -48.592066,
        "municipio": "Florianópolis"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasjrc"
+     ],
+     "sites": []
     }
    ],
    "outras": [
@@ -1484,7 +1583,11 @@
        "local_osm": "Centro Histórico de São José (suburb)",
        "municipio": "São José"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadesaojose.sc"
+     ],
+     "sites": []
     },
     {
      "id": "santana-2",
@@ -1556,7 +1659,11 @@
        "lng": -48.725577,
        "municipio": "São José"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasantanaoficial"
+     ],
+     "sites": []
     },
     {
      "id": "santo-antonio-3",
@@ -1589,6 +1696,12 @@
        "local_osm": "Kobrasol (suburb)",
        "municipio": "São José"
       }
+     ],
+     "instagram": [
+      "paroquiasantoantoniocampinas"
+     ],
+     "sites": [
+      "http://www.paroquiasantoantonio.net"
      ]
     },
     {
@@ -1693,7 +1806,11 @@
        "lng": -48.650886,
        "municipio": "São José"
       }
-     ]
+     ],
+     "instagram": [
+      "saofranciscodeassis.psfa"
+     ],
+     "sites": []
     },
     {
      "id": "sao-judas-tadeu-2",
@@ -1714,6 +1831,12 @@
        "posicao": "endereco",
        "municipio": "São José"
       }
+     ],
+     "instagram": [
+      "paroquiasaojudastadeubarreiros"
+     ],
+     "sites": [
+      "https://saojudastadeubarreiros.org.br/"
      ]
     }
    ],
@@ -1743,7 +1866,11 @@
        "lng": -48.6064,
        "municipio": "São José"
       }
-     ]
+     ],
+     "instagram": [
+      "PNSAPARECIDA1998"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-do-rosario-2",
@@ -1797,7 +1924,11 @@
        "local_osm": "Bela Vista (suburb)",
        "municipio": "São José"
       }
-     ]
+     ],
+     "instagram": [
+      "pnsrosariosaojose"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-dos-navegantes-serraria-sj",
@@ -1869,7 +2000,11 @@
        "lng": -48.639806,
        "municipio": "Biguaçu"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadaserraria"
+     ],
+     "sites": []
     },
     {
      "id": "santa-cruz",
@@ -1943,6 +2078,12 @@
        "lng": -48.63466,
        "municipio": "São José"
       }
+     ],
+     "instagram": [
+      "paroquiadasantacruz"
+     ],
+     "sites": [
+      "http://www.pscruz.org.br"
      ]
     }
    ],
@@ -2050,7 +2191,11 @@
        "nome_osm": "Capela São Pedro Apóstolo",
        "municipio": "Antônio Carlos"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquia.scj.ac"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-dos-navegantes",
@@ -2191,7 +2336,11 @@
        "local_osm": "Fazenda da Armação (suburb)",
        "municipio": "Governador Celso Ramos"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiagovernadorcelsoramos"
+     ],
+     "sites": []
     },
     {
      "id": "sagrados-coracoes",
@@ -2277,6 +2426,12 @@
        "lng": -48.62113,
        "municipio": "São José"
       }
+     ],
+     "instagram": [
+      "sagradoscoracoes"
+     ],
+     "sites": [
+      "http://www.sagradoscoracoes.org.br"
      ]
     },
     {
@@ -2448,7 +2603,11 @@
        "nome_osm": "Capela São Sebastião",
        "municipio": "Biguaçu"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasaojoaobatistasc"
+     ],
+     "sites": []
     },
     {
      "id": "sao-joao-evangelista",
@@ -2682,6 +2841,12 @@
        "local_osm": "Santa Cruz (hamlet)",
        "municipio": "Biguaçu"
       }
+     ],
+     "instagram": [
+      "psjebiguacu"
+     ],
+     "sites": [
+      "http://www.psje.org.br"
      ]
     }
    ],
@@ -2906,7 +3071,11 @@
        "nome_osm": "Capela de São Sebastião",
        "municipio": "Palhoça"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadaenseada"
+     ],
+     "sites": []
     },
     {
      "id": "sagrado-coracao-de-jesus-4",
@@ -3059,7 +3228,11 @@
        "lng": -48.680046,
        "municipio": "Paulo Lopes"
       }
-     ]
+     ],
+     "instagram": [
+      "scjmatriz"
+     ],
+     "sites": []
     },
     {
      "id": "sao-francisco-de-assis",
@@ -3198,7 +3371,11 @@
        "local_osm": "Pachecos (suburb)",
        "municipio": "Palhoça"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadoaririu"
+     ],
+     "sites": []
     },
     {
      "id": "sao-joaquim",
@@ -3453,6 +3630,12 @@
        "nome_osm": "Comunidade São Sebastião",
        "municipio": "Garopaba"
       }
+     ],
+     "instagram": [
+      "psaojoaquimgrp"
+     ],
+     "sites": [
+      "http://psjgaropaba.com.br"
      ]
     },
     {
@@ -3528,6 +3711,12 @@
        "local_osm": "Vila Frei Damião (neighbourhood)",
        "municipio": "Palhoça"
       }
+     ],
+     "instagram": [
+      "paroquiaponte"
+     ],
+     "sites": [
+      "http://www.paroquiaponte.com.br/"
      ]
     },
     {
@@ -3550,7 +3739,11 @@
        "nome_osm": "Capela de São Sebastião",
        "municipio": "Palhoça"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasaosebastiaoph"
+     ],
+     "sites": []
     },
     {
      "id": "senhor-bom-jesus-de-nazare",
@@ -3719,7 +3912,11 @@
        "nome_osm": "Capela São Tomé",
        "municipio": "Palhoça"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadepalhoca"
+     ],
+     "sites": []
     }
    ],
    "outras": []
@@ -3928,6 +4125,12 @@
        "nome_osm": "Igreja de São Sebastião",
        "municipio": "Angelina"
       }
+     ],
+     "instagram": [
+      "santuario_angelina"
+     ],
+     "sites": [
+      "http://www.santuarioangelina.com.br/"
      ]
     },
     {
@@ -4047,7 +4250,9 @@
        "nome_osm": "Capela de São Rafael",
        "municipio": "Leoberto Leal"
       }
-     ]
+     ],
+     "instagram": [],
+     "sites": []
     },
     {
      "id": "santo-amaro",
@@ -4303,7 +4508,11 @@
        "nome_osm": "Igreja de São Sebastião",
        "municipio": "Santo Amaro da Imperatriz"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasantoamarosc"
+     ],
+     "sites": []
     },
     {
      "id": "sao-bonifacio",
@@ -4399,7 +4608,11 @@
        "lng": -48.93845,
        "municipio": "São Bonifácio"
       }
-     ]
+     ],
+     "instagram": [
+      "pascom.saobonifacio"
+     ],
+     "sites": []
     },
     {
      "id": "sao-pedro-de-alcantara",
@@ -4465,7 +4678,9 @@
        "nome_osm": "Capela São Sebastião",
        "municipio": "São Pedro de Alcântara"
       }
-     ]
+     ],
+     "instagram": [],
+     "sites": []
     },
     {
      "id": "sao-sebastiao",
@@ -4644,7 +4859,11 @@
        "lng": -49.133695,
        "municipio": "Anitápolis"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasaosebastiaoanitapolis"
+     ],
+     "sites": []
     }
    ],
    "outras": []
@@ -4783,7 +5002,11 @@
        "nome_osm": "Capela de São Sebastião",
        "municipio": "Canelinha"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquia_sant.ana"
+     ],
+     "sites": []
     },
     {
      "id": "sao-joao-batista-2",
@@ -4968,7 +5191,11 @@
        "nome_osm": "Capela de São Sebastião",
        "municipio": "São João Batista"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadesjb"
+     ],
+     "sites": []
     },
     {
      "id": "sao-sebastiao-3",
@@ -5171,7 +5398,11 @@
        "nome_osm": "Capela de São Pedro",
        "municipio": "Tijucas"
       }
-     ]
+     ],
+     "instagram": [
+      "pascomtijucas"
+     ],
+     "sites": []
     },
     {
      "id": "sao-virgilio",
@@ -5502,6 +5733,12 @@
        "lng": -48.933441,
        "municipio": "Nova Trento"
       }
+     ],
+     "instagram": [
+      "paroquiasaovirgiliont"
+     ],
+     "sites": [
+      "https://paroquiasaovirgilio.com.br"
      ]
     },
     {
@@ -5621,7 +5858,9 @@
        "local_osm": "Fazenda Boa Esperança (hamlet)",
        "municipio": "Major Gercino"
       }
-     ]
+     ],
+     "instagram": [],
+     "sites": []
     }
    ],
    "outras": [
@@ -5724,7 +5963,11 @@
        "nome_osm": "Capela São Sebastião",
        "municipio": "Bombinhas"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiabombinhas"
+     ],
+     "sites": []
     },
     {
      "id": "sagrado-coracao-de-jesus-2",
@@ -5788,6 +6031,12 @@
        "nome_osm": "Igreja de São João Batista",
        "municipio": "Itapema"
       }
+     ],
+     "instagram": [
+      "sagradocoracaomeiapraia"
+     ],
+     "sites": [
+      "http://www.paroquiascjmeiapraia.com.br"
      ]
     },
     {
@@ -5853,6 +6102,12 @@
        "lng": -48.608641,
        "municipio": "Itapema"
       }
+     ],
+     "instagram": [
+      "paroquiasantoantonioitapema"
+     ],
+     "sites": [
+      "http://www.santoantonioparoquia.com"
      ]
     },
     {
@@ -5930,7 +6185,9 @@
        "local_osm": "Araçá (suburb)",
        "municipio": "Porto Belo"
       }
-     ]
+     ],
+     "instagram": [],
+     "sites": []
     }
    ],
    "outras": []
@@ -6065,7 +6322,11 @@
        "nome_osm": "Capela de São João Batista",
        "municipio": "Camboriú"
       }
-     ]
+     ],
+     "instagram": [
+      "Paroquiadodivinocamboriu"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-aparecida",
@@ -6170,7 +6431,11 @@
        "local_osm": "Taquaras (suburb)",
        "municipio": "Balneário Camboriú"
       }
-     ]
+     ],
+     "instagram": [
+      "nsaparecidabc"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-do-bom-sucesso",
@@ -6324,7 +6589,11 @@
        "local_osm": "Limeira (hamlet)",
        "municipio": "Camboriú"
       }
-     ]
+     ],
+     "instagram": [
+      "nsbomsucesso"
+     ],
+     "sites": []
     },
     {
      "id": "santa-ines",
@@ -6357,6 +6626,12 @@
        "nome_osm": "Capela Santa Catarina de Alexandria",
        "municipio": "Balneário Camboriú"
       }
+     ],
+     "instagram": [
+      "santainesbc"
+     ],
+     "sites": [
+      "http://www.paroquiasantainesbc.com.br/"
      ]
     },
     {
@@ -6398,7 +6673,11 @@
        "lng": -48.642694,
        "municipio": "Balneário Camboriú"
       }
-     ]
+     ],
+     "instagram": [
+      "saosebastiaobc"
+     ],
+     "sites": []
     },
     {
      "id": "senhor-bom-jesus",
@@ -6473,7 +6752,11 @@
        "local_osm": "Várzea do Ranchinho (suburb)",
        "municipio": "Camboriú"
       }
-     ]
+     ],
+     "instagram": [
+      "psbomjesus"
+     ],
+     "sites": []
     }
    ],
    "outras": []
@@ -6503,7 +6786,11 @@
        "nome_osm": "Comunidade Nossa Senhora de Fátima",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "comunidadefatimaitajai"
+     ],
+     "sites": []
     },
     {
      "id": "nossa-senhora-de-lourdes",
@@ -6547,7 +6834,11 @@
        "nome_osm": "Capela Santa Teresinha",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadafazenda"
+     ],
+     "sites": []
     },
     {
      "id": "santissimo-sacramento",
@@ -6591,7 +6882,11 @@
        "nome_osm": "Igreja Nossa Senhora da Paz",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasantissimoitajai"
+     ],
+     "sites": []
     },
     {
      "id": "sao-cristovao-cordeiros",
@@ -6798,6 +7093,12 @@
        "nome_osm": "Capela São Roque",
        "municipio": "Itajaí"
       }
+     ],
+     "instagram": [
+      "paroquiasaocristovaoitj"
+     ],
+     "sites": [
+      "http://www.paroquiasaocristovao.com"
      ]
     },
     {
@@ -6851,7 +7152,11 @@
        "lng": -48.682571,
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasaojoaoitj"
+     ],
+     "sites": []
     },
     {
      "id": "sao-joao-bosco",
@@ -6895,7 +7200,11 @@
        "nome_osm": "Igreja São Judas Tadeu",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiadomboscoitajai"
+     ],
+     "sites": []
     },
     {
      "id": "sao-pedro-apostolo",
@@ -7058,7 +7367,11 @@
        "local_osm": "Laranjeiras (suburb)",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "saopedroapostoloitj"
+     ],
+     "sites": []
     },
     {
      "id": "sao-vicente-de-paulo",
@@ -7144,7 +7457,11 @@
        "nome_osm": "Comunidade São Lourenço",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "p.saovicente"
+     ],
+     "sites": []
     }
    ],
    "outras": [
@@ -7213,6 +7530,12 @@
        "nome_osm": "Capela de São Sebastião",
        "municipio": "Brusque"
       }
+     ],
+     "instagram": [
+      "santuariodeazambuja"
+     ],
+     "sites": [
+      "http://www.azambuja.org.br"
      ]
     },
     {
@@ -7301,7 +7624,11 @@
        "nome_osm": "Igreja São Vendelino",
        "municipio": "Guabiruba"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquia.guabiruba"
+     ],
+     "sites": []
     },
     {
      "id": "santa-catarina",
@@ -7397,6 +7724,12 @@
        "local_osm": "Cedro Grande (suburb)",
        "municipio": "Brusque"
       }
+     ],
+     "instagram": [
+      "paroquiasantacatarina"
+     ],
+     "sites": [
+      "https://paroquiasantacatarina.com/"
      ]
     },
     {
@@ -7534,7 +7867,11 @@
        "nome_osm": "Igreja São Sebastião",
        "municipio": "Itajaí"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquia.ste"
+     ],
+     "sites": []
     },
     {
      "id": "sao-jose",
@@ -7652,7 +7989,11 @@
        "lng": -49.077274,
        "municipio": "Botuverá"
       }
-     ]
+     ],
+     "instagram": [
+      "paroquiasaojosebotuvera"
+     ],
+     "sites": []
     },
     {
      "id": "sao-judas-tadeu",
@@ -7740,7 +8081,11 @@
        "local_osm": "Ponta Russa (suburb)",
        "municipio": "Brusque"
       }
-     ]
+     ],
+     "instagram": [
+      "saojudas_brusque"
+     ],
+     "sites": []
     },
     {
      "id": "sao-luis-gonzaga",
@@ -7880,6 +8225,12 @@
        "lng": -48.927413,
        "municipio": "Brusque"
       }
+     ],
+     "instagram": [
+      "matrizsaoluisgonzaga"
+     ],
+     "sites": [
+      "http://www.paroquiasaoluisgonzaga.com"
      ]
     }
    ],

@@ -247,6 +247,7 @@ def main(arq_bairros, arq_municipios):
         return None
 
     api_cat = json.loads((D / "api_categorias.json").read_text(encoding="utf-8"))
+    redes = json.loads((D / "redes.json").read_text(encoding="utf-8"))
     ilha_par = {p["id"]: p for f in ilha["foranias"] for p in f["paroquias"]}
     # quantas comunidades com o mesmo nome existem em cada município (busca por nome no município só vale se for única)
     nomes_mun = Counter()
@@ -278,6 +279,7 @@ def main(arq_bairros, arq_municipios):
                     if norm_tokens(c["nome"]) == alvo:
                         c["matriz"] = True; break
             par["ilha"] = True
+            par.update(redes.get(p["slug"], {}))
             fs[fid]["paroquias"].append(par)
             for c in par["comunidades"]:
                 todas_igrejas.append((par, c))
@@ -380,6 +382,7 @@ def main(arq_bairros, arq_municipios):
             c0 = area_mun.representative_point()
             pos_end = (c0.y, c0.x)
         par["_pos_end"] = pos_end
+        par.update(redes.get(p["slug"], {}))
         par["comunidades"].sort(key=lambda c: (not c["matriz"], c["nome"]))
         fs[fid]["paroquias"].append(par)
 

@@ -74,7 +74,8 @@ aside h3{font:500 16px var(--font);color:var(--fg);margin:22px -24px 6px;padding
 .list .name{min-width:0;line-height:1.35}
 .list small{font-size:13px}
 .facts{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;margin:14px 0 0;font-size:14px}
-.facts dt{color:var(--muted)} .facts dd{margin:0;min-width:0}
+.facts dt{color:var(--muted)} .facts dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.facts a{color:var(--accent);text-decoration:none}
 .note{font-size:13px;line-height:1.5;color:var(--muted);margin:10px 0 0}
 .note a{color:var(--accent);text-decoration:none}
 .stats{display:flex;gap:0;margin:16px 0 0;border:1px solid var(--rule);border-radius:12px;overflow:hidden}
@@ -477,7 +478,7 @@ function render(){
     const p = paroquia[sel.id], f = forania[p.forania];
     h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:'Paróquia'}]);
     h += `<h2>${esc(p.nome)}</h2>`;
-    h += `<dl class="facts"><dt>Município</dt><dd>${esc(p.municipio)}</dd>${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd></dl>`;
+    h += `<dl class="facts"><dt>Município</dt><dd>${esc(p.municipio)}</dd>${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>${(p.instagram||[]).length?`<dt>Instagram</dt><dd>${p.instagram.map(i => `<a href="https://www.instagram.com/${encodeURIComponent(i)}/" target="_blank" rel="noopener">@${esc(i)}</a>`).join(', ')}</dd>`:''}${(p.sites||[]).length?`<dt>Site</dt><dd>${p.sites.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))}</a>`).join('<br>')}</dd>`:''}</dl>`;
     const sem = p.comunidades.filter(c => !c.pos).length;
     h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3><p class="note" style="margin:-2px 0 8px">Todas marcadas no mapa${sem?`, menos ${sem} sem localização`:''}. Toque numa para ver os detalhes.</p>`;
     h += `<ul class="list">${p.comunidades.map(c => linhaComunidade(c)).join('')}</ul>`;
