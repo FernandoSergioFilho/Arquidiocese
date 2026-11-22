@@ -307,25 +307,27 @@ function sabor(esc){
 }
 let camadaBase = null;
 const fundoReserva = () => L.geoJSON(D.fundo, {renderer:canvas, interactive:false, style:f=>({stroke:!!f.properties.fora, color:tok('--land-line'), weight:.8, fillColor:tok('--land'), fillOpacity:1})}).addTo(map);
-async function poeMapaBase(){
-  if (!window.protomapsL) { fundoReserva(); return; }
-  const url = new URL('base.pmtiles', location.href).href;
-  try {
-    // O servidor aceita pedidos por partes (Range)? Se não, baixa o arquivo uma vez e serve as partes da memória.
-    const t = await fetch(url, {headers:{Range:'bytes=0-1'}});
-    if (t.status !== 206){
-      const buf = new Uint8Array(await (t.ok ? t : await fetch(url)).arrayBuffer()), f0 = window.fetch.bind(window);
-      window.fetch = (u, o) => {
-        const h = o && o.headers && (o.headers.get ? o.headers.get('range') : (o.headers.Range || o.headers.range));
-        if (String(u) === url && h){ const [, a, b] = /bytes=(\d+)-(\d+)/.exec(h).map(Number); const parte = buf.slice(a, b + 1);
-          return Promise.resolve(new Response(parte, {status:206, headers:{'Content-Length':String(parte.length), 'Content-Range':'bytes ' + a + '-' + b + '/' + buf.length}})); }
-        return f0(u, o);
-      };
-    }
-    const fl = sabor(escuroAtivo());
-    camadaBase = protomapsL.leafletLayer({url, maxDataZoom:13, paintRules:protomapsL.paintRules(fl), labelRules:protomapsL.labelRules(fl, 'pt'), backgroundColor:fl.background, attribution:''});
-    camadaBase.addTo(map);
-  } catch (e) { console.warn('mapa-base indisponível', e); fundoReserva(); }
+// Os tiles vêm em pacotes JSON (base/base_0.json para zoom < 10; base/base_X_Y.json para cada tile do zoom 10 e seus filhos),
+// baixados só quando a região aparece na tela. Cada tile está em base64, comprimido (gzip).
+const BASE_TPL = 'https://mapa-base.invalid/{z}/{x}/{y}.mvt', pacotes = {};
+function pacote(nome){ return pacotes[nome] || (pacotes[nome] = fetch('base/' + nome + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))); }
+async function tileBase(z, x, y){
+  const nome = z < 10 ? 'base_0' : `base_${x >> (z - 10)}_${y >> (z - 10)}`;
+  const b64 = (await pacote(nome))[`${z}/${x}/${y}`];
+  if (!b64) return new ArrayBuffer(0);
+  const gz = Uint8Array.from(atob(b64), ch => ch.charCodeAt(0));
+  return await new Response(new Blob([gz]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+}
+function poeMapaBase(){
+  if (!window.protomapsL || !window.DecompressionStream) { fundoReserva(); return; }
+  const f0 = window.fetch.bind(window);
+  window.fetch = (u, o) => {
+    const m = typeof u === 'string' && /^https:\/\/mapa-base\.invalid\/(\d+)\/(\d+)\/(\d+)\.mvt$/.exec(u);
+    return m ? tileBase(+m[1], +m[2], +m[3]).then(b => new Response(b)) : f0(u, o);
+  };
+  const fl = sabor(escuroAtivo());
+  camadaBase = protomapsL.leafletLayer({url:BASE_TPL, maxDataZoom:13, paintRules:protomapsL.paintRules(fl), labelRules:protomapsL.labelRules(fl, 'pt'), backgroundColor:fl.background, attribution:''});
+  camadaBase.addTo(map);
 }
 poeMapaBase();
 

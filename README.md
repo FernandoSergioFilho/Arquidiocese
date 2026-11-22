@@ -15,7 +15,7 @@ Mapa interativo (estilo Google Maps) com as 13 foranias, as paróquias e todas a
 - `dados/paroquias_site.json`, `dados/localidades_bairros.json`, `dados/coordenadas_igrejas.json` — Ilha, com correspondências conferidas uma a uma.
 
 ## O que o mapa desenha
-- Mapa-base: recorte do OpenStreetMap (build diário do Protomaps, 20/11/2026), zooms 0–13, em `mapa/base.pmtiles`, gerado por `python scripts/pmtiles_recorte.py https://build.protomaps.com/20261120.pmtiles mapa/base.pmtiles -49.75 -28.3 -48.3 -26.75 0 13`. Desenhado com protomaps-leaflet, com cores no estilo do Google Maps (claro e escuro).
+- Mapa-base: recorte do OpenStreetMap (build diário do Protomaps, 20/11/2026), zooms 0–13, em pacotes `mapa/base/base_*.json`, gerados por `python scripts/pmtiles_recorte.py https://build.protomaps.com/20261120.pmtiles base.pmtiles -49.75 -28.3 -48.3 -26.75 0 13` e `python scripts/pmtiles_para_json.py base.pmtiles mapa/base`. Desenhado com protomaps-leaflet, com cores no estilo do Google Maps (claro e escuro).
 - O mapa não desenha áreas de paróquia nem bairros (a Arquidiocese não publica limites): mostra só as igrejas, na cor da paróquia (ou da forania). Os bairros do IBGE servem apenas para posicionar as igrejas da Ilha conhecidas só pelo bairro (`bairro`) e para desenhar a terra de Florianópolis.
 
 ## Posição das igrejas
