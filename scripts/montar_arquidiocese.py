@@ -148,7 +148,7 @@ def main(arq_bairros, arq_municipios):
         # ambíguo: duas candidatas igualmente perto -> não aceita
         if len(melhores) >= 2 and melhores[1][0] - melhores[0][0] < 0.3:
             return None
-        return melhores[0][1] if melhores else None
+        return (melhores[0][1], melhores[0][0]) if melhores else None
 
     # ---------- Hierarquia ----------
     fs = {fid: {"id": fid, "nome": nome, "fonte": f"https://arquifln.org.br/organizacao/1070-2/{slug}/", "paroquias": [], "outras": []}
@@ -226,9 +226,12 @@ def main(arq_bairros, arq_municipios):
                 ref, ref_tipo = pos_end, "municipio"
             if ref_tipo == "municipio":
                 ref = None  # localidade não encontrada: fica perto da matriz (abaixo)
-            o = casa_osm(n, ref, 1.5 if matriz else (4 if ref_tipo == "localidade" else 6)) if ref else None
-            if o:
-                item.update({"lat": round(o["lat"], 6), "lng": round(o["lng"], 6), "posicao": "osm", "nome_osm": o["nome"]})
+            achado = casa_osm(n, ref, 1.5 if matriz else (4 if ref_tipo == "localidade" else 6)) if ref else None
+            if ref and ref_tipo in ("endereco", "localidade"):
+                item["_ref"], item["_ref_tipo"] = ref, ref_tipo
+            if achado:
+                o, dist = achado
+                item.update({"lat": round(o["lat"], 6), "lng": round(o["lng"], 6), "posicao": "osm", "nome_osm": o["nome"], "_d": dist, "_pid": p["slug"]})
             elif ref and ref_tipo in ("endereco", "localidade"):
                 item.update({"lat": round(ref[0], 6), "lng": round(ref[1], 6), "posicao": ref_tipo})
             else:
@@ -248,6 +251,47 @@ def main(arq_bairros, arq_municipios):
             c["posicao"] = "aprox"
         par["comunidades"].sort(key=lambda c: (not c["matriz"], c["nome"]))
         fs[fid]["paroquias"].append(par)
+
+    # Uma igreja do OSM serve a uma comunidade só (a mais próxima da localidade informada).
+    # Exceção: o site repete a mesma comunidade (mesmo nome e localidade) na mesma paróquia.
+    por_osm = defaultdict(list)
+    for par, c in todas_igrejas:
+        if c.get("posicao") == "osm" and "_d" in c:
+            por_osm[(c["lat"], c["lng"])].append((par, c))
+    for lista in por_osm.values():
+        if len(lista) < 2:
+            continue
+        lista.sort(key=lambda t: t[1]["_d"])
+        dono = lista[0]
+        for par, c in lista[1:]:
+            if par is dono[0] and (c["nome"] == dono[1]["nome"] or c["local"] == dono[1]["local"]) and not (c["matriz"] ^ dono[1]["matriz"]):
+                continue
+            for k2 in ("lat", "lng", "nome_osm", "_d"):
+                c.pop(k2, None)
+            if "_ref" in c:
+                c["lat"], c["lng"], c["posicao"] = round(c["_ref"][0], 6), round(c["_ref"][1], 6), c["_ref_tipo"]
+            else:
+                mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
+                if mz:
+                    c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.004, 6), round(mz["lng"] + 0.004, 6), "aprox"
+    # Comunidade longe demais da sua matriz: localidade homônima em outro lugar -> volta para perto da matriz
+    for f in fs.values():
+        for par in f["paroquias"]:
+            if par.get("ilha"):
+                continue
+            mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
+            if not mz:
+                continue
+            limite = 7 if par["municipio"] == "Florianópolis" else 20
+            soltas = [c for c in par["comunidades"] if not c["matriz"] and "lat" in c and km((c["lat"], c["lng"]), (mz["lat"], mz["lng"])) > limite]
+            for j, c in enumerate(soltas):
+                print("  longe da matriz:", par["id"], c["nome"], c["local"])
+                a = 2 * math.pi * j / len(soltas) + 1.1
+                c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.007 * math.cos(a), 6), round(mz["lng"] + 0.007 * math.sin(a) / 0.887, 6), "aprox"
+                c.pop("nome_osm", None)
+    for par, c in todas_igrejas:
+        for k2 in ("_d", "_pid", "_ref", "_ref_tipo"):
+            c.pop(k2, None)
 
     # Mesma posição para várias igrejas (localidade/município): espalha em círculo pequeno
     grupos = defaultdict(list)

@@ -471,7 +471,7 @@ function render(){
   }
   const c = document.getElementById('conteudo');
   c.replaceChildren(el(h));
-  c.parentElement.scrollTop = 0;
+  c.scrollTop = 0;
   document.getElementById('alca-titulo').textContent = !sel ? 'Arquidiocese de Florianópolis' : sel.tipo==='regiao' ? regiao[sel.id].properties.nome : sel.tipo==='paroquia' ? paroquia[sel.id].nome : sel.tipo==='igreja' ? igreja[sel.id].nome : forania[sel.id].nome;
   document.getElementById('voltar').hidden = !sel;
   if (celular() && sel) abrirGaveta(true);
