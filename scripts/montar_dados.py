@@ -19,6 +19,8 @@ from collections import Counter, deque
 from pathlib import Path
 
 import geopandas as gpd
+import sys as _s; _s.path.insert(0, __import__("os").path.dirname(__file__))
+from bairros_util import ler_bairros  # noqa: E402
 from shapely.geometry import Point, mapping, shape
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -118,7 +120,7 @@ def hierarquia():
 
 def main(arq_bairros, arq_municipios):
     hier = hierarquia()
-    g = gpd.read_file(arq_bairros)
+    g = ler_bairros(arq_bairros)
     ilha = g[g.REGIAO_FUNCIONAL != "Continente"].reset_index(drop=True)
     continente = g[g.REGIAO_FUNCIONAL == "Continente"]
     nomes = list(ilha.NM_BAIRRO)

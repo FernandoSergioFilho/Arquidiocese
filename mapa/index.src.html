@@ -86,6 +86,7 @@ aside h3{font:500 16px var(--font);color:var(--fg);margin:22px -24px 6px;padding
 .legend-key span,.legend-tipos span{display:inline-flex;gap:6px;align-items:center}
 .k-solid{width:16px;height:10px;border-radius:3px;background:var(--muted)}
 .k-area{width:16px;height:10px;border-radius:3px;background:color-mix(in srgb,var(--muted) 60%,transparent)}
+.k-vazio{width:16px;height:10px;border-radius:3px;background:var(--land);border:1px solid var(--land-line);box-sizing:border-box}
 .k-est{width:16px;height:10px;border-radius:3px;border:1.5px dashed var(--muted);box-sizing:border-box;background:color-mix(in srgb,var(--muted) 25%,transparent)}
 .acoes{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
 
@@ -260,6 +261,8 @@ const css = getComputedStyle(document.documentElement);
 const tok = n => css.getPropertyValue(n).trim();
 
 L.geoJSON(D.fundo, {renderer:canvas, interactive:false, style:()=>({color:tok('--land-line'), weight:.8, fillColor:tok('--land'), fillOpacity:1})}).addTo(map);
+// Bairros sem nenhuma igreja: só o contorno, sem paróquia
+L.geoJSON(D.vazios, {renderer:canvas, interactive:false, style:()=>({color:tok('--land-line'), weight:.8, fillColor:tok('--land'), fillOpacity:1})}).addTo(map);
 
 function estilo(f){
   const r = f.properties;
@@ -297,7 +300,7 @@ map.setMaxBounds(limites.pad(.6));
 // Rótulos (só os que estão na tela)
 const camadaRotulos = L.layerGroup().addTo(map);
 const rotMun = D.municipios.features.map(f => { const bb = L.geoJSON(f).getBounds(); return {t:f.properties.nome, p:f.properties.ponto, big:true, area:(bb.getNorth()-bb.getSouth())*(bb.getEast()-bb.getWest())}; }).sort((a,b) => b.area - a.area);
-const rotBairro = regioes.filter(f => f.properties.tipo === 'bairro').map(f => ({t:f.properties.nome, p:f.properties.ponto}));
+const rotBairro = [...regioes.filter(f => f.properties.tipo === 'bairro'), ...D.vazios.features].map(f => ({t:f.properties.nome, p:f.properties.ponto}));
 function atualizaRotulos(){
   camadaRotulos.clearLayers();
   const z = map.getZoom(), b = map.getBounds().pad(.1);
@@ -415,7 +418,7 @@ const linhaForania = f => `<li><button data-sel='${JSON.stringify({tipo:'forania
 const linhaRegiao = f => { const r = f.properties, outra = sel?.tipo === 'paroquia' && r.principal !== sel.id;
   return `<li><button data-sel='${JSON.stringify({tipo:'regiao',id:r.id})}'><span class="sw" style="${outra?`border:1.5px dashed ${cor(sel.id)};box-sizing:border-box`:`background:${cor(r.principal)};opacity:${r.situacao==='estimado'?.45:1}`}"></span><span class="name">${esc(r.tipo==='area' ? r.municipio : r.nome)}<br><small style="color:var(--muted)">${r.tipo==='area'?'Área estimada':r.situacao==='estimado'?'Bairro estimado':'Bairro'}${outra?' · divide com '+esc(semPar(paroquia[r.principal].nome)):''}</small></span><span class="meta">${r.pop?fmt(r.pop)+' hab.':''}</span></button></li>`; };
 const linhaComunidade = (c, comParoquia) => `<li><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(cor(c.paroquia.id), c.tipo, c.matriz?26:22)}</span><span class="name">${c.matriz?`<b>${c.tipo==='catedral'?'Catedral':'Matriz'}</b> · `:''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.mun && c.mun!==c.local && !c.paroquia.ilha ?' · '+esc(c.mun):'')}${c.pos?'':' · sem localização'}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
-const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Bairro confirmado</span><span><i class="k-est"></i>Estimado</span><span><i class="k-area"></i>Área aproximada</span></div><div class="legend-tipos">${['catedral','matriz','igreja','capela','santuario'].map(t => `<span>${ICONE('var(--legend)', t, 20)}${TIPOS[t].rot}</span>`).join('')}</div>`;
+const legenda = `<div class="legend-key"><span><i class="k-solid"></i>Bairro confirmado</span><span><i class="k-vazio"></i>Bairro sem igreja</span><span><i class="k-area"></i>Área aproximada</span></div><div class="legend-tipos">${['catedral','matriz','igreja','capela','santuario'].map(t => `<span>${ICONE('var(--legend)', t, 20)}${TIPOS[t].rot}</span>`).join('')}</div>`;
 const nPar = Object.keys(paroquia).length, nIgr = igrejas.length;
 const municipiosDe = ps => [...new Set(ps.map(p => p.municipio).filter(Boolean))];
 
@@ -426,7 +429,7 @@ function render(){
     h += `<div class="stats"><div><b>${H.foranias.length}</b><small>Foranias</small></div><div><b>${nPar}</b><small>Paróquias</small></div><div><b>${nIgr}</b><small>Igrejas e comunidades</small></div></div>`;
     h += legenda;
     h += `<h3>Foranias</h3><ul class="list">${H.foranias.map(linhaForania).join('')}</ul>`;
-    h += `<p class="note">Paróquias e comunidades conforme o site da <a href="https://arquifln.org.br/organizacao/1070-2" target="_blank" rel="noopener">Arquidiocese</a>, lido em 21/11/2026. Na Ilha e no Continente de Florianópolis, as cores seguem os bairros do IBGE. Nos outros municípios, a área de cada paróquia é aproximada, traçada a partir das suas igrejas.</p>`;
+    h += `<p class="note">Paróquias e comunidades conforme o site da <a href="https://arquifln.org.br/organizacao/1070-2" target="_blank" rel="noopener">Arquidiocese</a>, lido em 21/11/2026. Na Ilha e no Continente de Florianópolis, as cores seguem os bairros do IBGE; bairros sem nenhuma igreja ficam sem cor. Nos outros municípios, a área de cada paróquia é aproximada, traçada a partir das suas igrejas.</p>`;
   } else if (sel.tipo === 'forania'){
     const f = forania[sel.id], ni = f.paroquias.reduce((a,p)=>a+p.comunidades.length,0), ms = municipiosDe(f.paroquias);
     h += crumbs([ARQ, {t:f.nome}]);

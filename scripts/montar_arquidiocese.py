@@ -23,6 +23,8 @@ from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 import geopandas as gpd
+import sys as _s; _s.path.insert(0, __import__("os").path.dirname(__file__))
+from bairros_util import ler_bairros  # noqa: E402
 from shapely.geometry import MultiPoint, Point, mapping, shape
 from shapely.ops import unary_union, voronoi_diagram
 
@@ -263,17 +265,20 @@ def main(arq_bairros, arq_municipios):
             c["lat"], c["lng"] = round(la + r * math.cos(a), 6), round(lo + r * math.sin(a) / 0.887, 6)
 
     # ---------- Regiões ----------
-    feats = []
-    # Ilha (já pronta)
+    feats, vazios = [], []
+    # Ilha (já pronta). Bairros sem nenhuma igreja ficam sem paróquia (só o contorno).
     for f in ilha_geo["features"]:
         p = dict(f["properties"])
         p["nome"] = p.pop("bairro")
+        if p["situacao"] == "estimado":
+            vazios.append({"type": "Feature", "properties": {"nome": p["nome"], "ponto": p["ponto"]}, "geometry": f["geometry"]})
+            continue
         p["municipio"] = "Florianópolis"
         p["tipo"] = "bairro"
         feats.append({"type": "Feature", "properties": p, "geometry": f["geometry"]})
 
     # Continente de Florianópolis: bairros IBGE
-    g = gpd.read_file(arq_bairros)
+    g = ler_bairros(arq_bairros)
     cont = g[g.REGIAO_FUNCIONAL == "Continente"].reset_index(drop=True)
     cont4326 = cont.to_crs(4326)
     forania_de = {p["id"]: f["id"] for f in fs.values() for p in f["paroquias"]}
@@ -310,12 +315,8 @@ def main(arq_bairros, arq_municipios):
             pr = matriz_em.get(n) or pres[n].most_common(1)[0][0]
             props.update({"principal": pr, "paroquias": [pr] + [x for x in pres[n] if x != pr],
                           "situacao": "matriz" if n in matriz_em else "comunidade"})
-        elif i in atrib:
-            s, o = atrib[i]
-            ref = nomes[o]
-            pr = matriz_em.get(ref) or pres[ref].most_common(1)[0][0]
-            props.update({"principal": pr, "paroquias": [pr], "situacao": "estimado", "referencia": ref, "saltos": s})
         else:
+            vazios.append({"type": "Feature", "properties": {"nome": n, "ponto": props["ponto"]}, "geometry": arred(simpl.iloc[i])})
             continue
         props["forania"] = forania_de[props["principal"]]
         feats.append({"type": "Feature", "properties": props, "geometry": arred(simpl.iloc[i])})
@@ -379,6 +380,7 @@ def main(arq_bairros, arq_municipios):
             "foranias": [fs[fid] for fid, _, _ in ORDEM_FORANIAS]}
     dados = {"hierarquia": hier, "regioes": {"type": "FeatureCollection", "features": feats},
              "fundo": {"type": "FeatureCollection", "features": fundo},
+             "vazios": {"type": "FeatureCollection", "features": vazios},
              "municipios": {"type": "FeatureCollection", "features": limites}}
     (RAIZ / "mapa" / "dados.json").write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (D / "hierarquia.json").write_text(json.dumps(hier, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -116,7 +116,7 @@
        "nome": "Bom Jesus dos Pescadores",
        "local": "Tapera da Barra do Sul",
        "ano": "1982",
-       "bairro": "Tapera",
+       "bairro": "Tapera da Barra do Sul",
        "matriz": false
       },
       {
@@ -897,7 +897,7 @@
        "nome": "Senhor Bom Jesus",
        "local": "Vargem do Bom Jesus",
        "ano": "1885",
-       "bairro": "Cachoeira do Bom Jesus",
+       "bairro": "Vargem do Bom Jesus",
        "matriz": false,
        "lat": -27.453479,
        "lng": -48.427239,
