@@ -139,14 +139,22 @@ def main(arq_bairros, arq_municipios):
 
     # ---------- Igrejas católicas do OSM (todas as respostas de place_of_worship no cache) ----------
     osm = {}
+    NAO_CATOLICA = re.compile(r"evang|assembl|batista|adventista|universal|quadrangular|presbiter|luteran|esp[ií]rit|testemunh|"
+                              r"[uú]ltimos dias|congrega[cç][aã]o crist|maranata|deus [eé] amor|mundial|renascer|metodista|umbanda|"
+                              r"candombl|templo|minist[eé]rio|igreja de cristo|igreja crist[aã]|pentecost|sara nossa|bola de neve|"
+                              r"videira|internacional da gra[cç]a|nazareno|anglican|ortodox|kardec|budis|mesquita|sinagoga|"
+                              r"wesley|apost[oó]lica renascer|cristo vive|vida nova|lagoinha|tabernáculo|tabernaculo", re.I)
     for k, v in cache.items():
-        if '"amenity": "place_of_worship"' not in k or not v:
-            continue
-        for x in v:
+        for x in v or []:
+            if not isinstance(x, dict) or x.get("type") != "place_of_worship":
+                continue
             t = x.get("extratags") or {}
-            den = t.get("denomination")
+            den = (t.get("denomination") or "").lower()
+            rel = (t.get("religion") or "christian").lower()
             nome = x.get("name") or ""
-            if den in ("roman_catholic", "catholic") or (den is None and re.search(r"capela|par[oó]quia|santu|igreja (matriz|de )?(nossa|s[aã]o|santa|santo|sagrad|bom jesus|divino)", nome.lower())):
+            if not nome or rel != "christian":
+                continue
+            if den in ("roman_catholic", "catholic") or (not den and not NAO_CATOLICA.search(nome)):
                 osm[x["osm_type"][0] + str(x["osm_id"])] = {"nome": nome, "lat": float(x["lat"]), "lng": float(x["lon"]), "tok": norm_tokens(nome), "seq": norm_seq(nome)}
     # igrejas do OSM já atribuídas na Ilha (conferidas à mão) não entram na busca
     ja_ilha = [(c["lat"], c["lng"]) for f in ilha["foranias"] for p in f["paroquias"] for c in p["comunidades"] if "lat" in c]
@@ -250,11 +258,11 @@ def main(arq_bairros, arq_municipios):
     todas_igrejas = []
     for p in sorted(site, key=lambda x: x["slug"]):
         # forania: maioria entre cabeçalho da página da paróquia, classificação interna do site e lista da página da forania
-        votos = [v for v in (forania_txt(p.get("forania_corrigida")) or forania_txt(p["forania"]),
-                             (api_cat.get(p["slug"]) or [None])[0], links.get(p["slug"])) if v]
-        fid = Counter(votos).most_common(1)[0][0]
-        if len(set(votos)) > 1:
-            print("  forania divergente:", p["slug"], votos, "->", fid)
+        # forania: cabeçalho da página da paróquia; se faltar, a classificação interna do site
+        fid = forania_txt(p.get("forania_corrigida")) or forania_txt(p["forania"]) or (api_cat.get(p["slug"]) or [None])[0]
+        cat = (api_cat.get(p["slug"]) or [None])[0]
+        if cat and cat != fid:
+            print("  ATENÇÃO forania: cabeçalho", fid, "x site", cat, p["slug"])
         nome = limpa(p["nome"])
         mun = p.get("municipio") or municipio_de(p["endereco"]) or "Florianópolis"
         sobre = p.get("sobre", [])
@@ -273,6 +281,13 @@ def main(arq_bairros, arq_municipios):
             fs[fid]["paroquias"].append(par)
             for c in par["comunidades"]:
                 todas_igrejas.append((par, c))
+                if "lat" not in c and c.get("bairro"):
+                    # bairro conhecido: procura a igreja com o mesmo nome dentro de 1,5 km do centro do bairro
+                    pb = next(f["properties"]["ponto"] for f in ilha_geo["features"] if f["properties"]["bairro"] == c["bairro"])
+                    achado = casa_osm(c["nome"], tuple(pb), 1.5)
+                    if achado:
+                        c.update({"lat": round(achado[0]["lat"], 6), "lng": round(achado[0]["lng"], 6), "posicao": "osm", "nome_osm": achado[0]["nome"], "_d": achado[1]})
+                        print("  Ilha, achada no OSM:", par["id"], "|", c["nome"], "|", c["bairro"], "->", achado[0]["nome"], round(achado[1], 2), "km")
                 if "lat" not in c and not c.get("bairro"):
                     # sem bairro identificado à mão: tenta a igreja no OSM perto da matriz, depois a localidade
                     mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
