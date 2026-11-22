@@ -527,6 +527,11 @@ def main(arq_bairros, arq_municipios):
             inteiros = [r0 for r0 in nomeados if contido(sq, r0["seq"])]  # nome da comunidade inteiro no nome do CNEFE
             if len(inteiros) == 1 and len([x for x in todas_igrejas if (x[0]["municipio"] == par["municipio"]) and norm_seq(x[1]["nome"]) == sq]) == 1:
                 escolha, como = inteiros[0], "nome (único no município)"
+        # 1b) pelo nome, perto do centro da localidade informada (quando há várias com o mesmo nome no município)
+        if not escolha and c.get("posicao") == "localidade" and "lat" in c:
+            perto = [r0 for r0 in nomeados if contido(sq, r0["seq"]) and km((r0["lat"], r0["lng"]), (c["lat"], c["lng"])) <= 2]
+            if len(perto) == 1:
+                escolha, como = perto[0], "nome, perto da localidade"
         # 2) igreja sem nome no CNEFE, mas única na localidade
         if not escolha and loc_c and not loc_c <= toks(par["municipio"], False) and loc_c != {"centro"}:
             na_loc = [r0 for r0 in cnefe if r0["municipio"] == par["municipio"] and loc_ok(r0) and (r0["especie"] == "8" or not GENERICO.match(r0["nome"].upper()) is None)]

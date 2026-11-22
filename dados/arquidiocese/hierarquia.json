@@ -1240,10 +1240,11 @@
        "ano": "1999",
        "bairro": null,
        "matriz": false,
-       "lat": -27.550501,
-       "lng": -48.492109,
-       "posicao": "localidade",
-       "local_osm": "Sol Nascente (neighbourhood)"
+       "lat": -27.549913,
+       "lng": -48.492646,
+       "posicao": "cnefe",
+       "local_osm": "Sol Nascente (neighbourhood)",
+       "cnefe": "CAPELA NOSSA SENHORA APARECIDA · RUA PEDRA DE LISTRAS · SACO GRANDE (nome, perto da localidade)"
       },
       {
        "nome": "Nossa Senhora de Fátima",
@@ -6376,10 +6377,11 @@
        "local": "Cedro",
        "ano": "1989",
        "matriz": false,
-       "lat": -27.0375,
-       "lng": -48.6457,
-       "posicao": "localidade",
+       "lat": -27.037452,
+       "lng": -48.647336,
+       "posicao": "cnefe",
        "local_osm": "Cedro (suburb)",
+       "cnefe": "IGREJA CATOLICA NOSSA SENHORA DA GLORIA · RUA CABO HENRIQUE F BERNARDES · CEDROS (nome, perto da localidade)",
        "municipio": "Camboriú"
       },
       {
@@ -7148,10 +7150,11 @@
        "local": "Votorantim",
        "ano": "1982",
        "matriz": false,
-       "lat": -26.8983,
-       "lng": -48.7048,
-       "posicao": "localidade",
+       "lat": -26.896767,
+       "lng": -48.704751,
+       "posicao": "cnefe",
        "local_osm": "Votorantim (quarter)",
+       "cnefe": "IGREJA N S DO PERPETUO SOCORRO · RUA JAIME FERNANDES VIEIRA, 183 · CORDEIROS (nome, perto da localidade)",
        "municipio": "Itajaí"
       },
       {
@@ -7227,10 +7230,11 @@
        "local": "São Roque",
        "ano": "1981",
        "matriz": false,
-       "lat": -26.911,
-       "lng": -48.742,
-       "posicao": "localidade",
+       "lat": -26.904912,
+       "lng": -48.728512,
+       "posicao": "cnefe",
        "local_osm": "São Roque (suburb)",
+       "cnefe": "SAO FRANCISCO DE ASSIS · RUA DOMINGOS RAMPELOTTI · ESPINHEIROS (nome, perto da localidade)",
        "municipio": "Itajaí"
       },
       {
