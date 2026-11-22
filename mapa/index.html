@@ -890,11 +890,11 @@ function estilo(f){
   if (sel?.tipo === 'paroquia') ativo = r.paroquias.includes(sel.id);
   if (sel?.tipo === 'igreja') ativo = r.paroquias.includes(igreja[sel.id].paroquia.id);
   if (sel?.tipo === 'forania') ativo = r.forania === sel.id;
-  if (!ativo) return {color:tok('--land-line'), weight:.6, fillColor:tok('--land'), fillOpacity:1, opacity:1};
-  if (sel?.tipo === 'paroquia' && r.principal !== sel.id) return {color:cor(sel.id), weight:2, dashArray:'4 3', fillColor:cor(sel.id), fillOpacity:.25, opacity:1};
+  if (!ativo) return {stroke:false, fillColor:tok('--land'), fillOpacity:1, opacity:1};
+  if (sel?.tipo === 'paroquia' && r.principal !== sel.id) return {stroke:true, color:cor(sel.id), weight:2, dashArray:'4 3', fillColor:cor(sel.id), fillOpacity:.25, opacity:1};
   const escolhido = sel?.tipo === 'regiao' && sel.id === r.id;
   const op = .62;
-  return {color: escolhido ? tok('--fg') : tok('--panel'), weight: escolhido ? 3 : 1.2, dashArray:null, fillColor:c, fillOpacity:op, opacity:1};
+  return {stroke: escolhido, color: tok('--fg'), weight: 3, dashArray:null, fillColor:c, fillOpacity:op, opacity:1};
 }
 const dicaRegiao = r => `<b>${esc(r.nome)}</b>${esc(paroquia[r.principal].nome)}${r.paroquias.length>1?` <span style="color:var(--muted)">+${r.paroquias.length-1}</span>`:''}<br><span style="color:var(--muted)">Área estimada · ${esc(r.municipio)}</span>`;
 const camadaDe = {};
@@ -903,7 +903,7 @@ const camada = L.geoJSON(D.regioes, {
   onEachFeature(f, l){
     const r = f.properties; camadaDe[r.id] = l;
     l.on({
-      mouseover(){ if (!(sel?.tipo==='regiao' && sel.id===r.id)) l.setStyle({weight:2.5, color:tok('--fg')}); },
+      mouseover(){ if (!(sel?.tipo==='regiao' && sel.id===r.id)) l.setStyle({stroke:true, weight:2.5, color:tok('--fg')}); },
       mouseout(){ l.setStyle(estilo(f)); },
       click(e){ abrirJanelaRegiao(r, e.latlng); }
     });
