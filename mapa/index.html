@@ -735,6 +735,9 @@ aside h3{font:500 16px var(--font);color:var(--fg);margin:22px -24px 6px;padding
 .apagado .pin{opacity:.25}
 .apagado .pin span{display:none}
 .sel .pin svg{transform:scale(1.3);transform-origin:bottom center}
+.foco .pin svg{transform:scale(1.45);transform-origin:bottom center;transition:transform .15s}
+.foco .pin span{display:inline!important;font-weight:700}
+.list li.foco > button{background:var(--accent-soft);border-radius:8px}
 .ico{display:inline-flex;flex:none;width:26px;justify-content:center}
 .janela .leaflet-popup-content-wrapper{background:var(--panel);color:var(--fg);border-radius:8px;box-shadow:var(--shadow)}
 .janela .leaflet-popup-tip{background:var(--panel);box-shadow:none}
@@ -912,12 +915,12 @@ function sabor(esc){
 }
 let camadaBase = null;
 const fundoReserva = () => L.geoJSON(D.fundo, {renderer:canvas, interactive:false, style:f=>({stroke:!!f.properties.fora, color:tok('--land-line'), weight:.8, fillColor:tok('--land'), fillOpacity:1})}).addTo(map);
-// Os tiles vêm em pacotes JSON (base/base_0.json para zoom < 10; base/base_X_Y.json para cada tile do zoom 10 e seus filhos),
+// Os tiles vêm em pacotes JSON (base_0: zoom < 9; base9_X_Y: zooms 9-10 por tile do zoom 9; base_X_Y: zoom 11 e seus filhos),
 // baixados só quando a região aparece na tela. Cada tile está em base64, comprimido (gzip).
 const BASE_TPL = 'https://mapa-base.invalid/{z}/{x}/{y}.mvt', pacotes = {};
 function pacote(nome){ return pacotes[nome] || (pacotes[nome] = fetch('base/' + nome + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))); }
 async function tileBase(z, x, y){
-  const nome = z < 10 ? 'base_0' : `base_${x >> (z - 10)}_${y >> (z - 10)}`;
+  const nome = z < 9 ? 'base_0' : z < 11 ? `base9_${x >> (z - 9)}_${y >> (z - 9)}` : `base_${x >> (z - 11)}_${y >> (z - 11)}`;
   const b64 = (await pacote(nome))[`${z}/${x}/${y}`];
   if (!b64) return new ArrayBuffer(0);
   const gz = Uint8Array.from(atob(b64), ch => ch.charCodeAt(0));
@@ -931,7 +934,11 @@ function poeMapaBase(){
     return m ? tileBase(+m[1], +m[2], +m[3]).then(b => new Response(b)) : f0(u, o);
   };
   const fl = sabor(escuroAtivo());
-  camadaBase = protomapsL.leafletLayer({url:BASE_TPL, maxDataZoom:13, paintRules:protomapsL.paintRules(fl), labelRules:protomapsL.labelRules(fl, 'pt'), backgroundColor:fl.background, attribution:''});
+  // Desempenho: nomes de rua só bem de perto; sem redesenhar durante o zoom; resolução no máximo 1,5x (telas 3x pesam 4x mais)
+  const rotulos = protomapsL.labelRules(fl, 'pt').map(r => r.dataLayer === 'roads' ? {...r, minzoom:Math.max(r.minzoom || 0, 15)} : r);
+  camadaBase = protomapsL.leafletLayer({url:BASE_TPL, maxDataZoom:13, paintRules:protomapsL.paintRules(fl), labelRules:rotulos, backgroundColor:fl.background, attribution:'',
+    tileDelay:0, updateWhenZooming:false, updateWhenIdle:true, keepBuffer:1});
+  camadaBase.tileSize = 256 * Math.min(window.devicePixelRatio || 1, 1.5);
   camadaBase.addTo(map);
 }
 poeMapaBase();
@@ -963,6 +970,7 @@ function atualizaRotulos(){
 // Marcadores de igrejas: criados sob demanda e só os visíveis
 const camadaIgrejas = L.layerGroup().addTo(map);
 const marcador = {};
+let focoId = null;  // igreja em foco pela rolagem da lista
 function ativoIgreja(c){
   if (!sel) return true;
   if (sel.tipo === 'paroquia') return c.paroquia.id === sel.id;
@@ -998,7 +1006,8 @@ function atualizaIgrejas(){
     e.classList.toggle('apagado', !at);
     e.classList.toggle('destaque', !!(foco && at));
     e.classList.toggle('sel', sel?.tipo === 'igreja' && sel.id === id);
-    m.setZIndexOffset(at ? (GRANDE(c.tipo) ? 2000 : 1000) : 0);
+    e.classList.toggle('foco', id === focoId);
+    m.setZIndexOffset(id === focoId ? 5000 : at ? (GRANDE(c.tipo) ? 2000 : 1000) : 0);
   }
   document.getElementById('map').classList.toggle('hide-pinlbl', z < 14);
 }
@@ -1031,6 +1040,7 @@ function selecionar(s, voar=true){
   vistaLista = false;
   document.getElementById('painel').classList.remove('full');
   sel = s && s.tipo === 'arq' ? null : s;
+  poeFoco(null);
   if (voar){
     const o = {...pad(), duration:.6};
     if (!sel) map.flyToBounds(limites, o);
@@ -1050,7 +1060,7 @@ function crumbs(itens){
 const ARQ = {t:'Arquidiocese', s:{tipo:'arq'}};
 const linhaParoquia = p => `<li><button data-sel='${JSON.stringify({tipo:'paroquia',id:p.id})}'><span class="sw" style="background:${modo==='forania'?CORES_FORANIA[p.forania]:cor(p.id)}"></span><span class="name">${esc(p.nome)}<br><small style="color:var(--muted)">${esc(p.municipio || '')}</small></span><span class="meta">${p.comunidades.length} igreja${p.comunidades.length>1?'s':''}</span></button></li>`;
 const linhaForania = f => `<li><button data-sel='${JSON.stringify({tipo:'forania',id:f.id})}'><span class="sw" style="background:${CORES_FORANIA[f.id]}"></span><span class="name">${esc(f.nome.replace('Forania ',''))}</span><span class="meta">${f.paroquias.length} paróquias</span></button></li>`;
-const linhaComunidade = (c, comParoquia) => `<li><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(cor(c.paroquia.id), c.tipo, c.matriz?26:22)}</span><span class="name">${c.matriz?`<b>${c.tipo==='catedral'?'Catedral':'Matriz'}</b> · `:''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.mun && c.mun!==c.local && !c.paroquia.ilha ?' · '+esc(c.mun):'')}${c.pos?'':' · sem localização'}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
+const linhaComunidade = (c, comParoquia) => `<li data-igreja="${esc(c.id)}"><button data-sel='${JSON.stringify({tipo:'igreja',id:c.id})}'><span class="ico">${ICONE(cor(c.paroquia.id), c.tipo, c.matriz?26:22)}</span><span class="name">${c.matriz?`<b>${c.tipo==='catedral'?'Catedral':'Matriz'}</b> · `:''}${esc(c.nome)}<br><small style="color:var(--muted)">${comParoquia?esc(c.paroquia.nome):esc(c.local)+(c.mun && c.mun!==c.local && !c.paroquia.ilha ?' · '+esc(c.mun):'')}${c.pos?'':' · sem localização'}</small></span><span class="meta">${c.ano||''}</span></button></li>`;
 const legenda = `<div class="legend-tipos">${['catedral','matriz','igreja','capela','santuario'].map(t => `<span>${ICONE('var(--legend)', t, 20)}${TIPOS[t].rot}</span>`).join('')}</div>`;
 const nPar = Object.keys(paroquia).length, nIgr = igrejas.length;
 const municipiosDe = ps => [...new Set(ps.map(p => p.municipio).filter(Boolean))];
@@ -1094,7 +1104,7 @@ function render(){
     h += `<dl class="facts"><dt>Município</dt><dd>${esc(p.municipio)}</dd>${p.paroco?`<dt>Pároco</dt><dd>${esc(p.paroco)}</dd>`:''}${p.criada?`<dt>Criação</dt><dd>${esc(p.criada.replace(/^Criada (a|em) /,''))}</dd>`:''}<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>${(p.instagram||[]).length?`<dt>Instagram</dt><dd>${p.instagram.map(i => `<a href="https://www.instagram.com/${encodeURIComponent(i)}/" target="_blank" rel="noopener">@${esc(i)}</a>`).join(', ')}</dd>`:''}${(p.sites||[]).length?`<dt>Site</dt><dd>${p.sites.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,''))}</a>`).join('<br>')}</dd>`:''}</dl>`;
     const sem = p.comunidades.filter(c => !c.pos).length;
     h += `<h3>Matriz e comunidades (${p.comunidades.length})</h3><p class="note" style="margin:-2px 0 8px">Todas marcadas no mapa${sem?`, menos ${sem} sem localização`:''}. Toque numa para ver os detalhes.</p>`;
-    h += `<ul class="list">${p.comunidades.map(c => linhaComunidade(c)).join('')}</ul>`;
+    h += `<ul class="list" data-foco>${p.comunidades.map(c => linhaComunidade(c)).join('')}</ul>`;
     if (p.fonte) h += `<p class="note">Fonte: <a href="${p.fonte}" target="_blank" rel="noopener">página da paróquia</a>.</p>`;
   } else if (sel.tipo === 'igreja'){
     const c = igreja[sel.id], p = c.paroquia, f = forania[p.forania], [cl, txt] = posicaoDe(c);
@@ -1113,6 +1123,42 @@ function render(){
   document.getElementById('voltar').hidden = !sel;
   if (celular() && sel) abrirGaveta(true);
 }
+
+// ---------- Foco pela rolagem: rolando a lista de igrejas da paróquia, a que passa pela linha de foco fica em destaque ----------
+// A linha desce do topo até o fim do painel conforme a rolagem avança, para que a primeira e a última igreja também possam ficar em foco.
+let focoAgendado = 0;
+function areaLivreCentro(){
+  const t = pad(), tl = L.point(t.paddingTopLeft), br = L.point(t.paddingBottomRight), sz = map.getSize();
+  return L.point((tl.x + sz.x - br.x) / 2, (tl.y + sz.y - br.y) / 2);
+}
+function centraNaArea(latlng){
+  const desloc = areaLivreCentro().subtract(map.getSize().divideBy(2));
+  map.panTo(map.unproject(map.project(latlng).subtract(desloc)), {animate:true, duration:.35});
+}
+function poeFoco(id){
+  if (id === focoId) return;
+  if (focoId && marcador[focoId]?.getElement()) { marcador[focoId].getElement().classList.remove('foco'); atualizaTudo(); }
+  document.querySelectorAll('#conteudo li.foco').forEach(li => li.classList.remove('foco'));
+  focoId = id;
+  if (!id) return;
+  const li = document.querySelector(`#conteudo [data-foco] li[data-igreja="${CSS.escape(id)}"]`); if (li) li.classList.add('foco');
+  const c = igreja[id]; if (!c?.pos) return;
+  const e = marcador[id]?.getElement(); if (e) { e.classList.add('foco'); marcador[id].setZIndexOffset(5000); }
+  centraNaArea(c.pos);
+}
+function atualizaFoco(){
+  const sc = document.getElementById('conteudo'), ul = sc.querySelector('[data-foco]');
+  if (!ul || sel?.tipo !== 'paroquia') return;
+  const itens = [...ul.children]; if (!itens.length) return;
+  const max = sc.scrollHeight - sc.clientHeight, prog = max > 0 ? Math.min(1, sc.scrollTop / max) : 0;
+  const caixa = sc.getBoundingClientRect(), linha = caixa.top + 24 + prog * (caixa.height - 48);
+  let melhor = itens[0], dist = Infinity;
+  for (const li of itens){ const r = li.getBoundingClientRect(), d = Math.abs((r.top + r.bottom) / 2 - linha); if (d < dist){ dist = d; melhor = li; } }
+  poeFoco(melhor.dataset.igreja);
+}
+document.getElementById('conteudo').addEventListener('scroll', () => {
+  cancelAnimationFrame(focoAgendado); focoAgendado = requestAnimationFrame(atualizaFoco);
+}, {passive:true});
 
 document.getElementById('conteudo').addEventListener('click', e => {
   const b = e.target.closest('[data-sel]'); if (b) selecionar(JSON.parse(b.dataset.sel));

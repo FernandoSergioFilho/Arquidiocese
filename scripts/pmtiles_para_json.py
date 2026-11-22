@@ -1,6 +1,6 @@
 """Converte um PMTiles local em pacotes JSON (o host do mapa só serve tipos web comuns).
-Uso: python scripts/pmtiles_para_json.py <entrada.pmtiles> <pasta_saida> [z_pacote=10]
-Saída: base_0.json (zooms < z_pacote) e base_<x>_<y>.json (cada tile z_pacote com seus filhos), {"z/x/y": base64 do tile gzip}."""
+Uso: python scripts/pmtiles_para_json.py <entrada.pmtiles> <pasta_saida> [z_pacote=11]
+Saída: base_0.json (zooms < 9), base9_<x>_<y>.json (zooms 9 até z_pacote-1, por tile do zoom 9) e base_<x>_<y>.json (cada tile z_pacote com seus filhos), {"z/x/y": base64 do tile gzip}."""
 import base64
 import json
 import os
@@ -29,7 +29,7 @@ def id_para_zxy(tid):
     return z, x, y
 
 
-def main(ent, pasta, zp=10):
+def main(ent, pasta, zp=11):
     b = Path(ent).read_bytes()
     hd = struct.unpack("<7sB" + "Q" * 11 + "BBBBBB" + "iiii" + "Bii", b[:127])
     ro, rl, _, _, lo, ll, do = hd[2:9]
@@ -44,10 +44,17 @@ def main(ent, pasta, zp=10):
         dado = base64.b64encode(b[do + off:do + off + ln]).decode()
         for k in range(run):
             z, x, y = id_para_zxy(tid + k)
-            nome = "base_0" if z < zp else f"base_{x >> (z - zp)}_{y >> (z - zp)}"
+            if z < 8:  # o mapa não se afasta além do zoom 8
+                continue
+            if z < 9:
+                nome = "base_0"
+            elif z < zp:  # zooms intermediários: por tile do zoom 9
+                nome = f"base9_{x >> (z - 9)}_{y >> (z - 9)}"
+            else:
+                nome = f"base_{x >> (z - zp)}_{y >> (z - zp)}"
             pacotes.setdefault(nome, {})[f"{z}/{x}/{y}"] = dado
     Path(pasta).mkdir(parents=True, exist_ok=True)
-    for f in Path(pasta).glob("base_*.json"):
+    for f in Path(pasta).glob("base*.json"):
         f.unlink()
     for nome, t in pacotes.items():
         (Path(pasta) / f"{nome}.json").write_text(json.dumps(t, separators=(",", ":")))
