@@ -4070,10 +4070,10 @@
        "local": "Ressurreição",
        "ano": "1974",
        "matriz": false,
-       "lat": -27.6613,
-       "lng": -48.8622,
-       "posicao": "localidade",
-       "municipio": "Águas Mornas"
+       "lat": -27.748514,
+       "lng": -48.770809,
+       "posicao": "aprox",
+       "municipio": "Santo Amaro da Imperatriz"
       },
       {
        "nome": "Nossa Senhora Aparecida",
@@ -5910,10 +5910,10 @@
        "local": "Japão",
        "ano": "2013",
        "matriz": false,
-       "lat": -26.9795,
-       "lng": -48.6423,
-       "posicao": "localidade",
-       "municipio": "Balneário Camboriú"
+       "lat": -27.026419,
+       "lng": -48.645444,
+       "posicao": "aprox",
+       "municipio": "Camboriú"
       },
       {
        "nome": "São Bento",
@@ -7123,10 +7123,10 @@
        "local": "Lajeado Baixo",
        "ano": "1944",
        "matriz": false,
-       "lat": -27.1483,
-       "lng": -49.1097,
-       "posicao": "localidade",
-       "municipio": "Botuverá"
+       "lat": -27.090946,
+       "lng": -48.974913,
+       "posicao": "aprox",
+       "municipio": "Guabiruba"
       }
      ]
     },
@@ -7224,7 +7224,7 @@
      ]
     },
     {
-     "id": "santa-teresinha",
+     "id": "santa-teresinha-2",
      "nome": "Paróquia Santa Teresinha",
      "municipio": "Brusque",
      "endereco": "Rua Santos Dumont, 1488 – Santa Teresinha – 88352-202 – Brusque/SC",

@@ -169,7 +169,7 @@ def main(arq_bairros, arq_municipios):
         return None
 
     ilha_par = {p["id"]: p for f in ilha["foranias"] for p in f["paroquias"]}
-    usados = set()
+    usados = set(ILHA_IDS.values())  # ids únicos: nenhuma paróquia nova pode repetir um id da Ilha
     todas_igrejas = []
     for p in sorted(site, key=lambda x: x["slug"]):
         fid = links.get(p["slug"]) or forania_txt(p.get("forania_corrigida")) or forania_txt(p["forania"])
@@ -188,7 +188,9 @@ def main(arq_bairros, arq_municipios):
                 todas_igrejas.append((par, c))
             continue
         base = re.sub(r"^paroquia-", "", p["slug"])
-        pid = base if base not in usados else base + "-2"
+        pid, n = base, 2
+        while pid in usados:
+            pid, n = f"{base}-{n}", n + 1
         usados.add(pid)
         criada = campo(sobre, "(Criada")
         par = {"id": pid, "nome": nome, "municipio": mun, "endereco": limpa(p["endereco"]),
@@ -274,6 +276,19 @@ def main(arq_bairros, arq_municipios):
                 mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
                 if mz:
                     c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.004, 6), round(mz["lng"] + 0.004, 6), "aprox"
+    # Posição só pela localidade, mas fora do município da paróquia: nome repetido em outra cidade -> perto da matriz
+    for f in fs.values():
+        for par in f["paroquias"]:
+            if par.get("ilha"):
+                continue
+            mz = next((x for x in par["comunidades"] if x["matriz"] and "lat" in x), None)
+            fora = [c for c in par["comunidades"] if c.get("posicao") == "localidade" and municipio_do_ponto(c["lat"], c["lng"]) not in (par["municipio"], None)]
+            for j, c in enumerate(fora):
+                print("  localidade em outro município:", par["id"], c["nome"], c["local"], municipio_do_ponto(c["lat"], c["lng"]))
+                if mz:
+                    a = 2 * math.pi * j / len(fora) + 2.2
+                    c["lat"], c["lng"], c["posicao"] = round(mz["lat"] + 0.007 * math.cos(a), 6), round(mz["lng"] + 0.007 * math.sin(a) / 0.887, 6), "aprox"
+
     # Comunidade longe demais da sua matriz: localidade homônima em outro lugar -> volta para perto da matriz
     for f in fs.values():
         for par in f["paroquias"]:
@@ -428,6 +443,8 @@ def main(arq_bairros, arq_municipios):
              "municipios": {"type": "FeatureCollection", "features": limites}}
     (RAIZ / "mapa" / "dados.json").write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (D / "hierarquia.json").write_text(json.dumps(hier, ensure_ascii=False, indent=1), encoding="utf-8")
+    ids = Counter(p["id"] for f in fs.values() for p in f["paroquias"])
+    assert all(v == 1 for v in ids.values()), f"ids repetidos: {[k for k, v in ids.items() if v > 1]}"
     print(f"{(RAIZ / 'mapa' / 'dados.json').stat().st_size / 1024:.0f} KB")
 
 
