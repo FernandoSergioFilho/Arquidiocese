@@ -450,6 +450,49 @@ def main(arq_bairros, arq_municipios):
         for k2 in ("_d", "_pid", "_ref", "_ref_tipo", "_achado"):
             c.pop(k2, None)
 
+    # Endereços publicados nos sites das próprias paróquias (scripts/enderecos_dos_sites.py + geocodificar_enderecos_sites.py)
+    arq_end = D / "enderecos_filtrados.json"
+    end_sites = json.loads(arq_end.read_text(encoding="utf-8")) if arq_end.exists() else {}
+    ponto_bairro = {f["properties"]["bairro"]: f["properties"]["ponto"] for f in ilha_geo["features"]}
+    revisar = []
+    for par, c in todas_igrejas:
+        e = end_sites.get(f"{par['id']}|{c['nome']}|{c['local']}")
+        if not e or not e.get("resultado"):
+            continue
+        x = e["resultado"]
+        if not endereco_bate(e["rua"], x, par["municipio"]) and not (x.get("type") == "place_of_worship" and mesmo_municipio(x, par["municipio"])):
+            continue
+        pos = (float(x["lat"]), float(x["lon"]))
+        if "lat" in c:
+            atual = (c["lat"], c["lng"])
+        elif c.get("bairro") in ponto_bairro:
+            atual = tuple(ponto_bairro[c["bairro"]])
+        else:
+            atual = None
+        mz = next((y for y in par["comunidades"] if y["matriz"] and "lat" in y), None)
+        d_atual = km(pos, atual) if atual else None
+        bb = [float(v) for v in x.get("boundingbox", [pos[0], pos[0], pos[1], pos[1]])]
+        via_longa = km((bb[0], bb[2]), (bb[1], bb[3])) > 1.5 and x.get("type") != "place_of_worship"
+        if via_longa:
+            c["endereco_site"] = e["texto"]  # meio de uma via longa não serve como posição; só registra o endereço
+            continue
+        if atual and c.get("posicao") in ("osm", None) and d_atual > 3:
+            revisar.append(f"{par['id']} | {c['nome']} | {c['local']} | site: {e['texto'][:60]} | {d_atual:.1f} km da posição atual ({c.get('posicao')})")
+            continue
+        if mz and not c["matriz"] and km(pos, (mz["lat"], mz["lng"])) > (8 if par["municipio"] == "Florianópolis" else 25):
+            revisar.append(f"{par['id']} | {c['nome']} | longe da matriz pelo endereço do site: {e['texto'][:60]}")
+            continue
+        exato = x.get("type") == "place_of_worship" or (e.get("numero") and (x.get("address") or {}).get("house_number") == e["numero"])
+        if c.get("posicao") in ("osm", "endereco") and "lat" in c:
+            c["endereco_site"] = e["texto"]  # igreja já no ponto exato: o endereço do site só confirma
+            continue
+        c.update({"lat": round(pos[0], 6), "lng": round(pos[1], 6), "posicao": "endereco" if exato else "rua", "endereco_site": e["texto"]})
+        c.pop("nome_osm", None)
+    if revisar:
+        print("  PARA REVISAR (endereço do site x posição atual):")
+        for r0 in revisar:
+            print("   ", r0)
+
     # Correções manuais conferidas (dados/arquidiocese/correcoes.json)
     corr = json.loads((D / "correcoes.json").read_text(encoding="utf-8")) if (D / "correcoes.json").exists() else {}
     usadas_corr = set()
@@ -497,7 +540,7 @@ def main(arq_bairros, arq_municipios):
     for par, c in todas_igrejas:
         if par.get("ilha"):
             continue
-        if c.get("posicao") in ("localidade", "endereco") and "lat" in c:
+        if c.get("posicao") in ("localidade", "endereco", "rua") and "lat" in c:
             pos = (c["lat"], c["lng"])
             grupos[(round(pos[0], 4), round(pos[1], 4))].append(c)
     for (la, lo), cs in grupos.items():

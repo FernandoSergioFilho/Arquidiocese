@@ -1,0 +1,910 @@
+{
+ "boa-viagem|Nossa Senhora da Boa Viagem|Saco dos Limões": [
+  {
+   "endereco": "Rua João Mota Espezim, 1.023, Saco dos Limões 88045-400 Florianópolis SC",
+   "linha_nome": "*TEXTO EXTRAÍDO INTEGRALMENTE DO LIVRO TOMBO DA PARÓQUIA NOSSA SENHORA DA BOA VIAGEM.",
+   "url": "https://boaviagem.org.br/a-paroquia/historico/"
+  },
+  {
+   "endereco": "estrada/ nos dispondo a viajar, / como é bom",
+   "linha_nome": "Hino da Padroeira Nossa Senhora da Boa Viagem",
+   "url": "https://boaviagem.org.br/a-paroquia/padroeira/"
+  },
+  {
+   "endereco": "Rua João Motta Espezim, 1023 – Saco dos Limões",
+   "linha_nome": "Nossa Senhora da Boa Viagem | Matriz",
+   "url": "https://boaviagem.org.br/comunidades/nossa-senhora-da-boa-viagem-matriz/"
+  },
+  {
+   "endereco": "Rua João Motta Espezim, 1023 – Saco dos Limões – Florianópolis (SC)",
+   "linha_nome": "Local: Espaço Boa Viagem – Comunidade Matriz",
+   "url": "https://boaviagem.org.br/paroquia-nossa-senhora-da-boa-viagem-promove-estudo-sobre-a-campanha-da-fraternidade-2026-e-convida-comunidade-para-momento-de-formacao-e-reflexao/"
+  },
+  {
+   "endereco": "Rua João Motta Espezim, 1023 – Saco dos Limões, Florianópolis",
+   "linha_nome": "Local: Comunidade Matriz da Paróquia Nossa Senhora da Boa Viagem",
+   "url": "https://boaviagem.org.br/paroquia-abre-inscricoes-para-curso-intensivo-de-italiano/"
+  }
+ ],
+ "boa-viagem|São José Operário|Costeira do Pirajubaé": [
+  {
+   "endereco": "Rua João Mota Espezim, 1.023, Saco dos Limões 88045-400 Florianópolis SC",
+   "linha_nome": "Comunidade São José Operário celebra missa em honra a São José no Sul da Ilha",
+   "url": "https://boaviagem.org.br/comunidades/nossa-senhora-da-boa-viagem-matriz/"
+  },
+  {
+   "endereco": "Av. Deputado Diomício Freitas, 299 – Seta",
+   "linha_nome": "São José Operário | Seta",
+   "url": "https://boaviagem.org.br/comunidades/sao-jose-operario/"
+  },
+  {
+   "endereco": "Avenida Deputado Diomício Freitas, nº 299, no bairro Seta, no Sul da Ilha",
+   "linha_nome": "A missa será celebrada às 20h, na Comunidade São José Operário, localizada na Avenida Deputado Diomício Freitas, nº 299,",
+   "url": "https://boaviagem.org.br/comunidade-sao-jose-operario-celebra-missa-em-honra-a-sao-jose-no-sul-da-ilha/"
+  }
+ ],
+ "boa-viagem|São Pedro Apóstolo|Costeira do Pirajubaé": [
+  {
+   "endereco": "Rua João Câncio Jacques, 1185 – Costeira do Pirajubaé",
+   "linha_nome": "São Pedro Apóstolo | Costeira",
+   "url": "https://boaviagem.org.br/comunidades/sao-pedro-apostolo/"
+  }
+ ],
+ "boa-viagem|Santa Rita de Cássia|Carianos": [
+  {
+   "endereco": "Rua Jornalista Nicolau Nagib Nahas, 79 – Carianos",
+   "linha_nome": "Santa Rita de Cássia | Carianos",
+   "url": "https://boaviagem.org.br/comunidades/santa-rita-de-cassia/"
+  }
+ ],
+ "boa-viagem|Nossa Senhora do Rosário|Caeira": [
+  {
+   "endereco": "Servidão Manoel Rufino de Abreu, 26 – Caeira",
+   "linha_nome": "Nossa Senhora do Rosário | Caeira",
+   "url": "https://boaviagem.org.br/comunidades/nossa-senhora-do-rosario/"
+  }
+ ],
+ "boa-viagem|Senhor Bom Jesus|Cachoeira do Rio Tavares": [
+  {
+   "endereco": "Servidão Divino Espírito Santo, s/nº – Cachoeira do Rio Tavares",
+   "linha_nome": "Senhor Bom Jesus | Cachoeira do Rio Tavares",
+   "url": "https://boaviagem.org.br/comunidades/senhor-bom-jesus/"
+  }
+ ],
+ "boa-viagem|Santa Catarina de Alexandria|Ressacada": [
+  {
+   "endereco": "Rua Maria Geraldina Ramos, 460 – Ressacada",
+   "linha_nome": "Santa Catarina de Alexandria | Ressacada",
+   "url": "https://boaviagem.org.br/comunidades/santa-catarina-de-alexandria/"
+  }
+ ],
+ "boa-viagem|Nossa Senhora Aparecida|Morro do Limoeiro": [
+  {
+   "endereco": "Servidão Catarina Albina Gouvêa, 187 – Morro Limoeiro",
+   "linha_nome": "Nossa Senhora Aparecida | Limoeiro",
+   "url": "https://boaviagem.org.br/comunidades/nossa-senhora-aparecida/"
+  }
+ ],
+ "lapa|São José|Costeira do Ribeirão": [
+  {
+   "endereco": "Praça Hermínio Silva, 62, Freguesia do Ribeirão",
+   "linha_nome": "São José | Costeira do Ribeirão",
+   "url": "https://nossasenhoradalapa.org.br/"
+  },
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "São José | Costeira do Ribeirão",
+   "url": "https://nossasenhoradalapa.org.br/pe-vanio-da-silva/"
+  }
+ ],
+ "lapa|Nossa Senhora da Lapa|Ribeirão da Ilha": [
+  {
+   "endereco": "Praça Hermínio Silva, 62, Freguesia do Ribeirão",
+   "linha_nome": "Matriz Nossa Senhora da Lapa",
+   "url": "https://nossasenhoradalapa.org.br/localizacao/"
+  },
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "Nossa Senhora da Lapa, nós temos confiança em Vós.",
+   "url": "https://nossasenhoradalapa.org.br/padroeira/"
+  }
+ ],
+ "lapa|Nossa Senhora da Lapa|Barro Vermelho": [
+  {
+   "endereco": "Praça Hermínio Silva, 62, Freguesia do Ribeirão",
+   "linha_nome": "Matriz Nossa Senhora da Lapa",
+   "url": "https://nossasenhoradalapa.org.br/localizacao/"
+  },
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "Nossa Senhora da Lapa, nós temos confiança em Vós.",
+   "url": "https://nossasenhoradalapa.org.br/padroeira/"
+  }
+ ],
+ "lapa|São João Maria Vianney|Fazenda do Rio Tavares": [
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "São João Maria Vianney | Fazenda do Rio Tavares",
+   "url": "https://nossasenhoradalapa.org.br/horarios/"
+  },
+  {
+   "endereco": "SC 406, 446",
+   "linha_nome": "São João Maria Vianney |…",
+   "url": "https://nossasenhoradalapa.org.br/sao-joao-maria-vianney-fazenda-do-rio-tavares-pagina/"
+  }
+ ],
+ "lapa|Santo Estevão|Alto Ribeirão": [
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "Local: Capela Santo Estevão",
+   "url": "https://nossasenhoradalapa.org.br/diac-helio-pinheiro-pagina/"
+  }
+ ],
+ "lapa|Nossa Senhora de Fátima e São Lucas|Tapera da Base": [
+  {
+   "endereco": "Rua Bernardino João Damázio, 118",
+   "linha_nome": "Nossa Senhora de Fátima e São Lucas | Tapera da Base",
+   "url": "https://nossasenhoradalapa.org.br/nossa-senhora-de-fatima-e-sao-lucas-tapera-da-base/"
+  }
+ ],
+ "lapa|Santa Luzia e São Pedro|Naufragados": [
+  {
+   "endereco": "Praça Hermínio Silva, 62 Freguesia do Ribeirão 88064-670 – Florianópolis – SC",
+   "linha_nome": "Santa Luzia e São Pedro…",
+   "url": "https://nossasenhoradalapa.org.br/santa-luzia-e-sao-pedro-naufragados/"
+  }
+ ],
+ "nossa-senhora-de-azambuja|Santo Antônio|Rua Luiz Vanolli": [
+  {
+   "endereco": "Rua Luiz Vanolli",
+   "linha_nome": "Santo Antônio",
+   "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-azambuja"
+  },
+  {
+   "endereco": "Rua Luiz Vanolli 2009",
+   "linha_nome": "3 Santo Antônio Rua Luiz Vanolli 2009",
+   "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-azambuja"
+  }
+ ],
+ "guadalupe|Nossa Senhora de Guadalupe|Canasvieiras": [
+  {
+   "endereco": "Av. Madre Maria Villac, 1700",
+   "linha_nome": "Matriz Nossa Senhora de Guadalupe e Secretaria Paroquial",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "guadalupe|Sagrada Face|Daniela": [
+  {
+   "endereco": "Av. Das Palmeiras, 786",
+   "linha_nome": "Sagrada Face | Daniela",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "guadalupe|São Francisco de Assis|Jurerê Internacional": [
+  {
+   "endereco": "Av. dos Salmões, 90",
+   "linha_nome": "São Francisco de Assis | Jurerê Internacional",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "guadalupe|São Francisco de Paula|Canasvieiras": [
+  {
+   "endereco": "Rodovia Tertuliano Brito Xavier, 2201",
+   "linha_nome": "São Francisco de Paula | Canasvieiras",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "guadalupe|São José|Forte": [
+  {
+   "endereco": "Servidão da Carioca (Cetro Comunitário Forte), s/n",
+   "linha_nome": "São José | Forte",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "guadalupe|São Pedro|Ponta das Canas": [
+  {
+   "endereco": "Av. Luiz Boiteux Piazza, 23",
+   "linha_nome": "São Pedro | Ponta das Canas",
+   "url": "https://paroquiadecanasvieiras.org.br/localizacao/"
+  }
+ ],
+ "lourdes|Nossa Senhora da Conceição|Rua Vitor Konder": [
+  {
+   "endereco": "Rua Vitor Konder",
+   "linha_nome": "Nossa Senhora da Conceição",
+   "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga"
+  },
+  {
+   "endereco": "Rua Vitor Konder 1978",
+   "linha_nome": "4 Nossa Senhora da Conceição Rua Vitor Konder 1978",
+   "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga"
+  }
+ ],
+ "lourdes|Nossa Senhora das Vitória|Morro Santa Vitória": [
+  {
+   "endereco": "Rua Frei Caneca 64. Auxiliado por empregados do Colégio Catarinense, procedeu-se à adaptação da casa que servira de residên",
+   "linha_nome": "7 Nossa Senhora das Vitória Morro Santa Vitória 2005",
+   "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga"
+  }
+ ],
+ "nossa-senhora-do-carmo|Nossa Senhora do Carmo|Coqueiros": [
+  {
+   "endereco": "Caminho por Roma,…",
+   "linha_nome": "O que Nossa Senhora do Carmo tem a ver com o título mariano “Estrela do Mar”",
+   "url": "https://paroquiadecoqueiros.org.br/"
+  },
+  {
+   "endereco": "caminho – O Vídeo do Papa – agosto de 2021 – Paróquia Nossa Senhora do Carmo",
+   "linha_nome": "A Igreja a caminho – O Vídeo do Papa – agosto de 2021 – Paróquia Nossa Senhora do Carmo",
+   "url": "https://paroquiadecoqueiros.org.br/a-igreja-a-caminho-o-video-do-papa-agosto-de-2021/"
+  }
+ ],
+ "desterro|Igreja Nossa Senhora do Rosário e de São Benedito (Irmandade)|R. Mal. Guilherme": [
+  {
+   "endereco": "Rua Marechal Guilherme, 60 - Centro de Florianópolis",
+   "linha_nome": "📍 Local: Igreja Nossa Senhora do Rosário e São Benedito",
+   "url": "https://www.catedralflorianopolis.org.br/nossa-comunidade"
+  }
+ ],
+ "sagrado-coracao|Nossa Senhora Aparecida e São Cristóvão|Morro das Pedras": [
+  {
+   "endereco": "Rua Eugênio Raulino da Silva, 95 | Campeche",
+   "linha_nome": "20h – Nossa Senhora Aparecida e São Cristóvão | Morro das Pedras",
+   "url": "https://paroquiadocampeche.org.br/"
+  },
+  {
+   "endereco": "Rua Eugênio Raulino da Silva, 95",
+   "linha_nome": "Nossa Senhora Aparecida e São Cristóvão | Morro das Pedras",
+   "url": "https://paroquiadocampeche.org.br/quem-somos/"
+  }
+ ],
+ "sagrado-coracao|São Sebastião|Campeche": [
+  {
+   "endereco": "Rua Eugênio Raulino da Silva, 95",
+   "linha_nome": "São Sebastião | Campeche",
+   "url": "https://paroquiadocampeche.org.br/localizacao/"
+  },
+  {
+   "endereco": "Rua João Batista Pires, 893 Praia do Campeche",
+   "linha_nome": "São Sebastião | Campeche",
+   "url": "https://paroquiadocampeche.org.br/diac-avelino-trentin/"
+  },
+  {
+   "endereco": "Rua Eugênio Raulino da Silva, 95 | Campeche",
+   "linha_nome": "São Sebastião | Campeche",
+   "url": "https://paroquiadocampeche.org.br/fale-conosco/"
+  },
+  {
+   "endereco": "caminho de amor e santidade”",
+   "linha_nome": "12/08 (quarta-feira) – Igreja São Sebastião (Campeche), às 20h. Tema: “A espiritualidade da família, um caminho de amor ",
+   "url": "https://paroquiadocampeche.org.br/semana-nacional-da-familia-mobiliza-a-paroquia-entre-os-dias-8-e-16-de-agosto/"
+  }
+ ],
+ "sagrado-coracao|Nossa Senhora do Sagrado Coração|Campeche": [
+  {
+   "endereco": "Rua Eugênio Raulino da Silva, 95",
+   "linha_nome": "Nossa Senhora do Sagrado Coração, rogai por nós.",
+   "url": "https://paroquiadocampeche.org.br/padroeira/"
+  },
+  {
+   "endereco": "Rua Auroreal, 260 – Campeche – Florianópolis/SC",
+   "linha_nome": "Local : Igreja Matriz Nossa Senhora do Sagrado Coração",
+   "url": "https://paroquiadocampeche.org.br/paroquia-do-campeche-apresenta-3a-edicao-do-auto-da-paixao-de-cristo-na-sexta-feira-santa/"
+  }
+ ],
+ "sagrado-coracao|Sant’Ana e São Joaquim|Armação": [
+  {
+   "endereco": "Av Antônio Borges dos Santos, s/no",
+   "linha_nome": "Sant’Ana e São Joaquim | Armação",
+   "url": "https://paroquiadocampeche.org.br/santana-e-sao-joaquim-armacao/"
+  }
+ ],
+ "sagrado-coracao|São Pedro|Pântano do Sul": [
+  {
+   "endereco": "Rua Abelardo Otacílio Gomes, s/n",
+   "linha_nome": "São Pedro | Pântano do Sul",
+   "url": "https://paroquiadocampeche.org.br/sao-pedro-pantano-do-sul/"
+  }
+ ],
+ "ingleses|Santuário Sagrado Coração de Jesus|Ingleses": [
+  {
+   "endereco": "Rua Intendente João Nunes Vieira, 1529 - Ingleses, Florianópolis / SC",
+   "linha_nome": "Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/"
+  },
+  {
+   "endereco": "caminho de devoção e amor a ser seguido: a Santa Missa",
+   "linha_nome": "Paróquia Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Rua Intendente João Nunes Vieira, 1529 - Ingleses",
+   "linha_nome": "Santuário Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Caminho de Santiago de Compostela",
+   "linha_nome": "Paróquia Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/caminho-compostela"
+  },
+  {
+   "endereco": "Rua Intendente João Nunes Vieira, 1529",
+   "linha_nome": "Paróquia Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/contato"
+  },
+  {
+   "endereco": "Caminho do Mar",
+   "linha_nome": "Paróquia Sagrado Coração de Jesus",
+   "url": "https://www.paroquiaingleses.com.br/post/semana-santa-2024"
+  }
+ ],
+ "ingleses|Santo Antônio|Caminho do Mar": [
+  {
+   "endereco": "Caminho do Mar",
+   "linha_nome": "10. Santo Antônio de Pádua – Caminho do Mar",
+   "url": "https://www.paroquiaingleses.com.br/nossa-historia"
+  },
+  {
+   "endereco": "Rodovia SC 403, km3 - Vargem do Bom Jesus",
+   "linha_nome": "Igreja Santo Antônio: Rodovia SC 403, km3 - Vargem do Bom Jesus",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Caminho do Mar: Centro Comunitário SC 403",
+   "linha_nome": "Igreja Santo Antônio - Caminho do Mar: Centro Comunitário SC 403",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|Santos Arcanjos|Capivari de Cima": [
+  {
+   "endereco": "Rua Graciliano Manoel Gomes, 692 - Engenho",
+   "linha_nome": "Igreja Santos Arcanjos: Rua Graciliano Manoel Gomes, 692 - Engenho",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Rua Graciliano Manoel Gomes, 692",
+   "linha_nome": "Igreja Santos Arcanjos - Engenho: Rua Graciliano Manoel Gomes, 692",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|São Luiz Gonzaga|Cachoeira do B. Jesus": [
+  {
+   "endereco": "Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus",
+   "linha_nome": "Igreja São Luiz Gonzaga: Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Rua Leonel Pereira, 1600",
+   "linha_nome": "Igreja São Luiz Gonzaga - Cachoeira: Rua Leonel Pereira, 1600",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  },
+  {
+   "endereco": "Servidão Maria Nascimento Costa, 133",
+   "linha_nome": "Igreja São Luiz Gonzaga - Cachoeira",
+   "url": "https://www.paroquiaingleses.com.br/post/catequese-2024"
+  }
+ ],
+ "ingleses|Santa Catarina de Alexandria|Sítio do Capivarí": [
+  {
+   "endereco": "Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari",
+   "linha_nome": "Igreja Santa Catarina de Alexandria: Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Estrada Dario Manoel Cardoso, 1976",
+   "linha_nome": "Igreja Santa Catarina de Alexandria – Sítio Capivari: Estrada Dario Manoel Cardoso, 1976",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|Santa Paulina|Muquém": [
+  {
+   "endereco": "Servidão Canaã, 352 - Muquém",
+   "linha_nome": "Igreja Santa Paulina: Servidão Canaã, 352 - Muquém",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Servidão Canaã, 352",
+   "linha_nome": "Igreja Santa Paulina - Muquém: Servidão Canaã, 352",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|São João Batista|Rio Vermelho": [
+  {
+   "endereco": "Rodovia João Gualberto Soares, 6847 - Rio Vermelho",
+   "linha_nome": "Igreja São João Batista: Rodovia João Gualberto Soares, 6847 - Rio Vermelho",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Rodovia João Gualberto Soares, 6847",
+   "linha_nome": "Igreja São João Batista - Rio Vermelho: Rodovia João Gualberto Soares, 6847",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|Nossa Senhora dos Navegantes|Santinho": [
+  {
+   "endereco": "Estrada Vereador Onildo Lemos, 41 - Santinho",
+   "linha_nome": "Igreja Nossa Senhora dos Navegantes: Estrada Vereador Onildo Lemos, 41 - Santinho",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Estrada Vereador Onildo Lemos, 41",
+   "linha_nome": "Igreja Nossa Senhora dos Navegantes – Matriz: Estrada Vereador Onildo Lemos, 41",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "ingleses|Santa Rita de Cássia|Travessão": [
+  {
+   "endereco": "Servidão Caminho das Orquídeas, 78 - Costa do Moçambique",
+   "linha_nome": "Igreja Santa Rita de Cássia: Servidão Caminho das Orquídeas, 78 - Costa do Moçambique",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Servidão Caminho das Orquídeas, S/N - Costa do Moçambique",
+   "linha_nome": "Igreja Santa Rita de Cássia: Servidão Caminho das Orquídeas, S/N - Costa do Moçambique",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Servidão Caminho das Orquídeas",
+   "linha_nome": "Igreja Santa Rita de Cássia – Costa do Moçambique: Servidão Caminho das Orquídeas",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  },
+  {
+   "endereco": "Servidão Caminho das Orquídeas, 78",
+   "linha_nome": "Igreja Santa Rita de Cássia - Costa do Moçambique",
+   "url": "https://www.paroquiaingleses.com.br/post/catequese-2024"
+  }
+ ],
+ "ingleses|Senhor Bom Jesus|Vargem do Bom Jesus": [
+  {
+   "endereco": "Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus",
+   "linha_nome": "Igreja Senhor Bom Jesus: Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus",
+   "url": "https://www.paroquiaingleses.com.br/missas"
+  },
+  {
+   "endereco": "Servidão Maria Nascimento Costa, 133",
+   "linha_nome": "Igreja Senhor Bom Jesus – Vargem: Servidão Maria Nascimento Costa, 133",
+   "url": "https://www.paroquiaingleses.com.br/ivc-batismo"
+  }
+ ],
+ "sagrados-coracoes|Sagrados Corações|Barreiros": [
+  {
+   "endereco": "Rua Pedro Bunn, 87",
+   "linha_nome": "Comunidade Sagrados Corações | Igreja Matriz",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "sagrados-coracoes|Nossa Senhora de Lourdes|Barreiros": [
+  {
+   "endereco": "Rua Heriberto Hulse, S/N",
+   "linha_nome": "Comunidade Nossa Senhora de Lourdes | Barreiros",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "sagrados-coracoes|Nossa Senhora Aparecida|Jardim Sol e Mar": [
+  {
+   "endereco": "Rua Alverina Maria da Silva, S/N",
+   "linha_nome": "Comunidade Nossa Senhora Aparecida | Jardim Solimar",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "sagrados-coracoes|Santa Maria dos Anjos|Pedregal": [
+  {
+   "endereco": "Rua Santa Maria dos Anjos (Rua 87), 3098 – Pedregal",
+   "linha_nome": "Rua Santa Maria dos Anjos (Rua 87), 3098 – Pedregal",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  },
+  {
+   "endereco": "Rua Santa Maria dos Anjos (Rua 87), 3098",
+   "linha_nome": "Rua Santa Maria dos Anjos (Rua 87), 3098",
+   "url": "https://sagradoscoracoes.org.br/site/comunidades-2/santa-maria-dos-anjos-pedregal/"
+  }
+ ],
+ "sagrados-coracoes|São Francisco de Assis|Bairro Ipiranga": [
+  {
+   "endereco": "Rua João Paulo Gaspar, 1687",
+   "linha_nome": "Comunidade São Francisco de Assis | Ipiranga",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "sagrados-coracoes|Senhor Bom Jesus|Potecas": [
+  {
+   "endereco": "Rua Kiliano Hames, S/N",
+   "linha_nome": "Senhor Bom Jesus | Potecas",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "sagrados-coracoes|Santo Antônio|Major Durval": [
+  {
+   "endereco": "Rua Major Durval, 2289",
+   "linha_nome": "Comunidade Santo Antônio | Ipiranga",
+   "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/"
+  }
+ ],
+ "santa-catarina|Santa Catarina|Dom Joaquim": [
+  {
+   "endereco": "Rua Ludovico Merico, 52 - Dom Joaquim - Brusque - SC",
+   "linha_nome": "Paróquia Santa Catarina – Dom Joaquim, Brusque, SC",
+   "url": "https://paroquiasantacatarina.com/"
+  },
+  {
+   "endereco": "Rua Ludovico Merico, 52 – Dom Joaquim",
+   "linha_nome": "Matriz: Santa Catarina",
+   "url": "https://paroquiasantacatarina.com/comunidade/matriz-santa-catarina/"
+  },
+  {
+   "endereco": "Caminho, Verdade e Vida",
+   "linha_nome": "Ó Santa Catarina de Alexandria,",
+   "url": "https://paroquiasantacatarina.com/santa-catarina/"
+  }
+ ],
+ "santa-catarina|São Francisco de Assis|Cristalina": [
+  {
+   "endereco": "Rua Ludovico Merico, 52 – Dom Joaquim",
+   "linha_nome": "• São Francisco de Assis | Cristalina",
+   "url": "https://paroquiasantacatarina.com/"
+  },
+  {
+   "endereco": "Rua DJ 042 – Cristalina",
+   "linha_nome": "São Francisco de Assis | Cristalina",
+   "url": "https://paroquiasantacatarina.com/comunidade/sao-francisco-de-assis-cristalina/"
+  }
+ ],
+ "santa-catarina|São José Operário|Rio Branco": [
+  {
+   "endereco": "estrada que, com certeza, valeram muito a pena",
+   "linha_nome": "Em reunião com todo o conselho foi marcada a data da primeira festa do padroeiro São José Operário para o dia 06 de maio",
+   "url": "https://paroquiasantacatarina.com/comunidade/sao-jose-operario-rio-branco/"
+  }
+ ],
+ "trindade|Santa Mônica|Santa Mônica": [
+  {
+   "endereco": "Praça Santos Dumont, nº 94 - Trindade",
+   "linha_nome": "Santa Mônica: 3ª quinta-feira/mês – 19h30",
+   "url": "https://paroquiadatrindade.com/paroquia/horarios/"
+  }
+ ],
+ "trindade|Nossa Senhora Aparecida|Morro da Penitenciária": [
+  {
+   "endereco": "Rua Álvaro Ramos, s/n, Escadaria, Morro da Penitenciária",
+   "linha_nome": "Nossa Senhora Aparecida – Morro da Penitenciária",
+   "url": "https://paroquiadatrindade.com/comunidades/"
+  }
+ ],
+ "trindade|Puríssimo Coração de Maria|Jardim Anchieta": [
+  {
+   "endereco": "Rua Arlindo Pena, 85, Jardim Anchieta, Córrego Grande",
+   "linha_nome": "Puríssimo Coração de Maria – Córrego Grande",
+   "url": "https://paroquiadatrindade.com/comunidades/"
+  }
+ ],
+ "trindade|São Bento|Itacorubi": [
+  {
+   "endereco": "Rodovia Amaro Antônio Vieira, 1668, Itacorubi",
+   "linha_nome": "São Bento – Itacorubi",
+   "url": "https://paroquiadatrindade.com/comunidades/"
+  },
+  {
+   "endereco": "Praça Santos Dumont, nº 94 - Trindade",
+   "linha_nome": "Terço das Mulheres – Comunidade São Bento",
+   "url": "https://paroquiadatrindade.com/pastorais-e-movimentos/"
+  }
+ ],
+ "trindade|Nossa Senhora de Guadalupe|Morro do Quilombo": [
+  {
+   "endereco": "Rua da Represa, 188, Morro do Quilombo",
+   "linha_nome": "Nossa Senhora de Guadalupe – Morro do Quilombo",
+   "url": "https://paroquiadatrindade.com/comunidades/"
+  }
+ ],
+ "trindade|São José|Serrinha": [
+  {
+   "endereco": "Rua Marcus Aurélio Homem, 366, Serrinha",
+   "linha_nome": "São José – Serrinha",
+   "url": "https://paroquiadatrindade.com/comunidades/"
+  },
+  {
+   "endereco": "Praça Santos Dumont, nº 94 - Trindade",
+   "linha_nome": "Reunião mensal: toda 1ª sexta-feira do mês, na Sala São José – Centro Pastoral, às 17h",
+   "url": "https://paroquiadatrindade.com/pastorais-e-movimentos/apostolado-da-oracao/"
+  }
+ ],
+ "trindade|São Francisco de Assis|Vila Guarani - Poção do C. Grande": [
+  {
+   "endereco": "Praça Santos Dumont, nº 94 - Trindade",
+   "linha_nome": "São Francisco de Assis",
+   "url": "https://paroquiadatrindade.com/carisma/"
+  }
+ ],
+ "trindade|Santíssima Trindade|Trindade": [
+  {
+   "endereco": "Praça Santos Dumont, nº 94 - Trindade",
+   "linha_nome": "Florianópolis/SC – Reuniões quinzenais aos domingos, 16h, na Paróquia da Santíssima Trindade.",
+   "url": "https://paroquiadatrindade.com/carisma/jufra/"
+  },
+  {
+   "endereco": "Praça Santos Dumont, nº 94 – Trindade",
+   "linha_nome": "Abaixo você encontra as formas de entrar em contato com a Paróquia Santíssima Trindade.",
+   "url": "https://paroquiadatrindade.com/contato/"
+  }
+ ],
+ "santo-antonio-3|Santo Antônio|Campinas": [
+  {
+   "endereco": "Rua Irmãos Vieira, 4",
+   "linha_nome": "Santo Antônio",
+   "url": "https://paroquiasantoantonio.net/"
+  },
+  {
+   "endereco": "Rua Irmãos Vieira, 4, Campinas",
+   "linha_nome": "Matriz Santo Antônio - Campinas",
+   "url": "https://paroquiasantoantonio.net/comunidades/"
+  },
+  {
+   "endereco": "Rua Irmãos Vieira, 4, Campinas, São José-SC",
+   "linha_nome": "Sua doação deve ser entregue apenas na Igreja Matriz Santo Antônio, localizada na Rua Irmãos Vieira, 4, Campinas, São Jo",
+   "url": "https://paroquiasantoantonio.net/campanhadedoacao/"
+  }
+ ],
+ "santo-antonio-3|São Francisco de Assis e Sta. Rita de Cássia|Kobrasol": [
+  {
+   "endereco": "Rua Sílvia M. Fabro, s/n - Kobrasol",
+   "linha_nome": "Comunidade São Francisco de Assis e Santa Rita de Cássia - Kobrasol",
+   "url": "https://paroquiasantoantonio.net/comunidades/"
+  }
+ ],
+ "sao-cristovao-cordeiros|São Cristóvão|Cordeiros": [
+  {
+   "endereco": "Rua Odílio Garcia, 456",
+   "linha_nome": "Paróquia São Cristóvão",
+   "url": "https://www.paroquiasaocristovao.com"
+  }
+ ],
+ "sao-cristovao-cordeiros|Comunidade Transfiguração|Espinheirinhos": [
+  {
+   "endereco": "Rua Bruno Vicente da Luz, n° 190 – CEP: 88317-020",
+   "linha_nome": "A comunidade Transfiguração forma missionários consagrados a serviço da transformação dos filhos amados de Deus que não ",
+   "url": "https://www.paroquiasaocristovao.com/comunidades/com-transfiguracao/"
+  }
+ ],
+ "sao-cristovao-cordeiros|Santa Paulina|Lot. Portal I": [
+  {
+   "endereco": "loteamento Portal I, na Rua A. Estavam presentes 17 pessoas junto com os ministros extraordinários",
+   "linha_nome": "Santa Paulina",
+   "url": "https://www.paroquiasaocristovao.com/comunidades/santa-paulina/"
+  }
+ ],
+ "sao-cristovao-cordeiros|São Roque|São Roque": [
+  {
+   "endereco": "Rua Domingos Rampelotti, 5.183 – CEP: 88317-600",
+   "linha_nome": "A festa do padroeiro é celebrada em agosto próximo ao dia 16 que é dia de São Roque.",
+   "url": "https://www.paroquiasaocristovao.com/comunidades/sao-roque/"
+  }
+ ],
+ "sao-joao-evangelista|São Miguel|Balneário São Miguel": [
+  {
+   "endereco": "BR 101, Km 189 – São Miguel – Biguaçu – SC- 88160-000",
+   "linha_nome": "BR 101, Km 189 – São Miguel – Biguaçu – SC- 88160-000",
+   "url": "https://psje.org.br/comunidades/sao-miguel/"
+  }
+ ],
+ "sao-joao-evangelista|Santa Catarina|Santa Catarina": [
+  {
+   "endereco": "SC 407 – Alto Biguaçu – Biguaçu – SC- 88160-000",
+   "linha_nome": "Local: Santa Catarina",
+   "url": "https://psje.org.br/comunidades/santa-catarina/"
+  }
+ ],
+ "sao-joao-evangelista|Santa Cruz|Rússia": [
+  {
+   "endereco": "Estrada Geral São Roque – Rússia – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade Santa Cruz",
+   "url": "https://psje.org.br/comunidades/santa-cruz/"
+  }
+ ],
+ "sao-joao-evangelista|Santo Antônio|Cachoeira": [
+  {
+   "endereco": "Rua Bertoldo Machado, 239 – Tijuquinhas – Biguaçu – SC- 88168-512",
+   "linha_nome": "Comunidade Santo Antônio",
+   "url": "https://psje.org.br/comunidades/santo-antonio/"
+  }
+ ],
+ "sao-joao-evangelista|Santa Teresinha|Jardim Sueli": [
+  {
+   "endereco": "Estrada Geral Estiva do Inferninho, s/n – Estiva do Inferninho – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade Santa Teresinha",
+   "url": "https://psje.org.br/comunidades/santa-teresinha/"
+  }
+ ],
+ "sao-joao-evangelista|Santa Teresinha|Estiva do Inferninho": [
+  {
+   "endereco": "Estrada Geral Estiva do Inferninho, s/n – Estiva do Inferninho – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade Santa Teresinha",
+   "url": "https://psje.org.br/comunidades/santa-teresinha/"
+  }
+ ],
+ "sao-joao-evangelista|São Pedro|Saudade": [
+  {
+   "endereco": "Rua 13 de Maio, 2845 – Saudade – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade São Pedro",
+   "url": "https://psje.org.br/comunidades/sao-pedro/"
+  }
+ ],
+ "sao-joao-evangelista|Sant’Ana|Prado": [
+  {
+   "endereco": "Rua 13 de Maio, 78 – Prado – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade Sant’Ana",
+   "url": "https://psje.org.br/comunidades/santana/"
+  }
+ ],
+ "sao-joao-evangelista|São Lucas|Jardim Saveiro": [
+  {
+   "endereco": "Rua Tapajós – Saveiro – Biguaçu – SC- 88160-120",
+   "linha_nome": "Comunidade São Lucas",
+   "url": "https://psje.org.br/comunidades/sao-lucas/"
+  }
+ ],
+ "sao-joao-evangelista|Santa Clara|Vendaval": [
+  {
+   "endereco": "Rua Ivo Tomaz Coelho, s/n – Vendaval – Biguaçu – SC- 88164-088",
+   "linha_nome": "Comunidade Santa Clara",
+   "url": "https://psje.org.br/comunidades/santa-clara/"
+  }
+ ],
+ "sao-joao-evangelista|Mãe Peregrina|Morro da Bina": [
+  {
+   "endereco": "Rua Castro Alves, s/n – Morro da Bina – Biguaçu – SC- 88160-000",
+   "linha_nome": "Comunidade Mãe Peregrina",
+   "url": "https://psje.org.br/comunidades/mae-peregrina/"
+  }
+ ],
+ "sao-joao-evangelista|“Capela” Nossa Senhora de Guadalupe|Cachoeiras II": [
+  {
+   "endereco": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
+   "linha_nome": "Comunidade Nossa Senhora de Guadalupe",
+   "url": "https://psje.org.br/comunidades/nossa-senhora-de-guadalupe/"
+  }
+ ],
+ "sao-joao-evangelista|“Gruta” Nossa Senhora de Guadalupe|Santa Cruz": [
+  {
+   "endereco": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
+   "linha_nome": "Comunidade Nossa Senhora de Guadalupe",
+   "url": "https://psje.org.br/comunidades/nossa-senhora-de-guadalupe/"
+  }
+ ],
+ "sao-joao-evangelista|Cristo Redentor|Jardim Anápolis": [
+  {
+   "endereco": "Rua João Paulo de Souza, s/n – Prado – Biguaçu – SC- 88165-138",
+   "linha_nome": "Comunidade Cristo Redentor",
+   "url": "https://psje.org.br/comunidades/cristo-redentor/"
+  }
+ ],
+ "sao-luis-gonzaga|São Luís Gonzaga|Centro": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Paróquia São Luís Gonzaga",
+   "url": "https://www.paroquiasaoluisgonzaga.com"
+  },
+  {
+   "endereco": "Caminho das Virtudes é inaugurad",
+   "linha_nome": "Presépio Matriz São Luís Gonzaga",
+   "url": "https://www.paroquiasaoluisgonzaga.com/fotos"
+  }
+ ],
+ "sao-luis-gonzaga|Cristo Rei|São Luiz": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Cristo Rei",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/cristo-rei/"
+  },
+  {
+   "endereco": "RUA CARLOS HENRIQUE BRUNS – SÃO LUIZ – CEP: 88351-420",
+   "linha_nome": "Cristo Rei",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/cristo-rei/"
+  }
+ ],
+ "sao-luis-gonzaga|Nossa Senhora Aparecida|Steffen": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Nossa Senhora Aparecida",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/nossa-senhora-aparecida/"
+  }
+ ],
+ "sao-luis-gonzaga|Nossa Senhora de Fátima|Jardim Maluche": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Nossa Senhora de Fátima",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/nossa-senhora-de-fatima/"
+  }
+ ],
+ "sao-luis-gonzaga|Nossa Senhora de Lourdes|Alsácia/São Pedro": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Nossa Senhora de Lourdes",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/nossa-senhora-de-lourdes/"
+  },
+  {
+   "endereco": "Rua São Pedro. O início não foi fácil, mas a fé desse povo vencia todos os obstáculos. Povo trabalhador e de fé, soube pass",
+   "linha_nome": "Nossa Senhora de Lourdes",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/nossa-senhora-de-lourdes/"
+  }
+ ],
+ "sao-luis-gonzaga|Sagrado Coração de Jesus|Guarani": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Sagrado Coração de Jesus",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/sagrado-coracao-de-jesus/"
+  }
+ ],
+ "sao-luis-gonzaga|Santa Paulina|Lagoa Dourada": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Santa Paulina",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/santa-paulina/"
+  }
+ ],
+ "sao-luis-gonzaga|Santa Rita|Santa Rita": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Santa Rita de Cássia",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/santa-rita-de-cassia/"
+  }
+ ],
+ "sao-luis-gonzaga|Santo Antônio|Volta Grande": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "Santo Antônio",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/santo-antonio/"
+  }
+ ],
+ "sao-luis-gonzaga|São Francisco de Assis|Cerâmica Reis": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "São Francisco de Assis",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/sao-francisco-de-assis/"
+  }
+ ],
+ "sao-luis-gonzaga|São João Batista|Bateias": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "São João Batista",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/sao-joao-batista/"
+  }
+ ],
+ "sao-luis-gonzaga|São José|1º de Maio": [
+  {
+   "endereco": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+   "linha_nome": "São José",
+   "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/sao-jose/"
+  },
+  {
+   "endereco": "Caminho das Virtudes será constr",
+   "linha_nome": "Comunidade São José Operário celebra ...",
+   "url": "https://www.paroquiasaoluisgonzaga.com/fotos"
+  }
+ ],
+ "sao-virgilio|Santuário Nossa Senhora do Bom Socorro|Morro da Cruz": [
+  {
+   "endereco": "Rua Santo Inácio, 170 – Centro",
+   "linha_nome": "SANTUÁRIO NOSSA SENHORA DO BOM SOCORRO",
+   "url": "https://paroquiasaovirgilio.com.br"
+  }
+ ],
+ "sao-virgilio|São Virgílio|Centro": [
+  {
+   "endereco": "Rua Santo Inácio, 170, Centro",
+   "linha_nome": "Paróquia São Virgílio",
+   "url": "https://paroquiasaovirgilio.com.br/sobre-nos/"
+  },
+  {
+   "endereco": "Rua Santo Inácio, 170 – Centro",
+   "linha_nome": "Padroero: São Virgílio",
+   "url": "https://paroquiasaovirgilio.com.br/localizacao/"
+  }
+ ],
+ "sao-virgilio|São Roque|Rua do Salto": [
+  {
+   "endereco": "Rua do Salto",
+   "linha_nome": "São Roque (Oratório)",
+   "url": "https://paroquiasaovirgilio.com.br/comunidades-pagina/"
+  }
+ ]
+}

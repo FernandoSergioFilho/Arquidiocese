@@ -32,14 +32,21 @@
        "ano": "1996",
        "bairro": "Saco dos Limões",
        "matriz": false,
-       "posicao": "aprox"
+       "posicao": "rua",
+       "lat": -27.61628,
+       "lng": -48.525566,
+       "endereco_site": "Servidão Catarina Albina Gouvêa, 187 – Morro Limoeiro"
       },
       {
        "nome": "Nossa Senhora do Rosário",
        "local": "Caeira",
        "ano": "1990",
        "bairro": "Saco dos Limões",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.60398,
+       "lng": -48.537595,
+       "posicao": "rua",
+       "endereco_site": "Servidão Manoel Rufino de Abreu, 26 – Caeira"
       },
       {
        "nome": "Santa Catarina de Alexandria",
@@ -50,7 +57,8 @@
        "lat": -27.669437,
        "lng": -48.529587,
        "posicao": "osm",
-       "nome_osm": "Capela Santa Catarina de Alexandria"
+       "nome_osm": "Capela Santa Catarina de Alexandria",
+       "endereco_site": "Rua Maria Geraldina Ramos, 460 – Ressacada"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -61,7 +69,8 @@
        "lat": -27.662951,
        "lng": -48.540691,
        "posicao": "osm",
-       "nome_osm": "Capela Santa Rita de Cássia"
+       "nome_osm": "Capela Santa Rita de Cássia",
+       "endereco_site": "Rua Jornalista Nicolau Nagib Nahas, 79 – Carianos"
       },
       {
        "nome": "Senhor Bom Jesus",
@@ -79,7 +88,8 @@
        "lat": -27.648742,
        "lng": -48.521351,
        "posicao": "osm",
-       "nome_osm": "Capela São José"
+       "nome_osm": "Capela São José",
+       "endereco_site": "Av. Deputado Diomício Freitas, 299 – Seta"
       },
       {
        "nome": "São Pedro Apóstolo",
@@ -90,7 +100,8 @@
        "lat": -27.63111,
        "lng": -48.523437,
        "posicao": "osm",
-       "nome_osm": "Capela São Pedro Apóstolo"
+       "nome_osm": "Capela São Pedro Apóstolo",
+       "endereco_site": "Rua João Câncio Jacques, 1185 – Costeira do Pirajubaé"
       }
      ],
      "municipio": "Florianópolis",
@@ -119,7 +130,8 @@
        "lat": -27.718317,
        "lng": -48.563181,
        "posicao": "osm",
-       "nome_osm": "Igreja Nossa Senhora da Lapa"
+       "nome_osm": "Igreja Nossa Senhora da Lapa",
+       "endereco_site": "Praça Hermínio Silva, 62, Freguesia do Ribeirão"
       },
       {
        "nome": "Bom Jesus dos Pescadores",
@@ -140,7 +152,11 @@
        "local": "Tapera da Base",
        "ano": "1926",
        "bairro": "Tapera da Base",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.684746,
+       "lng": -48.566528,
+       "posicao": "rua",
+       "endereco_site": "Rua Bernardino João Damázio, 118"
       },
       {
        "nome": "Nossa Senhora de Lourdes",
@@ -249,14 +265,22 @@
        "local": "Rua Vitor Konder",
        "ano": "1978",
        "bairro": "Centro",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.589733,
+       "lng": -48.545793,
+       "posicao": "rua",
+       "endereco_site": "Rua Vitor Konder"
       },
       {
        "nome": "Nossa Senhora das Vitória",
        "local": "Morro Santa Vitória",
        "ano": "2005",
        "bairro": "Agronômica",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.576285,
+       "lng": -48.54219,
+       "posicao": "rua",
+       "endereco_site": "Rua Frei Caneca 64. Auxiliado por empregados do Colégio Catarinense, procedeu-se à adaptação da casa que servira de residên"
       },
       {
        "nome": "Santa Cruz e Nossa Senhora Aparecida",
@@ -385,7 +409,8 @@
        "lat": -27.595102,
        "lng": -48.549429,
        "posicao": "osm",
-       "nome_osm": "Igreja Nossa Senhora do Rosário"
+       "nome_osm": "Igreja Nossa Senhora do Rosário",
+       "endereco_site": "Rua Marechal Guilherme, 60 - Centro de Florianópolis"
       },
       {
        "nome": "Igreja Sagrado Coração de Jesus",
@@ -456,7 +481,8 @@
        "lat": -27.685318,
        "lng": -48.492194,
        "posicao": "osm",
-       "nome_osm": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião"
+       "nome_osm": "Igreja Nossa Senhora do Sagrado Coração e São Sebastião",
+       "endereco_site": "Rua Eugênio Raulino da Silva, 95"
       },
       {
        "nome": "Nossa Senhora Aparecida e São Cristóvão",
@@ -503,7 +529,8 @@
        "lat": -27.750594,
        "lng": -48.502984,
        "posicao": "osm",
-       "nome_osm": "Paróquia Santana"
+       "nome_osm": "Paróquia Santana",
+       "endereco_site": "Av Antônio Borges dos Santos, s/no"
       },
       {
        "nome": "São Pedro",
@@ -809,7 +836,8 @@
        "lat": -27.428807,
        "lng": -48.454613,
        "posicao": "osm",
-       "nome_osm": "Paróquia Nossa Senhora de Guadalupe"
+       "nome_osm": "Paróquia Nossa Senhora de Guadalupe",
+       "endereco_site": "Av. Madre Maria Villac, 1700"
       },
       {
        "nome": "Divino Espírito Santo",
@@ -866,7 +894,11 @@
        "local": "Jurerê Internacional",
        "ano": "1998",
        "bairro": "Jurere Oeste",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.443076,
+       "lng": -48.502177,
+       "posicao": "rua",
+       "endereco_site": "Av. dos Salmões, 90"
       },
       {
        "nome": "São Francisco de Paula",
@@ -877,14 +909,19 @@
        "lat": -27.429817,
        "lng": -48.476164,
        "posicao": "osm",
-       "nome_osm": "Paróquia de São Francisco de Paula"
+       "nome_osm": "Paróquia de São Francisco de Paula",
+       "endereco_site": "Rodovia Tertuliano Brito Xavier, 2201"
       },
       {
        "nome": "São José",
        "local": "Forte",
        "ano": "1740",
        "bairro": "Forte",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.431882,
+       "lng": -48.516958,
+       "posicao": "rua",
+       "endereco_site": "Servidão da Carioca (Cetro Comunitário Forte), s/n"
       },
       {
        "nome": "São Paulo Apóstolo",
@@ -927,7 +964,11 @@
        "local": "Santinho",
        "ano": "1839",
        "bairro": "Santinho",
-       "matriz": true
+       "matriz": true,
+       "lat": -27.44391,
+       "lng": -48.376639,
+       "posicao": "rua",
+       "endereco_site": "Estrada Vereador Onildo Lemos, 41 - Santinho"
       },
       {
        "nome": "Santa Catarina de Alexandria",
@@ -938,7 +979,8 @@
        "lat": -27.455387,
        "lng": -48.397044,
        "posicao": "osm",
-       "nome_osm": "Paróquia Santa Catarina de Alexandria"
+       "nome_osm": "Paróquia Santa Catarina de Alexandria",
+       "endereco_site": "Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari"
       },
       {
        "nome": "Santa Paulina",
@@ -949,7 +991,8 @@
        "lat": -27.469078,
        "lng": -48.412223,
        "posicao": "osm",
-       "nome_osm": "Igreja Santa Paulina"
+       "nome_osm": "Igreja Santa Paulina",
+       "endereco_site": "Servidão Canaã, 352 - Muquém"
       },
       {
        "nome": "Santa Rita de Cássia",
@@ -957,9 +1000,10 @@
        "ano": "2001",
        "bairro": null,
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.457526,
-       "lng": -48.383074
+       "posicao": "rua",
+       "lat": -27.481561,
+       "lng": -48.405201,
+       "endereco_site": "Servidão Caminho das Orquídeas, 78 - Costa do Moçambique"
       },
       {
        "nome": "Santo Antônio",
@@ -969,15 +1013,17 @@
        "matriz": false,
        "lat": -27.438791,
        "lng": -48.388741,
-       "posicao": "localidade",
-       "local_osm": "Servidão Caminho do Mar (residential)"
+       "posicao": "rua",
+       "local_osm": "Servidão Caminho do Mar (residential)",
+       "endereco_site": "Caminho do Mar"
       },
       {
        "nome": "Santos Arcanjos",
        "local": "Capivari de Cima",
        "ano": "2001",
        "bairro": "Capivari",
-       "matriz": false
+       "matriz": false,
+       "endereco_site": "Rua Graciliano Manoel Gomes, 692 - Engenho"
       },
       {
        "nome": "Santuário Sagrado Coração de Jesus",
@@ -999,7 +1045,8 @@
        "lat": -27.453479,
        "lng": -48.427239,
        "posicao": "osm",
-       "nome_osm": "Igreja Senhor Bom Jesus"
+       "nome_osm": "Igreja Senhor Bom Jesus",
+       "endereco_site": "Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus"
       },
       {
        "nome": "São João Batista",
@@ -1010,7 +1057,8 @@
        "lat": -27.493755,
        "lng": -48.419684,
        "posicao": "osm",
-       "nome_osm": "Capela São João Batista do Rio Vermelho"
+       "nome_osm": "Capela São João Batista do Rio Vermelho",
+       "endereco_site": "Rodovia João Gualberto Soares, 6847 - Rio Vermelho"
       },
       {
        "nome": "São Luiz Gonzaga",
@@ -1021,7 +1069,8 @@
        "lat": -27.430603,
        "lng": -48.422796,
        "posicao": "osm",
-       "nome_osm": "Paróquia São Luiz Gonzaga"
+       "nome_osm": "Paróquia São Luiz Gonzaga",
+       "endereco_site": "Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus"
       }
      ],
      "municipio": "Florianópolis",
@@ -1058,7 +1107,10 @@
        "ano": "1987",
        "bairro": "Trindade",
        "matriz": false,
-       "posicao": "aprox"
+       "posicao": "rua",
+       "lat": -27.584068,
+       "lng": -48.528048,
+       "endereco_site": "Rua Álvaro Ramos, s/n, Escadaria, Morro da Penitenciária"
       },
       {
        "nome": "Nossa Senhora de Guadalupe",
@@ -1069,7 +1121,8 @@
        "lat": -27.581372,
        "lng": -48.494757,
        "posicao": "osm",
-       "nome_osm": "Igreja de Nossa Senhora de Guadalupe"
+       "nome_osm": "Igreja de Nossa Senhora de Guadalupe",
+       "endereco_site": "Rua da Represa, 188, Morro do Quilombo"
       },
       {
        "nome": "Puríssimo Coração de Maria",
@@ -1109,7 +1162,8 @@
        "lat": -27.58238,
        "lng": -48.50368,
        "posicao": "osm",
-       "nome_osm": "Capela São Bento"
+       "nome_osm": "Capela São Bento",
+       "endereco_site": "Rodovia Amaro Antônio Vieira, 1668, Itacorubi"
       },
       {
        "nome": "São Francisco de Assis",
@@ -1123,7 +1177,11 @@
        "local": "Serrinha",
        "ano": "2000",
        "bairro": "Trindade",
-       "matriz": false
+       "matriz": false,
+       "lat": -27.598367,
+       "lng": -48.528147,
+       "posicao": "endereco",
+       "endereco_site": "Rua Marcus Aurélio Homem, 366, Serrinha"
       }
      ],
      "municipio": "Florianópolis",
@@ -1683,6 +1741,7 @@
        "lng": -48.606815,
        "posicao": "osm",
        "nome_osm": "Paróquia Santo Antônio",
+       "endereco_site": "Rua Irmãos Vieira, 4",
        "municipio": "São José"
       },
       {
@@ -2360,6 +2419,7 @@
        "lng": -48.617793,
        "posicao": "osm",
        "nome_osm": "Paróquia dos Sagrados Corações",
+       "endereco_site": "Rua Pedro Bunn, 87",
        "municipio": "São José"
       },
       {
@@ -2367,9 +2427,10 @@
        "local": "Jardim Sol e Mar",
        "ano": "1985",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.55965,
-       "lng": -48.614456,
+       "posicao": "rua",
+       "lat": -27.5731,
+       "lng": -48.6315,
+       "endereco_site": "Rua Alverina Maria da Silva, S/N",
        "municipio": "São José"
       },
       {
@@ -2377,10 +2438,11 @@
        "local": "Barreiros",
        "ano": "1912",
        "matriz": false,
-       "lat": -27.5799,
-       "lng": -48.6075,
-       "posicao": "localidade",
+       "lat": -27.5685,
+       "lng": -48.6083,
+       "posicao": "rua",
        "local_osm": "Barreiros (village)",
+       "endereco_site": "Rua Heriberto Hulse, S/N",
        "municipio": "São José"
       },
       {
@@ -2388,10 +2450,11 @@
        "local": "Pedregal",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.5725,
-       "lng": -48.6432,
-       "posicao": "localidade",
+       "lat": -27.572,
+       "lng": -48.6433,
+       "posicao": "rua",
        "local_osm": "Pedregal (suburb)",
+       "endereco_site": "Rua Santa Maria dos Anjos (Rua 87), 3098 – Pedregal",
        "municipio": "São José"
       },
       {
@@ -2401,8 +2464,9 @@
        "matriz": false,
        "lat": -27.5723,
        "lng": -48.6345,
-       "posicao": "localidade",
+       "posicao": "rua",
        "local_osm": "Rua Major Durval (residential)",
+       "endereco_site": "Rua Major Durval, 2289",
        "municipio": "São José"
       },
       {
@@ -2414,6 +2478,7 @@
        "lng": -48.649906,
        "posicao": "osm",
        "nome_osm": "Capela Senhor Bom Jesus",
+       "endereco_site": "Rua Kiliano Hames, S/N",
        "municipio": "São José"
       },
       {
@@ -2421,9 +2486,10 @@
        "local": "Bairro Ipiranga",
        "ano": "1985",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.57365,
-       "lng": -48.62113,
+       "posicao": "rua",
+       "lat": -27.5727,
+       "lng": -48.6429,
+       "endereco_site": "Rua João Paulo Gaspar, 1687",
        "municipio": "São José"
       }
      ],
@@ -2634,9 +2700,10 @@
        "local": "Jardim Anápolis",
        "ano": "2004",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.484431,
-       "lng": -48.650156,
+       "posicao": "rua",
+       "lat": -27.4776,
+       "lng": -48.6608,
+       "endereco_site": "Rua João Paulo de Souza, s/n – Prado – Biguaçu – SC- 88165-138",
        "municipio": "Biguaçu"
       },
       {
@@ -2644,10 +2711,11 @@
        "local": "Morro da Bina",
        "ano": "1997",
        "matriz": false,
-       "lat": -27.5166,
-       "lng": -48.6358,
-       "posicao": "localidade",
+       "lat": -27.5183,
+       "lng": -48.6364,
+       "posicao": "rua",
        "local_osm": "Morro da Bina (suburb)",
+       "endereco_site": "Rua Castro Alves, s/n – Morro da Bina – Biguaçu – SC- 88160-000",
        "municipio": "Biguaçu"
       },
       {
@@ -2656,8 +2724,8 @@
        "ano": "1984",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.491985,
-       "lng": -48.642656,
+       "lat": -27.486641,
+       "lng": -48.65121,
        "municipio": "Biguaçu"
       },
       {
@@ -2688,8 +2756,8 @@
        "ano": "1912",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.501896,
-       "lng": -48.644639,
+       "lat": -27.498698,
+       "lng": -48.645696,
        "municipio": "Biguaçu"
       },
       {
@@ -2698,8 +2766,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.506701,
-       "lng": -48.654611,
+       "lat": -27.503589,
+       "lng": -48.659288,
        "municipio": "Biguaçu"
       },
       {
@@ -2708,8 +2776,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.502781,
-       "lng": -48.665064,
+       "lat": -27.491532,
+       "lng": -48.664802,
        "municipio": "Biguaçu"
       },
       {
@@ -2717,9 +2785,10 @@
        "local": "Cachoeira",
        "ano": "1927",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.493088,
-       "lng": -48.668126,
+       "posicao": "rua",
+       "lat": -27.4032,
+       "lng": -48.635,
+       "endereco_site": "Rua Bertoldo Machado, 239 – Tijuquinhas – Biguaçu – SC- 88168-512",
        "municipio": "Biguaçu"
       },
       {
@@ -2782,9 +2851,10 @@
        "local": "Jardim Saveiro",
        "ano": "1995",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.484922,
-       "lng": -48.661491,
+       "posicao": "rua",
+       "lat": -27.5099,
+       "lng": -48.6386,
+       "endereco_site": "Rua Tapajós – Saveiro – Biguaçu – SC- 88160-120",
        "municipio": "Biguaçu"
       },
       {
@@ -2824,10 +2894,11 @@
        "local": "Cachoeiras II",
        "ano": "2004",
        "matriz": false,
-       "lat": -27.3936,
-       "lng": -48.634,
-       "posicao": "localidade",
+       "lat": -27.3925,
+       "lng": -48.6351,
+       "posicao": "rua",
        "local_osm": "Cachoeiras (suburb)",
+       "endereco_site": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
        "municipio": "Biguaçu"
       },
       {
@@ -2835,10 +2906,11 @@
        "local": "Santa Cruz",
        "ano": null,
        "matriz": false,
-       "lat": -27.505,
-       "lng": -48.7068,
-       "posicao": "localidade",
+       "lat": -27.3965,
+       "lng": -48.6351,
+       "posicao": "rua",
        "local_osm": "Santa Cruz (hamlet)",
+       "endereco_site": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
        "municipio": "Biguaçu"
       }
      ],
@@ -5422,6 +5494,7 @@
        "lng": -48.929869,
        "posicao": "osm",
        "nome_osm": "Igreja de São Virgílio",
+       "endereco_site": "Rua Santo Inácio, 170, Centro",
        "municipio": "Nova Trento"
       },
       {
@@ -6905,6 +6978,7 @@
        "lat": -26.8955,
        "lng": -48.694,
        "posicao": "endereco",
+       "endereco_site": "Rua Odílio Garcia, 456",
        "municipio": "Itajaí"
       },
       {
@@ -6934,10 +7008,11 @@
        "local": "Espinheirinhos",
        "ano": "2003",
        "matriz": false,
-       "lat": -26.8945,
-       "lng": -48.7652,
-       "posicao": "localidade",
+       "lat": -26.887,
+       "lng": -48.7573,
+       "posicao": "rua",
        "local_osm": "Espinheirinhos (quarter)",
+       "endereco_site": "Rua Bruno Vicente da Luz, n° 190 – CEP: 88317-020",
        "municipio": "Itajaí"
       },
       {
@@ -7515,8 +7590,9 @@
        "matriz": false,
        "lat": -27.1324,
        "lng": -48.9112,
-       "posicao": "localidade",
+       "posicao": "rua",
        "local_osm": "Rua Luiz Vanolli (residential)",
+       "endereco_site": "Rua Luiz Vanolli",
        "municipio": "Brusque"
       },
       {
@@ -7647,6 +7723,7 @@
        "lat": -27.1542,
        "lng": -48.9567,
        "posicao": "endereco",
+       "endereco_site": "Rua Ludovico Merico, 52 - Dom Joaquim - Brusque - SC",
        "municipio": "Brusque"
       },
       {

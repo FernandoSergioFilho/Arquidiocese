@@ -1,0 +1,2291 @@
+{
+ "boa-viagem|Nossa Senhora da Boa Viagem|Saco dos Limões": {
+  "rua": "Rua João Mota Espezim",
+  "numero": "1023",
+  "texto": "Rua João Mota Espezim, 1.023, Saco dos Limões 88045-400 Florianópolis SC",
+  "url": "https://boaviagem.org.br/a-paroquia/historico/",
+  "municipio": "Florianópolis",
+  "resultado": null
+ },
+ "boa-viagem|São José Operário|Costeira do Pirajubaé": {
+  "rua": "Av. Deputado Diomício Freitas",
+  "numero": "299",
+  "texto": "Av. Deputado Diomício Freitas, 299 – Seta",
+  "url": "https://boaviagem.org.br/comunidades/sao-jose-operario/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7719258,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1074301792,
+   "lat": "-27.6634540",
+   "lon": "-48.5452602",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "tertiary",
+   "name": "Avenida Deputado Diomício Freitas",
+   "display_name": "Avenida Deputado Diomício Freitas, Carianos, Tapera da Base, Florianópolis, Santa Catarina, Região Sul, 88047-900, Brasil",
+   "address": {
+    "road": "Avenida Deputado Diomício Freitas",
+    "suburb": "Carianos",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88047-900",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6635554",
+    "-27.6633761",
+    "-48.5453598",
+    "-48.5451410"
+   ]
+  }
+ },
+ "boa-viagem|São Pedro Apóstolo|Costeira do Pirajubaé": {
+  "rua": "Rua João Câncio Jacques",
+  "numero": "1185",
+  "texto": "Rua João Câncio Jacques, 1185 – Costeira do Pirajubaé",
+  "url": "https://boaviagem.org.br/comunidades/sao-pedro-apostolo/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7628039,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 813532224,
+   "lat": "-27.6329416",
+   "lon": "-48.5227509",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "tertiary",
+   "name": "Rua João Câncio Jacques",
+   "display_name": "Rua João Câncio Jacques, Costeira do Pirajubaé, Saco dos Limões, Florianópolis, Santa Catarina, Região Sul, 88047-011, Brasil",
+   "address": {
+    "road": "Rua João Câncio Jacques",
+    "suburb": "Costeira do Pirajubaé",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88047-011",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6344729",
+    "-27.6314132",
+    "-48.5235360",
+    "-48.5227216"
+   ]
+  }
+ },
+ "boa-viagem|Santa Rita de Cássia|Carianos": {
+  "rua": "Rua Jornalista Nicolau Nagib Nahas",
+  "numero": "79",
+  "texto": "Rua Jornalista Nicolau Nagib Nahas, 79 – Carianos",
+  "url": "https://boaviagem.org.br/comunidades/santa-rita-de-cassia/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7662333,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 132564421,
+   "lat": "-27.6604908",
+   "lon": "-48.5403997",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Rua Jornalista Nicolau Nagib Nahas",
+   "display_name": "Rua Jornalista Nicolau Nagib Nahas, Jardim Califórnia, Carianos, Tapera da Base, Florianópolis, Santa Catarina, Região Sul, 88047-900, Brasil",
+   "address": {
+    "road": "Rua Jornalista Nicolau Nagib Nahas",
+    "neighbourhood": "Jardim Califórnia",
+    "suburb": "Carianos",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88047-900",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6632933",
+    "-27.6577430",
+    "-48.5404979",
+    "-48.5402197"
+   ]
+  }
+ },
+ "boa-viagem|Nossa Senhora do Rosário|Caeira": {
+  "rua": "Servidão Manoel Rufino de Abreu",
+  "numero": "26",
+  "texto": "Servidão Manoel Rufino de Abreu, 26 – Caeira",
+  "url": "https://boaviagem.org.br/comunidades/nossa-senhora-do-rosario/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7705204,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 805186655,
+   "lat": "-27.6039800",
+   "lon": "-48.5375949",
+   "category": "highway",
+   "type": "service",
+   "place_rank": 27,
+   "importance": 0.04006652246890973,
+   "addresstype": "road",
+   "name": "Servidão Manoel Rufino de Abreu",
+   "display_name": "Servidão Manoel Rufino de Abreu, Caieira do Saco dos Limões, Saco dos Limões, Florianópolis, Santa Catarina, Região Sul, 88045-260, Brasil",
+   "address": {
+    "road": "Servidão Manoel Rufino de Abreu",
+    "neighbourhood": "Caieira do Saco dos Limões",
+    "suburb": "Saco dos Limões",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88045-260",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6040406",
+    "-27.6037301",
+    "-48.5385498",
+    "-48.5366155"
+   ]
+  }
+ },
+ "boa-viagem|Senhor Bom Jesus|Cachoeira do Rio Tavares": {
+  "rua": "Servidão Divino Espírito Santo",
+  "numero": null,
+  "texto": "Servidão Divino Espírito Santo, s/nº – Cachoeira do Rio Tavares",
+  "url": "https://boaviagem.org.br/comunidades/senhor-bom-jesus/",
+  "municipio": "Florianópolis",
+  "resultado": null
+ },
+ "boa-viagem|Santa Catarina de Alexandria|Ressacada": {
+  "rua": "Rua Maria Geraldina Ramos",
+  "numero": "460",
+  "texto": "Rua Maria Geraldina Ramos, 460 – Ressacada",
+  "url": "https://boaviagem.org.br/comunidades/santa-catarina-de-alexandria/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7756742,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 247558866,
+   "lat": "-27.6694369",
+   "lon": "-48.5295870",
+   "category": "amenity",
+   "type": "place_of_worship",
+   "place_rank": 30,
+   "importance": 6.652246890969738e-05,
+   "addresstype": "amenity",
+   "name": "Capela Santa Catarina de Alexandria",
+   "display_name": "Capela Santa Catarina de Alexandria, 460, Rua Maria Geraldina Ramos, Loteamento Recreio Santos Dumont, Carianos, Tapera da Base, Florianópolis, Santa Catarina, Região Sul, 88047-400, Brasil",
+   "address": {
+    "amenity": "Capela Santa Catarina de Alexandria",
+    "house_number": "460",
+    "road": "Rua Maria Geraldina Ramos",
+    "neighbourhood": "Loteamento Recreio Santos Dumont",
+    "suburb": "Carianos",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88047-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6695658",
+    "-27.6693139",
+    "-48.5296891",
+    "-48.5294832"
+   ]
+  }
+ },
+ "boa-viagem|Nossa Senhora Aparecida|Morro do Limoeiro": {
+  "rua": "Servidão Catarina Albina Gouvêa",
+  "numero": "187",
+  "texto": "Servidão Catarina Albina Gouvêa, 187 – Morro Limoeiro",
+  "url": "https://boaviagem.org.br/comunidades/nossa-senhora-aparecida/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7694569,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 128678736,
+   "lat": "-27.6162805",
+   "lon": "-48.5255663",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Servidão Catarina Albina Gouvêa",
+   "display_name": "Servidão Catarina Albina Gouvêa, Saco dos Limões, Florianópolis, Santa Catarina, Região Sul, 88045-600, Brasil",
+   "address": {
+    "road": "Servidão Catarina Albina Gouvêa",
+    "suburb": "Saco dos Limões",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88045-600",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6163534",
+    "-27.6161768",
+    "-48.5273373",
+    "-48.5237967"
+   ]
+  }
+ },
+ "lapa|Nossa Senhora da Lapa|Ribeirão da Ilha": {
+  "rua": "Praça Hermínio Silva",
+  "numero": "62",
+  "texto": "Praça Hermínio Silva, 62, Freguesia do Ribeirão",
+  "url": "https://nossasenhoradalapa.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7629468,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 211923304,
+   "lat": "-27.7182528",
+   "lon": "-48.5634845",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Praça Hermínio da Silva",
+   "display_name": "Praça Hermínio da Silva, Ribeirão da Ilha, Florianópolis, Santa Catarina, Região Sul, 88064-002, Brasil",
+   "address": {
+    "road": "Praça Hermínio da Silva",
+    "suburb": "Ribeirão da Ilha",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88064-002",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.7183163",
+    "-27.7179798",
+    "-48.5641630",
+    "-48.5634489"
+   ]
+  }
+ },
+ "lapa|Nossa Senhora de Fátima e São Lucas|Tapera da Base": {
+  "rua": "Rua Bernardino João Damázio",
+  "numero": "118",
+  "texto": "Rua Bernardino João Damázio, 118",
+  "url": "https://nossasenhoradalapa.org.br/nossa-senhora-de-fatima-e-sao-lucas-tapera-da-base/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7756692,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 247762851,
+   "lat": "-27.6847460",
+   "lon": "-48.5665281",
+   "category": "highway",
+   "type": "service",
+   "place_rank": 27,
+   "importance": 0.04006652246890973,
+   "addresstype": "road",
+   "name": "Rua Bernardino João Damázio",
+   "display_name": "Rua Bernardino João Damázio, Tapera da Base, Florianópolis, Santa Catarina, Região Sul, 88049-400, Brasil",
+   "address": {
+    "road": "Rua Bernardino João Damázio",
+    "suburb": "Tapera da Base",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88049-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6850924",
+    "-27.6843929",
+    "-48.5680328",
+    "-48.5650181"
+   ]
+  }
+ },
+ "nossa-senhora-de-azambuja|Santo Antônio|Rua Luiz Vanolli": {
+  "rua": "Rua Luiz Vanolli",
+  "numero": null,
+  "texto": "Rua Luiz Vanolli",
+  "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-azambuja",
+  "municipio": "Brusque",
+  "resultado": {
+   "place_id": 7586422,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 370266934,
+   "lat": "-27.1324368",
+   "lon": "-48.9112097",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339050659952693,
+   "addresstype": "residential",
+   "name": "Rua Luiz Vanolli",
+   "display_name": "Rua Luiz Vanolli, Rainha, Azambuja, Brusque, Santa Catarina, Região Sul, 88353-600, Brasil",
+   "address": {
+    "road": "Rua Luiz Vanolli",
+    "neighbourhood": "Rainha",
+    "suburb": "Azambuja",
+    "city": "Brusque",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88353-600",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.1330864",
+    "-27.1281961",
+    "-48.9155541",
+    "-48.9100066"
+   ]
+  }
+ },
+ "guadalupe|Nossa Senhora de Guadalupe|Canasvieiras": {
+  "rua": "Av. Madre Maria Villac",
+  "numero": "1700",
+  "texto": "Av. Madre Maria Villac, 1700",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7689671,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 251339226,
+   "lat": "-27.4290031",
+   "lon": "-48.4680660",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "tertiary",
+   "name": "Rua Madre Maria Villac",
+   "display_name": "Rua Madre Maria Villac, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88054-330, Brasil",
+   "address": {
+    "road": "Rua Madre Maria Villac",
+    "suburb": "Canasvieiras",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88054-330",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4290256",
+    "-27.4280283",
+    "-48.4715947",
+    "-48.4644048"
+   ]
+  }
+ },
+ "guadalupe|Sagrada Face|Daniela": {
+  "rua": "Av. Das Palmeiras",
+  "numero": "786",
+  "texto": "Av. Das Palmeiras, 786",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7630912,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 829497198,
+   "lat": "-27.4499570",
+   "lon": "-48.5362564",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Avenida das Palmeiras",
+   "display_name": "Avenida das Palmeiras, Daniela, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88053-100, Brasil",
+   "address": {
+    "road": "Avenida das Palmeiras",
+    "suburb": "Daniela",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88053-100",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4513488",
+    "-27.4485684",
+    "-48.5399509",
+    "-48.5325605"
+   ]
+  }
+ },
+ "guadalupe|São Francisco de Assis|Jurerê Internacional": {
+  "rua": "Av. dos Salmões",
+  "numero": "90",
+  "texto": "Av. dos Salmões, 90",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7653320,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 885331783,
+   "lat": "-27.4430756",
+   "lon": "-48.5021773",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Avenida dos Salmões",
+   "display_name": "Avenida dos Salmões, Jurerê Internacional, Jurerê, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88053-400, Brasil",
+   "address": {
+    "road": "Avenida dos Salmões",
+    "neighbourhood": "Jurerê Internacional",
+    "suburb": "Jurerê",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88053-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4440628",
+    "-27.4420884",
+    "-48.5022844",
+    "-48.5020701"
+   ]
+  }
+ },
+ "guadalupe|São Francisco de Paula|Canasvieiras": {
+  "rua": "Rodovia Tertuliano Brito Xavier",
+  "numero": "2201",
+  "texto": "Rodovia Tertuliano Brito Xavier, 2201",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7599793,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 988165025,
+   "lat": "-27.4362692",
+   "lon": "-48.4651315",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rodovia Tertuliano Brito Xavier",
+   "display_name": "Rodovia Tertuliano Brito Xavier, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88054-620, Brasil",
+   "address": {
+    "road": "Rodovia Tertuliano Brito Xavier",
+    "suburb": "Canasvieiras",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88054-620",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4363721",
+    "-27.4361683",
+    "-48.4655214",
+    "-48.4647411"
+   ]
+  }
+ },
+ "guadalupe|São José|Forte": {
+  "rua": "Servidão da Carioca",
+  "numero": null,
+  "texto": "Servidão da Carioca (Cetro Comunitário Forte), s/n",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7666495,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 231768868,
+   "lat": "-27.4318817",
+   "lon": "-48.5169584",
+   "category": "highway",
+   "type": "service",
+   "place_rank": 27,
+   "importance": 0.04006652246890973,
+   "addresstype": "road",
+   "name": "Servidão da Carioca",
+   "display_name": "Servidão da Carioca, Praia do Forte, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88053-306, Brasil",
+   "address": {
+    "road": "Servidão da Carioca",
+    "suburb": "Praia do Forte",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88053-306",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4319412",
+    "-27.4318189",
+    "-48.5173253",
+    "-48.5165911"
+   ]
+  }
+ },
+ "guadalupe|São Pedro|Ponta das Canas": {
+  "rua": "Av. Luiz Boiteux Piazza",
+  "numero": "23",
+  "texto": "Av. Luiz Boiteux Piazza, 23",
+  "url": "https://paroquiadecanasvieiras.org.br/localizacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7571538,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 203830396,
+   "lat": "-27.4344939",
+   "lon": "-48.4575390",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Avenida Luiz Boiteux Piazza",
+   "display_name": "Avenida Luiz Boiteux Piazza, Canasvieiras, Florianópolis, Santa Catarina, Região Sul, 88054-210, Brasil",
+   "address": {
+    "road": "Avenida Luiz Boiteux Piazza",
+    "suburb": "Canasvieiras",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88054-210",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4345415",
+    "-27.4343439",
+    "-48.4579408",
+    "-48.4571622"
+   ]
+  }
+ },
+ "lourdes|Nossa Senhora da Conceição|Rua Vitor Konder": {
+  "rua": "Rua Vitor Konder",
+  "numero": null,
+  "texto": "Rua Vitor Konder",
+  "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7703080,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 131545476,
+   "lat": "-27.5897325",
+   "lon": "-48.5457927",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rua Vitor Konder",
+   "display_name": "Rua Vitor Konder, Centro, Sede, Florianópolis, Santa Catarina, Região Sul, 88015-380, Brasil",
+   "address": {
+    "road": "Rua Vitor Konder",
+    "suburb": "Centro",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88015-380",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5899656",
+    "-27.5894994",
+    "-48.5459961",
+    "-48.5455892"
+   ]
+  }
+ },
+ "lourdes|Nossa Senhora das Vitória|Morro Santa Vitória": {
+  "rua": "Rua Frei Caneca",
+  "numero": "64",
+  "texto": "Rua Frei Caneca 64. Auxiliado por empregados do Colégio Catarinense, procedeu-se à adaptação da casa que servira de residên",
+  "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7696856,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 976519155,
+   "lat": "-27.5762846",
+   "lon": "-48.5421904",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rua Frei Caneca",
+   "display_name": "Rua Frei Caneca, Agronômica, Sede, Florianópolis, Santa Catarina, Região Sul, 88025-360, Brasil",
+   "address": {
+    "road": "Rua Frei Caneca",
+    "suburb": "Agronômica",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88025-360",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5764592",
+    "-27.5761329",
+    "-48.5423300",
+    "-48.5420259"
+   ]
+  }
+ },
+ "desterro|Igreja Nossa Senhora do Rosário e de São Benedito (Irmandade)|R. Mal. Guilherme": {
+  "rua": "Rua Marechal Guilherme",
+  "numero": "60",
+  "texto": "Rua Marechal Guilherme, 60 - Centro de Florianópolis",
+  "url": "https://www.catedralflorianopolis.org.br/nossa-comunidade",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7711119,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 552374453,
+   "lat": "-27.5951017",
+   "lon": "-48.5494292",
+   "category": "amenity",
+   "type": "place_of_worship",
+   "place_rank": 30,
+   "importance": 0.29892160108322774,
+   "addresstype": "amenity",
+   "name": "Igreja Nossa Senhora do Rosário",
+   "display_name": "Igreja Nossa Senhora do Rosário, 60, Rua Marechal Guilherme, Centro-Leste, Centro, Sede, Florianópolis, Santa Catarina, Região Sul, 88015-000, Brasil",
+   "address": {
+    "amenity": "Igreja Nossa Senhora do Rosário",
+    "house_number": "60",
+    "road": "Rua Marechal Guilherme",
+    "neighbourhood": "Centro-Leste",
+    "suburb": "Centro",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88015-000",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5952921",
+    "-27.5949924",
+    "-48.5495883",
+    "-48.5493167"
+   ]
+  }
+ },
+ "sagrado-coracao|São Sebastião|Campeche": {
+  "rua": "Rua João Batista Pires",
+  "numero": "893",
+  "texto": "Rua João Batista Pires, 893 Praia do Campeche",
+  "url": "https://paroquiadocampeche.org.br/diac-avelino-trentin/",
+  "municipio": "Florianópolis",
+  "resultado": null
+ },
+ "sagrado-coracao|Nossa Senhora do Sagrado Coração|Campeche": {
+  "rua": "Rua Eugênio Raulino da Silva",
+  "numero": "95",
+  "texto": "Rua Eugênio Raulino da Silva, 95",
+  "url": "https://paroquiadocampeche.org.br/padroeira/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7610035,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 974852102,
+   "lat": "-27.6845295",
+   "lon": "-48.4922397",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Rua Eugênio Raulino da Silva",
+   "display_name": "Rua Eugênio Raulino da Silva, Baiá, Campeche, Florianópolis, Santa Catarina, Região Sul, 88063-215, Brasil",
+   "address": {
+    "road": "Rua Eugênio Raulino da Silva",
+    "neighbourhood": "Baiá",
+    "suburb": "Campeche",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88063-215",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.6845805",
+    "-27.6844686",
+    "-48.4922919",
+    "-48.4921999"
+   ]
+  }
+ },
+ "sagrado-coracao|Sant’Ana e São Joaquim|Armação": {
+  "rua": "Av Antônio Borges dos Santos",
+  "numero": null,
+  "texto": "Av Antônio Borges dos Santos, s/no",
+  "url": "https://paroquiadocampeche.org.br/santana-e-sao-joaquim-armacao/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7736487,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 816376904,
+   "lat": "-27.7507531",
+   "lon": "-48.5094807",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05336833524071104,
+   "addresstype": "tertiary",
+   "name": "Avenida Antônio Borges dos Santos",
+   "display_name": "Avenida Antônio Borges dos Santos, Armação, Pântano do Sul, Florianópolis, Santa Catarina, Região Sul, 88066-355, Brasil",
+   "address": {
+    "road": "Avenida Antônio Borges dos Santos",
+    "suburb": "Armação",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88066-355",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.7508029",
+    "-27.7506955",
+    "-48.5097696",
+    "-48.5091932"
+   ]
+  }
+ },
+ "sagrado-coracao|São Pedro|Pântano do Sul": {
+  "rua": "Rua Abelardo Otacílio Gomes",
+  "numero": null,
+  "texto": "Rua Abelardo Otacílio Gomes, s/n",
+  "url": "https://paroquiadocampeche.org.br/sao-pedro-pantano-do-sul/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7594471,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 171893892,
+   "lat": "-27.7809859",
+   "lon": "-48.5077300",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Rua Abelardo Otacílio Gomes",
+   "display_name": "Rua Abelardo Otacílio Gomes, Pântano do Sul, Florianópolis, Santa Catarina, Região Sul, 88067-102, Brasil",
+   "address": {
+    "road": "Rua Abelardo Otacílio Gomes",
+    "suburb": "Pântano do Sul",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88067-102",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.7820591",
+    "-27.7798819",
+    "-48.5080418",
+    "-48.5074659"
+   ]
+  }
+ },
+ "ingleses|Santuário Sagrado Coração de Jesus|Ingleses": {
+  "rua": "Caminho de Santiago de Compostela",
+  "numero": null,
+  "texto": "Caminho de Santiago de Compostela",
+  "url": "https://www.paroquiaingleses.com.br/caminho-compostela",
+  "municipio": "Florianópolis",
+  "resultado": null
+ },
+ "ingleses|Santo Antônio|Caminho do Mar": {
+  "rua": "Caminho do Mar",
+  "numero": null,
+  "texto": "Caminho do Mar",
+  "url": "https://www.paroquiaingleses.com.br/nossa-historia",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7666187,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 160753000,
+   "lat": "-27.4387907",
+   "lon": "-48.3887411",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Servidão Caminho do Mar",
+   "display_name": "Servidão Caminho do Mar, Comunidade Angra dos Reis, Ingleses, Ingleses do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88058-600, Brasil",
+   "address": {
+    "road": "Servidão Caminho do Mar",
+    "neighbourhood": "Comunidade Angra dos Reis",
+    "suburb": "Ingleses",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88058-600",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4394660",
+    "-27.4381680",
+    "-48.3887471",
+    "-48.3884762"
+   ]
+  }
+ },
+ "ingleses|Santos Arcanjos|Capivari de Cima": {
+  "rua": "Rua Graciliano Manoel Gomes",
+  "numero": "692",
+  "texto": "Rua Graciliano Manoel Gomes, 692 - Engenho",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7756884,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 238264337,
+   "lat": "-27.4477218",
+   "lon": "-48.4089134",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rua Graciliano Manoel Gomes",
+   "display_name": "Rua Graciliano Manoel Gomes, Capivari, Ingleses, Ingleses do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88058-200, Brasil",
+   "address": {
+    "road": "Rua Graciliano Manoel Gomes",
+    "neighbourhood": "Capivari",
+    "suburb": "Ingleses",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88058-200",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4565406",
+    "-27.4394297",
+    "-48.4111079",
+    "-48.4088149"
+   ]
+  }
+ },
+ "ingleses|São Luiz Gonzaga|Cachoeira do B. Jesus": {
+  "rua": "Rua Leonel Pereira",
+  "numero": "1600",
+  "texto": "Rua Leonel Pereira, 1600 - Cachoeira do Bom Jesus",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7695656,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1044614312,
+   "lat": "-27.4412517",
+   "lon": "-48.4180705",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rua Leonel Pereira (Nelito)",
+   "display_name": "Rua Leonel Pereira (Nelito), Vila Esperança, Ingleses, Ingleses do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88056-603, Brasil",
+   "address": {
+    "road": "Rua Leonel Pereira (Nelito)",
+    "neighbourhood": "Vila Esperança",
+    "suburb": "Ingleses",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88056-603",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4412519",
+    "-27.4412438",
+    "-48.4181925",
+    "-48.4179491"
+   ]
+  }
+ },
+ "ingleses|Santa Catarina de Alexandria|Sítio do Capivarí": {
+  "rua": "Estrada Dario Manoel Cardoso",
+  "numero": "1976",
+  "texto": "Estrada Dario Manoel Cardoso, 1976 - Sítio Capivari",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7597352,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 760648587,
+   "lat": "-27.4553869",
+   "lon": "-48.3970441",
+   "category": "amenity",
+   "type": "place_of_worship",
+   "place_rank": 30,
+   "importance": 6.652246890969738e-05,
+   "addresstype": "amenity",
+   "name": "Paróquia Santa Catarina de Alexandria",
+   "display_name": "Paróquia Santa Catarina de Alexandria, 1976, Estrada Dário Manoel Cardoso, Ingleses, Ingleses do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88058-400, Brasil",
+   "address": {
+    "amenity": "Paróquia Santa Catarina de Alexandria",
+    "house_number": "1976",
+    "road": "Estrada Dário Manoel Cardoso",
+    "suburb": "Ingleses",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88058-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4554475",
+    "-27.4553274",
+    "-48.3971451",
+    "-48.3969401"
+   ]
+  }
+ },
+ "ingleses|Santa Paulina|Muquém": {
+  "rua": "Servidão Canaã",
+  "numero": "352",
+  "texto": "Servidão Canaã, 352 - Muquém",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7658940,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 555665009,
+   "lat": "-27.4690783",
+   "lon": "-48.4122232",
+   "category": "amenity",
+   "type": "place_of_worship",
+   "place_rank": 30,
+   "importance": 6.652246890969738e-05,
+   "addresstype": "amenity",
+   "name": "Igreja Santa Paulina",
+   "display_name": "Igreja Santa Paulina, 352, Servidão Canaã, Muquém, Rio Vermelho, São João do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88060-120, Brasil",
+   "address": {
+    "amenity": "Igreja Santa Paulina",
+    "house_number": "352",
+    "road": "Servidão Canaã",
+    "neighbourhood": "Muquém",
+    "suburb": "Rio Vermelho",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88060-120",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4691781",
+    "-27.4689784",
+    "-48.4123011",
+    "-48.4121452"
+   ]
+  }
+ },
+ "ingleses|São João Batista|Rio Vermelho": {
+  "rua": "Rodovia João Gualberto Soares",
+  "numero": "6847",
+  "texto": "Rodovia João Gualberto Soares, 6847 - Rio Vermelho",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7684385,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 936264847,
+   "lat": "-27.4846269",
+   "lon": "-48.4202791",
+   "category": "highway",
+   "type": "primary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "primary",
+   "name": "Rodovia João Gualberto Soares",
+   "display_name": "Rodovia João Gualberto Soares, Rio Vermelho, São João do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88060-308, Brasil",
+   "address": {
+    "road": "Rodovia João Gualberto Soares",
+    "suburb": "Rio Vermelho",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88060-308",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4846533",
+    "-27.4846005",
+    "-48.4202890",
+    "-48.4202692"
+   ]
+  }
+ },
+ "ingleses|Nossa Senhora dos Navegantes|Santinho": {
+  "rua": "Estrada Vereador Onildo Lemos",
+  "numero": "41",
+  "texto": "Estrada Vereador Onildo Lemos, 41 - Santinho",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7674706,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 160792686,
+   "lat": "-27.4439101",
+   "lon": "-48.3766394",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Estrada Vereador Onildo Lemos",
+   "display_name": "Estrada Vereador Onildo Lemos, Ingleses, Ingleses do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88058-724, Brasil",
+   "address": {
+    "road": "Estrada Vereador Onildo Lemos",
+    "suburb": "Ingleses",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88058-724",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4440722",
+    "-27.4437479",
+    "-48.3766433",
+    "-48.3766356"
+   ]
+  }
+ },
+ "ingleses|Santa Rita de Cássia|Travessão": {
+  "rua": "Servidão Caminho das Orquídeas",
+  "numero": "78",
+  "texto": "Servidão Caminho das Orquídeas, 78 - Costa do Moçambique",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7627904,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 166669176,
+   "lat": "-27.4815607",
+   "lon": "-48.4052015",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Servidão Caminho das Orquídeas",
+   "display_name": "Servidão Caminho das Orquídeas, Rio Vermelho, São João do Rio Vermelho, Florianópolis, Santa Catarina, Região Sul, 88060-280, Brasil",
+   "address": {
+    "road": "Servidão Caminho das Orquídeas",
+    "suburb": "Rio Vermelho",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88060-280",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4816313",
+    "-27.4810775",
+    "-48.4113551",
+    "-48.3995412"
+   ]
+  }
+ },
+ "ingleses|Senhor Bom Jesus|Vargem do Bom Jesus": {
+  "rua": "Servidão Maria Nascimento Costa",
+  "numero": "133",
+  "texto": "Servidão Maria Nascimento Costa, 133 - Vargem do Bom Jesus",
+  "url": "https://www.paroquiaingleses.com.br/missas",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7667760,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 161081842,
+   "lat": "-27.4548456",
+   "lon": "-48.4273268",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Servidão Maria do Nascimento Costa",
+   "display_name": "Servidão Maria do Nascimento Costa, Vargem do Bom Jesus, Cachoeira do Bom Jesus, Florianópolis, Santa Catarina, Região Sul, 88058-025, Brasil",
+   "address": {
+    "road": "Servidão Maria do Nascimento Costa",
+    "suburb": "Vargem do Bom Jesus",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88058-025",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4571568",
+    "-27.4522527",
+    "-48.4280308",
+    "-48.4265374"
+   ]
+  }
+ },
+ "sagrados-coracoes|Sagrados Corações|Barreiros": {
+  "rua": "Rua Pedro Bunn",
+  "numero": "87",
+  "texto": "Rua Pedro Bunn, 87",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7695615,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 976160373,
+   "lat": "-27.5667250",
+   "lon": "-48.6173044",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "tertiary",
+   "name": "Rua Pedro Bunn",
+   "display_name": "Rua Pedro Bunn, Jardim Cidade de Florianópolis, Barreiros, São José, Santa Catarina, Região Sul, 88110-800, Brasil",
+   "address": {
+    "road": "Rua Pedro Bunn",
+    "suburb": "Jardim Cidade de Florianópolis",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88110-800",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5670834",
+    "-27.5663666",
+    "-48.6178735",
+    "-48.6167353"
+   ]
+  }
+ },
+ "sagrados-coracoes|Nossa Senhora de Lourdes|Barreiros": {
+  "rua": "Rua Heriberto Hulse",
+  "numero": null,
+  "texto": "Rua Heriberto Hulse, S/N",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7668353,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 209766532,
+   "lat": "-27.5685183",
+   "lon": "-48.6083227",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "tertiary",
+   "name": "Rua Heriberto Hülse",
+   "display_name": "Rua Heriberto Hülse, Barreiros, São José, Santa Catarina, Região Sul, 88110-400, Brasil",
+   "address": {
+    "road": "Rua Heriberto Hülse",
+    "suburb": "Barreiros",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88110-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5698771",
+    "-27.5671429",
+    "-48.6092811",
+    "-48.6073440"
+   ]
+  }
+ },
+ "sagrados-coracoes|Nossa Senhora Aparecida|Jardim Sol e Mar": {
+  "rua": "Rua Alverina Maria da Silva",
+  "numero": null,
+  "texto": "Rua Alverina Maria da Silva, S/N",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7689347,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 209585266,
+   "lat": "-27.5731496",
+   "lon": "-48.6314624",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "residential",
+   "name": "Rua Alverina Maria da Silva",
+   "display_name": "Rua Alverina Maria da Silva, Jardim Cidade de Florianópolis, Barreiros, São José, Santa Catarina, Região Sul, 88113-310, Brasil",
+   "address": {
+    "road": "Rua Alverina Maria da Silva",
+    "suburb": "Jardim Cidade de Florianópolis",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88113-310",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5744712",
+    "-27.5714935",
+    "-48.6339940",
+    "-48.6288122"
+   ]
+  }
+ },
+ "sagrados-coracoes|Santa Maria dos Anjos|Pedregal": {
+  "rua": "Rua Santa Maria dos Anjos",
+  "numero": "3098",
+  "texto": "Rua Santa Maria dos Anjos (Rua 87), 3098 – Pedregal",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7605143,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 210002482,
+   "lat": "-27.5719584",
+   "lon": "-48.6432625",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "residential",
+   "name": "Rua Santa Maria dos Anjos",
+   "display_name": "Rua Santa Maria dos Anjos, Pedregal, Barreiros, São José, Santa Catarina, Região Sul, 88111-490, Brasil",
+   "address": {
+    "road": "Rua Santa Maria dos Anjos",
+    "suburb": "Pedregal",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88111-490",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5726379",
+    "-27.5711873",
+    "-48.6433156",
+    "-48.6427744"
+   ]
+  }
+ },
+ "sagrados-coracoes|São Francisco de Assis|Bairro Ipiranga": {
+  "rua": "Rua João Paulo Gaspar",
+  "numero": "1687",
+  "texto": "Rua João Paulo Gaspar, 1687",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7717191,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 919074345,
+   "lat": "-27.5726996",
+   "lon": "-48.6428510",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "residential",
+   "name": "Rua João Paulo Gaspar",
+   "display_name": "Rua João Paulo Gaspar, Pedregal, Barreiros, São José, Santa Catarina, Região Sul, 88111-490, Brasil",
+   "address": {
+    "road": "Rua João Paulo Gaspar",
+    "suburb": "Pedregal",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88111-490",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5732638",
+    "-27.5720852",
+    "-48.6437699",
+    "-48.6419611"
+   ]
+  }
+ },
+ "sagrados-coracoes|Senhor Bom Jesus|Potecas": {
+  "rua": "Rua Kiliano Hames",
+  "numero": null,
+  "texto": "Rua Kiliano Hames, S/N",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7749246,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1455767632,
+   "lat": "-27.5871574",
+   "lon": "-48.6478104",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "secondary",
+   "name": "Rua Kiliano Hames",
+   "display_name": "Rua Kiliano Hames, Potecas, Centro Histórico de São José, São José, Santa Catarina, Região Sul, 88119-008, Brasil",
+   "address": {
+    "road": "Rua Kiliano Hames",
+    "suburb": "Potecas",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88119-008",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5908816",
+    "-27.5834226",
+    "-48.6491990",
+    "-48.6462303"
+   ]
+  }
+ },
+ "sagrados-coracoes|Santo Antônio|Major Durval": {
+  "rua": "Rua Major Durval",
+  "numero": "2289",
+  "texto": "Rua Major Durval, 2289",
+  "url": "https://sagradoscoracoes.org.br/site/horarios-de-missas/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7568187,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 209289572,
+   "lat": "-27.5722623",
+   "lon": "-48.6345223",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.0533890051117723,
+   "addresstype": "residential",
+   "name": "Rua Major Durval",
+   "display_name": "Rua Major Durval, Ipiranga, Barreiros, São José, Santa Catarina, Região Sul, 88113-480, Brasil",
+   "address": {
+    "road": "Rua Major Durval",
+    "suburb": "Ipiranga",
+    "village": "Barreiros",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88113-480",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5746488",
+    "-27.5699358",
+    "-48.6382206",
+    "-48.6307778"
+   ]
+  }
+ },
+ "santa-catarina|Santa Catarina|Dom Joaquim": {
+  "rua": "Rua Ludovico Merico",
+  "numero": "52",
+  "texto": "Rua Ludovico Merico, 52 - Dom Joaquim - Brusque - SC",
+  "url": "https://paroquiasantacatarina.com/",
+  "municipio": "Brusque",
+  "resultado": {
+   "place_id": 7717865,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1000050982,
+   "lat": "-27.1542396",
+   "lon": "-48.9566738",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339050659952693,
+   "addresstype": "tertiary",
+   "name": "Rua Ludovico Mérico",
+   "display_name": "Rua Ludovico Mérico, Dom Joaquim, Brusque, Santa Catarina, Região Sul, 88359-288, Brasil",
+   "address": {
+    "road": "Rua Ludovico Mérico",
+    "suburb": "Dom Joaquim",
+    "city": "Brusque",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88359-288",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.1590468",
+    "-27.1495559",
+    "-48.9594195",
+    "-48.9545547"
+   ]
+  }
+ },
+ "santa-catarina|São Francisco de Assis|Cristalina": {
+  "rua": "Rua DJ",
+  "numero": "042",
+  "texto": "Rua DJ 042 – Cristalina",
+  "url": "https://paroquiasantacatarina.com/comunidade/sao-francisco-de-assis-cristalina/",
+  "municipio": "Brusque",
+  "resultado": {
+   "place_id": 7603558,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 307671789,
+   "lat": "-27.1315298",
+   "lon": "-48.9606773",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339050659952693,
+   "addresstype": "tertiary",
+   "name": "Rua Beira Rio",
+   "display_name": "Rua Beira Rio, Beira Rio, Dom Joaquim, Brusque, Santa Catarina, Região Sul, 88359-288, Brasil",
+   "address": {
+    "road": "Rua Beira Rio",
+    "quarter": "Beira Rio",
+    "suburb": "Dom Joaquim",
+    "city": "Brusque",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88359-288",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.1383443",
+    "-27.1315268",
+    "-48.9657456",
+    "-48.9549952"
+   ]
+  }
+ },
+ "trindade|Nossa Senhora Aparecida|Morro da Penitenciária": {
+  "rua": "Rua Álvaro Ramos",
+  "numero": null,
+  "texto": "Rua Álvaro Ramos, s/n, Escadaria, Morro da Penitenciária",
+  "url": "https://paroquiadatrindade.com/comunidades/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7701679,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 132550538,
+   "lat": "-27.5840683",
+   "lon": "-48.5280480",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Rua Álvaro Ramos",
+   "display_name": "Rua Álvaro Ramos, Trindade, Florianópolis, Santa Catarina, Região Sul, 88036-120, Brasil",
+   "address": {
+    "road": "Rua Álvaro Ramos",
+    "suburb": "Trindade",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88036-120",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5860374",
+    "-27.5821209",
+    "-48.5295036",
+    "-48.5263327"
+   ]
+  }
+ },
+ "trindade|Puríssimo Coração de Maria|Jardim Anchieta": {
+  "rua": "Rua Arlindo Pena",
+  "numero": "85",
+  "texto": "Rua Arlindo Pena, 85, Jardim Anchieta, Córrego Grande",
+  "url": "https://paroquiadatrindade.com/comunidades/",
+  "municipio": "Florianópolis",
+  "resultado": null
+ },
+ "trindade|São Bento|Itacorubi": {
+  "rua": "Rodovia Amaro Antônio Vieira",
+  "numero": "1668",
+  "texto": "Rodovia Amaro Antônio Vieira, 1668, Itacorubi",
+  "url": "https://paroquiadatrindade.com/comunidades/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7621191,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 239617533,
+   "lat": "-27.5862806",
+   "lon": "-48.4971497",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "secondary",
+   "name": "Rodovia Amaro Antônio Vieira",
+   "display_name": "Rodovia Amaro Antônio Vieira, Morro do Quilombo, Itacorubi, Trindade, Florianópolis, Santa Catarina, Região Sul, 88034-378, Brasil",
+   "address": {
+    "road": "Rodovia Amaro Antônio Vieira",
+    "neighbourhood": "Morro do Quilombo",
+    "suburb": "Itacorubi",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88034-378",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5873391",
+    "-27.5852053",
+    "-48.4971951",
+    "-48.4967812"
+   ]
+  }
+ },
+ "trindade|Nossa Senhora de Guadalupe|Morro do Quilombo": {
+  "rua": "Rua da Represa",
+  "numero": "188",
+  "texto": "Rua da Represa, 188, Morro do Quilombo",
+  "url": "https://paroquiadatrindade.com/comunidades/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7745100,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 251063816,
+   "lat": "-27.5808440",
+   "lon": "-48.4944501",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Rua da Represa",
+   "display_name": "Rua da Represa, Morro do Quilombo, Itacorubi, Trindade, Florianópolis, Santa Catarina, Região Sul, 88034-378, Brasil",
+   "address": {
+    "road": "Rua da Represa",
+    "neighbourhood": "Morro do Quilombo",
+    "suburb": "Itacorubi",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88034-378",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5828194",
+    "-27.5785718",
+    "-48.4958193",
+    "-48.4934857"
+   ]
+  }
+ },
+ "trindade|São José|Serrinha": {
+  "rua": "Rua Marcus Aurélio Homem",
+  "numero": "366",
+  "texto": "Rua Marcus Aurélio Homem, 366, Serrinha",
+  "url": "https://paroquiadatrindade.com/comunidades/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7726848,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 4142938944,
+   "lat": "-27.5983668",
+   "lon": "-48.5281468",
+   "category": "place",
+   "type": "house",
+   "place_rank": 30,
+   "importance": 6.652246890969738e-05,
+   "addresstype": "place",
+   "name": "",
+   "display_name": "366, Rua Marcus Aurélio Homem, Serrinha, Trindade, Florianópolis, Santa Catarina, Região Sul, 88040-440, Brasil",
+   "address": {
+    "house_number": "366",
+    "road": "Rua Marcus Aurélio Homem",
+    "neighbourhood": "Serrinha",
+    "suburb": "Trindade",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88040-440",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5984168",
+    "-27.5983168",
+    "-48.5281968",
+    "-48.5280968"
+   ]
+  }
+ },
+ "trindade|Santíssima Trindade|Trindade": {
+  "rua": "Praça Santos Dumont",
+  "numero": "94",
+  "texto": "Praça Santos Dumont, nº 94 - Trindade",
+  "url": "https://paroquiadatrindade.com/carisma/jufra/",
+  "municipio": "Florianópolis",
+  "resultado": {
+   "place_id": 7644255,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 88463149,
+   "lat": "-27.5970392",
+   "lon": "-48.5211901",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339985580224304,
+   "addresstype": "residential",
+   "name": "Travessa São Lourenço de Brindes",
+   "display_name": "Travessa São Lourenço de Brindes, Trindade, Florianópolis, Santa Catarina, Região Sul, 88040-400, Brasil",
+   "address": {
+    "road": "Travessa São Lourenço de Brindes",
+    "suburb": "Trindade",
+    "city": "Florianópolis",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88040-400",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5975756",
+    "-27.5965207",
+    "-48.5217273",
+    "-48.5206356"
+   ]
+  }
+ },
+ "santo-antonio-3|Santo Antônio|Campinas": {
+  "rua": "Rua Irmãos Vieira",
+  "numero": "4",
+  "texto": "Rua Irmãos Vieira, 4",
+  "url": "https://paroquiasantoantonio.net/",
+  "municipio": "São José",
+  "resultado": {
+   "place_id": 7605409,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 313638838,
+   "lat": "-27.5946370",
+   "lon": "-48.6068148",
+   "category": "amenity",
+   "type": "place_of_worship",
+   "place_rank": 30,
+   "importance": 5.567177843895655e-05,
+   "addresstype": "amenity",
+   "name": "Paróquia Santo Antônio",
+   "display_name": "Paróquia Santo Antônio, 4, Rua Irmãos Vieira, Campinas, São José, Santa Catarina, Região Sul, 88101-290, Brasil",
+   "address": {
+    "amenity": "Paróquia Santo Antônio",
+    "house_number": "4",
+    "road": "Rua Irmãos Vieira",
+    "suburb": "Campinas",
+    "city": "São José",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88101-290",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5947840",
+    "-27.5945232",
+    "-48.6069608",
+    "-48.6066666"
+   ]
+  }
+ },
+ "santo-antonio-3|São Francisco de Assis e Sta. Rita de Cássia|Kobrasol": {
+  "rua": "Rua Sílvia M. Fabro",
+  "numero": null,
+  "texto": "Rua Sílvia M. Fabro, s/n - Kobrasol",
+  "url": "https://paroquiasantoantonio.net/comunidades/",
+  "municipio": "São José",
+  "resultado": null
+ },
+ "sao-cristovao-cordeiros|São Cristóvão|Cordeiros": {
+  "rua": "Rua Odílio Garcia",
+  "numero": "456",
+  "texto": "Rua Odílio Garcia, 456",
+  "url": "https://www.paroquiasaocristovao.com",
+  "municipio": "Itajaí",
+  "resultado": {
+   "place_id": 7428070,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1098132824,
+   "lat": "-26.8954996",
+   "lon": "-48.6939585",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05339242771038373,
+   "addresstype": "secondary",
+   "name": "Rua Odílio Garcia",
+   "display_name": "Rua Odílio Garcia, Lar Brasileiro, Cordeiros, Itajaí, Santa Catarina, Região Sul, 88310-550, Brasil",
+   "address": {
+    "road": "Rua Odílio Garcia",
+    "quarter": "Lar Brasileiro",
+    "suburb": "Cordeiros",
+    "city": "Itajaí",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88310-550",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-26.8962573",
+    "-26.8947700",
+    "-48.6940218",
+    "-48.6939248"
+   ]
+  }
+ },
+ "sao-cristovao-cordeiros|Comunidade Transfiguração|Espinheirinhos": {
+  "rua": "Rua Bruno Vicente da Luz",
+  "numero": "190",
+  "texto": "Rua Bruno Vicente da Luz, n° 190 – CEP: 88317-020",
+  "url": "https://www.paroquiasaocristovao.com/comunidades/com-transfiguracao/",
+  "municipio": "Itajaí",
+  "resultado": {
+   "place_id": 7358452,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 396423694,
+   "lat": "-26.8870429",
+   "lon": "-48.7572767",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339242771038373,
+   "addresstype": "tertiary",
+   "name": "Rua Bruno Vicente da Luz",
+   "display_name": "Rua Bruno Vicente da Luz, Santa Regina, Itajaí, Santa Catarina, Região Sul, 88317-100, Brasil",
+   "address": {
+    "road": "Rua Bruno Vicente da Luz",
+    "suburb": "Santa Regina",
+    "city": "Itajaí",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88317-100",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-26.8888189",
+    "-26.8858178",
+    "-48.7595197",
+    "-48.7553161"
+   ]
+  }
+ },
+ "sao-cristovao-cordeiros|São Roque|São Roque": {
+  "rua": "Rua Domingos Rampelotti",
+  "numero": "5183",
+  "texto": "Rua Domingos Rampelotti, 5.183 – CEP: 88317-600",
+  "url": "https://www.paroquiasaocristovao.com/comunidades/sao-roque/",
+  "municipio": "Itajaí",
+  "resultado": {
+   "place_id": 7465709,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 958743062,
+   "lat": "-26.8997982",
+   "lon": "-48.7176860",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339242771038373,
+   "addresstype": "tertiary",
+   "name": "Rua Domingos Rampelotti",
+   "display_name": "Rua Domingos Rampelotti, São Roque, Itajaí, Santa Catarina, Região Sul, 88317-615, Brasil",
+   "address": {
+    "road": "Rua Domingos Rampelotti",
+    "suburb": "São Roque",
+    "city": "Itajaí",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88317-615",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-26.9000275",
+    "-26.8995600",
+    "-48.7177469",
+    "-48.7176768"
+   ]
+  }
+ },
+ "sao-joao-evangelista|Santa Cruz|Rússia": {
+  "rua": "Estrada Geral São Roque",
+  "numero": null,
+  "texto": "Estrada Geral São Roque – Rússia – Biguaçu – SC- 88160-000",
+  "url": "https://psje.org.br/comunidades/santa-cruz/",
+  "municipio": "Biguaçu",
+  "resultado": null
+ },
+ "sao-joao-evangelista|Santo Antônio|Cachoeira": {
+  "rua": "Rua Bertoldo Machado",
+  "numero": "239",
+  "texto": "Rua Bertoldo Machado, 239 – Tijuquinhas – Biguaçu – SC- 88168-512",
+  "url": "https://psje.org.br/comunidades/santo-antonio/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7533120,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 467833027,
+   "lat": "-27.4032308",
+   "lon": "-48.6350202",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua Bertoldo Machado",
+   "display_name": "Rua Bertoldo Machado, Tijuquinhas, Guaporanga, Biguaçu, Santa Catarina, Região Sul, 88168-610, Brasil",
+   "address": {
+    "road": "Rua Bertoldo Machado",
+    "suburb": "Tijuquinhas",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88168-610",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4037644",
+    "-27.4027910",
+    "-48.6379807",
+    "-48.6320657"
+   ]
+  }
+ },
+ "sao-joao-evangelista|Santa Teresinha|Jardim Sueli": {
+  "rua": "Estrada Geral Estiva do Inferninho",
+  "numero": null,
+  "texto": "Estrada Geral Estiva do Inferninho, s/n – Estiva do Inferninho – Biguaçu – SC- 88160-000",
+  "url": "https://psje.org.br/comunidades/santa-teresinha/",
+  "municipio": "Biguaçu",
+  "resultado": null
+ },
+ "sao-joao-evangelista|Santa Teresinha|Estiva do Inferninho": {
+  "rua": "Estrada Geral Estiva do Inferninho",
+  "numero": null,
+  "texto": "Estrada Geral Estiva do Inferninho, s/n – Estiva do Inferninho – Biguaçu – SC- 88160-000",
+  "url": "https://psje.org.br/comunidades/santa-teresinha/",
+  "municipio": "Biguaçu",
+  "resultado": null
+ },
+ "sao-joao-evangelista|São Lucas|Jardim Saveiro": {
+  "rua": "Rua Tapajós",
+  "numero": null,
+  "texto": "Rua Tapajós – Saveiro – Biguaçu – SC- 88160-120",
+  "url": "https://psje.org.br/comunidades/sao-lucas/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7723872,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 160307678,
+   "lat": "-27.5098818",
+   "lon": "-48.6386177",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua Tapajós",
+   "display_name": "Rua Tapajós, Saveiro, Biguaçu, Santa Catarina, Região Sul, 88160-364, Brasil",
+   "address": {
+    "road": "Rua Tapajós",
+    "suburb": "Saveiro",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88160-364",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5102015",
+    "-27.5095621",
+    "-48.6390097",
+    "-48.6382257"
+   ]
+  }
+ },
+ "sao-joao-evangelista|Santa Clara|Vendaval": {
+  "rua": "Rua Ivo Tomaz Coelho",
+  "numero": null,
+  "texto": "Rua Ivo Tomaz Coelho, s/n – Vendaval – Biguaçu – SC- 88164-088",
+  "url": "https://psje.org.br/comunidades/santa-clara/",
+  "municipio": "Biguaçu",
+  "resultado": null
+ },
+ "sao-joao-evangelista|Mãe Peregrina|Morro da Bina": {
+  "rua": "Rua Castro Alves",
+  "numero": null,
+  "texto": "Rua Castro Alves, s/n – Morro da Bina – Biguaçu – SC- 88160-000",
+  "url": "https://psje.org.br/comunidades/mae-peregrina/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7715409,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 160307662,
+   "lat": "-27.5183136",
+   "lon": "-48.6364208",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua Castro Alves",
+   "display_name": "Rua Castro Alves, Morro da Bina, Biguaçu, Santa Catarina, Região Sul, 88160-450, Brasil",
+   "address": {
+    "road": "Rua Castro Alves",
+    "suburb": "Morro da Bina",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88160-450",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.5187447",
+    "-27.5178825",
+    "-48.6369609",
+    "-48.6358806"
+   ]
+  }
+ },
+ "sao-joao-evangelista|“Capela” Nossa Senhora de Guadalupe|Cachoeiras II": {
+  "rua": "Rua Paulo José Garcia",
+  "numero": null,
+  "texto": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
+  "url": "https://psje.org.br/comunidades/nossa-senhora-de-guadalupe/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7597294,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 313510205,
+   "lat": "-27.3945253",
+   "lon": "-48.6350528",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua Paulo José Garcia",
+   "display_name": "Rua Paulo José Garcia, Cachoeiras, Guaporanga, Biguaçu, Santa Catarina, Região Sul, 88168-610, Brasil",
+   "address": {
+    "road": "Rua Paulo José Garcia",
+    "suburb": "Cachoeiras",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88168-610",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.3949948",
+    "-27.3940994",
+    "-48.6379983",
+    "-48.6321141"
+   ]
+  }
+ },
+ "sao-joao-evangelista|“Gruta” Nossa Senhora de Guadalupe|Santa Cruz": {
+  "rua": "Rua Paulo José Garcia",
+  "numero": null,
+  "texto": "Rua Paulo José Garcia – Cachoeiras – Biguaçu – SC- 88160-120",
+  "url": "https://psje.org.br/comunidades/nossa-senhora-de-guadalupe/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7597294,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 313510205,
+   "lat": "-27.3945253",
+   "lon": "-48.6350528",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua Paulo José Garcia",
+   "display_name": "Rua Paulo José Garcia, Cachoeiras, Guaporanga, Biguaçu, Santa Catarina, Região Sul, 88168-610, Brasil",
+   "address": {
+    "road": "Rua Paulo José Garcia",
+    "suburb": "Cachoeiras",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88168-610",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.3949948",
+    "-27.3940994",
+    "-48.6379983",
+    "-48.6321141"
+   ]
+  }
+ },
+ "sao-joao-evangelista|Cristo Redentor|Jardim Anápolis": {
+  "rua": "Rua João Paulo de Souza",
+  "numero": null,
+  "texto": "Rua João Paulo de Souza, s/n – Prado – Biguaçu – SC- 88165-138",
+  "url": "https://psje.org.br/comunidades/cristo-redentor/",
+  "municipio": "Biguaçu",
+  "resultado": {
+   "place_id": 7588419,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 913725824,
+   "lat": "-27.4776245",
+   "lon": "-48.6608489",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.053387123674372435,
+   "addresstype": "residential",
+   "name": "Rua João Paulo de Souza",
+   "display_name": "Rua João Paulo de Souza, Prado, Biguaçu, Santa Catarina, Região Sul, 88165-040, Brasil",
+   "address": {
+    "road": "Rua João Paulo de Souza",
+    "suburb": "Prado",
+    "town": "Biguaçu",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "postcode": "88165-040",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.4815976",
+    "-27.4744182",
+    "-48.6611230",
+    "-48.6595269"
+   ]
+  }
+ },
+ "sao-luis-gonzaga|São Luís Gonzaga|Centro": {
+  "rua": "Rua Padre Gattone",
+  "numero": "75",
+  "texto": "Rua Padre Gattone, 75 Centro - Brusque - SC",
+  "url": "https://www.paroquiasaoluisgonzaga.com",
+  "municipio": "Brusque",
+  "resultado": null
+ },
+ "sao-luis-gonzaga|Nossa Senhora de Lourdes|Alsácia/São Pedro": {
+  "rua": "Rua São Pedro. O início não foi fácil, mas a fé desse povo vencia todos os obstáculos. Povo trabalhador e de fé, soube pass",
+  "numero": null,
+  "texto": "Rua São Pedro. O início não foi fácil, mas a fé desse povo vencia todos os obstáculos. Povo trabalhador e de fé, soube pass",
+  "url": "https://www.paroquiasaoluisgonzaga.com/comunidade/nossa-senhora-de-lourdes/",
+  "municipio": "Brusque",
+  "resultado": null
+ },
+ "sao-luis-gonzaga|São José|1º de Maio": {
+  "rua": "Caminho das Virtudes será constr",
+  "numero": null,
+  "texto": "Caminho das Virtudes será constr",
+  "url": "https://www.paroquiasaoluisgonzaga.com/fotos",
+  "municipio": "Brusque",
+  "resultado": null
+ },
+ "sao-virgilio|São Virgílio|Centro": {
+  "rua": "Rua Santo Inácio",
+  "numero": "170",
+  "texto": "Rua Santo Inácio, 170, Centro",
+  "url": "https://paroquiasaovirgilio.com.br/sobre-nos/",
+  "municipio": "Nova Trento",
+  "resultado": {
+   "place_id": 7632894,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 207081294,
+   "lat": "-27.2861523",
+   "lon": "-48.9312819",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05338725947966732,
+   "addresstype": "secondary",
+   "name": "Rua Santo Inácio",
+   "display_name": "Rua Santo Inácio, Centro, Nova Trento, Santa Catarina, Região Sul, Brasil",
+   "address": {
+    "road": "Rua Santo Inácio",
+    "suburb": "Centro",
+    "town": "Nova Trento",
+    "state": "Santa Catarina",
+    "ISO3166-2-lvl4": "BR-SC",
+    "region": "Região Sul",
+    "country": "Brasil",
+    "country_code": "br"
+   },
+   "boundingbox": [
+    "-27.2861573",
+    "-27.2861473",
+    "-48.9316626",
+    "-48.9309011"
+   ]
+  }
+ },
+ "sao-virgilio|São Roque|Rua do Salto": {
+  "rua": "Rua do Salto",
+  "numero": null,
+  "texto": "Rua do Salto",
+  "url": "https://paroquiasaovirgilio.com.br/comunidades-pagina/",
+  "municipio": "Nova Trento",
+  "resultado": null
+ }
+}

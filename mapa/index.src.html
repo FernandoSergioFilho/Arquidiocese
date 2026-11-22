@@ -262,7 +262,7 @@ const GOTA = (cr, tipo) => {
   const w = GRANDE(tipo) ? 36 : 26, h = Math.round(w*1.36);
   return `<svg viewBox="0 0 32 44" width="${w}" height="${h}" aria-hidden="true"><ellipse cx="16" cy="42" rx="5" ry="1.6" fill="rgba(0,0,0,.28)"/><path d="M16 1.2C7.9 1.2 1.4 7.6 1.4 15.6c0 10.4 14.6 25 14.6 25s14.6-14.6 14.6-25C30.6 7.6 24.1 1.2 16 1.2z" style="fill:${cr}" stroke="#fff" stroke-width="${GRANDE(tipo)?2:1.6}"/><g transform="translate(4 3.4)">${TIPOS[tipo].g}</g></svg>`;
 };
-const POSICAO = {osm:['ok','Localização conferida no OpenStreetMap'], endereco:['ok','Posicionada pelo endereço'], localidade:['warn','Posição aproximada (centro da localidade)'], aprox:['warn','Posição aproximada (dentro do bairro ou da área)']};
+const POSICAO = {osm:['ok','Localização conferida no OpenStreetMap'], endereco:['ok','Posicionada pelo endereço'], rua:['ok','Posicionada pela rua do endereço publicado pela paróquia'], localidade:['warn','Posição aproximada (centro da localidade)'], aprox:['warn','Posição aproximada (dentro do bairro ou da área)']};
 const posicaoDe = c => POSICAO[c.posicao] || POSICAO[c.lat ? 'osm' : 'aprox'];
 
 // ---------- Mapa ----------
@@ -488,7 +488,7 @@ function render(){
     const c = igreja[sel.id], p = c.paroquia, f = forania[p.forania], [cl, txt] = posicaoDe(c);
     h += crumbs([ARQ, {t:f.nome, s:{tipo:'forania',id:f.id}}, {t:p.nome, s:{tipo:'paroquia',id:p.id}}]);
     h += `<div class="j-eyebrow" style="margin-top:12px">${ICONE(cor(p.id), c.tipo, 20)} ${TIPOS[c.tipo].rot}</div><h2>${esc(c.nome)}</h2>`;
-    h += `<dl class="facts"><dt>Localidade</dt><dd>${esc(c.local)}</dd>${c.bairro?`<dt>Bairro</dt><dd>${esc(c.bairro)}</dd>`:''}<dt>Município</dt><dd>${esc(c.mun)}</dd>${c.ano?`<dt>Desde</dt><dd>${c.ano}</dd>`:''}<dt>Paróquia</dt><dd>${esc(p.nome)}</dd><dt>Forania</dt><dd>${esc(f.nome)}</dd>${c.matriz?`<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>`:''}</dl>`;
+    h += `<dl class="facts"><dt>Localidade</dt><dd>${esc(c.local)}</dd>${c.bairro?`<dt>Bairro</dt><dd>${esc(c.bairro)}</dd>`:''}<dt>Município</dt><dd>${esc(c.mun)}</dd>${c.endereco_site?`<dt>Endereço</dt><dd>${esc(c.endereco_site)}</dd>`:''}${c.ano?`<dt>Desde</dt><dd>${c.ano}</dd>`:''}<dt>Paróquia</dt><dd>${esc(p.nome)}</dd><dt>Forania</dt><dd>${esc(f.nome)}</dd>${c.matriz?`<dt>Endereço</dt><dd>${esc(p.endereco)}</dd>`:''}</dl>`;
     h += `<p class="note" style="color:var(--${cl==='ok'?'ok':'warn'})">${txt}.</p>`;
     h += `<div class="j-acts" style="margin-top:12px">${botao({tipo:'paroquia',id:p.id},'Ver paróquia e todas as igrejas',true)}${c.reg?botao({tipo:'regiao',id:c.reg}, regiao[c.reg].properties.tipo==='area'?'Ver área':'Ver bairro'):''}</div>`;
     const outras = p.comunidades.filter(x => x !== c);

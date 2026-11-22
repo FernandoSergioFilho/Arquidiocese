@@ -14,7 +14,6 @@
 
 == 4. Matrizes: como foram posicionadas
   sao-francisco-de-assis-2                 matriz 'São Francisco de Assis' posição=localidade local=Forquilhinhas
-  sao-joao-batista-biguacu: 0 matrizes
   nossa-senhora-da-imaculada-conceicao     matriz 'Nossa Senhora da I. Conceição' posição=localidade local=Centro
 
 == 5. Igrejas do OSM: nome no site x nome no mapa (para revisão)
@@ -53,9 +52,9 @@
   nossa-senhora-dos-navegantes | São Pedro                              | Canto dos Ganchos      | Igreja de São Pedro
   sagrados-coracoes            | Sagrados Corações                      | Barreiros              | Paróquia dos Sagrados Corações
   sagrados-coracoes            | Senhor Bom Jesus                       | Potecas                | Capela Senhor Bom Jesus
+  sao-joao-batista-biguacu     | São João Batista                       | Encruzilhada           | Capela de São João  ≠
   sao-joao-batista-biguacu     | Nossa Senhora Aparecida                | Sorocaba do Sul        | Igreja Nossa Senhora Aparecida
   sao-joao-batista-biguacu     | Sagrado Coração de Jesus               | Sorocaba de Fora       | Igreja Sagrado Coração de Jesus
-  sao-joao-batista-biguacu     | São João Batista                       | Encruzilhada           | Capela de São João  ≠
   sao-joao-batista-biguacu     | São Marcos                             | Três Riachos           | Capela São Marcos
   sao-joao-batista-biguacu     | São Mateus                             | Três Riachos           | Capela São Mateus
   sao-joao-batista-biguacu     | São Sebastião                          | Limeira                | Capela São Sebastião
@@ -282,4 +281,4 @@
 == 9. Paróquias sem área no mapa
 
 == 10. Resumo das posições
-   Counter({'osm': 287, 'localidade': 168, 'aprox': 149, 'bairro (Ilha)': 39, 'endereco': 12})
+   Counter({'osm': 287, 'localidade': 159, 'aprox': 141, 'bairro (Ilha)': 31, 'rua': 24, 'endereco': 13})
