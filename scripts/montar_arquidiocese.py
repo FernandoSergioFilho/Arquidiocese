@@ -575,6 +575,15 @@ def main(arq_bairros, arq_municipios):
     # Correções manuais conferidas (dados/arquidiocese/correcoes.json)
     corr = json.loads((D / "correcoes.json").read_text(encoding="utf-8")) if (D / "correcoes.json").exists() else {}
     usadas_corr = set()
+    # Endereços da lista do Google (modo IA) confirmados no Censo/OSM (scripts/casar_lista_ia.py); só onde não havia posição exata
+    lista_ia = json.loads((D / "posicoes_lista_ia.json").read_text(encoding="utf-8"))["posicoes"] if (D / "posicoes_lista_ia.json").exists() else {}
+    for par, c in todas_igrejas:
+        v = lista_ia.get(f"{par['id']}|{c['nome']}|{c['local']}")
+        if v and c.get("posicao") in ("localidade", "aprox", "bairro", None) and f"{par['id']}|{c['nome']}|{c['local']}" not in corr.get("posicoes", {}):
+            c.update({"lat": v["lat"], "lng": v["lng"], "posicao": v["posicao"], "endereco_google": v["endereco"]})
+            c.pop("nome_osm", None); c.pop("local_osm", None)
+            if v.get("cnefe"):
+                c["cnefe"] = v["cnefe"]
     for par, c in todas_igrejas:
         k3 = f"{par['id']}|{c['nome']}|{c['local']}"
         if k3 in corr.get("posicoes", {}):
@@ -631,7 +640,7 @@ def main(arq_bairros, arq_municipios):
     for par, c in todas_igrejas:
         if par.get("ilha"):
             continue
-        if c.get("posicao") in ("localidade", "endereco", "rua") and "lat" in c:
+        if c.get("posicao") in ("localidade", "endereco", "rua", "rua_google") and "lat" in c:
             pos = (c["lat"], c["lng"])
             grupos[(round(pos[0], 4), round(pos[1], 4))].append(c)
     for (la, lo), cs in grupos.items():

@@ -60,7 +60,7 @@ def mesma_rua(a, b):
 def parse_endereco(end):
     partes = [p.strip() for p in re.split(r"\s+[-–]\s+", end)]
     rua = num = bairro = None
-    if partes and re.match(r"(?i)^(r\.|rua|av\.?|avenida|rod\.?|rodovia|estr\.?|estrada|serv\.?|servid[aã]o|tv\.?|travessa|al\.|alameda|pra[cç]a|p[cç]a\.?|largo|caminho)\b", partes[0]):
+    if partes and re.match(r"(?i)^(r\.|rua|av\.?|avenida|rod\.?|rodovia|estr\.?|estrada|serv\.?|servid[aã]o|tv\.?|travessa|al\.|alameda|pra[cç]a|p[cç]a\.?|largo|caminho)(?=[\s.]|$)", partes[0]):
         m = re.match(r"^(.*?)(?:,\s*(\d+[\w-]*|s/n))?$", partes[0])
         rua, num = m.group(1).strip(), (m.group(2) if m.group(2) and m.group(2) != "s/n" else None)
         if len(partes) > 1:
@@ -83,9 +83,11 @@ def main():
         nome = re.sub(r"\s*\(.*$", "", cab)
         mun = municipio_de(cab) or next((municipio_de(e["endereco"] or "") for e in ents if e["endereco"] and municipio_de(e["endereco"])), None)
         sq = norm_seq(nome)
-        cands = [p for p in pars if norm_seq(p["nome"]) == sq and (not mun or p["municipio"] == mun)]
+        def mun_ok(p):  # o cabeçalho pode citar vários municípios ("Municípios: Santo Amaro da Imperatriz e Águas Mornas")
+            return not mun or p["municipio"] == mun or p["municipio"].lower() in cab.lower()
+        cands = [p for p in pars if norm_seq(p["nome"]) == sq and mun_ok(p)]
         if len(cands) != 1:
-            cands = [p for p in pars if (contido(sq, norm_seq(p["nome"])) or contido(norm_seq(p["nome"]), sq)) and (not mun or p["municipio"] == mun)]
+            cands = [p for p in pars if (contido(sq, norm_seq(p["nome"])) or contido(norm_seq(p["nome"]), sq)) and mun_ok(p)]
         return cands[0] if len(cands) == 1 else None
 
     grupos = {}
@@ -127,12 +129,12 @@ def main():
             ponto, fonte, como = None, None, None
             regs = [r for r in cnefe if r["municipio"] == mun and mesma_rua(rua, r["logradouro"]) and not NAO_CATOLICA.search(r["nome"])]
             if regs:
-                if num and num.isdigit():
-                    regs.sort(key=lambda r: abs(int(r["numero"]) - int(num)) if str(r["numero"]).isdigit() and int(r["numero"]) > 0 else 10 ** 6)
-                    melhor = [regs[0]] if len(regs) == 1 or (str(regs[0]["numero"]).isdigit() and int(regs[0]["numero"]) > 0) else []
-                else:
-                    cat = [r for r in regs if re.search(r"(?i)cat[oó]lic|capela|par[oó]quia|comunidade|n\.? ?s\b|nossa|s[aã]o |santa |santo |gruta", r["nome"])]
-                    melhor = cat if len(cat) == 1 else (regs if len(regs) == 1 else [])
+                cat = [r for r in regs if re.search(r"(?i)cat[oó]lic|capela|par[oó]quia|comunidade|n\.? ?s\b|nossa|s[aã]o |santa |santo |gruta", r["nome"])]
+                melhor = cat if len(cat) == 1 else (regs if len(regs) == 1 else [])
+                if not melhor and num and num.isdigit():  # pelo número da casa, quando o Censo traz número
+                    com_num = sorted((r for r in (cat or regs) if str(r["numero"]).isdigit() and int(r["numero"]) > 0), key=lambda r: abs(int(r["numero"]) - int(num)))
+                    if com_num and abs(int(com_num[0]["numero"]) - int(num)) <= 60:
+                        melhor = [com_num[0]]
                 if len(melhor) == 1:
                     r0 = melhor[0]
                     ponto, como = (r0["lat"], r0["lng"]), "cnefe"
@@ -171,7 +173,9 @@ def main():
             if c.get("posicao") == "localidade" and "lat" in c and km(ponto, (c["lat"], c["lng"])) > 3:
                 stats["longe"] += 1; rel.append(f"  longe da localidade ({km(ponto, (c['lat'], c['lng'])):.1f} km): {chave} | {e['endereco']}"); continue
             stats["aceita_" + ("cnefe" if como == "cnefe" else "rua")] += 1
-            aceitas[chave] = {"lat": ponto[0], "lng": ponto[1], "posicao": como, "fonte": fonte}
+            aceitas[chave] = {"lat": ponto[0], "lng": ponto[1], "posicao": "cnefe" if como == "cnefe" else "rua_google", "fonte": fonte, "endereco": e["endereco"]}
+            if como == "cnefe":
+                aceitas[chave]["cnefe"] = f"{r0['nome'].title()}, {r0['logradouro'].title()}{', ' + str(r0['numero']) if str(r0['numero']) not in ('0', '') else ''}"
             rel.append(f"  ACEITA ({como}): {chave} <- {e['endereco']}")
     CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     (D / "posicoes_lista_ia.json").write_text(json.dumps({"_sobre": __doc__.split("\n\n")[1], "posicoes": aceitas}, ensure_ascii=False, indent=1), encoding="utf-8")
