@@ -1,0 +1,53 @@
+{
+ "_sobre": "A lista da IA pode inventar endereços. Uma posição só é aceita quando:\n  1. a entrada casa com UMA comunidade da mesma paróquia no site da Arquidiocese (nome; localidade desempata);\n  2. a comunidade ainda não tem posição exata (só 'localidade', 'aprox' ou 'bairro');\n  3. a rua informada existe de verdade no município, confirmada por\n       a) um estabelecimento religioso do Censo 2022 (CNEFE) na mesma rua -> usa o ponto do Censo, ou\n       b) a rua no OpenStreetMap, curta (até 1,2 km) -> usa o meio da rua;\n  4. o ponto fica perto da matriz (8 km nas cidades grandes, 15 km nas demais) e, se a localidade já era conhecida, a até 3 km dela.",
+ "posicoes": {
+  "senhor-bom-jesus-de-nazare|Nossa Senhora Aparecida|(Gruta) Bela Vista": {
+   "lat": -27.65791,
+   "lng": -48.709498,
+   "posicao": "rua",
+   "fonte": "Lista do Google (modo IA): Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812 · rua confirmada no OpenStreetMap: Servidão Gruta Nossa Senhora Aparecida"
+  },
+  "sao-sebastiao|Santa Bárbara|Rio da Prata": {
+   "lat": -27.819247,
+   "lng": -49.134777,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estrada Geral Rio da Prata - Rio da Prata, Anitápolis - SC, 88475-000 · confirmada no Censo 2022: PAROQUIA SAO SEBASTIAO MR UNIDOS EM CRISTO, ESTRADA RIO DA PRATA 0"
+  },
+  "sao-joao-batista-biguacu|São Cristóvão|Canudos": {
+   "lat": -27.414569,
+   "lng": -48.75773,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estr. Geral de Canudos - Canudos, Biguaçu - SC, 88160-000 · confirmada no Censo 2022: IGREJA, ESTRADA GERAL DE CANUDOS 0"
+  },
+  "nossa-senhora-dos-navegantes|Nossa Senhora Aparecida e São Pedro|Palmas das Gaivotas": {
+   "lat": -27.318067,
+   "lng": -48.561842,
+   "posicao": "rua",
+   "fonte": "Lista do Google (modo IA): Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000 · rua confirmada no OpenStreetMap: Avenida Bela Vista"
+  },
+  "sagrado-coracao|Nossa Senhora Aparecida e São Cristóvão|Morro das Pedras": {
+   "lat": -27.723032,
+   "lng": -48.505173,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Rod. Francisco Thomaz dos Santos (SC-406), 801 - Morro das Pedras, Florianópolis - SC, 88066-000 · confirmada no Censo 2022: VILA FATIMA, RODOVIA FRANCISCO THOMAZ DOS SANTOS 2210"
+  },
+  "santa-catarina|São João Batista|Ribeirão do Mafra": {
+   "lat": -27.201648,
+   "lng": -48.957747,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000 · confirmada no Censo 2022: CAPELA SAO JOAO, RUA RIBEIRAO DO MAFRA 0"
+  },
+  "sao-judas-tadeu|São Francisco de Assis|Ponta Russa": {
+   "lat": -27.148039,
+   "lng": -48.877874,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000 · confirmada no Censo 2022: IGREJA SAO FRANSCISCO DE ASSIS, RUA PONTA RUSSA 1555"
+  },
+  "senhor-bom-jesus-dos-aflitos|Santa Catarina de Alexandria|Alto Perequê": {
+   "lat": -27.169704,
+   "lng": -48.589525,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000 · confirmada no Censo 2022: IGREJA, AVENIDA JOSE NEOLI CRUZ 0"
+  }
+ }
+}

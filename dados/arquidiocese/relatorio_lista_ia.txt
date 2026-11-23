@@ -1,0 +1,116 @@
+{"entradas": 511, "sem_paroquia": 49, "sem_comunidade": 56, "ambigua": 3, "ja_exata": 39, "sem_rua": 277, "rua_nao_confirmada": 78, "longe": 1, "aceita_cnefe": 6, "aceita_rua": 2}
+
+== Divergências com posições já exatas (só para conferir; nada mudou):
+  sao-bonifacio|São José|Rio dos Canudos | mapa (osm) x lista: 2.1 km | Estrada Geral Rio dos Canudos - Rio dos Canudos, São Bonifácio - SC, 88485-000
+  sao-sebastiao|São Francisco de Sales|Maracujá | mapa (osm) x lista: 4.2 km | Estrada Geral Maracujá - Maracujá, Anitápolis - SC, 88475-000
+  sao-joao-batista-biguacu|São Mateus|Três Riachos | mapa (osm) x lista: 4.2 km | Estr. Geral de Três Riachos - Três Riachos, Biguaçu - SC, 88160-000
+  sao-joao-batista-biguacu|São Marcos|Três Riachos | mapa (osm) x lista: 3.5 km | Estr. Geral de Três Riachos - Três Riachos, Biguaçu - SC, 88160-000
+  sao-pedro-de-alcantara|Nossa Senhora de Fátima|Barro Branco | mapa (osm) x lista: 1.7 km | Rod. SC-281, 11121 - Barro Branco, São Pedro de Alcântara - SC, 88125-000
+  boa-viagem|Santa Rita de Cássia|Carianos | mapa (osm) x lista: 2.5 km | Av. Dep. Diomício Freitas, s/n - Carianos, Florianópolis - SC, 88047-400
+  trindade|Santíssima Trindade|Trindade | mapa (osm) x lista: 10.5 km | Praça Santos Dumont, 94 - Trindade, Florianópolis - SC, 88036-680
+  santana|Santo Inácio|Moura | mapa (osm) x lista: 3.0 km | Estrada Geral Moura - Moura, Canelinha - SC, 88230-000
+
+== Detalhe:
+  sem comunidade: senhor-bom-jesus-de-nazare | Capela Sant'Ana | R. Trinta e Um de Julho, 498-762 - Caminho Novo, Palhoça - SC, 88132-380
+  ACEITA (rua): senhor-bom-jesus-de-nazare|Nossa Senhora Aparecida|(Gruta) Bela Vista <- Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812
+  sem comunidade: sao-judas-tadeu-e-sao-joao-batista | Capela Nossa Senhora da Praia e São João Paulo II | Ponte do Imaruim, Palhoça - SC, 88130-300
+  sem comunidade: sao-francisco-de-assis | Comunidade Divino Espírito Santo | Alto Aririú, Palhoça - SC
+  sem comunidade: sao-sebastiao-palhoca | Igreja Santa Rita de Cássia | R. das Acácias Mimosas, 43 - Madri, Palhoça - SC, 88136-301
+  sem comunidade: sao-sebastiao-palhoca | Igreja Sagrado Coração de Jesus (Bocão) | R. José Bernardino de Lima - São Sebastião, Palhoça - SC, 88139-346
+  sem comunidade: sao-sebastiao-palhoca | Igreja Nossa Senhora das Graças | Morro do Gato, Palhoça - SC
+  sem comunidade: sao-sebastiao-palhoca | Igreja Santa Teresinha do Menino Jesus | Vale Verde / Caminho Novo, Palhoça - SC
+  rua não confirmada: sagrado-coracao-de-jesus-4|São Sebastião|Gamboa | Estrada Geral Gamboa, s/n - Gamboa, Paulo Lopes / Garopaba - SC, 88490-000
+  rua não confirmada: sagrado-coracao-de-jesus-4|Santa Paulina|Freitas | Rua Geral Freitas (Rod. Gov. Mário Covas), s/n - Freitas, Paulo Lopes - SC, 88490-000
+  rua não confirmada: sagrado-coracao-de-jesus-4|Nossa Senhora da Estrada|Penha | Rua Geral Penha (Rod. Gov. Mário Covas), s/n - Penha, Paulo Lopes - SC, 88490-000
+  ambígua: sao-joaquim | Igreja Histórica São Joaquim -> ['Centro', 'Centro']
+  rua não confirmada: sao-joaquim|Nossa Senhora da Glória|Campo D’uma | Rod. Abílio Manoel de Lima, 4102-4138 - Campo D'uma, Garopaba / Imbituba - SC
+PARÓQUIA NÃO IDENTIFICADA: Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas) (23 entradas)
+  rua não confirmada: sao-bonifacio|Santa Brígida|Rio Novo | Estrada Geral Rio Novo - Rio Novo, São Bonifácio - SC, 88485-000
+  rua não confirmada: sao-bonifacio|Natividade|Santa Maria | Estrada Geral Santa Maria - Santa Maria, São Bonifácio - SC, 88485-000
+  rua não confirmada: sao-bonifacio|Santa Teresinha do Menino Jesus|Rio Poncho | Estrada Geral Rio Poncho - Rio Poncho, São Bonifácio - SC, 88485-000
+  rua não confirmada: sao-bonifacio|São Pedro e São Paulo|Rio Salto | Estrada Geral Rio Salto - Rio Salto, São Bonifácio - SC, 88485-000
+  ACEITA (cnefe): sao-sebastiao|Santa Bárbara|Rio da Prata <- Estrada Geral Rio da Prata - Rio da Prata, Anitápolis - SC, 88475-000
+  rua não confirmada: sao-sebastiao|Nossa Senhora das Graças|Rio do Ouro | Estrada Geral Rio do Ouro - Rio do Ouro, Anitápolis - SC, 88475-000
+  rua não confirmada: sao-sebastiao|São Pedro e São Paulo|São Paulo dos Pinheiros | Estrada Geral São Paulo dos Pinheiros - São Paulo dos Pinheiros, Anitápolis - SC, 88475-000
+  rua não confirmada: sao-sebastiao|Divino Espírito Santo|Rio Cachimbo | Estrada Geral Rio Cachimbo - Rio Cachimbo, Anitápolis - SC, 88475-000
+  rua não confirmada: sao-sebastiao|Santa Paulina|Barra Gaspar | Estrada Geral Barra Gaspar - Barra Gaspar, Anitápolis - SC, 88475-000
+PARÓQUIA NÃO IDENTIFICADA: Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado) (19 entradas)
+  rua não confirmada: sagrado-coracao-de-jesus-3|São Floriano|Boiteuxburgo | Estrada Geral Boiteuxburgo - Boiteuxburgo, Leoberto Leal - SC, 88445-000
+  rua não confirmada: sagrado-coracao-de-jesus-3|São Miguel|Diamante | Estrada Geral Diamante - Diamante, Leoberto Leal - SC, 88445-000
+  rua não confirmada: sao-joao-evangelista|Santa Cruz|Rússia | Estr. Geral São Roque, s/n - Rússia, Biguaçu - SC, 88160-000
+  rua não confirmada: sao-joao-evangelista|Santa Teresinha|Estiva do Inferninho | Estr. Geral da Estiva - Estiva do Inferninho / Guaporanga, Biguaçu - SC, 88160-000
+  sem comunidade: sao-joao-evangelista | Igreja Sant'Ana | R. Treze de Maio, 78 - Prado, Biguaçu - SC, 88160-000
+  rua não confirmada: sao-joao-evangelista|São Cristóvão|Areias de Cima | Estr. Geral de Areias de Cima - Areias de Cima, Biguaçu - SC, 88160-000
+  rua não confirmada: sao-joao-batista-biguacu|São José|Amâncio | Estr. Geral do Amâncio - Amâncio / Sorocaba do Sul, Biguaçu - SC, 88160-000
+  ambígua: sao-joao-batista-biguacu | Igreja Nossa Senhora Aparecida -> ['Sorocaba do Sul', 'Sorocaba de Dentro']
+  ACEITA (cnefe): sao-joao-batista-biguacu|São Cristóvão|Canudos <- Estr. Geral de Canudos - Canudos, Biguaçu - SC, 88160-000
+  sem comunidade: sao-joao-batista-biguacu | Capela Nossa Senhora Rainha da Paz | R. Edilar Angelo Valler, 1813-1871 - Jardim Bom Viver, Biguaçu - SC, 88160-000
+  sem comunidade: sao-joao-batista-biguacu | Comunidade Jardim Carolina | Jardim Carolina, Biguaçu - SC, 88160-000
+  sem comunidade: antonio-carlos | Gruta Nossa Senhora da Glória | Centro / Morro da Gruta, Antônio Carlos - SC, 88180-000
+  ACEITA (rua): nossa-senhora-dos-navegantes|Nossa Senhora Aparecida e São Pedro|Palmas das Gaivotas <- Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000
+  sem comunidade: nossa-senhora-dos-navegantes | Igreja Sant'Ana | Av. Bela Vista, 2978-3320 - Caieira, Governador Celso Ramos - SC, 88190-000
+  sem comunidade: de-sao-jose | Igreja Nosso Senhor do Bonfim | None
+  sem comunidade: sao-francisco-de-assis-2 | Igreja Católica do Parque Lisboa – Nossa Senhora de Fátima | Loteamento Lisboa - Forquilhas, São José - SC, 88107-356
+  sem comunidade: sao-francisco-de-assis-2 | Carmelo Cristo Redentor (Mosteiro) | R. Monte Carmelo, 89 - Picadas do Sul, São José - SC, 88106-200
+  sem comunidade: santana-2 | Capela Santa Teresinha do Menino Jesus e da Santa Face | Estrada Geral de Vila Formosa - Vila Formosa, São José - SC, 88123-000
+  sem comunidade: santana-2 | Capela Nossa Senhora da Conceição Aparecida | Pagará / Colônia Santana, São José - SC, 88123-000
+  sem comunidade: santana-2 | Capela São Francisco de Assis | Colônia Santana, São José - SC, 88123-000
+PARÓQUIA NÃO IDENTIFICADA: Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis) (7 entradas)
+  sem comunidade: santa-cruz | Capela São Miguel Arcanjo e Santa Rita de Cássia | R. Duzentos e Cinquenta e Cinco, 1 - Areias (Lot. Dona Adélia), São José - SC, 88113-000
+  sem comunidade: nossa-senhora-do-rosario-2 | Comunidade Nossa Senhora Aparecida (São Luiz) | Bairro São Luiz, São José - SC, 88106-000
+  sem comunidade: sao-pedro-de-alcantara | Igreja de São João Maria Vianney e Santa Filomena | Rod. SC-281 - Santa Filomena, São Pedro de Alcântara - SC, 88125-000
+  sem comunidade: sao-pedro-de-alcantara | Gruta Nossa Senhora de Fátima e Orada de Santa Bárbara | R. João Pering (em frente ao nº 171) - Centro, São Pedro de Alcântara - SC, 88125-000
+  sem comunidade: nossa-senhora-de-fatima-e-santa-teresinha-do-menino-jesus | Santuário e Igreja Matriz Nossa Senhora de Fátima e Santa Teresinha do Menino Jesus | R. Souza Dutra, 442 - Estreito, Florianópolis - SC, 88070-605
+  sem comunidade: sao-joao-batista-2 | Capela Nossa Senhora dos Navegantes | R. Cap. Savas, 790 - Itaguaçu / Bom Abrigo, Florianópolis - SC, 88085-450
+  sem comunidade: sao-joao-batista-2 | Capela Senhor Bom Jesus de Iguape | R. João Meirelles, 1010 - Abraão, Florianópolis - SC, 88085-201
+  sem comunidade: sao-joao-batista-2 | Comunidade São Luís Orione | R. Pref. Dib Cherem, 2698/2716 (CEDO / Flamenguinho) - Capoeiras, Florianópolis - SC, 88090-000
+  sem comunidade: de-sao-jose | Capela Nossa Senhora da Rosa Mística | R. Pref. Gasparino Dutra, 249 - Jardim Atlântico, Florianópolis - SC, 88095-665
+  sem comunidade: desterro | Catedral Metropolitana de Florianópolis | R. Padre Miguelinho, 55 - Centro, Florianópolis - SC, 88010-102
+  sem comunidade: desterro | Igreja São Francisco das Chagas (Ordem Terceira de São Francisco) | R. Deodoro, 135 - Centro, Florianópolis - SC, 88010-020
+  sem comunidade: desterro | Capela do Menino Deus (Hospital de Caridade) | R. Menino Deus, 376 - Centro, Florianópolis - SC, 88020-210
+  sem comunidade: desterro | Capela do Asilo Irmão Joaquim | Av. Mauro Ramos, 1967 - Centro, Florianópolis - SC, 88020-305
+  sem comunidade: desterro | Capela Santa Luzia (Santa Casa) | R. Menino Deus, 63 - Centro, Florianópolis - SC, 88020-210
+  sem comunidade: boa-viagem | Capela Nossa Senhora das Graças e São Sebastião | Morro da Tapera / Costeira do Pirajubaé, Florianópolis - SC, 88047-000
+  ACEITA (cnefe): sagrado-coracao|Nossa Senhora Aparecida e São Cristóvão|Morro das Pedras <- Rod. Francisco Thomaz dos Santos (SC-406), 801 - Morro das Pedras, Florianópolis - SC, 88066-000
+  sem comunidade: sagrado-coracao | Igreja Sant'Ana e São Joaquim | Av. Antônio Borges dos Santos, s/n - Armação do Pântano do Sul, Florianópolis - SC, 88066-300
+  ambígua: lapa | Capela Nossa Senhora da Lapa (Capelinha) -> ['Ribeirão da Ilha', 'Barro Vermelho']
+  sem comunidade: lapa | Capelania Santa Catarina de Alexandria (Colégio Catarinense) | R. Esteves Júnior, 711 - Centro, Florianópolis - SC, 88015-130
+  sem comunidade: lapa | Paróquia Militar Nossa Senhora de Loreto (Base Aérea) | Av. Lages, 276 - Tapera, Florianópolis - SC, 88049-005
+  sem comunidade: trindade | Paróquia Nossa Senhora da Imaculada Conceição da Lagoa | None
+  sem comunidade: trindade | Paróquia São Francisco Xavier (Monte Verde) | None
+  sem comunidade: trindade | Paróquia Nossa Senhora das Necessidades (Santo Antônio de Lisboa) | None
+  sem comunidade: trindade | Paróquia Sagrado Coração de Jesus | None
+  rua não confirmada: sao-sebastiao-3|Senhor Bom Jesus|Porto da Itinga | Estrada Geral Porto da Itinga - Porto da Itinga, Tijucas - SC, 88200-000
+  rua não confirmada: sao-sebastiao-3|Santa Rita de Cássia|Sul do Rio | Estrada Geral Sul do Rio - Sul do Rio, Tijucas - SC, 88200-000
+  sem comunidade: sao-sebastiao-3 | Capela Santa Teresinha do Menino Jesus | Av. Hercílio Luz, 1478 - Universitário, Tijucas - SC, 88200-000
+  rua não confirmada: sao-sebastiao-3|São João Batista|Centro do Itinga | Estrada Geral Centro do Itinga - Centro do Itinga, Tijucas - SC, 88200-000
+  longe da localidade (4.4 km): santana|Imaculada Conceição|Moura | Estrada Geral Moura - Moura, Canelinha - SC, 88230-000
+  rua não confirmada: santana|Nossa Senhora Aparecida|Papagaios | Estrada Geral Papagaios - Papagaios, Canelinha - SC, 88230-000
+  rua não confirmada: santana|São João Batista|Vila Nova - Moura | Estrada Geral Vila Nova - Vila Nova / Moura, Canelinha - SC, 88230-000
+  rua não confirmada: santana|Nossa Senhora de Fátima|Cobre | Estrada Geral Cobre - Cobre, Canelinha - SC, 88230-000
+  sem comunidade: nossa-senhora-de-azambuja | Gruta Nossa Senhora de Lourdes e Capela dos Ex-Votos (Complexo de Azambuja) | R. Azambuja, 1076 - Azambuja, Brusque - SC, 88353- 700
+  sem comunidade: nossa-senhora-de-azambuja | Capela São José Operário | R. Min. Lindolfo Collor, s/n - Azambuja / Souza Cruz, Brusque - SC, 88353-370
+  ACEITA (cnefe): santa-catarina|São João Batista|Ribeirão do Mafra <- Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000
+  rua não confirmada: santa-catarina|Nossa Senhora de Fátima|Taquaruçu | Estrada Geral Taquaruçu - Taquaruçu, Brusque - SC, 88359-000
+  rua não confirmada: santa-catarina|São Pedro|Cedro Grande | Estrada Geral Cedro Grande - Cedro Grande, Brusque - SC, 88359-000
+  rua não confirmada: santa-catarina|São José Operário|Rio Branco | Estrada Geral Rio Branco - Rio Branco, Brusque - SC, 88359-000
+  rua não confirmada: santa-teresinha-2|São Pedro|Ribeirão Tavares | Estrada Geral Ribeirão Tavares - Ribeirão Tavares, Brusque - SC, 88356-000
+  ACEITA (cnefe): sao-judas-tadeu|São Francisco de Assis|Ponta Russa <- Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000
+  sem comunidade: nossa-senhora-do-perpetuo-socorro | Oratório Santo Antônio | R. Lageado Alto, s/n - Morro Santo Antônio / Lageado Alto, Guabiruba - SC, 88360-000
+  sem comunidade: nossa-senhora-do-perpetuo-socorro | Oratório de São João | R. Guabiruba Sul, 4894 - Guabiruba Sul, Guabiruba - SC, 88360-000
+  rua não confirmada: sao-jose|São Roque e São João Batista|Pedras Grandes | Estrada Geral Pedras Grandes - Pedras Grandes, Botuverá - SC, 88370-000
+  sem comunidade: sao-jose | Capela do Sessenta | Estrada Geral Sessenta - Sessenta, Botuverá - SC, 88370-000
+  rua não confirmada: santo-antonio-2|São Miguel|Estaleirinho | Av. Rodesindo Pavan (Interpraias), s/n - Estaleirinho, Itapema / Balneário Camboriú - SC, 88340-500
+  sem comunidade: senhor-bom-jesus-dos-aflitos | Igreja Senhor dos Passos | Av. Gov. Celso Ramos, s/n - Centro, Porto Belo - SC, 88210-000
+  ACEITA (cnefe): senhor-bom-jesus-dos-aflitos|Santa Catarina de Alexandria|Alto Perequê <- Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000
+  sem comunidade: senhor-bom-jesus-dos-aflitos | Capela Divino Espírito Santo | R. do CTG, s/n - Vila Nova, Porto Belo - SC, 88210-000
+  sem comunidade: santa-ines | Capela da Paz (Ecumênica / Histórica) | R. 2300, s/n (Tour Chapelle) - Centro, Balneário Camboriú - SC, 88330-428
+  rua não confirmada: nossa-senhora-aparecida|Santo Amaro|Barra | Praça dos Pescadores - Barra, Balneário Camboriú - SC, 88332-000
+  rua não confirmada: nossa-senhora-aparecida|São Pedro|Taquaras | Av. Rodesindo Pavan, 2542 - Taquaras, Balneário Camboriú - SC, 88333-150
+  sem comunidade: divino-espirito-santo | Igreja Santo Antônio | R. Benjamin Dagnone (Estr. Geral do Rio do Meio) - Rio do Meio, Camboriú - SC, 88340-000
+  sem comunidade: divino-espirito-santo | Comunidade São Padre Pio | R. José da Silva, 19 - Jardim Paraíso / Cedros, Camboriú - SC, 88340-000
+  sem comunidade: nossa-senhora-do-bom-sucesso | Comunidade Nossa Senhora de Guadalupe | Areias, Camboriú - SC, 88340-000
+  sem comunidade: santissimo-sacramento | Igreja Imaculada Conceição (Igrejinha Velha – Histórica) | Praça Vidal Ramos (R. Hercílio Luz, 215) - Centro, Itajaí - SC, 88301-001
+  sem comunidade: nossa-senhora-de-lourdes | Capela Santa Teresinha do Menino Jesus | R. Samuel Heusi Júnior, 30 - Cabeçudas, Itajaí - SC, 88306-495
+  sem comunidade: nossa-senhora-de-lourdes | Carmelo Santa Teresa e da Divina Misericórdia (Mosteiro) | R. Benjamin Constant, 425 - Cabeçudas, Itajaí - SC, 88306-550
+  sem comunidade: sao-pedro-apostolo | Capelania Spiritus Veritatis (UNIVALI) | R. Uruguai, 458 (Capela anexa ao Teatro – Sala 107) - Centro / Fazenda, Itajaí - SC, 88302-202
