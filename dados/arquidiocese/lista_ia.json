@@ -1,0 +1,3601 @@
+[
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Igreja Matriz Senhor Bom Jesus de Nazaré",
+  "endereco": "Av. Barão do Rio Branco, 203 - Centro, Palhoça - SC, 88130-101",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela Nossa Senhora do Parto",
+  "endereco": "R. Vilma Ramos de Souza, 45 - Centro, Palhoça - SC, 88130-010",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela São José Operário",
+  "endereco": "R. José Cosme Pamplona, 2837-2913 - Bela Vista, Palhoça - SC, 88132-772",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela São Tomé",
+  "endereco": "R. José Leonidio Viêira, 339 - Passa Vinte, Palhoça - SC, 88132-150",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela Nossa Senhora Aparecida (Rio Grande)",
+  "endereco": "Av. Rio Grande, 1866-1906 - Rio Grande, Palhoça - SC, 88131-601",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "R. João Bernardino da Rosa - Fazenda Pedra Branca, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela Sant'Ana",
+  "endereco": "R. Trinta e Um de Julho, 498-762 - Caminho Novo, Palhoça - SC, 88132-380",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Capela Santa Paulina",
+  "endereco": "R. Albertina de Morães - Belmar / Ponte do Imaruim, Palhoça - SC, 88130-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Gruta Nossa Senhora Aparecida",
+  "endereco": "Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Senhor Bom Jesus de Nazaré (Palhoça – Centro)",
+  "nome": "Comunidade Católica Sagrada Família",
+  "endereco": "Av. Pedra Branca - Pedra Branca, Palhoça - SC, 88133-112",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Igreja Matriz São Judas Tadeu e São João Batista",
+  "endereco": "R. João Febrônio de Oliveira, 65 - Ponte do Imaruim, Palhoça - SC, 88130-385",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Capela Nossa Senhora de Lourdes",
+  "endereco": "R. Santos Dumont, 54 - Jardim Eucaliptus / Ponte do Imaruim, Palhoça - SC, 88130-630",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "R. Pedro Álvares Cabral, 294 - Jardim Eldorado, Palhoça - SC, 88133-420",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Capela Nossa Senhora do Rosário",
+  "endereco": "R. Valdemar Vieira / R. Pascoal Mazzilli - Brejarú, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Capela Nossa Senhora da Praia e São João Paulo II",
+  "endereco": "Ponte do Imaruim, Palhoça - SC, 88130-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Judas Tadeu e São João Batista (Palhoça – Ponte do Imaruim)",
+  "nome": "Capela São José",
+  "endereco": "R. Afonso Pena, 379 - Comunidade Frei Damião / Brejarú, Palhoça - SC, 88133-675",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Matriz São Francisco de Assis",
+  "endereco": "R. João José da Silva, 326 - Aririú, Palhoça - SC, 88135-040",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Imaculada Conceição",
+  "endereco": "R. César Renê Vagner, 89 - Alto Aririú, Palhoça - SC, 88135-720",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Nossa Senhora dos Navegantes",
+  "endereco": "R. José Luiz Martins, 75 - Barra do Aririú, Palhoça - SC, 88134-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Santo Anjo da Guarda",
+  "endereco": "R. Santo Anjo da Guarda - Guarda do Cubatão, Palhoça - SC, 88135-330",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja e Gruta Nossa Senhora de Fátima",
+  "endereco": "R. Nossa Sra. de Fátima, 378 - Alto Aririú, Palhoça - SC, 88135-460",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Sagrada Família",
+  "endereco": "R. Aurélia Maria Maia, 605 - Aririú da Formiga, Palhoça - SC, 88130-700",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja São Pedro",
+  "endereco": "R. Nelson Floriano Campos - Pacheco, Palhoça - SC, 88138-788",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "R. Bom Jesus das Areias, 56 - Areias / Barra do Aririú, Palhoça - SC, 88134-560",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Santa Clara",
+  "endereco": "R. Aureliano Medeiros, 790-932 - Jaqueira / Aririú, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Capela Santa Teresinha do Menino Jesus",
+  "endereco": "R. Nove de Julho, 165 - Jardim Laranjeiras / Barra do Aririú, Palhoça - SC, 88134-440",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Santa Paulina",
+  "endereco": "R. Videiras, 65 - Vila Nova / Barra do Aririú, Palhoça - SC, 88134-220",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Igreja Santa Catarina",
+  "endereco": "R. Jacob Villain Filho, s/n - Guarda do Cubatão, Palhoça - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Francisco de Assis (Palhoça – Aririú)",
+  "nome": "Comunidade Divino Espírito Santo",
+  "endereco": "Alto Aririú, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Sebastião (Palhoça – São Sebastião)",
+  "nome": "Igreja Matriz São Sebastião",
+  "endereco": "R. Tomaz Domingos da Silveira, 4630 - São Sebastião, Palhoça - SC, 88136-090",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Sebastião (Palhoça – São Sebastião)",
+  "nome": "Igreja Santa Rita de Cássia",
+  "endereco": "R. das Acácias Mimosas, 43 - Madri, Palhoça - SC, 88136-301",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Sebastião (Palhoça – São Sebastião)",
+  "nome": "Igreja Sagrado Coração de Jesus (Bocão)",
+  "endereco": "R. José Bernardino de Lima - São Sebastião, Palhoça - SC, 88139-346",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Sebastião (Palhoça – São Sebastião)",
+  "nome": "Igreja Nossa Senhora das Graças",
+  "endereco": "Morro do Gato, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Sebastião (Palhoça – São Sebastião)",
+  "nome": "Igreja Santa Teresinha do Menino Jesus",
+  "endereco": "Vale Verde / Caminho Novo, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Matriz Nossa Senhora do Rosário",
+  "endereco": "Praça Inácio Paulo Dalri, 198 - Enseada de Brito, Palhoça - SC, 88138-842",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Nossa Senhora dos Navegantes (Passagem)",
+  "endereco": "R. do Capim, 455-517 - Passagem do Maciambu, Palhoça - SC, 88139-018",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela Santa Cruz",
+  "endereco": "Massiambu Pequeno, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Nossa Senhora dos Navegantes (Pinheira)",
+  "endereco": "R. Manoel Martins, 2-36 - Enseada da Pinheira, Palhoça - SC, 88139-351",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Sertão do Campo, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Santo Antônio e Santa Cruz (Igreja do Navio)",
+  "endereco": "R. Davino José Campos, 96-254 - Praia de Fora, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Gruta São Judas Tadeu",
+  "endereco": "Enseada de Brito, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela São José",
+  "endereco": "Albardão, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Fazenda Santa Cruz, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja São Cristóvão",
+  "endereco": "Estrada para Morretes - Morretes I / Enseada da Pinheira, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja São Sebastião (Marivone)",
+  "endereco": "R. Monte Cambirela - Praia de Fora, Palhoça - SC, 88137-102",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela São Judas Tadeu",
+  "endereco": "Furadinho, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela São João Batista",
+  "endereco": "Três Barras, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Gruta Nossa Senhora de Lourdes",
+  "endereco": "Enseada de Brito, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Santa Teresinha do Menino Jesus",
+  "endereco": "R. Manoel Alfredo dos Santos - Guarda do Embaú, Palhoça - SC, 88139-464",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Morretes II, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Casa Branca, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja São Francisco de Assis",
+  "endereco": "R. 200 - Ponta do Papagaio, Palhoça - SC, 88139-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (Palhoça – Enseada de Brito)",
+  "nome": "Igreja Nossa Senhora de Fátima",
+  "endereco": "R. Duzentos e Trinta e Dois, 376-438 - Pontal / Praia de Fora, Palhoça - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Igreja Matriz Sagrado Coração de Jesus",
+  "endereco": "Praça Sagrado Coração de Jesus, s/n (R. Santa Catarina, 58) - Centro, Paulo Lopes - SC, 88490- 000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora da Penha",
+  "endereco": "Rua Geral Penha (Rod. Gov. Mário Covas), s/n - Penha, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela São Pedro",
+  "endereco": "Ribeirão Grande, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Espraiado, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Rua Geral Morro Agudo (Rod. Gov. Mário Covas), s/n - Morro Agudo, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+  "endereco": "Bom Retiro, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora das Graças",
+  "endereco": "Estrada Geral Barrinha, s/n - Barrinha, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Igreja São Sebastião (Gamboa)",
+  "endereco": "Estrada Geral Gamboa, s/n - Gamboa, Paulo Lopes / Garopaba - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela São Sebastião (Sorocaba)",
+  "endereco": "R. Amadeu Antônio Moisés - Sorocaba, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Santa Paulina",
+  "endereco": "Rua Geral Freitas (Rod. Gov. Mário Covas), s/n - Freitas, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Cova Triste, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Nossa Senhora da Estrada",
+  "endereco": "Rua Geral Penha (Rod. Gov. Mário Covas), s/n - Penha, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Paulo Lopes)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "R. Antônio Amadeu Moisés / Estr. Ribeirão Grande Gamboinha - Areias, Paulo Lopes - SC, 88490-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Igreja Matriz São Joaquim",
+  "endereco": "R. Lauro Severiano Müller, 330 - Centro, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Igreja Histórica São Joaquim",
+  "endereco": "R. Nelson Hermógenes dos Santos - Centro Histórico, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Centro, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Gruta Nossa Senhora de Lourdes",
+  "endereco": "Morro da Vigia, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Macacu, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "Encantada, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Siriú, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Cristo Rei",
+  "endereco": "Costa do Macacu, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Nossa Senhora da Glória",
+  "endereco": "Rod. Abílio Manoel de Lima, 4102-4138 - Campo D'uma, Garopaba / Imbituba - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Francisco",
+  "endereco": "GRP-401 - Areias do Macacu, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Ressacada, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Pinguirito, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Areias do Ambrósio, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Pedro",
+  "endereco": "Capão, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Luiz Gonzaga",
+  "endereco": "Morro da Encantada, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. Olávio Pacheco de Souza, 160 - Areias da Palhocinha, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Prainha, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Sagrada Família",
+  "endereco": "Ibiraquera, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Cristo Rei",
+  "endereco": "Limpa, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Francisco",
+  "endereco": "Palhocinha, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Ambrósio, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São Lourenço",
+  "endereco": "Morro dos Fortunatos, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Palhoça",
+  "paroquia": "Paróquia São Joaquim (Garopaba)",
+  "nome": "Capela São José Operário",
+  "endereco": "Serraria, Garopaba - SC, 88495-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Igreja Matriz Santo Amaro",
+  "endereco": "Praça São Francisco de Assis, 50 (R. Pe. Isidro Duarte e Silva, 136) - Centro, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Igreja Sagrado Coração de Jesus",
+  "endereco": "Av. Cel. Antônio Lehmkuhl, 1036 - Centro, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora da Rosa Mística (Caldas da Imperatriz)",
+  "endereco": "R. Princesa Leopoldina, 1100 - Caldas da Imperatriz, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Sant'Ana",
+  "endereco": "R. Nossa Sra. das Dores - Vila Santana (Sertão), Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "Servidão Laudelino Manoel Fraga, 89 - São Francisco, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora da Glória",
+  "endereco": "Estrada Geral Loeffelscheidt - Loeffelscheidt, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "Estrada Geral Vargem Grande - Vargem Grande, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Santa Teresa D'Ávila",
+  "endereco": "Estrada Geral Teresópolis - Teresópolis, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora de Lourdes (Lourdes)",
+  "endereco": "Estrada Geral Lourdes - Lourdes, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Santa Isabel",
+  "endereco": "Estrada Geral Santa Isabel - Santa Isabel, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela São José",
+  "endereco": "Estrada Geral Vargem do Braço - Vargem do Braço, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Fazenda Bom Jesus - Imbiras, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "Estrada Geral Pagará - Pagará, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora das Dores",
+  "endereco": "Estrada Geral Combatá - Combatá, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Gruta Nossa Senhora de Lourdes (Varginha)",
+  "endereco": "Varginha de Baixo, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Gruta Nossa Senhora de Lourdes (Velacho)",
+  "endereco": "Estrada Geral Velacho - Velacho, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Estrada Geral Varginha - Varginha, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Santa Cruz",
+  "endereco": "Estrada Geral Santa Cruz da Figueira - Santa Cruz da Figueira, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Estrada Geral Sul do Rio - Sul do Rio, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Cristo Ressuscitado",
+  "endereco": "Fazenda da Ressurreição - Ressurreição, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Taquara - Taquara, Águas Mornas - SC, 88150-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela São Pedro",
+  "endereco": "Estrada Geral Calemba - Calemba, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Santo Amaro (Municípios: Santo Amaro da Imperatriz e Águas Mornas)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Braço São João - Braço São João, Santo Amaro da Imperatriz - SC, 88140-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Igreja Matriz São Bonifácio",
+  "endereco": "Praça Padre Deodato, s/n (Av. Vinte e Nove de Dezembro, 338) - Centro, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "Estrada Geral Santo Antônio - Santo Antônio, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela Santa Brígida",
+  "endereco": "Estrada Geral Rio Novo - Rio Novo, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela da Natividade",
+  "endereco": "Estrada Geral Santa Maria - Santa Maria, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela Santa Teresinha do Menino Jesus",
+  "endereco": "Estrada Geral Rio Poncho - Rio Poncho, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela São José",
+  "endereco": "Estrada Geral Rio dos Canudos - Rio dos Canudos, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Rio Sete - Rio Sete, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Bonifácio (Município: São Bonifácio)",
+  "nome": "Capela São Pedro e São Paulo",
+  "endereco": "Estrada Geral Rio Salto - Rio Salto, São Bonifácio - SC, 88485-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Igreja Matriz São Sebastião",
+  "endereco": "Rua Jacinto Matos, 86 - Centro, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "Estrada Geral Varginha - Varginha, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela São Domingos",
+  "endereco": "Estrada Geral São Domingos - São Domingos, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Santa Bárbara",
+  "endereco": "Estrada Geral Rio da Prata - Rio da Prata, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela São Francisco de Sales",
+  "endereco": "Estrada Geral Maracujá - Maracujá, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Nossa Senhora da Glória",
+  "endereco": "Estrada Geral Santa Maria - Santa Maria, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Nossa Senhora das Graças",
+  "endereco": "Estrada Geral Rio do Ouro - Rio do Ouro, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela São Pedro e São Paulo",
+  "endereco": "Estrada Geral São Paulo dos Pinheiros - São Paulo dos Pinheiros, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela São José",
+  "endereco": "Estrada Geral Rio do Sul - Rio do Sul, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estrada Geral Rio Branco - Rio Branco, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Divino Espírito Santo",
+  "endereco": "Estrada Geral Rio Cachimbo - Rio Cachimbo, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "Povoamento Igreja, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Estrada Geral Salto - Salto, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Santa Paulina",
+  "endereco": "Estrada Geral Barra Gaspar - Barra Gaspar, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Santa Cecília",
+  "endereco": "Povoamento Escola, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia São Sebastião (Município: Anitápolis)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Vila Antônio David, Anitápolis - SC, 88475-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Santuário Nossa Senhora de Angelina / Igreja Matriz Nossa Senhora da Imaculada Conceição",
+  "endereco": "Praça Nicolau Kretzer, 254 - Centro, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Gruta Nossa Senhora de Lourdes (Complexo do Santuário)",
+  "endereco": "Praça Nicolau Kretzer, 254 - Centro, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São Bonifácio",
+  "endereco": "Estrada Geral Taquaras - Taquaras, Rancho Queimado - SC, 88470-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Terceira Linha - III Linha, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São Pedro Apóstolo",
+  "endereco": "Estrada Geral Rancho de Tábuas - Rancho de Tábuas, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Imaculado Coração de Maria",
+  "endereco": "Centro, Rancho Queimado - SC, 88470-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Nossa Senhora das Dores",
+  "endereco": "Estrada Geral Garcia - Garcia, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Estrada Geral Fartura - Fartura, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São José",
+  "endereco": "Estrada Geral Barra Clara - Barra Clara, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Estrada Geral Betânia - Betânia, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "Estrada Geral Rio Novo - Rio Novo, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Sant'Ana",
+  "endereco": "Estrada Geral Rio Fortuna - Rio Fortuna, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Estrada Geral Rio Bonito - Rio Bonito, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Invernadinha - Invernadinha, Rancho Queimado - SC, 88470-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estrada Geral Morro Mineiro - Morro Mineiro, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Nossa Senhora dos Anjos",
+  "endereco": "Estrada Geral Mato Francês - Mato Francês, Rancho Queimado - SC, 88470-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "Estrada Geral Rio Engano - Rio Engano, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela Santa Cruz",
+  "endereco": "Estrada Geral Rio São João - Rio São João, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição e Santuário de Angelina (Municípios: Angelina e Rancho Queimado)",
+  "nome": "Capela São Marcos",
+  "endereco": "Estrada Geral Alto Garcia - Alto Garcia, Angelina - SC, 88460-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Igreja Matriz Sagrado Coração de Jesus",
+  "endereco": "Praça Silvéria Ferreira de Campos, 60 (R. Aquino S. de Campos) - Centro, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São Floriano",
+  "endereco": "Estrada Geral Boiteuxburgo - Boiteuxburgo, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São Pedro",
+  "endereco": "Estrada Geral Ribeirão dos Ovos - Ribeirão dos Ovos, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São José",
+  "endereco": "Estrada Geral Rio da Parada - Rio da Parada, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "Estrada Geral Vargem dos Bugres - Vargem dos Bugres, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São Miguel",
+  "endereco": "Estrada Geral Diamante - Diamante, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São Rafael",
+  "endereco": "Estrada Geral Rio das Pedras - Rio das Pedras, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Barra Grande - Barra Grande, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela São Cristóvão",
+  "endereco": "Estrada Geral Rio do Mich - Rio do Mich, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Santo Amaro",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Município: Leoberto Leal)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Rio do Tigre - Rio do Tigre, Leoberto Leal - SC, 88445-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Matriz São João Evangelista",
+  "endereco": "R. Barão do Rio Branco, 54 - Centro, Biguaçu - SC, 88160-120",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja de São Miguel Arcanjo (Histórica)",
+  "endereco": "BR-101, km 189 - Balneário São Miguel / Guaporanga, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Santa Catarina",
+  "endereco": "SC-407 - Alto Biguaçu / Universitários, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Santa Cruz",
+  "endereco": "Estr. Geral São Roque, s/n - Rússia, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Santo Antônio",
+  "endereco": "R. Bertoldo Machado, 239 - Tijuquinhas / Guaporanga, Biguaçu - SC, 88168-512",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Santa Teresinha",
+  "endereco": "Estr. Geral da Estiva - Estiva do Inferninho / Guaporanga, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja São Pedro",
+  "endereco": "R. Treze de Maio, 2845 - Saudade, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Sant'Ana",
+  "endereco": "R. Treze de Maio, 78 - Prado, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja São Francisco",
+  "endereco": "R. Vidal Mendes, s/n - Morro da Boa Vista, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Nossa Senhora dos Navegantes",
+  "endereco": "R. 17 de Maio, 353 - Praia João Rosa, Biguaçu - SC, 88160-318",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Capela São Cristóvão",
+  "endereco": "Estr. Geral de Areias de Cima - Areias de Cima, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja São Sebastião",
+  "endereco": "R. Homero de Miranda Gomes, 119 - Fundos, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja São Lucas",
+  "endereco": "R. Tapajós - Jardim Saveiro, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Capela Santa Clara",
+  "endereco": "R. Ivo Tomaz Coelho, s/n - Vendaval, Biguaçu - SC, 88164-088",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Capela Mãe Peregrina",
+  "endereco": "Morro da Bina, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Capela Nossa Senhora de Guadalupe",
+  "endereco": "Cachoeiras II, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Gruta Nossa Senhora de Guadalupe",
+  "endereco": "Santa Cruz, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Igreja Cristo Redentor",
+  "endereco": "R. João Paulo de Souza, 34-154 - Jardim Anápolis / Prado, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Evangelista (Biguaçu – Centro)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "Jardim Sueli, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Igreja Matriz São João Batista",
+  "endereco": "R. Argentina Silva, 1543 - Encruzilhada, Biguaçu - SC, 88165-375",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela de São Sebastião",
+  "endereco": "R. Maria Dolores Pereira - Limeira, Biguaçu - SC, 88169-899",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Estr. Geral Sorocaba de Fora - Sorocaba do Sul, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Igreja São José",
+  "endereco": "Estr. Geral do Amâncio - Amâncio / Sorocaba do Sul, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "Av. Sorocaba - Sorocaba de Dentro / Sorocaba do Sul, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela São Mateus",
+  "endereco": "Estr. Geral de Três Riachos - Três Riachos, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estr. Geral Fazenda de Dentro - Fazenda de Dentro, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela São Marcos",
+  "endereco": "Estr. Geral de Três Riachos - Três Riachos, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela São Cristóvão",
+  "endereco": "Estr. Geral de Canudos - Canudos, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Capela Nossa Senhora Rainha da Paz",
+  "endereco": "R. Edilar Angelo Valler, 1813-1871 - Jardim Bom Viver, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia São João Batista (Biguaçu – Encruzilhada)",
+  "nome": "Comunidade Jardim Carolina",
+  "endereco": "Jardim Carolina, Biguaçu - SC, 88160-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Igreja Matriz Sagrado Coração de Jesus",
+  "endereco": "Praça Anchieta, 10 - Centro, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Capela São Pedro Apóstolo",
+  "endereco": "R. Leopoldo Freiberger - Louro, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estr. Geral Rachadel - Rachadel, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Capela Santa Maria",
+  "endereco": "R. Antônio Pedro Scherer - Santa Maria, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Capela São José",
+  "endereco": "R. Pedro Leonardo Schmitz - Egito, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "Estr. Geral Vila Doze - Vila Doze, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Gruta Nossa Senhora da Glória",
+  "endereco": "Centro / Morro da Gruta, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Igreja Santa Bárbara",
+  "endereco": "Estr. Geral Faria II - Faria II, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Antônio Carlos)",
+  "nome": "Igreja Santa Paulina",
+  "endereco": "R. Santa Paulina - Canudos, Antônio Carlos - SC, 88180-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+  "endereco": "R. Pedro Lotério Sagás (Praça 6 de Novembro, 726) - Ganchos do Meio, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Oratório Divino Espírito Santo",
+  "endereco": "Ganchos do Meio, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Igreja Nossa Senhora da Piedade (Histórica)",
+  "endereco": "Av. Nossa Sra. da Piedade - Armação da Piedade, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela São Pedro",
+  "endereco": "R. São Pedro - Canto dos Ganchos, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela Nossa Senhora Aparecida e São Pedro",
+  "endereco": "Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela São Lucas",
+  "endereco": "SC-410, 6032 - Jordão, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela Senhor Bom Jesus (Areias do Meio)",
+  "endereco": "R. João Manoel Costa, 600 - Areias do Meio, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "R. Nicolau Moura de Carvalho, 441-575 - Areias de Baixo, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela Senhor Bom Jesus (Costeira)",
+  "endereco": "Costeira da Armação, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. São Francisco - Ganchos de Fora, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Fazenda da Armação, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Biguaçu",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)",
+  "nome": "Igreja Sant'Ana",
+  "endereco": "Av. Bela Vista, 2978-3320 - Caieira, Governador Celso Ramos - SC, 88190-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Igreja Matriz de São José",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Igreja Nosso Senhor do Bonfim",
+  "endereco": null,
+  "categoria": "Igreja",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Igreja Nosso Senhor Bom Jesus dos Passos (Irmandade dos Passos)",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Igreja Nossa Senhora de Fátima e Santa Filomena",
+  "endereco": null,
+  "categoria": "Igreja",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Capela Nossa Senhora dos Navegantes",
+  "endereco": null,
+  "categoria": "Igreja",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São José (São José – Centro Histórico)",
+  "nome": "Comunidade Santo Antônio",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santo Antônio (São José – Campinas / Kobrasol)",
+  "nome": "Igreja Matriz Santo Antônio",
+  "endereco": "R. Irmãos Vieira, 4 - Campinas, São José - SC, 88101-290",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santo Antônio (São José – Campinas / Kobrasol)",
+  "nome": "Capela São Francisco de Assis e Santa Rita de Cássia",
+  "endereco": "R. Sílvia Maria Fabro, s/n - Kobrasol, São José - SC, 88102-180",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Igreja Matriz São Francisco de Assis",
+  "endereco": "R. Ver. Arthur Manoel Mariano, 880 - Forquilhinhas, São José - SC, 88106-602",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. Antônio Jovita Duarte, s/n - Alto Forquilhas, São José - SC, 88107-100",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "R. Docilício Luz, s/n - Santos Saraiva / Potecas, São José - SC, 88119-200",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Igreja Nossa Senhora das Graças",
+  "endereco": "R. Kiliano Hames, s/n - Picadas do Norte / Potecas, São José - SC, 88119-008",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Capela Santa Isabel",
+  "endereco": "R. Me. Paulina, 63-127 - Picadas do Sul, São José - SC, 88106-220",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Igreja Católica Nossa Senhora Rainha da Paz",
+  "endereco": "R. Pedro da Rocha, 25 - Forquilhas, São José - SC, 88107-535",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Igreja Católica do Parque Lisboa – Nossa Senhora de Fátima",
+  "endereco": "Loteamento Lisboa - Forquilhas, São José - SC, 88107-356",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Comunidade São Sebastião",
+  "endereco": "Picadas do Sul, São José - SC, 88106-200",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Comunidade Nossa Senhora Desatadora dos Nós",
+  "endereco": "Loteamento Lisboa / Forquilhinhas, São José - SC, 88107-350",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Francisco de Assis (São José – Forquilhinhas)",
+  "nome": "Carmelo Cristo Redentor (Mosteiro)",
+  "endereco": "R. Monte Carmelo, 89 - Picadas do Sul, São José - SC, 88106-200",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Sant'Ana (São José – Colônia Santana)",
+  "nome": "Igreja Matriz Sant'Ana",
+  "endereco": "Av. Engelberto Koerich, 14348 - Colônia Santana, São José - SC, 88123-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Sant'Ana (São José – Colônia Santana)",
+  "nome": "Capela Imaculado Coração de Maria",
+  "endereco": "R. Francisco Antônio da Silva, 599 - Sertão do Maruim, São José - SC, 88122-080",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Sant'Ana (São José – Colônia Santana)",
+  "nome": "Capela Santa Teresinha do Menino Jesus e da Santa Face",
+  "endereco": "Estrada Geral de Vila Formosa - Vila Formosa, São José - SC, 88123-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Sant'Ana (São José – Colônia Santana)",
+  "nome": "Capela Nossa Senhora da Conceição Aparecida",
+  "endereco": "Pagará / Colônia Santana, São José - SC, 88123-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Sant'Ana (São José – Colônia Santana)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "Colônia Santana, São José - SC, 88123-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Judas Tadeu (São José – Barreiros)",
+  "nome": "Igreja Matriz São Judas Tadeu",
+  "endereco": "R. Cap. Pedro Leite, 406 - Barreiros, São José - SC, 88117-600",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Igreja Matriz dos Sagrados Corações",
+  "endereco": "R. Pedro Bunn, 87 - Jardim Cidade de Florianópolis, São José - SC, 88111-120",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Comunidade Nossa Senhora de Lourdes",
+  "endereco": "R. Heriberto Hülse, s/n - Barreiros, São José - SC, 88110-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Igreja Senhor Bom Jesus",
+  "endereco": "R. Kiliano Hames, 2652-2830 - Potecas, São José - SC, 88119-008",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Comunidade São Francisco de Assis",
+  "endereco": "R. João Paulo Gaspar, 1687 - Ipiranga, São José - SC, 88111-670",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "endereco": "R. Alverina Maria da Silva, 1098 - Jardim Cidade de Florianópolis (Solemar), São José - SC, 88111- 240",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Comunidade Santa Maria dos Anjos",
+  "endereco": "R. Santa Maria dos Anjos (Rua 87), 3098 - Pedregal / Ipiranga, São José - SC, 88111-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia dos Sagrados Corações (São José – Barreiros / Jardim Cidade de Florianópolis)",
+  "nome": "Comunidade Santo Antônio",
+  "endereco": "R. Maj. Durval, 2289 - Ipiranga, São José - SC, 88111-460",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Igreja Matriz Santa Cruz",
+  "endereco": "R. da Independência, 972 - Areias, São José - SC, 88113-280",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Capela São Miguel Arcanjo e Santa Rita de Cássia",
+  "endereco": "R. Duzentos e Cinquenta e Cinco, 1 - Areias (Lot. Dona Adélia), São José - SC, 88113-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Comunidade São José Operário",
+  "endereco": "Sueli / Serraria, São José - SC, 88115-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Comunidade Cristo Rei",
+  "endereco": "R. Cristo Rei, 190 - Real Parque, São José - SC, 88113-420",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Comunidade São Judas Tadeu",
+  "endereco": "Alvorada / Areias, São José - SC, 88113-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Santa Cruz (São José – Areias)",
+  "nome": "Comunidade Bom Pastor",
+  "endereco": "R. Acelino Pereira - Potecas (Localidade Arruda), São José - SC, 88119-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Igreja Matriz Nossa Senhora dos Navegantes e São Pedro",
+  "endereco": "R. Delfino José de Souza Filho, 201 - Serraria, São José - SC, 88115-710",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Igreja Católica Santa Paulina",
+  "endereco": "R. Gaivota, 278 - Serraria, São José - SC, 88115-505",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Igreja Católica Senhor Bom Jesus dos Passos",
+  "endereco": "R. João Izídio de Souza, 1122 - Serraria, São José - SC, 88115-660",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "Serraria, São José - SC, 88115-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Comunidade Nossa Senhora Aparecida",
+  "endereco": "R. Edmundo Otacílio - Serraria, São José - SC, 88115-220",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora dos Navegantes e São Pedro (São José – Serraria)",
+  "nome": "Comunidade Nossa Senhora Rainha da Paz",
+  "endereco": "Serraria, São José - SC, 88115-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (São José – Nossa Senhora do Rosário)",
+  "nome": "Igreja Matriz Nossa Senhora do Rosário",
+  "endereco": "R. do Iano, 1745 - Nossa Sra. do Rosário, São José - SC, 88117-850",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (São José – Nossa Senhora do Rosário)",
+  "nome": "Igreja Nossa Senhora Aparecida (Roçado)",
+  "endereco": "R. Francelina Domingos de Jesus, 1505 - Roçado, São José - SC, 88108-190",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (São José – Nossa Senhora do Rosário)",
+  "nome": "Igreja São Cristóvão",
+  "endereco": "R. Santa Catarina, 210 - Bela Vista, São José - SC, 88110-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora do Rosário (São José – Nossa Senhora do Rosário)",
+  "nome": "Comunidade Nossa Senhora Aparecida (São Luiz)",
+  "endereco": "Bairro São Luiz, São José - SC, 88106-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (São José – Procasa)",
+  "nome": "Igreja Matriz Nossa Senhora Aparecida",
+  "endereco": "R. Colômbia, 450 - Barreiros (Procasa), São José - SC, 88117-225",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Igreja Matriz de São Pedro de Alcântara",
+  "endereco": "R. João Pering, 254 - Centro, São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Santuário Senhor Bom Jesus da Santa Cruz",
+  "endereco": "R. Antônio José Raulino, 6973 - Colônia Santa Teresa, São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Igreja Nossa Senhora de Fátima",
+  "endereco": "Rod. SC-281, 11121 - Barro Branco, São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Igreja de São João Maria Vianney e Santa Filomena",
+  "endereco": "Rod. SC-281 - Santa Filomena, São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Igreja de São Sebastião",
+  "endereco": "R. Diácono Braz Hillesheim, 380 - São Sebastião (Varginha), São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "São José",
+  "paroquia": "Paróquia São Pedro de Alcântara (Município: São Pedro de Alcântara)",
+  "nome": "Gruta Nossa Senhora de Fátima e Orada de Santa Bárbara",
+  "endereco": "R. João Pering (em frente ao nº 171) - Centro, São Pedro de Alcântara - SC, 88125-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora de Fátima e Santa Teresinha do Menino Jesus (Estreito)",
+  "nome": "Santuário e Igreja Matriz Nossa Senhora de Fátima e Santa Teresinha do Menino Jesus",
+  "endereco": "R. Souza Dutra, 442 - Estreito, Florianópolis - SC, 88070-605",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora de Fátima e Santa Teresinha do Menino Jesus (Estreito)",
+  "nome": "Capela Senhor Bom Jesus dos Aflitos",
+  "endereco": "R. Gen. Eurico Gaspar Dutra, s/n (ao lado do 63º BI) - Estreito, Florianópolis - SC, 88075-100",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora do Carmo (Coqueiros)",
+  "nome": "Igreja Matriz Nossa Senhora do Carmo",
+  "endereco": "R. Prof. Bayer Filho, 81 - Coqueiros, Florianópolis - SC, 88080-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora do Carmo (Coqueiros)",
+  "nome": "Capela São Judas Tadeu",
+  "endereco": "Av. Gov. Ivo Silveira, 1449 - Morro da Caixa / Coqueiros, Florianópolis - SC, 88085-002",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora do Carmo (Coqueiros)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "R. da Fonte, 351 - Vila Aparecida / Coqueiros, Florianópolis - SC, 88080-360",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São João Batista e Santa Luzia (Capoeiras)",
+  "nome": "Igreja Matriz São João Batista e Santa Luzia",
+  "endereco": "R. Isaura Comichole Pires, 102 (esquina com R. Pref. Dib Cherem, 2698) - Capoeiras, Florianópolis - SC, 88090-130",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São João Batista e Santa Luzia (Capoeiras)",
+  "nome": "Capela Nossa Senhora dos Navegantes",
+  "endereco": "R. Cap. Savas, 790 - Itaguaçu / Bom Abrigo, Florianópolis - SC, 88085-450",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São João Batista e Santa Luzia (Capoeiras)",
+  "nome": "Capela Senhor Bom Jesus de Iguape",
+  "endereco": "R. João Meirelles, 1010 - Abraão, Florianópolis - SC, 88085-201",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São João Batista e Santa Luzia (Capoeiras)",
+  "nome": "Comunidade São Luís Orione",
+  "endereco": "R. Pref. Dib Cherem, 2698/2716 (CEDO / Flamenguinho) - Capoeiras, Florianópolis - SC, 88090-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Nossa Senhora da Glória (Balneário do Estreito)",
+  "nome": "Igreja Matriz Nossa Senhora da Glória",
+  "endereco": null,
+  "categoria": "Templo",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Santo Antônio e Santa Maria Goretti (Coloninha)",
+  "nome": "Igreja Matriz Santo Antônio e Santa Maria Goretti",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Santo Antônio e Santa Maria Goretti (Coloninha)",
+  "nome": "Igreja Matriz Santo Antônio e Santa Maria Goretti",
+  "endereco": "R. Santa Rita de Cássia, 1050 - Coloninha, Florianópolis - SC, 88090-350",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia Santo Antônio e Santa Maria Goretti (Coloninha)",
+  "nome": "Capela Nossa Senhora Aparecida e São Geraldo",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São José e Santa Rita de Cássia (Jardim Atlântico)",
+  "nome": "Igreja Matriz São José e Santa Rita de Cássia",
+  "endereco": "R. Luís D'Acampora, 207 - Jardim Atlântico, Florianópolis - SC, 88095-330",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Continente",
+  "paroquia": "Paróquia São José e Santa Rita de Cássia (Jardim Atlântico)",
+  "nome": "Capela Nossa Senhora da Rosa Mística",
+  "endereco": "R. Pref. Gasparino Dutra, 249 - Jardim Atlântico, Florianópolis - SC, 88095-665",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Catedral Metropolitana de Florianópolis",
+  "endereco": "R. Padre Miguelinho, 55 - Centro, Florianópolis - SC, 88010-102",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Igreja Nossa Senhora do Rosário e São Benedito",
+  "endereco": "R. Mal. Guilherme, 60 - Centro, Florianópolis - SC, 88015-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Igreja São Francisco das Chagas (Ordem Terceira de São Francisco)",
+  "endereco": "R. Deodoro, 135 - Centro, Florianópolis - SC, 88010-020",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Capela do Menino Deus (Hospital de Caridade)",
+  "endereco": "R. Menino Deus, 376 - Centro, Florianópolis - SC, 88020-210",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Capela do Divino Espírito Santo (IDES)",
+  "endereco": "Praça Getúlio Vargas, 212 - Centro, Florianópolis - SC, 88020-030",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Capela do Asilo Irmão Joaquim",
+  "endereco": "Av. Mauro Ramos, 1967 - Centro, Florianópolis - SC, 88020-305",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Desterro e Santa Catarina de Alexandria (Catedral – Centro)",
+  "nome": "Capela Santa Luzia (Santa Casa)",
+  "endereco": "R. Menino Deus, 63 - Centro, Florianópolis - SC, 88020-210",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santo Antônio (Centro)",
+  "nome": "Igreja Matriz Santo Antônio (Frades Franciscanos)",
+  "endereco": "R. Padre Schuler, 81 - Centro, Florianópolis - SC, 88010-310",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santo Antônio (Centro)",
+  "nome": "Igreja Nossa Senhora do Parto",
+  "endereco": "R. Conselheiro Mafra, 674 (antigo nº 1837) - Centro, Florianópolis - SC, 88010-102",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Agronômica)",
+  "nome": "Igreja Matriz Nossa Senhora de Lourdes e São Luiz",
+  "endereco": "R. Padre Schrader, 01 (esquina com R. Frei Caneca) - Agronômica, Florianópolis - SC, 88025-090",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Agronômica)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. Delminda Silveira, s/n - Bairro Penitenciária / Agronômica, Florianópolis - SC, 88025-500",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Agronômica)",
+  "nome": "Capela Transfiguração do Senhor Bom Jesus",
+  "endereco": "Morro do Céu - Agronômica, Florianópolis - SC, 88025-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Agronômica)",
+  "nome": "Capela Nossa Senhora da Conceição",
+  "endereco": "R. Vítor Konder, s/n - Centro / Agronômica, Florianópolis - SC, 88015-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Agronômica)",
+  "nome": "Capela Santa Cruz e Nossa Senhora Aparecida",
+  "endereco": "Morro do Horácio - Agronômica, Florianópolis - SC, 88025-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santa Teresinha do Menino Jesus (Prainha / José Mendes)",
+  "nome": "Igreja Matriz Santa Teresinha do Menino Jesus",
+  "endereco": "R. Treze de Maio, 62 - Prainha / José Mendes, Florianópolis - SC, 88020-230",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santa Teresinha do Menino Jesus (Prainha / José Mendes)",
+  "nome": "Capela São Judas Tadeu",
+  "endereco": "R. José Mendes, s/n - José Mendes, Florianópolis - SC, 88020-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santa Teresinha do Menino Jesus (Prainha / José Mendes)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Morro da Mariquinha - Centro / Monte Serrat, Florianópolis - SC, 88020-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Santa Teresinha do Menino Jesus (Prainha / José Mendes)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Morro da Queimada - José Mendes, Florianópolis - SC, 88020-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Igreja Matriz Nossa Senhora da Boa Viagem",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela São Pedro Apóstolo",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Santa Rita de Cássia",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Santa Rita de Cássia",
+  "endereco": "Av. Dep. Diomício Freitas, s/n - Carianos, Florianópolis - SC, 88047-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela São José Operário",
+  "endereco": null,
+  "categoria": "Templo",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Servidão Catarina Albina Gouvêa, 187 - Saco dos Limões / Pantanal, Florianópolis - SC, 88045-640",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Nossa Senhora do Rosário",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Nossa Senhora do Rosário",
+  "endereco": "Caeira do Saco dos Limões, Florianópolis - SC, 88045-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Boa Viagem (Saco dos Limões)",
+  "nome": "Capela Nossa Senhora das Graças e São Sebastião",
+  "endereco": "Morro da Tapera / Costeira do Pirajubaé, Florianópolis - SC, 88047-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Igreja Matriz Nossa Senhora do Sagrado Coração",
+  "endereco": "R. Auroreal, 260 (Secretaria na R. Eugênio Raulino da Silva, 95) - Campeche, Florianópolis - SC, 88063-020",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Igreja São Sebastião (Igrejinha do Campeche)",
+  "endereco": "R. da Capela, 400 - Campeche, Florianópolis - SC, 88063-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Igreja Nossa Senhora Aparecida e São Cristóvão",
+  "endereco": "Rod. Francisco Thomaz dos Santos (SC-406), 801 - Morro das Pedras, Florianópolis - SC, 88066-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Areias do Morro das Pedras, Florianópolis - SC, 88066-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Igreja Sant'Ana e São Joaquim",
+  "endereco": "Av. Antônio Borges dos Santos, s/n - Armação do Pântano do Sul, Florianópolis - SC, 88066-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Igreja São Pedro",
+  "endereco": "R. Abelardo Otacílio Gomes, s/n - Pântano do Sul, Florianópolis - SC, 88067-100",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Capela Nossa Senhora de Fátima e Santa Cruz",
+  "endereco": "Costa de Dentro - Pântano do Sul, Florianópolis - SC, 88067-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora do Sagrado Coração (Campeche / Sul da Ilha)",
+  "nome": "Capela Santa Cruz e Santo Antônio",
+  "endereco": "Praia do Saquinho - Pântano do Sul, Florianópolis - SC, 88067-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Igreja Matriz Nossa Senhora da Lapa",
+  "endereco": "R. Alberto Cavalheiro, 238 (Praça Hermínio Silva, 62) - Ribeirão da Ilha, Florianópolis - SC, 88064-670",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Nossa Senhora da Lapa (Capelinha)",
+  "endereco": "Rod. Baldicero Filomeno - Barro Vermelho / Ribeirão da Ilha, Florianópolis - SC, 88064-002",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Igreja São José",
+  "endereco": "Rod. Baldicero Filomeno - Costeira do Ribeirão, Florianópolis - SC, 88064-002",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Igreja São João Maria Vianney",
+  "endereco": "Rod. SC-405, 425 - Fazenda do Rio Tavares, Florianópolis - SC, 88063-700",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Santo Estêvão",
+  "endereco": "Alto Ribeirão - Ribeirão da Ilha, Florianópolis - SC, 88064-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Nossa Senhora de Lourdes",
+  "endereco": "Sertão do Ribeirão - Ribeirão da Ilha, Florianópolis - SC, 88064-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Bom Jesus dos Pescadores",
+  "endereco": "Tapera da Barra do Sul - Ribeirão da Ilha, Florianópolis - SC, 88064-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela São João Batista",
+  "endereco": "Caieira da Barra do Sul - Ribeirão da Ilha, Florianópolis - SC, 88064-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Santa Luzia e São Pedro",
+  "endereco": "Praia de Naufragados - Ribeirão da Ilha, Florianópolis - SC, 88064-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Nossa Senhora de Fátima e São Lucas",
+  "endereco": "Tapera da Base, Florianópolis - SC, 88049-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capela Santa Rita de Cássia",
+  "endereco": "Pedregal - Tapera, Florianópolis - SC, 88049-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Capelania Santa Catarina de Alexandria (Colégio Catarinense)",
+  "endereco": "R. Esteves Júnior, 711 - Centro, Florianópolis - SC, 88015-130",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Centro-Sul",
+  "paroquia": "Paróquia Nossa Senhora da Lapa (Ribeirão da Ilha)",
+  "nome": "Paróquia Militar Nossa Senhora de Loreto (Base Aérea)",
+  "endereco": "Av. Lages, 276 - Tapera, Florianópolis - SC, 88049-005",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Igreja Matriz Santíssima Trindade",
+  "endereco": "Praça Santos Dumont, 94 - Trindade, Florianópolis - SC, 88036-680",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "R. Álvaro Ramos, s/n - Morro da Penitenciária / Trindade, Florianópolis - SC, 88036-030",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela Puríssimo Coração de Maria",
+  "endereco": "R. Arlindo Pena, 85 - Córrego Grande, Florianópolis - SC, 88037-260",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela Santo Agostinho",
+  "endereco": "R. Crescêncio Francisco Mariano, s/n - Pantanal, Florianópolis - SC, 88040-025",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela São Bento",
+  "endereco": "Rod. Amaro Antônio Vieira, 1668 - Itacorubi, Florianópolis - SC, 88034-101",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela Nossa Senhora de Guadalupe",
+  "endereco": "R. da Represa, 188 - Morro do Quilombo / Itacorubi, Florianópolis - SC, 88034-350",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela São José",
+  "endereco": "R. Marcus Aurélio Homem, 366 - Serrinha / Trindade, Florianópolis - SC",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. Sebastião Laurentino da Silva, s/n - Poção / Córrego Grande, Florianópolis - SC, 88037-400",
+  "formato": "linha"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição da Lagoa",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Paróquia São Francisco Xavier (Monte Verde)",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Paróquia Nossa Senhora das Necessidades (Santo Antônio de Lisboa)",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Paróquia Nossa Senhora de Guadalupe (Canasvieiras)",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Florianópolis – Norte",
+  "paroquia": "Paróquia Santíssima Trindade (Trindade)",
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Igreja Matriz São Sebastião",
+  "endereco": "R. Marechal Deodoro, 30 - Centro, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Nossa Senhora dos Navegantes",
+  "endereco": "R. São Sebastião, s/n - Praça, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estrada Geral Porto da Itinga - Porto da Itinga, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "Estrada Geral Morretes - Morretes, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Nossa Senhora do Parto",
+  "endereco": "Estrada Geral Terra Nova - Terra Nova, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São Luiz Gonzaga",
+  "endereco": "Estrada Geral Timbé - Timbé, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "Estrada Geral Santa Luzia - Santa Luzia, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São José Operário",
+  "endereco": "Estrada Geral Oliveira - Oliveira, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Espírito Santo (Lar Nossa Senhora da Paz)",
+  "endereco": "R. Coronel Conceição, s/n - Centro, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São Pedro",
+  "endereco": "R. Senador Gallotti, s/n - Joáia, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Santa Cruz (Hospital São José)",
+  "endereco": "R. Coronel Buchelle, s/n - Centro, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Santa Rita de Cássia",
+  "endereco": "Estrada Geral Sul do Rio - Sul do Rio, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Santa Teresinha do Menino Jesus",
+  "endereco": "Av. Hercílio Luz, 1478 - Universitário, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Centro do Itinga - Centro do Itinga, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "R. Lauro Müller / Estrada Geral Areias - Areias, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Santa Paulina",
+  "endereco": "Estrada Geral Pernambuco - Pernambuco, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Bairro Jardim Progresso, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Sebastião (Município: Tijucas)",
+  "nome": "Capela São Brás",
+  "endereco": "Bairro XV de Novembro, Tijucas - SC, 88200-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Igreja Matriz Sant'Ana",
+  "endereco": "R. Cantório Florentino da Silva, 1785 - Centro, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Imaculada Conceição",
+  "endereco": "Estrada Geral Moura - Moura, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela São Cristóvão",
+  "endereco": "Estrada Geral Índia - Índia, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela São Sebastião",
+  "endereco": "Estrada Geral Centro do Moura - Centro do Moura, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "Estrada Geral Nova Descoberta - Nova Descoberta, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Santo Inácio",
+  "endereco": "Estrada Geral Moura - Moura, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "Estrada Geral Galera - Galera, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Estrada Geral Papagaios - Papagaios, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Senhor Bom Jesus",
+  "endereco": "Estrada Geral Gavião - Gavião / Moura, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Vila Nova - Vila Nova / Moura, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia Sant'Ana (Município: Canelinha)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Cobre - Cobre, Canelinha - SC, 88230-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São João Batista (Município: São João Batista)",
+  "nome": "Igreja Matriz São João Batista",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Tijucas",
+  "paroquia": "Paróquia São Virgílio e Santuários (Município: Nova Trento)",
+  "nome": "Igreja Matriz São Virgílio",
+  "endereco": null,
+  "categoria": "Igreja católica",
+  "formato": "cartao"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora de Azambuja (Brusque – Azambuja)",
+  "nome": "Santuário e Igreja Matriz Nossa Senhora de Azambuja",
+  "endereco": "R. Azambuja, 1076 - Azambuja, Brusque - SC, 88353-700",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora de Azambuja (Brusque – Azambuja)",
+  "nome": "Gruta Nossa Senhora de Lourdes e Capela dos Ex-Votos (Complexo de Azambuja)",
+  "endereco": "R. Azambuja, 1076 - Azambuja, Brusque - SC, 88353- 700",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora de Azambuja (Brusque – Azambuja)",
+  "nome": "Capela São José Operário",
+  "endereco": "R. Min. Lindolfo Collor, s/n - Azambuja / Souza Cruz, Brusque - SC, 88353-370",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Igreja Matriz São Luís Gonzaga",
+  "endereco": "R. Padre Gattone, 75 - Centro 1, Brusque - SC, 88350-350",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Cristo Rei",
+  "endereco": "R. Carlos Henrique Bruns, 388 - São Luiz, Brusque - SC, 88351-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Santa Rita de Cássia",
+  "endereco": "R. Mal. Floriano, 55 - Santa Rita, Brusque - SC, 88352-120",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "R. Guilherme Steffen, 331 - Steffen, Brusque - SC, 88355-100",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "R. Dr. Waldir Walendowsky, 149 - Jardim Maluche, Brusque - SC, 88354-670",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Nossa Senhora de Lourdes",
+  "endereco": "R. Poço Fundo / Guarani - Guarani, Brusque - SC, 88350-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "R. Souza Cruz, s/n - Souza Cruz, Brusque - SC, 88353-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Santa Paulina",
+  "endereco": "R. Padre Gattone / Cedrinho - Cedrinho, Brusque - SC, 88351-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela Santo Antônio",
+  "endereco": "R. Santo Antônio, s/n - Paquetá, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. São Francisco de Assis, s/n - Rio Branco / Centro, Brusque - SC, 88350-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. São João Batista, s/n - Bateas, Brusque - SC, 88355-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Luís Gonzaga (Brusque – Centro)",
+  "nome": "Capela São José",
+  "endereco": "R. São José, s/n - São Pedro, Brusque - SC, 88355-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Igreja Matriz Santa Catarina",
+  "endereco": "R. Ludovico Merico, 52 - Dom Joaquim, Brusque - SC, 88359-240",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "Estrada Geral Taquaruçu - Taquaruçu, Brusque - SC, 88359-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela Nossa Senhora do Carmo",
+  "endereco": "R. Alberto Klabunde, s/n - Tomás Coelho, Brusque - SC, 88358-587",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela São Pedro",
+  "endereco": "Estrada Geral Cedro Grande - Cedro Grande, Brusque - SC, 88359-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Estrada Geral Cedro Alto - Cedro Alto, Brusque - SC, 88359-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela São José Operário",
+  "endereco": "Estrada Geral Rio Branco - Rio Branco, Brusque - SC, 88359-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Catarina (Brusque – Dom Joaquim)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. DJ 042 - Cristalina, Brusque - SC, 88359-226",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Igreja Matriz Santa Teresinha",
+  "endereco": "R. Santos Dumont, 1488 - Santa Terezinha, Brusque - SC, 88352-202",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela Nossa Senhora da Natividade",
+  "endereco": "Estrada Geral Limeira Alta - Limeira Alta, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela São Sebastião",
+  "endereco": "R. Limoeiro, s/n - Limoeiro, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "R. Limeira Baixa, s/n - Limeira Baixa, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela Nossa Senhora da Imaculada Conceição",
+  "endereco": "R. Planalto, s/n - Planalto, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela São Pedro",
+  "endereco": "Estrada Geral Ribeirão Tavares - Ribeirão Tavares, Brusque - SC, 88356-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela Santa Catarina de Alexandria",
+  "endereco": "R. Osvaldo Niebuhr, 680 - Nova Brasília, Brusque - SC, 88352-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. Ema II, s/n - Ema II (Bateas), Brusque - SC, 88355-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Santa Teresinha (Brusque – Santa Terezinha)",
+  "nome": "Capela São João Paulo II",
+  "endereco": "Loteamento Cyro Gevaerd - Santa Terezinha, Brusque - SC, 88352-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Igreja Matriz São Judas Tadeu",
+  "endereco": "R. Santa Cruz, 177 - Águas Claras, Brusque - SC, 88353-600",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela Nossa Senhora da Saúde",
+  "endereco": "R. Poço Fundo, s/n - Poço Fundo, Brusque - SC, 88357-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "R. Augusto Klapoth, 1355 - Santa Luzia, Brusque - SC, 88357-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela Santo Amaro",
+  "endereco": "Estrada Geral Nova Itália - Nova Itália, Brusque - SC, 88357-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela Santa Cruz do Redentor",
+  "endereco": "R. Arnoldo Ristow, 780 - Zantão / Santa Luzia, Brusque - SC, 88357-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São Judas Tadeu (Brusque – Águas Claras)",
+  "nome": "Capela Sagrada Família",
+  "endereco": "R. Primeiro de Maio, s/n - Primeiro de Maio, Brusque - SC, 88353-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Igreja Matriz Nossa Senhora do Perpétuo Socorro",
+  "endereco": "R. Brusque, 09 - Centro, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela Imaculada Conceição",
+  "endereco": "R. Lageado Alto, 5217 - Lageado Alto, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela Sagrado Coração de Jesus",
+  "endereco": "R. Planície Alta, s/n - Planície Alta, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela São Vendelino",
+  "endereco": "R. Lageado Baixo, s/n - Lageado Baixo, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela São Pedro Apóstolo",
+  "endereco": "R. São Pedro, 1490 - São Pedro, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "R. Guabiruba Sul, 3655 - Guabiruba Sul, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Capela São Cristóvão",
+  "endereco": "R. Gruenerwinkel, 180 - Aimoré, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Oratório Santo Antônio",
+  "endereco": "R. Lageado Alto, s/n - Morro Santo Antônio / Lageado Alto, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia Nossa Senhora do Perpétuo Socorro (Município: Guabiruba)",
+  "nome": "Oratório de São João",
+  "endereco": "R. Guabiruba Sul, 4894 - Guabiruba Sul, Guabiruba - SC, 88360-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Igreja Matriz São José",
+  "endereco": "R. Padre Carlos Enderlin, 215 - Centro, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela Nossa Senhora das Dores",
+  "endereco": "Estrada Geral Águas Negras - Águas Negras, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela São João Batista",
+  "endereco": "Estrada Geral Ribeirão do Ouro - Ribeirão do Ouro, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela São Paulo",
+  "endereco": "Estrada Geral Lajeado - Lajeado, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "Estrada Geral Vargem Grande - Vargem Grande, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela São Roque e São João Batista (Pedras Grandes)",
+  "endereco": "Estrada Geral Pedras Grandes - Pedras Grandes, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Brusque",
+  "paroquia": "Paróquia São José (Município: Botuverá)",
+  "nome": "Capela do Sessenta",
+  "endereco": "Estrada Geral Sessenta - Sessenta, Botuverá - SC, 88370-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Santo Antônio (Itapema – Centro)",
+  "nome": "Igreja Matriz Santo Antônio",
+  "endereco": "Av. Gov. Celso Ramos, 701 - Centro, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Santo Antônio (Itapema – Centro)",
+  "nome": "Igreja São Miguel",
+  "endereco": "Av. Rodesindo Pavan (Interpraias), s/n - Estaleirinho, Itapema / Balneário Camboriú - SC, 88340-500",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Santo Antônio (Itapema – Centro)",
+  "nome": "Capela Sagrada Família",
+  "endereco": "Alto São Bento, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Santo Antônio (Itapema – Centro)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Servidão Valmor João de Oliveira, s/n - Tabuleiro dos Oliveiras, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Santo Antônio (Itapema – Centro)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "R. 700, 483 - Várzea, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Itapema – Meia Praia)",
+  "nome": "Igreja Matriz Sagrado Coração de Jesus",
+  "endereco": "Av. Nereu Ramos, 5030 (esquina com R. 294) - Meia Praia, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Itapema – Meia Praia)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. Agrípio Simas, 5669 (Estr. Geral do Sertão, 5300) - Sertão do Trombudo, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Itapema – Meia Praia)",
+  "nome": "Igreja Cristo Rei",
+  "endereco": "R. Quatrocentos e Dois B (402B), 128 - Morretes, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Itapema – Meia Praia)",
+  "nome": "Igreja Nossa Senhora das Graças",
+  "endereco": "R. 436-A, 355 - Jardim Praiamar / Morretes, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Sagrado Coração de Jesus (Itapema – Meia Praia)",
+  "nome": "Comunidade São Francisco de Assis (Centro Pastoral Paz e Bem)",
+  "endereco": "Meia Praia, Itapema - SC, 88220-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Igreja Matriz Senhor Bom Jesus dos Aflitos",
+  "endereco": "Av. Gov. Celso Ramos, 1445 - Centro, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Igreja Senhor dos Passos",
+  "endereco": "Av. Gov. Celso Ramos, s/n - Centro, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Capela Santa Terezinha",
+  "endereco": "Servidão Maria T. Stein / R. Domingos João dos Santos - Araçá, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "R. Bento João Silvino, s/n - Perequê / Alto Perequê, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Capela Nossa Senhora de Lourdes",
+  "endereco": "R. Nicolau Maggi, 2-162 - Sertão de Santa Luzia, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Igreja Santa Catarina de Alexandria",
+  "endereco": "Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Igreja Sagrada Família",
+  "endereco": "R. São José, s/n - Jardim Dourado, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Senhor Bom Jesus dos Aflitos (Município: Porto Belo)",
+  "nome": "Capela Divino Espírito Santo",
+  "endereco": "R. do CTG, s/n - Vila Nova, Porto Belo - SC, 88210-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição (Município: Bombinhas)",
+  "nome": "Igreja Matriz Nossa Senhora da Imaculada Conceição",
+  "endereco": "R. Flamingo, 150 - Bombas, Bombinhas - SC, 88215-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição (Município: Bombinhas)",
+  "nome": "Capela Nossa Senhora Aparecida",
+  "endereco": "Av. Girassol, 877 - Morrinhos, Bombinhas - SC, 88215-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição (Município: Bombinhas)",
+  "nome": "Capela São José",
+  "endereco": "Av. Rio Tapajós, s/n - Zimbros, Bombinhas - SC, 88215-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição (Município: Bombinhas)",
+  "nome": "Capela de São Sebastião",
+  "endereco": "Av. Prof. João da Cruz (esquina com R. Jacarandá) - Canto Grande, Bombinhas - SC, 88215-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itapema",
+  "paroquia": "Paróquia Nossa Senhora da Imaculada Conceição (Município: Bombinhas)",
+  "nome": "Capela São João Batista",
+  "endereco": "R. Leão Marinho, 749 - José Amândio, Bombinhas - SC, 88215-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Santa Inês (Balneário Camboriú – Centro)",
+  "nome": "Igreja Matriz Santa Inês",
+  "endereco": "R. 1400, 492 - Centro, Balneário Camboriú - SC, 88330-530",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Santa Inês (Balneário Camboriú – Centro)",
+  "nome": "Capela Santa Catarina de Alexandria",
+  "endereco": "Av. Santa Catarina, 631 - Bairro dos Estados, Balneário Camboriú - SC, 88339-005",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Santa Inês (Balneário Camboriú – Centro)",
+  "nome": "Capela da Paz (Ecumênica / Histórica)",
+  "endereco": "R. 2300, s/n (Tour Chapelle) - Centro, Balneário Camboriú - SC, 88330-428",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia São Sebastião (Balneário Camboriú – Ariribá / Pioneiros)",
+  "nome": "Igreja Matriz São Sebastião",
+  "endereco": "Av. do Estado Dalmo Vieira, 1750 - Ariribá, Balneário Camboriú - SC, 88338-640",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia São Sebastião (Balneário Camboriú – Ariribá / Pioneiros)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. Itália, 441 - Nações, Balneário Camboriú - SC, 88338-260",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia São Sebastião (Balneário Camboriú – Ariribá / Pioneiros)",
+  "nome": "Capela Nossa Senhora de Fátima",
+  "endereco": "R. Paquistão, 570 - Nações, Balneário Camboriú - SC, 88338-180",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Igreja Matriz Nossa Senhora Aparecida",
+  "endereco": "R. Dom Carlos, 79 - Vila Real, Balneário Camboriú - SC, 88337-025",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Capela Santo Amaro (Histórica – Igrejinha da Barra)",
+  "endereco": "Praça dos Pescadores - Barra, Balneário Camboriú - SC, 88332-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Capela São Francisco de Assis",
+  "endereco": "R. São Francisco de Assis - Barranco / São Judas Tadeu, Balneário Camboriú - SC, 88332-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Capela São Pedro",
+  "endereco": "Av. Rodesindo Pavan, 2542 - Taquaras, Balneário Camboriú - SC, 88333-150",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Capela São Judas Tadeu",
+  "endereco": "R. Hermógenes de Assis Feijó, 1213 - São Judas Tadeu, Balneário Camboriú - SC, 88332-300",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Comunidade Santo Antônio",
+  "endereco": "R. Ver. Domingos Fonseca, s/n - Estaleiro, Balneário Camboriú - SC, 88334-080",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Comunidade Santa Clara",
+  "endereco": "R. Biguaçu, 850 - Municípios, Balneário Camboriú - SC, 88337-450",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Igreja Nossa Senhora da Esperança",
+  "endereco": "Av. José Alves Cabral, 720 - Nova Esperança, Balneário Camboriú - SC, 88336-030",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora Aparecida (Balneário Camboriú – Vila Real / Região Sul)",
+  "nome": "Comunidade Sagrado Coração de Jesus",
+  "endereco": "Laranjeiras, Balneário Camboriú - SC, 88333-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Igreja Matriz Divino Espírito Santo",
+  "endereco": "R. Getúlio Vargas, 78 (esquina com R. Lauro Müller) - Centro, Camboriú - SC, 88340-347",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Igreja Santo Antônio",
+  "endereco": "R. Benjamin Dagnone (Estr. Geral do Rio do Meio) - Rio do Meio, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Capela São João Batista",
+  "endereco": "Av. Rio Amazonas, 3349 - Rio Pequeno, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Igreja Nossa Senhora da Glória",
+  "endereco": "R. Cabo Henrique Francisco Bernardes, 537 - Cedros, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade Santo Antônio de Lisboa (Asilo)",
+  "endereco": "Centro, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade São Padre Pio",
+  "endereco": "R. José da Silva, 19 - Jardim Paraíso / Cedros, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Igreja Santo Expedito",
+  "endereco": "R. Leandro Bertoldi (esquina com R. Rio Guaíra) - Japão / Rio Pequeno, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade Santa Paulina",
+  "endereco": "João da Costa, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade Sagrada Família",
+  "endereco": "Rio Pequeno, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade Santa Isabel de Portugal",
+  "endereco": "Lot. Terras Altas, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Divino Espírito Santo (Camboriú – Centro)",
+  "nome": "Comunidade São Bento",
+  "endereco": "Certa / Vila da Pedra, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Igreja Matriz Senhor Bom Jesus",
+  "endereco": "R. Monte Agulhas Negras, 512 (R. Monte Neblina, 448) - Monte Alegre, Camboriú - SC, 88348-408",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Igreja Nossa Senhora Aparecida",
+  "endereco": "R. Guaraparim - Tabuleiro, Camboriú - SC, 88348-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Igreja Santa Bárbara",
+  "endereco": "R. Monte Castelito - Conde Vila Verde, Camboriú - SC, 88348-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Comunidade São João Paulo II",
+  "endereco": "R. Monte Rosa - Jardim Aliança, Camboriú - SC, 88348-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Comunidade São Roque",
+  "endereco": "Monte Alegre, Camboriú - SC, 88348-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Senhor Bom Jesus (Camboriú – Monte Alegre)",
+  "nome": "Comunidade Santa Paulina",
+  "endereco": "Monte Alegre, Camboriú - SC, 88348-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Igreja Matriz Nossa Senhora do Bom Sucesso",
+  "endereco": "R. Amazonas, 563 - Areias, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Igreja Imaculada Conceição",
+  "endereco": "Estr. Geral Vila Conceição - Vila Conceição, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "Estr. Geral Santa Luzia - Santa Luzia, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Igreja São Sebastião",
+  "endereco": "R. Paulo Dallago - Limeira, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Capela São Brás",
+  "endereco": "Estr. Geral São Brás - São Brás, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Igreja Nossa Senhora do Rosário",
+  "endereco": "Estr. Distrito Vila Kaetés, 30 (Estr. Geral do Braço) - Braço, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Capela São José Operário",
+  "endereco": "Vila da Pedra, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Comunidade São Francisco de Assis",
+  "endereco": "Hospital / Centro, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Capela Nossa Senhora Rainha",
+  "endereco": "R. Cingapura, 722 - Santa Regina, Camboriú - SC, 88345-575",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Comunidade Santa Dulce dos Pobres",
+  "endereco": "R. Jesuíno Anastácio Pereira, 1819 - Santa Regina / Jardim Europa, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Comunidade Nossa Senhora de Guadalupe",
+  "endereco": "Areias, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Camboriú",
+  "paroquia": "Paróquia Nossa Senhora do Bom Sucesso (Camboriú – Areias)",
+  "nome": "Comunidade São José de Anchieta",
+  "endereco": "Areias, Camboriú - SC, 88340-000",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Santíssimo Sacramento (Centro)",
+  "nome": "Igreja Matriz Santíssimo Sacramento",
+  "endereco": "Praça Gov. Irineu Bornhausen, s/n (Av. Cel. Marcos Konder) - Centro, Itajaí - SC, 88303-026",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Santíssimo Sacramento (Centro)",
+  "nome": "Igreja Imaculada Conceição (Igrejinha Velha – Histórica)",
+  "endereco": "Praça Vidal Ramos (R. Hercílio Luz, 215) - Centro, Itajaí - SC, 88301-001",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Santíssimo Sacramento (Centro)",
+  "nome": "Igreja Nossa Senhora da Paz",
+  "endereco": "Av. José Eugênio Müller, 605 - Vila Operária, Itajaí - SC, 88303-150",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes (Fazenda)",
+  "nome": "Igreja Matriz Nossa Senhora de Lourdes",
+  "endereco": "R. Lúcio Corrêa de Mendonça, 90 (R. Amaro Jaques, 85) - Fazenda, Itajaí - SC, 88302-520",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes (Fazenda)",
+  "nome": "Capela Santa Teresinha do Menino Jesus",
+  "endereco": "R. Samuel Heusi Júnior, 30 - Cabeçudas, Itajaí - SC, 88306-495",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes (Fazenda)",
+  "nome": "Capela Santa Luzia",
+  "endereco": "R. Bráulio Werner, 196 - Santa Clara / Praia Brava, Itajaí - SC, 88306-730",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia Nossa Senhora de Lourdes (Fazenda)",
+  "nome": "Carmelo Santa Teresa e da Divina Misericórdia (Mosteiro)",
+  "endereco": "R. Benjamin Constant, 425 - Cabeçudas, Itajaí - SC, 88306-550",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia São João Bosco (Dom Bosco)",
+  "nome": "Igreja Matriz São João Bosco",
+  "endereco": "R. Brusque, 1333 (R. José Gall, 35) - Dom Bosco, Itajaí - SC, 88302-001",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia São João Bosco (Dom Bosco)",
+  "nome": "Igreja São Judas Tadeu",
+  "endereco": "R. Indaial, s/n - Fiúza Lima / São Judas, Itajaí - SC, 88304-303",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia São João Bosco (Dom Bosco)",
+  "nome": "Capela Santa Teresinha",
+  "endereco": "R. Brusque, 1333 (anexa ao Parque Dom Bosco) - Dom Bosco, Itajaí - SC, 88307-102",
+  "formato": "linha"
+ },
+ {
+  "forania": "Itajaí",
+  "paroquia": "Paróquia São Pedro Apóstolo (Itaipava e Zona Rural)",
+  "nome": "Capelania Spiritus Veritatis (UNIVALI)",
+  "endereco": "R. Uruguai, 458 (Capela anexa ao Teatro – Sala 107) - Centro / Fazenda, Itajaí - SC, 88302-202",
+  "formato": "linha"
+ }
+]
