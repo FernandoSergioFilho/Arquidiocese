@@ -13,7 +13,7 @@
   brusque      | link: -                          | cabeçalho: Forania Brusque                          | Paróquia São Luís Gonzaga
 
 == 4. Matrizes: como foram posicionadas
-  sao-francisco-de-assis-2                 matriz 'São Francisco de Assis' posição=localidade local=Forquilhinhas
+  sao-francisco-de-assis-2                 matriz 'São Francisco de Assis' posição=cnefe local=Forquilhinhas
   nossa-senhora-da-imaculada-conceicao     matriz 'Nossa Senhora da I. Conceição' posição=localidade local=Centro
 
 == 5. Igrejas do OSM: nome no site x nome no mapa (para revisão)
@@ -280,4 +280,4 @@
   sao-jose                       Santa Teresinha                     Vargem Grande         15.6 km (osm)
 
 == 8. Resumo das posições
-   Counter({'osm': 287, 'localidade': 114, 'aprox': 110, 'cnefe': 85, 'bairro': 27, 'rua': 19, 'endereco': 13})
+   Counter({'osm': 287, 'cnefe': 113, 'aprox': 94, 'localidade': 91, 'bairro': 26, 'rua': 19, 'endereco': 13, 'rua_google': 12})

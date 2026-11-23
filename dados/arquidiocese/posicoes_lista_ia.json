@@ -1,53 +1,305 @@
 {
  "_sobre": "A lista da IA pode inventar endereços. Uma posição só é aceita quando:\n  1. a entrada casa com UMA comunidade da mesma paróquia no site da Arquidiocese (nome; localidade desempata);\n  2. a comunidade ainda não tem posição exata (só 'localidade', 'aprox' ou 'bairro');\n  3. a rua informada existe de verdade no município, confirmada por\n       a) um estabelecimento religioso do Censo 2022 (CNEFE) na mesma rua -> usa o ponto do Censo, ou\n       b) a rua no OpenStreetMap, curta (até 1,2 km) -> usa o meio da rua;\n  4. o ponto fica perto da matriz (8 km nas cidades grandes, 15 km nas demais) e, se a localidade já era conhecida, a até 3 km dela.",
  "posicoes": {
+  "senhor-bom-jesus-de-nazare|Santa Paulina|Belmar": {
+   "lat": -27.641552,
+   "lng": -48.654666,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Albertina de Morães - Belmar / Ponte do Imaruim, Palhoça - SC, 88130-300 · confirmada no Censo 2022: COMUNIDADE SANTA PAULINA, RUA ALBERTINA DE MORAES 42",
+   "endereco": "R. Albertina de Morães - Belmar / Ponte do Imaruim, Palhoça - SC, 88130-300",
+   "cnefe": "Comunidade Santa Paulina, Rua Albertina De Moraes, 42"
+  },
   "senhor-bom-jesus-de-nazare|Nossa Senhora Aparecida|(Gruta) Bela Vista": {
    "lat": -27.65791,
    "lng": -48.709498,
-   "posicao": "rua",
-   "fonte": "Lista do Google (modo IA): Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812 · rua confirmada no OpenStreetMap: Servidão Gruta Nossa Senhora Aparecida"
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812 · rua confirmada no OpenStreetMap: Servidão Gruta Nossa Senhora Aparecida",
+   "endereco": "Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812"
   },
-  "sao-sebastiao|Santa Bárbara|Rio da Prata": {
-   "lat": -27.819247,
-   "lng": -49.134777,
+  "sao-judas-tadeu-e-sao-joao-batista|Nossa Senhora de Lourdes|Jardim Eucaliptus": {
+   "lat": -27.633666,
+   "lng": -48.660211,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Estrada Geral Rio da Prata - Rio da Prata, Anitápolis - SC, 88475-000 · confirmada no Censo 2022: PAROQUIA SAO SEBASTIAO MR UNIDOS EM CRISTO, ESTRADA RIO DA PRATA 0"
+   "fonte": "Lista do Google (modo IA): R. Santos Dumont, 54 - Jardim Eucaliptus / Ponte do Imaruim, Palhoça - SC, 88130-630 · confirmada no Censo 2022: IGREJA CATOLICA, RUA SANTOS DUMONT 0",
+   "endereco": "R. Santos Dumont, 54 - Jardim Eucaliptus / Ponte do Imaruim, Palhoça - SC, 88130-630",
+   "cnefe": "Igreja Catolica, Rua Santos Dumont"
   },
-  "sao-joao-batista-biguacu|São Cristóvão|Canudos": {
-   "lat": -27.414569,
-   "lng": -48.75773,
+  "sao-judas-tadeu-e-sao-joao-batista|Nossa Senhora Aparecida|Jardim Eldorado": {
+   "lat": -27.627468,
+   "lng": -48.664402,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Estr. Geral de Canudos - Canudos, Biguaçu - SC, 88160-000 · confirmada no Censo 2022: IGREJA, ESTRADA GERAL DE CANUDOS 0"
+   "fonte": "Lista do Google (modo IA): R. Pedro Álvares Cabral, 294 - Jardim Eldorado, Palhoça - SC, 88133-420 · confirmada no Censo 2022: IGREJA CATOLICA ELDORADO, RUA PEDRO ALVARES CABRAL 0",
+   "endereco": "R. Pedro Álvares Cabral, 294 - Jardim Eldorado, Palhoça - SC, 88133-420",
+   "cnefe": "Igreja Catolica Eldorado, Rua Pedro Alvares Cabral"
+  },
+  "sao-francisco-de-assis|Senhor Bom Jesus|Areias": {
+   "lat": -27.675513,
+   "lng": -48.646492,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Bom Jesus das Areias, 56 - Areias / Barra do Aririú, Palhoça - SC, 88134-560 · confirmada no Censo 2022: IGREJA BOM JESUS DAS AREIAS, RUA BOM JESUS DAS AREIAS 0",
+   "endereco": "R. Bom Jesus das Areias, 56 - Areias / Barra do Aririú, Palhoça - SC, 88134-560",
+   "cnefe": "Igreja Bom Jesus Das Areias, Rua Bom Jesus Das Areias"
+  },
+  "sao-francisco-de-assis|Santa Clara|Jaqueira": {
+   "lat": -27.666591,
+   "lng": -48.695139,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Aureliano Medeiros, 790-932 - Jaqueira / Aririú, Palhoça - SC · confirmada no Censo 2022: IGREJA CATOLICA, RUA AURELIANO MEDEIROS 0",
+   "endereco": "R. Aureliano Medeiros, 790-932 - Jaqueira / Aririú, Palhoça - SC",
+   "cnefe": "Igreja Catolica, Rua Aureliano Medeiros"
+  },
+  "sao-francisco-de-assis|Santa Teresinha do Menino Jesus|Jardim Laranjeiras": {
+   "lat": -27.674659,
+   "lng": -48.653404,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Nove de Julho, 165 - Jardim Laranjeiras / Barra do Aririú, Palhoça - SC, 88134-440 · confirmada no Censo 2022: IGREJA CATOLICA, RUA NOVE DE JULHO 165",
+   "endereco": "R. Nove de Julho, 165 - Jardim Laranjeiras / Barra do Aririú, Palhoça - SC, 88134-440",
+   "cnefe": "Igreja Catolica, Rua Nove De Julho, 165"
+  },
+  "santo-amaro|Nossa Senhora da Rosa Mística|Caldas": {
+   "lat": -27.715611,
+   "lng": -48.808799,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Princesa Leopoldina, 1100 - Caldas da Imperatriz, Santo Amaro da Imperatriz - SC, 88140-000 · confirmada no Censo 2022: IGREJA, RUA PRINCESA LEOPOLDINA 0",
+   "endereco": "R. Princesa Leopoldina, 1100 - Caldas da Imperatriz, Santo Amaro da Imperatriz - SC, 88140-000",
+   "cnefe": "Igreja, Rua Princesa Leopoldina"
+  },
+  "santo-amaro|Nossa Senhora da Glória|Loeffelscheidt": {
+   "lat": -27.690701,
+   "lng": -48.919858,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estrada Geral Loeffelscheidt - Loeffelscheidt, Águas Mornas - SC, 88150-000 · confirmada no Censo 2022: IGREJA CATOLICA, ESTRADA GERAL LOEFFELSCHEIDT 0",
+   "endereco": "Estrada Geral Loeffelscheidt - Loeffelscheidt, Águas Mornas - SC, 88150-000",
+   "cnefe": "Igreja Catolica, Estrada Geral Loeffelscheidt"
+  },
+  "nossa-senhora-da-imaculada-conceicao|São Marcos|Alto Garcia": {
+   "lat": -27.58458,
+   "lng": -49.020343,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Estrada Geral Alto Garcia - Alto Garcia, Angelina - SC, 88460-000 · confirmada no Censo 2022: IGREJA, ESTRADA GERAL ALTO GARCIA 0",
+   "endereco": "Estrada Geral Alto Garcia - Alto Garcia, Angelina - SC, 88460-000",
+   "cnefe": "Igreja, Estrada Geral Alto Garcia"
+  },
+  "sao-joao-evangelista|São Pedro|Saudade": {
+   "lat": -27.468527,
+   "lng": -48.669138,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Treze de Maio, 2845 - Saudade, Biguaçu - SC, 88160-000 · confirmada no Censo 2022: IGREJA, RUA TREZE DE MAIO 0",
+   "endereco": "R. Treze de Maio, 2845 - Saudade, Biguaçu - SC, 88160-000",
+   "cnefe": "Igreja, Rua Treze De Maio"
+  },
+  "sao-joao-evangelista|São Francisco|Morro da Boa Vista": {
+   "lat": -27.502241,
+   "lng": -48.66523,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Vidal Mendes, s/n - Morro da Boa Vista, Biguaçu - SC, 88160-000 · confirmada no Censo 2022: IGREJA DA BOA VISTA, RUA VIDAL MENDES 0",
+   "endereco": "R. Vidal Mendes, s/n - Morro da Boa Vista, Biguaçu - SC, 88160-000",
+   "cnefe": "Igreja Da Boa Vista, Rua Vidal Mendes"
   },
   "nossa-senhora-dos-navegantes|Nossa Senhora Aparecida e São Pedro|Palmas das Gaivotas": {
    "lat": -27.318067,
    "lng": -48.561842,
-   "posicao": "rua",
-   "fonte": "Lista do Google (modo IA): Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000 · rua confirmada no OpenStreetMap: Avenida Bela Vista"
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000 · rua confirmada no OpenStreetMap: Avenida Bela Vista",
+   "endereco": "Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000"
   },
-  "sagrado-coracao|Nossa Senhora Aparecida e São Cristóvão|Morro das Pedras": {
-   "lat": -27.723032,
-   "lng": -48.505173,
+  "nossa-senhora-dos-navegantes|Senhor Bom Jesus|Areias do Meio": {
+   "lat": -27.374569,
+   "lng": -48.611062,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Rod. Francisco Thomaz dos Santos (SC-406), 801 - Morro das Pedras, Florianópolis - SC, 88066-000 · confirmada no Censo 2022: VILA FATIMA, RODOVIA FRANCISCO THOMAZ DOS SANTOS 2210"
+   "fonte": "Lista do Google (modo IA): R. João Manoel Costa, 600 - Areias do Meio, Governador Celso Ramos - SC, 88190-000 · confirmada no Censo 2022: IGREJA CATOLICA, RUA JOAO MANOEL DA COSTA 0",
+   "endereco": "R. João Manoel Costa, 600 - Areias do Meio, Governador Celso Ramos - SC, 88190-000",
+   "cnefe": "Igreja Catolica, Rua Joao Manoel Da Costa"
+  },
+  "nossa-senhora-dos-navegantes|São Francisco de Assis|Ganchos de Fora": {
+   "lat": -27.307478,
+   "lng": -48.550099,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. São Francisco - Ganchos de Fora, Governador Celso Ramos - SC, 88190-000 · rua confirmada no OpenStreetMap: Rua São Francisco de Assis",
+   "endereco": "R. São Francisco - Ganchos de Fora, Governador Celso Ramos - SC, 88190-000"
+  },
+  "santo-antonio-3|São Francisco de Assis e Sta. Rita de Cássia|Kobrasol": {
+   "lat": -27.595418,
+   "lng": -48.615182,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Sílvia Maria Fabro, s/n - Kobrasol, São José - SC, 88102-180 · confirmada no Censo 2022: IGREJA SANTA RITA, RUA SILVIA MARIA FABRO 0",
+   "endereco": "R. Sílvia Maria Fabro, s/n - Kobrasol, São José - SC, 88102-180",
+   "cnefe": "Igreja Santa Rita, Rua Silvia Maria Fabro"
+  },
+  "sao-francisco-de-assis-2|Sagrado Coração de Jesus|Santos Saraiva": {
+   "lat": -27.584667,
+   "lng": -48.638865,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Docilício Luz, s/n - Santos Saraiva / Potecas, São José - SC, 88119-200 · confirmada no Censo 2022: IGREJA, RUA DOCILICIO LUZ 0",
+   "endereco": "R. Docilício Luz, s/n - Santos Saraiva / Potecas, São José - SC, 88119-200",
+   "cnefe": "Igreja, Rua Docilicio Luz"
+  },
+  "nossa-senhora-dos-navegantes-serraria-sj|Santa Paulina|Jardim Zanelato": {
+   "lat": -27.5456,
+   "lng": -48.643725,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Gaivota, 278 - Serraria, São José - SC, 88115-505 · confirmada no Censo 2022: IGREJA, RUA GAIVOTA 0",
+   "endereco": "R. Gaivota, 278 - Serraria, São José - SC, 88115-505",
+   "cnefe": "Igreja, Rua Gaivota"
+  },
+  "nossa-senhora-dos-navegantes-serraria-sj|Senhor Bom Jesus dos Passos|José Nitro": {
+   "lat": -27.544369,
+   "lng": -48.650226,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. João Izídio de Souza, 1122 - Serraria, São José - SC, 88115-660 · rua confirmada no OpenStreetMap: Rua João Izídio de Souza",
+   "endereco": "R. João Izídio de Souza, 1122 - Serraria, São José - SC, 88115-660"
+  },
+  "nossa-senhora-dos-navegantes-serraria-sj|Nossa Senhora Aparecida|Lot. Luar": {
+   "lat": -27.543774,
+   "lng": -48.629961,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Edmundo Otacílio - Serraria, São José - SC, 88115-220 · rua confirmada no OpenStreetMap: Rua Edmundo Otacílio",
+   "endereco": "R. Edmundo Otacílio - Serraria, São José - SC, 88115-220"
+  },
+  "nossa-senhora-do-rosario-2|São Cristóvão|Bela Vista I": {
+   "lat": -27.572404,
+   "lng": -48.618857,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Santa Catarina, 210 - Bela Vista, São José - SC, 88110-300 · confirmada no Censo 2022: IGREJA SAO CRIATOVAO, AVENIDA SANTA CATARINA 210",
+   "endereco": "R. Santa Catarina, 210 - Bela Vista, São José - SC, 88110-300",
+   "cnefe": "Igreja Sao Criatovao, Avenida Santa Catarina, 210"
+  },
+  "nossa-senhora-do-carmo|Nossa Senhora Aparecida|Vila Aparecida": {
+   "lat": -27.60705,
+   "lng": -48.586287,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. da Fonte, 351 - Vila Aparecida / Coqueiros, Florianópolis - SC, 88080-360 · confirmada no Censo 2022: IGREJA NOSSA SENHORA APARECIDA, RUA DA FONTE 0",
+   "endereco": "R. da Fonte, 351 - Vila Aparecida / Coqueiros, Florianópolis - SC, 88080-360",
+   "cnefe": "Igreja Nossa Senhora Aparecida, Rua Da Fonte"
+  },
+  "trindade|São Francisco de Assis|Vila Guarani - Poção do C. Grande": {
+   "lat": -27.610728,
+   "lng": -48.505218,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Sebastião Laurentino da Silva, s/n - Poção / Córrego Grande, Florianópolis - SC, 88037-400 · confirmada no Censo 2022: IGREJA SAO FRANCISCO DE ASSIS, RUA SEBASTIAO LAURENTINO DA SILVA 0",
+   "endereco": "R. Sebastião Laurentino da Silva, s/n - Poção / Córrego Grande, Florianópolis - SC, 88037-400",
+   "cnefe": "Igreja Sao Francisco De Assis, Rua Sebastiao Laurentino Da Silva"
+  },
+  "sao-sebastiao-3|Santa Cruz|Hospital São José": {
+   "lat": -27.244491,
+   "lng": -48.635809,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Coronel Buchelle, s/n - Centro, Tijucas - SC, 88200-000 · rua confirmada no OpenStreetMap: Rua Coronel Büchelle",
+   "endereco": "R. Coronel Buchelle, s/n - Centro, Tijucas - SC, 88200-000"
+  },
+  "sao-luis-gonzaga|Cristo Rei|São Luiz": {
+   "lat": -27.081735,
+   "lng": -48.915034,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Carlos Henrique Bruns, 388 - São Luiz, Brusque - SC, 88351-300 · rua confirmada no OpenStreetMap: Rua Carlos Henrique Bruns",
+   "endereco": "R. Carlos Henrique Bruns, 388 - São Luiz, Brusque - SC, 88351-300"
+  },
+  "sao-luis-gonzaga|Nossa Senhora Aparecida|Steffen": {
+   "lat": -27.074105,
+   "lng": -48.907719,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Guilherme Steffen, 331 - Steffen, Brusque - SC, 88355-100 · confirmada no Censo 2022: IGREJA CATOLICA, RUA GUILHERME STEFFEN 0",
+   "endereco": "R. Guilherme Steffen, 331 - Steffen, Brusque - SC, 88355-100",
+   "cnefe": "Igreja Catolica, Rua Guilherme Steffen"
+  },
+  "sao-luis-gonzaga|Nossa Senhora de Fátima|Jardim Maluche": {
+   "lat": -27.108744,
+   "lng": -48.931626,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Dr. Waldir Walendowsky, 149 - Jardim Maluche, Brusque - SC, 88354-670 · rua confirmada no OpenStreetMap: Rua Doutor Waldir Walendowsky",
+   "endereco": "R. Dr. Waldir Walendowsky, 149 - Jardim Maluche, Brusque - SC, 88354-670"
   },
   "santa-catarina|São João Batista|Ribeirão do Mafra": {
    "lat": -27.201648,
    "lng": -48.957747,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000 · confirmada no Censo 2022: CAPELA SAO JOAO, RUA RIBEIRAO DO MAFRA 0"
+   "fonte": "Lista do Google (modo IA): Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000 · confirmada no Censo 2022: CAPELA SAO JOAO, RUA RIBEIRAO DO MAFRA 0",
+   "endereco": "Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000",
+   "cnefe": "Capela Sao Joao, Rua Ribeirao Do Mafra"
   },
   "sao-judas-tadeu|São Francisco de Assis|Ponta Russa": {
    "lat": -27.148039,
    "lng": -48.877874,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000 · confirmada no Censo 2022: IGREJA SAO FRANSCISCO DE ASSIS, RUA PONTA RUSSA 1555"
+   "fonte": "Lista do Google (modo IA): Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000 · confirmada no Censo 2022: IGREJA SAO FRANSCISCO DE ASSIS, RUA PONTA RUSSA 1555",
+   "endereco": "Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000",
+   "cnefe": "Igreja Sao Franscisco De Assis, Rua Ponta Russa, 1555"
+  },
+  "sagrado-coracao-de-jesus-2|Nossa Senhora das Graças|Jardim Praiamar": {
+   "lat": -27.131655,
+   "lng": -48.616037,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. 436-A, 355 - Jardim Praiamar / Morretes, Itapema - SC, 88220-000 · confirmada no Censo 2022: COMUNIDADE NOSSA SENHORA DAS GRANCAS, RUA 436 A 355",
+   "endereco": "R. 436-A, 355 - Jardim Praiamar / Morretes, Itapema - SC, 88220-000",
+   "cnefe": "Comunidade Nossa Senhora Das Grancas, Rua 436 A, 355"
+  },
+  "senhor-bom-jesus-dos-aflitos|Nossa Senhora de Lourdes|Perequê": {
+   "lat": -27.15543,
+   "lng": -48.575876,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Nicolau Maggi, 2-162 - Sertão de Santa Luzia, Porto Belo - SC, 88210-000 · confirmada no Censo 2022: PAVILHAO IGREJA, RUA NICOLAU MAGGI 0",
+   "endereco": "R. Nicolau Maggi, 2-162 - Sertão de Santa Luzia, Porto Belo - SC, 88210-000",
+   "cnefe": "Pavilhao Igreja, Rua Nicolau Maggi"
   },
   "senhor-bom-jesus-dos-aflitos|Santa Catarina de Alexandria|Alto Perequê": {
    "lat": -27.169704,
    "lng": -48.589525,
    "posicao": "cnefe",
-   "fonte": "Lista do Google (modo IA): Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000 · confirmada no Censo 2022: IGREJA, AVENIDA JOSE NEOLI CRUZ 0"
+   "fonte": "Lista do Google (modo IA): Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000 · confirmada no Censo 2022: IGREJA, AVENIDA JOSE NEOLI CRUZ 0",
+   "endereco": "Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000",
+   "cnefe": "Igreja, Avenida Jose Neoli Cruz"
+  },
+  "nossa-senhora-da-imaculada-conceicao-2|São João Batista|José Amândio": {
+   "lat": -27.15304,
+   "lng": -48.505212,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Leão Marinho, 749 - José Amândio, Bombinhas - SC, 88215-000 · rua confirmada no OpenStreetMap: Rua Leão Marinho",
+   "endereco": "R. Leão Marinho, 749 - José Amândio, Bombinhas - SC, 88215-000"
+  },
+  "sao-sebastiao-2|Nossa Senhora de Fátima|Rua Paquistão (B. das Nações)": {
+   "lat": -26.977187,
+   "lng": -48.653674,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Paquistão, 570 - Nações, Balneário Camboriú - SC, 88338-180 · rua confirmada no OpenStreetMap: Rua Paquistão",
+   "endereco": "R. Paquistão, 570 - Nações, Balneário Camboriú - SC, 88338-180"
+  },
+  "nossa-senhora-aparecida|São Pedro|Taquaras": {
+   "lat": -27.01101,
+   "lng": -48.580825,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): Av. Rodesindo Pavan, 2542 - Taquaras, Balneário Camboriú - SC, 88333-150 · confirmada no Censo 2022: IGREJA CATOLICA, AVENIDA RODESINDO PAVAN 0",
+   "endereco": "Av. Rodesindo Pavan, 2542 - Taquaras, Balneário Camboriú - SC, 88333-150",
+   "cnefe": "Igreja Catolica, Avenida Rodesindo Pavan"
+  },
+  "senhor-bom-jesus|Santa Bárbara|Conde Vila Verde": {
+   "lat": -27.004218,
+   "lng": -48.667267,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Monte Castelito - Conde Vila Verde, Camboriú - SC, 88348-000 · rua confirmada no OpenStreetMap: Rua Monte Castelito",
+   "endereco": "R. Monte Castelito - Conde Vila Verde, Camboriú - SC, 88348-000"
+  },
+  "senhor-bom-jesus|São João Paulo II|Jardim Aliança": {
+   "lat": -26.998202,
+   "lng": -48.665693,
+   "posicao": "rua_google",
+   "fonte": "Lista do Google (modo IA): R. Monte Rosa - Jardim Aliança, Camboriú - SC, 88348-000 · rua confirmada no OpenStreetMap: Rua Monte Rosa",
+   "endereco": "R. Monte Rosa - Jardim Aliança, Camboriú - SC, 88348-000"
+  },
+  "nossa-senhora-do-bom-sucesso|Santa Dulce dos Pobres|Jardim Europa": {
+   "lat": -27.035023,
+   "lng": -48.661937,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Jesuíno Anastácio Pereira, 1819 - Santa Regina / Jardim Europa, Camboriú - SC, 88340-000 · confirmada no Censo 2022: IGREJA, RUA JESUINO ANASTACIO PEREIRA 374",
+   "endereco": "R. Jesuíno Anastácio Pereira, 1819 - Santa Regina / Jardim Europa, Camboriú - SC, 88340-000",
+   "cnefe": "Igreja, Rua Jesuino Anastacio Pereira, 374"
+  },
+  "nossa-senhora-de-lourdes|Santa Luzia|Praia Brava": {
+   "lat": -26.948271,
+   "lng": -48.642953,
+   "posicao": "cnefe",
+   "fonte": "Lista do Google (modo IA): R. Bráulio Werner, 196 - Santa Clara / Praia Brava, Itajaí - SC, 88306-730 · confirmada no Censo 2022: IGREJA CATOLICA, RUA BRAULIO WERNER 0",
+   "endereco": "R. Bráulio Werner, 196 - Santa Clara / Praia Brava, Itajaí - SC, 88306-730",
+   "cnefe": "Igreja Catolica, Rua Braulio Werner"
   }
  }
 }

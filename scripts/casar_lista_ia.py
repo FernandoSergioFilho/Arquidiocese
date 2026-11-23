@@ -26,7 +26,7 @@ NAO_CATOLICA = re.compile(r"evang|assembl|batista|adventista|universal|quadrangu
                           r"[uú]ltimos dias|congrega[cç][aã]o crist|maranata|deus [eé] amor|mundial|renascer|metodista|umbanda|"
                           r"candombl|templo|minist[eé]rio|igreja de cristo|igreja crist[aã]|pentecost|sara nossa|bola de neve|"
                           r"videira|internacional da gra[cç]a|nazareno|anglican|ortodox|kardec|budis|mesquita|sinagoga|"
-                          r"wesley|cristo vive|vida nova|lagoinha|tabern[aá]culo|reino de deus|avivamento|jeov", re.I)
+                          r"wesley|cristo vive|vida nova|lagoinha|tabern[aá]culo|reino de deus|avivamento|jeov|ieclb|betel|sinodal|maranata|getsemani|sal[aã]o (de )?festas", re.I)
 CIDADE_GRANDE = {"Florianópolis", "São José", "Palhoça", "Biguaçu", "Itajaí", "Balneário Camboriú", "Brusque", "Itapema", "Camboriú"}
 ABREV = {"r": "rua", "av": "avenida", "rod": "rodovia", "estr": "estrada", "est": "estrada", "serv": "servidao", "tv": "travessa",
          "trav": "travessa", "al": "alameda", "pca": "praca", "ver": "vereador", "cap": "capitao", "dr": "doutor", "pe": "padre",
@@ -55,6 +55,27 @@ def mesma_rua(a, b):
         return True
     curto, longo = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
     return len(curto) >= 2 and contido(curto, longo) and len(curto) / len(longo) >= 0.6
+
+
+GENERICO_CNEFE = {"igreja", "catolica", "comunidade", "capela", "paroquia", "centro", "social", "pavilhao", "casa", "paroquial", "salao",
+                  "templo", "matriz", "anexo", "sede", "mr", "unidos", "em", "na", "no", "a", "o"}
+
+
+def santo_confere(nome_cnefe, nome_com, outros):
+    """Se o registro do Censo cita um santo/devoção, ele precisa ser o da comunidade (tolerando erros de digitação)."""
+    from difflib import SequenceMatcher
+    if not re.search(r"(?i)\b(s[aã]o|santa|santo|nossa|n\.? ?s|senhor|sagrad|divino|cristo|imaculada|bom jesus)\b", nome_cnefe):
+        return True
+    ws = [w for w in norm_seq(nome_cnefe) if w not in GENERICO_CNEFE and w not in outros and w not in {"sao", "santa", "santo", "senhor"}]
+    if not ws:
+        return True
+    alvo = [w for w in norm_seq(nome_com) if w not in {"sao", "santa", "santo", "senhor"}]
+    return all(any(SequenceMatcher(None, w, a).ratio() >= 0.8 for a in alvo) for w in ws)
+
+
+def elegivel(c):
+    """Sem posição exata própria (as que vieram desta mesma lista numa rodada anterior também contam)."""
+    return c.get("posicao") in ("localidade", "aprox", "bairro") or bool(c.get("endereco_google"))
 
 
 def parse_endereco(end):
@@ -127,7 +148,9 @@ def main():
                 stats["sem_rua"] += 1; continue
             # confirmação a) Censo 2022 na mesma rua
             ponto, fonte, como = None, None, None
-            regs = [r for r in cnefe if r["municipio"] == mun and mesma_rua(rua, r["logradouro"]) and not NAO_CATOLICA.search(r["nome"])]
+            outros = set(norm_seq(rua)) | set(norm_seq(c["local"])) | set(norm_seq(bairro or ""))
+            regs = [r for r in cnefe if r["municipio"] == mun and mesma_rua(rua, r["logradouro"]) and not NAO_CATOLICA.search(r["nome"])
+                    and santo_confere(r["nome"], c["nome"], outros)]
             if regs:
                 cat = [r for r in regs if re.search(r"(?i)cat[oó]lic|capela|par[oó]quia|comunidade|n\.? ?s\b|nossa|s[aã]o |santa |santo |gruta", r["nome"])]
                 melhor = cat if len(cat) == 1 else (regs if len(regs) == 1 else [])
@@ -158,10 +181,10 @@ def main():
                     fonte = f"Lista do Google (modo IA): {e['endereco']} · rua confirmada no OpenStreetMap: {ok[0].get('name')}"
             if not ponto:
                 stats["rua_nao_confirmada"] += 1
-                if c.get("posicao") in ("localidade", "aprox", "bairro"):
+                if elegivel(c):
                     rel.append(f"  rua não confirmada: {chave} | {e['endereco']}")
                 continue
-            if c.get("posicao") not in ("localidade", "aprox", "bairro"):
+            if not elegivel(c):
                 stats["ja_exata"] += 1
                 d = km(ponto, (c["lat"], c["lng"])) if "lat" in c else 0
                 if d > 1.5:

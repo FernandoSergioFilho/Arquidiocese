@@ -1269,9 +1269,11 @@
        "local": "Vila Guarani - Poção do C. Grande",
        "ano": "2005",
        "matriz": false,
-       "lat": -27.61085,
-       "lng": -48.50377,
-       "posicao": "bairro",
+       "lat": -27.610728,
+       "lng": -48.505218,
+       "posicao": "cnefe",
+       "endereco_google": "R. Sebastião Laurentino da Silva, s/n - Poção / Córrego Grande, Florianópolis - SC, 88037-400",
+       "cnefe": "Igreja Sao Francisco De Assis, Rua Sebastiao Laurentino Da Silva",
        "municipio": "Florianópolis"
       },
       {
@@ -1487,9 +1489,11 @@
        "local": "Vila Aparecida",
        "ano": "1983",
        "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.6057,
-       "lng": -48.587,
+       "posicao": "cnefe",
+       "lat": -27.60705,
+       "lng": -48.586287,
+       "endereco_google": "R. da Fonte, 351 - Vila Aparecida / Coqueiros, Florianópolis - SC, 88080-360",
+       "cnefe": "Igreja Nossa Senhora Aparecida, Rua Da Fonte",
        "municipio": "Florianópolis"
       },
       {
@@ -1840,10 +1844,11 @@
        "local": "Kobrasol",
        "ano": "1986",
        "matriz": false,
-       "lat": -27.6009,
-       "lng": -48.6163,
-       "posicao": "localidade",
-       "local_osm": "Kobrasol (suburb)",
+       "lat": -27.595418,
+       "lng": -48.615182,
+       "posicao": "cnefe",
+       "endereco_google": "R. Sílvia Maria Fabro, s/n - Kobrasol, São José - SC, 88102-180",
+       "cnefe": "Igreja Santa Rita, Rua Silvia Maria Fabro",
        "municipio": "São José"
       }
      ],
@@ -1868,9 +1873,10 @@
        "local": "Forquilhinhas",
        "ano": "1985",
        "matriz": true,
-       "posicao": "localidade",
-       "lat": -27.5984,
-       "lng": -48.6424,
+       "posicao": "cnefe",
+       "lat": -27.600693,
+       "lng": -48.641045,
+       "cnefe": "Igreja, Rua Vereador Arthur Manoel Mariano, ao lado da secretaria paroquial (nº 880, endereço da paróquia no site)",
        "municipio": "São José"
       },
       {
@@ -1879,8 +1885,8 @@
        "ano": "2017",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.590701,
-       "lng": -48.638679,
+       "lat": -27.593693,
+       "lng": -48.637708,
        "municipio": "São José"
       },
       {
@@ -1921,9 +1927,11 @@
        "local": "Santos Saraiva",
        "ano": "1967",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.605139,
-       "lng": -48.636657,
+       "posicao": "cnefe",
+       "lat": -27.584667,
+       "lng": -48.638865,
+       "endereco_google": "R. Docilício Luz, s/n - Santos Saraiva / Potecas, São José - SC, 88119-200",
+       "cnefe": "Igreja, Rua Docilicio Luz",
        "municipio": "São José"
       },
       {
@@ -1944,8 +1952,8 @@
        "ano": "1925",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.599474,
-       "lng": -48.651765,
+       "lat": -27.607693,
+       "lng": -48.644382,
        "municipio": "São José"
       },
       {
@@ -2071,10 +2079,11 @@
        "local": "Bela Vista I",
        "ano": "1971",
        "matriz": false,
-       "lat": -27.5731,
-       "lng": -48.6208,
-       "posicao": "localidade",
-       "local_osm": "Bela Vista (suburb)",
+       "lat": -27.572404,
+       "lng": -48.618857,
+       "posicao": "cnefe",
+       "endereco_google": "R. Santa Catarina, 210 - Bela Vista, São José - SC, 88110-300",
+       "cnefe": "Igreja Sao Criatovao, Avenida Santa Catarina, 210",
        "municipio": "São José"
       }
      ],
@@ -2108,10 +2117,11 @@
        "local": "Lot. Luar",
        "ano": "1994",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.524703,
-       "lng": -48.626897,
-       "municipio": "Biguaçu"
+       "posicao": "rua_google",
+       "lat": -27.5438,
+       "lng": -48.63,
+       "endereco_google": "R. Edmundo Otacílio - Serraria, São José - SC, 88115-220",
+       "municipio": "São José"
       },
       {
        "nome": "Nossa Senhora Rainha da Paz",
@@ -2119,18 +2129,20 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.534771,
-       "lng": -48.620055,
-       "municipio": "São José"
+       "lat": -27.526914,
+       "lng": -48.62795,
+       "municipio": "Biguaçu"
       },
       {
        "nome": "Santa Paulina",
        "local": "Jardim Zanelato",
        "ano": "1993",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.543654,
-       "lng": -48.628735,
+       "posicao": "cnefe",
+       "lat": -27.5456,
+       "lng": -48.643725,
+       "endereco_google": "R. Gaivota, 278 - Serraria, São José - SC, 88115-505",
+       "cnefe": "Igreja, Rua Gaivota",
        "municipio": "São José"
       },
       {
@@ -2139,8 +2151,8 @@
        "ano": "1983",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.539077,
-       "lng": -48.640942,
+       "lat": -27.540914,
+       "lng": -48.634624,
        "municipio": "São José"
       },
       {
@@ -2148,10 +2160,11 @@
        "local": "José Nitro",
        "ano": "1997",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.527364,
-       "lng": -48.639806,
-       "municipio": "Biguaçu"
+       "posicao": "rua_google",
+       "lat": -27.5444,
+       "lng": -48.6502,
+       "endereco_google": "R. João Izídio de Souza, 1122 - Serraria, São José - SC, 88115-660",
+       "municipio": "São José"
       }
      ],
      "instagram": [
@@ -2388,9 +2401,11 @@
        "local": "Palmas das Gaivotas",
        "ano": "1950",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.310444,
-       "lng": -48.555609
+       "posicao": "rua_google",
+       "lat": -27.3181,
+       "lng": -48.5618,
+       "endereco_google": "Av. Bela Vista, 1351 - Palmas das Gaivotas, Governador Celso Ramos - SC, 88190-000",
+       "municipio": "Governador Celso Ramos"
       },
       {
        "nome": "Nossa Senhora da Piedade",
@@ -2441,10 +2456,11 @@
        "local": "Areias do Meio",
        "ano": null,
        "matriz": false,
-       "lat": -27.3785,
-       "lng": -48.613,
-       "posicao": "localidade",
-       "local_osm": "Areias do Meio (suburb)",
+       "lat": -27.374569,
+       "lng": -48.611062,
+       "posicao": "cnefe",
+       "endereco_google": "R. João Manoel Costa, 600 - Areias do Meio, Governador Celso Ramos - SC, 88190-000",
+       "cnefe": "Igreja Catolica, Rua Joao Manoel Da Costa",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2452,10 +2468,10 @@
        "local": "Ganchos de Fora",
        "ano": null,
        "matriz": false,
-       "lat": -27.3076,
-       "lng": -48.5457,
-       "posicao": "localidade",
-       "local_osm": "Ganchos de Fora (suburb)",
+       "lat": -27.3075,
+       "lng": -48.5501,
+       "posicao": "rua_google",
+       "endereco_google": "R. São Francisco - Ganchos de Fora, Governador Celso Ramos - SC, 88190-000",
        "municipio": "Governador Celso Ramos"
       },
       {
@@ -2933,10 +2949,11 @@
        "local": "Morro da Boa Vista",
        "ano": "1983",
        "matriz": false,
-       "lat": -27.5146,
-       "lng": -48.6797,
-       "posicao": "localidade",
-       "local_osm": "Morro da Boa Vista (hamlet)",
+       "lat": -27.502241,
+       "lng": -48.66523,
+       "posicao": "cnefe",
+       "endereco_google": "R. Vidal Mendes, s/n - Morro da Boa Vista, Biguaçu - SC, 88160-000",
+       "cnefe": "Igreja Da Boa Vista, Rua Vidal Mendes",
        "municipio": "Biguaçu"
       },
       {
@@ -2977,9 +2994,11 @@
        "local": "Saudade",
        "ano": "1982",
        "matriz": false,
-       "posicao": "localidade",
-       "lat": -27.4734,
-       "lng": -48.6641,
+       "posicao": "cnefe",
+       "lat": -27.468527,
+       "lng": -48.669138,
+       "endereco_google": "R. Treze de Maio, 2845 - Saudade, Biguaçu - SC, 88160-000",
+       "cnefe": "Igreja, Rua Treze De Maio",
        "municipio": "Biguaçu"
       },
       {
@@ -3493,9 +3512,11 @@
        "local": "Jaqueira",
        "ano": "1997",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.663241,
-       "lng": -48.673711,
+       "posicao": "cnefe",
+       "lat": -27.666591,
+       "lng": -48.695139,
+       "endereco_google": "R. Aureliano Medeiros, 790-932 - Jaqueira / Aririú, Palhoça - SC",
+       "cnefe": "Igreja Catolica, Rua Aureliano Medeiros",
        "municipio": "Palhoça"
       },
       {
@@ -3514,9 +3535,11 @@
        "local": "Jardim Laranjeiras",
        "ano": "1997",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.677679,
-       "lng": -48.671689,
+       "posicao": "cnefe",
+       "lat": -27.674659,
+       "lng": -48.653404,
+       "endereco_google": "R. Nove de Julho, 165 - Jardim Laranjeiras / Barra do Aririú, Palhoça - SC, 88134-440",
+       "cnefe": "Igreja Catolica, Rua Nove De Julho, 165",
        "municipio": "Palhoça"
       },
       {
@@ -3535,9 +3558,11 @@
        "local": "Areias",
        "ano": "1989",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.672014,
-       "lng": -48.686797,
+       "posicao": "cnefe",
+       "lat": -27.675513,
+       "lng": -48.646492,
+       "endereco_google": "R. Bom Jesus das Areias, 56 - Areias / Barra do Aririú, Palhoça - SC, 88134-560",
+       "cnefe": "Igreja Bom Jesus Das Areias, Rua Bom Jesus Das Areias",
        "municipio": "Palhoça"
       },
       {
@@ -3845,10 +3870,11 @@
        "local": "Jardim Eldorado",
        "ano": "1978",
        "matriz": false,
-       "lat": -27.6242,
-       "lng": -48.6624,
-       "posicao": "localidade",
-       "local_osm": "Jardim Eldorado (suburb)",
+       "lat": -27.627468,
+       "lng": -48.664402,
+       "posicao": "cnefe",
+       "endereco_google": "R. Pedro Álvares Cabral, 294 - Jardim Eldorado, Palhoça - SC, 88133-420",
+       "cnefe": "Igreja Catolica Eldorado, Rua Pedro Alvares Cabral",
        "municipio": "Palhoça"
       },
       {
@@ -3867,9 +3893,11 @@
        "local": "Jardim Eucaliptus",
        "ano": "1977",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.626109,
-       "lng": -48.647694,
+       "posicao": "cnefe",
+       "lat": -27.633666,
+       "lng": -48.660211,
+       "endereco_google": "R. Santos Dumont, 54 - Jardim Eucaliptus / Ponte do Imaruim, Palhoça - SC, 88130-630",
+       "cnefe": "Igreja Catolica, Rua Santos Dumont",
        "municipio": "Palhoça"
       },
       {
@@ -3954,9 +3982,10 @@
        "local": "(Gruta) Bela Vista",
        "ano": "2009",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.63573,
-       "lng": -48.663599,
+       "posicao": "rua_google",
+       "lat": -27.6579,
+       "lng": -48.7095,
+       "endereco_google": "Servidão Gruta Nossa Senhora Aparecida - Bela Vista, Palhoça - SC, 88132-812",
        "municipio": "Palhoça"
       },
       {
@@ -3976,8 +4005,8 @@
        "ano": "2013",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.644346,
-       "lng": -48.656258,
+       "lat": -27.637203,
+       "lng": -48.664302,
        "municipio": "Palhoça"
       },
       {
@@ -4009,8 +4038,8 @@
        "ano": "2012",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.654293,
-       "lng": -48.661,
+       "lat": -27.64926,
+       "lng": -48.658788,
        "municipio": "Palhoça"
       },
       {
@@ -4019,8 +4048,8 @@
        "ano": "1982",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.655624,
-       "lng": -48.673083,
+       "lat": -27.654151,
+       "lng": -48.67238,
        "municipio": "Palhoça"
       },
       {
@@ -4028,9 +4057,11 @@
        "local": "Belmar",
        "ano": "2002",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.647008,
-       "lng": -48.680424,
+       "posicao": "cnefe",
+       "lat": -27.641552,
+       "lng": -48.654666,
+       "endereco_google": "R. Albertina de Morães - Belmar / Ponte do Imaruim, Palhoça - SC, 88130-300",
+       "cnefe": "Comunidade Santa Paulina, Rua Albertina De Moraes, 42",
        "municipio": "Palhoça"
       },
       {
@@ -4051,8 +4082,8 @@
        "ano": "2019",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.637061,
-       "lng": -48.675682,
+       "lat": -27.642094,
+       "lng": -48.677894,
        "municipio": "Palhoça"
       },
       {
@@ -4285,10 +4316,11 @@
        "local": "Alto Garcia",
        "ano": "1987",
        "matriz": false,
-       "lat": -27.5845,
-       "lng": -49.0196,
-       "posicao": "localidade",
-       "local_osm": "Alto Garcia (hamlet)",
+       "lat": -27.58458,
+       "lng": -49.020343,
+       "posicao": "cnefe",
+       "endereco_google": "Estrada Geral Alto Garcia - Alto Garcia, Angelina - SC, 88460-000",
+       "cnefe": "Igreja, Estrada Geral Alto Garcia",
        "municipio": "Angelina"
       },
       {
@@ -4468,8 +4500,8 @@
        "ano": "1974",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.678009,
-       "lng": -48.7734,
+       "lat": -27.678746,
+       "lng": -48.773751,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4488,20 +4520,23 @@
        "local": "Loeffelscheidt",
        "ano": "1843",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.685563,
-       "lng": -48.7659,
-       "municipio": "Santo Amaro da Imperatriz"
+       "posicao": "cnefe",
+       "lat": -27.690701,
+       "lng": -48.919858,
+       "endereco_google": "Estrada Geral Loeffelscheidt - Loeffelscheidt, Águas Mornas - SC, 88150-000",
+       "cnefe": "Igreja Catolica, Estrada Geral Loeffelscheidt",
+       "municipio": "Águas Mornas"
       },
       {
        "nome": "Nossa Senhora da Rosa Mística",
        "local": "Caldas",
        "ano": "1981",
        "matriz": false,
-       "lat": -27.7139,
-       "lng": -48.8075,
-       "posicao": "localidade",
-       "local_osm": "Caldas da Imperatriz (suburb)",
+       "lat": -27.715611,
+       "lng": -48.808799,
+       "posicao": "cnefe",
+       "endereco_google": "R. Princesa Leopoldina, 1100 - Caldas da Imperatriz, Santo Amaro da Imperatriz - SC, 88140-000",
+       "cnefe": "Igreja, Rua Princesa Leopoldina",
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4532,8 +4567,8 @@
        "ano": "1963",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.695474,
-       "lng": -48.767883,
+       "lat": -27.687362,
+       "lng": -48.76641,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4575,8 +4610,8 @@
        "ano": "1968",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.700279,
-       "lng": -48.777855,
+       "lat": -27.697309,
+       "lng": -48.771152,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4585,8 +4620,8 @@
        "ano": "1917",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.696359,
-       "lng": -48.788308,
+       "lat": -27.69864,
+       "lng": -48.783235,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4606,8 +4641,8 @@
        "ano": "1862",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.686666,
-       "lng": -48.79137,
+       "lat": -27.690024,
+       "lng": -48.790576,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -4627,8 +4662,8 @@
        "ano": "1962",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.6785,
-       "lng": -48.784735,
+       "lat": -27.680077,
+       "lng": -48.785834,
        "municipio": "Santo Amaro da Imperatriz"
       },
       {
@@ -5421,8 +5456,8 @@
        "ano": "1921",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.232701,
-       "lng": -48.628793,
+       "lat": -27.233437,
+       "lng": -48.629145,
        "municipio": "Tijucas"
       },
       {
@@ -5431,8 +5466,8 @@
        "ano": "2013",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.241317,
-       "lng": -48.621452,
+       "lat": -27.243505,
+       "lng": -48.622303,
        "municipio": "Tijucas"
       },
       {
@@ -5473,9 +5508,10 @@
        "local": "Hospital São José",
        "ano": "1942",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.251264,
-       "lng": -48.626194,
+       "posicao": "rua_google",
+       "lat": -27.2445,
+       "lng": -48.6358,
+       "endereco_google": "R. Coronel Buchelle, s/n - Centro, Tijucas - SC, 88200-000",
        "municipio": "Tijucas"
       },
       {
@@ -5518,8 +5554,8 @@
        "ano": "1995",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.252595,
-       "lng": -48.638277,
+       "lat": -27.252388,
+       "lng": -48.630983,
        "municipio": "Tijucas"
       },
       {
@@ -5528,8 +5564,8 @@
        "ano": "1899",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.243979,
-       "lng": -48.645618,
+       "lat": -27.247811,
+       "lng": -48.64319,
        "municipio": "Tijucas"
       },
       {
@@ -5571,8 +5607,8 @@
        "ano": "1998",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -27.234032,
-       "lng": -48.640876,
+       "lat": -27.236098,
+       "lng": -48.642054,
        "municipio": "Tijucas"
       },
       {
@@ -6155,10 +6191,10 @@
        "local": "José Amândio",
        "ano": "2004",
        "matriz": false,
-       "lat": -27.1545,
-       "lng": -48.5058,
-       "posicao": "localidade",
-       "local_osm": "José Amândio (suburb)",
+       "lat": -27.153,
+       "lng": -48.5052,
+       "posicao": "rua_google",
+       "endereco_google": "R. Leão Marinho, 749 - José Amândio, Bombinhas - SC, 88215-000",
        "municipio": "Bombinhas"
       },
       {
@@ -6215,9 +6251,12 @@
        "local": "Jardim Praiamar",
        "ano": "1999",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.130903,
-       "lng": -48.593354
+       "posicao": "cnefe",
+       "lat": -27.131655,
+       "lng": -48.616037,
+       "endereco_google": "R. 436-A, 355 - Jardim Praiamar / Morretes, Itapema - SC, 88220-000",
+       "cnefe": "Comunidade Nossa Senhora Das Grancas, Rua 436 A, 355",
+       "municipio": "Itapema"
       },
       {
        "nome": "São Francisco de Assis",
@@ -6356,10 +6395,11 @@
        "local": "Perequê",
        "ano": "1976",
        "matriz": false,
-       "lat": -27.1561,
-       "lng": -48.5745,
-       "posicao": "localidade",
-       "local_osm": "Balneário Perequê (suburb)",
+       "lat": -27.15543,
+       "lng": -48.575876,
+       "posicao": "cnefe",
+       "endereco_google": "R. Nicolau Maggi, 2-162 - Sertão de Santa Luzia, Porto Belo - SC, 88210-000",
+       "cnefe": "Pavilhao Igreja, Rua Nicolau Maggi",
        "municipio": "Porto Belo"
       },
       {
@@ -6379,10 +6419,11 @@
        "local": "Alto Perequê",
        "ano": "1987",
        "matriz": false,
-       "lat": -27.1664,
-       "lng": -48.5924,
-       "posicao": "localidade",
-       "local_osm": "Alto Perequê (suburb)",
+       "lat": -27.169704,
+       "lng": -48.589525,
+       "posicao": "cnefe",
+       "endereco_google": "Av. José Neoli Cruz, 1083-1355 - Santa Catarina, Porto Belo - SC, 88210-000",
+       "cnefe": "Igreja, Avenida Jose Neoli Cruz",
        "municipio": "Porto Belo"
       },
       {
@@ -6644,10 +6685,11 @@
        "local": "Taquaras",
        "ano": "1980",
        "matriz": false,
-       "lat": -27.0095,
-       "lng": -48.5814,
-       "posicao": "localidade",
-       "local_osm": "Taquaras (suburb)",
+       "lat": -27.01101,
+       "lng": -48.580825,
+       "posicao": "cnefe",
+       "endereco_google": "Av. Rodesindo Pavan, 2542 - Taquaras, Balneário Camboriú - SC, 88333-150",
+       "cnefe": "Igreja Catolica, Avenida Rodesindo Pavan",
        "municipio": "Balneário Camboriú"
       }
      ],
@@ -6726,10 +6768,11 @@
        "local": "Jardim Europa",
        "ano": "2020",
        "matriz": false,
-       "lat": -27.0358,
-       "lng": -48.6755,
-       "posicao": "localidade",
-       "local_osm": "Loteamento Jardim Europa (residential)",
+       "lat": -27.035023,
+       "lng": -48.661937,
+       "posicao": "cnefe",
+       "endereco_google": "R. Jesuíno Anastácio Pereira, 1819 - Santa Regina / Jardim Europa, Camboriú - SC, 88340-000",
+       "cnefe": "Igreja, Rua Jesuino Anastacio Pereira, 374",
        "municipio": "Camboriú"
       },
       {
@@ -6879,10 +6922,11 @@
        "local": "Rua Paquistão (B. das Nações)",
        "ano": "2002",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -26.951561,
-       "lng": -48.636372,
-       "municipio": "Itajaí"
+       "posicao": "rua_google",
+       "lat": -26.9772,
+       "lng": -48.6537,
+       "endereco_google": "R. Paquistão, 570 - Nações, Balneário Camboriú - SC, 88338-180",
+       "municipio": "Balneário Camboriú"
       },
       {
        "nome": "São Francisco de Assis",
@@ -6938,10 +6982,10 @@
        "local": "Conde Vila Verde",
        "ano": "1989",
        "matriz": false,
-       "lat": -27.0026,
-       "lng": -48.6703,
-       "posicao": "localidade",
-       "local_osm": "Conde Vila Verde (suburb)",
+       "lat": -27.0042,
+       "lng": -48.6673,
+       "posicao": "rua_google",
+       "endereco_google": "R. Monte Castelito - Conde Vila Verde, Camboriú - SC, 88348-000",
        "municipio": "Camboriú"
       },
       {
@@ -6950,8 +6994,8 @@
        "ano": "2007",
        "matriz": false,
        "posicao": "aprox",
-       "lat": -26.992337,
-       "lng": -48.656541,
+       "lat": -26.993074,
+       "lng": -48.656893,
        "municipio": "Balneário Camboriú"
       },
       {
@@ -6959,9 +7003,10 @@
        "local": "Jardim Aliança",
        "ano": "2016",
        "matriz": false,
-       "posicao": "aprox",
-       "lat": -27.006337,
-       "lng": -48.663215,
+       "posicao": "rua_google",
+       "lat": -26.9982,
+       "lng": -48.6657,
+       "endereco_google": "R. Monte Rosa - Jardim Aliança, Camboriú - SC, 88348-000",
        "municipio": "Camboriú"
       },
       {
@@ -7040,10 +7085,11 @@
        "local": "Praia Brava",
        "ano": "1985",
        "matriz": false,
-       "lat": -26.9489,
-       "lng": -48.6372,
-       "posicao": "localidade",
-       "local_osm": "Praia Brava (suburb)",
+       "lat": -26.948271,
+       "lng": -48.642953,
+       "posicao": "cnefe",
+       "endereco_google": "R. Bráulio Werner, 196 - Santa Clara / Praia Brava, Itajaí - SC, 88306-730",
+       "cnefe": "Igreja Catolica, Rua Braulio Werner",
        "municipio": "Itajaí"
       },
       {
@@ -7948,10 +7994,11 @@
        "local": "Ribeirão do Mafra",
        "ano": "1896",
        "matriz": false,
-       "lat": -27.1995,
-       "lng": -48.9568,
-       "posicao": "localidade",
-       "local_osm": "Ribeirão do Mafra (hamlet)",
+       "lat": -27.201648,
+       "lng": -48.957747,
+       "posicao": "cnefe",
+       "endereco_google": "Estrada Geral Ribeirão do Mafra - Ribeirão do Mafra, Brusque - SC, 88359-000",
+       "cnefe": "Capela Sao Joao, Rua Ribeirao Do Mafra",
        "municipio": "Brusque"
       },
       {
@@ -8319,10 +8366,11 @@
        "local": "Ponta Russa",
        "ano": "1893",
        "matriz": false,
-       "lat": -27.1436,
-       "lng": -48.8881,
-       "posicao": "localidade",
-       "local_osm": "Ponta Russa (suburb)",
+       "lat": -27.148039,
+       "lng": -48.877874,
+       "posicao": "cnefe",
+       "endereco_google": "Estrada Geral Ponta Russa - Ponta Russa, Brusque - SC, 88357-000",
+       "cnefe": "Igreja Sao Franscisco De Assis, Rua Ponta Russa, 1555",
        "municipio": "Brusque"
       }
      ],
@@ -8356,10 +8404,10 @@
        "local": "São Luiz",
        "ano": "1977",
        "matriz": false,
-       "lat": -27.0839,
-       "lng": -48.9125,
-       "posicao": "localidade",
-       "local_osm": "São Luiz (suburb)",
+       "lat": -27.0817,
+       "lng": -48.915,
+       "posicao": "rua_google",
+       "endereco_google": "R. Carlos Henrique Bruns, 388 - São Luiz, Brusque - SC, 88351-300",
        "municipio": "Brusque"
       },
       {
@@ -8367,10 +8415,11 @@
        "local": "Steffen",
        "ano": "1980",
        "matriz": false,
-       "lat": -27.0735,
-       "lng": -48.9071,
-       "posicao": "localidade",
-       "local_osm": "Steffen (suburb)",
+       "lat": -27.074105,
+       "lng": -48.907719,
+       "posicao": "cnefe",
+       "endereco_google": "R. Guilherme Steffen, 331 - Steffen, Brusque - SC, 88355-100",
+       "cnefe": "Igreja Catolica, Rua Guilherme Steffen",
        "municipio": "Brusque"
       },
       {
@@ -8378,10 +8427,10 @@
        "local": "Jardim Maluche",
        "ano": "1974",
        "matriz": false,
-       "lat": -27.104,
-       "lng": -48.9299,
-       "posicao": "localidade",
-       "local_osm": "Jardim Maluche (suburb)",
+       "lat": -27.1087,
+       "lng": -48.9316,
+       "posicao": "rua_google",
+       "endereco_google": "R. Dr. Waldir Walendowsky, 149 - Jardim Maluche, Brusque - SC, 88354-670",
        "municipio": "Brusque"
       },
       {

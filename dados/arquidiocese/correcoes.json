@@ -2,10 +2,10 @@
  "_sobre": "Posições conferidas à mão em 22/11/2026 (consulta ao OpenStreetMap/Nominatim). Chave: paróquia|nome|localidade como no site.",
  "posicoes": {
   "sao-francisco-de-assis-2|São Francisco de Assis|Forquilhinhas": {
-   "lat": -27.598438,
-   "lng": -48.642367,
-   "posicao": "localidade",
-   "fonte": "OSM: bairro Forquilhinha, São José"
+   "lat": -27.600693,
+   "lng": -48.641045,
+   "posicao": "cnefe",
+   "fonte": "CNEFE 2022: Igreja, Rua Vereador Arthur Manoel Mariano, ao lado da secretaria paroquial (nº 880, endereço da paróquia no site)"
   },
   "nossa-senhora-aparecida-2|Nossa Senhora Aparecida|Procasa": {
    "lat": -27.58469,
