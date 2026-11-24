@@ -1,0 +1,350 @@
+Preciso localizar no Google Maps estas 211 igrejas e capelas católicas da Arquidiocese de Florianópolis (SC), organizadas por forania e paróquia.
+
+Para CADA linha com código, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: PAL07).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, na mesma ordem.
+- Se a resposta ficar longa demais, pare no fim de uma forania e eu peço para continuar a partir do próximo código.
+
+Lista (CÓDIGO | igreja | localidade | município):
+
+=== Forania Florianópolis Centro-Sul ===
+Paróquia Nossa Senhora da Boa Viagem (Florianópolis)
+FCS01 | Senhor Bom Jesus | Cachoeira do Rio Tavares | Florianópolis
+
+Paróquia Nossa Senhora da Lapa (Florianópolis)
+FCS02 | Nossa Senhora da Lapa | Barro Vermelho | Florianópolis
+FCS03 | São João Batista | Caieira da Barra do Sul | Florianópolis
+
+Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Florianópolis)
+FCS04 | São José e Nossa Senhora de Nazaré | Morro do Vinte e Cinco | Florianópolis
+FCS05 | Transfiguração Senhor Bom Jesus | Morro do Céu | Florianópolis
+
+Paróquia Nossa Senhora do Desterro e Santa Catarina (Florianópolis)
+FCS06 | Capela Nossa Senhora das Graças | H.G.C.R. | Florianópolis
+FCS07 | Capela São José | Asilo Irmão Joaquim | Florianópolis
+FCS08 | Igreja Menino Jesus de Praga | C.E.M. Jesus | Florianópolis
+FCS09 | Igreja Nossa Senhora Aparecida | Alto da Caieira | Florianópolis
+FCS10 | Igreja Nossa Senhora do Monte Serrat | Gal.Vieira da Rosa, 610 | Florianópolis
+FCS11 | Igreja Sagrado Coração de Jesus | Col. Bom Jesus/C. de Jesus | Florianópolis
+FCS12 | Igreja Santíssima Trindade | Provincialado D.P. | Florianópolis
+FCS13 | Igreja São Sebastião | Largo São Sebastião | Florianópolis
+FCS14 | Igreja do Senhor Jesus dos Passos (Irmand.) | Hospital de Caridade | Florianópolis
+
+Paróquia Nossa Senhora do Sagrado Coração (Florianópolis)
+FCS15 | Nossa Senhora Aparecida e São Cristóvão | Morro das Pedras | Florianópolis
+
+Paróquia Santa Teresinha do Menino Jesus (Florianópolis)
+FCS16 | Nossa Senhora Aparecida | Morro da “Mariquinha” | Florianópolis
+FCS17 | São Sebastião | Morro da Queimada | Florianópolis
+
+=== Forania Florianópolis Norte ===
+Paróquia Nossa Senhora da Imaculada Conceição da Lagoa (Florianópolis)
+FNO01 | Nossa Senhora Aparecida | Canto da Lagoa | Florianópolis
+FNO02 | Santa Cruz | Retiro da Lagoa | Florianópolis
+FNO03 | Santa Cruz | Costa da Lagoa | Florianópolis
+FNO04 | Santa Cruz | Fortaleza da Lagoa | Florianópolis
+
+Paróquia Nossa Senhora das Necessidades (Florianópolis)
+FNO05 | Santa Cruz | Cacupé | Florianópolis
+FNO06 | Santa Luzia | Recanto dos Açores | Florianópolis
+FNO07 | São Pedro Apóstolo | Sambaqui | Florianópolis
+FNO08 | São Sebastião | Barra do Sambaqui | Florianópolis
+
+Paróquia Nossa Senhora de Guadalupe (Florianópolis)
+FNO09 | Divino Espírito Santo | Lamin | Florianópolis
+FNO10 | Santa Cruz | Vargem Grande I | Florianópolis
+
+Paróquia Sagrado Coração de Jesus (Florianópolis)
+FNO11 | Santos Arcanjos | Capivari de Cima | Florianópolis
+
+Paróquia Santíssima Trindade (Florianópolis)
+FNO12 | Santa Mônica | Santa Mônica | Florianópolis
+
+Paróquia São Francisco Xavier (Florianópolis)
+FNO13 | Nossa Senhora de Fátima | Morro do Balão | Florianópolis
+FNO14 | Nossa Senhora do Perpétuo Socorro | Lot. João G. da Costa | Florianópolis
+FNO15 | São José | Caminho da Cruz | Florianópolis
+
+=== Forania Florianópolis Continente ===
+Paróquia São José e Santa Rita de Cássia (Florianópolis)
+FCO01 | Nossa Senhora da Rosa Mística | Rua Pref. Gasparino Dutra | Florianópolis
+
+=== Forania São José ===
+Paróquia São José (São José)
+SJO01 | Ir. de Nosso Senhor Bom Jesus dos Passos | Centro | São José
+SJO02 | Nossa Senhora dos Navegantes | Ponta de Baixo | São José
+SJO03 | Senhor do Bom Fim | Centro Histórico | São José
+
+Paróquia Sant'Ana (São José)
+SJO04 | Nossa Senhora Aparecida | Pagará Grande | São José
+SJO05 | Santa Clara e Santo Antônio | Mariquita de Dentro/Fora | São José
+SJO06 | Santa Terezinha do Menino Jesus | Vila Formosa | São José
+SJO07 | Sant’Ana | Hospital / I. P. Q. | São José
+
+Paróquia São Francisco de Assis (São José)
+SJO08 | Nossa Senhora Desatadora dos Nós | Horto Florestal | São José
+SJO09 | São João Batista | Forquilhas | São José
+
+=== Forania São José – Barreiros ===
+Paróquia Nossa Senhora do Rosário - São José (São José)
+SJB01 | Nossa Senhora Aparecida | São Luiz / Morro do Avaí | São José
+
+Paróquia Nossa Senhora dos Navegantes e São Pedro - Serraria (São José)
+SJB02 | Nossa Senhora Rainha da Paz | Jardim Bom Viver | Biguaçu
+SJB03 | Santa Teresinha | Jardim Janaína | São José
+
+Paróquia Santa Cruz (São José)
+SJB04 | São Judas Tadeu | Alvorada | São José
+SJB05 | São Miguel e Santa Rita | Dona Adélia | São José
+
+=== Forania Biguaçu ===
+Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)
+BIG01 | Oratório Divino Espírito Santo | Ganchos do Meio | Governador Celso Ramos
+BIG02 | Sant’Ana | Caieira | Governador Celso Ramos
+BIG03 | Senhor Bom Jesus | Costeira da Armação | Governador Celso Ramos
+BIG04 | São Lucas | Jordão | Governador Celso Ramos
+BIG05 | São Sebastião | Fazenda da Armação | Governador Celso Ramos
+
+Paróquia São João Batista - Biguaçu (Biguaçu)
+BIG06 | Comunidade de Jardim Carolina (nome não informado no site) | Jardim Carolina | Biguaçu
+BIG07 | Nossa Senhora Aparecida | Sorocaba de Dentro | Biguaçu
+BIG08 | São Cristóvão | Canudos | Biguaçu
+BIG09 | São José | Amâncio | Biguaçu
+BIG10 | São Mateus | São Mateus | Biguaçu
+BIG11 | São Sebastião | Fundos | Biguaçu
+
+Paróquia São João Evangelista (Biguaçu)
+BIG12 | Santa Cruz | Rússia | Biguaçu
+BIG13 | Santa Teresinha | Jardim Sueli | Biguaçu
+BIG14 | Santa Teresinha | Estiva do Inferninho | Biguaçu
+BIG15 | Sant’Ana | Prado | Biguaçu
+BIG16 | Senhor Bom Jesus | Fazenda de Dentro | Biguaçu
+BIG17 | São Cristóvão | Areias de Cima | Biguaçu
+BIG18 | São José | Amâncio | Biguaçu
+
+=== Forania Palhoça ===
+Paróquia Nossa Senhora do Rosário (Palhoça)
+PAL01 | Nossa Senhora Aparecida | Morretes II | Palhoça
+PAL02 | Nossa Senhora Aparecida | Fazenda Santa Cruz | Palhoça
+PAL03 | Santa Teresinha do Menino Jesus | Guarda do Embaú | Palhoça
+PAL04 | Santo Antônio e Santa Cruz | Praia de Fora | Palhoça
+PAL05 | Senhor Bom Jesus | Casa Branca | Palhoça
+PAL06 | São Francisco de Assis | Ponta dos Papagaios | Palhoça
+PAL07 | São João Batista | Três Barras | Palhoça
+PAL08 | São Judas Tadeu | Furadinho | Palhoça
+
+Paróquia Sagrado Coração de Jesus (Paulo Lopes)
+PAL09 | Nossa Senhora da Estrada | Penha | Paulo Lopes
+PAL10 | Nossa Senhora do Perpétuo Socorro | Bom Retiro | Paulo Lopes
+PAL11 | Santa Paulina | Freitas | Paulo Lopes
+PAL12 | Santo Antônio | Areias | Paulo Lopes
+PAL13 | Senhor Bom Jesus | Cova Triste | Paulo Lopes
+PAL14 | São Sebastião | Sorocaba | Paulo Lopes
+PAL15 | São Sebastião | Gamboa | Paulo Lopes
+
+Paróquia São Francisco de Assis (Aririú/Palhoça) (Palhoça)
+PAL16 | Santa Paulina | Vila Nova | Palhoça
+
+Paróquia São Joaquim (Garopaba)
+PAL17 | Capela Senhor Bom Jesus | Centro | Garopaba
+PAL18 | Cristo Rei | Costa do Macacu | Garopaba
+PAL19 | Gruta Nossa Senhora de Lourdes | Vigia | Garopaba
+PAL20 | Igreja Histórica São Joaquim | Centro | Garopaba
+PAL21 | Nossa Senhora da Glória | Campo D’uma | Garopaba
+PAL22 | Sagrado Coração de Jesus | Prainha | Garopaba
+PAL23 | Senhor Bom Jesus | Pinguirito | Garopaba
+PAL24 | Senhor Bom Jesus | Macacu | Garopaba
+PAL25 | São Francisco | Palhocinha | Garopaba
+PAL26 | São Francisco | Areias do Macacu | Garopaba
+PAL27 | São José Operário | Serraria | Garopaba
+PAL28 | São Lourenço | Morro dos Fortunatos | Garopaba
+PAL29 | São Luiz Gonzaga | Morro da Encantada | Garopaba
+PAL30 | São Pedro | Capão | Garopaba
+PAL31 | São Sebastião | Areias do Ambrósio | Garopaba
+
+Paróquia São Judas Tadeu e São João Batista (Palhoça)
+PAL32 | Nossa Senhora do Rosário | Brejarú | Palhoça
+
+Paróquia Senhor Bom Jesus de Nazaré (Palhoça)
+PAL33 | Nossa Senhora das Graças | Morro do Gato | Palhoça
+PAL34 | Sagrado Coração de Jesus | (Bocão) São Sebastião | Palhoça
+PAL35 | Santa Luzia | Fazenda Pedra Branca | Palhoça
+PAL36 | Santa Teresinha do Menino Jesus | Centro | Palhoça
+PAL37 | Sant’Ana | Caminho Novo | Palhoça
+PAL38 | São Sebastião | São Sebastião | Palhoça
+
+=== Forania Santo Amaro ===
+Paróquia Nossa Senhora da Imaculada Conceição (Angelina) (Angelina)
+SAM01 | Nossa Senhora da I. Conceição | Centro | Angelina
+SAM02 | Imaculado Coração de Maria | Rancho Queimado | Angelina
+SAM03 | Nossa Senhora Aparecida | Rio Bonito | Angelina
+SAM04 | Nossa Senhora de Fátima | Invernadinha | Angelina
+SAM05 | Nossa Senhora dos Anjos | Mato Francês | Angelina
+SAM06 | Santa Cruz | Rio São João | Angelina
+SAM07 | Sant’Ana | Rio Fortuna | Angelina
+SAM08 | São Bonifácio | Taquaras | Angelina
+
+Paróquia Sagrado Coração de Jesus (Leoberto Leal)
+SAM09 | São Floriano | Boiteuxburgo | Leoberto Leal
+SAM10 | São Miguel | Diamante | Leoberto Leal
+
+Paróquia Santo Amaro (Santo Amaro da Imperatriz)
+SAM11 | Cristo Ressuscitado | Ressurreição | Santo Amaro da Imperatriz
+SAM12 | Nossa Senhora de Fátima | Taquara | Santo Amaro da Imperatriz
+SAM13 | Nossa Senhora de Lourdes | Gruta do Velacho | Santo Amaro da Imperatriz
+SAM14 | Nossa Senhora de Lourdes | Lourdes | Santo Amaro da Imperatriz
+SAM15 | Santa Cruz | Santa Cruz da Figueira | Santo Amaro da Imperatriz
+SAM16 | Santa Isabel | Santa Isabel | Santo Amaro da Imperatriz
+SAM17 | Santa Teresa D’Ávila | Teresópolis | Santo Amaro da Imperatriz
+SAM18 | Sant’Ana | Sertão | Santo Amaro da Imperatriz
+SAM19 | Senhor Bom Jesus | Bom Jesus | Santo Amaro da Imperatriz
+SAM20 | São João Batista | Braço São João | Santo Amaro da Imperatriz
+SAM21 | São Pedro | Calemba | Santo Amaro da Imperatriz
+
+Paróquia São Bonifácio (São Bonifácio)
+SAM22 | Natividade | Santa Maria | São Bonifácio
+SAM23 | Santa Brígida | Rio Novo | São Bonifácio
+SAM24 | Santa Teresinha do Menino Jesus | Rio Poncho | São Bonifácio
+SAM25 | São Pedro e São Paulo | Rio Salto | São Bonifácio
+
+Paróquia São Sebastião (Anitápolis)
+SAM26 | Divino Espírito Santo | Rio Cachimbo | Anitápolis
+SAM27 | Nossa Senhora Aparecida | Vila Antônio David | Anitápolis
+SAM28 | Nossa Senhora das Graças | Rio do Ouro | Anitápolis
+SAM29 | Santa Bárbara | Rio da Prata | Anitápolis
+SAM30 | Santa Paulina | Barra Gaspar | Anitápolis
+SAM31 | Santa Teresinha | Povoamento Igreja | Anitápolis
+SAM32 | São Pedro e São Paulo | São Paulo dos Pinheiros | Anitápolis
+
+=== Forania Tijucas ===
+Paróquia Sant'Ana (Canelinha)
+TIJ01 | Imaculada Conceição | Moura | Canelinha
+TIJ02 | Nossa Senhora Aparecida | Papagaios | Canelinha
+TIJ03 | Nossa Senhora de Fátima | Cobre | Canelinha
+TIJ04 | São João Batista | Vila Nova - Moura | Canelinha
+
+Paróquia São João Batista (São João Batista)
+TIJ05 | Divino Espírito Santo | Carmelo | São João Batista
+TIJ06 | Nossa Senhora de Fátima | Ribanceira do Sul | São João Batista
+TIJ07 | Nossa Senhora de Guadalupe | Timbézinho | São João Batista
+TIJ08 | Santo Agostinho | Krecker | São João Batista
+TIJ09 | São Cristóvão | Centro de Fernandes | São João Batista
+
+Paróquia São Sebastião - Tijucas (Tijucas)
+TIJ10 | Espírito Santo | Lar Nossa Senhora da Paz | Tijucas
+TIJ11 | Nossa Senhora aparecida | Jardim Progresso | Tijucas
+TIJ12 | Santa Rita de Cássia | Sul do Rio | Tijucas
+TIJ13 | Santa Teresinha | Bairro Universitário | Tijucas
+TIJ14 | Senhor Bom Jesus | Porto da Itinga | Tijucas
+TIJ15 | São Brás | XV de Novembro | Tijucas
+TIJ16 | São João Batista | Centro do Itinga | Tijucas
+
+Paróquia São Virgílio (Nova Trento)
+TIJ17 | Nossa Senhora de Fátima | Espraiado de Claraíba | Nova Trento
+TIJ18 | Santo Inácio de Loyola | Alto Pitanga | Nova Trento
+TIJ19 | Santuário Nossa Senhora do Bom Socorro | Morro da Cruz | Nova Trento
+TIJ20 | São João Batista | Calvário/Bairro Trinta Réis | Nova Trento
+TIJ21 | São Valentin | São Valentin | Nova Trento
+
+Paróquia Senhor Bom Jesus (Major Gercino)
+TIJ22 | Madre Paulina | Canta Galo | Major Gercino
+TIJ23 | Nossa Senhora das Graças | Rio do Alho | Major Gercino
+TIJ24 | São Sebastião | Boa Esperança | Major Gercino
+
+=== Forania Itapema ===
+Paróquia Nossa Senhora da Imaculada Conceição (Bombinhas)
+ITP01 | Divino Espírito Santo | Sertãozinho | Bombinhas
+
+Paróquia Sagrado Coração de Jesus (Itapema)
+ITP02 | São Francisco de Assis | Meia Praia | Itapema
+
+Paróquia Santo Antônio (Itapema)
+ITP03 | Sagrada Família | Alto São Bento | Itapema
+ITP04 | São Miguel | Estaleirinho | Itapema
+
+=== Forania Camboriú ===
+Paróquia Divino Espírito Santo (Camboriú)
+CAM01 | Cristo Ressuscitado | Jardim Paraíso | Camboriú
+CAM02 | Sagrada Família | Rio Pequeno | Camboriú
+CAM03 | Santa Paulina | João da Costa | Camboriú
+CAM04 | Santo Antônio | Asilo | Camboriú
+CAM05 | São Bento | Certa / Vila da Pedra | Camboriú
+
+Paróquia Nossa Senhora Aparecida (Balneário Camboriú)
+CAM06 | Sagrado Coração de Jesus | Morro do Boi | Balneário Camboriú
+CAM07 | Santo Amaro | Barra | Balneário Camboriú
+CAM08 | São Francisco de Assis | (Barranco) São Francisco de Assis | Camboriú
+
+Paróquia Nossa Senhora do Bom Sucesso (Camboriú)
+CAM09 | Nossa Senhora de Gudalupe | Areias | Camboriú
+CAM10 | São José de Anchieta | Areias | Camboriú
+
+Paróquia Senhor Bom Jesus (Camboriú)
+CAM11 | Santa Paulina | Jardim Bela Vista | Balneário Camboriú
+CAM12 | São Roque | Várzea do Ranchinho | Camboriú
+
+=== Forania Itajaí ===
+Paróquia São Cristóvão (Itajaí)
+ITJ01 | Divino Espírito Santo | Volta de Cima | Itajaí
+ITJ02 | Santa Paulina | Lot. Portal I | Itajaí
+ITJ03 | Santa Regina (L. Sta. Regina) | Espinheiros | Itajaí
+ITJ04 | São José | Jardim Progresso | Itajaí
+
+Paróquia São João Batista (Itajaí)
+ITJ05 | Cristo Ressuscitado | Nova Brasília | Itajaí
+ITJ06 | Nossa Senhora Aparecida | Imaruim | Itajaí
+ITJ07 | São Francisco de Assis | Imaruim | Itajaí
+
+Paróquia São João Bosco (Itajaí)
+ITJ08 | Santa Teresinha | Ressacada | Itajaí
+
+Paróquia São Pedro Apóstolo (Itajaí)
+ITJ09 | Nossa Senhora Imaculada Conceição | Canhanduba I | Itajaí
+ITJ10 | Nossa Senhora de Fátima | Rio do Meio | Itajaí
+ITJ11 | Santo Antônio | Brilhante II | Itajaí
+ITJ12 | São Roque | Arraial dos Cunha | Itajaí
+ITJ13 | São Sebastião | Laranjeiras | Itajaí
+
+Paróquia São Vicente de Paulo (Itajaí)
+ITJ14 | Divino Espírito Santo | Bambuzal | Itajaí
+ITJ15 | Nossa Senhora de Fátima | Cidade Nova | Itajaí
+ITJ16 | São Francisco de Assis | Lot. Copas do Vale | Itajaí
+
+=== Forania Brusque ===
+Paróquia Nossa Senhora de Azambuja (Brusque)
+BRU01 | Ressurreição | Parque da Saudade | Brusque
+
+Paróquia Santa Catarina (Brusque)
+BRU02 | Nossa Senhora de Fátima | Taquaruçu | Brusque
+BRU03 | São José Operário | Rio Branco | Brusque
+BRU04 | São Pedro | Cedro Grande | Brusque
+
+Paróquia Santa Teresinha (Brusque)
+BRU05 | Nossa Senhora da Imaculada Conceição | Planalto | Brusque
+BRU06 | Nossa Senhora do Perpétuo Socorro | Limoeiro | Brusque
+BRU07 | São Francisco de Assis | Ema II | Brusque
+BRU08 | São José | Boêmia | Brusque
+BRU09 | São João Paulo II | Lot. Cyro Gevaerd | Brusque
+BRU10 | São Luís e Santa Zélia | Jardim Azaleia | Brusque
+BRU11 | São Pedro | Ribeirão Tavares | Brusque
+
+Paróquia São José (Botuverá)
+BRU12 | Santo Amaro | Areia Alta | Botuverá
+BRU13 | São Roque e São João Batista | Pedras Grandes | Botuverá
+BRU14 | São Sebastião | Barra das Areias | Botuverá
+
+Paróquia São Judas Tadeu (Brusque)
+BRU15 | Sagrada Família | 1° de Maio | Brusque
+
+Paróquia São Luís Gonzaga (Brusque)
+BRU16 | Nossa Senhora de Lourdes | Alsácia/São Pedro | Brusque
+BRU17 | Santo Antônio | Volta Grande | Brusque
+BRU18 | São Francisco de Assis | Cerâmica Reis | Brusque
+BRU19 | São José | 1º de Maio | Brusque
+BRU20 | São João Batista | Bateias | Brusque
