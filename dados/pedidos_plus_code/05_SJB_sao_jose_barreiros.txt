@@ -1,0 +1,23 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania São José – Barreiros (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: SJB01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 5 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora do Rosário - São José (São José)
+SJB01 | Nossa Senhora Aparecida | São Luiz / Morro do Avaí | São José
+
+Paróquia Nossa Senhora dos Navegantes e São Pedro - Serraria (São José)
+SJB02 | Nossa Senhora Rainha da Paz | Jardim Bom Viver | Biguaçu
+SJB03 | Santa Teresinha | Jardim Janaína | São José
+
+Paróquia Santa Cruz (São José)
+SJB04 | São Judas Tadeu | Alvorada | São José
+SJB05 | São Miguel e Santa Rita | Dona Adélia | São José

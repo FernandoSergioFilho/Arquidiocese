@@ -1,0 +1,15 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Florianópolis Continente (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: FCO01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 1 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia São José e Santa Rita de Cássia (Florianópolis)
+FCO01 | Nossa Senhora da Rosa Mística | Rua Pref. Gasparino Dutra | Florianópolis

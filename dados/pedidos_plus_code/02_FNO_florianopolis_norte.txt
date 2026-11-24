@@ -1,0 +1,39 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Florianópolis Norte (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: FNO01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 15 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora da Imaculada Conceição da Lagoa (Florianópolis)
+FNO01 | Nossa Senhora Aparecida | Canto da Lagoa | Florianópolis
+FNO02 | Santa Cruz | Retiro da Lagoa | Florianópolis
+FNO03 | Santa Cruz | Costa da Lagoa | Florianópolis
+FNO04 | Santa Cruz | Fortaleza da Lagoa | Florianópolis
+
+Paróquia Nossa Senhora das Necessidades (Florianópolis)
+FNO05 | Santa Cruz | Cacupé | Florianópolis
+FNO06 | Santa Luzia | Recanto dos Açores | Florianópolis
+FNO07 | São Pedro Apóstolo | Sambaqui | Florianópolis
+FNO08 | São Sebastião | Barra do Sambaqui | Florianópolis
+
+Paróquia Nossa Senhora de Guadalupe (Florianópolis)
+FNO09 | Divino Espírito Santo | Lamin | Florianópolis
+FNO10 | Santa Cruz | Vargem Grande I | Florianópolis
+
+Paróquia Sagrado Coração de Jesus (Florianópolis)
+FNO11 | Santos Arcanjos | Capivari de Cima | Florianópolis
+
+Paróquia Santíssima Trindade (Florianópolis)
+FNO12 | Santa Mônica | Santa Mônica | Florianópolis
+
+Paróquia São Francisco Xavier (Florianópolis)
+FNO13 | Nossa Senhora de Fátima | Morro do Balão | Florianópolis
+FNO14 | Nossa Senhora do Perpétuo Socorro | Lot. João G. da Costa | Florianópolis
+FNO15 | São José | Caminho da Cruz | Florianópolis

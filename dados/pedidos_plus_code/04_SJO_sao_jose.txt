@@ -1,0 +1,27 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania São José (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: SJO01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 9 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia São José (São José)
+SJO01 | Ir. de Nosso Senhor Bom Jesus dos Passos | Centro | São José
+SJO02 | Nossa Senhora dos Navegantes | Ponta de Baixo | São José
+SJO03 | Senhor do Bom Fim | Centro Histórico | São José
+
+Paróquia Sant'Ana (São José)
+SJO04 | Nossa Senhora Aparecida | Pagará Grande | São José
+SJO05 | Santa Clara e Santo Antônio | Mariquita de Dentro/Fora | São José
+SJO06 | Santa Terezinha do Menino Jesus | Vila Formosa | São José
+SJO07 | Sant’Ana | Hospital / I. P. Q. | São José
+
+Paróquia São Francisco de Assis (São José)
+SJO08 | Nossa Senhora Desatadora dos Nós | Horto Florestal | São José
+SJO09 | São João Batista | Forquilhas | São José

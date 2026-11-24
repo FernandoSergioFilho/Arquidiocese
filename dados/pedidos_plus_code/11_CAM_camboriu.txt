@@ -1,0 +1,32 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Camboriú (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: CAM01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 12 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Divino Espírito Santo (Camboriú)
+CAM01 | Cristo Ressuscitado | Jardim Paraíso | Camboriú
+CAM02 | Sagrada Família | Rio Pequeno | Camboriú
+CAM03 | Santa Paulina | João da Costa | Camboriú
+CAM04 | Santo Antônio | Asilo | Camboriú
+CAM05 | São Bento | Certa / Vila da Pedra | Camboriú
+
+Paróquia Nossa Senhora Aparecida (Balneário Camboriú)
+CAM06 | Sagrado Coração de Jesus | Morro do Boi | Balneário Camboriú
+CAM07 | Santo Amaro | Barra | Balneário Camboriú
+CAM08 | São Francisco de Assis | (Barranco) São Francisco de Assis | Camboriú
+
+Paróquia Nossa Senhora do Bom Sucesso (Camboriú)
+CAM09 | Nossa Senhora de Gudalupe | Areias | Camboriú
+CAM10 | São José de Anchieta | Areias | Camboriú
+
+Paróquia Senhor Bom Jesus (Camboriú)
+CAM11 | Santa Paulina | Jardim Bela Vista | Balneário Camboriú
+CAM12 | São Roque | Várzea do Ranchinho | Camboriú

@@ -1,0 +1,44 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Brusque (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: BRU01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 20 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora de Azambuja (Brusque)
+BRU01 | Ressurreição | Parque da Saudade | Brusque
+
+Paróquia Santa Catarina (Brusque)
+BRU02 | Nossa Senhora de Fátima | Taquaruçu | Brusque
+BRU03 | São José Operário | Rio Branco | Brusque
+BRU04 | São Pedro | Cedro Grande | Brusque
+
+Paróquia Santa Teresinha (Brusque)
+BRU05 | Nossa Senhora da Imaculada Conceição | Planalto | Brusque
+BRU06 | Nossa Senhora do Perpétuo Socorro | Limoeiro | Brusque
+BRU07 | São Francisco de Assis | Ema II | Brusque
+BRU08 | São José | Boêmia | Brusque
+BRU09 | São João Paulo II | Lot. Cyro Gevaerd | Brusque
+BRU10 | São Luís e Santa Zélia | Jardim Azaleia | Brusque
+BRU11 | São Pedro | Ribeirão Tavares | Brusque
+
+Paróquia São José (Botuverá)
+BRU12 | Santo Amaro | Areia Alta | Botuverá
+BRU13 | São Roque e São João Batista | Pedras Grandes | Botuverá
+BRU14 | São Sebastião | Barra das Areias | Botuverá
+
+Paróquia São Judas Tadeu (Brusque)
+BRU15 | Sagrada Família | 1° de Maio | Brusque
+
+Paróquia São Luís Gonzaga (Brusque)
+BRU16 | Nossa Senhora de Lourdes | Alsácia/São Pedro | Brusque
+BRU17 | Santo Antônio | Volta Grande | Brusque
+BRU18 | São Francisco de Assis | Cerâmica Reis | Brusque
+BRU19 | São José | 1º de Maio | Brusque
+BRU20 | São João Batista | Bateias | Brusque

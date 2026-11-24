@@ -1,0 +1,41 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Florianópolis Centro-Sul (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: FCS01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 17 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora da Boa Viagem (Florianópolis)
+FCS01 | Senhor Bom Jesus | Cachoeira do Rio Tavares | Florianópolis
+
+Paróquia Nossa Senhora da Lapa (Florianópolis)
+FCS02 | Nossa Senhora da Lapa | Barro Vermelho | Florianópolis
+FCS03 | São João Batista | Caieira da Barra do Sul | Florianópolis
+
+Paróquia Nossa Senhora de Lourdes e São Luiz Gonzaga (Florianópolis)
+FCS04 | São José e Nossa Senhora de Nazaré | Morro do Vinte e Cinco | Florianópolis
+FCS05 | Transfiguração Senhor Bom Jesus | Morro do Céu | Florianópolis
+
+Paróquia Nossa Senhora do Desterro e Santa Catarina (Florianópolis)
+FCS06 | Capela Nossa Senhora das Graças | H.G.C.R. | Florianópolis
+FCS07 | Capela São José | Asilo Irmão Joaquim | Florianópolis
+FCS08 | Igreja Menino Jesus de Praga | C.E.M. Jesus | Florianópolis
+FCS09 | Igreja Nossa Senhora Aparecida | Alto da Caieira | Florianópolis
+FCS10 | Igreja Nossa Senhora do Monte Serrat | Gal.Vieira da Rosa, 610 | Florianópolis
+FCS11 | Igreja Sagrado Coração de Jesus | Col. Bom Jesus/C. de Jesus | Florianópolis
+FCS12 | Igreja Santíssima Trindade | Provincialado D.P. | Florianópolis
+FCS13 | Igreja São Sebastião | Largo São Sebastião | Florianópolis
+FCS14 | Igreja do Senhor Jesus dos Passos (Irmand.) | Hospital de Caridade | Florianópolis
+
+Paróquia Nossa Senhora do Sagrado Coração (Florianópolis)
+FCS15 | Nossa Senhora Aparecida e São Cristóvão | Morro das Pedras | Florianópolis
+
+Paróquia Santa Teresinha do Menino Jesus (Florianópolis)
+FCS16 | Nossa Senhora Aparecida | Morro da “Mariquinha” | Florianópolis
+FCS17 | São Sebastião | Morro da Queimada | Florianópolis

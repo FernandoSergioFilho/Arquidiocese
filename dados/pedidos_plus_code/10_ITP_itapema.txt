@@ -1,0 +1,22 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Itapema (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: ITP01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 4 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora da Imaculada Conceição (Bombinhas)
+ITP01 | Divino Espírito Santo | Sertãozinho | Bombinhas
+
+Paróquia Sagrado Coração de Jesus (Itapema)
+ITP02 | São Francisco de Assis | Meia Praia | Itapema
+
+Paróquia Santo Antônio (Itapema)
+ITP03 | Sagrada Família | Alto São Bento | Itapema
+ITP04 | São Miguel | Estaleirinho | Itapema

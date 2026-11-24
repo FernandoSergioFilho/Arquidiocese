@@ -1,0 +1,36 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Biguaçu (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: BIG01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 18 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora dos Navegantes (Governador Celso Ramos)
+BIG01 | Oratório Divino Espírito Santo | Ganchos do Meio | Governador Celso Ramos
+BIG02 | Sant’Ana | Caieira | Governador Celso Ramos
+BIG03 | Senhor Bom Jesus | Costeira da Armação | Governador Celso Ramos
+BIG04 | São Lucas | Jordão | Governador Celso Ramos
+BIG05 | São Sebastião | Fazenda da Armação | Governador Celso Ramos
+
+Paróquia São João Batista - Biguaçu (Biguaçu)
+BIG06 | Comunidade de Jardim Carolina (nome não informado no site) | Jardim Carolina | Biguaçu
+BIG07 | Nossa Senhora Aparecida | Sorocaba de Dentro | Biguaçu
+BIG08 | São Cristóvão | Canudos | Biguaçu
+BIG09 | São José | Amâncio | Biguaçu
+BIG10 | São Mateus | São Mateus | Biguaçu
+BIG11 | São Sebastião | Fundos | Biguaçu
+
+Paróquia São João Evangelista (Biguaçu)
+BIG12 | Santa Cruz | Rússia | Biguaçu
+BIG13 | Santa Teresinha | Jardim Sueli | Biguaçu
+BIG14 | Santa Teresinha | Estiva do Inferninho | Biguaçu
+BIG15 | Sant’Ana | Prado | Biguaçu
+BIG16 | Senhor Bom Jesus | Fazenda de Dentro | Biguaçu
+BIG17 | São Cristóvão | Areias de Cima | Biguaçu
+BIG18 | São José | Amâncio | Biguaçu

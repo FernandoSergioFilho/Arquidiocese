@@ -1,0 +1,46 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Tijucas (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: TIJ01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 24 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Sant'Ana (Canelinha)
+TIJ01 | Imaculada Conceição | Moura | Canelinha
+TIJ02 | Nossa Senhora Aparecida | Papagaios | Canelinha
+TIJ03 | Nossa Senhora de Fátima | Cobre | Canelinha
+TIJ04 | São João Batista | Vila Nova - Moura | Canelinha
+
+Paróquia São João Batista (São João Batista)
+TIJ05 | Divino Espírito Santo | Carmelo | São João Batista
+TIJ06 | Nossa Senhora de Fátima | Ribanceira do Sul | São João Batista
+TIJ07 | Nossa Senhora de Guadalupe | Timbézinho | São João Batista
+TIJ08 | Santo Agostinho | Krecker | São João Batista
+TIJ09 | São Cristóvão | Centro de Fernandes | São João Batista
+
+Paróquia São Sebastião - Tijucas (Tijucas)
+TIJ10 | Espírito Santo | Lar Nossa Senhora da Paz | Tijucas
+TIJ11 | Nossa Senhora aparecida | Jardim Progresso | Tijucas
+TIJ12 | Santa Rita de Cássia | Sul do Rio | Tijucas
+TIJ13 | Santa Teresinha | Bairro Universitário | Tijucas
+TIJ14 | Senhor Bom Jesus | Porto da Itinga | Tijucas
+TIJ15 | São Brás | XV de Novembro | Tijucas
+TIJ16 | São João Batista | Centro do Itinga | Tijucas
+
+Paróquia São Virgílio (Nova Trento)
+TIJ17 | Nossa Senhora de Fátima | Espraiado de Claraíba | Nova Trento
+TIJ18 | Santo Inácio de Loyola | Alto Pitanga | Nova Trento
+TIJ19 | Santuário Nossa Senhora do Bom Socorro | Morro da Cruz | Nova Trento
+TIJ20 | São João Batista | Calvário/Bairro Trinta Réis | Nova Trento
+TIJ21 | São Valentin | São Valentin | Nova Trento
+
+Paróquia Senhor Bom Jesus (Major Gercino)
+TIJ22 | Madre Paulina | Canta Galo | Major Gercino
+TIJ23 | Nossa Senhora das Graças | Rio do Alho | Major Gercino
+TIJ24 | São Sebastião | Boa Esperança | Major Gercino

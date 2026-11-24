@@ -1,0 +1,54 @@
+Preciso localizar no Google Maps estas igrejas e capelas católicas da Forania Santo Amaro (Arquidiocese de Florianópolis, SC).
+
+Para CADA linha abaixo, procure a igreja no Google Maps (nome + localidade + município) e me devolva UMA linha neste formato exato:
+CÓDIGO | Plus Code completo do Google Maps (ex.: 5GQ4+XW Palhoça) | endereço que aparece no Google Maps
+
+Regras:
+- Mantenha o CÓDIGO de cada linha (ex.: SAM01).
+- O Plus Code fica na ficha do lugar no Google Maps (o código com "+", ao lado do ícone de localização).
+- Se não encontrar a igreja no Google Maps, escreva: CÓDIGO | NÃO ENCONTRADA
+- Não invente nem use o endereço de outra igreja ou da matriz. Prefiro "NÃO ENCONTRADA" a um palpite.
+- Responda só com a lista, uma linha por igreja, todas as 32 linhas.
+
+Lista (CÓDIGO | igreja | localidade | município):
+Paróquia Nossa Senhora da Imaculada Conceição (Angelina) (Angelina)
+SAM01 | Nossa Senhora da I. Conceição | Centro | Angelina
+SAM02 | Imaculado Coração de Maria | Rancho Queimado | Angelina
+SAM03 | Nossa Senhora Aparecida | Rio Bonito | Angelina
+SAM04 | Nossa Senhora de Fátima | Invernadinha | Angelina
+SAM05 | Nossa Senhora dos Anjos | Mato Francês | Angelina
+SAM06 | Santa Cruz | Rio São João | Angelina
+SAM07 | Sant’Ana | Rio Fortuna | Angelina
+SAM08 | São Bonifácio | Taquaras | Angelina
+
+Paróquia Sagrado Coração de Jesus (Leoberto Leal)
+SAM09 | São Floriano | Boiteuxburgo | Leoberto Leal
+SAM10 | São Miguel | Diamante | Leoberto Leal
+
+Paróquia Santo Amaro (Santo Amaro da Imperatriz)
+SAM11 | Cristo Ressuscitado | Ressurreição | Santo Amaro da Imperatriz
+SAM12 | Nossa Senhora de Fátima | Taquara | Santo Amaro da Imperatriz
+SAM13 | Nossa Senhora de Lourdes | Gruta do Velacho | Santo Amaro da Imperatriz
+SAM14 | Nossa Senhora de Lourdes | Lourdes | Santo Amaro da Imperatriz
+SAM15 | Santa Cruz | Santa Cruz da Figueira | Santo Amaro da Imperatriz
+SAM16 | Santa Isabel | Santa Isabel | Santo Amaro da Imperatriz
+SAM17 | Santa Teresa D’Ávila | Teresópolis | Santo Amaro da Imperatriz
+SAM18 | Sant’Ana | Sertão | Santo Amaro da Imperatriz
+SAM19 | Senhor Bom Jesus | Bom Jesus | Santo Amaro da Imperatriz
+SAM20 | São João Batista | Braço São João | Santo Amaro da Imperatriz
+SAM21 | São Pedro | Calemba | Santo Amaro da Imperatriz
+
+Paróquia São Bonifácio (São Bonifácio)
+SAM22 | Natividade | Santa Maria | São Bonifácio
+SAM23 | Santa Brígida | Rio Novo | São Bonifácio
+SAM24 | Santa Teresinha do Menino Jesus | Rio Poncho | São Bonifácio
+SAM25 | São Pedro e São Paulo | Rio Salto | São Bonifácio
+
+Paróquia São Sebastião (Anitápolis)
+SAM26 | Divino Espírito Santo | Rio Cachimbo | Anitápolis
+SAM27 | Nossa Senhora Aparecida | Vila Antônio David | Anitápolis
+SAM28 | Nossa Senhora das Graças | Rio do Ouro | Anitápolis
+SAM29 | Santa Bárbara | Rio da Prata | Anitápolis
+SAM30 | Santa Paulina | Barra Gaspar | Anitápolis
+SAM31 | Santa Teresinha | Povoamento Igreja | Anitápolis
+SAM32 | São Pedro e São Paulo | São Paulo dos Pinheiros | Anitápolis
